@@ -1,32 +1,33 @@
 """
-Clasifica por nivel CEFR (A1-C2) cada palabra del canal 0 (alumno) de una
-transcripción Deepgram, desambiguando el SENTIDO de la palabra según su contexto.
+Contextual CEFR classifier (A1-C2) for each word on channel 0 (student) of a
+Deepgram transcription JSON, disambiguating word SENSE by context.
 
-Enfoque (inspirado en Kikuchi et al. 2026, arXiv:2510.18466):
-1. Para cada token se toma una ventana de +-N palabras como contexto.
-2. Se recuperan los sentidos (synsets de WordNet) candidatos para la palabra.
-3. Se elige el synset cuya glosa es más similar al contexto (cosine similarity
-   con embeddings de sentence-transformers/all-MiniLM-L6-v2).
-4. Se mira el nivel CEFR del sense_key correspondiente en la CEFR-annotated
-   WordNet publicada en Zenodo (10.5281/zenodo.17395388).
+Approach (inspired by Kikuchi et al. 2026, arXiv:2510.18466):
+1. For each token, take a +-N word context window.
+2. Retrieve candidate senses (WordNet synsets) for the word.
+3. Pick the synset whose gloss is most similar to the context (cosine similarity
+   with sentence-transformers/all-MiniLM-L6-v2 embeddings).
+4. Look up the CEFR level of the corresponding sense_key in the CEFR-annotated
+   WordNet published on Zenodo (10.5281/zenodo.17395388).
 
-Se analizan todos los tokens del canal del alumno. Palabras sin synset en
-WordNet (interjecciones, contracciones, números) se resuelven por whitelist
-o fallback a cefrpy; los nombres propios se protegen con un umbral mínimo
-de similitud para no asignarles niveles altos espurios.
+All tokens from the student channel are analyzed. Words without a useful WordNet
+synset (interjections, contractions, digits) are resolved via whitelists or
+cefrpy fallback; proper nouns are protected with a minimum similarity threshold
+to avoid spurious high-level assignments.
 
-Preparación única:
+One-time setup:
     pip install sentence-transformers nltk numpy cefrpy
     python -m nltk.downloader wordnet omw-1.4
-    # Descargar y descomprimir:
+    # Download and extract:
     #   https://zenodo.org/records/17395388/files/CEFR-Annotated%20WordNet.zip
-    # en resources/cefr_wordnet/
+    # into resources/cefr_wordnet/
 
-Uso:   python analyze_cefr_contextual.py <input.json> [--window 5]
-Input: JSON Deepgram con results.channels[0].alternatives[0].words[].
-Output: output/<Student-X>_<lesson-Y>_<NN>_contextual.json con
+Usage:  python analyze_cefr_contextual.py <input.json> [--window 5]
+Input:  Deepgram JSON with results.channels[0].alternatives[0].words[].
+Output: output/<Student-X>_<lesson-Y>_<NN>_contextual.json with
         - words[]: {start, end, word, confidence, cefr_level}
-        - stats:   total_words, unique_words, cefr_distribution, unknown_words
+        - stats:   total_words, unique_words, cefr_distribution, unknown_words,
+                   lexical_diversity, synonym_groups, word_families
 """
 
 import argparse
@@ -41,7 +42,7 @@ from nltk.corpus import wordnet as wn
 from sentence_transformers import SentenceTransformer
 
 
-MIN_WSD_SIMILARITY = 0.15  # umbral mínimo de similitud coseno para aceptar un synset
+MIN_WSD_SIMILARITY = 0.15  # minimum cosine similarity to accept a synset
 
 
 LEVELS = ["A1", "A2", "B1", "B2", "C1", "C2", "UNKNOWN"]
@@ -60,8 +61,6 @@ A1_WHITELIST = frozenset({
     "let's",
 })
 
-A2_WHITELIST = frozenset({"smartphone"})
-
 DEFAULT_WORDNET_TSV = Path("resources/cefr_wordnet/data/wordnet_sensekey_cefr.tsv")
 
 
@@ -74,7 +73,7 @@ def _variants(word):
 
 
 def load_sensekey_cefr(path: Path) -> dict:
-    """Carga el mapping sense_key -> 'A1'..'C2' desde el TSV de Zenodo."""
+    """Load the sense_key -> 'A1'..'C2' mapping from the Zenodo TSV."""
     mapping = {}
     with path.open(encoding="utf-8") as f:
         for line in f:
@@ -85,10 +84,10 @@ def load_sensekey_cefr(path: Path) -> dict:
 
 
 def synset_cefr_level(synset, sensekey_cefr: dict, target_word: str):
-    """Devuelve el nivel CEFR del lemma del synset que coincida con target_word,
-    o de cualquier lemma si no hay coincidencia exacta. None si no hay nivel."""
+    """Return the CEFR level for the synset lemma matching target_word,
+    or any lemma if no exact match. None if no level found."""
     target = target_word.lower()
-    # Preferimos el lemma que coincide con la palabra tal cual fue transcrita.
+    # Prefer the lemma that matches the transcribed word exactly
     matched_lemmas = [l for l in synset.lemmas() if l.name().lower().replace("_", " ") == target]
     for l in matched_lemmas + [l for l in synset.lemmas() if l not in matched_lemmas]:
         level = sensekey_cefr.get(l.key())
@@ -98,8 +97,8 @@ def synset_cefr_level(synset, sensekey_cefr: dict, target_word: str):
 
 
 def lemma_fallback_level(word: str, sensekey_cefr: dict, pos=None):
-    """Último recurso: toma la menor CEFR entre todos los sentidos del lemma.
-    Útil cuando la WSD falla o cuando ningún sense_key del synset elegido tiene nivel."""
+    """Last resort: return the lowest CEFR level across all senses of the lemma.
+    Used when WSD fails or the chosen synset's sense_key has no level."""
     best = None
     for synset in wn.synsets(word, pos=pos) if pos else wn.synsets(word):
         for lemma in synset.lemmas():
@@ -111,12 +110,140 @@ def lemma_fallback_level(word: str, sensekey_cefr: dict, pos=None):
     return best
 
 
+def _lemmatize(word: str) -> str:
+    """Lemmatize a word by trying all WordNet POS tags."""
+    for pos in (wn.VERB, wn.NOUN, wn.ADJ, wn.ADV):
+        lemma = wn.morphy(word, pos)
+        if lemma and lemma != word:
+            return lemma
+    return word
+
+
+def compute_synonym_groups(words_out: list) -> list:
+    """Group words sharing the same synset that were expressed with ≥2 distinct lemmas.
+    Filters out inflections of the same lemma (is/are, friend/friends)."""
+    from collections import defaultdict
+    synset_words: dict[str, dict] = defaultdict(lambda: {"words": set(), "lemmas": set(), "levels": set()})
+    for w in words_out:
+        src = w.get("source", "")
+        if src.startswith("wsd:"):
+            syn_name = src[4:]
+            word_lower = w["word"].lower()
+            synset_words[syn_name]["words"].add(word_lower)
+            synset_words[syn_name]["lemmas"].add(_lemmatize(word_lower))
+            synset_words[syn_name]["levels"].add(w["cefr_level"])
+
+    groups = []
+    for syn_name, info in sorted(synset_words.items()):
+        if len(info["lemmas"]) >= 2:
+            try:
+                gloss = wn.synset(syn_name).definition()
+            except Exception:
+                gloss = ""
+            groups.append({
+                "synset": syn_name,
+                "gloss": gloss,
+                "words_used": sorted(info["words"]),
+                "cefr_levels": sorted(info["levels"], key=lambda l: LEVELS.index(l)),
+            })
+    return groups
+
+
+def compute_word_families(words_out: list) -> list:
+    """Detect morphological word families using WordNet derivationally_related_forms()."""
+    unique_words = {w["word"].lower() for w in words_out}
+    word_levels = {}
+    for w in words_out:
+        wl = w["word"].lower()
+        if wl not in word_levels:
+            word_levels[wl] = w["cefr_level"]
+
+    # Union-Find to cluster derivationally related words
+    parent: dict[str, str] = {}
+
+    def find(x):
+        while parent.get(x, x) != x:
+            parent[x] = parent.get(parent[x], parent[x])
+            x = parent[x]
+        return x
+
+    def union(a, b):
+        ra, rb = find(a), find(b)
+        if ra != rb:
+            parent[ra] = rb
+
+    for word in unique_words:
+        parent[word] = word
+        for v in _variants(word):
+            for synset in wn.synsets(v):
+                # Only check lemmas matching the student's word
+                for lemma in synset.lemmas():
+                    if lemma.name().lower().replace("_", " ") != v:
+                        continue
+                    for related in lemma.derivationally_related_forms():
+                        related_word = related.name().lower().replace("_", " ")
+                        if related_word in unique_words and related_word != word:
+                            parent.setdefault(related_word, related_word)
+                            union(word, related_word)
+
+    # Group by connected component
+    from collections import defaultdict
+    clusters: dict[str, set] = defaultdict(set)
+    for word in unique_words:
+        if word in parent:
+            clusters[find(word)].add(word)
+
+    families = []
+    for members in clusters.values():
+        if len(members) >= 2:
+            sorted_members = sorted(members)
+            levels = sorted(
+                {word_levels[m] for m in members if m in word_levels},
+                key=lambda l: LEVELS.index(l),
+            )
+            families.append({
+                "family_root": sorted_members[0],
+                "members_used": sorted_members,
+                "cefr_levels": levels,
+            })
+    return sorted(families, key=lambda f: f["family_root"])
+
+
+def compute_lexical_diversity(words_out: list, synonym_groups: list) -> dict:
+    """Compute lexical diversity metrics (TTR, synonym variation, uniqueness by level)."""
+    total = len(words_out)
+    unique = len({w["word"].lower() for w in words_out})
+    ttr = round(unique / total, 4) if total else 0.0
+
+    # Unique-word ratio per CEFR level
+    from collections import Counter, defaultdict
+    level_total: Counter = Counter()
+    level_unique: dict[str, set] = defaultdict(set)
+    for w in words_out:
+        lvl = w["cefr_level"]
+        level_total[lvl] += 1
+        level_unique[lvl].add(w["word"].lower())
+
+    unique_ratio_by_level = {}
+    for lvl in LEVELS:
+        if level_total[lvl] > 0:
+            unique_ratio_by_level[lvl] = round(
+                len(level_unique[lvl]) / level_total[lvl], 4
+            )
+
+    return {
+        "ttr": ttr,
+        "synonym_variation_count": len(synonym_groups),
+        "unique_ratio_by_level": unique_ratio_by_level,
+    }
+
+
 def build_classifier(sensekey_cefr: dict, window: int, model_name: str = "all-MiniLM-L6-v2"):
-    print(f"[info] Cargando modelo {model_name}...", file=sys.stderr)
+    print(f"[info] Loading model {model_name}...", file=sys.stderr)
     model = SentenceTransformer(model_name)
     cefrpy_analyzer = CEFRAnalyzer()
 
-    # Cache de embeddings de glosa por synset.name()
+    # Gloss embedding cache keyed by synset.name()
     gloss_cache: dict[str, np.ndarray] = {}
 
     def embed(texts):
@@ -125,16 +252,14 @@ def build_classifier(sensekey_cefr: dict, window: int, model_name: str = "all-Mi
     def classify_token(tokens: list[str], i: int):
         word = tokens[i].lower()
 
-        # 1. Whitelist + dígitos: tokens sin synset útil en WordNet.
+        # 1. Whitelist + digits: tokens without a useful WordNet synset
         if word.isdigit():
             return "A1", "digit"
         for v in _variants(word):
             if v in A1_WHITELIST:
                 return "A1", "whitelist"
-            if v in A2_WHITELIST:
-                return "A2", "whitelist"
 
-        # 2. Buscar synsets candidatos (todas las POS) con variantes.
+        # 2. Find candidate synsets (all POS) using word variants
         candidates = []
         used_variant = word
         for v in _variants(word):
@@ -150,12 +275,12 @@ def build_classifier(sensekey_cefr: dict, window: int, model_name: str = "all-Mi
                     return str(lv), "cefrpy"
             return "UNKNOWN", "no_synset"
 
-        # 3. Construir contexto con ventana +-N.
+        # 3. Build context from +-N token window
         lo = max(0, i - window)
         hi = min(len(tokens), i + window + 1)
         context = " ".join(tokens[lo:hi])
 
-        # 3. Embed contexto + glosas y elegir el synset con mayor similitud.
+        # 3b. Embed context + glosses and pick the synset with highest similarity
         ctx_emb = embed([context])[0]
         missing = [s.name() for s in candidates if s.name() not in gloss_cache]
         if missing:
@@ -163,11 +288,11 @@ def build_classifier(sensekey_cefr: dict, window: int, model_name: str = "all-Mi
             for n, e in zip(missing, new_embs):
                 gloss_cache[n] = e
         gloss_embs = np.stack([gloss_cache[s.name()] for s in candidates])
-        sims = gloss_embs @ ctx_emb  # coseno (ya normalizados)
+        sims = gloss_embs @ ctx_emb  # cosine (already normalized)
         order = np.argsort(-sims)
 
-        # 4. Si la mejor similitud supera el umbral, recorrer el ranking
-        #    buscando el primer synset con CEFR conocido.
+        # 4. If best similarity exceeds threshold, walk the ranking
+        #    looking for the first synset with a known CEFR level
         if sims[order[0]] >= MIN_WSD_SIMILARITY:
             for idx in order:
                 if sims[idx] < MIN_WSD_SIMILARITY:
@@ -176,8 +301,8 @@ def build_classifier(sensekey_cefr: dict, window: int, model_name: str = "all-Mi
                 if level is not None:
                     return level, f"wsd:{candidates[idx].name()}"
 
-        # 5. Fallbacks: lemma_fallback (cualquier sentido con nivel), luego
-        #    cefrpy (word-level, no contextual), luego UNKNOWN.
+        # 5. Fallbacks: lemma_fallback (any sense with a level), then
+        #    cefrpy (word-level, non-contextual), then UNKNOWN
         level = lemma_fallback_level(used_variant, sensekey_cefr)
         if level is not None:
             return level, "lemma_fallback"
@@ -205,13 +330,14 @@ def analyze(input_path: Path, window: int, wordnet_tsv: Path) -> dict:
         token = tokens[i]
         if not token:
             continue
-        level, _ = classify_token(tokens, i)
+        level, source = classify_token(tokens, i)
         words_out.append({
             "start": w["start"],
             "end": w["end"],
             "word": token,
             "confidence": w["confidence"],
             "cefr_level": level,
+            "source": source,
         })
 
     counts = Counter(item["cefr_level"] for item in words_out)
@@ -225,13 +351,25 @@ def analyze(input_path: Path, window: int, wordnet_tsv: Path) -> dict:
     }
     unknown_types = sorted({it["word"] for it in words_out if it["cefr_level"] == "UNKNOWN"})
 
+    synonym_groups = compute_synonym_groups(words_out)
+    word_families = compute_word_families(words_out)
+    lexical_diversity = compute_lexical_diversity(words_out, synonym_groups)
+
     stats = {
         "total_words": total,
         "unique_words": len({it["word"] for it in words_out}),
         "cefr_distribution": distribution,
         "unknown_words": unknown_types,
+        "lexical_diversity": lexical_diversity,
+        "synonym_groups": synonym_groups,
+        "word_families": word_families,
     }
-    return {"words": words_out, "stats": stats}
+
+    # Strip internal "source" field from public output
+    words_public = [
+        {k: v for k, v in w.items() if k != "source"} for w in words_out
+    ]
+    return {"words": words_public, "stats": stats}
 
 
 def main():
@@ -262,6 +400,16 @@ def main():
     print(f"  total_words={result['stats']['total_words']}  unique={result['stats']['unique_words']}")
     for lvl, d in result["stats"]["cefr_distribution"].items():
         print(f"  {lvl}: {d['count']} ({d['percent']}%)")
+
+    ld = result["stats"]["lexical_diversity"]
+    print(f"\n  Lexical diversity (TTR): {ld['ttr']}")
+    print(f"  Synonym variation count: {ld['synonym_variation_count']}")
+    for g in result["stats"]["synonym_groups"]:
+        print(f"    synonym group: {g['words_used']} ({g['synset']}) -> {g['cefr_levels']}")
+    if result["stats"]["word_families"]:
+        print(f"  Word families found: {len(result['stats']['word_families'])}")
+        for f in result["stats"]["word_families"]:
+            print(f"    family: {f['members_used']} -> {f['cefr_levels']}")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,30 @@
+NOTICE
+======
+Project: CEFR‑Annotated WordNet & SemCor‑CEFR Resources
+Copyright © 2025 Masato Kikuchi, Masatsugu Ono, Toshioki Soga, Tetsu Tanabe, and Tadachika Ozono.
+All rights reserved where applicable. See license details below.
+
+This product includes data from WordNet 3.0 and SemCor 3.0, created by Princeton University.
+WordNet 3.0 Copyright 2006 by Princeton University. All rights reserved.
+See LICENSES/WORDNET-3.0-LICENSE.txt and LICENSES/SEMCOR-3.0-LICENSE.txt for full terms.
+
+Our original CEFR annotations, splits, and metadata are released under
+Creative Commons Attribution 4.0 International (CC BY 4.0).
+See LICENSES/CC-BY-4.0.txt.
+
+No EVP content (entries, examples, glosses, or metadata) is redistributed in this release.
+
+License Summary (Which license applies to which files)
+------------------------------------------------------
+• wordnet_sensekey_cefr.tsv  → CC BY 4.0 (labels) + Princeton WordNet 3.0 license (sense keys)
+• semcor_instance_cefr.tsv   → CC BY 4.0 (labels) + Princeton WordNet/SemCor license (instance IDs)
+• train.jsonl, valid.jsonl   → CC BY 4.0 (labels/splits) + Princeton WordNet/SemCor license (SemCor text)
+
+Trademark Notice
+----------------
+“WordNet” is a registered trademark of Princeton University. No endorsement by Princeton University is
+implied. Refer to the Princeton license texts for details.
+
+Contact
+-------
+For questions about this release, contact the authors via the e-mail addresses listed in the paper.

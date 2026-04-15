@@ -1,0 +1,16 @@
+{
+  "group": "HYBRID_PATTERN",
+  "detection_method": "spacy.matcher.Matcher + Regex (multi-modal, context-sensitive)",
+  "description": "Residual bucket for rules that require combined spaCy token matching and regular expressions, particularly pragmatic/USE variations that cannot be captured by a single detection mechanism. Currently empty; populated as complex rules are added.",
+  "total_structures": 0,
+  "categories": {},
+  "level_distribution": {
+    "A1": 0,
+    "A2": 0,
+    "B1": 0,
+    "B2": 0,
+    "C1": 0,
+    "C2": 0
+  },
+  "structures": []
+}

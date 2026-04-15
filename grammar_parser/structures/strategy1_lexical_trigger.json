@@ -2,21 +2,21 @@
   "group": "LEXICAL_TRIGGER",
   "detection_method": "spacy.matcher.Matcher (keywords/lemmas) + Regex for complex conjunctions",
   "description": "Rules detectable by specific function words, modal keywords, negation markers, discourse connectives, conjunctions, and prepositions. Uses keyword/lemma lookup and keyword-anchored token patterns.",
-  "total_structures": 225,
+  "total_structures": 164,
   "categories": {
     "MODALITY": 153,
-    "NEGATION": 31,
-    "DISCOURSE MARKERS": 11,
-    "CONJUNCTIONS": 21,
-    "PREPOSITIONS": 9
+    "NEGATION": 6,
+    "DISCOURSE MARKERS": 2,
+    "PREPOSITIONS": 1,
+    "CONJUNCTIONS": 2
   },
   "level_distribution": {
-    "A1": 20,
-    "A2": 32,
-    "B1": 62,
-    "B2": 50,
-    "C1": 37,
-    "C2": 24
+    "A1": 15,
+    "A2": 20,
+    "B1": 45,
+    "B2": 41,
+    "C1": 26,
+    "C2": 17
   },
   "structures": [
     {
@@ -108,93 +108,6 @@
       ],
       "examples": [
         "I'd like to invite you to dinner. (Farsi, A1 BREAKTHROUGH, Pass, 2008)\n\nI would like to eat some Spanish food. (Italian, A1 BREAKTHROUGH, Pass, 2006)"
-      ]
-    },
-    {
-      "id": "1741163716067x101148462288360720",
-      "category": "NEGATION",
-      "guideword": "FORM: AUXILIARY VERB 'DO', PRESENT",
-      "levels": [
-        "A1"
-      ],
-      "lowest_level": "A1",
-      "keywords": [],
-      "spacy_patterns": [
-        [
-          {
-            "LOWER": {
-              "IN": [
-                "not",
-                "never",
-                "no",
-                "neither",
-                "nobody",
-                "nothing"
-              ]
-            }
-          }
-        ]
-      ],
-      "examples": [
-        "I don't have a dining room, so we eat in the living room. (A1 BREAKTHROUGH; 2009; Romanian; Pass)\n\nWe don't like other lessons, for example: French language. (A1 BREAKTHROUGH; 2007; Polish; Pass)"
-      ]
-    },
-    {
-      "id": "1741163716067x824562184770361200",
-      "category": "NEGATION",
-      "guideword": "FORM: MAIN VERB 'BE'",
-      "levels": [
-        "A1"
-      ],
-      "lowest_level": "A1",
-      "keywords": [],
-      "spacy_patterns": [
-        [
-          {
-            "LOWER": {
-              "IN": [
-                "not",
-                "never",
-                "no",
-                "neither",
-                "nobody",
-                "nothing"
-              ]
-            }
-          }
-        ]
-      ],
-      "examples": [
-        "My college is not very big. (A1 BREAKTHROUGH; 2007; Polish; Pass)\n\nI know you are not well. (A1 BREAKTHROUGH; 2009; French; Pass)\n\nI'm not a good swimmer. (A1 BREAKTHROUGH; 2011; Romanian; Pass)\n\nThis"
-      ]
-    },
-    {
-      "id": "1741163716068x909588472060841300",
-      "category": "NEGATION",
-      "guideword": "FORM: MODAL VERB 'CAN'",
-      "levels": [
-        "A1"
-      ],
-      "lowest_level": "A1",
-      "keywords": [],
-      "spacy_patterns": [
-        [
-          {
-            "LOWER": {
-              "IN": [
-                "not",
-                "never",
-                "no",
-                "neither",
-                "nobody",
-                "nothing"
-              ]
-            }
-          }
-        ]
-      ],
-      "examples": [
-        "In winter, we can't go visiting because it is too cold. (A1 BREAKTHROUGH; 2011; Nepali; Pass)\n\nI can't find my CD. (A1 BREAKTHROUGH; 2008; Romanian; Pass)"
       ]
     },
     {
@@ -598,66 +511,6 @@
       ]
     },
     {
-      "id": "1741163715814x164578011203941220",
-      "category": "DISCOURSE MARKERS",
-      "guideword": "FORM/USE: 'AS YOU KNOW', ORGANISING, MARKING SHARED KNOWLEDGE",
-      "levels": [
-        "A2"
-      ],
-      "lowest_level": "A2",
-      "keywords": [],
-      "spacy_patterns": [
-        [
-          {
-            "LOWER": "as"
-          },
-          {
-            "LOWER": "you"
-          },
-          {
-            "LOWER": "know"
-          }
-        ]
-      ],
-      "examples": [
-        "I can't come to your wedding because, as you know, I live in England and on Thursday 18th July I'm going to take the FCE exam. (A2 WAYSTAGE; 2007; Polish; Pass)\n\nAs you know, my parents are leaving ho"
-      ]
-    },
-    {
-      "id": "1741163715815x672882522886991900",
-      "category": "DISCOURSE MARKERS",
-      "guideword": "FORM/USE: 'SO', SUMMARISING, INFORMAL",
-      "levels": [
-        "A2"
-      ],
-      "lowest_level": "A2",
-      "keywords": [
-        "basically",
-        "then",
-        "actually",
-        "so",
-        "well"
-      ],
-      "spacy_patterns": [
-        [
-          {
-            "LOWER": {
-              "IN": [
-                "actually",
-                "basically",
-                "well",
-                "so",
-                "then"
-              ]
-            }
-          }
-        ]
-      ],
-      "examples": [
-        "So, what do you think? (Brazil; A2 WAYSTAGE; 2009; Portuguese; Pass)\n\n[talking about not being able to make it to a party] I have got an appointment with my dentist.  So, I'm really sorry about that a"
-      ]
-    },
-    {
       "id": "1741163710609x441961301901162560",
       "category": "MODALITY",
       "guideword": "FORM/USE: 'WILL BE ABLE TO' ",
@@ -813,35 +666,6 @@
       ]
     },
     {
-      "id": "1741163716068x445742738976088800",
-      "category": "NEGATION",
-      "guideword": "FORM: 'DO', IMPERATIVES",
-      "levels": [
-        "A2"
-      ],
-      "lowest_level": "A2",
-      "keywords": [],
-      "spacy_patterns": [
-        [
-          {
-            "LOWER": {
-              "IN": [
-                "not",
-                "never",
-                "no",
-                "neither",
-                "nobody",
-                "nothing"
-              ]
-            }
-          }
-        ]
-      ],
-      "examples": [
-        "Don't forget your electric guitar. (France; A2 WAYSTAGE; 2009; French; Pass)\n\nDon't be late. (India; A2 WAYSTAGE; 2009; Spanish - Other; )"
-      ]
-    },
-    {
       "id": "1741163710844x422781473749080900",
       "category": "MODALITY",
       "guideword": "FORM: AFFIRMATIVE ",
@@ -884,64 +708,6 @@
       ]
     },
     {
-      "id": "1741163716068x977297843398490900",
-      "category": "NEGATION",
-      "guideword": "FORM: AUXILIARY VERB 'DO', PAST",
-      "levels": [
-        "A2"
-      ],
-      "lowest_level": "A2",
-      "keywords": [],
-      "spacy_patterns": [
-        [
-          {
-            "LOWER": {
-              "IN": [
-                "not",
-                "never",
-                "no",
-                "neither",
-                "nobody",
-                "nothing"
-              ]
-            }
-          }
-        ]
-      ],
-      "examples": [
-        "It was very sad that you didn't come to my birthday party but it's ok. (India; A2 WAYSTAGE; 2004; Hindi; Pass)\n\nI didn't spend a lot of money: only £143. (Italy; A2 WAYSTAGE; 2008; Italian; Pass)"
-      ]
-    },
-    {
-      "id": "1741163716068x574314163168649300",
-      "category": "NEGATION",
-      "guideword": "FORM: AUXILIARY VERBS 'BE', 'HAVE', PRESENT",
-      "levels": [
-        "A2"
-      ],
-      "lowest_level": "A2",
-      "keywords": [],
-      "spacy_patterns": [
-        [
-          {
-            "LOWER": {
-              "IN": [
-                "not",
-                "never",
-                "no",
-                "neither",
-                "nobody",
-                "nothing"
-              ]
-            }
-          }
-        ]
-      ],
-      "examples": [
-        "The gas is not working. (A2 WAYSTAGE; 2009; Gujarati; Pass)\n\nThe window is broken and is not closing. (A2 WAYSTAGE; 2010; Portuguese; Pass)\n\nNow, I haven't got any money, but I am really happy! (Italy"
-      ]
-    },
-    {
       "id": "1741163711535x514214856539001000",
       "category": "MODALITY",
       "guideword": "FORM: CLAUSE POSITION",
@@ -981,93 +747,6 @@
       ],
       "examples": [
         "I think I left my phone there, maybe in your kitchen. (Italy; A2 WAYSTAGE; 2005; Italian; Pass)\n\nMaybe we could visit that park you told me about or play at your house. (Mexico; A2 WAYSTAGE; 2003; Spa"
-      ]
-    },
-    {
-      "id": "1741163716069x747151699334092500",
-      "category": "NEGATION",
-      "guideword": "FORM: DETERMINERS 'ANY', 'MUCH', 'MANY'",
-      "levels": [
-        "A2"
-      ],
-      "lowest_level": "A2",
-      "keywords": [],
-      "spacy_patterns": [
-        [
-          {
-            "LOWER": {
-              "IN": [
-                "not",
-                "never",
-                "no",
-                "neither",
-                "nobody",
-                "nothing"
-              ]
-            }
-          }
-        ]
-      ],
-      "examples": [
-        "I bought them because I didn't have any shirts or hats. (Portugal; A2 WAYSTAGE; 2008; Portuguese; Pass)\n\nI have only spent £25 because I haven't much money. (Spain; A2 WAYSTAGE; 2008; Spanish - Europe"
-      ]
-    },
-    {
-      "id": "1741163716069x752024616613977200",
-      "category": "NEGATION",
-      "guideword": "FORM: DETERMINERS 'NO'",
-      "levels": [
-        "A2"
-      ],
-      "lowest_level": "A2",
-      "keywords": [],
-      "spacy_patterns": [
-        [
-          {
-            "LOWER": {
-              "IN": [
-                "not",
-                "never",
-                "no",
-                "neither",
-                "nobody",
-                "nothing"
-              ]
-            }
-          }
-        ]
-      ],
-      "examples": [
-        "I bought these clothes because I need them for my new job, but now I have no money because they cost £250. (Spain; A2 WAYSTAGE; 2008; Spanish - European; Pass)\n\nI had no clothes to wear at John's part"
-      ]
-    },
-    {
-      "id": "1741163716068x372734050861656100",
-      "category": "NEGATION",
-      "guideword": "FORM: MODAL VERBS",
-      "levels": [
-        "A2"
-      ],
-      "lowest_level": "A2",
-      "keywords": [],
-      "spacy_patterns": [
-        [
-          {
-            "LOWER": {
-              "IN": [
-                "not",
-                "never",
-                "no",
-                "neither",
-                "nobody",
-                "nothing"
-              ]
-            }
-          }
-        ]
-      ],
-      "examples": [
-        "I'm sorry I can't come to your wedding because I am very sick. (A2 WAYSTAGE; 2007; French; Pass)\n\nSorry but I won't be in town on Wednesday 17th. (A2 WAYSTAGE; 2007; Polish; Pass)\n\nYou shouldn't wear "
       ]
     },
     {
@@ -1118,77 +797,6 @@
         "You don't have to bring many things with you. (Greek, A2 WAYSTAGE, Pass, 2006)\n\nAbout the transport, you do not have to worry as my daddy can drop us at the sports centre. (Malay, A2 WAYSTAGE, Pass, 2",
         "I knew I may not meet him again. (Thailand; B1 THRESHOLD; 2008; Thai; Pass)\n\nI realise that may not be the best way of resolving your problem. (Poland; B1 THRESHOLD; 2008; Polish; Pass) \n\nThey may not",
         "I like to wear a shirt and pants. It might not be very fashionable, it might look simple, but that's the way I like it. (Thai, B1 THRESHOLD, Pass, 2006)\n\nI think that people watch too much TV these da"
-      ]
-    },
-    {
-      "id": "1741163716068x228640925138144930",
-      "category": "NEGATION",
-      "guideword": "FORM: PRONOUNS ",
-      "levels": [
-        "A2"
-      ],
-      "lowest_level": "A2",
-      "keywords": [
-        "anyone",
-        "none",
-        "anybody",
-        "anything",
-        "nowhere"
-      ],
-      "spacy_patterns": [
-        [
-          {
-            "LOWER": {
-              "IN": [
-                "anybody",
-                "anyone",
-                "anything",
-                "nowhere",
-                "none"
-              ]
-            }
-          }
-        ]
-      ],
-      "examples": [
-        "I bought a shirt, because I haven't got any. (Spain; A2 WAYSTAGE; 2008; Spanish - European; Pass)\n\nAs regards close friends, I don't have many. (Argentina; B1 THRESHOLD; 2009; Spanish - Latin American"
-      ]
-    },
-    {
-      "id": "1741163716069x352116208624451400",
-      "category": "NEGATION",
-      "guideword": "FORM: QUESTIONS",
-      "levels": [
-        "C2",
-        "B1",
-        "C1",
-        "A2",
-        "B2"
-      ],
-      "lowest_level": "A2",
-      "keywords": [],
-      "spacy_patterns": [
-        [
-          {
-            "LOWER": {
-              "IN": [
-                "not",
-                "never",
-                "no",
-                "neither",
-                "nobody",
-                "nothing"
-              ]
-            }
-          }
-        ]
-      ],
-      "examples": [
-        "Can't you go with your parents some time and with your friends later? (Spain; B1 THRESHOLD; 2008; Spanish - European; Pass)\n\nDon't you think it's fun? (Uruguay; B1 THRESHOLD; 2003; Pass)\n\nAren't you e",
-        "What do you have to wear? (Thai, A2 WAYSTAGE, Pass, 2006)\n\nWhat do we have to bring? (Basque, A2 WAYSTAGE, Pass, 2006)\n\nDo you have to wear a skirt? (Spanish - Latin American, A2 WAYSTAGE, Pass, 2008)",
-        "May I give you a short presentation on 17th December? (China; B1 THRESHOLD; 2002; Chinese; Pass)\n\nMay I ask you about my accommodation? (Germany; B1 THRESHOLD; 2005; German; Pass)\n\nMay I ask you if ou",
-        "Is it possible to use the prize next year or must I cancel my trip to India? (Swedish, B2 VANTAGE)\n\nFinally, how much money must I bring with me? (French, B2 VANTAGE)",
-        "Need you ask? (Greece; C2 MASTERY; 2002; Greek; Pass)\n\nLastly I would appreciate , as I am sure others would too, if the premises were cleaner. Need I say more? (India; 2005; English;)\n"
       ]
     },
     {
@@ -1770,40 +1378,6 @@
       ]
     },
     {
-      "id": "1741163715816x791104557132905200",
-      "category": "DISCOURSE MARKERS",
-      "guideword": "FORM/USE: ADVERBS, STANCE",
-      "levels": [
-        "B1"
-      ],
-      "lowest_level": "B1",
-      "keywords": [
-        "basically",
-        "then",
-        "actually",
-        "so",
-        "well"
-      ],
-      "spacy_patterns": [
-        [
-          {
-            "LOWER": {
-              "IN": [
-                "actually",
-                "basically",
-                "well",
-                "so",
-                "then"
-              ]
-            }
-          }
-        ]
-      ],
-      "examples": [
-        "Unfortunately, they filmed only the building and the garden, not the students! (Italy; B1 THRESHOLD; 2008; Italian; Pass)\n\nActually, I do not have much time to watch television. (Malaysia; B1 THRESHOL"
-      ]
-    },
-    {
       "id": "1741163711291x489521855903887900",
       "category": "MODALITY",
       "guideword": "FORM/USE: AFTER 'IF' CLAUSES",
@@ -1932,100 +1506,6 @@
       ]
     },
     {
-      "id": "1741163715815x250435137016574720",
-      "category": "DISCOURSE MARKERS",
-      "guideword": "FORM/USE: ORGANISING, ADDING",
-      "levels": [
-        "B1"
-      ],
-      "lowest_level": "B1",
-      "keywords": [
-        "basically",
-        "then",
-        "actually",
-        "so",
-        "well"
-      ],
-      "spacy_patterns": [
-        [
-          {
-            "LOWER": {
-              "IN": [
-                "actually",
-                "basically",
-                "well",
-                "so",
-                "then"
-              ]
-            }
-          }
-        ]
-      ],
-      "examples": [
-        "Moreover the health of our staff and customers is essential. (Switzerland; B1 THRESHOLD; 2006; German; Pass)\n\nIn addition it is wonderful to see the prize that the winner gets at the end, sometimes it"
-      ]
-    },
-    {
-      "id": "1741163715815x803684934038761500",
-      "category": "DISCOURSE MARKERS",
-      "guideword": "FORM/USE: ORGANISING, CONTRASTING",
-      "levels": [
-        "B1"
-      ],
-      "lowest_level": "B1",
-      "keywords": [
-        "basically",
-        "then",
-        "actually",
-        "so",
-        "well"
-      ],
-      "spacy_patterns": [
-        [
-          {
-            "LOWER": {
-              "IN": [
-                "actually",
-                "basically",
-                "well",
-                "so",
-                "then"
-              ]
-            }
-          }
-        ]
-      ],
-      "examples": [
-        "On the one hand going to a large school is better for making friends, but on the other hand I think you can learn better in a small school. (Germany; B1 THRESHOLD; 2008; German; Pass)\n\nMy new teacher,"
-      ]
-    },
-    {
-      "id": "1741163715815x557924987498417800",
-      "category": "DISCOURSE MARKERS",
-      "guideword": "FORM/USE: ORGANISING, MARKING NEW KNOWLEDGE, INFORMAL",
-      "levels": [
-        "B1"
-      ],
-      "lowest_level": "B1",
-      "keywords": [],
-      "spacy_patterns": [
-        [
-          {
-            "LOWER": "as"
-          },
-          {
-            "LOWER": "you"
-          },
-          {
-            "LOWER": "know"
-          }
-        ]
-      ],
-      "examples": [
-        "You see, in the park, you can enjoy fresh air… (Vietnam; B1 THRESHOLD; 2009; Vietnamese; Pass)\n\nThe thing is, if I could move I'd go to the countryside. (Brazil; B1 THRESHOLD; 2010; Portuguese; Pass)"
-      ]
-    },
-    {
       "id": "1741163711286x857657935609748000",
       "category": "MODALITY",
       "guideword": "FORM/USE: QUESTION TAGS",
@@ -2065,40 +1545,6 @@
       ],
       "examples": [
         "When you come back, we should rent some movies, shouldn't we? (Argentina; B1 THRESHOLD; 2009; Spanish - Latin American; Pass)\n\nI think I should write about the history of our company, shouldn't I? (Ge"
-      ]
-    },
-    {
-      "id": "1741163715815x734409577982950900",
-      "category": "DISCOURSE MARKERS",
-      "guideword": "FORM/USE: SEQUENCING",
-      "levels": [
-        "B1"
-      ],
-      "lowest_level": "B1",
-      "keywords": [
-        "basically",
-        "then",
-        "actually",
-        "so",
-        "well"
-      ],
-      "spacy_patterns": [
-        [
-          {
-            "LOWER": {
-              "IN": [
-                "actually",
-                "basically",
-                "well",
-                "so",
-                "then"
-              ]
-            }
-          }
-        ]
-      ],
-      "examples": [
-        "Firstly, we need a good expert to run the course. Secondly, good materials are needed. (China; B1 THRESHOLD; 2006; Chinese; Pass)\n\n… Secondly, I know you like a healthy life so if you don't eat too mu"
       ]
     },
     {
@@ -2228,58 +1674,6 @@
       ]
     },
     {
-      "id": "1741163716070x300369742852513600",
-      "category": "NEGATION",
-      "guideword": "FORM: 'NOT', NON FINITE AND ELLIPTED CLAUSES",
-      "levels": [
-        "B1"
-      ],
-      "lowest_level": "B1",
-      "keywords": [
-        "nt",
-        "not"
-      ],
-      "spacy_patterns": [
-        [
-          {
-            "LOWER": "not"
-          }
-        ]
-      ],
-      "examples": [
-        "But every time a small envelope arrived, I ripped it open as fast as I could. Not this time. (Germany; B1 THRESHOLD; 2008; German; Pass)\n\nI would like to apologise for not being able to attend on Frid"
-      ]
-    },
-    {
-      "id": "1741163716070x944796112360125800",
-      "category": "NEGATION",
-      "guideword": "FORM: ADVERBS",
-      "levels": [
-        "B1"
-      ],
-      "lowest_level": "B1",
-      "keywords": [],
-      "spacy_patterns": [
-        [
-          {
-            "LOWER": {
-              "IN": [
-                "not",
-                "never",
-                "no",
-                "neither",
-                "nobody",
-                "nothing"
-              ]
-            }
-          }
-        ]
-      ],
-      "examples": [
-        "Nobody will ever know who that man was. (Chile; B1 THRESHOLD; 2008; Spanish - Latin American; Pass)\n\nI stayed there for two weeks and it never rained. (Argentina; B1 THRESHOLD; 1999; Spanish - Latin A"
-      ]
-    },
-    {
       "id": "1741163711292x519356607079623360",
       "category": "MODALITY",
       "guideword": "FORM: AFFIRMATIVE|",
@@ -2319,35 +1713,6 @@
       ],
       "examples": [
         "I used to share my room with my brother. (Albania; B1 THRESHOLD; 2007; Albanian; Pass)\n\nWhen I was a little girl, we used to be together all the time. (Hungary; B1 THRESHOLD; 2004; Hungarian; Pass)"
-      ]
-    },
-    {
-      "id": "1741163716069x187136272892084450",
-      "category": "NEGATION",
-      "guideword": "FORM: AUXILIARY VERBS 'BE', 'HAVE', PAST",
-      "levels": [
-        "B1"
-      ],
-      "lowest_level": "B1",
-      "keywords": [],
-      "spacy_patterns": [
-        [
-          {
-            "LOWER": {
-              "IN": [
-                "not",
-                "never",
-                "no",
-                "neither",
-                "nobody",
-                "nothing"
-              ]
-            }
-          }
-        ]
-      ],
-      "examples": [
-        "It was raining for seventy two hours and it wasn't going to stop. (Ukraine; B1 THRESHOLD; 2008; Russian; Pass)\n\nI hadn't expected to receive a letter from her. (Mexico; B1 THRESHOLD; 2008; Spanish - L"
       ]
     },
     {
@@ -2438,35 +1803,6 @@
       ],
       "examples": [
         "I am going to have to buy new curtains. (Spanish - Latin American, B1 THRESHOLD, Pass, 2001)\n\nI'm sorry to have to change the time of our meeting next Tuesday. (Spanish - Latin American, B1 THRESHOLD,"
-      ]
-    },
-    {
-      "id": "1741163716069x679616735525116500",
-      "category": "NEGATION",
-      "guideword": "FORM: MENTAL PROCESS VERBS + CLAUSE",
-      "levels": [
-        "B1"
-      ],
-      "lowest_level": "B1",
-      "keywords": [],
-      "spacy_patterns": [
-        [
-          {
-            "LOWER": {
-              "IN": [
-                "not",
-                "never",
-                "no",
-                "neither",
-                "nobody",
-                "nothing"
-              ]
-            }
-          }
-        ]
-      ],
-      "examples": [
-        "But I don't think it'll help you. (Kazakhstan; B1 THRESHOLD; 2009; Kazakh; Pass)\n\nI don't think I'll live here forever because I intend to move to Curitiba, a southern city of my country. (Brazil; B1 "
       ]
     },
     {
@@ -2640,40 +1976,6 @@
       "examples": [
         "I have an appointment. I know I shouldn't have taken it during school time but I had no other choice. (French, B1 THRESHOLD, Pass, 2006)",
         "Without your help, I wouldn't have got this result. (Spain; B1 THRESHOLD; 2010; Spanish - European; Pass)\n\nHad it not been for that day, she would not have met George. (Vietnam; B1 THRESHOLD; 2009; Vi"
-      ]
-    },
-    {
-      "id": "1741163716070x726962276746828700",
-      "category": "NEGATION",
-      "guideword": "FORM: PRONOUNS",
-      "levels": [
-        "B1"
-      ],
-      "lowest_level": "B1",
-      "keywords": [
-        "anyone",
-        "none",
-        "anybody",
-        "anything",
-        "nowhere"
-      ],
-      "spacy_patterns": [
-        [
-          {
-            "LOWER": {
-              "IN": [
-                "anybody",
-                "anyone",
-                "anything",
-                "nowhere",
-                "none"
-              ]
-            }
-          }
-        ]
-      ],
-      "examples": [
-        "I said I had nothing, but he didn't believe me. (Argentina; B1 THRESHOLD; 2007; Spanish - Latin American; Pass)\n\nI haven't seen anything yet. (Georgia (Republic of); B1 THRESHOLD; 2007; Georgian; Pass"
       ]
     },
     {
@@ -3675,35 +2977,6 @@
       ]
     },
     {
-      "id": "1741163716070x446178260215358340",
-      "category": "NEGATION",
-      "guideword": "USE: SEEKING AGREEMENT",
-      "levels": [
-        "B1"
-      ],
-      "lowest_level": "B1",
-      "keywords": [],
-      "spacy_patterns": [
-        [
-          {
-            "LOWER": {
-              "IN": [
-                "not",
-                "never",
-                "no",
-                "neither",
-                "nobody",
-                "nothing"
-              ]
-            }
-          }
-        ]
-      ],
-      "examples": [
-        "Isn't it marvellous? (France; B1 THRESHOLD; 2003; French; Pass)\n\nDon't you think it's fantastic? (Italy; B1 THRESHOLD; 2008; Italian; Pass)\n\nYou love books, don't you? (Italy; B1 THRESHOLD; 2005; Ital"
-      ]
-    },
-    {
       "id": "1741163710392x628826808565412700",
       "category": "MODALITY",
       "guideword": "USE: SURPRISE",
@@ -3943,108 +3216,6 @@
       ]
     },
     {
-      "id": "1741163716072x615032056929655300",
-      "category": "NEGATION",
-      "guideword": "FORM/USE: 'NEITHER … NOR'",
-      "levels": [
-        "B2"
-      ],
-      "lowest_level": "B2",
-      "keywords": [
-        "neither",
-        "nor"
-      ],
-      "spacy_patterns": [
-        [
-          {
-            "LOWER": "neither"
-          }
-        ]
-      ],
-      "examples": [
-        "Neither you nor I would like that. (Sweden; B2 VANTAGE; 1993; Swedish; Pass)\n\nWe can neither eat nor drink during the lessons. (Poland; B2 VANTAGE; 2000; Polish; Pass)\n\nI have neither climbed nor surf"
-      ]
-    },
-    {
-      "id": "1741163716072x944158847712108200",
-      "category": "NEGATION",
-      "guideword": "FORM/USE: 'NEVER', INVERTED FRONT POSITION, FOCUS",
-      "levels": [
-        "B2"
-      ],
-      "lowest_level": "B2",
-      "keywords": [
-        "never"
-      ],
-      "spacy_patterns": [
-        [
-          {
-            "LOWER": "never"
-          }
-        ]
-      ],
-      "examples": [
-        "Never have I seen such a realistic and impressive film before. (Argentina; B2 VANTAGE; 2008; Spanish - Latin American; Pass)\n\nNever had I thought that my parents would do this to me. (Netherlands; B2 "
-      ]
-    },
-    {
-      "id": "1741163716070x320077410338691650",
-      "category": "NEGATION",
-      "guideword": "FORM/USE: 'NOT', EMPHASIS",
-      "levels": [
-        "B2"
-      ],
-      "lowest_level": "B2",
-      "keywords": [
-        "nt",
-        "not"
-      ],
-      "spacy_patterns": [
-        [
-          {
-            "LOWER": "not"
-          }
-        ]
-      ],
-      "examples": [
-        "Do not take on too many assignments at a time. (Sweden; B2 VANTAGE; 1993; Swedish; Pass)\n\nI cannot agree with you Mr Brown. (Poland; B2 VANTAGE; 2004; Polish; Pass)\n\nKeeping them in zoos will not help"
-      ]
-    },
-    {
-      "id": "1741163715816x575654726038477250",
-      "category": "DISCOURSE MARKERS",
-      "guideword": "FORM/USE: COMPARING",
-      "levels": [
-        "B2"
-      ],
-      "lowest_level": "B2",
-      "keywords": [
-        "basically",
-        "then",
-        "actually",
-        "so",
-        "well"
-      ],
-      "spacy_patterns": [
-        [
-          {
-            "LOWER": {
-              "IN": [
-                "actually",
-                "basically",
-                "well",
-                "so",
-                "then"
-              ]
-            }
-          }
-        ]
-      ],
-      "examples": [
-        "[talking about celebrating New Year] But some countries celebrate on other dates too, like they have Chinese New Year according to their calendar.  Likewise, in Nepal New Year is celebrated on 1st of "
-      ]
-    },
-    {
       "id": "1741163710612x402995334969845200",
       "category": "MODALITY",
       "guideword": "FORM/USE: IMPERATIVE",
@@ -4087,40 +3258,6 @@
       ]
     },
     {
-      "id": "1741163715816x910085760581765400",
-      "category": "DISCOURSE MARKERS",
-      "guideword": "FORM/USE: ORGANISING, OPENINGS AND CLOSINGS, FORMAL",
-      "levels": [
-        "B2"
-      ],
-      "lowest_level": "B2",
-      "keywords": [
-        "basically",
-        "then",
-        "actually",
-        "so",
-        "well"
-      ],
-      "spacy_patterns": [
-        [
-          {
-            "LOWER": {
-              "IN": [
-                "actually",
-                "basically",
-                "well",
-                "so",
-                "then"
-              ]
-            }
-          }
-        ]
-      ],
-      "examples": [
-        "To begin with, I want to ensure that you are going to have a great time with us. (Greece; B2 VANTAGE; 2009; Greek; Pass)\n\nFor a start, we have lived with books for thousands of years while television "
-      ]
-    },
-    {
       "id": "1741163710840x532362863135737100",
       "category": "MODALITY",
       "guideword": "FORM/USE: PAST AFFIRMATIVE",
@@ -4160,40 +3297,6 @@
       ],
       "examples": [
         "I think that he may have forgiven me for that accident … ! (Italy; B2 VANTAGE; 1993; Italian; Pass)\n\nAs you may have noticed, there has been a delay setting up the new computer system. (Austria; B2 VA"
-      ]
-    },
-    {
-      "id": "1741163715816x736238572687218000",
-      "category": "DISCOURSE MARKERS",
-      "guideword": "FORM/USE: SUMMARISING, FORMAL",
-      "levels": [
-        "B2"
-      ],
-      "lowest_level": "B2",
-      "keywords": [
-        "basically",
-        "then",
-        "actually",
-        "so",
-        "well"
-      ],
-      "spacy_patterns": [
-        [
-          {
-            "LOWER": {
-              "IN": [
-                "actually",
-                "basically",
-                "well",
-                "so",
-                "then"
-              ]
-            }
-          }
-        ]
-      ],
-      "examples": [
-        "Thus, I would be very grateful if you would send me clear explanations of the following points: firstly, I would like you to specify what “the normal price” is, and therefore what would be the cost of"
       ]
     },
     {
@@ -4320,47 +3423,6 @@
       ],
       "examples": [
         "It seems clear to me that swimming is good for the whole body. (B2 VANTAGE; 1993; Swedish; Pass)\n\nIt is obvious that some people prefer reading books. (Poland; B2 VANTAGE; 2008; Polish; Pass)\n\nIt is p"
-      ]
-    },
-    {
-      "id": "1741163716072x486471898998410700",
-      "category": "NEGATION",
-      "guideword": "FORM: 'NEITHER OF', 'NONE OF' + PRONOUN",
-      "levels": [
-        "B2"
-      ],
-      "lowest_level": "B2",
-      "keywords": [
-        "anyone",
-        "none",
-        "anybody",
-        "anything",
-        "nor",
-        "nowhere",
-        "neither"
-      ],
-      "spacy_patterns": [
-        [
-          {
-            "LOWER": "neither"
-          }
-        ],
-        [
-          {
-            "LOWER": {
-              "IN": [
-                "anybody",
-                "anyone",
-                "anything",
-                "nowhere",
-                "none"
-              ]
-            }
-          }
-        ]
-      ],
-      "examples": [
-        "Neither of us is liable in this case. (Czech Republic; B2 VANTAGE; 2007; Slovak; Pass)\n\nMoreover, none of my friends are interested therefore there is no one I can talk to. (Japan; B2 VANTAGE; 1993; J"
       ]
     },
     {
@@ -5739,81 +4801,6 @@
       ]
     },
     {
-      "id": "1741163716072x190757617985932480",
-      "category": "NEGATION",
-      "guideword": "FORM/USE: 'NOT ONLY … (BUT) ALSO' WITH INVERSION",
-      "levels": [
-        "C1"
-      ],
-      "lowest_level": "C1",
-      "keywords": [
-        "nt",
-        "not"
-      ],
-      "spacy_patterns": [
-        [
-          {
-            "LOWER": "not"
-          }
-        ]
-      ],
-      "examples": [
-        "Not only was it in a wonderful location, with extraordinary views, but it was also very accessible and the shops were really near. (Greece; C1 EFFECTIVE OPERATIONAL PROFICIENCY; 2009; Greek; Pass)\n\nNo"
-      ]
-    },
-    {
-      "id": "1741163716072x449913250965678900",
-      "category": "NEGATION",
-      "guideword": "FORM/USE: 'NOT' + STANCE ADVERB, HEDGING",
-      "levels": [
-        "C1"
-      ],
-      "lowest_level": "C1",
-      "keywords": [
-        "nt",
-        "not"
-      ],
-      "spacy_patterns": [
-        [
-          {
-            "LOWER": "not"
-          }
-        ]
-      ],
-      "examples": [
-        "This is not necessarily the way the older generation would see it, though. (Slovenia; C1 EFFECTIVE OPERATIONAL PROFICIENCY; 2008; Slovene; Pass)\n\nBeing a passionate student of the English language, yo"
-      ]
-    },
-    {
-      "id": "1741163716072x182229027169600770",
-      "category": "NEGATION",
-      "guideword": "FORM/USE: 'WHATSOEVER', EMPHASIS",
-      "levels": [
-        "C1"
-      ],
-      "lowest_level": "C1",
-      "keywords": [],
-      "spacy_patterns": [
-        [
-          {
-            "LOWER": {
-              "IN": [
-                "not",
-                "never",
-                "no",
-                "neither",
-                "nobody",
-                "nothing"
-              ]
-            }
-          }
-        ]
-      ],
-      "examples": [
-        "This means that nothing shall change for the employees, there shall be no implication whatsoever for their rights stipulated in their employment contracts. (Czech Republic; C1 EFFECTIVE OPERATIONAL PR"
-      ]
-    },
-    {
       "id": "1741163711032x281092767712077150",
       "category": "MODALITY",
       "guideword": "FORM/USE: DESIRED STATES, WITH 'THERE OUGHT TO BE' ",
@@ -6231,92 +5218,6 @@
       ],
       "examples": [
         "Presents. Strips, bows, paper-wrapping. Thinking of Christmas? Not necessarily. (Portugal; C1 EFFECTIVE OPERATIONAL PROFICIENCY; 2008; Portuguese; Pass)"
-      ]
-    },
-    {
-      "id": "1741163715816x805574954101757600",
-      "category": "DISCOURSE MARKERS",
-      "guideword": "FORM/USE: TEXTUAL REFERENCE",
-      "levels": [
-        "C1"
-      ],
-      "lowest_level": "C1",
-      "keywords": [
-        "basically",
-        "then",
-        "actually",
-        "so",
-        "well"
-      ],
-      "spacy_patterns": [
-        [
-          {
-            "LOWER": {
-              "IN": [
-                "actually",
-                "basically",
-                "well",
-                "so",
-                "then"
-              ]
-            }
-          }
-        ]
-      ],
-      "examples": [
-        "As mentioned above, it might be possible to negotiate better contracts for your company. (Switzerland; C1 EFFECTIVE OPERATIONAL PROFICIENCY; 2007; Swiss German; Pass)\n\nI hope this brief note has convi"
-      ]
-    },
-    {
-      "id": "1741163716072x485073520726290800",
-      "category": "NEGATION",
-      "guideword": "FORM: 'NONE', SUBSTITUTION",
-      "levels": [
-        "C1"
-      ],
-      "lowest_level": "C1",
-      "keywords": [],
-      "spacy_patterns": [
-        [
-          {
-            "LOWER": {
-              "IN": [
-                "not",
-                "never",
-                "no",
-                "neither",
-                "nobody",
-                "nothing"
-              ]
-            }
-          }
-        ]
-      ],
-      "examples": [
-        "In fact, there are none, but the hills that do exist can be dubbed mountains - just because there are none... (Russia; C1 EFFECTIVE OPERATIONAL PROFICIENCY; 2005; Russian; Pass)\n\nConcerning your quest"
-      ]
-    },
-    {
-      "id": "1741163716072x678281983839554200",
-      "category": "NEGATION",
-      "guideword": "FORM: 'NOT ALL', 'NOT EVERY'",
-      "levels": [
-        "C1"
-      ],
-      "lowest_level": "C1",
-      "keywords": [
-        "nt",
-        "not"
-      ],
-      "spacy_patterns": [
-        [
-          {
-            "LOWER": "not"
-          }
-        ]
-      ],
-      "examples": [
-        "Not everyone likes sports or music. (Greece; C1 EFFECTIVE OPERATIONAL PROFICIENCY; 2009; Greek; Pass)\n\nNot everything was as good as we expected. (Poland; C1 EFFECTIVE OPERATIONAL PROFICIENCY; 2000; P"
       ]
     },
     {
@@ -6745,35 +5646,6 @@
       ]
     },
     {
-      "id": "1741163716072x770198940521685800",
-      "category": "NEGATION",
-      "guideword": "USE: FORMAL",
-      "levels": [
-        "C1"
-      ],
-      "lowest_level": "C1",
-      "keywords": [],
-      "spacy_patterns": [
-        [
-          {
-            "LOWER": {
-              "IN": [
-                "not",
-                "never",
-                "no",
-                "neither",
-                "nobody",
-                "nothing"
-              ]
-            }
-          }
-        ]
-      ],
-      "examples": [
-        "They were sent to Britain to improve their English but few had any real contact with the language. (Sweden; C1 EFFECTIVE OPERATIONAL PROFICIENCY; 2000; Swedish; Pass)\n\nEnglish is the most spoken langu"
-      ]
-    },
-    {
       "id": "1741163711299x562241618213371140",
       "category": "MODALITY",
       "guideword": "USE: HABITUAL AND TYPICAL",
@@ -6984,64 +5856,6 @@
       ]
     },
     {
-      "id": "1741163716291x581144268274536400",
-      "category": "NEGATION",
-      "guideword": "FORM/USE: 'DON'T YOU …', WARNING",
-      "levels": [
-        "C2"
-      ],
-      "lowest_level": "C2",
-      "keywords": [],
-      "spacy_patterns": [
-        [
-          {
-            "LOWER": {
-              "IN": [
-                "not",
-                "never",
-                "no",
-                "neither",
-                "nobody",
-                "nothing"
-              ]
-            }
-          }
-        ]
-      ],
-      "examples": [
-        "Don't you ever do that again! (Cyprus; C2 MASTERY; 2001; Greek; Pass)\n\nDon't you dare! (Portugal; C2 MASTERY; 1993; Portuguese; Pass)\n\nDon't you dare forget me, I want letters from you promptly, under"
-      ]
-    },
-    {
-      "id": "1741163716292x392889013913381400",
-      "category": "NEGATION",
-      "guideword": "FORM/USE: 'IN THE LEAST', EMPHASIS",
-      "levels": [
-        "C2"
-      ],
-      "lowest_level": "C2",
-      "keywords": [],
-      "spacy_patterns": [
-        [
-          {
-            "LOWER": {
-              "IN": [
-                "not",
-                "never",
-                "no",
-                "neither",
-                "nobody",
-                "nothing"
-              ]
-            }
-          }
-        ]
-      ],
-      "examples": [
-        "She has lost her little brother but that does not discourage her in the least. (Greece; C2 MASTERY; 2001; Greek; Pass)\n\nMost of the times, the director of a television channel is not in the least inte"
-      ]
-    },
-    {
       "id": "1741163710841x403556143145239230",
       "category": "MODALITY",
       "guideword": "FORM/USE: 'MAY AS WELL'",
@@ -7068,52 +5882,6 @@
       ],
       "examples": [
         "A few minutes later, she began hesitantly: \"After all, you may as well know…” (France; C2 MASTERY; 1993; French; Pass)\n\nI may as well see the other things. (Turkey; B2 VANTAGE; 2003; Turkish; Pass) "
-      ]
-    },
-    {
-      "id": "1741163716292x111486420070027630",
-      "category": "NEGATION",
-      "guideword": "FORM/USE: 'NEITHER'",
-      "levels": [
-        "C2"
-      ],
-      "lowest_level": "C2",
-      "keywords": [
-        "neither",
-        "nor"
-      ],
-      "spacy_patterns": [
-        [
-          {
-            "LOWER": "neither"
-          }
-        ]
-      ],
-      "examples": [
-        "There are also considerable disturbances during day-time. It is, for example, not possible to lead a conversation, e.g. on the veranda, without shouting. Nor is it possible to watch television peacefu"
-      ]
-    },
-    {
-      "id": "1741163716073x696199339681962600",
-      "category": "NEGATION",
-      "guideword": "FORM/USE: 'NOT A' + NOUN, EMPHASIS",
-      "levels": [
-        "C2"
-      ],
-      "lowest_level": "C2",
-      "keywords": [
-        "nt",
-        "not"
-      ],
-      "spacy_patterns": [
-        [
-          {
-            "LOWER": "not"
-          }
-        ]
-      ],
-      "examples": [
-        "Not a single noise could be heard from inside of any of the rooms. (Argentina; C2 MASTERY; 2000; Spanish - Latin American; Pass)\n\nNot a long time passes before another Polish city, Warsaw, hosts a fes"
       ]
     },
     {
@@ -7679,21 +6447,235 @@
       ]
     },
     {
-      "id": "1741163713112x603850914179882600",
-      "category": "PREPOSITIONS",
-      "guideword": "FORM: PREPOSITION + NOUN PHRASE",
+      "id": "1741163716067x824562184770361200",
+      "category": "NEGATION",
+      "guideword": "FORM: MAIN VERB 'BE'",
       "levels": [
         "A1"
       ],
       "lowest_level": "A1",
-      "pos_patterns": [
-        {
-          "TAG": "IN"
-        }
+      "keywords": [],
+      "spacy_patterns": [
+        [
+          {
+            "LOWER": {
+              "IN": [
+                "not",
+                "never",
+                "no",
+                "neither",
+                "nobody",
+                "nothing"
+              ]
+            }
+          }
+        ]
       ],
-      "description": "preposition",
       "examples": [
-        "When I have free time, I go to the park with my dog. (A1 BREAKTHROUGH; 2007; Polish; Pass)\n\nWe have lots of vegetables and fruit in the summer. (A1 BREAKTHROUGH; 2009; Slovak; Pass)\n\nWe sometimes meet"
+        "My college is not very big. (A1 BREAKTHROUGH; 2007; Polish; Pass)\n\nI know you are not well. (A1 BREAKTHROUGH; 2009; French; Pass)\n\nI'm not a good swimmer. (A1 BREAKTHROUGH; 2011; Romanian; Pass)\n\nThis"
+      ]
+    },
+    {
+      "id": "1741163715814x164578011203941220",
+      "category": "DISCOURSE MARKERS",
+      "guideword": "FORM/USE: 'AS YOU KNOW', ORGANISING, MARKING SHARED KNOWLEDGE",
+      "levels": [
+        "A2"
+      ],
+      "lowest_level": "A2",
+      "keywords": [],
+      "spacy_patterns": [
+        [
+          {
+            "LOWER": "as"
+          },
+          {
+            "LOWER": "you"
+          },
+          {
+            "LOWER": "know"
+          }
+        ]
+      ],
+      "examples": [
+        "I can't come to your wedding because, as you know, I live in England and on Thursday 18th July I'm going to take the FCE exam. (A2 WAYSTAGE; 2007; Polish; Pass)\n\nAs you know, my parents are leaving ho"
+      ]
+    },
+    {
+      "id": "1741163715815x672882522886991900",
+      "category": "DISCOURSE MARKERS",
+      "guideword": "FORM/USE: 'SO', SUMMARISING, INFORMAL",
+      "levels": [
+        "A2"
+      ],
+      "lowest_level": "A2",
+      "keywords": [
+        "basically",
+        "then",
+        "actually",
+        "so",
+        "well"
+      ],
+      "spacy_patterns": [
+        [
+          {
+            "LOWER": {
+              "IN": [
+                "actually",
+                "basically",
+                "well",
+                "so",
+                "then"
+              ]
+            }
+          }
+        ]
+      ],
+      "examples": [
+        "So, what do you think? (Brazil; A2 WAYSTAGE; 2009; Portuguese; Pass)\n\n[talking about not being able to make it to a party] I have got an appointment with my dentist.  So, I'm really sorry about that a"
+      ]
+    },
+    {
+      "id": "1741163716068x228640925138144930",
+      "category": "NEGATION",
+      "guideword": "FORM: PRONOUNS ",
+      "levels": [
+        "A2"
+      ],
+      "lowest_level": "A2",
+      "keywords": [
+        "anyone",
+        "none",
+        "anybody",
+        "anything",
+        "nowhere"
+      ],
+      "spacy_patterns": [
+        [
+          {
+            "LOWER": {
+              "IN": [
+                "anybody",
+                "anyone",
+                "anything",
+                "nowhere",
+                "none"
+              ]
+            }
+          }
+        ]
+      ],
+      "examples": [
+        "I bought a shirt, because I haven't got any. (Spain; A2 WAYSTAGE; 2008; Spanish - European; Pass)\n\nAs regards close friends, I don't have many. (Argentina; B1 THRESHOLD; 2009; Spanish - Latin American"
+      ]
+    },
+    {
+      "id": "1741163716070x300369742852513600",
+      "category": "NEGATION",
+      "guideword": "FORM: 'NOT', NON FINITE AND ELLIPTED CLAUSES",
+      "levels": [
+        "B1"
+      ],
+      "lowest_level": "B1",
+      "keywords": [
+        "nt",
+        "not"
+      ],
+      "spacy_patterns": [
+        [
+          {
+            "LOWER": "not"
+          }
+        ]
+      ],
+      "examples": [
+        "But every time a small envelope arrived, I ripped it open as fast as I could. Not this time. (Germany; B1 THRESHOLD; 2008; German; Pass)\n\nI would like to apologise for not being able to attend on Frid"
+      ]
+    },
+    {
+      "id": "1741163716072x615032056929655300",
+      "category": "NEGATION",
+      "guideword": "FORM/USE: 'NEITHER … NOR'",
+      "levels": [
+        "B2"
+      ],
+      "lowest_level": "B2",
+      "keywords": [
+        "neither",
+        "nor"
+      ],
+      "spacy_patterns": [
+        [
+          {
+            "LOWER": "neither"
+          }
+        ]
+      ],
+      "examples": [
+        "Neither you nor I would like that. (Sweden; B2 VANTAGE; 1993; Swedish; Pass)\n\nWe can neither eat nor drink during the lessons. (Poland; B2 VANTAGE; 2000; Polish; Pass)\n\nI have neither climbed nor surf"
+      ]
+    },
+    {
+      "id": "1741163716072x944158847712108200",
+      "category": "NEGATION",
+      "guideword": "FORM/USE: 'NEVER', INVERTED FRONT POSITION, FOCUS",
+      "levels": [
+        "B2"
+      ],
+      "lowest_level": "B2",
+      "keywords": [
+        "never"
+      ],
+      "spacy_patterns": [
+        [
+          {
+            "LOWER": "never"
+          }
+        ]
+      ],
+      "examples": [
+        "Never have I seen such a realistic and impressive film before. (Argentina; B2 VANTAGE; 2008; Spanish - Latin American; Pass)\n\nNever had I thought that my parents would do this to me. (Netherlands; B2 "
+      ]
+    },
+    {
+      "id": "1741163716072x486471898998410700",
+      "category": "NEGATION",
+      "guideword": "FORM: 'NEITHER OF', 'NONE OF' + PRONOUN",
+      "levels": [
+        "B2"
+      ],
+      "lowest_level": "B2",
+      "keywords": [
+        "anyone",
+        "none",
+        "anybody",
+        "anything",
+        "nor",
+        "nowhere",
+        "neither"
+      ],
+      "spacy_patterns": [
+        [
+          {
+            "LOWER": "neither"
+          }
+        ],
+        [
+          {
+            "LOWER": {
+              "IN": [
+                "anybody",
+                "anyone",
+                "anything",
+                "nowhere",
+                "none"
+              ]
+            }
+          }
+        ]
+      ],
+      "examples": [
+        "Neither of us is liable in this case. (Czech Republic; B2 VANTAGE; 2007; Slovak; Pass)\n\nMoreover, none of my friends are interested therefore there is no one I can talk to. (Japan; B2 VANTAGE; 1993; J"
       ]
     },
     {
@@ -7719,140 +6701,6 @@
       ]
     },
     {
-      "id": "1741163713112x664516393932309100",
-      "category": "PREPOSITIONS",
-      "guideword": "FORM: 'JUST' + PREPOSITION",
-      "levels": [
-        "A2"
-      ],
-      "lowest_level": "A2",
-      "pos_patterns": [
-        {
-          "TAG": "IN"
-        }
-      ],
-      "description": "preposition",
-      "examples": [
-        "It's just near the cinema. (India; A2 WAYSTAGE; 2009; Hindi; Pass)\n\nSo you have to go along 3 blocks and turn on your left and just in front of you is the Cathedral and next to the Cathedral is the Zo"
-      ]
-    },
-    {
-      "id": "1741163713115x117482459797167540",
-      "category": "PREPOSITIONS",
-      "guideword": "FORM: + '-ING'",
-      "levels": [
-        "A2"
-      ],
-      "lowest_level": "A2",
-      "pos_patterns": [
-        {
-          "TAG": "IN"
-        }
-      ],
-      "description": "preposition",
-      "examples": [
-        "I can help by bringing the sound box and bit box I am free at friday 7:30 pm. (Bangladesh; A2 WAYSTAGE; 2005; Bengali; Pass)\n\nThanks for replying. (Japan; A2 WAYSTAGE; 2008; Japanese; Pass)\n\nI was cra"
-      ]
-    },
-    {
-      "id": "1741163713112x864243593656802700",
-      "category": "PREPOSITIONS",
-      "guideword": "FORM: COMPLEX",
-      "levels": [
-        "A2",
-        "B1",
-        "B2"
-      ],
-      "lowest_level": "A2",
-      "pos_patterns": [
-        {
-          "TAG": "IN"
-        }
-      ],
-      "description": "preposition",
-      "examples": [
-        "We can meet in the park near to my house at 7.00 p.m. (A2 Spanish Latin American)\n\nI have a lot of hobbies, such as reading, singing, drawing and so on. (A2 Chinese)\n\nI will be free at 4 p.m. and we c",
-        "My parents weren't happy when they heard that I wanted to go to Croatia with my friends instead of flying to the USA. (B1 German)\n\nThe company chose my school thanks to the excellent results of the st",
-        "She did not say very much except for \"oh\" and \"yes, yes\" every once in a while. (B2 Dutch)\n\n[talking about animals in zoos] And it gives them the possibility of gradually gaining knowledge about other"
-      ]
-    },
-    {
-      "id": "1741163713115x831925659489416200",
-      "category": "PREPOSITIONS",
-      "guideword": "FORM: STRANDING",
-      "levels": [
-        "A2",
-        "B1"
-      ],
-      "lowest_level": "A2",
-      "pos_patterns": [
-        {
-          "TAG": "IN"
-        }
-      ],
-      "description": "preposition",
-      "examples": [
-        "Who are you going with? (Philippines; A2 WAYSTAGE; 2009; Tagalog; Pass)\n\nSo what are you waiting for? (Hong Kong; A2 WAYSTAGE; 1999; Chinese; Pass)",
-        "So this is the best festival I been to. (B1 THRESHOLD; 2008; Albanian; Pass)\n\nPlease give him all the information he asks for. (Switzerland; B1 THRESHOLD; 2005; German; Pass)\n\nEverybody should see whi"
-      ]
-    },
-    {
-      "id": "1741163713116x829257725032760800",
-      "category": "PREPOSITIONS",
-      "guideword": "FORM: 'ADVERB' + PREPOSITION",
-      "levels": [
-        "B1"
-      ],
-      "lowest_level": "B1",
-      "pos_patterns": [
-        {
-          "TAG": "IN"
-        }
-      ],
-      "description": "preposition",
-      "examples": [
-        "It's quite near my house so I can go there easily. (Italy; B1 THRESHOLD; 2003; Italian; Pass)\n\nWhen I was trying to reach the only frame of light I could see in the woods, something moved right behind"
-      ]
-    },
-    {
-      "id": "1741163713116x636100257659625700",
-      "category": "PREPOSITIONS",
-      "guideword": "FORM/USE: FORMAL",
-      "levels": [
-        "B2",
-        "C1"
-      ],
-      "lowest_level": "B2",
-      "pos_patterns": [
-        {
-          "TAG": "IN"
-        }
-      ],
-      "description": "preposition",
-      "examples": [
-        "Suddenly the lights went out and a kind of silent screaming was heard throughout the whole dark room. (B2 German)\n\nSo why don’t you act upon my advice? (B2 Brazilian)\n\nI took bus number 19 from Angel ",
-        "It's unbelievable that this civilization that lived a long time ago could be so ahead of their time. (C1 Brazilian Portuguese)\n\nI think that the next area to develop will be the car industry, which wi"
-      ]
-    },
-    {
-      "id": "1741163713116x878693855125900300",
-      "category": "PREPOSITIONS",
-      "guideword": "FORM/USE: PREPOSITION + 'WH-'WORD",
-      "levels": [
-        "B2"
-      ],
-      "lowest_level": "B2",
-      "pos_patterns": [
-        {
-          "TAG": "IN"
-        }
-      ],
-      "description": "preposition",
-      "examples": [
-        "According to your advertisement in a language magazine, you have a vacancy in which I am very interested. (Switzerland; B2 VANTAGE; 1998; German; Pass)\n\nI hope that you can help me by answering some q"
-      ]
-    },
-    {
       "id": "1741163708785x514563206586401860",
       "category": "CONJUNCTIONS",
       "guideword": "FORM: 'BECAUSE' ",
@@ -7871,54 +6719,6 @@
       "description": "either...or",
       "examples": [
         "I want a big garden because I have children. (Arabic - Other)\n\nShe likes meeting other people because she wants to improve her English. (Nepali)"
-      ]
-    },
-    {
-      "id": "1741163708775x324182637264445630",
-      "category": "CONJUNCTIONS",
-      "guideword": "FORM: SENTENCE + SENTENCE",
-      "levels": [
-        "A1"
-      ],
-      "lowest_level": "A1",
-      "spacy_patterns": [
-        [
-          {
-            "LOWER": "either"
-          }
-        ]
-      ],
-      "regex_pattern": "(?i)\\beither\\s+.*\\s+or\\b",
-      "description": "either...or",
-      "examples": [
-        "I like it because there are lots of shops, it is not too busy and there is lots of parking. And I like my home because it's not too big and it's a very nice flat. (A1 BREAKTHROUGH; 2009; Tamil; Pass)\n"
-      ]
-    },
-    {
-      "id": "1741163708776x617714358104645400",
-      "category": "CONJUNCTIONS",
-      "guideword": "USE: 'BUT', CONCESSIVE",
-      "levels": [
-        "A1"
-      ],
-      "lowest_level": "A1",
-      "spacy_patterns": [
-        {
-          "LOWER": {
-            "IN": [
-              "and",
-              "but",
-              "or",
-              "so",
-              "because"
-            ]
-          }
-        }
-      ],
-      "regex_pattern": null,
-      "description": "conjunction",
-      "examples": [
-        "I really like my home, it is very small but it is very easy to clean. (A1 BREAKTHROUGH; 2009; Urdu; Pass)\n\nI like my home, it's small but so comfortable, and the decoration is beautiful. (A1 BREAKTHRO"
       ]
     },
     {
@@ -7946,367 +6746,6 @@
       "description": "conjunction",
       "examples": [
         "I like to eat chicken, mushrooms and some vegetables. (A1 BREAKTHROUGH; 2006; Polish; Pass)\n\nI have three rooms; a kitchen, living room, bathroom and toilet. (A1 BREAKTHROUGH; 2009; Polish; Pass)\n\nI g"
-      ]
-    },
-    {
-      "id": "1741163708788x790869024789763000",
-      "category": "CONJUNCTIONS",
-      "guideword": "FORM: SIMPLE ",
-      "levels": [
-        "A2"
-      ],
-      "lowest_level": "A2",
-      "spacy_patterns": [
-        [
-          {
-            "LOWER": "either"
-          }
-        ]
-      ],
-      "regex_pattern": "(?i)\\beither\\s+.*\\s+or\\b",
-      "description": "either...or",
-      "examples": [
-        "But if you don't take your car, you can rent a bike in the park too. (French)\n\nIf I need a camera, I will use my mobile phone. (Turkish)\n\nMy father bought it for me when he saw my grades at school. (G"
-      ]
-    },
-    {
-      "id": "1741163708783x284853209894606820",
-      "category": "CONJUNCTIONS",
-      "guideword": "FORM/USE: 'BOTH … AND' WITH NOUNS",
-      "levels": [
-        "B1"
-      ],
-      "lowest_level": "B1",
-      "spacy_patterns": [
-        [
-          {
-            "LOWER": "either"
-          }
-        ]
-      ],
-      "regex_pattern": "(?i)\\beither\\s+.*\\s+or\\b",
-      "description": "either...or",
-      "examples": [
-        "I felt sorry for you because both friends and family are very important and having to pick one is very hard. (Turkey; B1 THRESHOLD; 2008; Turkish; Pass)\n\nAs a result of our aggressive and successful e"
-      ]
-    },
-    {
-      "id": "1741163708776x708485975676895760",
-      "category": "CONJUNCTIONS",
-      "guideword": "FORM/USE: 'PLUS' WITH CLAUSES",
-      "levels": [
-        "B1"
-      ],
-      "lowest_level": "B1",
-      "spacy_patterns": [
-        [
-          {
-            "LOWER": "either"
-          }
-        ]
-      ],
-      "regex_pattern": "(?i)\\beither\\s+.*\\s+or\\b",
-      "description": "either...or",
-      "examples": [
-        "I would be more than pleased to receive you at home, it's not too big, but we could have a lot of fun, plus you won't have to pay a thing! (Mexico; B1 THRESHOLD; 2004; Spanish - Latin American; Pass)\n"
-      ]
-    },
-    {
-      "id": "1741163708776x353462175520579140",
-      "category": "CONJUNCTIONS",
-      "guideword": "FORM: 'EITHER … OR'",
-      "levels": [
-        "B1",
-        "C1"
-      ],
-      "lowest_level": "B1",
-      "spacy_patterns": [
-        [
-          {
-            "LOWER": "either"
-          }
-        ]
-      ],
-      "regex_pattern": "(?i)\\beither\\s+.*\\s+or\\b",
-      "description": "either...or",
-      "examples": [
-        "The men wear suits, either white or black, and the bride and women wear special long dresses, usually the same colour. (Yugoslavia; B1 THRESHOLD; 2006; Serbian; Pass)\n\nWe can go either to the beach or",
-        "And finally, about the present, you have two options; either you get something typical from your country, which they may like because you know how much they like collecting things from all over the wo"
-      ]
-    },
-    {
-      "id": "1741163708776x915082045254572900",
-      "category": "CONJUNCTIONS",
-      "guideword": "FORM: 'PLUS' WITH NOUNS",
-      "levels": [
-        "B1"
-      ],
-      "lowest_level": "B1",
-      "spacy_patterns": [
-        [
-          {
-            "LOWER": "either"
-          }
-        ]
-      ],
-      "regex_pattern": "(?i)\\beither\\s+.*\\s+or\\b",
-      "description": "either...or",
-      "examples": [
-        "In my house we are six people, my mother, my father, my sister and my two brothers, plus my two cats, which are members of the family too. (B1 THRESHOLD; 2003; ; Pass)\n\nIt cost me £2,500 plus the taxe"
-      ]
-    },
-    {
-      "id": "1741163708776x893117091364795400",
-      "category": "CONJUNCTIONS",
-      "guideword": "FORM: COMPLEX ADDING",
-      "levels": [
-        "B1"
-      ],
-      "lowest_level": "B1",
-      "spacy_patterns": [
-        [
-          {
-            "LOWER": "either"
-          }
-        ]
-      ],
-      "regex_pattern": "(?i)\\beither\\s+.*\\s+or\\b",
-      "description": "either...or",
-      "examples": [
-        "I was scared and closed the window, but I couldn't sleep, so a few minutes later I opened the window again, but they were gone. (B1 THRESHOLD; 2007; Portuguese; Pass)\n\nThen we went to his limousine an"
-      ]
-    },
-    {
-      "id": "1741163708788x305019632595426400",
-      "category": "CONJUNCTIONS",
-      "guideword": "FORM: SIMPLE",
-      "levels": [
-        "B1",
-        "B2"
-      ],
-      "lowest_level": "B1",
-      "spacy_patterns": [
-        [
-          {
-            "LOWER": "either"
-          }
-        ]
-      ],
-      "regex_pattern": "(?i)\\beither\\s+.*\\s+or\\b",
-      "description": "either...or",
-      "examples": [
-        "In fact, I have to buy a desk, as I don't have one. (French)\n\nI usually read during the afternoon after I have finished my homework. (Italian) \n\nBefore going out in the centre, we went to a pub in ord",
-        "Believe me, once you have tried it, you'll never give it up. (Spanish - Latin American)\n\nOnce you become an employee, you'll get discounts on books and CDs. (French)\n\nSome of us find it very useful wh"
-      ]
-    },
-    {
-      "id": "1741163708783x595841847573481700",
-      "category": "CONJUNCTIONS",
-      "guideword": "FORM/USE: 'BOTH … AND' WITH PHRASES AND CLAUSES",
-      "levels": [
-        "B2"
-      ],
-      "lowest_level": "B2",
-      "spacy_patterns": [
-        [
-          {
-            "LOWER": "either"
-          }
-        ]
-      ],
-      "regex_pattern": "(?i)\\beither\\s+.*\\s+or\\b",
-      "description": "either...or",
-      "examples": [
-        "And we have won a high reputation both at home and abroad. (China; B2 VANTAGE; 2008; Chinese; Pass)\n\nA lot of people think that television can both entertain and educate. (Italy; B2 VANTAGE; 2004; Ita"
-      ]
-    },
-    {
-      "id": "1741163708783x837178860138102800",
-      "category": "CONJUNCTIONS",
-      "guideword": "FORM/USE: 'NEITHER … NOR' ",
-      "levels": [
-        "B2"
-      ],
-      "lowest_level": "B2",
-      "spacy_patterns": [
-        [
-          {
-            "LOWER": "either"
-          }
-        ]
-      ],
-      "regex_pattern": "(?i)\\beither\\s+.*\\s+or\\b",
-      "description": "either...or",
-      "examples": [
-        "Neither you nor I would like that. (Sweden; B2 VANTAGE; 1993; Swedish; Pass)\n\nWe can neither eat nor drink during the lessons. (Poland; B2 VANTAGE; 2000; Polish; Pass)\n\nI have neither climbed nor surf"
-      ]
-    },
-    {
-      "id": "1741163708788x412817088848612500",
-      "category": "CONJUNCTIONS",
-      "guideword": "FORM: COMPLEX",
-      "levels": [
-        "B2"
-      ],
-      "lowest_level": "B2",
-      "spacy_patterns": [
-        [
-          {
-            "LOWER": "either"
-          }
-        ]
-      ],
-      "regex_pattern": "(?i)\\beither\\s+.*\\s+or\\b",
-      "description": "either...or",
-      "examples": [
-        "As far as I am concerned, keeping animals in zoos is not cruel as long as the zoos keep to certain rules concerning the conditions the animals have to be kept in. (Dutch)\n\nI decided to go to Paris as "
-      ]
-    },
-    {
-      "id": "1741163708784x986774694963059200",
-      "category": "CONJUNCTIONS",
-      "guideword": "FORM/USE: 'NOT ONLY … BUT ALSO'",
-      "levels": [
-        "C1"
-      ],
-      "lowest_level": "C1",
-      "spacy_patterns": [
-        [
-          {
-            "LOWER": "either"
-          }
-        ]
-      ],
-      "regex_pattern": "(?i)\\beither\\s+.*\\s+or\\b",
-      "description": "either...or",
-      "examples": [
-        "This book is not only a guide to the history of music but also a compendium of theory. (Spain; C1 EFFECTIVE OPERATIONAL PROFICIENCY; 1999; Catalan; Pass)\n\nIn addition to that, if we move to the new pr"
-      ]
-    },
-    {
-      "id": "1741163708784x576043020818136800",
-      "category": "CONJUNCTIONS",
-      "guideword": "FORM/USE: 'NOT ONLY … BUT ALSO' WITH INVERSION",
-      "levels": [
-        "C1"
-      ],
-      "lowest_level": "C1",
-      "spacy_patterns": [
-        [
-          {
-            "LOWER": "either"
-          }
-        ]
-      ],
-      "regex_pattern": "(?i)\\beither\\s+.*\\s+or\\b",
-      "description": "either...or",
-      "examples": [
-        "Indeed, not only did they teach us useful knowledge, but they also organised practical exercises to ensure that we had assimilated all the information. (Greece; C1 EFFECTIVE OPERATIONAL PROFICIENCY; 2"
-      ]
-    },
-    {
-      "id": "1741163708784x613382438137329400",
-      "category": "CONJUNCTIONS",
-      "guideword": "FORM/USE: 'YET', CONCESSIVE",
-      "levels": [
-        "C1"
-      ],
-      "lowest_level": "C1",
-      "spacy_patterns": [
-        [
-          {
-            "LOWER": "either"
-          }
-        ]
-      ],
-      "regex_pattern": "(?i)\\beither\\s+.*\\s+or\\b",
-      "description": "either...or",
-      "examples": [
-        "In the face of these recent events, our department also reviewed the contract with ProLine International, and found some interesting yet unpleasant details. (Romania; C1 EFFECTIVE OPERATIONAL PROFICIE"
-      ]
-    },
-    {
-      "id": "1741163708789x414676979110102140",
-      "category": "CONJUNCTIONS",
-      "guideword": "FORM/USE: FOCUS",
-      "levels": [
-        "C1"
-      ],
-      "lowest_level": "C1",
-      "spacy_patterns": [
-        [
-          {
-            "LOWER": "either"
-          }
-        ]
-      ],
-      "regex_pattern": "(?i)\\beither\\s+.*\\s+or\\b",
-      "description": "either...or",
-      "examples": [
-        "Whatever you choose, you'll probably have to share it with other people. (Swedish)\n\nWhatever the cause of the fall in the standard of your services is, we would strongly recommend that you take all th"
-      ]
-    },
-    {
-      "id": "1741163708784x977839839085230600",
-      "category": "CONJUNCTIONS",
-      "guideword": "FORM/USE: 'AND YET', CONCESSIVE",
-      "levels": [
-        "C2"
-      ],
-      "lowest_level": "C2",
-      "spacy_patterns": [
-        [
-          {
-            "LOWER": "either"
-          }
-        ]
-      ],
-      "regex_pattern": "(?i)\\beither\\s+.*\\s+or\\b",
-      "description": "either...or",
-      "examples": [
-        "If I had, I would try to do the best for them, just like my parents did, and very likely I would make the same mistakes. And yet, I think I would be a good and loving father. (Germany; C2 MASTERY; 199"
-      ]
-    },
-    {
-      "id": "1741163708789x914655436588860800",
-      "category": "CONJUNCTIONS",
-      "guideword": "FORM/USE: 'IN THAT'",
-      "levels": [
-        "C2"
-      ],
-      "lowest_level": "C2",
-      "spacy_patterns": [
-        [
-          {
-            "LOWER": "either"
-          }
-        ]
-      ],
-      "regex_pattern": "(?i)\\beither\\s+.*\\s+or\\b",
-      "description": "either...or",
-      "examples": [
-        "Nowadays it is widely argued that professional sports are damaging to people's health in that they involve gruelling training sessions as an integral part of the occupation. (Russian)\n\nIt's often said"
-      ]
-    },
-    {
-      "id": "1741163708784x444948210386186400",
-      "category": "CONJUNCTIONS",
-      "guideword": "FORM/USE: 'NEITHER'",
-      "levels": [
-        "C2"
-      ],
-      "lowest_level": "C2",
-      "spacy_patterns": [
-        [
-          {
-            "LOWER": "either"
-          }
-        ]
-      ],
-      "regex_pattern": "(?i)\\beither\\s+.*\\s+or\\b",
-      "description": "either...or",
-      "examples": [
-        "Nevertheless, I have no recollection of ever leaving my diary. In fact, I can clearly remember that I kept it with me all the time I was working. Neither do I remember losing it during the time I was "
       ]
     }
   ]

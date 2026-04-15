@@ -2,49 +2,23 @@
   "group": "VERBAL_MORPHOLOGY",
   "detection_method": "spacy.matcher.Matcher on verb TAG sequences (VBD, VBN, VBZ, MD+VB, etc.) + Regex for auxiliaries",
   "description": "Rules covering the English tense and aspect system: past/present/future forms, passive voice, and verb constructions. Unified detection via verb POS tag sequences and auxiliary patterns.",
-  "total_structures": 230,
+  "total_structures": 65,
   "categories": {
-    "PAST": 57,
-    "PRESENT": 28,
-    "FUTURE": 56,
-    "PASSIVES": 37,
-    "VERBS": 52
+    "PRESENT": 3,
+    "PAST": 13,
+    "PASSIVES": 8,
+    "VERBS": 27,
+    "FUTURE": 14
   },
   "level_distribution": {
-    "A1": 19,
-    "A2": 55,
-    "B1": 61,
-    "B2": 58,
-    "C1": 20,
-    "C2": 17
+    "A1": 12,
+    "A2": 25,
+    "B1": 16,
+    "B2": 8,
+    "C1": 3,
+    "C2": 1
   },
   "structures": [
-    {
-      "id": "1741163713121x244049823776565150",
-      "category": "PRESENT",
-      "guideword": "FORM: AFFIRMATIVE",
-      "levels": [
-        "A1",
-        "A2",
-        "B1"
-      ],
-      "lowest_level": "A1",
-      "pos_patterns": [
-        [
-          {
-            "TAG": "VBG"
-          }
-        ]
-      ],
-      "description": "present participle",
-      "examples": [
-        "I am sending you some flowers, because you are not well. (Bengali, A1 BREAKTHROUGH, 2009)\n\nI am writing to tell you what I do every day at college. (Mandarin, ===NONE===, A1 BREAKTHROUGH, Pass, 2007)",
-        "They are very important to me, because they bring me good luck. (Key English Test, A2,Bulgarian)\n\nI hope you can come next time. (Key English Test, A2,Portuguese)\n\n The journey takes about half an hou",
-        "Every day at college I learn new words and new things. (Skills for life Elementary 1, A1, Polish)\n\nI am your new neighbour. (Skills for life Elementary 1, A1, Panjabi)\n\nShe plays tennis and she likes ",
-        "I was waiting for you all Saturday evening. (Spanish - European, A2 WAYSTAGE, Pass, 2004) \n\n[talking about a holiday] I was swimming and sunbathing every day. (Russian, A2 WAYSTAGE, Pass, 2009)\n\nWe we",
-        "I had been working on the project for over a year. (France; B1 THRESHOLD; 2004; French; Pass)\n\nWe had been waiting for hours. (Greece; B1 THRESHOLD; 2007; Greek; Pass)\n\nI didn't need so much, because "
-      ]
-    },
     {
       "id": "1741163713121x303053781636601900",
       "category": "PRESENT",
@@ -91,31 +65,8 @@
       "description": "present participle",
       "examples": [
         "I really like my kitchen, because it is big and new and it makes my cooking easy. (Skills for life Elementary 1; A1, Somali)\n\nI really want to see you. (Skills for life Elementary 1, A1, Polish)"
-      ]
-    },
-    {
-      "id": "1741163713121x475189487230063500",
-      "category": "PRESENT",
-      "guideword": "USE: EVENTS IN PROGRESS",
-      "levels": [
-        "A1",
-        "A2",
-        "B1"
       ],
-      "lowest_level": "A1",
-      "pos_patterns": [
-        [
-          {
-            "TAG": "VBG"
-          }
-        ]
-      ],
-      "description": "present participle",
-      "examples": [
-        "I am watching a swimming competition. (A2 Portuguese)\n\nI'm selling an English book. It's called \"English II\". (A2 Spanish - Latin American)\n\nIt's June and it's getting warmer. (A2 German)",
-        "[in a message to someone who is ill] We are missing you. (A1 BREAKTHROUGH; 2009; Nepali; Pass)\n\nI am sending you these flowers because I think that you will like these pretty flowers and you will get ",
-        "I’m planning a picnic on Saturday in the park. (Serbian, Yugoslavia, B1 THRESHOLD, Pass, 2009)\n\nI’m expecting my cousin to visit me. (Portuguese, Brazil, B1 THRESHOLD, Pass, 2004)\n\nI think I am fallin"
-      ]
+      "regex_pattern": "(?i)\\breally\\b"
     },
     {
       "id": "1741163712739x802711964566174800",
@@ -136,26 +87,6 @@
       ]
     },
     {
-      "id": "1741163713626x414037782388433340",
-      "category": "PRESENT",
-      "guideword": "USE: HABITS AND GENERAL FACTS",
-      "levels": [
-        "A1"
-      ],
-      "lowest_level": "A1",
-      "pos_patterns": [
-        [
-          {
-            "TAG": "VBG"
-          }
-        ]
-      ],
-      "description": "present participle",
-      "examples": [
-        "I work in a supermarket. (Skills for life Elementary 1, A1, Russian)\n\nI like my place because it is quiet, the people are nice, it is near the town centre, not too far from the college and my flat is "
-      ]
-    },
-    {
       "id": "1741163713626x199664325289681020",
       "category": "PRESENT",
       "guideword": "FORM/USE: REAL AND IMAGINED SITUATIONS AFTER 'IF'",
@@ -173,7 +104,8 @@
       "description": "present participle",
       "examples": [
         "If you want some help, I will be free next week. (Key English Test, A2, French)\n\nIf you go with your parents, you will go walking or swimming, but if you go with friends, you will have more fun. (Key "
-      ]
+      ],
+      "regex_pattern": "(?i)\\bif\\b"
     },
     {
       "id": "1741163712747x157745710696413300",
@@ -191,7 +123,8 @@
       "description": "past tense",
       "examples": [
         "I haven't eaten Italian food for a long time. (Ecuador; A2 WAYSTAGE; 2003; Spanish - Latin American; Pass)\n\nI'm sorry I haven't written for so long. (Greece; A2 WAYSTAGE; 2009; Greek; Pass)\n\nI haven't"
-      ]
+      ],
+      "regex_pattern": "(?i)\\bfor\\b"
     },
     {
       "id": "1741163712047x673355343552202160",
@@ -209,7 +142,8 @@
       "description": "past participle (passive)",
       "examples": [
         "It was bought by my uncle. (China; A2 WAYSTAGE; 2004; Chinese; Pass)\n\nIt's made by Sony-Ericsson, I love it … (Italy; A2 WAYSTAGE; 2007; Italian; Pass)\n\n… it was written by an excellent author, Lev To"
-      ]
+      ],
+      "regex_pattern": "(?i)\\bby\\b"
     },
     {
       "id": "1741163712747x124721408738829090",
@@ -227,69 +161,8 @@
       "description": "past tense",
       "examples": [
         "[talking about a new mobile phone] I haven't seen it yet . (Cyprus; A2 WAYSTAGE; 2009; Greek; Pass)\n\n[talking about a book] It's very important because I haven't finished it yet. (Nepal; A2 WAYSTAGE; "
-      ]
-    },
-    {
-      "id": "1741163713121x994056627950362600",
-      "category": "PRESENT",
-      "guideword": "FORM/USE: WITH ADVERBS OF INDEFINITE FREQUENCY",
-      "levels": [
-        "A2",
-        "C2"
       ],
-      "lowest_level": "A2",
-      "pos_patterns": [
-        [
-          {
-            "TAG": "VBG"
-          }
-        ]
-      ],
-      "description": "present participle",
-      "examples": [
-        "I'm always dreaming about a job as a secretary. (A2, Polish) \n\nYou are always losing things. (Cuba; A2 WAYSTAGE; 2006; Spanish - Latin American; Pass)\n\nShe is always smiling. (Bulgarian, Bulgaria, A2 ",
-        "… we are persistently asking ourselves questions about where we are from and why we are here. (C2, Russian)\n\nDuring life we are permanently learning and increasing our knowledge. (Spanish - Latin Amer"
-      ]
-    },
-    {
-      "id": "1741163713633x978808878460501800",
-      "category": "PRESENT",
-      "guideword": "FORM: INDIRECT QUESTIONS",
-      "levels": [
-        "A2"
-      ],
-      "lowest_level": "A2",
-      "pos_patterns": [
-        [
-          {
-            "TAG": "VBG"
-          }
-        ]
-      ],
-      "description": "present participle",
-      "examples": [
-        "Do you know how to get to my house? (Key English Test, A2, Spanish)\n\nDo you know which present I like best? (Key English Test, A2, Chinese)"
-      ]
-    },
-    {
-      "id": "1741163713633x552588242206544260",
-      "category": "PRESENT",
-      "guideword": "FORM: NEGATIVE ",
-      "levels": [
-        "A2"
-      ],
-      "lowest_level": "A2",
-      "pos_patterns": [
-        [
-          {
-            "TAG": "VBG"
-          }
-        ]
-      ],
-      "description": "present participle",
-      "examples": [
-        "I don't need the video because I've got the DVD. (Key English Test, A2, Greek)\n\nYou don't bring anything because it's the first day. (Key English Test, A2, Spanish - European)\n\nIt doesn't cost very mu"
-      ]
+      "regex_pattern": "(?i)\\byet\\b"
     },
     {
       "id": "1741163712047x352927366474730100",
@@ -333,94 +206,6 @@
       ]
     },
     {
-      "id": "1741163712047x585480674416874600",
-      "category": "PASSIVES",
-      "guideword": "FORM: PRESENT SIMPLE, AFFIRMATIVE",
-      "levels": [
-        "A2"
-      ],
-      "lowest_level": "A2",
-      "pos_patterns": [
-        [
-          {
-            "TAG": "VBZ"
-          },
-          {
-            "TAG": "VBN"
-          }
-        ],
-        [
-          {
-            "TAG": "VBP"
-          },
-          {
-            "TAG": "VBN"
-          }
-        ],
-        [
-          {
-            "TAG": "VBD"
-          },
-          {
-            "TAG": "VBN"
-          }
-        ]
-      ],
-      "description": "am/is/are + past participle",
-      "examples": [
-        "The group is called \"playmo\". (France; A2 WAYSTAGE; 2005; French; Pass)\n\nI bought a T-shirt, it cost £42 because it is made of cotton. (Argentina; A2 WAYSTAGE; 2008; Spanish - Latin American; Pass)"
-      ]
-    },
-    {
-      "id": "1741163713121x821705049205782300",
-      "category": "PRESENT",
-      "guideword": "FORM: QUESTIONS",
-      "levels": [
-        "A2",
-        "B1",
-        "B2",
-        "C2"
-      ],
-      "lowest_level": "A2",
-      "pos_patterns": [
-        [
-          {
-            "TAG": "VBG"
-          }
-        ]
-      ],
-      "description": "present participle",
-      "examples": [
-        "Dear Mom, How are you doing? (Thailand; A2 WAYSTAGE; 2010; Thai; Pass)\n\nWhat are you bringing with you? (Cyprus; A2 WAYSTAGE; 2009; Greek; Pass)",
-        "Does your brother go with your parents? (Preliminary English Test, B1, German)\n\nWhich programmes do we like to watch? (B1 Farsi)\n\nWhere do they want to spend their holidays? (Preliminary English Test,",
-        "Was my mother going to die? (Spain; B1 THRESHOLD; 2008; Spanish - European; Pass)\n\nI couldnt see anybody, then there he was, my hero, my favorite singer Bob Dylan saying my name, but was he calling me",
-        "What had he been doing that morning? (France; C2 MASTERY; 1993; French; Pass)\n\nSo, why had she been waiting for so long a time? (France; C2 MASTERY; 1993; French; Fail)",
-        "Had I made the same mistake twice? (B2; 1993; German; Pass)\n\n… the question was: Why had he done that? (Spain; B1 THRESHOLD; 2008; Spanish - European; Pass)"
-      ]
-    },
-    {
-      "id": "1741163713633x426061404387356740",
-      "category": "PRESENT",
-      "guideword": "FORM: QUESTIONS ",
-      "levels": [
-        "A2",
-        "C1"
-      ],
-      "lowest_level": "A2",
-      "pos_patterns": [
-        [
-          {
-            "TAG": "VBG"
-          }
-        ]
-      ],
-      "description": "present participle",
-      "examples": [
-        "Do you have a mobile phone? (Key English Test, A2, Greek)\n\nDo you know we are going to have a concert at school?(Key English Test, A2, Bengali) \n\nWhat do you think about my mobile phone? (Key English ",
-        "Did you spot the fact that what is expected from us in Tall Trees Campsite is to help in organising the entertainment? (Sri Lanka; C1 EFFECTIVE OPERATIONAL PROFICIENCY; 2008; Singhalese; Pass)\n\nHow di"
-      ]
-    },
-    {
       "id": "1741163712740x766192438162604200",
       "category": "PAST",
       "guideword": "FORM: WITH 'WHEN'",
@@ -436,187 +221,8 @@
       "description": "past tense",
       "examples": [
         "When I arrived, the weather was horrible. (Argentina; A2 WAYSTAGE; 2009; Spanish - Latin American; Pass)\n\n[talking about a missing phone] I think I left it in the kitchen when I fell on the slippery f"
-      ]
-    },
-    {
-      "id": "1741163712321x580479358300843000",
-      "category": "PAST",
-      "guideword": "FORM: WITH ADVERBS",
-      "levels": [
-        "A2",
-        "B1",
-        "B2"
       ],
-      "lowest_level": "A2",
-      "pos_patterns": [
-        {
-          "TAG": "VBD"
-        }
-      ],
-      "description": "past tense",
-      "examples": [
-        "I was just watching a football match. (Bengali, A2 WAYSTAGE, Pass, 2007)\n\n[talking about wanting to get a kitten] I was always dreaming about it. (Russian, A2 WAYSTAGE, Pass, 2004)",
-        "He was still waiting at the traffic light. (Italian, B1 THRESHOLD, Pass, 2008)\n\nHe was actually acting like a ghost. (Chinese, B1 THRESHOLD, Pass, 2008)",
-        "My younger brother was constantly bothering me. (Russian, B2 VANTAGE, Pass, 1997)\n\nOne day, as she was wistfully walking in the dusk of that day, she told herself she could either go on living her lon",
-        "I had been working hard at my job and I had really been looking forward to this holiday. (Sweden; B2 VANTAGE; 1993; Swedish; Pass)\n\nWhen he died, he was a rich man, he had only been living ten months ",
-        "He had finally achieved his goal! (Greece; B2 VANTAGE; 2009; Greek; Pass)\n\nShe had suddenly woken up at that noise, but now was trying to persuade herself it was just a dream. (Italy; B2 VANTAGE; 1999"
-      ]
-    },
-    {
-      "id": "1741163713633x403618875526840800",
-      "category": "PRESENT",
-      "guideword": "FORM: WITH ADVERBS OF INDEFINITE FREQUENCY ",
-      "levels": [
-        "A2"
-      ],
-      "lowest_level": "A2",
-      "pos_patterns": [
-        [
-          {
-            "TAG": "VBG"
-          }
-        ]
-      ],
-      "description": "present participle",
-      "examples": [
-        "People usually try to eat their breakfast between 7 and 9 am. (Skills for Life Elementary 2, A2, Polish)\n\nThey always make special things for their celebrations. (Skills for Life Elementary 2, A2, Pan"
-      ]
-    },
-    {
-      "id": "1741163712321x614372617735755500",
-      "category": "PAST",
-      "guideword": "USE: BACKGROUND EVENTS",
-      "levels": [
-        "A2"
-      ],
-      "lowest_level": "A2",
-      "pos_patterns": [
-        {
-          "TAG": "VBD"
-        }
-      ],
-      "description": "past tense",
-      "examples": [
-        " Yesterday we were studying maths in your house, and I left my book on your bed. (Spanish - Latin American, A2 WAYSTAGE, Pass, 2005)\n\nIt was raining when I arrived. (German, A2 WAYSTAGE, Pass, 2005)\n"
-      ]
-    },
-    {
-      "id": "1741163712321x644327601969835100",
-      "category": "PAST",
-      "guideword": "USE: EVENTS IN PROGRESS ",
-      "levels": [
-        "A2"
-      ],
-      "lowest_level": "A2",
-      "pos_patterns": [
-        {
-          "TAG": "VBD"
-        }
-      ],
-      "description": "past tense",
-      "examples": [
-        "I went to a soccer game, they were playing the last game to get the championship. (Spanish - Latin American, A2 WAYSTAGE, Pass, 2007)\n\nIt was raining, but the concert was so good that I did not mind. "
-      ]
-    },
-    {
-      "id": "1741163713101x851368956145501200",
-      "category": "PAST",
-      "guideword": "USE: EXPERIENCES",
-      "levels": [
-        "A2"
-      ],
-      "lowest_level": "A2",
-      "pos_patterns": [
-        {
-          "TAG": "VBD"
-        }
-      ],
-      "description": "past tense",
-      "examples": [
-        "I've seen the British Museum. (Taiwan; A2 WAYSTAGE; 1999; Chinese; Pass)\n\nWe have visited the Coliseum and several museums. (Russia; A2 WAYSTAGE; 2009; Armenian; Pass)\n\nAfter the film, we should go to"
-      ]
-    },
-    {
-      "id": "1741163713633x795560331040402300",
-      "category": "PRESENT",
-      "guideword": "USE: INSTRUCTIONS AND DIRECTIONS",
-      "levels": [
-        "A2"
-      ],
-      "lowest_level": "A2",
-      "pos_patterns": [
-        [
-          {
-            "TAG": "VBG"
-          }
-        ]
-      ],
-      "description": "present participle",
-      "examples": [
-        "Then you turn right and my house is on your left. (Key English Test, A2, Greek)\n\nTo find my house you have to leave the bus at the station \"Unberhof\" Then you go straight on for about fifty meters. (K"
-      ]
-    },
-    {
-      "id": "1741163713633x569058685257493250",
-      "category": "PRESENT",
-      "guideword": "USE: MENTAL PROCESS VERBS",
-      "levels": [
-        "A2",
-        "B1"
-      ],
-      "lowest_level": "A2",
-      "pos_patterns": [
-        [
-          {
-            "TAG": "VBG"
-          }
-        ]
-      ],
-      "description": "present participle",
-      "examples": [
-        "I think my bag is in your kitchen. (Key English Test, A2,German)\n\nI hope that you feel better. (Skills for Life Elementary 2, A2, Polish)\n\nDo you know  that I am going to a concert on Saturday. (Key E",
-        "I'm reading an adventure book, I don't remember the title but it's very boring! (Preliminary English Test, B1, Italian)\n\nWell, I totally understand that you want to go somewhere with your friends. (Pr"
-      ]
-    },
-    {
-      "id": "1741163713633x569339192426698800",
-      "category": "PRESENT",
-      "guideword": "USE: SUGGESTIONS ",
-      "levels": [
-        "A2"
-      ],
-      "lowest_level": "A2",
-      "pos_patterns": [
-        [
-          {
-            "TAG": "VBG"
-          }
-        ]
-      ],
-      "description": "present participle",
-      "examples": [
-        "Why don't you wear your black suit? (Key English Test, A2, Arabic – Levant)\n\nWhy don’t we go to a disco when the film ends? (Key English Test, A2, Spanish – Latin American)\n\nWe could have dinner after"
-      ]
-    },
-    {
-      "id": "1741163713121x782587803688478800",
-      "category": "PRESENT",
-      "guideword": "USE: TEMPORARY SITUATIONS ",
-      "levels": [
-        "A2"
-      ],
-      "lowest_level": "A2",
-      "pos_patterns": [
-        [
-          {
-            "TAG": "VBG"
-          }
-        ]
-      ],
-      "description": "present participle",
-      "examples": [
-        "[talking about a temporary situation] I'm living with my friend in Wolverhampton. I'm studying at Wolverhampton College. (A2 Arabic - European)\n\nMy mother is working today so my older brother can brin"
-      ]
+      "regex_pattern": "(?i)\\bwhen\\b"
     },
     {
       "id": "1741163712332x914076237100333000",
@@ -634,7 +240,8 @@
       "description": "past tense",
       "examples": [
         "If the weather had been better, we would have enjoyed it more. (Argentina; B1 THRESHOLD; 2003; Spanish - Latin American; Pass)\n\nIf you had gone there with me, you would have been happy. (Korea, South;"
-      ]
+      ],
+      "regex_pattern": "(?i)\\bif\\b"
     },
     {
       "id": "1741163713101x501579906052687300",
@@ -652,27 +259,8 @@
       "description": "past tense",
       "examples": [
         "I have been here since August 2006. (B1 THRESHOLD; 2006; French; Pass)\n\nIt's been a long time since we went out together so I think we will have a great time at the park playing sports and chatting! ("
-      ]
-    },
-    {
-      "id": "1741163713633x233890848639745730",
-      "category": "PRESENT",
-      "guideword": "FORM/USE: NEGATIVE TAG QUESTIONS",
-      "levels": [
-        "B1"
       ],
-      "lowest_level": "B1",
-      "pos_patterns": [
-        [
-          {
-            "TAG": "VBG"
-          }
-        ]
-      ],
-      "description": "present participle",
-      "examples": [
-        "It's a bit strange, don't you think? (Preliminary English Test, B1, Spanish – Latin American)\n\nI think it’s the best way, don’t you agree? (Preliminary English Test, B1, Portuguese)\n\nThe surprise will"
-      ]
+      "regex_pattern": "(?i)\\bsince\\b"
     },
     {
       "id": "1741163713101x219481632919301660",
@@ -690,25 +278,8 @@
       "description": "past tense",
       "examples": [
         "I've already planned the party, bought his present, and most important of all, I 've already told everyone. (Mexico; B1 THRESHOLD; 2004; Spanish - Latin American; Pass)\n\nI have already bought a new ar"
-      ]
-    },
-    {
-      "id": "1741163712047x184306606922612260",
-      "category": "PASSIVES",
-      "guideword": "FORM/USE: WITH 'BY' IN A RELATIVE CLAUSE|",
-      "levels": [
-        "B1"
       ],
-      "lowest_level": "B1",
-      "pos_patterns": [
-        {
-          "TAG": "VBN"
-        }
-      ],
-      "description": "past participle (passive)",
-      "examples": [
-        "I also like wearing clothes which are manufactured by famous brands. (India; B1 THRESHOLD; 2006; Tamil; Pass)\n\nIt's the highest mountain in U.A.E. Special roads were built for people to reach the top "
-      ]
+      "regex_pattern": "(?i)\\balready\\b"
     },
     {
       "id": "1741163712056x895221609473611600",
@@ -726,7 +297,8 @@
       "description": "past participle (passive)",
       "examples": [
         "[talking about a mirror] I bought it because mine got broken, so I need it to see myself in it. (Mexico; B1 THRESHOLD; 2009; Spanish - Latin American; Pass)\n\nYou should be careful while you are crossi"
-      ]
+      ],
+      "regex_pattern": "(?i)\\b(get|gets|got|getting)\\b"
     },
     {
       "id": "1741163712332x475879228502143170",
@@ -770,307 +342,6 @@
       ]
     },
     {
-      "id": "1741163713101x767578464485243900",
-      "category": "PAST",
-      "guideword": "FORM: NEGATIVE QUESTIONS",
-      "levels": [
-        "B1"
-      ],
-      "lowest_level": "B1",
-      "pos_patterns": [
-        {
-          "TAG": "VBD"
-        }
-      ],
-      "description": "past tense",
-      "examples": [
-        "Haven't you seen it yet? (Argentina; B1 THRESHOLD; 2002; Spanish - Latin American; Pass)\n\nHaven't your parents given you their advice? (Spain; B1 THRESHOLD; 2008; Spanish - European; Pass)"
-      ]
-    },
-    {
-      "id": "1741163712048x766157093174026800",
-      "category": "PASSIVES",
-      "guideword": "FORM: PRESENT CONTINUOUS, AFFIRMATIVE ",
-      "levels": [
-        "B1",
-        "B2"
-      ],
-      "lowest_level": "B1",
-      "pos_patterns": [
-        [
-          {
-            "TAG": "VBZ"
-          },
-          {
-            "TAG": "VBN"
-          }
-        ],
-        [
-          {
-            "TAG": "VBP"
-          },
-          {
-            "TAG": "VBN"
-          }
-        ],
-        [
-          {
-            "TAG": "VBD"
-          },
-          {
-            "TAG": "VBN"
-          }
-        ]
-      ],
-      "description": "am/is/are + past participle",
-      "examples": [
-        "Did you know that the next Harry Potter movie is being filmed in my school? (Spain; B1 THRESHOLD; 2008; Catalan; Pass)\n\nWhy don't we stay at my house and visit Tokyo, where an interesting Japanese his",
-        "This year's topic is the online training for employees, which is being relaunched . (2786698_1; BECV; Germany; B2 VANTAGE; 2010; German; Pass)\nThe global temperature is rising, the ice is melting, the"
-      ]
-    },
-    {
-      "id": "1741163712048x136041892375174060",
-      "category": "PASSIVES",
-      "guideword": "FORM: PRESENT SIMPLE, AFFIRMATIVE ",
-      "levels": [
-        "B1"
-      ],
-      "lowest_level": "B1",
-      "pos_patterns": [
-        [
-          {
-            "TAG": "VBZ"
-          },
-          {
-            "TAG": "VBN"
-          }
-        ],
-        [
-          {
-            "TAG": "VBP"
-          },
-          {
-            "TAG": "VBN"
-          }
-        ],
-        [
-          {
-            "TAG": "VBD"
-          },
-          {
-            "TAG": "VBN"
-          }
-        ]
-      ],
-      "description": "am/is/are + past participle",
-      "examples": [
-        "Our office is situated near the airport. (B1 Argentina ; Spanish - Latin American)\n\nThe walls are painted in a dark blue, and the floor is wood. (B1 Dutch) "
-      ]
-    },
-    {
-      "id": "1741163712049x855374993067916200",
-      "category": "PASSIVES",
-      "guideword": "FORM: PRESENT SIMPLE, NEGATIVE",
-      "levels": [
-        "B1"
-      ],
-      "lowest_level": "B1",
-      "pos_patterns": [
-        [
-          {
-            "TAG": "VBZ"
-          },
-          {
-            "TAG": "VBN"
-          }
-        ],
-        [
-          {
-            "TAG": "VBP"
-          },
-          {
-            "TAG": "VBN"
-          }
-        ],
-        [
-          {
-            "TAG": "VBD"
-          },
-          {
-            "TAG": "VBN"
-          }
-        ]
-      ],
-      "description": "am/is/are + past participle",
-      "examples": [
-        "The story is about a girl, who is not accepted in her class. (Germany; B1 THRESHOLD; 2008; German; Pass)\n\nI think we should replace the printer, because it prints very slowly and the sheets aren't pri"
-      ]
-    },
-    {
-      "id": "1741163712741x973372936620190600",
-      "category": "PAST",
-      "guideword": "FORM: QUESTIONS  ",
-      "levels": [
-        "B1"
-      ],
-      "lowest_level": "B1",
-      "pos_patterns": [
-        {
-          "TAG": "VBD"
-        }
-      ],
-      "description": "past tense",
-      "examples": [
-        "Did you receive my present? (B1 THRESHOLD; 2003; Pass)\n\nHow did you spend your weekend? (Uzbekhistan (Republic of); B1 THRESHOLD; 2009; Russian; Pass)\n\nWhy didn't he call me? (Brazil; B1 THRESHOLD; 20"
-      ]
-    },
-    {
-      "id": "1741163712332x638122991854022300",
-      "category": "PAST",
-      "guideword": "FORM: WITH ADVERBS ",
-      "levels": [
-        "B1"
-      ],
-      "lowest_level": "B1",
-      "pos_patterns": [
-        {
-          "TAG": "VBD"
-        }
-      ],
-      "description": "past tense",
-      "examples": [
-        "It was the most beautiful one I had ever seen. (Italy; B1 THRESHOLD; 2008; Italian; Pass)\n\nSo, she came to America to see a relation she had never seen before, and she spent the money with me. (Spanis"
-      ]
-    },
-    {
-      "id": "1741163712049x737530014792900100",
-      "category": "PASSIVES",
-      "guideword": "FORM: WITH VERBS TAKING TWO OBJECTS.",
-      "levels": [
-        "B1",
-        "B2"
-      ],
-      "lowest_level": "B1",
-      "pos_patterns": [
-        {
-          "TAG": "VBN"
-        }
-      ],
-      "description": "past participle (passive)",
-      "examples": [
-        "So I was given a ticket for a train, running from Berlin to Munich. (Germany; B1 THRESHOLD; 2006; German; Pass)\n\nWe were lucky, because we were given another chance. (Yugoslavia; B1 THRESHOLD; 2006; S",
-        "I was very happy to hear that you have been offered two jobs, one in a restaurant and one in a museum. (Greece; B2 VANTAGE; 2001; Greek; Pass)\n\n[talking about a music contract] She was offered a contr"
-      ]
-    },
-    {
-      "id": "1741163712328x572489570915366600",
-      "category": "PAST",
-      "guideword": "USE: BACKGROUND EVENTS ",
-      "levels": [
-        "B1"
-      ],
-      "lowest_level": "B1",
-      "pos_patterns": [
-        {
-          "TAG": "VBD"
-        }
-      ],
-      "description": "past tense",
-      "examples": [
-        "I had been waiting for this letter for months, so I opened it immediately. (Italy; B1 THRESHOLD; 2008; Italian; Pass)\n\nOnce I had been watching TV for 6 hours when my Mum suddenly switched it off. (Ru"
-      ]
-    },
-    {
-      "id": "1741163712328x701653383761448700",
-      "category": "PAST",
-      "guideword": "USE: CONTINUING EVENTS IN THE PAST",
-      "levels": [
-        "B1"
-      ],
-      "lowest_level": "B1",
-      "pos_patterns": [
-        {
-          "TAG": "VBD"
-        }
-      ],
-      "description": "past tense",
-      "examples": [
-        "I know it very well because we had been exchanging letters for a long time. (Spain; B1 THRESHOLD; 2008; Spanish - European; Pass) \n\nShe had been going there since she was ten years old. (Mexico; B1 TH"
-      ]
-    },
-    {
-      "id": "1741163712049x551851143800730300",
-      "category": "PASSIVES",
-      "guideword": "USE: GIVING FOCUS WITH 'BY'",
-      "levels": [
-        "B1"
-      ],
-      "lowest_level": "B1",
-      "pos_patterns": [
-        {
-          "TAG": "VBN"
-        }
-      ],
-      "description": "past participle (passive)",
-      "examples": [
-        "My school was chosen by the TV company because it is one of the newest in town. (Italy; B1 THRESHOLD; 2008; Italian; Pass)"
-      ]
-    },
-    {
-      "id": "1741163712741x169127699349836300",
-      "category": "PAST",
-      "guideword": "USE: HABITUAL STATES OR ACTIONS",
-      "levels": [
-        "B1"
-      ],
-      "lowest_level": "B1",
-      "pos_patterns": [
-        {
-          "TAG": "VBD"
-        }
-      ],
-      "description": "past tense",
-      "examples": [
-        "… he always seemed so confident to me! (Brazil; B1 THRESHOLD; 2002; Portuguese; Pass)\n\n… we always talked during the class. (Uruguay; B1 THRESHOLD; 2009; Spanish - Latin American; Pass)"
-      ]
-    },
-    {
-      "id": "1741163712741x766030441271033700",
-      "category": "PAST",
-      "guideword": "USE: IMAGINED SITUATIONS AFTER 'IF'",
-      "levels": [
-        "B1"
-      ],
-      "lowest_level": "B1",
-      "pos_patterns": [
-        {
-          "TAG": "VBD"
-        }
-      ],
-      "description": "past tense",
-      "examples": [
-        "It would be better if you spent some time in the fresh air with your friends or walking in a park. (B1, Russian) \n\nIf you wanted to do some outdoor activities, we could go fishing or even walking thro"
-      ]
-    },
-    {
-      "id": "1741163712741x502986363867653060",
-      "category": "PAST",
-      "guideword": "USE: ORDERING OF PAST EVENTS",
-      "levels": [
-        "B1"
-      ],
-      "lowest_level": "B1",
-      "pos_patterns": [
-        {
-          "TAG": "VBD"
-        }
-      ],
-      "description": "past tense",
-      "examples": [
-        "I remember her as a shy girl, but I read she became a manager, she went on lots of trips, she met a lot of new friends, she got married and then she got divorced. (Italy; B1 THRESHOLD; 2004; Italian; "
-      ]
-    },
-    {
       "id": "1741163712049x264322572450322000",
       "category": "PASSIVES",
       "guideword": "USE: PRESENT CONTINUOUS, FUTURE REFERENCE",
@@ -1094,272 +365,6 @@
       ]
     },
     {
-      "id": "1741163712321x656261946310561000",
-      "category": "PAST",
-      "guideword": "USE: REASON ",
-      "levels": [
-        "B1"
-      ],
-      "lowest_level": "B1",
-      "pos_patterns": [
-        {
-          "TAG": "VBD"
-        }
-      ],
-      "description": "past tense",
-      "examples": [
-        "Because she was sitting in the corner, she could see the whole view of the café in front of her. (Arabic - Meghreb, B1 THRESHOLD, Pass, 2008)\n\nYesterday a TV company came to my school because they wer"
-      ]
-    },
-    {
-      "id": "1741163712747x939400938846862500",
-      "category": "PAST",
-      "guideword": "USE: RECENT PAST",
-      "levels": [
-        "B1",
-        "B2"
-      ],
-      "lowest_level": "B1",
-      "pos_patterns": [
-        {
-          "TAG": "VBD"
-        }
-      ],
-      "description": "past tense",
-      "examples": [
-        "They might be slippery when it has been snowing. (Sweden; B2 VANTAGE; 1993; Swedish; Pass)",
-        "My mother has broken her right leg. (Peru; B1 THRESHOLD; 2006; German; Pass)\n\nI've just received your mail. (France; B1 THRESHOLD; 2004; French; Pass)\n\nI've found a job for you. (Italy; B1 THRESHOLD; "
-      ]
-    },
-    {
-      "id": "1741163712741x640931114927365400",
-      "category": "PAST",
-      "guideword": "USE: REGRET",
-      "levels": [
-        "B1"
-      ],
-      "lowest_level": "B1",
-      "pos_patterns": [
-        {
-          "TAG": "VBD"
-        }
-      ],
-      "description": "past tense",
-      "examples": [
-        "I wish that you were here, cycling with us. (B1, Portuguese)\n\nI wish you were here with me. I wish we were together. (B1, French)\n\nI wish weekends lasted five days. (B1, Polish)"
-      ]
-    },
-    {
-      "id": "1741163712744x249654248066045100",
-      "category": "PAST",
-      "guideword": "USE: REPEATED CONTINUING EVENTS",
-      "levels": [
-        "B1"
-      ],
-      "lowest_level": "B1",
-      "pos_patterns": [
-        {
-          "TAG": "VBD"
-        }
-      ],
-      "description": "past tense",
-      "examples": [
-        "I've been watching TV a lot, specially the sports programmes. (Brazil; B1 THRESHOLD; 2010; Portuguese; Pass) \n\nI have been playing my new game. (Turkey; B1 THRESHOLD; 2010; Turkish; Pass)\n\nLast week I"
-      ]
-    },
-    {
-      "id": "1741163712327x699835533298048600",
-      "category": "PAST",
-      "guideword": "USE: REPEATED EVENTS",
-      "levels": [
-        "B1"
-      ],
-      "lowest_level": "B1",
-      "pos_patterns": [
-        {
-          "TAG": "VBD"
-        }
-      ],
-      "description": "past tense",
-      "examples": [
-        "Worst of all, in September it was always raining. (Portugal; B1 THRESHOLD; 2007; Portuguese; Pass)\n\nHe was always talking about this prize but I never thought he would win it. (Sri Lanka; B1 THRESHOLD"
-      ]
-    },
-    {
-      "id": "1741163713636x311000387736377600",
-      "category": "PRESENT",
-      "guideword": "USE: REPORTING VERBS",
-      "levels": [
-        "B1",
-        "C1"
-      ],
-      "lowest_level": "B1",
-      "pos_patterns": [
-        [
-          {
-            "TAG": "VBG"
-          }
-        ]
-      ],
-      "description": "present participle",
-      "examples": [
-        "For example, I know a person that moved to my city two years ago, and now he says that it improved his social life. (Preliminary English Test, B1, Italian)\n\nThe movie shows how a pretty woman with all",
-        "The popularity of this TV game in Russia clearly demonstrates the nature of human fears and dreams. (Certificate in Advanced English, C1, Russian)\n\nThe 2 charts illustrate the number of employees, and"
-      ]
-    },
-    {
-      "id": "1741163712747x851758421234194700",
-      "category": "PAST",
-      "guideword": "USE: SINGLE CONTINUING EVENT",
-      "levels": [
-        "B1"
-      ],
-      "lowest_level": "B1",
-      "pos_patterns": [
-        {
-          "TAG": "VBD"
-        }
-      ],
-      "description": "past tense",
-      "examples": [
-        "I've been studying International business there for four years. (Algeria; B1 THRESHOLD; 2003; Arabic - Meghreb; Pass)\n\nI've been living here since last April and it seemed no problem during spring and"
-      ]
-    },
-    {
-      "id": "1741163713636x147631604573655870",
-      "category": "PRESENT",
-      "guideword": "USE: SPEECH ACT VERBS",
-      "levels": [
-        "B1",
-        "B2"
-      ],
-      "lowest_level": "B1",
-      "pos_patterns": [
-        [
-          {
-            "TAG": "VBG"
-          }
-        ]
-      ],
-      "description": "present participle",
-      "examples": [
-        "I suggest that if you travel, you should pay for your trip. (B1, Spanish – Latin American)\n\nI apologise for missing your class. (Preliminary English Test, B1, French)\n\nFor these reasons, I definitely ",
-        "We disagree with the new numbering system as it is too complicated. (B2, Swiss German)\n\nI'd love to go to the concert with you so I accept your invitation. (First Certificate in English, B2, Greek)\n\nI"
-      ]
-    },
-    {
-      "id": "1741163713121x958805116136662400",
-      "category": "PRESENT",
-      "guideword": "USE: TEMPORARY REPEATED ACTIONS",
-      "levels": [
-        "B1"
-      ],
-      "lowest_level": "B1",
-      "pos_patterns": [
-        [
-          {
-            "TAG": "VBG"
-          }
-        ]
-      ],
-      "description": "present participle",
-      "examples": [
-        "I'm doing a lot of great leisure activities. (B1 Catalan)\n\n[talking about an interactive internet game which is played over a period of time] I'm playing this exciting game called Diner Dash; it's abo"
-      ]
-    },
-    {
-      "id": "1741163713122x609663333417254100",
-      "category": "PRESENT",
-      "guideword": "USE: TEMPORARY SITUATIONS",
-      "levels": [
-        "B1"
-      ],
-      "lowest_level": "B1",
-      "pos_patterns": [
-        [
-          {
-            "TAG": "VBG"
-          }
-        ]
-      ],
-      "description": "present participle",
-      "examples": [
-        "I'm enjoying a sunny day, much better than England. (B1 Chinese) \n\nNow, I'm in a hotel, here in the centre of Madrid, and it's raining a little bit. (B1 Portuguese)"
-      ]
-    },
-    {
-      "id": "1741163712333x963626763332635600",
-      "category": "PAST",
-      "guideword": "USE: TIME UP TO THEN",
-      "levels": [
-        "B1"
-      ],
-      "lowest_level": "B1",
-      "pos_patterns": [
-        {
-          "TAG": "VBD"
-        }
-      ],
-      "description": "past tense",
-      "examples": [
-        "He then thought how stupid he had been. (Peru; B1; Spanish - Latin American; Pass)\n\nActually I'd arranged an appointment with my doctor before calling you. (B1; Arabic – Meghreb; Pass)"
-      ]
-    },
-    {
-      "id": "1741163713102x805096612277930600",
-      "category": "PAST",
-      "guideword": "USE: UNFINISHED ",
-      "levels": [
-        "B1"
-      ],
-      "lowest_level": "B1",
-      "pos_patterns": [
-        {
-          "TAG": "VBD"
-        }
-      ],
-      "description": "past tense",
-      "examples": [
-        "In spite of bad weather forecasts on TV, it has been a sunny, warm weekend. (Spain; B1 THRESHOLD; 2003; Spanish - European; Pass)\n\nI've had a really nice week. (Vietnam; B1 THRESHOLD; 2009; Vietnamese"
-      ]
-    },
-    {
-      "id": "1741163713111x811420585366934300",
-      "category": "PAST",
-      "guideword": "USE: WITH SUPERLATIVE ",
-      "levels": [
-        "B1"
-      ],
-      "lowest_level": "B1",
-      "pos_patterns": [
-        {
-          "TAG": "VBD"
-        }
-      ],
-      "description": "past tense",
-      "examples": [
-        "This restaurant has the most delicious shrimps I have ever tasted. (Mexico; B1 THRESHOLD; 2005; Spanish - Latin American; Pass)\n\nThat is the best game I've ever played. (Romania; B1 THRESHOLD; 2010; H"
-      ]
-    },
-    {
-      "id": "1741163712057x955381549397373800",
-      "category": "PASSIVES",
-      "guideword": "FORM/USE: 'GET' + OBJECT + 'TO'-INFINITIVE",
-      "levels": [
-        "B2"
-      ],
-      "lowest_level": "B2",
-      "pos_patterns": [
-        {
-          "TAG": "VBN"
-        }
-      ],
-      "description": "past participle (passive)",
-      "examples": [
-        "I would like to point at a few things about our small town, which I, as a citizen, have to explain to our friends, in order to get them to visit us more frequently. (Sweden; B2 VANTAGE; 1993; Swedish;"
-      ]
-    },
-    {
       "id": "1741163712057x241065069713333200",
       "category": "PASSIVES",
       "guideword": "FORM/USE: 'HAVE' + OBJ + '-ED', PROACTIVE PASSIVE",
@@ -1375,7 +380,8 @@
       "description": "past participle (passive)",
       "examples": [
         "After I left you on Monday, I had my car serviced and visited Washington with its wonderful memorials. (Germany; B2 VANTAGE; 1993; Dutch; Pass)\n\nIt's such a shame that I'm having my room redecorated b"
-      ]
+      ],
+      "regex_pattern": "(?i)\\b(have|has|had)\\b"
     },
     {
       "id": "1741163712333x181896863266680420",
@@ -1393,7 +399,8 @@
       "description": "past tense",
       "examples": [
         "He was sleeping but I realised that this was because he had lost a lot of blood. (Greece; B2 VANTAGE; 1993; Greek; Pass)\n\nI was driving on to my parents' house because I had arranged to have dinner wi"
-      ]
+      ],
+      "regex_pattern": "(?i)\\bbecause\\b"
     },
     {
       "id": "1741163712333x761860144866407300",
@@ -1411,79 +418,8 @@
       "description": "past tense",
       "examples": [
         "If only I had listened to my father! (Iran; B2 VANTAGE; 1993; Farsi; Pass)\n\nIf only I had met her before. (Spain; B2 VANTAGE; 1993; Spanish - European; Pass)\n\nI am sure, because at the end of the conc"
-      ]
-    },
-    {
-      "id": "1741163712328x669982657855112700",
-      "category": "PAST",
-      "guideword": "FORM/USE: BACKGROUND INFORMATION WITH RELATIVE CLAUSE",
-      "levels": [
-        "B2"
       ],
-      "lowest_level": "B2",
-      "pos_patterns": [
-        {
-          "TAG": "VBD"
-        }
-      ],
-      "description": "past tense",
-      "examples": [
-        "And there were two men who had been chasing the murderer to find out who the man is and rescue the girl.... (Korea, North; B2 VANTAGE; 2008; Korean; Pass)\n\nThe guide also tells some funny stories abou"
-      ]
-    },
-    {
-      "id": "1741163712328x663782601864534800",
-      "category": "PAST",
-      "guideword": "FORM/USE: BACKGROUND INFORMATION WITH TIME CONJUNCTION",
-      "levels": [
-        "B2"
-      ],
-      "lowest_level": "B2",
-      "pos_patterns": [
-        {
-          "TAG": "VBD"
-        }
-      ],
-      "description": "past tense",
-      "examples": [
-        "After we had been sunbathing at the beach all day long, we went every evening to a cosy restaurant called \"The Barking Cat\", where we had a good meal and some wine. (Sweden; B2 VANTAGE; 1993; Swedish;"
-      ]
-    },
-    {
-      "id": "1741163712334x897130264998052400",
-      "category": "PAST",
-      "guideword": "FORM/USE: INVERSION WITH 'NEVER (BEFORE)'",
-      "levels": [
-        "B2"
-      ],
-      "lowest_level": "B2",
-      "pos_patterns": [
-        {
-          "TAG": "VBD"
-        }
-      ],
-      "description": "past tense",
-      "examples": [
-        "Never had I been in such a ridiculous situation! (South Africa; B2 VANTAGE; 1993; Italian; Pass)\n\nNever before had we seen such marvellous species of fish. (Poland; B2 VANTAGE; 2006; Polish; Pass)"
-      ]
-    },
-    {
-      "id": "1741163712334x353325929078093700",
-      "category": "PAST",
-      "guideword": "FORM/USE: INVERSION WITH 'NO SOONER … THAN'",
-      "levels": [
-        "B2"
-      ],
-      "lowest_level": "B2",
-      "pos_patterns": [
-        {
-          "TAG": "VBD"
-        }
-      ],
-      "description": "past tense",
-      "examples": [
-        "… but no sooner had I gone to bed than someone broke the door down. (Spain; B2 VANTAGE; 1993; Spanish - European; Pass)\n\nBut, no sooner had I got there than my classmates informed me that I had done w"
-      ]
+      "regex_pattern": "(?i)\\b(if only|(wish|wishes|wished))\\b"
     },
     {
       "id": "1741163713111x611310529067472800",
@@ -1501,217 +437,8 @@
       "description": "past tense",
       "examples": [
         "I still haven't read the role but when I read it, I was very excited and I accepted Mr Brown's offer. (Greece; B2 VANTAGE; 2002; Greek; Pass)\n\nYou asked me whether I bought a computer or a bicycle and"
-      ]
-    },
-    {
-      "id": "1741163713625x686455222331109500",
-      "category": "PRESENT",
-      "guideword": "FORM/USE: WITH ADVERBS OF INDEFINITE FREQUENCY ",
-      "levels": [
-        "B2"
       ],
-      "lowest_level": "B2",
-      "pos_patterns": [
-        [
-          {
-            "TAG": "VBG"
-          }
-        ]
-      ],
-      "description": "present participle",
-      "examples": [
-        "… scientists don't really get together with top models … they are constantly studying and reading books, whereas the job of a top model is actually based on physical appearance. (B2 French)\n\n… you're "
-      ]
-    },
-    {
-      "id": "1741163712057x530445527704735500",
-      "category": "PASSIVES",
-      "guideword": "FORM: 'GET' + REFLEXIVE PRONOUN + '-ED'",
-      "levels": [
-        "B2"
-      ],
-      "lowest_level": "B2",
-      "pos_patterns": [
-        {
-          "TAG": "VBN"
-        }
-      ],
-      "description": "past participle (passive)",
-      "examples": [
-        "Although to drive a car you must be very careful because you could get yourself killed if you don't drive carefully enough. (Portugal; B2 VANTAGE; 1993; Portuguese; Pass)\n\nAlthough he has a charming p"
-      ]
-    },
-    {
-      "id": "1741163712334x957245027107264100",
-      "category": "PAST",
-      "guideword": "FORM: ELLIPSIS ",
-      "levels": [
-        "B2"
-      ],
-      "lowest_level": "B2",
-      "pos_patterns": [
-        {
-          "TAG": "VBD"
-        }
-      ],
-      "description": "past tense",
-      "examples": [
-        "But now she felt stronger and had lost her fear. (France; B2 VANTAGE; 1993; French)\n\nSimon was a very famous writer and had written ten best-sellers. (Greek; Greece; B2 VANTAGE; Pass; 2009)\n\nAll her f"
-      ]
-    },
-    {
-      "id": "1741163712049x217545267830854720",
-      "category": "PASSIVES",
-      "guideword": "FORM: INFINITIVE",
-      "levels": [
-        "B2"
-      ],
-      "lowest_level": "B2",
-      "pos_patterns": [
-        {
-          "TAG": "VBN"
-        }
-      ],
-      "description": "past participle (passive)",
-      "examples": [
-        "According to your advertisement, some training is supposed to be given. (B2 South Korean)\n\nMy composition was ready to be printed and I was searching for a piece of paper… (B2 Austria)\n\nI would prefer"
-      ]
-    },
-    {
-      "id": "1741163713636x160593634066971800",
-      "category": "PRESENT",
-      "guideword": "FORM: INVERSION WITH 'NOT ONLY … BUT ALSO'",
-      "levels": [
-        "B2",
-        "C1"
-      ],
-      "lowest_level": "B2",
-      "pos_patterns": [
-        [
-          {
-            "TAG": "VBG"
-          }
-        ]
-      ],
-      "description": "present participle",
-      "examples": [
-        "Not only do they save you filing time, but also they save office space. (First Certificate in English, B2, Chinese)\n\nNot only does it look nice but it's also full of places that we should visit, such ",
-        "The companies I found at the trade fair were very varied. Not only did I find high-technology companies, but also shoemakers, advertisement companies and plane manufacturers to name but a few. (United"
-      ]
-    },
-    {
-      "id": "1741163712049x547897454512315650",
-      "category": "PASSIVES",
-      "guideword": "FORM: MODAL PERFECT ",
-      "levels": [
-        "B2"
-      ],
-      "lowest_level": "B2",
-      "pos_patterns": [
-        {
-          "TAG": "VBN"
-        }
-      ],
-      "description": "past participle (passive)",
-      "examples": [
-        "I think that all these problems could have been avoided and that asking for my money back is the best way of forgetting that evening. (B2 Catalan)\n\nI don't remember how I lost it, it might have been s"
-      ]
-    },
-    {
-      "id": "1741163712049x932315866168376600",
-      "category": "PASSIVES",
-      "guideword": "FORM: PAST CONTINUOUS AFFIRMATIVE. ",
-      "levels": [
-        "B2"
-      ],
-      "lowest_level": "B2",
-      "pos_patterns": [
-        [
-          {
-            "TAG": "VBZ"
-          },
-          {
-            "TAG": "VBN"
-          }
-        ],
-        [
-          {
-            "TAG": "VBP"
-          },
-          {
-            "TAG": "VBN"
-          }
-        ],
-        [
-          {
-            "TAG": "VBD"
-          },
-          {
-            "TAG": "VBN"
-          }
-        ]
-      ],
-      "description": "am/is/are + past participle",
-      "examples": [
-        "However, to my disappointment, the restaurant was closed because it was being redecorated. (B2 Chinese)\n\nAfter they explained everything to him, he then knew he was being tricked by them and that this"
-      ]
-    },
-    {
-      "id": "1741163712049x417888525913085100",
-      "category": "PASSIVES",
-      "guideword": "FORM: PAST PERFECT SIMPLE, AFFIRMATIVE ",
-      "levels": [
-        "B2"
-      ],
-      "lowest_level": "B2",
-      "pos_patterns": [
-        [
-          {
-            "TAG": "VBZ"
-          },
-          {
-            "TAG": "VBN"
-          }
-        ],
-        [
-          {
-            "TAG": "VBP"
-          },
-          {
-            "TAG": "VBN"
-          }
-        ],
-        [
-          {
-            "TAG": "VBD"
-          },
-          {
-            "TAG": "VBN"
-          }
-        ]
-      ],
-      "description": "am/is/are + past participle",
-      "examples": [
-        "The car had been serviced and everything seemed to be all right. (B2 Portuguese)\n\nAt this moment, Lime walked in and realised he had been set up. (B2 Dutch)"
-      ]
-    },
-    {
-      "id": "1741163712050x954476408686193200",
-      "category": "PASSIVES",
-      "guideword": "FORM: PAST PERFECT SIMPLE, NEGATIVE ",
-      "levels": [
-        "B2"
-      ],
-      "lowest_level": "B2",
-      "pos_patterns": [
-        {
-          "TAG": "VBN"
-        }
-      ],
-      "description": "past participle (passive)",
-      "examples": [
-        "[talking about a car] In fact, it hadn't been stolen, it had been taken by a man and his wife, because their car broke down and because she was about to have her baby … (B2 Portuguese)\n\nWe waited for "
-      ]
+      "regex_pattern": "(?i)\\bstill\\b"
     },
     {
       "id": "1741163712050x914576942340939400",
@@ -1737,493 +464,6 @@
       ]
     },
     {
-      "id": "1741163712051x779313477999546100",
-      "category": "PASSIVES",
-      "guideword": "FORM: PRESENT CONTINUOUS, NEGATIVE",
-      "levels": [
-        "B2"
-      ],
-      "lowest_level": "B2",
-      "pos_patterns": [
-        [
-          {
-            "TAG": "VBG"
-          },
-          {
-            "TAG": "VBN"
-          }
-        ]
-      ],
-      "description": "is being + past participle",
-      "examples": [
-        "… students are not being educated equally. (Mongolia; B2 VANTAGE; 2008; Mongolian; Pass)\n\nTo conclude, in my opinion, it is important to keep as many languages as possible alive, so we can make sure t"
-      ]
-    },
-    {
-      "id": "1741163712052x291725965796862700",
-      "category": "PASSIVES",
-      "guideword": "FORM: PRESENT PERFECT SIMPLE, AFFIRMATIVE ",
-      "levels": [
-        "B2"
-      ],
-      "lowest_level": "B2",
-      "pos_patterns": [
-        [
-          {
-            "TAG": "VBZ"
-          },
-          {
-            "TAG": "VBN"
-          }
-        ],
-        [
-          {
-            "TAG": "VBP"
-          },
-          {
-            "TAG": "VBN"
-          }
-        ],
-        [
-          {
-            "TAG": "VBD"
-          },
-          {
-            "TAG": "VBN"
-          }
-        ]
-      ],
-      "description": "am/is/are + past participle",
-      "examples": [
-        "I have been asked to write a report about an accident which happened to me last Saturday. (B2 Polish)\n\nI am writing to you to give you further information about the conference organization and about t"
-      ]
-    },
-    {
-      "id": "1741163712052x960121852033115700",
-      "category": "PASSIVES",
-      "guideword": "FORM: PRESENT PERFECT SIMPLE, NEGATIVE ",
-      "levels": [
-        "B2"
-      ],
-      "lowest_level": "B2",
-      "pos_patterns": [
-        {
-          "TAG": "VBN"
-        }
-      ],
-      "description": "past participle (passive)",
-      "examples": [
-        "…the old-fashioned house which has not been used for twenty years is not a very attractive sight from our town either. (B2 Danish)\n\nThis happened two years ago, and the necklace hasn't been found yet "
-      ]
-    },
-    {
-      "id": "1741163712052x892253245373132200",
-      "category": "PASSIVES",
-      "guideword": "FORM: WITH MODAL VERBS",
-      "levels": [
-        "B2"
-      ],
-      "lowest_level": "B2",
-      "pos_patterns": [
-        {
-          "TAG": "VBN"
-        }
-      ],
-      "description": "past participle (passive)",
-      "examples": [
-        "Architects should be hired to design parks, where people could go for a walk or have a picnic. (B2 Polish)\n\nAlthough I had a marvellous time, I believe there are a few things that could be improved fo"
-      ]
-    },
-    {
-      "id": "1741163712741x451753538727761150",
-      "category": "PAST",
-      "guideword": "FORM: WITH SUBORDINATING CONJUNCTIONS",
-      "levels": [
-        "B2"
-      ],
-      "lowest_level": "B2",
-      "pos_patterns": [
-        {
-          "TAG": "VBD"
-        }
-      ],
-      "description": "past tense",
-      "examples": [
-        " … as soon as we went down to around 15 metres in depth, we saw a lot of coloured fish. (B2, French)\n\nI told you about that terrible hotel I had stayed in before I came to visit you. (B2, German)\n\nOnc"
-      ]
-    },
-    {
-      "id": "1741163712741x938657596941798800",
-      "category": "PAST",
-      "guideword": "FORM: WITH TIME ADJUNCTS",
-      "levels": [
-        "B2"
-      ],
-      "lowest_level": "B2",
-      "pos_patterns": [
-        {
-          "TAG": "VBD"
-        }
-      ],
-      "description": "past tense",
-      "examples": [
-        "I also worked as a helper on a summer camp for primary schoolchildren in Canada last summer. (B2, Japanese)\n\nI can remember one which happened to me last year, during the Christmas holiday. (B2, Itali"
-      ]
-    },
-    {
-      "id": "1741163712052x640694659658228000",
-      "category": "PASSIVES",
-      "guideword": "FORM: WITH VERBS TAKING TWO OBJECTS, , WITH PREPOSITIONAL PHRASE",
-      "levels": [
-        "B2"
-      ],
-      "lowest_level": "B2",
-      "pos_patterns": [
-        {
-          "TAG": "VBN"
-        }
-      ],
-      "description": "past participle (passive)",
-      "examples": [
-        "Your name was given to me by a member of yours, Allan Westwood, whom I met last week. (Sweden; B2 VANTAGE; 1993; Swedish; Pass)\n\nIf more training is given to staff, they will be interested in their wo"
-      ]
-    },
-    {
-      "id": "1741163712335x576982604394435300",
-      "category": "PAST",
-      "guideword": "USE: BACKGROUND INFORMATION, RELATIVE CLAUSE",
-      "levels": [
-        "B2"
-      ],
-      "lowest_level": "B2",
-      "pos_patterns": [
-        {
-          "TAG": "VBD"
-        }
-      ],
-      "description": "past tense",
-      "examples": [
-        "After a while Mr and Mrs Landsbury, the couple who had organised the party, got everybody's attention and […] asked everybody to stay calm. (Italy; B2 VANTAGE; 1993; Italian)\n\nHe went to the hotel bec"
-      ]
-    },
-    {
-      "id": "1741163712335x467440951326574700",
-      "category": "PAST",
-      "guideword": "USE: CHANGE OF SITUATION",
-      "levels": [
-        "B2"
-      ],
-      "lowest_level": "B2",
-      "pos_patterns": [
-        {
-          "TAG": "VBD"
-        }
-      ],
-      "description": "past tense",
-      "examples": [
-        "After the show we had planned to go to the theatre restaurant. But it was closed. (France; B2 VANTAGE; 2000; French; Pass)\n\nWe had planned to go to Switzerland, but unfortunately our car broke down. ("
-      ]
-    },
-    {
-      "id": "1741163712327x913269929337566600",
-      "category": "PAST",
-      "guideword": "USE: POLITENESS ",
-      "levels": [
-        "B2"
-      ],
-      "lowest_level": "B2",
-      "pos_patterns": [
-        {
-          "TAG": "VBD"
-        }
-      ],
-      "description": "past tense",
-      "examples": [
-        "I was wondering if I could impose on you again for my next visit. (Chinese, B2 VANTAGE, Pass, 1999)\n\nI was thinking that you could wear your Marilyn Monroe dress as your fancy-dress costume. (===NONE="
-      ]
-    },
-    {
-      "id": "1741163712743x809106963202299400",
-      "category": "PAST",
-      "guideword": "USE: POLITENESS AFTER 'IF'",
-      "levels": [
-        "B2"
-      ],
-      "lowest_level": "B2",
-      "pos_patterns": [
-        {
-          "TAG": "VBD"
-        }
-      ],
-      "description": "past tense",
-      "examples": [
-        "I think it would be very helpful if I told you my own case. (B2, Spanish – European)\n\nIt would be great if you sent me a free copy of the next edition of The Student Tourist Guidebook. (B2, Korean)\n\nI"
-      ]
-    },
-    {
-      "id": "1741163712743x210897861318798620",
-      "category": "PAST",
-      "guideword": "USE: POLITENESS: 'I WONDERED' AND 'I WANTED'",
-      "levels": [
-        "B2"
-      ],
-      "lowest_level": "B2",
-      "pos_patterns": [
-        {
-          "TAG": "VBD"
-        }
-      ],
-      "description": "past tense",
-      "examples": [
-        "So, I wondered if you could introduce me to somebody who knows how to use a camera, so that I will be able to record my trip for you. (B2, Greek)\n\nI wanted to know if the rooms are single or double, i"
-      ]
-    },
-    {
-      "id": "1741163712335x814539814649439100",
-      "category": "PAST",
-      "guideword": "USE: REPORTS OF QUESTIONS ",
-      "levels": [
-        "B2"
-      ],
-      "lowest_level": "B2",
-      "pos_patterns": [
-        {
-          "TAG": "VBD"
-        }
-      ],
-      "description": "past tense",
-      "examples": [
-        "I asked him who had given him my phone number and he said it had been me. (Poland; B2 VANTAGE; 2002; Polish)\n\nHe didn't find her, in spite of looking for her in every room of her house, so he decided "
-      ]
-    },
-    {
-      "id": "1741163712335x352820156836315650",
-      "category": "PAST",
-      "guideword": "USE: REPORTS OF STATEMENTS",
-      "levels": [
-        "B2"
-      ],
-      "lowest_level": "B2",
-      "pos_patterns": [
-        {
-          "TAG": "VBD"
-        }
-      ],
-      "description": "past tense",
-      "examples": [
-        "[…] one morning she was listening to the radio, when suddenly the announcer said that the police had arrested a man who had stolen five expensive and unique paintings. (Greece; B2 VANTAGE; 2006; Greek"
-      ]
-    },
-    {
-      "id": "1741163712332x322280679825253100",
-      "category": "PAST",
-      "guideword": "USE: RESULTS",
-      "levels": [
-        "B2"
-      ],
-      "lowest_level": "B2",
-      "pos_patterns": [
-        {
-          "TAG": "VBD"
-        }
-      ],
-      "description": "past tense",
-      "examples": [
-        "Unfortunately it had been snowing for a long time and so I was unable to go out for a walk. (Italy; B2 VANTAGE; 1993; Italian; Pass)\n\nWe had been working very hard all the morning so by that time, I w"
-      ]
-    },
-    {
-      "id": "1741163713636x303999786952285900",
-      "category": "PRESENT",
-      "guideword": "USE: STORIES AND COMMENTARIES",
-      "levels": [
-        "B2"
-      ],
-      "lowest_level": "B2",
-      "pos_patterns": [
-        [
-          {
-            "TAG": "VBG"
-          }
-        ]
-      ],
-      "description": "present participle",
-      "examples": [
-        "The plot of the book takes place in Vienna after the Second World War. (First Certificate in English, B2, German)\n\nThe scene takes place on a train. … On this train, a man is sleeping. He dreams. He d"
-      ]
-    },
-    {
-      "id": "1741163712052x534602507801792400",
-      "category": "PASSIVES",
-      "guideword": "USE: SUMMARIES AND EVALUATIONS",
-      "levels": [
-        "B2"
-      ],
-      "lowest_level": "B2",
-      "pos_patterns": [
-        {
-          "TAG": "VBN"
-        }
-      ],
-      "description": "past participle (passive)",
-      "examples": [
-        "In conclusion, it can be seen that the bicycle is more suitable for those who are living in a little town or in the country. (B2 Italian)\n\nNext, I find that our streets are not very clean, another maj"
-      ]
-    },
-    {
-      "id": "1741163712052x759366241193606100",
-      "category": "PASSIVES",
-      "guideword": "USE: WITH 'WILL', FUTURE REFERENCE",
-      "levels": [
-        "B2"
-      ],
-      "lowest_level": "B2",
-      "pos_patterns": [
-        {
-          "TAG": "VBN"
-        }
-      ],
-      "description": "past participle (passive)",
-      "examples": [
-        "Just to let you know you will be booked into the Palace Hotel … (B2 Polish)\n\nDear Mr Bixon, First of all, I am very grateful to hear that the cinema will be renovated next year. (B2 Korean)"
-      ]
-    },
-    {
-      "id": "1741163712057x414876536962195400",
-      "category": "PASSIVES",
-      "guideword": "FORM/USE: 'GET' + OBJECT + '-ED'",
-      "levels": [
-        "C1"
-      ],
-      "lowest_level": "C1",
-      "pos_patterns": [
-        {
-          "TAG": "VBN"
-        }
-      ],
-      "description": "past participle (passive)",
-      "examples": [
-        "I must say that Caroline and I are good together because I think I am a little bit lazy but she is always the one who tries to get things done . (Sweden; C1 EFFECTIVE OPERATIONAL PROFICIENCY; 1993; Sw"
-      ]
-    },
-    {
-      "id": "1741163712320x420977783135077200",
-      "category": "PASSIVES",
-      "guideword": "FORM/USE: 'GET' + OBJECT + '-ING'",
-      "levels": [
-        "C1"
-      ],
-      "lowest_level": "C1",
-      "pos_patterns": [
-        {
-          "TAG": "VBN"
-        }
-      ],
-      "description": "past participle (passive)",
-      "examples": [
-        "First of all, I would like to underline the sheer boredom of these CDs, which got me yawning from the very first minute. (Spain; C1 EFFECTIVE OPERATIONAL PROFICIENCY; 2005; Spanish - European; Pass)\n\n"
-      ]
-    },
-    {
-      "id": "1741163712335x315912109814443500",
-      "category": "PAST",
-      "guideword": "FORM/USE: INVERSION, IMAGINED PAST",
-      "levels": [
-        "C1"
-      ],
-      "lowest_level": "C1",
-      "pos_patterns": [
-        {
-          "TAG": "VBD"
-        }
-      ],
-      "description": "past tense",
-      "examples": [
-        "Had I known the tour would be so bad, I wouldn't have booked it. (France; C1 EFFECTIVE OPERATIONAL PROFICIENCY; 1998; French; Pass)\n\nHad they been new people, travellers from other countries, I could "
-      ]
-    },
-    {
-      "id": "1741163713636x966355033057875000",
-      "category": "PRESENT",
-      "guideword": "FORM/USE: NEGATIVE QUESTIONS, OPINION",
-      "levels": [
-        "C1"
-      ],
-      "lowest_level": "C1",
-      "pos_patterns": [
-        [
-          {
-            "TAG": "VBG"
-          }
-        ]
-      ],
-      "description": "present participle",
-      "examples": [
-        "Doesn’t it sound fascinating? (Certificate in Advanced English, C1, Korean)\n\nDon't we all like presents? (Certificate in Advanced English, C1, Dutch)\n\nDon't you think that fashion always looks funny i"
-      ]
-    },
-    {
-      "id": "1741163713636x207376848650752130",
-      "category": "PRESENT",
-      "guideword": "FORM/USE: NEGATIVE QUESTIONS, PERSUASION",
-      "levels": [
-        "C1"
-      ],
-      "lowest_level": "C1",
-      "pos_patterns": [
-        [
-          {
-            "TAG": "VBG"
-          }
-        ]
-      ],
-      "description": "present participle",
-      "examples": [
-        "Don't you just hate taking the bus to school every morning? well I have a perfect solution for you, a great bike with good brakes, a bell and lights. it is a great bike but since I never use it I woul"
-      ]
-    },
-    {
-      "id": "1741163712052x105324067307769550",
-      "category": "PASSIVES",
-      "guideword": "FORM/USE: NON-FINITE CLAUSES",
-      "levels": [
-        "C1"
-      ],
-      "lowest_level": "C1",
-      "pos_patterns": [
-        {
-          "TAG": "VBN"
-        }
-      ],
-      "description": "past participle (passive)",
-      "examples": [
-        "Being born and raised in Mexico, I believe her to be this country's best representative to the world. (C1 Spanish - Latin American)\n\nBeing overworked and badly paid, Polish women are torn between thei"
-      ]
-    },
-    {
-      "id": "1741163712056x106461892688326740",
-      "category": "PASSIVES",
-      "guideword": "FORM/USE: PRESENT CONTINUOUS NEGATIVE",
-      "levels": [
-        "C1"
-      ],
-      "lowest_level": "C1",
-      "pos_patterns": [
-        [
-          {
-            "TAG": "VBG"
-          },
-          {
-            "TAG": "VBN"
-          }
-        ]
-      ],
-      "description": "is being + past participle",
-      "examples": [
-        "In my opinion, the store is not being promoted enough. (C1 Polish)\n\nWomen are not being seen as just inferior to men and incapable of working outside the home. (C1 Portuguese)\n\nFinally, I agree with t"
-      ]
-    },
-    {
       "id": "1741163712056x332718835608695200",
       "category": "PASSIVES",
       "guideword": "FORM/USE: SUMMARISING, EVALUATING WITH 'IT'.",
@@ -2239,25 +479,8 @@
       "description": "past participle (passive)",
       "examples": [
         "To sum up, it can be concluded that this report has attempted to summarize the main points regarding the Spanish educational system. (C1  Spanish - European)\n\nIn addition, it has been found that some "
-      ]
-    },
-    {
-      "id": "1741163712743x467903740487451800",
-      "category": "PAST",
-      "guideword": "USE: COMPLEX ORDERING OF PAST EVENTS",
-      "levels": [
-        "C1"
       ],
-      "lowest_level": "C1",
-      "pos_patterns": [
-        {
-          "TAG": "VBD"
-        }
-      ],
-      "description": "past tense",
-      "examples": [
-        "Following advice from a friend, I purchased the English version of your product, only to find out its quality did not match the promises made in your advertisement. (C1, Spanish - European)\n\nAfter hav"
-      ]
+      "regex_pattern": "(?i)\\bit\\b"
     },
     {
       "id": "1741163712743x286039195636331720",
@@ -2275,63 +498,8 @@
       "description": "past tense",
       "examples": [
         "We did reach the target figure and we have sent about 85 percent of the money to the hospital. (C1, Portuguese)\n\n[in a letter defending the organisation of an event] We did have 34 games and one stall"
-      ]
-    },
-    {
-      "id": "1741163712744x852310054287561700",
-      "category": "PAST",
-      "guideword": "USE: POLITENESS: 'I THOUGHT'",
-      "levels": [
-        "C1"
       ],
-      "lowest_level": "C1",
-      "pos_patterns": [
-        {
-          "TAG": "VBD"
-        }
-      ],
-      "description": "past tense",
-      "examples": [
-        "I understand you are quite concerned about the matter and I thought it would be a good idea to let you know what is really going on. (C1, Spanish – Latin American)\n\nThe reason why I'm writing to you i"
-      ]
-    },
-    {
-      "id": "1741163713625x675785619911793800",
-      "category": "PRESENT",
-      "guideword": "USE: RHETORICAL QUESTIONS ",
-      "levels": [
-        "C1"
-      ],
-      "lowest_level": "C1",
-      "pos_patterns": [
-        [
-          {
-            "TAG": "VBG"
-          }
-        ]
-      ],
-      "description": "present participle",
-      "examples": [
-        "[writing about fashion] Are we becoming shallow? (C1 Czech)\n\nWhy is technology taking over our lives? (C1 Portuguese)\n\nWhy am I explaining all this? The only reason is that I want to show that young p"
-      ]
-    },
-    {
-      "id": "1741163712321x355132007254578300",
-      "category": "PASSIVES",
-      "guideword": "FORM/USE: 'HAVE' + OBJECT + INFINITIVE",
-      "levels": [
-        "C2"
-      ],
-      "lowest_level": "C2",
-      "pos_patterns": [
-        {
-          "TAG": "VBN"
-        }
-      ],
-      "description": "past participle (passive)",
-      "examples": [
-        "In order to attract people and have them practise their English, we could point out the benefits and the possibilities one obtains, by acquiring a degree in this language ... (Greece; C2 MASTERY; 2010"
-      ]
+      "regex_pattern": "(?i)\\bdid\\b"
     },
     {
       "id": "1741163712739x168032886753128670",
@@ -2349,169 +517,8 @@
       "description": "past tense",
       "examples": [
         "If only she had not changed, if only I had helped her, maybe we would still be best friends and I would not be sitting here, writing about her! (Portugal; C2 MASTERY; 1993; Portuguese; Pass)\n\nIf only "
-      ]
-    },
-    {
-      "id": "1741163712747x212368838412682500",
-      "category": "PAST",
-      "guideword": "FORM/USE: INVERSION",
-      "levels": [
-        "C2"
       ],
-      "lowest_level": "C2",
-      "pos_patterns": [
-        {
-          "TAG": "VBD"
-        }
-      ],
-      "description": "past tense",
-      "examples": [
-        "Not only have I been wandering its streets ever since I was ten, but I have also come to know most of the main characters of its history in the past 50 years. (Spain; C1 EFFECTIVE OPERATIONAL PROFICIE"
-      ]
-    },
-    {
-      "id": "1741163712056x185610578351898660",
-      "category": "PASSIVES",
-      "guideword": "FORM/USE: NON-FINITE PERFECT CLAUSES",
-      "levels": [
-        "C2"
-      ],
-      "lowest_level": "C2",
-      "pos_patterns": [
-        {
-          "TAG": "VBN"
-        }
-      ],
-      "description": "past participle (passive)",
-      "examples": [
-        "I myself, having been educated the hard way, would specifically insist on them getting the best possible school education. (C2 German)\n\nHaving been taught the rights and the wrongs, we had an idea abo"
-      ]
-    },
-    {
-      "id": "1741163712739x117068598667129380",
-      "category": "PAST",
-      "guideword": "FORM: FIXED EXPRESSIONS 'HAD IT NOT BEEN FOR', 'IF IT HADN'T BEEN FOR'",
-      "levels": [
-        "C2"
-      ],
-      "lowest_level": "C2",
-      "pos_patterns": [
-        {
-          "TAG": "VBD"
-        }
-      ],
-      "description": "past tense",
-      "examples": [
-        "Had it not been for the fact that I had already read the article, I would have thought that this woman was at least thirty years old. (Greece; C2 MASTERY; 2001; Greek; Pass)\n\nAnother aspect of his emo"
-      ]
-    },
-    {
-      "id": "1741163712739x551343528482470600",
-      "category": "PAST",
-      "guideword": "FORM: INVERSION WITH 'HARDLY …WHEN'",
-      "levels": [
-        "C2"
-      ],
-      "lowest_level": "C2",
-      "pos_patterns": [
-        {
-          "TAG": "VBD"
-        }
-      ],
-      "description": "past tense",
-      "examples": [
-        "Hardly had she spoken these words when it dawned on the musician that life could not continue like that. (Spain; C2 MASTERY; 1998; Spanish - European; Pass)\n\nHardly had he taken them from the counter "
-      ]
-    },
-    {
-      "id": "1741163712056x220763356502948540",
-      "category": "PASSIVES",
-      "guideword": "FORM: NON-FINITE PERFECT COMPLEMENTS ",
-      "levels": [
-        "C2"
-      ],
-      "lowest_level": "C2",
-      "pos_patterns": [
-        {
-          "TAG": "VBN"
-        }
-      ],
-      "description": "past participle (passive)",
-      "examples": [
-        "They are expected to give the couple expensive presents as a reward for having been invited. (C2 Spanish - Latin American)\n\nWe caught the bus as if we were escaping from Saigon, and with the sensation"
-      ]
-    },
-    {
-      "id": "1741163712056x976576319443112100",
-      "category": "PASSIVES",
-      "guideword": "PRESENT PERFECT CONTINUOUS COMMENT",
-      "levels": [
-        "C2"
-      ],
-      "lowest_level": "C2",
-      "pos_patterns": [
-        {
-          "TAG": "VBN"
-        }
-      ],
-      "description": "past participle (passive)",
-      "examples": []
-    },
-    {
-      "id": "1741163713112x784244213132092200",
-      "category": "PAST",
-      "guideword": "USE: NEWSWORTHY",
-      "levels": [
-        "C2"
-      ],
-      "lowest_level": "C2",
-      "pos_patterns": [
-        {
-          "TAG": "VBD"
-        }
-      ],
-      "description": "past tense",
-      "examples": [
-        "A new shopping centre has opened in our town. (Russia; C2 MASTERY; 2005; Russian; Pass)"
-      ]
-    },
-    {
-      "id": "1741163713625x476438924071697100",
-      "category": "PRESENT",
-      "guideword": "USE: POLITENESS",
-      "levels": [
-        "C2"
-      ],
-      "lowest_level": "C2",
-      "pos_patterns": [
-        [
-          {
-            "TAG": "VBG"
-          }
-        ]
-      ],
-      "description": "present participle",
-      "examples": [
-        "Considering the importance of the matter, I am asking for your financial support. (Greek, Greece, C2 MASTERY, Pass, 2001)\n\nI'm asking permission to be excused from work for at least three days. (Greek"
-      ]
-    },
-    {
-      "id": "1741163712327x107883069547981780",
-      "category": "PAST",
-      "guideword": "USE: UNDESIRED EVENTS",
-      "levels": [
-        "C2"
-      ],
-      "lowest_level": "C2",
-      "pos_patterns": [
-        {
-          "TAG": "VBD"
-        }
-      ],
-      "description": "past tense",
-      "examples": [
-        "They had been told that I was always getting into mischief and so had decided that, by buying me this diary, I would probably calm down a little and my behaviour would change. (Spain; C2 MASTERY; 1993"
-      ]
+      "regex_pattern": "(?i)\\bif only\\b"
     },
     {
       "id": "1741163715608x123988758899529200",
@@ -2615,25 +622,6 @@
       ]
     },
     {
-      "id": "1741163715300x285261568472368060",
-      "category": "VERBS",
-      "guideword": "FORM: 'WOULD LIKE TO'",
-      "levels": [
-        "A1"
-      ],
-      "lowest_level": "A1",
-      "spacy_patterns": [
-        {
-          "TAG": "VB"
-        }
-      ],
-      "regex_pattern": null,
-      "description": "verb",
-      "examples": [
-        "I would like to meet you to give you some information about the Brannl State and the shops near her. (A1 BREAKTHROUGH; 2008; Arabic - Other; Pass)\n\nI'd like to invite you on Sunday about six o'clock i"
-      ]
-    },
-    {
       "id": "1741163709453x838199776198091500",
       "category": "FUTURE",
       "guideword": "FORM: AFFIRMATIVE 'WILL'",
@@ -2652,25 +640,6 @@
       "description": "will + verb",
       "examples": [
         "I will see you soon. (A1 BREAKTHROUGH; 2009; Urdu; Pass)\n I'll come at 7 o'clock. (A1 BREAKTHROUGH; 2006; Others; Pass)"
-      ]
-    },
-    {
-      "id": "1741163715288x262148040901666750",
-      "category": "VERBS",
-      "guideword": "FORM: AUXILIARY VERB 'BE' ",
-      "levels": [
-        "A1"
-      ],
-      "lowest_level": "A1",
-      "spacy_patterns": [
-        {
-          "TAG": "VB"
-        }
-      ],
-      "regex_pattern": null,
-      "description": "verb",
-      "examples": [
-        "I am writing to tell you what I do every day at college. (A1 BREAKTHROUGH; 2007; Mandarin; Pass)\n\nI'm working today. (A1 BREAKTHROUGH; 2009; Turkish; Pass)\n\nWe are going to the park. (Somalia; A1 BREA"
       ]
     },
     {
@@ -2722,27 +691,6 @@
       ]
     },
     {
-      "id": "1741163715288x297270598417309800",
-      "category": "VERBS",
-      "guideword": "FORM: MODAL AUXILIARY VERBS",
-      "levels": [
-        "A1",
-        "A2"
-      ],
-      "lowest_level": "A1",
-      "spacy_patterns": [
-        {
-          "TAG": "VB"
-        }
-      ],
-      "regex_pattern": null,
-      "description": "verb",
-      "examples": [
-        "Can you bring some music with you to the dinner. (A1 BREAKTHROUGH; 2008; Bengali; Pass)\n\nI'll be very happy to help you. (A1 BREAKTHROUGH; 2009; Romanian; Pass)\n\nI would like to eat some Spanish food.",
-        "And I think we should go somewhere else to have a drink after the film. (Vietnam; A2 WAYSTAGE; 2003; Vietnamese; Pass)\n\nPlease wear some of your old and torn clothes because they might get dirty. (Ind"
-      ]
-    },
-    {
       "id": "1741163715299x334716733147188740",
       "category": "VERBS",
       "guideword": "FORM: VERB + 'TO'-INFINITIVE",
@@ -2767,25 +715,6 @@
       ]
     },
     {
-      "id": "1741163715275x913732212255741200",
-      "category": "VERBS",
-      "guideword": "FORM: VERB + PREPOSITION + OBJECT",
-      "levels": [
-        "A1"
-      ],
-      "lowest_level": "A1",
-      "spacy_patterns": [
-        {
-          "TAG": "VB"
-        }
-      ],
-      "regex_pattern": null,
-      "description": "verb",
-      "examples": [
-        "I listen to music in the living room, and also eat my breakfast, lunch and dinner. (A1 BREAKTHROUGH; 2009; Dari; Pass)\n\nI can look after her if she needs to do shopping and cleaning. (A1 BREAKTHROUGH;"
-      ]
-    },
-    {
       "id": "1741163709453x862696596004533200",
       "category": "FUTURE",
       "guideword": "USE: PLANS AND INTENTIONS WITH 'WILL'",
@@ -2804,44 +733,6 @@
       "description": "will + verb",
       "examples": [
         "I will try to come to see you tomorrow. (A1 BREAKTHROUGH; 2009; Romanian; Pass)\n\nI'll bring a football ball with me. (A1 BREAKTHROUGH; 2011; Bulgarian; Pass)"
-      ]
-    },
-    {
-      "id": "1741163715274x247232077321416060",
-      "category": "VERBS",
-      "guideword": "FORM/USE: 'LOOK FORWARD TO'",
-      "levels": [
-        "A2"
-      ],
-      "lowest_level": "A2",
-      "spacy_patterns": [
-        {
-          "TAG": "VB"
-        }
-      ],
-      "regex_pattern": null,
-      "description": "verb",
-      "examples": [
-        "I'm looking forward to seeing you! (Turkey; A2 WAYSTAGE; 2008; Turkish; Pass)\n\nI look forward to hearing from you. (A2 WAYSTAGE; 2009; Polish; Pass)\n\nI am looking forward to our meeting. (Sri Lanka; A"
-      ]
-    },
-    {
-      "id": "1741163715300x785589912221125100",
-      "category": "VERBS",
-      "guideword": "FORM/USE: 'WOULD LOVE' + 'TO'",
-      "levels": [
-        "A2"
-      ],
-      "lowest_level": "A2",
-      "spacy_patterns": [
-        {
-          "TAG": "VB"
-        }
-      ],
-      "regex_pattern": null,
-      "description": "verb",
-      "examples": [
-        "I'd love to do the concert. (France; A2 WAYSTAGE; 2005; French; Pass)\n\nI'd love to hear it! (Cyprus; A2 WAYSTAGE; 2009; Greek; Pass)"
       ]
     },
     {
@@ -2917,48 +808,6 @@
       ]
     },
     {
-      "id": "1741163709234x555675180554027650",
-      "category": "FUTURE",
-      "guideword": "FORM: AFFIRMATIVE",
-      "levels": [
-        "A2",
-        "B1",
-        "B2"
-      ],
-      "lowest_level": "A2",
-      "spacy_patterns": [
-        {
-          "TAG": "MD"
-        }
-      ],
-      "regex_pattern": null,
-      "description": "modal for future",
-      "examples": [
-        "However, I shall be attending class the day after tomorrow and I shall cover the work I miss by copying it from John. (India; B1 THRESHOLD; 2006; Tamil; Pass)\n\nWe will be waiting for you at the River'",
-        "I'm sure I will have learned today's lesson by the next lesson. (Brazil; B2 VANTAGE; 2003; Portuguese; Pass)\n\nIt seems that the decorative role of clothes will have disappeared by the year 2050. (Kaza",
-        "[about some new jeans] I 'm going to wear them on holiday. (Turkey; A2 WAYSTAGE; 2008; Turkish; Pass)\n\nIt is going to start at half past four. (Spain; A2 WAYSTAGE; 2006; Spanish - European; Pass)\n\n[ab"
-      ]
-    },
-    {
-      "id": "1741163709454x725724780708232700",
-      "category": "FUTURE",
-      "guideword": "FORM: AFFIRMATIVE 'SHALL'",
-      "levels": [
-        "A2"
-      ],
-      "lowest_level": "A2",
-      "spacy_patterns": [
-        {
-          "TAG": "MD"
-        }
-      ],
-      "regex_pattern": null,
-      "description": "modal for future",
-      "examples": [
-        "I shall come with you. (India; A2 WAYSTAGE; 2003; Hindi; Pass)\n\nWe shall take a bus to the sports centre. (Hindi, A2 WAYSTAGE, Pass, 2008)\n\nWe shall go together next year! (Brazil; A2 WAYSTAGE; 2007; "
-      ]
-    },
-    {
       "id": "1741163709234x399877343853970240",
       "category": "FUTURE",
       "guideword": "FORM: AFFIRMATIVE WITH 'WILL' ",
@@ -2992,7 +841,7 @@
           "TAG": "VB"
         }
       ],
-      "regex_pattern": null,
+      "regex_pattern": "(?i)\\b((have|has|had)|(do|does|did))\\b",
       "description": "verb",
       "examples": [
         "It has been a long time since I saw you. (Cyprus; A2 WAYSTAGE; 2003; Greek; Pass)\n\nI have left my suitcase in your house. (India; A2 WAYSTAGE; 2005; Hindi; Pass)\n\nHave you got a mobile phone? (Italy; "
@@ -3080,71 +929,6 @@
       ]
     },
     {
-      "id": "1741163715278x361993667632739300",
-      "category": "VERBS",
-      "guideword": "FORM: NO OBJECT",
-      "levels": [
-        "A2",
-        "B1",
-        "B2"
-      ],
-      "lowest_level": "A2",
-      "spacy_patterns": [
-        {
-          "TAG": "VB"
-        }
-      ],
-      "regex_pattern": null,
-      "description": "verb",
-      "examples": [
-        "I'm going to get up early on Saturday. (A2, Portuguese)\n\nShall we go out this weekend to a concert? (Argentina; A2 WAYSTAGE; 2009; Spanish - Latin American; Pass)\n\nWe can meet up at 2 pm. (Brazil; A2 ",
-        "Some species are dying out, and keeping such animals in zoos where they can give life to new generations is the only way to prevent them from becoming completely extinct. (B2 Polish)\n\nThe following da",
-        "I needed to hang out because my life was too jam-packed and hectic. (B1, Italian)\n\n[talking about a phone] Its battery had run out. (B1, Portuguese)\n\nShe cried a lot. Her feelings, emotions were all s"
-      ]
-    },
-    {
-      "id": "1741163709469x290402051352341950",
-      "category": "FUTURE",
-      "guideword": "FORM: QUESTIONS",
-      "levels": [
-        "A2"
-      ],
-      "lowest_level": "A2",
-      "spacy_patterns": [
-        {
-          "TAG": "MD"
-        }
-      ],
-      "regex_pattern": null,
-      "description": "modal for future",
-      "examples": [
-        "What are you going to wear? (Italy; A2 WAYSTAGE; 2008; Italian; Pass)\n\nWhat colour paint are we going to use? (India; A2 WAYSTAGE; 2006; Hindi; Pass)\n\nAre you going to come tomorrow evening? (Spain; A"
-      ]
-    },
-    {
-      "id": "1741163709235x737206541062207200",
-      "category": "FUTURE",
-      "guideword": "FORM: QUESTIONS ",
-      "levels": [
-        "A2",
-        "B2",
-        "C2"
-      ],
-      "lowest_level": "A2",
-      "spacy_patterns": [
-        {
-          "TAG": "MD"
-        }
-      ],
-      "regex_pattern": null,
-      "description": "modal for future",
-      "examples": [
-        "Will they be holding any activities at night? (Brazil; B2 VANTAGE; 2008; Portuguese; Pass)\n\nWill I be needing any money? (Switzerland; B2 VANTAGE; 2000; French; Pass)\n\nWhat will you be doing in a few ",
-        "Will he have changed? (Spain; C2 MASTERY; 1998; Catalan; Fail)\n",
-        "Will you come? (Russia; A2 WAYSTAGE; 2006; Russian; Pass)\n\nAnd what shall I bring to the party? (Italy; A2 WAYSTAGE; 2009; Italian; Pass)"
-      ]
-    },
-    {
       "id": "1741163715275x773962644446279300",
       "category": "VERBS",
       "guideword": "FORM: REPORTING VERBS + DIRECT OBJECT 'THAT'-CLAUSE",
@@ -3169,30 +953,11 @@
           }
         ]
       ],
-      "regex_pattern": null,
+      "regex_pattern": "(?i)\\bthat\\b",
       "description": "reporting verb + that",
       "examples": [
         "I hope that you'll come. (India; A2 WAYSTAGE; 2009; Tamil; Pass)\n\nI think that it begins on 20 or 21 May. (Spain; A2 WAYSTAGE; 2006; Catalan; Pass)\n\nMy mother said that she can help us. (Peru; A2 WAYS",
         "Now you're sixteen, I totally understand that you don't want to go on holiday with your parents. (France; B1 THRESHOLD; 2008; French; Pass)\n\nWhen I got there, I realised that I wasn't the only winner."
-      ]
-    },
-    {
-      "id": "1741163715299x518076142407359000",
-      "category": "VERBS",
-      "guideword": "FORM: SEMI-MODAL AUXILIARY VERBS, 'HAVE (GOT) TO'",
-      "levels": [
-        "A2"
-      ],
-      "lowest_level": "A2",
-      "spacy_patterns": [
-        {
-          "TAG": "VB"
-        }
-      ],
-      "regex_pattern": null,
-      "description": "verb",
-      "examples": [
-        "You've got to bring paintbrushes, paper and paint, that's all. (Vietnam; A2 WAYSTAGE; 2006; French; Pass)\n\nYou don't have to bring anything except your clothes. (Greece; A2 WAYSTAGE; 2009; Greek; Pass"
       ]
     },
     {
@@ -3289,29 +1054,10 @@
           "TAG": "VB"
         }
       ],
-      "regex_pattern": null,
+      "regex_pattern": "(?i)\\bthat\\b",
       "description": "verb",
       "examples": [
         "I hope you can go, buddy. (Brazil; A2 WAYSTAGE; 2009; Portuguese; Pass)\n\nI think I left my phone there, maybe in your kitchen. (Italy; A2 WAYSTAGE; 2005; Italian; Pass)\n\nI think you should go visit th"
-      ]
-    },
-    {
-      "id": "1741163715277x561147037910384640",
-      "category": "VERBS",
-      "guideword": "FORM: VERBS + INDIRECT OBJECT CLAUSE",
-      "levels": [
-        "A2"
-      ],
-      "lowest_level": "A2",
-      "spacy_patterns": [
-        {
-          "TAG": "VB"
-        }
-      ],
-      "regex_pattern": null,
-      "description": "verb",
-      "examples": [
-        "I told you that she has a new car? (Peru; A2 WAYSTAGE; 2008; Spanish - Latin American; Pass)\n\nYou promised me that you will help me to paint my bedroom. (India; A2 WAYSTAGE; 2006; Kannada; Pass)\n\nNish"
       ]
     },
     {
@@ -3327,7 +1073,7 @@
           "TAG": "MD"
         }
       ],
-      "regex_pattern": null,
+      "regex_pattern": "(?i)\\bwhen\\b",
       "description": "modal for future",
       "examples": [
         "I'll tell you more when I meet you. (Vietnam; A2 WAYSTAGE; 2009; Vietnamese; Pass)\n\nCan you, please, call me when you find it? (Brazil; A2 WAYSTAGE; 2005; Portuguese; Pass)"
@@ -3382,46 +1128,6 @@
       ]
     },
     {
-      "id": "1741163709469x118274875968644050",
-      "category": "FUTURE",
-      "guideword": "USE: INTENTIONS",
-      "levels": [
-        "A2",
-        "B1"
-      ],
-      "lowest_level": "A2",
-      "spacy_patterns": [
-        {
-          "TAG": "MD"
-        }
-      ],
-      "regex_pattern": null,
-      "description": "modal for future",
-      "examples": [
-        "I'm going to use pink paint. (Brazil; A2 WAYSTAGE; 2006; Portuguese; Pass)\n\nMy mum is going to take us by car. (Uruguay; A2 WAYSTAGE; 2008; Spanish - Latin American; Pass)\n\nWhat time are you going to ",
-        "I 'm not going to be able to meet you next Tuesday, because I have to go to the dentist at 5.30. (Spain; B1 THRESHOLD; 2008; Spanish - European; Pass)\n\nI'm sure I'm not going to live in Kutná Hora for"
-      ]
-    },
-    {
-      "id": "1741163709461x334143938995607360",
-      "category": "FUTURE",
-      "guideword": "USE: OFFERS WITH 'SHALL'",
-      "levels": [
-        "A2"
-      ],
-      "lowest_level": "A2",
-      "spacy_patterns": [
-        {
-          "TAG": "MD"
-        }
-      ],
-      "regex_pattern": null,
-      "description": "modal for future",
-      "examples": [
-        "Shall I wait for you? (Mexico; A2 WAYSTAGE; 2009; Spanish - Latin American; Pass)\n\nShall I buy you one? (Spanish - European, A2 WAYSTAGE, Pass, 2010)"
-      ]
-    },
-    {
       "id": "1741163709461x970222053180020700",
       "category": "FUTURE",
       "guideword": "USE: PLANS AND  INTENTIONS WITH 'WILL'",
@@ -3440,48 +1146,6 @@
       "description": "will + verb",
       "examples": [
         "Will you have a mobile phone? (France; A2 WAYSTAGE; 2007; French; Pass)\n\nWill you come by train? (Switzerland; A2 WAYSTAGE; 2009; Spanish - Other; Pass)"
-      ]
-    },
-    {
-      "id": "1741163709470x917723267803535400",
-      "category": "FUTURE",
-      "guideword": "USE: PREDICTIONS WITH 'BE' ",
-      "levels": [
-        "A2"
-      ],
-      "lowest_level": "A2",
-      "spacy_patterns": [
-        {
-          "TAG": "MD"
-        }
-      ],
-      "regex_pattern": null,
-      "description": "modal for future",
-      "examples": [
-        "I think this Saturday is going to be a nice day. (Mexico; A2 WAYSTAGE; 2003; Spanish - Latin American; Pass)\n\nIt's going to be fantastic. (Peru; A2 WAYSTAGE; 2008; Spanish - Latin American; Pass)\n\nIt "
-      ]
-    },
-    {
-      "id": "1741163709473x284037098314951170",
-      "category": "FUTURE",
-      "guideword": "USE: QUESTIONS ABOUT THE FUTURE",
-      "levels": [
-        "A2",
-        "B1",
-        "B2"
-      ],
-      "lowest_level": "A2",
-      "spacy_patterns": [
-        {
-          "TAG": "MD"
-        }
-      ],
-      "regex_pattern": null,
-      "description": "modal for future",
-      "examples": [
-        "[talking about a Rolling Stones concert] Are you coming? (Swiss German, A2 WAYSTAGE, Pass, 2010)\n\n[talking about a party] It starts at 6. When are you coming? (A2 Turkish)\n\n[asking about holidays] Whe",
-        "Are you visiting my country on your next holiday? (B1 Korean)\n\nWhy are you moving to a different area? (B1 Arabic Levant)",
-        "So are you planning to visit Japan then? (B2 Japan) \n\nWhen is the festival starting and when is it finishing? (Czech, B2 VANTAGE, Pass, 2008)\n\nWhat kind of seminar materials are you providing? (German"
       ]
     },
     {
@@ -3506,44 +1170,6 @@
       ]
     },
     {
-      "id": "1741163709462x251946416286091620",
-      "category": "FUTURE",
-      "guideword": "USE: SUGGESTIONS WITH 'SHALL'",
-      "levels": [
-        "A2"
-      ],
-      "lowest_level": "A2",
-      "spacy_patterns": [
-        {
-          "TAG": "MD"
-        }
-      ],
-      "regex_pattern": null,
-      "description": "modal for future",
-      "examples": [
-        "Shall we go to my friend's house to get it? (Brazil; A2 WAYSTAGE; 2005; Portuguese; Pass)\n\nShall we go there together? (Kazakhstan; A2 WAYSTAGE; 2009; Kazakh; Pass)"
-      ]
-    },
-    {
-      "id": "1741163709666x476412061092230640",
-      "category": "FUTURE",
-      "guideword": "USE: TIMETABLES AND PLANS",
-      "levels": [
-        "A2"
-      ],
-      "lowest_level": "A2",
-      "spacy_patterns": [
-        {
-          "TAG": "MD"
-        }
-      ],
-      "regex_pattern": null,
-      "description": "modal for future",
-      "examples": [
-        "[Talking about a film] It begins on 8 o'clock in the evening. (Switzerland; A2 WAYSTAGE; 2009; Swiss German; Pass)\n\nThe class is on Monday.  It starts at 6:00 pm and finishes at 7:00 pm. (Cuba; A2 WAY"
-      ]
-    },
-    {
       "id": "1741163709462x817785568593135600",
       "category": "FUTURE",
       "guideword": "USE: WILLINGNESS WITH 'WILL'",
@@ -3565,44 +1191,6 @@
       ]
     },
     {
-      "id": "1741163715599x266418146780823970",
-      "category": "VERBS",
-      "guideword": "FORM/USE: 'WOULD PREFER' + 'TO', POLITENESS ",
-      "levels": [
-        "B1"
-      ],
-      "lowest_level": "B1",
-      "spacy_patterns": [
-        {
-          "TAG": "VB"
-        }
-      ],
-      "regex_pattern": null,
-      "description": "verb",
-      "examples": [
-        "I would prefer to pay by cash. (B1 THRESHOLD; 2003; Pass)\n\nI would prefer to meet you at six o'clock instead of four, at the café in my hometown. (Germany; B1 THRESHOLD; 2008; German; Pass)\n\nI'd prefe"
-      ]
-    },
-    {
-      "id": "1741163715599x472522749482310100",
-      "category": "VERBS",
-      "guideword": "FORM: 'HELP' + OBJECT ",
-      "levels": [
-        "B1"
-      ],
-      "lowest_level": "B1",
-      "spacy_patterns": [
-        {
-          "TAG": "VB"
-        }
-      ],
-      "regex_pattern": null,
-      "description": "verb",
-      "examples": [
-        "I wanted to help him to make some friends. He's just like me. (Turkey; B1 THRESHOLD; 2009; Turkish; Pass)\n\nI hope that it will help you to keep fit. (Russia; B1 THRESHOLD; 2009; Russian; Pass)\n\nI hope"
-      ]
-    },
-    {
       "id": "1741163715599x226684987670247260",
       "category": "VERBS",
       "guideword": "FORM: 'MAKE', 'LET' + INFINITIVE WITHOUT 'TO'",
@@ -3620,7 +1208,7 @@
           }
         ]
       ],
-      "regex_pattern": null,
+      "regex_pattern": "(?i)\\b(let|lets)\\b",
       "description": "verb + to-infinitive",
       "examples": [
         "Let me know if it is suitable for you. (Brazil; B1 THRESHOLD; 2003; Portuguese; Fail)\n\nShe makes me smile when I'm sad. (Yugoslavia; B1 THRESHOLD; 2010; Serbian; Pass)\n\nShe always makes me laugh! (Bra"
@@ -3644,31 +1232,10 @@
           }
         ]
       ],
-      "regex_pattern": null,
+      "regex_pattern": "(?i)\\bthere\\b",
       "description": "there is/are",
       "examples": [
         "[talking about 20 years in the future] There will be flying cars and buses, and big houses. (Uruguay; B1 THRESHOLD; 2007; Spanish - Latin American; Pass)\n\nIn the countryside there wouldn’t be so many "
-      ]
-    },
-    {
-      "id": "1741163715608x998353966000377700",
-      "category": "VERBS",
-      "guideword": "FORM: NEGATIVE",
-      "levels": [
-        "B1",
-        "B2"
-      ],
-      "lowest_level": "B1",
-      "spacy_patterns": [
-        {
-          "TAG": "VB"
-        }
-      ],
-      "regex_pattern": null,
-      "description": "verb",
-      "examples": [
-        "There isn't any noise. (Peru; B1 THRESHOLD; 2010; Spanish - Latin American; Pass)\n\nThe spring is the best time because there aren't too many tourists. (France; B1 THRESHOLD; 2004; French; Pass)\n\nThere",
-        " I am not going to go to school tomorrow. (Mexico; B1 THRESHOLD; 2006; Spanish - Latin American; Pass)\n\nAlso you can do whatever you want because there is not going to be an adult there to stop you. ("
       ]
     },
     {
@@ -3693,70 +1260,6 @@
       ]
     },
     {
-      "id": "1741163709470x281157442643926720",
-      "category": "FUTURE",
-      "guideword": "FORM: PAST",
-      "levels": [
-        "B1"
-      ],
-      "lowest_level": "B1",
-      "spacy_patterns": [
-        {
-          "TAG": "MD"
-        }
-      ],
-      "regex_pattern": null,
-      "description": "modal for future",
-      "examples": [
-        "When we realized it was going to be an extremely hot day, we took water. (Argentina; B1 THRESHOLD; 2003; Spanish - Latin American; Pass)\n\nWe were going to meet at 11.30 am but instead we will meet now"
-      ]
-    },
-    {
-      "id": "1741163715299x493284650055276540",
-      "category": "VERBS",
-      "guideword": "FORM: SEMI-MODAL AUXILIARY VERBS, 'USED TO', 'OUGHT TO'",
-      "levels": [
-        "B1"
-      ],
-      "lowest_level": "B1",
-      "spacy_patterns": [
-        {
-          "TAG": "VB"
-        }
-      ],
-      "regex_pattern": null,
-      "description": "verb",
-      "examples": [
-        "But we used to play together every single day! (Japan; B1 THRESHOLD; 1999; Japanese; Pass)\n\nI think you ought to join a gym and you should go for a walk at least three times a week. (Libya; B1 THRESHO"
-      ]
-    },
-    {
-      "id": "1741163715599x129252813485304160",
-      "category": "VERBS",
-      "guideword": "FORM: VERB + '-ING' FORM",
-      "levels": [
-        "B1",
-        "B2"
-      ],
-      "lowest_level": "B1",
-      "spacy_patterns": [
-        [
-          {
-            "TAG": "VB"
-          },
-          {
-            "TAG": "VBG"
-          }
-        ]
-      ],
-      "regex_pattern": null,
-      "description": "verb + -ing",
-      "examples": [
-        "I would like to stay there a few years to finish studying and to have my own money to start thinking of travelling. (Uruguay; B1 THRESHOLD; 2010; Spanish - Latin American; Pass)\n\nSo, would you mind te",
-        "[talking about cars] ... we can't avoid using them because we are used to them. (Turkey; B2 VANTAGE; 1999; Turkish; Pass)\n\nI couldn't stand being there. (Japan; B2 VANTAGE; 1998; Japanese; Pass)\n\nMore"
-      ]
-    },
-    {
       "id": "1741163715598x290277890004933000",
       "category": "VERBS",
       "guideword": "FORM: VERB + 'TO-' INFINITIVE",
@@ -3778,87 +1281,6 @@
       "description": "verb + to-infinitive",
       "examples": [
         "… it's one of the reasons I decided to change class. (France; B1 THRESHOLD; 2002; French; Pass)\n\nI'm going to buy pictures to hang on the wall, because my room seems to be very cold and very unfriendl"
-      ]
-    },
-    {
-      "id": "1741163715278x200292821191589960",
-      "category": "VERBS",
-      "guideword": "FORM: VERB + PARTICLE + OBJECT",
-      "levels": [
-        "B1",
-        "B2"
-      ],
-      "lowest_level": "B1",
-      "spacy_patterns": [
-        [
-          {
-            "TAG": "VB"
-          },
-          {
-            "TAG": {
-              "IN": [
-                "RP",
-                "RB"
-              ]
-            }
-          }
-        ]
-      ],
-      "regex_pattern": null,
-      "description": "phrasal verb",
-      "examples": [
-        "Were it not for my university, I would give up this class immediately. (B1, Russian)\n\nI must travel to Mexico City because I won a novel contest and I need to pick up my award. (B1, Spanish - Latin Am",
-        "I don't need to use my imagination while I'm surfing the internet, but if I'm reading a book I can build up the whole surroundings and the characters in my own head. (B2, German)\n\nI had already booked"
-      ]
-    },
-    {
-      "id": "1741163715274x284779145472593860",
-      "category": "VERBS",
-      "guideword": "FORM: VERB + PARTICLE + PREPOSITION + OBJECT",
-      "levels": [
-        "B1",
-        "B2"
-      ],
-      "lowest_level": "B1",
-      "spacy_patterns": [
-        [
-          {
-            "TAG": "VB"
-          },
-          {
-            "TAG": {
-              "IN": [
-                "RP",
-                "RB"
-              ]
-            }
-          }
-        ]
-      ],
-      "regex_pattern": null,
-      "description": "phrasal verb",
-      "examples": [
-        "I can look up to someone in admiration if he (or she) is dedicating his (or her) life to helping other people. (Switzerland; B2 VANTAGE; 2005; Swiss German; Pass)\n\nOther people will see you as a knowl",
-        "I could catch up with the work I miss after school from 3 to 4. (Peru; B1 THRESHOLD; 2006; Spanish - Latin American; Pass)\n\nThey interviewed and filmed pupils and teachers to find out how they get on "
-      ]
-    },
-    {
-      "id": "1741163715275x850594612311856000",
-      "category": "VERBS",
-      "guideword": "FORM: VERB + PREPOSITION + OBJECT ",
-      "levels": [
-        "B1"
-      ],
-      "lowest_level": "B1",
-      "spacy_patterns": [
-        {
-          "TAG": "VB"
-        }
-      ],
-      "regex_pattern": null,
-      "description": "verb",
-      "examples": [
-        "If you need more information, please look at the information sheet at the entrance. (Switzerland; B1 THRESHOLD; 2008; Swiss German; Pass)\n\nIn fact, our company needs to train some staff on how to deal"
       ]
     },
     {
@@ -3903,48 +1325,10 @@
           }
         ]
       ],
-      "regex_pattern": null,
+      "regex_pattern": "(?i)\\bthat\\b",
       "description": "prepositional verb",
       "examples": [
         "I think also that you should say to your parents that you want to try a new experience with your friends. (Italy; B1 THRESHOLD; 2008; Italian; Pass)\n\n[about meeting a famous person] When I said to my "
-      ]
-    },
-    {
-      "id": "1741163710384x781429758496606800",
-      "category": "FUTURE",
-      "guideword": "FORM: WITH 'AS SOON AS'",
-      "levels": [
-        "B1"
-      ],
-      "lowest_level": "B1",
-      "spacy_patterns": [
-        {
-          "TAG": "MD"
-        }
-      ],
-      "regex_pattern": null,
-      "description": "modal for future",
-      "examples": [
-        "I'm planning to move as soon as I finish college because job opportunities in my area aren't good. (B1 Portuguese)\n\nI will let you know as soon as I get the exact date. (Colombia; B1 THRESHOLD; 2008; "
-      ]
-    },
-    {
-      "id": "1741163709470x450747971941201300",
-      "category": "FUTURE",
-      "guideword": "FORM: WITH ADVERBS",
-      "levels": [
-        "B1"
-      ],
-      "lowest_level": "B1",
-      "spacy_patterns": [
-        {
-          "TAG": "MD"
-        }
-      ],
-      "regex_pattern": null,
-      "description": "modal for future",
-      "examples": [
-        "I know that I 'm never going to forget this moment. (Spain; B1 THRESHOLD; 2008; Catalan; Pass)\n\nAlthough we are really happy with your new and, maybe, better job, we are really going to miss you. (Uru"
       ]
     },
     {
@@ -3975,25 +1359,6 @@
       ]
     },
     {
-      "id": "1741163709240x412925570751819600",
-      "category": "FUTURE",
-      "guideword": "USE: 'WOULD' ",
-      "levels": [
-        "B1"
-      ],
-      "lowest_level": "B1",
-      "spacy_patterns": [
-        {
-          "TAG": "MD"
-        }
-      ],
-      "regex_pattern": null,
-      "description": "modal for future",
-      "examples": [
-        "I've just bought a new dress, and a beautiful black T-shirt. When I saw them, I thought they would be great for tonight's party. (Spanish - Latin American, B1 THRESHOLD, Pass, 2010)\n\n… we thought that"
-      ]
-    },
-    {
       "id": "1741163709462x760930219625040500",
       "category": "FUTURE",
       "guideword": "USE: FIXED PLANS WITH 'WILL'",
@@ -4012,63 +1377,6 @@
       "description": "will + verb",
       "examples": [
         "The work will start at 8 a.m. and finish at 2 p.m. The new schedule starts on 1 June. (Russia; B1 THRESHOLD; 2007; Russian; Pass)\nI won't be able to get there at the time we agreed. (Mexico; B1 THRESH"
-      ]
-    },
-    {
-      "id": "1741163709470x871163716353014800",
-      "category": "FUTURE",
-      "guideword": "USE: FUTURE IN THE PAST ",
-      "levels": [
-        "B1"
-      ],
-      "lowest_level": "B1",
-      "spacy_patterns": [
-        {
-          "TAG": "MD"
-        }
-      ],
-      "regex_pattern": null,
-      "description": "modal for future",
-      "examples": [
-        "She didn't know what was going to happen. (Turkey; B1 THRESHOLD; 2009; Turkish; Pass)\n\nWe were going to meet two days later in the square next to the centre. (Spain; B1 THRESHOLD; 2008; Spanish - Euro"
-      ]
-    },
-    {
-      "id": "1741163709472x799988979606151400",
-      "category": "FUTURE",
-      "guideword": "USE: PLANS IN THE PAST",
-      "levels": [
-        "B1"
-      ],
-      "lowest_level": "B1",
-      "spacy_patterns": [
-        {
-          "TAG": "MD"
-        }
-      ],
-      "regex_pattern": null,
-      "description": "modal for future",
-      "examples": [
-        "We were going to get married two months ago but we broke up and I really didn't know why. (Mexico; B1 THRESHOLD; 2008; Spanish - Latin American; Pass)\n\nWe were going to have a cup of coffee on Tuesday"
-      ]
-    },
-    {
-      "id": "1741163709472x244172880515270080",
-      "category": "FUTURE",
-      "guideword": "USE: PREDICTIONS ",
-      "levels": [
-        "B1"
-      ],
-      "lowest_level": "B1",
-      "spacy_patterns": [
-        {
-          "TAG": "MD"
-        }
-      ],
-      "regex_pattern": null,
-      "description": "modal for future",
-      "examples": [
-        "I think you're going to like it. (Germany; B1 THRESHOLD; 2008; German; Pass)\n\nAnd don't you think you are going to miss your parents? (Netherlands; B1 THRESHOLD; 2008; Dutch; Pass)\n\nI think I am going"
       ]
     },
     {
@@ -4093,125 +1401,6 @@
       ]
     },
     {
-      "id": "1741163709472x233750198781269120",
-      "category": "FUTURE",
-      "guideword": "USE: REPORTING",
-      "levels": [
-        "B1"
-      ],
-      "lowest_level": "B1",
-      "spacy_patterns": [
-        {
-          "TAG": "MD"
-        }
-      ],
-      "regex_pattern": null,
-      "description": "modal for future",
-      "examples": [
-        "Fortunately, he was told his boss was going to be a bit late, so he had some time to go back home. (Peru; B1 THRESHOLD; 2006; Spanish - Latin American; Pass)\n\nI was very worried but at the end he call"
-      ]
-    },
-    {
-      "id": "1741163709462x426193932554453060",
-      "category": "FUTURE",
-      "guideword": "USE:IMMEDIATE PLANS WITH 'SHALL'",
-      "levels": [
-        "B1"
-      ],
-      "lowest_level": "B1",
-      "spacy_patterns": [
-        {
-          "TAG": "MD"
-        }
-      ],
-      "regex_pattern": null,
-      "description": "modal for future",
-      "examples": [
-        "I promise that I shall cover all the work and give it to you tomorrow. (Thai, B1 THRESHOLD, Pass, 2006)\n\nAfter that, I shall go to the beach. (Yugoslavia; B1 THRESHOLD; 2001; Serbian; Pass)\n\nWe shall "
-      ]
-    },
-    {
-      "id": "1741163715599x918123165825508200",
-      "category": "VERBS",
-      "guideword": "FORM/USE: VERBS OF SENSES  + OBJECT + '-ING'",
-      "levels": [
-        "B2"
-      ],
-      "lowest_level": "B2",
-      "spacy_patterns": [
-        [
-          {
-            "TAG": "VB"
-          },
-          {
-            "TAG": "VBG"
-          }
-        ]
-      ],
-      "regex_pattern": null,
-      "description": "verb + -ing",
-      "examples": [
-        "Then I heard someone screaming, I was afraid and I said to the others: \"Let's go out, something is happening\". (Greece; B2 VANTAGE; 1993; Greek; Pass)\n\nI think we can learn nothing by seeing animals o"
-      ]
-    },
-    {
-      "id": "1741163709235x749861660179369300",
-      "category": "FUTURE",
-      "guideword": "FORM: 'BE ABOUT TO'",
-      "levels": [
-        "B2"
-      ],
-      "lowest_level": "B2",
-      "spacy_patterns": [
-        {
-          "TAG": "MD"
-        }
-      ],
-      "regex_pattern": null,
-      "description": "modal for future",
-      "examples": [
-        "You are not going to believe what I am about to tell you! (Chile; B2 VANTAGE; 2000; Spanish - Latin American; Pass)\n\nI'm in a hurry, my class is about to begin. (Yugoslavia; B2 VANTAGE; 2006; Serbian;"
-      ]
-    },
-    {
-      "id": "1741163709236x822096858545011700",
-      "category": "FUTURE",
-      "guideword": "FORM: 'BE DUE TO'",
-      "levels": [
-        "B2"
-      ],
-      "lowest_level": "B2",
-      "spacy_patterns": [
-        {
-          "TAG": "MD"
-        }
-      ],
-      "regex_pattern": null,
-      "description": "modal for future",
-      "examples": [
-        "I am afraid that July is the only appropriate month, because I am due to start work in August. (Turkey; B2 VANTAGE; 2000; Turkish; Pass)\n\nAs some of the members of our team are due to be present at a "
-      ]
-    },
-    {
-      "id": "1741163709236x556509988634357200",
-      "category": "FUTURE",
-      "guideword": "FORM: 'BE TO'",
-      "levels": [
-        "B2"
-      ],
-      "lowest_level": "B2",
-      "spacy_patterns": [
-        {
-          "TAG": "MD"
-        }
-      ],
-      "regex_pattern": null,
-      "description": "modal for future",
-      "examples": [
-        "Dear Erica, I am sorry that I cannot attend the meeting at head office as expected, as I am to go on a business trip to New York then. (China; B2 VANTAGE; 2002; Chinese; Pass)\n\nHe is to come to Athens"
-      ]
-    },
-    {
       "id": "1741163715608x437514984752567900",
       "category": "VERBS",
       "guideword": "FORM: 'THERE' + VERBS WITH MODAL MEANING",
@@ -4229,7 +1418,7 @@
           }
         ]
       ],
-      "regex_pattern": null,
+      "regex_pattern": "(?i)\\bthere\\b",
       "description": "there is/are",
       "examples": [
         "I figured out that there had to be matches somewhere; Bob, who owned the cabin, had told me that it was well equipped. (Sweden; B2 VANTAGE; 1993; Swedish; Pass)\n\nIn the library there needs to be schoo"
@@ -4260,44 +1449,6 @@
       ]
     },
     {
-      "id": "1741163709241x184726411236370240",
-      "category": "FUTURE",
-      "guideword": "FORM: AFFIRMATIVE ",
-      "levels": [
-        "B2"
-      ],
-      "lowest_level": "B2",
-      "spacy_patterns": [
-        {
-          "TAG": "MD"
-        }
-      ],
-      "regex_pattern": null,
-      "description": "modal for future",
-      "examples": [
-        "This summer I will have been working for three years for my company … (Spain; B2 VANTAGE; 2008; Catalan; Pass)"
-      ]
-    },
-    {
-      "id": "1741163709242x695590620556235600",
-      "category": "FUTURE",
-      "guideword": "FORM: NEGATIVE ",
-      "levels": [
-        "B2"
-      ],
-      "lowest_level": "B2",
-      "spacy_patterns": [
-        {
-          "TAG": "MD"
-        }
-      ],
-      "regex_pattern": null,
-      "description": "modal for future",
-      "examples": [
-        "I think that the best time for me to visit Scotland would be in July, because I will not have finished my university exams by June. (Greece; B2 VANTAGE; 2008; Greek; Pass)\n\n[talking about a cycling tr"
-      ]
-    },
-    {
       "id": "1741163715275x932225330988349400",
       "category": "VERBS",
       "guideword": "FORM: PREPOSITIONAL VERB, STRANDED PREPOSITION",
@@ -4319,289 +1470,6 @@
       "description": "prepositional verb",
       "examples": [
         "In Poland rules that refer to how to dress at school aren't very strict; we don't wear any uniforms, but our clothes have to be clean and nice to look at. (Poland; B2 VANTAGE; 2000; Polish; Pass)\n\nBut"
-      ]
-    },
-    {
-      "id": "1741163715299x362507539878509800",
-      "category": "VERBS",
-      "guideword": "FORM: SEMI-MODAL AUXILIARY VERBS, 'DARE', 'NEED'",
-      "levels": [
-        "B2"
-      ],
-      "lowest_level": "B2",
-      "spacy_patterns": [
-        {
-          "TAG": "VB"
-        }
-      ],
-      "regex_pattern": null,
-      "description": "verb",
-      "examples": [
-        "You needn't worry about where we can stay. (China; B2 VANTAGE; 1998; Chinese; Pass)\n\nI think that they are rather jealous because they daren't give up their car. (France; B2 VANTAGE; 1993; French; Pas"
-      ]
-    },
-    {
-      "id": "1741163715275x765416794436642000",
-      "category": "VERBS",
-      "guideword": "FORM: VERB + ADVERB + PREPOSITION",
-      "levels": [
-        "B2"
-      ],
-      "lowest_level": "B2",
-      "spacy_patterns": [
-        {
-          "TAG": "VB"
-        }
-      ],
-      "regex_pattern": null,
-      "description": "verb",
-      "examples": [
-        "I am really willing to know more about horses and to learn how to deal properly with them. (Brazil; B2 VANTAGE; 1993; Portuguese; Pass)\n\nI hope you will look carefully at the enclosed papers and I'm l"
-      ]
-    },
-    {
-      "id": "1741163715599x482760253719255500",
-      "category": "VERBS",
-      "guideword": "FORM: VERB + NEW SUBJECT + '-ING' FORM",
-      "levels": [
-        "B2"
-      ],
-      "lowest_level": "B2",
-      "spacy_patterns": [
-        [
-          {
-            "TAG": "VB"
-          },
-          {
-            "TAG": "VBG"
-          }
-        ]
-      ],
-      "regex_pattern": null,
-      "description": "verb + -ing",
-      "examples": [
-        "\nIf your boss doesn't mind you delaying, it could be a possible solution. (Germany; B2 VANTAGE; 1993; German; Pass)\n\nI could not stand people shouting at me, or taking pictures of me all day. It would"
-      ]
-    },
-    {
-      "id": "1741163715288x522910495367056000",
-      "category": "VERBS",
-      "guideword": "FORM: VERB + NOUN + PARTICLE ",
-      "levels": [
-        "B2"
-      ],
-      "lowest_level": "B2",
-      "spacy_patterns": [
-        [
-          {
-            "TAG": "VB"
-          },
-          {
-            "TAG": {
-              "IN": [
-                "RP",
-                "RB"
-              ]
-            }
-          }
-        ]
-      ],
-      "regex_pattern": null,
-      "description": "phrasal verb",
-      "examples": [
-        "I am glad that you have decided to take some time off and more glad because you are going to the U.S. (Chile; B2 VANTAGE; 2001; Spanish - Latin American; Pass)\n\nAnother way is also to turn the compute"
-      ]
-    },
-    {
-      "id": "1741163709241x526855987091597630",
-      "category": "FUTURE",
-      "guideword": "USE: 'BE ABOUT TO'",
-      "levels": [
-        "B2"
-      ],
-      "lowest_level": "B2",
-      "spacy_patterns": [
-        {
-          "TAG": "MD"
-        }
-      ],
-      "regex_pattern": null,
-      "description": "modal for future",
-      "examples": [
-        "Two days before, I told him that our father was about to buy a brand new car. (France; B2 VANTAGE; 2000; French; Pass)\n\nWhen I was about to answer the question, I realised that it was not as easy as I"
-      ]
-    },
-    {
-      "id": "1741163709241x319054215667245100",
-      "category": "FUTURE",
-      "guideword": "USE: 'BE ON THE POINT OF'",
-      "levels": [
-        "B2"
-      ],
-      "lowest_level": "B2",
-      "spacy_patterns": [
-        {
-          "TAG": "MD"
-        }
-      ],
-      "regex_pattern": null,
-      "description": "modal for future",
-      "examples": [
-        "In addition, when I was on the point of leaving the office, another phone rang. (Greece; B2 VANTAGE; 2002; Greek; Pass)\n\nIn fact he simulated his death to escape from the police, who were on the point"
-      ]
-    },
-    {
-      "id": "1741163709452x228579889474654900",
-      "category": "FUTURE",
-      "guideword": "USE: EVENTS COMPLETED IN THE FUTURE",
-      "levels": [
-        "B2"
-      ],
-      "lowest_level": "B2",
-      "spacy_patterns": [
-        {
-          "TAG": "MD"
-        }
-      ],
-      "regex_pattern": null,
-      "description": "modal for future",
-      "examples": [
-        "There is no problem if you want to leave at 4.30 pm as the match will have finished by that time. (Greece; B2 VANTAGE; 2008; Greek; Pass)\n\nFirst of all, if you go to work by bicycle every day, at the "
-      ]
-    },
-    {
-      "id": "1741163709236x705248128205473900",
-      "category": "FUTURE",
-      "guideword": "USE: IMMEDIATE FUTURE WITH 'BE ABOUT TO'",
-      "levels": [
-        "B2"
-      ],
-      "lowest_level": "B2",
-      "spacy_patterns": [
-        {
-          "TAG": "MD"
-        }
-      ],
-      "regex_pattern": null,
-      "description": "modal for future",
-      "examples": [
-        "I know what you 're about to answer, and moreover you might be right; (France; B2 VANTAGE; 1993; French; Pass)\n\nWe're about to introduce a new identity card system in our company. (Spain; B2 VANTAGE; "
-      ]
-    },
-    {
-      "id": "1741163709241x823282465499844400",
-      "category": "FUTURE",
-      "guideword": "USE: LOOKING BACK FROM A POINT IN THE FUTURE ",
-      "levels": [
-        "B2"
-      ],
-      "lowest_level": "B2",
-      "spacy_patterns": [
-        {
-          "TAG": "MD"
-        }
-      ],
-      "regex_pattern": null,
-      "description": "modal for future",
-      "examples": [
-        "Now I am staying in Hastings in England and this month, I will have been studying English for seven months. (Korea, South; B2 VANTAGE; 1999; Korean; Fail)\nI think I could have a holiday just in July b"
-      ]
-    },
-    {
-      "id": "1741163709236x688226297067415600",
-      "category": "FUTURE",
-      "guideword": "USE: OBLIGATIONS AND  INSTRUCTIONS WITH 'BE TO'",
-      "levels": [
-        "B2"
-      ],
-      "lowest_level": "B2",
-      "spacy_patterns": [
-        {
-          "TAG": "MD"
-        }
-      ],
-      "regex_pattern": null,
-      "description": "modal for future",
-      "examples": [
-        "[talking about gorillas] We have no right to do so, because they are to be respected as much as any other living form on this planet! (Italy; B2 VANTAGE; 1993; Italian; Pass) \n\nThey are to have their "
-      ]
-    },
-    {
-      "id": "1741163709235x267104607541658750",
-      "category": "FUTURE",
-      "guideword": "USE: POLITENESS",
-      "levels": [
-        "B2",
-        "C1"
-      ],
-      "lowest_level": "B2",
-      "spacy_patterns": [
-        {
-          "TAG": "MD"
-        }
-      ],
-      "regex_pattern": null,
-      "description": "modal for future",
-      "examples": [
-        "Will I be needing any money? (Switzerland; B2 VANTAGE; 2000; French; Pass)",
-        "[from a formal letter] I hope I will have reassured you. (France; C1 EFFECTIVE OPERATIONAL PROFICIENCY; 1993; French; Pass)"
-      ]
-    },
-    {
-      "id": "1741163709236x496378598600284700",
-      "category": "FUTURE",
-      "guideword": "USE: SCHEDULES",
-      "levels": [
-        "B2"
-      ],
-      "lowest_level": "B2",
-      "spacy_patterns": [
-        {
-          "TAG": "MD"
-        }
-      ],
-      "regex_pattern": null,
-      "description": "modal for future",
-      "examples": [
-        "Our annual conference for HR managers is due to take place on 10 December 2010. (Austria; B2 VANTAGE; 2010; German; Pass)\n\nHowever, the demand for products is still estimated as ‘normal’ and is due to"
-      ]
-    },
-    {
-      "id": "1741163715607x616643876228690600",
-      "category": "VERBS",
-      "guideword": "FORM/USE: VERBS OF SENSES + OBJECT + INFINITIVE",
-      "levels": [
-        "C1"
-      ],
-      "lowest_level": "C1",
-      "spacy_patterns": [
-        {
-          "TAG": "VB"
-        }
-      ],
-      "regex_pattern": null,
-      "description": "verb",
-      "examples": [
-        "I would like to see it develop without any pollution and without destroying the environment. (Greece; C1 EFFECTIVE OPERATIONAL PROFICIENCY; 2003; Greek; Fail)\n\nNowadays, it is very common in Argentina"
-      ]
-    },
-    {
-      "id": "1741163709462x498053003229829800",
-      "category": "FUTURE",
-      "guideword": "FORM: NEGATIVE 'SHALL' ",
-      "levels": [
-        "C1"
-      ],
-      "lowest_level": "C1",
-      "spacy_patterns": [
-        {
-          "TAG": "MD"
-        }
-      ],
-      "regex_pattern": null,
-      "description": "modal for future",
-      "examples": [
-        "However, we shall not forget to mention the legal and social consequences of such a merger to the average employees. (Switzerland; C1 EFFECTIVE OPERATIONAL PROFICIENCY; 2007; Swiss German; Pass)\n\nTher"
       ]
     },
     {
@@ -4629,230 +1497,6 @@
       "description": "phrasal-prepositional verb",
       "examples": [
         "Anyway, let me tell you what ideas I came up with. (Greece; C1 EFFECTIVE OPERATIONAL PROFICIENCY; 2003; Greek; Pass)\n\nSometimes in order to feel confident and to be inspired we need a person to look u"
-      ]
-    },
-    {
-      "id": "1741163710384x991044369751703600",
-      "category": "FUTURE",
-      "guideword": "FORM: WITH 'BY THE TIME'",
-      "levels": [
-        "C1"
-      ],
-      "lowest_level": "C1",
-      "spacy_patterns": [
-        {
-          "TAG": "MD"
-        }
-      ],
-      "regex_pattern": null,
-      "description": "modal for future",
-      "examples": [
-        " … by the time he gets home, he will just want to go straight to bed. (C1 Spanish - Latin American)\n\nBy the time you arrive the information office at the airport will be closed, as at 11.00 o'clock a "
-      ]
-    },
-    {
-      "id": "1741163709453x517184390257893000",
-      "category": "FUTURE",
-      "guideword": "FORM: WITH ADVERBS ",
-      "levels": [
-        "C1",
-        "C2"
-      ],
-      "lowest_level": "C1",
-      "spacy_patterns": [
-        {
-          "TAG": "MD"
-        }
-      ],
-      "regex_pattern": null,
-      "description": "modal for future",
-      "examples": [
-        "If you have ever read a fairytale by Hans Christian Andersen you will surely have discovered why this man is so famous worldwide. (Denmark; C1 EFFECTIVE OPERATIONAL PROFICIENCY; 2001; Danish; Pass)\nHo",
-        "Mario Soares is already an old man, nearly 70, who is probably going to finish his active political life in 2 or 3 years. (Portugal; C1 EFFECTIVE OPERATIONAL PROFICIENCY; 1993; Portuguese; Pass)\n\nAs t",
-        "But I don't know if I'm going to still live here. (Uruguay; B1 THRESHOLD; 2007; Spanish - Latin American; Pass)\n\nFirst, I am going to briefly introduce the three main activities offered by the club. ("
-      ]
-    },
-    {
-      "id": "1741163709241x694975673678065400",
-      "category": "FUTURE",
-      "guideword": "USE: ASSUMPTIONS",
-      "levels": [
-        "C1",
-        "C2"
-      ],
-      "lowest_level": "C1",
-      "spacy_patterns": [
-        {
-          "TAG": "MD"
-        }
-      ],
-      "regex_pattern": null,
-      "description": "modal for future",
-      "examples": [
-        "I do not think that this aspect is really necessary because it is supposed that … you will have been studying very hard to occupy that job …. (Argentina; C2 MASTERY; 2005; Spanish - Latin American; Fa",
-        "As you will have heard, this year's work experience programme in Britain was in general a success. (Greece; C1 EFFECTIVE OPERATIONAL PROFICIENCY; 2000; Greek; Pass)\n\nAll of this is because her book wi"
-      ]
-    },
-    {
-      "id": "1741163709235x495747867128213400",
-      "category": "FUTURE",
-      "guideword": "USE: EXPECTATIONS WITH 'MIGHT' OR 'MAY'",
-      "levels": [
-        "C1"
-      ],
-      "lowest_level": "C1",
-      "spacy_patterns": [
-        {
-          "TAG": "MD"
-        }
-      ],
-      "regex_pattern": null,
-      "description": "modal for future",
-      "examples": [
-        "As far as I'm concerned, we should definitely do some additional publicity, particularly for the new offerings which might be coming up. (Netherlands; C1 EFFECTIVE OPERATIONAL PROFICIENCY; 2006; Dutch"
-      ]
-    },
-    {
-      "id": "1741163710385x601071277336939100",
-      "category": "FUTURE",
-      "guideword": "USE: SUGGESTIONS, OBLIGATION ",
-      "levels": [
-        "C1"
-      ],
-      "lowest_level": "C1",
-      "spacy_patterns": [
-        {
-          "TAG": "MD"
-        }
-      ],
-      "regex_pattern": null,
-      "description": "modal for future",
-      "examples": [
-        "We would suggest that our management takes a closer look. (C1 German)\n\nI recommend that we go to the theatre in Ginza where \"Miss Saigon\" is on. (C1 Japanese)\n\nMoreover, we insist that the agreement b"
-      ]
-    },
-    {
-      "id": "1741163715607x852787378805638700",
-      "category": "VERBS",
-      "guideword": "FORM/USE: 'WOULD HATE' + 'TO'",
-      "levels": [
-        "C2"
-      ],
-      "lowest_level": "C2",
-      "spacy_patterns": [
-        {
-          "TAG": "VB"
-        }
-      ],
-      "regex_pattern": null,
-      "description": "verb",
-      "examples": [
-        "We in the student committee would hate to see all that space go to waste. (Sweden; C1 EFFECTIVE OPERATIONAL PROFICIENCY; 2001; Swedish; Fail)\n\nI am very much aware of my parents’ mistakes and would ha"
-      ]
-    },
-    {
-      "id": "1741163710385x778921051041153500",
-      "category": "FUTURE",
-      "guideword": "FORM: INVERSION WITH 'ONLY WHEN'",
-      "levels": [
-        "C2"
-      ],
-      "lowest_level": "C2",
-      "spacy_patterns": [
-        {
-          "TAG": "MD"
-        }
-      ],
-      "regex_pattern": null,
-      "description": "modal for future",
-      "examples": [
-        "Only when we understand that, will we be able to live in better societies. (C2 Spanish - Latin American)\n\nMoreover, I think that only when people manage this will they be able to move on with their li"
-      ]
-    },
-    {
-      "id": "1741163715275x957741138272661000",
-      "category": "VERBS",
-      "guideword": "FORM: VERB + DIRECT OBJECT + PARTICLE + PREPOSITION + OBJECT",
-      "levels": [
-        "C2"
-      ],
-      "lowest_level": "C2",
-      "spacy_patterns": [
-        [
-          {
-            "TAG": "VB"
-          },
-          {
-            "TAG": {
-              "IN": [
-                "RP",
-                "RB"
-              ]
-            }
-          }
-        ]
-      ],
-      "regex_pattern": null,
-      "description": "phrasal verb",
-      "examples": [
-        "It is widely accepted that being a loyal and trusted individual means that the people around us can trust us or let us in on a secret. (Greece; C2 MASTERY; 2009; Greek; Pass)"
-      ]
-    },
-    {
-      "id": "1741163709241x531655376865656240",
-      "category": "FUTURE",
-      "guideword": "USE: 'BE DUE TO' ",
-      "levels": [
-        "C2"
-      ],
-      "lowest_level": "C2",
-      "spacy_patterns": [
-        {
-          "TAG": "MD"
-        }
-      ],
-      "regex_pattern": null,
-      "description": "modal for future",
-      "examples": [
-        "It was quite early in the morning, only 7.15 am, and my plane was due to leave in about 40 minutes. (Germany; C2 MASTERY; 1993; German; Pass)\n\nTen minutes after the time we were due to begin, she arri"
-      ]
-    },
-    {
-      "id": "1741163709462x743053516670709100",
-      "category": "FUTURE",
-      "guideword": "USE: LONG-TERM INTENTIONS WITH 'SHALL'",
-      "levels": [
-        "C2"
-      ],
-      "lowest_level": "C2",
-      "spacy_patterns": [
-        {
-          "TAG": "MD"
-        }
-      ],
-      "regex_pattern": null,
-      "description": "modal for future",
-      "examples": [
-        "I must believe, believe in myself and in everybody else, and mainly in what I look for, this way I shall never lose hope. (Mexico; C2 MASTERY; 1993; Spanish - Latin American; Pass)\n\nI shall always rem"
-      ]
-    },
-    {
-      "id": "1741163709469x456116392447661900",
-      "category": "FUTURE",
-      "guideword": "USE: PREDICTIONS WITH 'SHALL'",
-      "levels": [
-        "C2"
-      ],
-      "lowest_level": "C2",
-      "spacy_patterns": [
-        {
-          "TAG": "MD"
-        }
-      ],
-      "regex_pattern": null,
-      "description": "modal for future",
-      "examples": [
-        "Once more I invite you wholeheartedly to stay at my place and I hope we shall meet in November. (Poland; C2 MASTERY; 1998; Polish; Pass)\n\n… we shall probably have several years more to live. (France; "
       ]
     }
   ]

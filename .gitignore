@@ -3,3 +3,4 @@
 output/
 .secrets
 CLAUDE.md
+__pycache__/

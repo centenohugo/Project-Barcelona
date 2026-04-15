@@ -1,0 +1,1355 @@
+{
+  "results": {
+    "channels": [
+      {
+        "alternatives": [
+          {
+            "transcript": "Yeah. Me Yeah. Me too. And I think it's it's a very good a very good way of thinking because you don't you can't be good at everything. And if you choose two or three topics and you're really good at it, it can give you more benefits in the future. Because if you are trying to learn everything, impossible to be to be good at at everything. You can lose one topic that you would be that you would be stronger if you focus on it. Yeah? Yeah.",
+            "confidence": 0.9980469,
+            "words": [
+              {
+                "word": "yeah",
+                "start": 11.2,
+                "end": 11.599999,
+                "confidence": 0.9499512,
+                "punctuated_word": "Yeah."
+              },
+              {
+                "word": "me",
+                "start": 11.599999,
+                "end": 11.92,
+                "confidence": 0.61279297,
+                "punctuated_word": "Me"
+              },
+              {
+                "word": "yeah",
+                "start": 13.825,
+                "end": 14.865,
+                "confidence": 0.81152344,
+                "punctuated_word": "Yeah."
+              },
+              {
+                "word": "me",
+                "start": 14.865,
+                "end": 15.1050005,
+                "confidence": 0.99316406,
+                "punctuated_word": "Me"
+              },
+              {
+                "word": "too",
+                "start": 15.1050005,
+                "end": 15.505,
+                "confidence": 0.9367676,
+                "punctuated_word": "too."
+              },
+              {
+                "word": "and",
+                "start": 15.505,
+                "end": 15.665,
+                "confidence": 0.9980469,
+                "punctuated_word": "And"
+              },
+              {
+                "word": "i",
+                "start": 15.665,
+                "end": 15.825,
+                "confidence": 0.9902344,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "think",
+                "start": 15.825,
+                "end": 16.465,
+                "confidence": 1,
+                "punctuated_word": "think"
+              },
+              {
+                "word": "it's",
+                "start": 16.545,
+                "end": 17.345,
+                "confidence": 0.9428711,
+                "punctuated_word": "it's"
+              },
+              {
+                "word": "it's",
+                "start": 17.585,
+                "end": 18.145,
+                "confidence": 0.90478516,
+                "punctuated_word": "it's"
+              },
+              {
+                "word": "a",
+                "start": 18.145,
+                "end": 18.465,
+                "confidence": 0.9873047,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "very",
+                "start": 18.465,
+                "end": 18.625,
+                "confidence": 0.99902344,
+                "punctuated_word": "very"
+              },
+              {
+                "word": "good",
+                "start": 18.625,
+                "end": 18.945,
+                "confidence": 0.99902344,
+                "punctuated_word": "good"
+              },
+              {
+                "word": "a",
+                "start": 18.945,
+                "end": 19.665,
+                "confidence": 0.9536133,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "very",
+                "start": 19.665,
+                "end": 19.905,
+                "confidence": 0.9980469,
+                "punctuated_word": "very"
+              },
+              {
+                "word": "good",
+                "start": 19.905,
+                "end": 20.625,
+                "confidence": 1,
+                "punctuated_word": "good"
+              },
+              {
+                "word": "way",
+                "start": 21.744999,
+                "end": 21.985,
+                "confidence": 0.9980469,
+                "punctuated_word": "way"
+              },
+              {
+                "word": "of",
+                "start": 21.985,
+                "end": 22.225,
+                "confidence": 0.99902344,
+                "punctuated_word": "of"
+              },
+              {
+                "word": "thinking",
+                "start": 22.225,
+                "end": 22.625,
+                "confidence": 1,
+                "punctuated_word": "thinking"
+              },
+              {
+                "word": "because",
+                "start": 22.625,
+                "end": 23.025,
+                "confidence": 0.8378906,
+                "punctuated_word": "because"
+              },
+              {
+                "word": "you",
+                "start": 23.025,
+                "end": 23.665,
+                "confidence": 0.9951172,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "don't",
+                "start": 23.665,
+                "end": 24.384998,
+                "confidence": 0.99853516,
+                "punctuated_word": "don't"
+              },
+              {
+                "word": "you",
+                "start": 25.665,
+                "end": 25.904999,
+                "confidence": 0.99902344,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "can't",
+                "start": 25.904999,
+                "end": 26.465,
+                "confidence": 0.9995117,
+                "punctuated_word": "can't"
+              },
+              {
+                "word": "be",
+                "start": 26.465,
+                "end": 26.705,
+                "confidence": 1,
+                "punctuated_word": "be"
+              },
+              {
+                "word": "good",
+                "start": 27.5,
+                "end": 28.22,
+                "confidence": 0.97509766,
+                "punctuated_word": "good"
+              },
+              {
+                "word": "at",
+                "start": 28.22,
+                "end": 28.46,
+                "confidence": 1,
+                "punctuated_word": "at"
+              },
+              {
+                "word": "everything",
+                "start": 28.46,
+                "end": 29.1,
+                "confidence": 0.95458984,
+                "punctuated_word": "everything."
+              },
+              {
+                "word": "and",
+                "start": 29.1,
+                "end": 29.34,
+                "confidence": 0.9941406,
+                "punctuated_word": "And"
+              },
+              {
+                "word": "if",
+                "start": 29.34,
+                "end": 29.58,
+                "confidence": 0.99902344,
+                "punctuated_word": "if"
+              },
+              {
+                "word": "you",
+                "start": 29.58,
+                "end": 29.74,
+                "confidence": 1,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "choose",
+                "start": 29.74,
+                "end": 30.3,
+                "confidence": 0.99609375,
+                "punctuated_word": "choose"
+              },
+              {
+                "word": "two",
+                "start": 30.3,
+                "end": 31.02,
+                "confidence": 0.87890625,
+                "punctuated_word": "two"
+              },
+              {
+                "word": "or",
+                "start": 31.02,
+                "end": 31.34,
+                "confidence": 0.9980469,
+                "punctuated_word": "or"
+              },
+              {
+                "word": "three",
+                "start": 31.34,
+                "end": 31.58,
+                "confidence": 0.9980469,
+                "punctuated_word": "three"
+              },
+              {
+                "word": "topics",
+                "start": 31.58,
+                "end": 31.98,
+                "confidence": 0.99902344,
+                "punctuated_word": "topics"
+              },
+              {
+                "word": "and",
+                "start": 31.98,
+                "end": 32.22,
+                "confidence": 0.72216797,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "you're",
+                "start": 32.22,
+                "end": 32.7,
+                "confidence": 0.91796875,
+                "punctuated_word": "you're"
+              },
+              {
+                "word": "really",
+                "start": 32.7,
+                "end": 32.86,
+                "confidence": 0.9819336,
+                "punctuated_word": "really"
+              },
+              {
+                "word": "good",
+                "start": 32.86,
+                "end": 33.1,
+                "confidence": 1,
+                "punctuated_word": "good"
+              },
+              {
+                "word": "at",
+                "start": 33.1,
+                "end": 33.26,
+                "confidence": 1,
+                "punctuated_word": "at"
+              },
+              {
+                "word": "it",
+                "start": 33.26,
+                "end": 33.66,
+                "confidence": 0.99609375,
+                "punctuated_word": "it,"
+              },
+              {
+                "word": "it",
+                "start": 33.66,
+                "end": 34.06,
+                "confidence": 0.98291016,
+                "punctuated_word": "it"
+              },
+              {
+                "word": "can",
+                "start": 34.06,
+                "end": 34.62,
+                "confidence": 0.9980469,
+                "punctuated_word": "can"
+              },
+              {
+                "word": "give",
+                "start": 34.62,
+                "end": 34.94,
+                "confidence": 0.99609375,
+                "punctuated_word": "give"
+              },
+              {
+                "word": "you",
+                "start": 34.94,
+                "end": 35.1,
+                "confidence": 1,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "more",
+                "start": 35.1,
+                "end": 35.739998,
+                "confidence": 1,
+                "punctuated_word": "more"
+              },
+              {
+                "word": "benefits",
+                "start": 36.059998,
+                "end": 36.62,
+                "confidence": 0.9980469,
+                "punctuated_word": "benefits"
+              },
+              {
+                "word": "in",
+                "start": 36.62,
+                "end": 36.86,
+                "confidence": 1,
+                "punctuated_word": "in"
+              },
+              {
+                "word": "the",
+                "start": 36.86,
+                "end": 37.02,
+                "confidence": 1,
+                "punctuated_word": "the"
+              },
+              {
+                "word": "future",
+                "start": 37.02,
+                "end": 37.66,
+                "confidence": 0.93847656,
+                "punctuated_word": "future."
+              },
+              {
+                "word": "because",
+                "start": 38.14,
+                "end": 38.46,
+                "confidence": 0.42138672,
+                "punctuated_word": "Because"
+              },
+              {
+                "word": "if",
+                "start": 38.46,
+                "end": 38.7,
+                "confidence": 0.99902344,
+                "punctuated_word": "if"
+              },
+              {
+                "word": "you",
+                "start": 38.7,
+                "end": 39.02,
+                "confidence": 1,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "are",
+                "start": 39.02,
+                "end": 39.34,
+                "confidence": 1,
+                "punctuated_word": "are"
+              },
+              {
+                "word": "trying",
+                "start": 39.34,
+                "end": 39.82,
+                "confidence": 1,
+                "punctuated_word": "trying"
+              },
+              {
+                "word": "to",
+                "start": 39.82,
+                "end": 40.379997,
+                "confidence": 1,
+                "punctuated_word": "to"
+              },
+              {
+                "word": "learn",
+                "start": 40.54,
+                "end": 41.5,
+                "confidence": 1,
+                "punctuated_word": "learn"
+              },
+              {
+                "word": "everything",
+                "start": 41.58,
+                "end": 42.14,
+                "confidence": 0.98950195,
+                "punctuated_word": "everything,"
+              },
+              {
+                "word": "impossible",
+                "start": 43.185,
+                "end": 43.665,
+                "confidence": 1,
+                "punctuated_word": "impossible"
+              },
+              {
+                "word": "to",
+                "start": 43.665,
+                "end": 43.985,
+                "confidence": 1,
+                "punctuated_word": "to"
+              },
+              {
+                "word": "be",
+                "start": 43.985,
+                "end": 44.145,
+                "confidence": 0.99902344,
+                "punctuated_word": "be"
+              },
+              {
+                "word": "to",
+                "start": 44.145,
+                "end": 44.385,
+                "confidence": 0.9970703,
+                "punctuated_word": "to"
+              },
+              {
+                "word": "be",
+                "start": 44.385,
+                "end": 44.465,
+                "confidence": 0.99902344,
+                "punctuated_word": "be"
+              },
+              {
+                "word": "good",
+                "start": 44.465,
+                "end": 44.704998,
+                "confidence": 1,
+                "punctuated_word": "good"
+              },
+              {
+                "word": "at",
+                "start": 44.704998,
+                "end": 44.945,
+                "confidence": 0.9873047,
+                "punctuated_word": "at"
+              },
+              {
+                "word": "at",
+                "start": 44.945,
+                "end": 45.745,
+                "confidence": 0.85498047,
+                "punctuated_word": "at"
+              },
+              {
+                "word": "everything",
+                "start": 45.745,
+                "end": 46.305,
+                "confidence": 0.86328125,
+                "punctuated_word": "everything."
+              },
+              {
+                "word": "you",
+                "start": 46.305,
+                "end": 46.545,
+                "confidence": 0.5625,
+                "punctuated_word": "You"
+              },
+              {
+                "word": "can",
+                "start": 46.545,
+                "end": 46.785,
+                "confidence": 0.9921875,
+                "punctuated_word": "can"
+              },
+              {
+                "word": "lose",
+                "start": 46.785,
+                "end": 47.665,
+                "confidence": 0.9941406,
+                "punctuated_word": "lose"
+              },
+              {
+                "word": "one",
+                "start": 47.985,
+                "end": 48.305,
+                "confidence": 0.99902344,
+                "punctuated_word": "one"
+              },
+              {
+                "word": "topic",
+                "start": 48.305,
+                "end": 48.625,
+                "confidence": 1,
+                "punctuated_word": "topic"
+              },
+              {
+                "word": "that",
+                "start": 48.625,
+                "end": 48.945,
+                "confidence": 0.99902344,
+                "punctuated_word": "that"
+              },
+              {
+                "word": "you",
+                "start": 48.945,
+                "end": 49.184998,
+                "confidence": 1,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "would",
+                "start": 49.184998,
+                "end": 49.585,
+                "confidence": 0.99902344,
+                "punctuated_word": "would"
+              },
+              {
+                "word": "be",
+                "start": 49.585,
+                "end": 50.225,
+                "confidence": 1,
+                "punctuated_word": "be"
+              },
+              {
+                "word": "that",
+                "start": 50.305,
+                "end": 50.785,
+                "confidence": 0.94189453,
+                "punctuated_word": "that"
+              },
+              {
+                "word": "you",
+                "start": 50.785,
+                "end": 51.425,
+                "confidence": 0.99902344,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "would",
+                "start": 51.825,
+                "end": 52.145,
+                "confidence": 0.9838867,
+                "punctuated_word": "would"
+              },
+              {
+                "word": "be",
+                "start": 52.145,
+                "end": 52.465,
+                "confidence": 0.99609375,
+                "punctuated_word": "be"
+              },
+              {
+                "word": "stronger",
+                "start": 52.465,
+                "end": 53.665,
+                "confidence": 0.9980469,
+                "punctuated_word": "stronger"
+              },
+              {
+                "word": "if",
+                "start": 53.665,
+                "end": 53.985,
+                "confidence": 0.9873047,
+                "punctuated_word": "if"
+              },
+              {
+                "word": "you",
+                "start": 53.985,
+                "end": 54.545,
+                "confidence": 0.99902344,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "focus",
+                "start": 54.785,
+                "end": 55.105,
+                "confidence": 0.9941406,
+                "punctuated_word": "focus"
+              },
+              {
+                "word": "on",
+                "start": 55.105,
+                "end": 55.345,
+                "confidence": 1,
+                "punctuated_word": "on"
+              },
+              {
+                "word": "it",
+                "start": 55.345,
+                "end": 55.585,
+                "confidence": 0.9970703,
+                "punctuated_word": "it."
+              },
+              {
+                "word": "yeah",
+                "start": 55.585,
+                "end": 55.745,
+                "confidence": 0.94970703,
+                "punctuated_word": "Yeah?"
+              },
+              {
+                "word": "yeah",
+                "start": 59.645,
+                "end": 59.965,
+                "confidence": 0.99316406,
+                "punctuated_word": "Yeah."
+              }
+            ],
+            "paragraphs": {
+              "transcript": "\nYeah. Me Yeah. Me too. And I think it's it's a very good a very good way of thinking because you don't you can't be good at everything. And if you choose two or three topics and you're really good at it, it can give you more benefits in the future.\n\nBecause if you are trying to learn everything, impossible to be to be good at at everything. You can lose one topic that you would be that you would be stronger if you focus on it. Yeah? Yeah.",
+              "paragraphs": [
+                {
+                  "sentences": [
+                    {
+                      "text": "Yeah.",
+                      "start": 11.2,
+                      "end": 11.599999
+                    },
+                    {
+                      "text": "Me Yeah.",
+                      "start": 11.599999,
+                      "end": 14.865
+                    },
+                    {
+                      "text": "Me too.",
+                      "start": 14.865,
+                      "end": 15.505
+                    },
+                    {
+                      "text": "And I think it's it's a very good a very good way of thinking because you don't you can't be good at everything.",
+                      "start": 15.505,
+                      "end": 29.1
+                    },
+                    {
+                      "text": "And if you choose two or three topics and you're really good at it, it can give you more benefits in the future.",
+                      "start": 29.1,
+                      "end": 37.66
+                    }
+                  ],
+                  "num_words": 51,
+                  "start": 11.2,
+                  "end": 37.66
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "Because if you are trying to learn everything, impossible to be to be good at at everything.",
+                      "start": 38.14,
+                      "end": 46.305
+                    },
+                    {
+                      "text": "You can lose one topic that you would be that you would be stronger if you focus on it.",
+                      "start": 46.305,
+                      "end": 55.585
+                    },
+                    {
+                      "text": "Yeah?",
+                      "start": 55.585,
+                      "end": 55.745
+                    },
+                    {
+                      "text": "Yeah.",
+                      "start": 59.645,
+                      "end": 59.965
+                    }
+                  ],
+                  "num_words": 38,
+                  "start": 38.14,
+                  "end": 59.965
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "alternatives": [
+          {
+            "transcript": "It's okay. Learn this. Learn Russian. And I had to have the bare minimum. Like, the minimum was always there, but my parents didn't push me so hard. That's why I was able to push hard myself. Mhmm. Yes. Yes. Absolutely. What will you do after the lesson, my friend?",
+            "confidence": 0.99902344,
+            "words": [
+              {
+                "word": "it's",
+                "start": 0,
+                "end": 0.56,
+                "confidence": 0.8815918,
+                "punctuated_word": "It's"
+              },
+              {
+                "word": "okay",
+                "start": 0.56,
+                "end": 1.1199999,
+                "confidence": 0.99853516,
+                "punctuated_word": "okay."
+              },
+              {
+                "word": "learn",
+                "start": 1.1999999,
+                "end": 1.5999999,
+                "confidence": 0.9951172,
+                "punctuated_word": "Learn"
+              },
+              {
+                "word": "this",
+                "start": 1.5999999,
+                "end": 2.1599998,
+                "confidence": 0.95996094,
+                "punctuated_word": "this."
+              },
+              {
+                "word": "learn",
+                "start": 2.1599998,
+                "end": 2.32,
+                "confidence": 0.99902344,
+                "punctuated_word": "Learn"
+              },
+              {
+                "word": "russian",
+                "start": 2.32,
+                "end": 3.12,
+                "confidence": 0.9926758,
+                "punctuated_word": "Russian."
+              },
+              {
+                "word": "and",
+                "start": 3.28,
+                "end": 3.6,
+                "confidence": 0.99902344,
+                "punctuated_word": "And"
+              },
+              {
+                "word": "i",
+                "start": 3.6,
+                "end": 3.76,
+                "confidence": 1,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "had",
+                "start": 3.76,
+                "end": 4.08,
+                "confidence": 0.99902344,
+                "punctuated_word": "had"
+              },
+              {
+                "word": "to",
+                "start": 4.08,
+                "end": 4.3199997,
+                "confidence": 1,
+                "punctuated_word": "to"
+              },
+              {
+                "word": "have",
+                "start": 4.3199997,
+                "end": 4.7999997,
+                "confidence": 1,
+                "punctuated_word": "have"
+              },
+              {
+                "word": "the",
+                "start": 4.7999997,
+                "end": 4.96,
+                "confidence": 0.9980469,
+                "punctuated_word": "the"
+              },
+              {
+                "word": "bare",
+                "start": 4.96,
+                "end": 5.2,
+                "confidence": 0.9980469,
+                "punctuated_word": "bare"
+              },
+              {
+                "word": "minimum",
+                "start": 5.2,
+                "end": 6.08,
+                "confidence": 0.80322266,
+                "punctuated_word": "minimum."
+              },
+              {
+                "word": "like",
+                "start": 6.08,
+                "end": 6.3999996,
+                "confidence": 0.9916992,
+                "punctuated_word": "Like,"
+              },
+              {
+                "word": "the",
+                "start": 6.3999996,
+                "end": 6.72,
+                "confidence": 0.99902344,
+                "punctuated_word": "the"
+              },
+              {
+                "word": "minimum",
+                "start": 6.72,
+                "end": 7.2799997,
+                "confidence": 1,
+                "punctuated_word": "minimum"
+              },
+              {
+                "word": "was",
+                "start": 7.2799997,
+                "end": 7.68,
+                "confidence": 1,
+                "punctuated_word": "was"
+              },
+              {
+                "word": "always",
+                "start": 7.68,
+                "end": 8,
+                "confidence": 1,
+                "punctuated_word": "always"
+              },
+              {
+                "word": "there",
+                "start": 8,
+                "end": 8.639999,
+                "confidence": 0.9116211,
+                "punctuated_word": "there,"
+              },
+              {
+                "word": "but",
+                "start": 8.8,
+                "end": 9.36,
+                "confidence": 0.99902344,
+                "punctuated_word": "but"
+              },
+              {
+                "word": "my",
+                "start": 9.36,
+                "end": 9.679999,
+                "confidence": 0.86035156,
+                "punctuated_word": "my"
+              },
+              {
+                "word": "parents",
+                "start": 9.679999,
+                "end": 10,
+                "confidence": 1,
+                "punctuated_word": "parents"
+              },
+              {
+                "word": "didn't",
+                "start": 10,
+                "end": 10.32,
+                "confidence": 1,
+                "punctuated_word": "didn't"
+              },
+              {
+                "word": "push",
+                "start": 10.32,
+                "end": 10.559999,
+                "confidence": 1,
+                "punctuated_word": "push"
+              },
+              {
+                "word": "me",
+                "start": 10.559999,
+                "end": 10.8,
+                "confidence": 1,
+                "punctuated_word": "me"
+              },
+              {
+                "word": "so",
+                "start": 10.8,
+                "end": 11.04,
+                "confidence": 1,
+                "punctuated_word": "so"
+              },
+              {
+                "word": "hard",
+                "start": 11.04,
+                "end": 11.44,
+                "confidence": 0.99609375,
+                "punctuated_word": "hard."
+              },
+              {
+                "word": "that's",
+                "start": 11.44,
+                "end": 11.759999,
+                "confidence": 0.9921875,
+                "punctuated_word": "That's"
+              },
+              {
+                "word": "why",
+                "start": 11.759999,
+                "end": 12,
+                "confidence": 0.97998047,
+                "punctuated_word": "why"
+              },
+              {
+                "word": "i",
+                "start": 12,
+                "end": 12.32,
+                "confidence": 0.99902344,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "was",
+                "start": 12.32,
+                "end": 12.559999,
+                "confidence": 1,
+                "punctuated_word": "was"
+              },
+              {
+                "word": "able",
+                "start": 12.559999,
+                "end": 12.88,
+                "confidence": 1,
+                "punctuated_word": "able"
+              },
+              {
+                "word": "to",
+                "start": 12.88,
+                "end": 13.04,
+                "confidence": 0.99902344,
+                "punctuated_word": "to"
+              },
+              {
+                "word": "push",
+                "start": 13.04,
+                "end": 13.36,
+                "confidence": 1,
+                "punctuated_word": "push"
+              },
+              {
+                "word": "hard",
+                "start": 13.36,
+                "end": 13.679999,
+                "confidence": 1,
+                "punctuated_word": "hard"
+              },
+              {
+                "word": "myself",
+                "start": 13.679999,
+                "end": 14.48,
+                "confidence": 0.99658203,
+                "punctuated_word": "myself."
+              },
+              {
+                "word": "mhmm",
+                "start": 14.48,
+                "end": 14.719999,
+                "confidence": 0.8996582,
+                "punctuated_word": "Mhmm."
+              },
+              {
+                "word": "yes",
+                "start": 37.73,
+                "end": 38.13,
+                "confidence": 0.9890137,
+                "punctuated_word": "Yes."
+              },
+              {
+                "word": "yes",
+                "start": 55.745003,
+                "end": 56.145,
+                "confidence": 0.9807129,
+                "punctuated_word": "Yes."
+              },
+              {
+                "word": "absolutely",
+                "start": 56.145,
+                "end": 56.865,
+                "confidence": 0.99853516,
+                "punctuated_word": "Absolutely."
+              },
+              {
+                "word": "what",
+                "start": 56.945,
+                "end": 57.585,
+                "confidence": 0.5698242,
+                "punctuated_word": "What"
+              },
+              {
+                "word": "will",
+                "start": 57.585,
+                "end": 57.745003,
+                "confidence": 0.9863281,
+                "punctuated_word": "will"
+              },
+              {
+                "word": "you",
+                "start": 57.745003,
+                "end": 57.905003,
+                "confidence": 0.65722656,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "do",
+                "start": 57.905003,
+                "end": 58.065002,
+                "confidence": 0.99902344,
+                "punctuated_word": "do"
+              },
+              {
+                "word": "after",
+                "start": 58.065002,
+                "end": 58.305,
+                "confidence": 0.99902344,
+                "punctuated_word": "after"
+              },
+              {
+                "word": "the",
+                "start": 58.305,
+                "end": 58.465,
+                "confidence": 0.9980469,
+                "punctuated_word": "the"
+              },
+              {
+                "word": "lesson",
+                "start": 58.465,
+                "end": 58.865,
+                "confidence": 0.98706055,
+                "punctuated_word": "lesson,"
+              },
+              {
+                "word": "my",
+                "start": 58.865,
+                "end": 59.025,
+                "confidence": 1,
+                "punctuated_word": "my"
+              },
+              {
+                "word": "friend",
+                "start": 59.025,
+                "end": 59.265,
+                "confidence": 0.9995117,
+                "punctuated_word": "friend?"
+              }
+            ],
+            "paragraphs": {
+              "transcript": "\nIt's okay. Learn this. Learn Russian. And I had to have the bare minimum. Like, the minimum was always there, but my parents didn't push me so hard.\n\nThat's why I was able to push hard myself. Mhmm. Yes. Yes. Absolutely.\n\nWhat will you do after the lesson, my friend?",
+              "paragraphs": [
+                {
+                  "sentences": [
+                    {
+                      "text": "It's okay.",
+                      "start": 0,
+                      "end": 1.1199999
+                    },
+                    {
+                      "text": "Learn this.",
+                      "start": 1.1999999,
+                      "end": 2.1599998
+                    },
+                    {
+                      "text": "Learn Russian.",
+                      "start": 2.1599998,
+                      "end": 3.12
+                    },
+                    {
+                      "text": "And I had to have the bare minimum.",
+                      "start": 3.28,
+                      "end": 6.08
+                    },
+                    {
+                      "text": "Like, the minimum was always there, but my parents didn't push me so hard.",
+                      "start": 6.08,
+                      "end": 11.44
+                    }
+                  ],
+                  "num_words": 28,
+                  "start": 0,
+                  "end": 11.44
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "That's why I was able to push hard myself.",
+                      "start": 11.44,
+                      "end": 14.48
+                    },
+                    {
+                      "text": "Mhmm.",
+                      "start": 14.48,
+                      "end": 14.719999
+                    },
+                    {
+                      "text": "Yes.",
+                      "start": 37.73,
+                      "end": 38.13
+                    },
+                    {
+                      "text": "Yes.",
+                      "start": 55.745003,
+                      "end": 56.145
+                    },
+                    {
+                      "text": "Absolutely.",
+                      "start": 56.145,
+                      "end": 56.865
+                    }
+                  ],
+                  "num_words": 13,
+                  "start": 11.44,
+                  "end": 56.865
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "What will you do after the lesson, my friend?",
+                      "start": 56.945,
+                      "end": 59.265
+                    }
+                  ],
+                  "num_words": 9,
+                  "start": 56.945,
+                  "end": 59.265
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "paragraphs": {
+      "transcript": "\nChannel 1: It's okay. Learn this. Learn Russian. And I had to have the bare minimum. Like, the minimum was always there, but my parents didn't push me so hard.\n\nChannel 0: Yeah.\n\nChannel 1: That's\n\nChannel 0: Me\n\nChannel 1: why I was able to push hard myself.\n\nChannel 0: Yeah.\n\nChannel 1: Mhmm.\n\nChannel 0: Me too. And I think it's it's a very good a very good way of thinking because you don't you can't be good at everything. And if you choose two or three topics and you're really good at it, it can give you more benefits in the future.\n\nChannel 1: Yes.\n\nChannel 0: Because if you are trying to learn everything, impossible to be to be good at at everything. You can lose one topic that you would be that you would be stronger if you focus on it. Yeah?\n\nChannel 1: Yes. Absolutely. What will you do after the lesson, my friend?\n\nChannel 0: Yeah.",
+      "paragraphs": [
+        {
+          "sentences": [
+            {
+              "text": "It's okay.",
+              "start": 0,
+              "end": 1.1199999
+            },
+            {
+              "text": "Learn this.",
+              "start": 1.1999999,
+              "end": 2.1599998
+            },
+            {
+              "text": "Learn Russian.",
+              "start": 2.1599998,
+              "end": 3.12
+            },
+            {
+              "text": "And I had to have the bare minimum.",
+              "start": 3.28,
+              "end": 6.08
+            },
+            {
+              "text": "Like, the minimum was always there, but my parents didn't push me so hard.",
+              "start": 6.08,
+              "end": 11.44
+            }
+          ],
+          "channel": 1,
+          "num_words": 28,
+          "start": 0,
+          "end": 11.44
+        },
+        {
+          "sentences": [
+            {
+              "text": "Yeah.",
+              "start": 11.2,
+              "end": 11.599999
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 11.2,
+          "end": 11.599999
+        },
+        {
+          "sentences": [
+            {
+              "text": "That's",
+              "start": 11.44,
+              "end": 11.759999
+            }
+          ],
+          "channel": 1,
+          "num_words": 1,
+          "start": 11.44,
+          "end": 11.759999
+        },
+        {
+          "sentences": [
+            {
+              "text": "Me",
+              "start": 11.599999,
+              "end": 11.92
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 11.599999,
+          "end": 11.92
+        },
+        {
+          "sentences": [
+            {
+              "text": "why I was able to push hard myself.",
+              "start": 11.759999,
+              "end": 14.48
+            }
+          ],
+          "channel": 1,
+          "num_words": 8,
+          "start": 11.759999,
+          "end": 14.48
+        },
+        {
+          "sentences": [
+            {
+              "text": "Yeah.",
+              "start": 13.825,
+              "end": 14.865
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 13.825,
+          "end": 14.865
+        },
+        {
+          "sentences": [
+            {
+              "text": "Mhmm.",
+              "start": 14.48,
+              "end": 14.719999
+            }
+          ],
+          "channel": 1,
+          "num_words": 1,
+          "start": 14.48,
+          "end": 14.719999
+        },
+        {
+          "sentences": [
+            {
+              "text": "Me too.",
+              "start": 14.865,
+              "end": 15.505
+            },
+            {
+              "text": "And I think it's it's a very good a very good way of thinking because you don't you can't be good at everything.",
+              "start": 15.505,
+              "end": 29.1
+            },
+            {
+              "text": "And if you choose two or three topics and you're really good at it, it can give you more benefits in the future.",
+              "start": 29.1,
+              "end": 37.66
+            }
+          ],
+          "channel": 0,
+          "num_words": 48,
+          "start": 14.865,
+          "end": 37.66
+        },
+        {
+          "sentences": [
+            {
+              "text": "Yes.",
+              "start": 37.73,
+              "end": 38.13
+            }
+          ],
+          "channel": 1,
+          "num_words": 1,
+          "start": 37.73,
+          "end": 38.13
+        },
+        {
+          "sentences": [
+            {
+              "text": "Because if you are trying to learn everything, impossible to be to be good at at everything.",
+              "start": 38.14,
+              "end": 46.305
+            },
+            {
+              "text": "You can lose one topic that you would be that you would be stronger if you focus on it.",
+              "start": 46.305,
+              "end": 55.585
+            },
+            {
+              "text": "Yeah?",
+              "start": 55.585,
+              "end": 55.745
+            }
+          ],
+          "channel": 0,
+          "num_words": 37,
+          "start": 38.14,
+          "end": 55.745
+        },
+        {
+          "sentences": [
+            {
+              "text": "Yes.",
+              "start": 55.745003,
+              "end": 56.145
+            },
+            {
+              "text": "Absolutely.",
+              "start": 56.145,
+              "end": 56.865
+            },
+            {
+              "text": "What will you do after the lesson, my friend?",
+              "start": 56.945,
+              "end": 59.265
+            }
+          ],
+          "channel": 1,
+          "num_words": 11,
+          "start": 55.745003,
+          "end": 59.265
+        },
+        {
+          "sentences": [
+            {
+              "text": "Yeah.",
+              "start": 59.645,
+              "end": 59.965
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 59.645,
+          "end": 59.965
+        }
+      ]
+    }
+  }
+}

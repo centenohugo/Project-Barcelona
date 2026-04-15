@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(wc -l grammar_parser/structures/*.json)",
+      "Bash(du -sh . ./*)",
+      "Bash(python3 -c \"import json; f=open\\('raw_data/TheEuropaHack_PublicDataSample/Student-1/lesson-1/01.json'\\); d=json.load\\(f\\); print\\(json.dumps\\({k: type\\(v\\).__name__ for k,v in d.items\\(\\)}, indent=2\\)\\)\")",
+      "Bash(python3)",
+      "Bash(python3 *)",
+      "Bash(.venv/Scripts/pip install *)",
+      "Bash(.venv/Scripts/pip.exe install *)",
+      "Bash(.venv/Scripts/python.exe -m spacy download en_core_web_sm)",
+      "Bash(.venv/Scripts/python.exe -m ipykernel install --user --name=barcelona-grammar --display-name \"Barcelona Grammar \\(.venv\\)\")",
+      "Bash(.venv/Scripts/python.exe separate_sentences.py)"
+    ]
+  }
+}

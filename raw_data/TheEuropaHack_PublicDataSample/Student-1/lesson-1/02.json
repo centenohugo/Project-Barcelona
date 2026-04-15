@@ -1,0 +1,4608 @@
+{
+  "results": {
+    "channels": [
+      {
+        "alternatives": [
+          {
+            "words": [
+              {
+                "end": 18.36,
+                "word": "mhmm",
+                "start": 17.86,
+                "confidence": 0.9343262,
+                "punctuated_word": "Mhmm."
+              },
+              {
+                "end": 19.56,
+                "word": "yeah",
+                "start": 19.06,
+                "confidence": 0.9692383,
+                "punctuated_word": "Yeah."
+              },
+              {
+                "end": 20.26,
+                "word": "yeah",
+                "start": 20.02,
+                "confidence": 0.88134766,
+                "punctuated_word": "Yeah."
+              },
+              {
+                "end": 20.76,
+                "word": "yeah",
+                "start": 20.26,
+                "confidence": 0.8901367,
+                "punctuated_word": "Yeah."
+              },
+              {
+                "end": 54.28,
+                "word": "yeah",
+                "start": 53.78,
+                "confidence": 0.6300049,
+                "punctuated_word": "Yeah."
+              },
+              {
+                "end": 54.82,
+                "word": "i",
+                "start": 54.66,
+                "confidence": 0.52441406,
+                "punctuated_word": "I"
+              },
+              {
+                "end": 55.32,
+                "word": "understand",
+                "start": 54.82,
+                "confidence": 0.8935547,
+                "punctuated_word": "understand."
+              },
+              {
+                "end": 56.04,
+                "word": "yeah",
+                "start": 55.54,
+                "confidence": 0.90600586,
+                "punctuated_word": "Yeah."
+              },
+              {
+                "end": 95.01501,
+                "word": "okay",
+                "start": 94.51501,
+                "confidence": 0.87939453,
+                "punctuated_word": "Okay."
+              },
+              {
+                "end": 99.770004,
+                "word": "okay",
+                "start": 99.270004,
+                "confidence": 0.97021484,
+                "punctuated_word": "Okay."
+              },
+              {
+                "end": 103.270004,
+                "word": "give",
+                "start": 103.03,
+                "confidence": 0.8613281,
+                "punctuated_word": "Give"
+              },
+              {
+                "end": 103.35,
+                "word": "me",
+                "start": 103.270004,
+                "confidence": 0.97509766,
+                "punctuated_word": "me"
+              },
+              {
+                "end": 103.83,
+                "word": "moment",
+                "start": 103.35,
+                "confidence": 0.5917969,
+                "punctuated_word": "moment"
+              },
+              {
+                "end": 104.33,
+                "word": "because",
+                "start": 103.83,
+                "confidence": 0.68847656,
+                "punctuated_word": "because,"
+              },
+              {
+                "end": 104.87,
+                "word": "i",
+                "start": 104.79,
+                "confidence": 0.9980469,
+                "punctuated_word": "I"
+              },
+              {
+                "end": 105.19,
+                "word": "don't",
+                "start": 104.87,
+                "confidence": 0.9995117,
+                "punctuated_word": "don't"
+              },
+              {
+                "end": 105.67,
+                "word": "have",
+                "start": 105.19,
+                "confidence": 0.8864746,
+                "punctuated_word": "have,"
+              },
+              {
+                "end": 106.39,
+                "word": "i",
+                "start": 106.31,
+                "confidence": 0.9980469,
+                "punctuated_word": "I"
+              },
+              {
+                "end": 106.63,
+                "word": "don't",
+                "start": 106.39,
+                "confidence": 1,
+                "punctuated_word": "don't"
+              },
+              {
+                "end": 107.13,
+                "word": "have",
+                "start": 106.63,
+                "confidence": 0.94628906,
+                "punctuated_word": "have,"
+              },
+              {
+                "end": 107.75,
+                "word": "to",
+                "start": 107.51,
+                "confidence": 0.99316406,
+                "punctuated_word": "to"
+              },
+              {
+                "end": 108.25,
+                "word": "write",
+                "start": 107.75,
+                "confidence": 0.94873047,
+                "punctuated_word": "write,"
+              },
+              {
+                "end": 109.805,
+                "word": "you",
+                "start": 109.725,
+                "confidence": 0.9951172,
+                "punctuated_word": "you"
+              },
+              {
+                "end": 110.125,
+                "word": "know",
+                "start": 109.805,
+                "confidence": 0.9941406,
+                "punctuated_word": "know,"
+              },
+              {
+                "end": 110.784996,
+                "word": "paper",
+                "start": 110.284996,
+                "confidence": 0.8461914,
+                "punctuated_word": "paper."
+              },
+              {
+                "end": 140.01001,
+                "word": "okay",
+                "start": 139.51001,
+                "confidence": 0.7788086,
+                "punctuated_word": "Okay."
+              },
+              {
+                "end": 186.375,
+                "word": "okay",
+                "start": 185.875,
+                "confidence": 0.873291,
+                "punctuated_word": "Okay."
+              },
+              {
+                "end": 198.79001,
+                "word": "okay",
+                "start": 198.29001,
+                "confidence": 0.7043457,
+                "punctuated_word": "Okay."
+              },
+              {
+                "end": 208.20999,
+                "word": "okay",
+                "start": 207.70999,
+                "confidence": 0.81152344,
+                "punctuated_word": "Okay."
+              },
+              {
+                "end": 208.67,
+                "word": "hello",
+                "start": 208.26999,
+                "confidence": 0.9941406,
+                "punctuated_word": "Hello."
+              },
+              {
+                "end": 208.90999,
+                "word": "my",
+                "start": 208.67,
+                "confidence": 1,
+                "punctuated_word": "My"
+              },
+              {
+                "end": 209.40999,
+                "word": "name",
+                "start": 208.90999,
+                "confidence": 1,
+                "punctuated_word": "name"
+              },
+              {
+                "end": 209.79,
+                "word": "my",
+                "start": 209.54999,
+                "confidence": 0.98535156,
+                "punctuated_word": "my"
+              },
+              {
+                "end": 210.03,
+                "word": "name",
+                "start": 209.79,
+                "confidence": 1,
+                "punctuated_word": "name"
+              },
+              {
+                "end": 210.26999,
+                "word": "is",
+                "start": 210.03,
+                "confidence": 0.9313965,
+                "punctuated_word": "is,"
+              },
+              {
+                "end": 212.04999,
+                "word": "joanna",
+                "start": 211.54999,
+                "confidence": 0.9370117,
+                "punctuated_word": "Joanna."
+              },
+              {
+                "end": 213.25,
+                "word": "i'm",
+                "start": 212.75,
+                "confidence": 0.98999023,
+                "punctuated_word": "I'm"
+              },
+              {
+                "end": 213.62999,
+                "word": "a",
+                "start": 213.39,
+                "confidence": 0.9970703,
+                "punctuated_word": "a"
+              },
+              {
+                "end": 214.12999,
+                "word": "student",
+                "start": 213.62999,
+                "confidence": 0.9995117,
+                "punctuated_word": "student."
+              },
+              {
+                "end": 218.99501,
+                "word": "he's",
+                "start": 218.595,
+                "confidence": 0.8562012,
+                "punctuated_word": "He's"
+              },
+              {
+                "end": 219.49501,
+                "word": "russell",
+                "start": 218.99501,
+                "confidence": 0.96240234,
+                "punctuated_word": "Russell."
+              },
+              {
+                "end": 221.015,
+                "word": "he",
+                "start": 220.515,
+                "confidence": 0.96240234,
+                "punctuated_word": "He"
+              },
+              {
+                "end": 222.435,
+                "word": "he",
+                "start": 222.115,
+                "confidence": 0.91503906,
+                "punctuated_word": "he"
+              },
+              {
+                "end": 222.91501,
+                "word": "he's",
+                "start": 222.595,
+                "confidence": 0.96899414,
+                "punctuated_word": "he's"
+              },
+              {
+                "end": 223.395,
+                "word": "russell",
+                "start": 222.91501,
+                "confidence": 0.95532227,
+                "punctuated_word": "Russell."
+              },
+              {
+                "end": 223.795,
+                "word": "he's",
+                "start": 223.395,
+                "confidence": 0.9597168,
+                "punctuated_word": "He's"
+              },
+              {
+                "end": 224.035,
+                "word": "a",
+                "start": 223.795,
+                "confidence": 0.99609375,
+                "punctuated_word": "a"
+              },
+              {
+                "end": 224.535,
+                "word": "student",
+                "start": 224.035,
+                "confidence": 0.9995117,
+                "punctuated_word": "student."
+              },
+              {
+                "end": 227.23,
+                "word": "russell",
+                "start": 226.73,
+                "confidence": 0.9951172,
+                "punctuated_word": "Russell"
+              },
+              {
+                "end": 227.61,
+                "word": "and",
+                "start": 227.29001,
+                "confidence": 0.99121094,
+                "punctuated_word": "and"
+              },
+              {
+                "end": 228.11,
+                "word": "i",
+                "start": 227.61,
+                "confidence": 0.9951172,
+                "punctuated_word": "I"
+              },
+              {
+                "end": 235.505,
+                "word": "russell",
+                "start": 235.025,
+                "confidence": 0.6220703,
+                "punctuated_word": "Russell"
+              },
+              {
+                "end": 235.825,
+                "word": "and",
+                "start": 235.505,
+                "confidence": 0.97265625,
+                "punctuated_word": "and"
+              },
+              {
+                "end": 236.225,
+                "word": "i",
+                "start": 235.825,
+                "confidence": 0.99609375,
+                "punctuated_word": "I"
+              },
+              {
+                "end": 236.625,
+                "word": "are",
+                "start": 236.225,
+                "confidence": 0.9667969,
+                "punctuated_word": "are"
+              },
+              {
+                "end": 237.125,
+                "word": "classmate",
+                "start": 236.625,
+                "confidence": 0.78515625,
+                "punctuated_word": "classmate."
+              },
+              {
+                "end": 237.845,
+                "word": "we",
+                "start": 237.345,
+                "confidence": 0.7697754,
+                "punctuated_word": "We,"
+              },
+              {
+                "end": 240.405,
+                "word": "classmates",
+                "start": 239.905,
+                "confidence": 0.8166504,
+                "punctuated_word": "classmates."
+              },
+              {
+                "end": 240.965,
+                "word": "classmates",
+                "start": 240.465,
+                "confidence": 0.79085284,
+                "punctuated_word": "Classmates."
+              },
+              {
+                "end": 242.86,
+                "word": "classmates",
+                "start": 242.36,
+                "confidence": 0.6713867,
+                "punctuated_word": "Classmates."
+              },
+              {
+                "end": 243.66,
+                "word": "classmates",
+                "start": 243.16,
+                "confidence": 0.7430827,
+                "punctuated_word": "Classmates."
+              },
+              {
+                "end": 244.54,
+                "word": "classmates",
+                "start": 244.04,
+                "confidence": 0.68204755,
+                "punctuated_word": "Classmates."
+              },
+              {
+                "end": 246.92,
+                "word": "classmates",
+                "start": 246.68,
+                "confidence": 0.44059244,
+                "punctuated_word": "Classmates."
+              },
+              {
+                "end": 247.16,
+                "word": "mhmm",
+                "start": 246.92,
+                "confidence": 0.81744385,
+                "punctuated_word": "Mhmm."
+              },
+              {
+                "end": 247.4,
+                "word": "class",
+                "start": 247.16,
+                "confidence": 0.46704102,
+                "punctuated_word": "Class"
+              },
+              {
+                "end": 247.64,
+                "word": "are",
+                "start": 247.4,
+                "confidence": 0.29467773,
+                "punctuated_word": "are"
+              },
+              {
+                "end": 248.14,
+                "word": "classmates",
+                "start": 247.64,
+                "confidence": 0.98706055,
+                "punctuated_word": "classmates."
+              },
+              {
+                "end": 249.16,
+                "word": "we",
+                "start": 248.92,
+                "confidence": 0.98828125,
+                "punctuated_word": "We"
+              },
+              {
+                "end": 249.31999,
+                "word": "are",
+                "start": 249.16,
+                "confidence": 0.9921875,
+                "punctuated_word": "are"
+              },
+              {
+                "end": 249.81999,
+                "word": "friends",
+                "start": 249.31999,
+                "confidence": 0.99902344,
+                "punctuated_word": "friends."
+              },
+              {
+                "end": 252.785,
+                "word": "emma",
+                "start": 252.385,
+                "confidence": 0.9902344,
+                "punctuated_word": "Emma"
+              },
+              {
+                "end": 253.025,
+                "word": "and",
+                "start": 252.785,
+                "confidence": 1,
+                "punctuated_word": "and"
+              },
+              {
+                "end": 253.525,
+                "word": "sally",
+                "start": 253.025,
+                "confidence": 0.98095703,
+                "punctuated_word": "Sally"
+              },
+              {
+                "end": 254.305,
+                "word": "are",
+                "start": 253.985,
+                "confidence": 0.9902344,
+                "punctuated_word": "are"
+              },
+              {
+                "end": 254.465,
+                "word": "my",
+                "start": 254.305,
+                "confidence": 1,
+                "punctuated_word": "my"
+              },
+              {
+                "end": 254.965,
+                "word": "friends",
+                "start": 254.465,
+                "confidence": 0.9951172,
+                "punctuated_word": "friends."
+              },
+              {
+                "end": 256.085,
+                "word": "they",
+                "start": 255.58499,
+                "confidence": 0.7319336,
+                "punctuated_word": "They,"
+              },
+              {
+                "end": 260.15,
+                "word": "they",
+                "start": 259.83,
+                "confidence": 0.9951172,
+                "punctuated_word": "they"
+              },
+              {
+                "end": 260.38998,
+                "word": "they",
+                "start": 260.15,
+                "confidence": 0.9921875,
+                "punctuated_word": "they"
+              },
+              {
+                "end": 260.88998,
+                "word": "are",
+                "start": 260.38998,
+                "confidence": 0.9980469,
+                "punctuated_word": "are"
+              },
+              {
+                "end": 261.34998,
+                "word": "english",
+                "start": 260.94998,
+                "confidence": 0.99902344,
+                "punctuated_word": "English"
+              },
+              {
+                "end": 261.84998,
+                "word": "teachers",
+                "start": 261.34998,
+                "confidence": 0.9975586,
+                "punctuated_word": "teachers."
+              },
+              {
+                "end": 265.34998,
+                "word": "hello",
+                "start": 264.87,
+                "confidence": 0.9916992,
+                "punctuated_word": "Hello."
+              },
+              {
+                "end": 265.59,
+                "word": "my",
+                "start": 265.34998,
+                "confidence": 1,
+                "punctuated_word": "My"
+              },
+              {
+                "end": 265.83,
+                "word": "name",
+                "start": 265.59,
+                "confidence": 1,
+                "punctuated_word": "name"
+              },
+              {
+                "end": 266.33,
+                "word": "is",
+                "start": 265.83,
+                "confidence": 1,
+                "punctuated_word": "is"
+              },
+              {
+                "end": 267.21,
+                "word": "emma",
+                "start": 266.71,
+                "confidence": 0.97802734,
+                "punctuated_word": "Emma."
+              },
+              {
+                "end": 268.825,
+                "word": "i",
+                "start": 268.585,
+                "confidence": 0.7988281,
+                "punctuated_word": "I"
+              },
+              {
+                "end": 269.325,
+                "word": "am",
+                "start": 268.825,
+                "confidence": 0.99902344,
+                "punctuated_word": "am"
+              },
+              {
+                "end": 270.345,
+                "word": "from",
+                "start": 269.945,
+                "confidence": 1,
+                "punctuated_word": "from"
+              },
+              {
+                "end": 270.665,
+                "word": "the",
+                "start": 270.345,
+                "confidence": 1,
+                "punctuated_word": "the"
+              },
+              {
+                "end": 271.145,
+                "word": "uk",
+                "start": 270.665,
+                "confidence": 0.99902344,
+                "punctuated_word": "UK."
+              },
+              {
+                "end": 271.385,
+                "word": "my",
+                "start": 271.145,
+                "confidence": 1,
+                "punctuated_word": "My"
+              },
+              {
+                "end": 271.885,
+                "word": "parents",
+                "start": 271.385,
+                "confidence": 1,
+                "punctuated_word": "parents"
+              },
+              {
+                "end": 272.585,
+                "word": "are",
+                "start": 272.265,
+                "confidence": 0.99902344,
+                "punctuated_word": "are"
+              },
+              {
+                "end": 273.085,
+                "word": "indian",
+                "start": 272.585,
+                "confidence": 0.953125,
+                "punctuated_word": "Indian."
+              },
+              {
+                "end": 278.27002,
+                "word": "i'm",
+                "start": 277.77002,
+                "confidence": 0.47680664,
+                "punctuated_word": "I'm"
+              },
+              {
+                "end": 279.53,
+                "word": "from",
+                "start": 279.37003,
+                "confidence": 0.5258789,
+                "punctuated_word": "from"
+              },
+              {
+                "end": 280.03,
+                "word": "the",
+                "start": 279.53,
+                "confidence": 0.9863281,
+                "punctuated_word": "the"
+              },
+              {
+                "end": 280.97,
+                "word": "i",
+                "start": 280.81,
+                "confidence": 0.95166016,
+                "punctuated_word": "I"
+              },
+              {
+                "end": 281.47,
+                "word": "am",
+                "start": 280.97,
+                "confidence": 0.9667969,
+                "punctuated_word": "am"
+              },
+              {
+                "end": 282.01,
+                "word": "from",
+                "start": 281.69,
+                "confidence": 0.9951172,
+                "punctuated_word": "from"
+              },
+              {
+                "end": 282.33002,
+                "word": "the",
+                "start": 282.01,
+                "confidence": 0.9980469,
+                "punctuated_word": "the"
+              },
+              {
+                "end": 282.83002,
+                "word": "uk",
+                "start": 282.33002,
+                "confidence": 0.986084,
+                "punctuated_word": "UK."
+              },
+              {
+                "end": 283.21002,
+                "word": "my",
+                "start": 282.97,
+                "confidence": 0.99902344,
+                "punctuated_word": "My"
+              },
+              {
+                "end": 283.71002,
+                "word": "parents",
+                "start": 283.21002,
+                "confidence": 0.8474121,
+                "punctuated_word": "parents,"
+              },
+              {
+                "end": 284.73,
+                "word": "are",
+                "start": 284.65002,
+                "confidence": 0.9863281,
+                "punctuated_word": "are"
+              },
+              {
+                "end": 285.23,
+                "word": "india",
+                "start": 284.73,
+                "confidence": 0.9719238,
+                "punctuated_word": "India."
+              }
+            ],
+            "confidence": 0.9758301,
+            "paragraphs": {
+              "paragraphs": [
+                {
+                  "end": 54.28,
+                  "start": 17.86,
+                  "num_words": 5,
+                  "sentences": [
+                    {
+                      "end": 18.36,
+                      "text": "Mhmm.",
+                      "start": 17.86
+                    },
+                    {
+                      "end": 19.56,
+                      "text": "Yeah.",
+                      "start": 19.06
+                    },
+                    {
+                      "end": 20.26,
+                      "text": "Yeah.",
+                      "start": 20.02
+                    },
+                    {
+                      "end": 20.76,
+                      "text": "Yeah.",
+                      "start": 20.26
+                    },
+                    {
+                      "end": 54.28,
+                      "text": "Yeah.",
+                      "start": 53.78
+                    }
+                  ]
+                },
+                {
+                  "end": 110.784996,
+                  "start": 54.66,
+                  "num_words": 20,
+                  "sentences": [
+                    {
+                      "end": 55.32,
+                      "text": "I understand.",
+                      "start": 54.66
+                    },
+                    {
+                      "end": 56.04,
+                      "text": "Yeah.",
+                      "start": 55.54
+                    },
+                    {
+                      "end": 95.01501,
+                      "text": "Okay.",
+                      "start": 94.51501
+                    },
+                    {
+                      "end": 99.770004,
+                      "text": "Okay.",
+                      "start": 99.270004
+                    },
+                    {
+                      "end": 110.784996,
+                      "text": "Give me moment because, I don't have, I don't have, to write, you know, paper.",
+                      "start": 103.03
+                    }
+                  ]
+                },
+                {
+                  "end": 208.67,
+                  "start": 139.51001,
+                  "num_words": 5,
+                  "sentences": [
+                    {
+                      "end": 140.01001,
+                      "text": "Okay.",
+                      "start": 139.51001
+                    },
+                    {
+                      "end": 186.375,
+                      "text": "Okay.",
+                      "start": 185.875
+                    },
+                    {
+                      "end": 198.79001,
+                      "text": "Okay.",
+                      "start": 198.29001
+                    },
+                    {
+                      "end": 208.20999,
+                      "text": "Okay.",
+                      "start": 207.70999
+                    },
+                    {
+                      "end": 208.67,
+                      "text": "Hello.",
+                      "start": 208.26999
+                    }
+                  ]
+                },
+                {
+                  "end": 224.535,
+                  "start": 208.67,
+                  "num_words": 18,
+                  "sentences": [
+                    {
+                      "end": 212.04999,
+                      "text": "My name my name is, Joanna.",
+                      "start": 208.67
+                    },
+                    {
+                      "end": 214.12999,
+                      "text": "I'm a student.",
+                      "start": 212.75
+                    },
+                    {
+                      "end": 219.49501,
+                      "text": "He's Russell.",
+                      "start": 218.595
+                    },
+                    {
+                      "end": 223.395,
+                      "text": "He he he's Russell.",
+                      "start": 220.515
+                    },
+                    {
+                      "end": 224.535,
+                      "text": "He's a student.",
+                      "start": 223.395
+                    }
+                  ]
+                },
+                {
+                  "end": 243.66,
+                  "start": 226.73,
+                  "num_words": 13,
+                  "sentences": [
+                    {
+                      "end": 237.125,
+                      "text": "Russell and I Russell and I are classmate.",
+                      "start": 226.73
+                    },
+                    {
+                      "end": 240.405,
+                      "text": "We, classmates.",
+                      "start": 237.345
+                    },
+                    {
+                      "end": 240.965,
+                      "text": "Classmates.",
+                      "start": 240.465
+                    },
+                    {
+                      "end": 242.86,
+                      "text": "Classmates.",
+                      "start": 242.36
+                    },
+                    {
+                      "end": 243.66,
+                      "text": "Classmates.",
+                      "start": 243.16
+                    }
+                  ]
+                },
+                {
+                  "end": 249.81999,
+                  "start": 244.04,
+                  "num_words": 9,
+                  "sentences": [
+                    {
+                      "end": 244.54,
+                      "text": "Classmates.",
+                      "start": 244.04
+                    },
+                    {
+                      "end": 246.92,
+                      "text": "Classmates.",
+                      "start": 246.68
+                    },
+                    {
+                      "end": 247.16,
+                      "text": "Mhmm.",
+                      "start": 246.92
+                    },
+                    {
+                      "end": 248.14,
+                      "text": "Class are classmates.",
+                      "start": 247.16
+                    },
+                    {
+                      "end": 249.81999,
+                      "text": "We are friends.",
+                      "start": 248.92
+                    }
+                  ]
+                },
+                {
+                  "end": 271.145,
+                  "start": 252.385,
+                  "num_words": 22,
+                  "sentences": [
+                    {
+                      "end": 254.965,
+                      "text": "Emma and Sally are my friends.",
+                      "start": 252.385
+                    },
+                    {
+                      "end": 261.84998,
+                      "text": "They, they they are English teachers.",
+                      "start": 255.58499
+                    },
+                    {
+                      "end": 265.34998,
+                      "text": "Hello.",
+                      "start": 264.87
+                    },
+                    {
+                      "end": 267.21,
+                      "text": "My name is Emma.",
+                      "start": 265.34998
+                    },
+                    {
+                      "end": 271.145,
+                      "text": "I am from the UK.",
+                      "start": 268.585
+                    }
+                  ]
+                },
+                {
+                  "end": 285.23,
+                  "start": 271.145,
+                  "num_words": 16,
+                  "sentences": [
+                    {
+                      "end": 273.085,
+                      "text": "My parents are Indian.",
+                      "start": 271.145
+                    },
+                    {
+                      "end": 282.83002,
+                      "text": "I'm from the I am from the UK.",
+                      "start": 277.77002
+                    },
+                    {
+                      "end": 285.23,
+                      "text": "My parents, are India.",
+                      "start": 282.97
+                    }
+                  ]
+                }
+              ],
+              "transcript": "\nMhmm. Yeah. Yeah. Yeah. Yeah.\n\nI understand. Yeah. Okay. Okay. Give me moment because, I don't have, I don't have, to write, you know, paper.\n\nOkay. Okay. Okay. Okay. Hello.\n\nMy name my name is, Joanna. I'm a student. He's Russell. He he he's Russell. He's a student.\n\nRussell and I Russell and I are classmate. We, classmates. Classmates. Classmates. Classmates.\n\nClassmates. Classmates. Mhmm. Class are classmates. We are friends.\n\nEmma and Sally are my friends. They, they they are English teachers. Hello. My name is Emma. I am from the UK.\n\nMy parents are Indian. I'm from the I am from the UK. My parents, are India."
+            },
+            "transcript": "Mhmm. Yeah. Yeah. Yeah. Yeah. I understand. Yeah. Okay. Okay. Give me moment because, I don't have, I don't have, to write, you know, paper. Okay. Okay. Okay. Okay. Hello. My name my name is, Joanna. I'm a student. He's Russell. He he he's Russell. He's a student. Russell and I Russell and I are classmate. We, classmates. Classmates. Classmates. Classmates. Classmates. Classmates. Mhmm. Class are classmates. We are friends. Emma and Sally are my friends. They, they they are English teachers. Hello. My name is Emma. I am from the UK. My parents are Indian. I'm from the I am from the UK. My parents, are India."
+          }
+        ]
+      },
+      {
+        "alternatives": [
+          {
+            "words": [
+              {
+                "end": 0.5,
+                "word": "i",
+                "start": 0,
+                "confidence": 0.7919922,
+                "punctuated_word": "I"
+              },
+              {
+                "end": 2.1599998,
+                "word": "want",
+                "start": 1.92,
+                "confidence": 1,
+                "punctuated_word": "want"
+              },
+              {
+                "end": 2.32,
+                "word": "to",
+                "start": 2.1599998,
+                "confidence": 1,
+                "punctuated_word": "to"
+              },
+              {
+                "end": 2.82,
+                "word": "practice",
+                "start": 2.32,
+                "confidence": 1,
+                "punctuated_word": "practice"
+              },
+              {
+                "end": 4.9,
+                "word": "grammar",
+                "start": 4.4,
+                "confidence": 0.94384766,
+                "punctuated_word": "grammar"
+              },
+              {
+                "end": 5.8399997,
+                "word": "before",
+                "start": 5.44,
+                "confidence": 0.99902344,
+                "punctuated_word": "before"
+              },
+              {
+                "end": 6.3399997,
+                "word": "we",
+                "start": 5.8399997,
+                "confidence": 1,
+                "punctuated_word": "we"
+              },
+              {
+                "end": 7.12,
+                "word": "return",
+                "start": 6.72,
+                "confidence": 1,
+                "punctuated_word": "return"
+              },
+              {
+                "end": 7.2799997,
+                "word": "to",
+                "start": 7.12,
+                "confidence": 1,
+                "punctuated_word": "to"
+              },
+              {
+                "end": 7.6,
+                "word": "our",
+                "start": 7.2799997,
+                "confidence": 1,
+                "punctuated_word": "our"
+              },
+              {
+                "end": 8.1,
+                "word": "conversations",
+                "start": 7.6,
+                "confidence": 0.74316406,
+                "punctuated_word": "conversations."
+              },
+              {
+                "end": 8.639999,
+                "word": "because",
+                "start": 8.24,
+                "confidence": 0.99902344,
+                "punctuated_word": "Because"
+              },
+              {
+                "end": 8.8,
+                "word": "as",
+                "start": 8.639999,
+                "confidence": 0.91015625,
+                "punctuated_word": "as"
+              },
+              {
+                "end": 9.12,
+                "word": "you've",
+                "start": 8.8,
+                "confidence": 0.9970703,
+                "punctuated_word": "you've"
+              },
+              {
+                "end": 9.62,
+                "word": "noticed",
+                "start": 9.12,
+                "confidence": 0.9951172,
+                "punctuated_word": "noticed,"
+              },
+              {
+                "end": 10.205,
+                "word": "sometimes",
+                "start": 9.705,
+                "confidence": 1,
+                "punctuated_word": "sometimes"
+              },
+              {
+                "end": 10.665,
+                "word": "you",
+                "start": 10.505,
+                "confidence": 0.8461914,
+                "punctuated_word": "you"
+              },
+              {
+                "end": 10.825,
+                "word": "you",
+                "start": 10.665,
+                "confidence": 0.9892578,
+                "punctuated_word": "you"
+              },
+              {
+                "end": 11.065,
+                "word": "are",
+                "start": 10.825,
+                "confidence": 1,
+                "punctuated_word": "are"
+              },
+              {
+                "end": 11.305,
+                "word": "good",
+                "start": 11.065,
+                "confidence": 1,
+                "punctuated_word": "good"
+              },
+              {
+                "end": 11.545,
+                "word": "at",
+                "start": 11.305,
+                "confidence": 0.97631836,
+                "punctuated_word": "at,"
+              },
+              {
+                "end": 12.365,
+                "word": "doing",
+                "start": 11.865,
+                "confidence": 1,
+                "punctuated_word": "doing"
+              },
+              {
+                "end": 13.245,
+                "word": "exercises",
+                "start": 12.745,
+                "confidence": 0.99902344,
+                "punctuated_word": "exercises"
+              },
+              {
+                "end": 13.625,
+                "word": "and",
+                "start": 13.385,
+                "confidence": 0.9589844,
+                "punctuated_word": "and"
+              },
+              {
+                "end": 14.125,
+                "word": "grammar",
+                "start": 13.625,
+                "confidence": 0.86816406,
+                "punctuated_word": "grammar,"
+              },
+              {
+                "end": 15.065001,
+                "word": "but",
+                "start": 14.745,
+                "confidence": 0.9970703,
+                "punctuated_word": "but"
+              },
+              {
+                "end": 15.305,
+                "word": "when",
+                "start": 15.065001,
+                "confidence": 0.99902344,
+                "punctuated_word": "when"
+              },
+              {
+                "end": 15.385,
+                "word": "it",
+                "start": 15.305,
+                "confidence": 1,
+                "punctuated_word": "it"
+              },
+              {
+                "end": 15.705,
+                "word": "comes",
+                "start": 15.385,
+                "confidence": 1,
+                "punctuated_word": "comes"
+              },
+              {
+                "end": 15.865,
+                "word": "to",
+                "start": 15.705,
+                "confidence": 0.99902344,
+                "punctuated_word": "to"
+              },
+              {
+                "end": 16.345,
+                "word": "speaking",
+                "start": 15.865,
+                "confidence": 0.96875,
+                "punctuated_word": "speaking,"
+              },
+              {
+                "end": 16.505,
+                "word": "you",
+                "start": 16.345,
+                "confidence": 0.9980469,
+                "punctuated_word": "you"
+              },
+              {
+                "end": 16.665,
+                "word": "are",
+                "start": 16.505,
+                "confidence": 0.95166016,
+                "punctuated_word": "are"
+              },
+              {
+                "end": 17.165,
+                "word": "not",
+                "start": 16.665,
+                "confidence": 0.75,
+                "punctuated_word": "not."
+              },
+              {
+                "end": 17.64,
+                "word": "do",
+                "start": 17.56,
+                "confidence": 0.6035156,
+                "punctuated_word": "Do"
+              },
+              {
+                "end": 17.72,
+                "word": "you",
+                "start": 17.64,
+                "confidence": 0.9970703,
+                "punctuated_word": "you"
+              },
+              {
+                "end": 18.22,
+                "word": "understand",
+                "start": 17.72,
+                "confidence": 0.9951172,
+                "punctuated_word": "understand?"
+              },
+              {
+                "end": 18.76,
+                "word": "you",
+                "start": 18.6,
+                "confidence": 0.9921875,
+                "punctuated_word": "You"
+              },
+              {
+                "end": 18.92,
+                "word": "know",
+                "start": 18.76,
+                "confidence": 0.99121094,
+                "punctuated_word": "know"
+              },
+              {
+                "end": 19.16,
+                "word": "where",
+                "start": 18.92,
+                "confidence": 0.99121094,
+                "punctuated_word": "where"
+              },
+              {
+                "end": 19.32,
+                "word": "you",
+                "start": 19.16,
+                "confidence": 0.9941406,
+                "punctuated_word": "you"
+              },
+              {
+                "end": 19.56,
+                "word": "are",
+                "start": 19.32,
+                "confidence": 0.9807129,
+                "punctuated_word": "are."
+              },
+              {
+                "end": 20.06,
+                "word": "yeah",
+                "start": 19.56,
+                "confidence": 0.76123047,
+                "punctuated_word": "Yeah?"
+              },
+              {
+                "end": 20.68,
+                "word": "so",
+                "start": 20.36,
+                "confidence": 0.98095703,
+                "punctuated_word": "So"
+              },
+              {
+                "end": 21.18,
+                "word": "so",
+                "start": 20.68,
+                "confidence": 0.96777344,
+                "punctuated_word": "so"
+              },
+              {
+                "end": 21.4,
+                "word": "so",
+                "start": 21.32,
+                "confidence": 0.9716797,
+                "punctuated_word": "so"
+              },
+              {
+                "end": 21.8,
+                "word": "so",
+                "start": 21.4,
+                "confidence": 0.8173828,
+                "punctuated_word": "so"
+              },
+              {
+                "end": 21.88,
+                "word": "i",
+                "start": 21.8,
+                "confidence": 0.97509766,
+                "punctuated_word": "I"
+              },
+              {
+                "end": 22.119999,
+                "word": "want",
+                "start": 21.88,
+                "confidence": 0.99316406,
+                "punctuated_word": "want"
+              },
+              {
+                "end": 22.36,
+                "word": "you",
+                "start": 22.119999,
+                "confidence": 0.9790039,
+                "punctuated_word": "you"
+              },
+              {
+                "end": 22.86,
+                "word": "to",
+                "start": 22.36,
+                "confidence": 0.97314453,
+                "punctuated_word": "to"
+              },
+              {
+                "end": 24.439999,
+                "word": "not",
+                "start": 24.039999,
+                "confidence": 0.7602539,
+                "punctuated_word": "not"
+              },
+              {
+                "end": 24.76,
+                "word": "doing",
+                "start": 24.439999,
+                "confidence": 0.92822266,
+                "punctuated_word": "doing"
+              },
+              {
+                "end": 25,
+                "word": "this",
+                "start": 24.76,
+                "confidence": 0.4951172,
+                "punctuated_word": "this"
+              },
+              {
+                "end": 25.485,
+                "word": "exercises",
+                "start": 25,
+                "confidence": 0.640625,
+                "punctuated_word": "exercises"
+              },
+              {
+                "end": 28.465,
+                "word": "automatically",
+                "start": 27.965,
+                "confidence": 0.6824951,
+                "punctuated_word": "automatically."
+              },
+              {
+                "end": 30.125,
+                "word": "try",
+                "start": 29.805,
+                "confidence": 0.99316406,
+                "punctuated_word": "Try"
+              },
+              {
+                "end": 30.285,
+                "word": "to",
+                "start": 30.125,
+                "confidence": 0.99902344,
+                "punctuated_word": "to"
+              },
+              {
+                "end": 30.525002,
+                "word": "pay",
+                "start": 30.285,
+                "confidence": 0.9970703,
+                "punctuated_word": "pay"
+              },
+              {
+                "end": 31.025002,
+                "word": "attention",
+                "start": 30.525002,
+                "confidence": 0.99902344,
+                "punctuated_word": "attention"
+              },
+              {
+                "end": 31.325,
+                "word": "to",
+                "start": 31.085001,
+                "confidence": 1,
+                "punctuated_word": "to"
+              },
+              {
+                "end": 31.485,
+                "word": "the",
+                "start": 31.325,
+                "confidence": 1,
+                "punctuated_word": "the"
+              },
+              {
+                "end": 31.985,
+                "word": "exercises",
+                "start": 31.485,
+                "confidence": 0.99902344,
+                "punctuated_word": "exercises"
+              },
+              {
+                "end": 32.705,
+                "word": "because",
+                "start": 32.205,
+                "confidence": 0.9091797,
+                "punctuated_word": "because"
+              },
+              {
+                "end": 33.78,
+                "word": "once",
+                "start": 33.46,
+                "confidence": 1,
+                "punctuated_word": "once"
+              },
+              {
+                "end": 33.94,
+                "word": "you",
+                "start": 33.78,
+                "confidence": 1,
+                "punctuated_word": "you"
+              },
+              {
+                "end": 34.26,
+                "word": "pay",
+                "start": 33.94,
+                "confidence": 1,
+                "punctuated_word": "pay"
+              },
+              {
+                "end": 34.66,
+                "word": "attention",
+                "start": 34.26,
+                "confidence": 1,
+                "punctuated_word": "attention"
+              },
+              {
+                "end": 34.82,
+                "word": "to",
+                "start": 34.66,
+                "confidence": 1,
+                "punctuated_word": "to"
+              },
+              {
+                "end": 35.14,
+                "word": "the",
+                "start": 34.82,
+                "confidence": 1,
+                "punctuated_word": "the"
+              },
+              {
+                "end": 35.64,
+                "word": "exercises",
+                "start": 35.14,
+                "confidence": 1,
+                "punctuated_word": "exercises"
+              },
+              {
+                "end": 36.42,
+                "word": "then",
+                "start": 36.18,
+                "confidence": 0.52978516,
+                "punctuated_word": "then"
+              },
+              {
+                "end": 36.579998,
+                "word": "you",
+                "start": 36.42,
+                "confidence": 0.9941406,
+                "punctuated_word": "you"
+              },
+              {
+                "end": 36.82,
+                "word": "will",
+                "start": 36.579998,
+                "confidence": 1,
+                "punctuated_word": "will"
+              },
+              {
+                "end": 37.22,
+                "word": "use",
+                "start": 36.82,
+                "confidence": 1,
+                "punctuated_word": "use"
+              },
+              {
+                "end": 37.46,
+                "word": "the",
+                "start": 37.22,
+                "confidence": 1,
+                "punctuated_word": "the"
+              },
+              {
+                "end": 37.86,
+                "word": "knowledge",
+                "start": 37.46,
+                "confidence": 1,
+                "punctuated_word": "knowledge"
+              },
+              {
+                "end": 38.1,
+                "word": "from",
+                "start": 37.86,
+                "confidence": 0.9970703,
+                "punctuated_word": "from"
+              },
+              {
+                "end": 38.26,
+                "word": "the",
+                "start": 38.1,
+                "confidence": 0.99902344,
+                "punctuated_word": "the"
+              },
+              {
+                "end": 38.76,
+                "word": "exercises",
+                "start": 38.26,
+                "confidence": 1,
+                "punctuated_word": "exercises"
+              },
+              {
+                "end": 39.14,
+                "word": "in",
+                "start": 38.9,
+                "confidence": 1,
+                "punctuated_word": "in"
+              },
+              {
+                "end": 39.64,
+                "word": "your",
+                "start": 39.14,
+                "confidence": 0.99902344,
+                "punctuated_word": "your"
+              },
+              {
+                "end": 40.975,
+                "word": "speaking",
+                "start": 40.475,
+                "confidence": 0.96069336,
+                "punctuated_word": "speaking."
+              },
+              {
+                "end": 41.914997,
+                "word": "yes",
+                "start": 41.434998,
+                "confidence": 0.7504883,
+                "punctuated_word": "Yes?"
+              },
+              {
+                "end": 42.235,
+                "word": "because",
+                "start": 41.914997,
+                "confidence": 0.9838867,
+                "punctuated_word": "Because"
+              },
+              {
+                "end": 42.395,
+                "word": "i",
+                "start": 42.235,
+                "confidence": 0.98095703,
+                "punctuated_word": "I"
+              },
+              {
+                "end": 42.555,
+                "word": "don't",
+                "start": 42.395,
+                "confidence": 0.9995117,
+                "punctuated_word": "don't"
+              },
+              {
+                "end": 43.035,
+                "word": "want",
+                "start": 42.555,
+                "confidence": 1,
+                "punctuated_word": "want"
+              },
+              {
+                "end": 43.355,
+                "word": "you",
+                "start": 43.035,
+                "confidence": 1,
+                "punctuated_word": "you"
+              },
+              {
+                "end": 43.675,
+                "word": "to",
+                "start": 43.355,
+                "confidence": 1,
+                "punctuated_word": "to"
+              },
+              {
+                "end": 44.175,
+                "word": "speak",
+                "start": 43.675,
+                "confidence": 0.9951172,
+                "punctuated_word": "speak"
+              },
+              {
+                "end": 44.555,
+                "word": "yes",
+                "start": 44.315,
+                "confidence": 0.5673828,
+                "punctuated_word": "yes"
+              },
+              {
+                "end": 44.954998,
+                "word": "yes",
+                "start": 44.555,
+                "confidence": 0.54003906,
+                "punctuated_word": "yes"
+              },
+              {
+                "end": 45.355,
+                "word": "okay",
+                "start": 44.954998,
+                "confidence": 0.8442383,
+                "punctuated_word": "okay"
+              },
+              {
+                "end": 45.515,
+                "word": "it",
+                "start": 45.355,
+                "confidence": 0.84814453,
+                "punctuated_word": "it"
+              },
+              {
+                "end": 45.675,
+                "word": "was",
+                "start": 45.515,
+                "confidence": 0.99902344,
+                "punctuated_word": "was"
+              },
+              {
+                "end": 46.155,
+                "word": "okay",
+                "start": 45.675,
+                "confidence": 0.89624023,
+                "punctuated_word": "okay."
+              },
+              {
+                "end": 46.394997,
+                "word": "no",
+                "start": 46.155,
+                "confidence": 0.78930664,
+                "punctuated_word": "No."
+              },
+              {
+                "end": 46.555,
+                "word": "i",
+                "start": 46.394997,
+                "confidence": 0.99902344,
+                "punctuated_word": "I"
+              },
+              {
+                "end": 46.795,
+                "word": "want",
+                "start": 46.555,
+                "confidence": 1,
+                "punctuated_word": "want"
+              },
+              {
+                "end": 46.954998,
+                "word": "you",
+                "start": 46.795,
+                "confidence": 1,
+                "punctuated_word": "you"
+              },
+              {
+                "end": 47.454998,
+                "word": "to",
+                "start": 46.954998,
+                "confidence": 1,
+                "punctuated_word": "to"
+              },
+              {
+                "end": 48.015,
+                "word": "expand",
+                "start": 47.515,
+                "confidence": 1,
+                "punctuated_word": "expand"
+              },
+              {
+                "end": 48.574997,
+                "word": "your",
+                "start": 48.074997,
+                "confidence": 1,
+                "punctuated_word": "your"
+              },
+              {
+                "end": 49.42,
+                "word": "vocabulary",
+                "start": 48.92,
+                "confidence": 0.89990234,
+                "punctuated_word": "vocabulary,"
+              },
+              {
+                "end": 49.64,
+                "word": "and",
+                "start": 49.48,
+                "confidence": 1,
+                "punctuated_word": "and"
+              },
+              {
+                "end": 49.8,
+                "word": "i",
+                "start": 49.64,
+                "confidence": 1,
+                "punctuated_word": "I"
+              },
+              {
+                "end": 50.12,
+                "word": "want",
+                "start": 49.8,
+                "confidence": 1,
+                "punctuated_word": "want"
+              },
+              {
+                "end": 50.519997,
+                "word": "you",
+                "start": 50.12,
+                "confidence": 1,
+                "punctuated_word": "you"
+              },
+              {
+                "end": 50.92,
+                "word": "to",
+                "start": 50.519997,
+                "confidence": 1,
+                "punctuated_word": "to"
+              },
+              {
+                "end": 51.16,
+                "word": "to",
+                "start": 50.92,
+                "confidence": 0.9819336,
+                "punctuated_word": "to"
+              },
+              {
+                "end": 51.66,
+                "word": "to",
+                "start": 51.16,
+                "confidence": 0.97998047,
+                "punctuated_word": "to"
+              },
+              {
+                "end": 52.12,
+                "word": "to",
+                "start": 51.879997,
+                "confidence": 0.7211914,
+                "punctuated_word": "to"
+              },
+              {
+                "end": 52.44,
+                "word": "use",
+                "start": 52.12,
+                "confidence": 0.9980469,
+                "punctuated_word": "use"
+              },
+              {
+                "end": 52.76,
+                "word": "more",
+                "start": 52.44,
+                "confidence": 1,
+                "punctuated_word": "more"
+              },
+              {
+                "end": 53.26,
+                "word": "sophisticated",
+                "start": 52.76,
+                "confidence": 1,
+                "punctuated_word": "sophisticated"
+              },
+              {
+                "end": 54.14,
+                "word": "sentences",
+                "start": 53.64,
+                "confidence": 0.99853516,
+                "punctuated_word": "sentences."
+              },
+              {
+                "end": 54.78,
+                "word": "okay",
+                "start": 54.28,
+                "confidence": 0.9802246,
+                "punctuated_word": "Okay?"
+              },
+              {
+                "end": 56.415,
+                "word": "okay",
+                "start": 55.915,
+                "confidence": 0.99658203,
+                "punctuated_word": "Okay."
+              },
+              {
+                "end": 58.094997,
+                "word": "so",
+                "start": 57.594997,
+                "confidence": 0.9838867,
+                "punctuated_word": "So"
+              },
+              {
+                "end": 58.395,
+                "word": "let",
+                "start": 58.235,
+                "confidence": 0.99902344,
+                "punctuated_word": "let"
+              },
+              {
+                "end": 58.895,
+                "word": "me",
+                "start": 58.395,
+                "confidence": 1,
+                "punctuated_word": "me"
+              },
+              {
+                "end": 61.754997,
+                "word": "choose",
+                "start": 61.434998,
+                "confidence": 0.9951172,
+                "punctuated_word": "choose"
+              },
+              {
+                "end": 62.635,
+                "word": "and",
+                "start": 62.395,
+                "confidence": 0.99316406,
+                "punctuated_word": "and"
+              },
+              {
+                "end": 62.795,
+                "word": "we",
+                "start": 62.635,
+                "confidence": 1,
+                "punctuated_word": "we"
+              },
+              {
+                "end": 63.114998,
+                "word": "will",
+                "start": 62.795,
+                "confidence": 1,
+                "punctuated_word": "will"
+              },
+              {
+                "end": 63.434998,
+                "word": "start",
+                "start": 63.114998,
+                "confidence": 1,
+                "punctuated_word": "start"
+              },
+              {
+                "end": 63.754997,
+                "word": "with",
+                "start": 63.434998,
+                "confidence": 0.9970703,
+                "punctuated_word": "with"
+              },
+              {
+                "end": 63.915,
+                "word": "the",
+                "start": 63.754997,
+                "confidence": 0.8388672,
+                "punctuated_word": "the"
+              },
+              {
+                "end": 64.155,
+                "word": "a",
+                "start": 63.915,
+                "confidence": 0.9892578,
+                "punctuated_word": "a"
+              },
+              {
+                "end": 64.475,
+                "word": "2",
+                "start": 64.155,
+                "confidence": 0.86328125,
+                "punctuated_word": "2"
+              },
+              {
+                "end": 64.975,
+                "word": "grammar",
+                "start": 64.475,
+                "confidence": 0.953125,
+                "punctuated_word": "grammar."
+              },
+              {
+                "end": 65.54,
+                "word": "just",
+                "start": 65.354996,
+                "confidence": 0.8183594,
+                "punctuated_word": "Just"
+              },
+              {
+                "end": 65.700005,
+                "word": "give",
+                "start": 65.54,
+                "confidence": 0.99902344,
+                "punctuated_word": "give"
+              },
+              {
+                "end": 65.94,
+                "word": "me",
+                "start": 65.700005,
+                "confidence": 1,
+                "punctuated_word": "me"
+              },
+              {
+                "end": 66.020004,
+                "word": "1",
+                "start": 65.94,
+                "confidence": 1,
+                "punctuated_word": "1"
+              },
+              {
+                "end": 66.5,
+                "word": "moment",
+                "start": 66.020004,
+                "confidence": 0.99316406,
+                "punctuated_word": "moment."
+              },
+              {
+                "end": 66.9,
+                "word": "just",
+                "start": 66.5,
+                "confidence": 1,
+                "punctuated_word": "Just"
+              },
+              {
+                "end": 67.06,
+                "word": "give",
+                "start": 66.9,
+                "confidence": 0.9741211,
+                "punctuated_word": "give"
+              },
+              {
+                "end": 67.22,
+                "word": "me",
+                "start": 67.06,
+                "confidence": 1,
+                "punctuated_word": "me"
+              },
+              {
+                "end": 67.38,
+                "word": "a",
+                "start": 67.22,
+                "confidence": 0.9980469,
+                "punctuated_word": "a"
+              },
+              {
+                "end": 67.88,
+                "word": "second",
+                "start": 67.38,
+                "confidence": 1,
+                "punctuated_word": "second."
+              },
+              {
+                "end": 75.674995,
+                "word": "okay",
+                "start": 75.354996,
+                "confidence": 0.93847656,
+                "punctuated_word": "Okay."
+              },
+              {
+                "end": 75.915,
+                "word": "let",
+                "start": 75.674995,
+                "confidence": 0.9970703,
+                "punctuated_word": "Let"
+              },
+              {
+                "end": 76.155,
+                "word": "let",
+                "start": 75.915,
+                "confidence": 0.99316406,
+                "punctuated_word": "let"
+              },
+              {
+                "end": 76.314995,
+                "word": "us",
+                "start": 76.155,
+                "confidence": 0.9980469,
+                "punctuated_word": "us"
+              },
+              {
+                "end": 76.634995,
+                "word": "start",
+                "start": 76.314995,
+                "confidence": 1,
+                "punctuated_word": "start"
+              },
+              {
+                "end": 76.795,
+                "word": "from",
+                "start": 76.634995,
+                "confidence": 1,
+                "punctuated_word": "from"
+              },
+              {
+                "end": 76.955,
+                "word": "the",
+                "start": 76.795,
+                "confidence": 0.99121094,
+                "punctuated_word": "the"
+              },
+              {
+                "end": 77.354996,
+                "word": "scratch",
+                "start": 76.955,
+                "confidence": 0.935791,
+                "punctuated_word": "scratch."
+              },
+              {
+                "end": 77.755,
+                "word": "okay",
+                "start": 77.354996,
+                "confidence": 0.9909668,
+                "punctuated_word": "Okay?"
+              },
+              {
+                "end": 77.915,
+                "word": "the",
+                "start": 77.755,
+                "confidence": 1,
+                "punctuated_word": "The"
+              },
+              {
+                "end": 78.314995,
+                "word": "grammar",
+                "start": 77.915,
+                "confidence": 0.82470703,
+                "punctuated_word": "grammar"
+              },
+              {
+                "end": 78.555,
+                "word": "from",
+                "start": 78.314995,
+                "confidence": 0.99609375,
+                "punctuated_word": "from"
+              },
+              {
+                "end": 78.715,
+                "word": "the",
+                "start": 78.555,
+                "confidence": 0.99121094,
+                "punctuated_word": "the"
+              },
+              {
+                "end": 78.955,
+                "word": "scratch",
+                "start": 78.715,
+                "confidence": 1,
+                "punctuated_word": "scratch"
+              },
+              {
+                "end": 79.195,
+                "word": "because",
+                "start": 78.955,
+                "confidence": 0.79541016,
+                "punctuated_word": "because"
+              },
+              {
+                "end": 79.354996,
+                "word": "it's",
+                "start": 79.195,
+                "confidence": 0.9995117,
+                "punctuated_word": "it's"
+              },
+              {
+                "end": 79.595,
+                "word": "it's",
+                "start": 79.354996,
+                "confidence": 0.9909668,
+                "punctuated_word": "it's"
+              },
+              {
+                "end": 79.755,
+                "word": "in",
+                "start": 79.595,
+                "confidence": 0.8442383,
+                "punctuated_word": "in"
+              },
+              {
+                "end": 80.075,
+                "word": "it's",
+                "start": 79.835,
+                "confidence": 0.9926758,
+                "punctuated_word": "it's"
+              },
+              {
+                "end": 80.314995,
+                "word": "it's",
+                "start": 80.075,
+                "confidence": 0.9367676,
+                "punctuated_word": "it's"
+              },
+              {
+                "end": 80.814995,
+                "word": "important",
+                "start": 80.314995,
+                "confidence": 0.99853516,
+                "punctuated_word": "important."
+              },
+              {
+                "end": 81.435,
+                "word": "you",
+                "start": 81.275,
+                "confidence": 0.9980469,
+                "punctuated_word": "You"
+              },
+              {
+                "end": 81.674995,
+                "word": "will",
+                "start": 81.435,
+                "confidence": 1,
+                "punctuated_word": "will"
+              },
+              {
+                "end": 81.915,
+                "word": "see",
+                "start": 81.674995,
+                "confidence": 1,
+                "punctuated_word": "see"
+              },
+              {
+                "end": 82.075,
+                "word": "the",
+                "start": 81.915,
+                "confidence": 1,
+                "punctuated_word": "the"
+              },
+              {
+                "end": 82.575,
+                "word": "benefit",
+                "start": 82.075,
+                "confidence": 0.98339844,
+                "punctuated_word": "benefit,"
+              },
+              {
+                "end": 83.435,
+                "word": "of",
+                "start": 83.275,
+                "confidence": 1,
+                "punctuated_word": "of"
+              },
+              {
+                "end": 83.935,
+                "word": "it",
+                "start": 83.435,
+                "confidence": 0.99902344,
+                "punctuated_word": "it."
+              },
+              {
+                "end": 84.44,
+                "word": "maybe",
+                "start": 84.200005,
+                "confidence": 1,
+                "punctuated_word": "Maybe"
+              },
+              {
+                "end": 84.520004,
+                "word": "you",
+                "start": 84.44,
+                "confidence": 0.9526367,
+                "punctuated_word": "you"
+              },
+              {
+                "end": 84.76,
+                "word": "will",
+                "start": 84.520004,
+                "confidence": 0.99609375,
+                "punctuated_word": "will"
+              },
+              {
+                "end": 84.92,
+                "word": "do",
+                "start": 84.76,
+                "confidence": 1,
+                "punctuated_word": "do"
+              },
+              {
+                "end": 85.16,
+                "word": "this",
+                "start": 84.92,
+                "confidence": 1,
+                "punctuated_word": "this"
+              },
+              {
+                "end": 85.4,
+                "word": "very",
+                "start": 85.16,
+                "confidence": 1,
+                "punctuated_word": "very"
+              },
+              {
+                "end": 85.9,
+                "word": "quickly",
+                "start": 85.4,
+                "confidence": 0.9797363,
+                "punctuated_word": "quickly."
+              },
+              {
+                "end": 86.6,
+                "word": "i",
+                "start": 86.44,
+                "confidence": 1,
+                "punctuated_word": "I"
+              },
+              {
+                "end": 86.76,
+                "word": "don't",
+                "start": 86.6,
+                "confidence": 1,
+                "punctuated_word": "don't"
+              },
+              {
+                "end": 87.08,
+                "word": "know",
+                "start": 86.76,
+                "confidence": 0.8959961,
+                "punctuated_word": "know."
+              },
+              {
+                "end": 87.58,
+                "word": "but",
+                "start": 87.08,
+                "confidence": 1,
+                "punctuated_word": "But"
+              },
+              {
+                "end": 88.6,
+                "word": "it",
+                "start": 88.28,
+                "confidence": 0.9892578,
+                "punctuated_word": "it"
+              },
+              {
+                "end": 88.840004,
+                "word": "it",
+                "start": 88.6,
+                "confidence": 1,
+                "punctuated_word": "it"
+              },
+              {
+                "end": 89.16,
+                "word": "it",
+                "start": 88.840004,
+                "confidence": 0.99316406,
+                "punctuated_word": "it"
+              },
+              {
+                "end": 89.66,
+                "word": "doesn't",
+                "start": 89.16,
+                "confidence": 0.99902344,
+                "punctuated_word": "doesn't"
+              },
+              {
+                "end": 90.2,
+                "word": "matter",
+                "start": 89.8,
+                "confidence": 1,
+                "punctuated_word": "matter"
+              },
+              {
+                "end": 90.520004,
+                "word": "how",
+                "start": 90.2,
+                "confidence": 1,
+                "punctuated_word": "how"
+              },
+              {
+                "end": 90.840004,
+                "word": "long",
+                "start": 90.520004,
+                "confidence": 1,
+                "punctuated_word": "long"
+              },
+              {
+                "end": 91.08,
+                "word": "it",
+                "start": 90.840004,
+                "confidence": 1,
+                "punctuated_word": "it"
+              },
+              {
+                "end": 91.24,
+                "word": "will",
+                "start": 91.08,
+                "confidence": 1,
+                "punctuated_word": "will"
+              },
+              {
+                "end": 91.74,
+                "word": "take",
+                "start": 91.24,
+                "confidence": 0.9975586,
+                "punctuated_word": "take."
+              },
+              {
+                "end": 92.065,
+                "word": "it",
+                "start": 91.825005,
+                "confidence": 1,
+                "punctuated_word": "It"
+              },
+              {
+                "end": 92.225006,
+                "word": "takes",
+                "start": 92.065,
+                "confidence": 1,
+                "punctuated_word": "takes"
+              },
+              {
+                "end": 92.625,
+                "word": "that",
+                "start": 92.225006,
+                "confidence": 1,
+                "punctuated_word": "that"
+              },
+              {
+                "end": 92.865005,
+                "word": "you",
+                "start": 92.625,
+                "confidence": 0.99902344,
+                "punctuated_word": "you"
+              },
+              {
+                "end": 93.365005,
+                "word": "understand",
+                "start": 92.865005,
+                "confidence": 0.99853516,
+                "punctuated_word": "understand."
+              },
+              {
+                "end": 94.085,
+                "word": "okay",
+                "start": 93.585,
+                "confidence": 0.99658203,
+                "punctuated_word": "Okay?"
+              },
+              {
+                "end": 95.745,
+                "word": "alright",
+                "start": 95.425,
+                "confidence": 0.6567383,
+                "punctuated_word": "Alright."
+              },
+              {
+                "end": 95.985,
+                "word": "so",
+                "start": 95.745,
+                "confidence": 0.9921875,
+                "punctuated_word": "So"
+              },
+              {
+                "end": 96.225006,
+                "word": "just",
+                "start": 95.985,
+                "confidence": 0.9921875,
+                "punctuated_word": "just"
+              },
+              {
+                "end": 96.385,
+                "word": "give",
+                "start": 96.225006,
+                "confidence": 0.99902344,
+                "punctuated_word": "give"
+              },
+              {
+                "end": 96.545006,
+                "word": "me",
+                "start": 96.385,
+                "confidence": 1,
+                "punctuated_word": "me"
+              },
+              {
+                "end": 96.625,
+                "word": "a",
+                "start": 96.545006,
+                "confidence": 0.9980469,
+                "punctuated_word": "a"
+              },
+              {
+                "end": 96.945,
+                "word": "moment",
+                "start": 96.625,
+                "confidence": 1,
+                "punctuated_word": "moment"
+              },
+              {
+                "end": 97.265,
+                "word": "because",
+                "start": 96.945,
+                "confidence": 0.8510742,
+                "punctuated_word": "because"
+              },
+              {
+                "end": 97.345,
+                "word": "i",
+                "start": 97.265,
+                "confidence": 1,
+                "punctuated_word": "I"
+              },
+              {
+                "end": 97.585,
+                "word": "have",
+                "start": 97.345,
+                "confidence": 1,
+                "punctuated_word": "have"
+              },
+              {
+                "end": 98.085,
+                "word": "to",
+                "start": 97.585,
+                "confidence": 1,
+                "punctuated_word": "to"
+              },
+              {
+                "end": 98.965004,
+                "word": "populate",
+                "start": 98.465004,
+                "confidence": 1,
+                "punctuated_word": "populate"
+              },
+              {
+                "end": 101.409996,
+                "word": "everything",
+                "start": 100.909996,
+                "confidence": 0.9951172,
+                "punctuated_word": "everything"
+              },
+              {
+                "end": 101.96999,
+                "word": "with",
+                "start": 101.46999,
+                "confidence": 0.7196045,
+                "punctuated_word": "with."
+              },
+              {
+                "end": 110.335,
+                "word": "oh",
+                "start": 109.935,
+                "confidence": 0.9387207,
+                "punctuated_word": "Oh,"
+              },
+              {
+                "end": 110.575,
+                "word": "that's",
+                "start": 110.335,
+                "confidence": 0.70544434,
+                "punctuated_word": "that's"
+              },
+              {
+                "end": 110.895,
+                "word": "fine",
+                "start": 110.575,
+                "confidence": 0.984375,
+                "punctuated_word": "fine."
+              },
+              {
+                "end": 111.134995,
+                "word": "okay",
+                "start": 110.895,
+                "confidence": 0.99560547,
+                "punctuated_word": "Okay."
+              },
+              {
+                "end": 111.295,
+                "word": "yeah",
+                "start": 111.134995,
+                "confidence": 0.99609375,
+                "punctuated_word": "Yeah."
+              },
+              {
+                "end": 111.375,
+                "word": "yeah",
+                "start": 111.295,
+                "confidence": 0.99609375,
+                "punctuated_word": "Yeah."
+              },
+              {
+                "end": 111.615,
+                "word": "yeah",
+                "start": 111.375,
+                "confidence": 0.9848633,
+                "punctuated_word": "Yeah."
+              },
+              {
+                "end": 112.115,
+                "word": "okay",
+                "start": 111.615,
+                "confidence": 0.88305664,
+                "punctuated_word": "Okay."
+              },
+              {
+                "end": 141.45,
+                "word": "mhmm",
+                "start": 140.95,
+                "confidence": 0.9423828,
+                "punctuated_word": "Mhmm."
+              },
+              {
+                "end": 145.895,
+                "word": "so",
+                "start": 145.395,
+                "confidence": 0.9741211,
+                "punctuated_word": "So"
+              },
+              {
+                "end": 146.195,
+                "word": "now",
+                "start": 145.955,
+                "confidence": 0.9135742,
+                "punctuated_word": "now"
+              },
+              {
+                "end": 148.13501,
+                "word": "mhmm",
+                "start": 147.63501,
+                "confidence": 0.8869629,
+                "punctuated_word": "mhmm."
+              },
+              {
+                "end": 180.595,
+                "word": "okay",
+                "start": 180.095,
+                "confidence": 0.97631836,
+                "punctuated_word": "Okay."
+              },
+              {
+                "end": 182.735,
+                "word": "so",
+                "start": 182.495,
+                "confidence": 0.9921875,
+                "punctuated_word": "So"
+              },
+              {
+                "end": 182.97499,
+                "word": "now",
+                "start": 182.735,
+                "confidence": 0.9980469,
+                "punctuated_word": "now"
+              },
+              {
+                "end": 183.215,
+                "word": "we're",
+                "start": 182.97499,
+                "confidence": 0.8996582,
+                "punctuated_word": "we're"
+              },
+              {
+                "end": 183.61499,
+                "word": "beginning",
+                "start": 183.215,
+                "confidence": 1,
+                "punctuated_word": "beginning"
+              },
+              {
+                "end": 183.775,
+                "word": "the",
+                "start": 183.61499,
+                "confidence": 0.9980469,
+                "punctuated_word": "the"
+              },
+              {
+                "end": 184.275,
+                "word": "grammar",
+                "start": 183.775,
+                "confidence": 0.9980469,
+                "punctuated_word": "grammar"
+              },
+              {
+                "end": 184.915,
+                "word": "practice",
+                "start": 184.415,
+                "confidence": 1,
+                "punctuated_word": "practice."
+              },
+              {
+                "end": 185.62001,
+                "word": "okay",
+                "start": 185.12001,
+                "confidence": 0.98339844,
+                "punctuated_word": "Okay?"
+              },
+              {
+                "end": 186.90001,
+                "word": "so",
+                "start": 186.40001,
+                "confidence": 1,
+                "punctuated_word": "So"
+              },
+              {
+                "end": 187.44,
+                "word": "the",
+                "start": 187.12001,
+                "confidence": 0.73095703,
+                "punctuated_word": "the"
+              },
+              {
+                "end": 187.68001,
+                "word": "use",
+                "start": 187.44,
+                "confidence": 0.62646484,
+                "punctuated_word": "use"
+              },
+              {
+                "end": 188.08,
+                "word": "it",
+                "start": 187.68001,
+                "confidence": 0.921875,
+                "punctuated_word": "it"
+              },
+              {
+                "end": 188.88,
+                "word": "usage",
+                "start": 188.40001,
+                "confidence": 0.95703125,
+                "punctuated_word": "usage"
+              },
+              {
+                "end": 189.20001,
+                "word": "of",
+                "start": 188.88,
+                "confidence": 0.99902344,
+                "punctuated_word": "of"
+              },
+              {
+                "end": 189.70001,
+                "word": "language",
+                "start": 189.20001,
+                "confidence": 0.8347168,
+                "punctuated_word": "language,"
+              },
+              {
+                "end": 190.32,
+                "word": "m",
+                "start": 189.92001,
+                "confidence": 0.8005371,
+                "punctuated_word": "m,"
+              },
+              {
+                "end": 190.64,
+                "word": "s",
+                "start": 190.32,
+                "confidence": 0.83154297,
+                "punctuated_word": "s,"
+              },
+              {
+                "end": 190.96,
+                "word": "and",
+                "start": 190.64,
+                "confidence": 0.99609375,
+                "punctuated_word": "and"
+              },
+              {
+                "end": 191.46,
+                "word": "r",
+                "start": 190.96,
+                "confidence": 0.9055176,
+                "punctuated_word": "r."
+              },
+              {
+                "end": 191.92001,
+                "word": "i",
+                "start": 191.76001,
+                "confidence": 1,
+                "punctuated_word": "I"
+              },
+              {
+                "end": 192.16,
+                "word": "know",
+                "start": 191.92001,
+                "confidence": 1,
+                "punctuated_word": "know"
+              },
+              {
+                "end": 192.48001,
+                "word": "that",
+                "start": 192.16,
+                "confidence": 1,
+                "punctuated_word": "that"
+              },
+              {
+                "end": 192.88,
+                "word": "you",
+                "start": 192.48001,
+                "confidence": 0.9226074,
+                "punctuated_word": "you,"
+              },
+              {
+                "end": 193.6,
+                "word": "last",
+                "start": 193.28,
+                "confidence": 0.99902344,
+                "punctuated_word": "last"
+              },
+              {
+                "end": 193.84001,
+                "word": "time",
+                "start": 193.6,
+                "confidence": 1,
+                "punctuated_word": "time"
+              },
+              {
+                "end": 194,
+                "word": "we",
+                "start": 193.84001,
+                "confidence": 0.78271484,
+                "punctuated_word": "we"
+              },
+              {
+                "end": 194.24,
+                "word": "had",
+                "start": 194,
+                "confidence": 1,
+                "punctuated_word": "had"
+              },
+              {
+                "end": 194.56001,
+                "word": "this",
+                "start": 194.24,
+                "confidence": 0.99316406,
+                "punctuated_word": "this"
+              },
+              {
+                "end": 194.885,
+                "word": "is",
+                "start": 194.56001,
+                "confidence": 0.5649414,
+                "punctuated_word": "is"
+              },
+              {
+                "end": 195.125,
+                "word": "and",
+                "start": 194.965,
+                "confidence": 0.99121094,
+                "punctuated_word": "and"
+              },
+              {
+                "end": 195.36499,
+                "word": "are",
+                "start": 195.125,
+                "confidence": 0.9301758,
+                "punctuated_word": "are,"
+              },
+              {
+                "end": 195.765,
+                "word": "but",
+                "start": 195.36499,
+                "confidence": 0.99902344,
+                "punctuated_word": "but"
+              },
+              {
+                "end": 196.00499,
+                "word": "now",
+                "start": 195.765,
+                "confidence": 0.99609375,
+                "punctuated_word": "now"
+              },
+              {
+                "end": 196.165,
+                "word": "we",
+                "start": 196.00499,
+                "confidence": 0.98535156,
+                "punctuated_word": "we"
+              },
+              {
+                "end": 196.64499,
+                "word": "will",
+                "start": 196.165,
+                "confidence": 1,
+                "punctuated_word": "will"
+              },
+              {
+                "end": 196.805,
+                "word": "do",
+                "start": 196.64499,
+                "confidence": 1,
+                "punctuated_word": "do"
+              },
+              {
+                "end": 197.045,
+                "word": "this",
+                "start": 196.805,
+                "confidence": 1,
+                "punctuated_word": "this"
+              },
+              {
+                "end": 197.545,
+                "word": "properly",
+                "start": 197.045,
+                "confidence": 0.99902344,
+                "punctuated_word": "properly."
+              },
+              {
+                "end": 197.92499,
+                "word": "right",
+                "start": 197.605,
+                "confidence": 0.9489746,
+                "punctuated_word": "Right?"
+              },
+              {
+                "end": 198.245,
+                "word": "so",
+                "start": 197.92499,
+                "confidence": 0.99902344,
+                "punctuated_word": "So"
+              },
+              {
+                "end": 198.485,
+                "word": "i",
+                "start": 198.245,
+                "confidence": 0.9921875,
+                "punctuated_word": "I"
+              },
+              {
+                "end": 198.985,
+                "word": "am",
+                "start": 198.485,
+                "confidence": 0.9628906,
+                "punctuated_word": "am,"
+              },
+              {
+                "end": 199.28499,
+                "word": "it",
+                "start": 199.045,
+                "confidence": 0.9980469,
+                "punctuated_word": "it"
+              },
+              {
+                "end": 199.78499,
+                "word": "is",
+                "start": 199.28499,
+                "confidence": 0.9770508,
+                "punctuated_word": "is,"
+              },
+              {
+                "end": 200.405,
+                "word": "but",
+                "start": 200.165,
+                "confidence": 1,
+                "punctuated_word": "but"
+              },
+              {
+                "end": 200.56499,
+                "word": "they",
+                "start": 200.405,
+                "confidence": 0.99902344,
+                "punctuated_word": "they"
+              },
+              {
+                "end": 200.885,
+                "word": "are",
+                "start": 200.56499,
+                "confidence": 0.9123535,
+                "punctuated_word": "are."
+              },
+              {
+                "end": 201.20499,
+                "word": "so",
+                "start": 200.885,
+                "confidence": 1,
+                "punctuated_word": "So"
+              },
+              {
+                "end": 201.44499,
+                "word": "the",
+                "start": 201.20499,
+                "confidence": 0.99902344,
+                "punctuated_word": "the"
+              },
+              {
+                "end": 201.845,
+                "word": "plural",
+                "start": 201.44499,
+                "confidence": 0.9951172,
+                "punctuated_word": "plural"
+              },
+              {
+                "end": 202.345,
+                "word": "singular",
+                "start": 201.845,
+                "confidence": 0.8071289,
+                "punctuated_word": "singular,"
+              },
+              {
+                "end": 202.72499,
+                "word": "i",
+                "start": 202.56499,
+                "confidence": 1,
+                "punctuated_word": "I"
+              },
+              {
+                "end": 202.965,
+                "word": "know",
+                "start": 202.72499,
+                "confidence": 1,
+                "punctuated_word": "know"
+              },
+              {
+                "end": 203.125,
+                "word": "you",
+                "start": 202.965,
+                "confidence": 0.9482422,
+                "punctuated_word": "you"
+              },
+              {
+                "end": 203.55,
+                "word": "know",
+                "start": 203.125,
+                "confidence": 0.88500977,
+                "punctuated_word": "know."
+              },
+              {
+                "end": 203.95,
+                "word": "but",
+                "start": 203.63,
+                "confidence": 1,
+                "punctuated_word": "But"
+              },
+              {
+                "end": 204.03,
+                "word": "now",
+                "start": 203.95,
+                "confidence": 0.97265625,
+                "punctuated_word": "now"
+              },
+              {
+                "end": 204.27,
+                "word": "i",
+                "start": 204.03,
+                "confidence": 0.921875,
+                "punctuated_word": "I"
+              },
+              {
+                "end": 204.59,
+                "word": "want",
+                "start": 204.27,
+                "confidence": 1,
+                "punctuated_word": "want"
+              },
+              {
+                "end": 205.09,
+                "word": "you",
+                "start": 204.59,
+                "confidence": 1,
+                "punctuated_word": "you"
+              },
+              {
+                "end": 205.39,
+                "word": "to",
+                "start": 205.23,
+                "confidence": 0.99902344,
+                "punctuated_word": "to"
+              },
+              {
+                "end": 205.71,
+                "word": "write",
+                "start": 205.39,
+                "confidence": 0.9970703,
+                "punctuated_word": "write"
+              },
+              {
+                "end": 205.87001,
+                "word": "and",
+                "start": 205.71,
+                "confidence": 0.9614258,
+                "punctuated_word": "and"
+              },
+              {
+                "end": 206.19,
+                "word": "then",
+                "start": 205.87001,
+                "confidence": 1,
+                "punctuated_word": "then"
+              },
+              {
+                "end": 206.43001,
+                "word": "read",
+                "start": 206.19,
+                "confidence": 0.99902344,
+                "punctuated_word": "read"
+              },
+              {
+                "end": 206.59,
+                "word": "the",
+                "start": 206.43001,
+                "confidence": 0.99902344,
+                "punctuated_word": "the"
+              },
+              {
+                "end": 207.09,
+                "word": "sentence",
+                "start": 206.59,
+                "confidence": 0.9995117,
+                "punctuated_word": "sentence."
+              },
+              {
+                "end": 215.08499,
+                "word": "mhmm",
+                "start": 214.58499,
+                "confidence": 0.9555664,
+                "punctuated_word": "Mhmm."
+              },
+              {
+                "end": 239.35,
+                "word": "classmates",
+                "start": 238.85,
+                "confidence": 0.7682292,
+                "punctuated_word": "Classmates."
+              },
+              {
+                "end": 240.39,
+                "word": "classmates",
+                "start": 239.89,
+                "confidence": 0.9510091,
+                "punctuated_word": "Classmates."
+              },
+              {
+                "end": 241.43001,
+                "word": "classmates",
+                "start": 240.93001,
+                "confidence": 0.8312988,
+                "punctuated_word": "Classmates"
+              },
+              {
+                "end": 243.11,
+                "word": "classmates",
+                "start": 242.61,
+                "confidence": 0.5012207,
+                "punctuated_word": "classmates."
+              },
+              {
+                "end": 243.41,
+                "word": "the",
+                "start": 243.33,
+                "confidence": 0.6015625,
+                "punctuated_word": "The"
+              },
+              {
+                "end": 243.91,
+                "word": "classmate",
+                "start": 243.41,
+                "confidence": 0.68115234,
+                "punctuated_word": "classmate"
+              },
+              {
+                "end": 245.89,
+                "word": "right",
+                "start": 245.57,
+                "confidence": 0.63635254,
+                "punctuated_word": "Right?"
+              },
+              {
+                "end": 246.39,
+                "word": "classmates",
+                "start": 245.89,
+                "confidence": 0.99348956,
+                "punctuated_word": "Classmates."
+              },
+              {
+                "end": 247.11,
+                "word": "mhmm",
+                "start": 246.61,
+                "confidence": 0.99328613,
+                "punctuated_word": "Mhmm."
+              },
+              {
+                "end": 251.53499,
+                "word": "okay",
+                "start": 251.03499,
+                "confidence": 0.99853516,
+                "punctuated_word": "Okay."
+              },
+              {
+                "end": 286.16998,
+                "word": "mhmm",
+                "start": 286.00998,
+                "confidence": 0.99450684,
+                "punctuated_word": "Mhmm."
+              },
+              {
+                "end": 286.49,
+                "word": "very",
+                "start": 286.16998,
+                "confidence": 0.9941406,
+                "punctuated_word": "Very"
+              },
+              {
+                "end": 286.96997,
+                "word": "good",
+                "start": 286.49,
+                "confidence": 1,
+                "punctuated_word": "good."
+              },
+              {
+                "end": 287.46997,
+                "word": "mhmm",
+                "start": 286.96997,
+                "confidence": 0.9992676,
+                "punctuated_word": "Mhmm."
+              },
+              {
+                "end": 290.99,
+                "word": "okay",
+                "start": 290.49,
+                "confidence": 0.9338379,
+                "punctuated_word": "Okay."
+              },
+              {
+                "end": 292.49,
+                "word": "so",
+                "start": 292.16998,
+                "confidence": 0.9980469,
+                "punctuated_word": "So"
+              },
+              {
+                "end": 292.65,
+                "word": "we",
+                "start": 292.49,
+                "confidence": 1,
+                "punctuated_word": "we"
+              },
+              {
+                "end": 292.88998,
+                "word": "are",
+                "start": 292.65,
+                "confidence": 1,
+                "punctuated_word": "are"
+              },
+              {
+                "end": 293.28998,
+                "word": "moving",
+                "start": 292.88998,
+                "confidence": 1,
+                "punctuated_word": "moving"
+              },
+              {
+                "end": 293.735,
+                "word": "forward",
+                "start": 293.28998,
+                "confidence": 0.83203125,
+                "punctuated_word": "forward."
+              },
+              {
+                "end": 294.13498,
+                "word": "funny",
+                "start": 293.81497,
+                "confidence": 0.91064453,
+                "punctuated_word": "Funny,"
+              },
+              {
+                "end": 294.63498,
+                "word": "beautiful",
+                "start": 294.13498,
+                "confidence": 0.9892578,
+                "punctuated_word": "beautiful"
+              },
+              {
+                "end": 294.935,
+                "word": "in",
+                "start": 294.69498,
+                "confidence": 0.66259766,
+                "punctuated_word": "in"
+              },
+              {
+                "end": 295.435,
+                "word": "spanish",
+                "start": 294.935,
+                "confidence": 0.7631836,
+                "punctuated_word": "Spanish,"
+              },
+              {
+                "end": 295.895,
+                "word": "your",
+                "start": 295.57498,
+                "confidence": 0.99609375,
+                "punctuated_word": "your"
+              },
+              {
+                "end": 296.375,
+                "word": "favorite",
+                "start": 295.895,
+                "confidence": 0.9980469,
+                "punctuated_word": "favorite"
+              },
+              {
+                "end": 296.875,
+                "word": "subject",
+                "start": 296.375,
+                "confidence": 0.7546387,
+                "punctuated_word": "subject,"
+              },
+              {
+                "end": 297.59497,
+                "word": "spanish",
+                "start": 297.09497,
+                "confidence": 0.9995117,
+                "punctuated_word": "Spanish."
+              },
+              {
+                "end": 298.13498,
+                "word": "so",
+                "start": 297.895,
+                "confidence": 0.9970703,
+                "punctuated_word": "So"
+              },
+              {
+                "end": 298.29498,
+                "word": "if",
+                "start": 298.13498,
+                "confidence": 0.96435547,
+                "punctuated_word": "if"
+              },
+              {
+                "end": 298.69498,
+                "word": "someone",
+                "start": 298.29498,
+                "confidence": 0.99902344,
+                "punctuated_word": "someone"
+              },
+              {
+                "end": 298.935,
+                "word": "is",
+                "start": 298.69498,
+                "confidence": 0.99316406,
+                "punctuated_word": "is"
+              },
+              {
+                "end": 299.435,
+                "word": "funny",
+                "start": 298.935,
+                "confidence": 0.9226074,
+                "punctuated_word": "funny,"
+              }
+            ],
+            "confidence": 0.9970703,
+            "paragraphs": {
+              "paragraphs": [
+                {
+                  "end": 20.06,
+                  "start": 0,
+                  "num_words": 43,
+                  "sentences": [
+                    {
+                      "end": 8.1,
+                      "text": "I want to practice grammar before we return to our conversations.",
+                      "start": 0
+                    },
+                    {
+                      "end": 17.165,
+                      "text": "Because as you've noticed, sometimes you you are good at, doing exercises and grammar, but when it comes to speaking, you are not.",
+                      "start": 8.24
+                    },
+                    {
+                      "end": 18.22,
+                      "text": "Do you understand?",
+                      "start": 17.56
+                    },
+                    {
+                      "end": 19.56,
+                      "text": "You know where you are.",
+                      "start": 18.6
+                    },
+                    {
+                      "end": 20.06,
+                      "text": "Yeah?",
+                      "start": 19.56
+                    }
+                  ]
+                },
+                {
+                  "end": 46.394997,
+                  "start": 20.36,
+                  "num_words": 55,
+                  "sentences": [
+                    {
+                      "end": 28.465,
+                      "text": "So so so so I want you to not doing this exercises automatically.",
+                      "start": 20.36
+                    },
+                    {
+                      "end": 40.975,
+                      "text": "Try to pay attention to the exercises because once you pay attention to the exercises then you will use the knowledge from the exercises in your speaking.",
+                      "start": 29.805
+                    },
+                    {
+                      "end": 41.914997,
+                      "text": "Yes?",
+                      "start": 41.434998
+                    },
+                    {
+                      "end": 46.155,
+                      "text": "Because I don't want you to speak yes yes okay it was okay.",
+                      "start": 41.914997
+                    },
+                    {
+                      "end": 46.394997,
+                      "text": "No.",
+                      "start": 46.155
+                    }
+                  ]
+                },
+                {
+                  "end": 66.5,
+                  "start": 46.394997,
+                  "num_words": 39,
+                  "sentences": [
+                    {
+                      "end": 54.14,
+                      "text": "I want you to expand your vocabulary, and I want you to to to to use more sophisticated sentences.",
+                      "start": 46.394997
+                    },
+                    {
+                      "end": 54.78,
+                      "text": "Okay?",
+                      "start": 54.28
+                    },
+                    {
+                      "end": 56.415,
+                      "text": "Okay.",
+                      "start": 55.915
+                    },
+                    {
+                      "end": 64.975,
+                      "text": "So let me choose and we will start with the a 2 grammar.",
+                      "start": 57.594997
+                    },
+                    {
+                      "end": 66.5,
+                      "text": "Just give me 1 moment.",
+                      "start": 65.354996
+                    }
+                  ]
+                },
+                {
+                  "end": 80.814995,
+                  "start": 66.5,
+                  "num_words": 26,
+                  "sentences": [
+                    {
+                      "end": 67.88,
+                      "text": "Just give me a second.",
+                      "start": 66.5
+                    },
+                    {
+                      "end": 75.674995,
+                      "text": "Okay.",
+                      "start": 75.354996
+                    },
+                    {
+                      "end": 77.354996,
+                      "text": "Let let us start from the scratch.",
+                      "start": 75.674995
+                    },
+                    {
+                      "end": 77.755,
+                      "text": "Okay?",
+                      "start": 77.354996
+                    },
+                    {
+                      "end": 80.814995,
+                      "text": "The grammar from the scratch because it's it's in it's it's important.",
+                      "start": 77.755
+                    }
+                  ]
+                },
+                {
+                  "end": 93.365005,
+                  "start": 81.275,
+                  "num_words": 33,
+                  "sentences": [
+                    {
+                      "end": 83.935,
+                      "text": "You will see the benefit, of it.",
+                      "start": 81.275
+                    },
+                    {
+                      "end": 85.9,
+                      "text": "Maybe you will do this very quickly.",
+                      "start": 84.200005
+                    },
+                    {
+                      "end": 87.08,
+                      "text": "I don't know.",
+                      "start": 86.44
+                    },
+                    {
+                      "end": 91.74,
+                      "text": "But it it it doesn't matter how long it will take.",
+                      "start": 87.08
+                    },
+                    {
+                      "end": 93.365005,
+                      "text": "It takes that you understand.",
+                      "start": 91.825005
+                    }
+                  ]
+                },
+                {
+                  "end": 111.134995,
+                  "start": 93.585,
+                  "num_words": 19,
+                  "sentences": [
+                    {
+                      "end": 94.085,
+                      "text": "Okay?",
+                      "start": 93.585
+                    },
+                    {
+                      "end": 95.745,
+                      "text": "Alright.",
+                      "start": 95.425
+                    },
+                    {
+                      "end": 101.96999,
+                      "text": "So just give me a moment because I have to populate everything with.",
+                      "start": 95.745
+                    },
+                    {
+                      "end": 110.895,
+                      "text": "Oh, that's fine.",
+                      "start": 109.935
+                    },
+                    {
+                      "end": 111.134995,
+                      "text": "Okay.",
+                      "start": 110.895
+                    }
+                  ]
+                },
+                {
+                  "end": 141.45,
+                  "start": 111.134995,
+                  "num_words": 5,
+                  "sentences": [
+                    {
+                      "end": 111.295,
+                      "text": "Yeah.",
+                      "start": 111.134995
+                    },
+                    {
+                      "end": 111.375,
+                      "text": "Yeah.",
+                      "start": 111.295
+                    },
+                    {
+                      "end": 111.615,
+                      "text": "Yeah.",
+                      "start": 111.375
+                    },
+                    {
+                      "end": 112.115,
+                      "text": "Okay.",
+                      "start": 111.615
+                    },
+                    {
+                      "end": 141.45,
+                      "text": "Mhmm.",
+                      "start": 140.95
+                    }
+                  ]
+                },
+                {
+                  "end": 191.46,
+                  "start": 145.395,
+                  "num_words": 23,
+                  "sentences": [
+                    {
+                      "end": 148.13501,
+                      "text": "So now mhmm.",
+                      "start": 145.395
+                    },
+                    {
+                      "end": 180.595,
+                      "text": "Okay.",
+                      "start": 180.095
+                    },
+                    {
+                      "end": 184.915,
+                      "text": "So now we're beginning the grammar practice.",
+                      "start": 182.495
+                    },
+                    {
+                      "end": 185.62001,
+                      "text": "Okay?",
+                      "start": 185.12001
+                    },
+                    {
+                      "end": 191.46,
+                      "text": "So the use it usage of language, m, s, and r.",
+                      "start": 186.40001
+                    }
+                  ]
+                },
+                {
+                  "end": 207.09,
+                  "start": 191.76001,
+                  "num_words": 48,
+                  "sentences": [
+                    {
+                      "end": 197.545,
+                      "text": "I know that you, last time we had this is and are, but now we will do this properly.",
+                      "start": 191.76001
+                    },
+                    {
+                      "end": 197.92499,
+                      "text": "Right?",
+                      "start": 197.605
+                    },
+                    {
+                      "end": 200.885,
+                      "text": "So I am, it is, but they are.",
+                      "start": 197.92499
+                    },
+                    {
+                      "end": 203.55,
+                      "text": "So the plural singular, I know you know.",
+                      "start": 200.885
+                    },
+                    {
+                      "end": 207.09,
+                      "text": "But now I want you to write and then read the sentence.",
+                      "start": 203.63
+                    }
+                  ]
+                },
+                {
+                  "end": 245.89,
+                  "start": 214.58499,
+                  "num_words": 8,
+                  "sentences": [
+                    {
+                      "end": 215.08499,
+                      "text": "Mhmm.",
+                      "start": 214.58499
+                    },
+                    {
+                      "end": 239.35,
+                      "text": "Classmates.",
+                      "start": 238.85
+                    },
+                    {
+                      "end": 240.39,
+                      "text": "Classmates.",
+                      "start": 239.89
+                    },
+                    {
+                      "end": 243.11,
+                      "text": "Classmates classmates.",
+                      "start": 240.93001
+                    },
+                    {
+                      "end": 245.89,
+                      "text": "The classmate Right?",
+                      "start": 243.33
+                    }
+                  ]
+                },
+                {
+                  "end": 286.96997,
+                  "start": 245.89,
+                  "num_words": 6,
+                  "sentences": [
+                    {
+                      "end": 246.39,
+                      "text": "Classmates.",
+                      "start": 245.89
+                    },
+                    {
+                      "end": 247.11,
+                      "text": "Mhmm.",
+                      "start": 246.61
+                    },
+                    {
+                      "end": 251.53499,
+                      "text": "Okay.",
+                      "start": 251.03499
+                    },
+                    {
+                      "end": 286.16998,
+                      "text": "Mhmm.",
+                      "start": 286.00998
+                    },
+                    {
+                      "end": 286.96997,
+                      "text": "Very good.",
+                      "start": 286.16998
+                    }
+                  ]
+                },
+                {
+                  "end": 299.435,
+                  "start": 286.96997,
+                  "num_words": 20,
+                  "sentences": [
+                    {
+                      "end": 287.46997,
+                      "text": "Mhmm.",
+                      "start": 286.96997
+                    },
+                    {
+                      "end": 290.99,
+                      "text": "Okay.",
+                      "start": 290.49
+                    },
+                    {
+                      "end": 293.735,
+                      "text": "So we are moving forward.",
+                      "start": 292.16998
+                    },
+                    {
+                      "end": 297.59497,
+                      "text": "Funny, beautiful in Spanish, your favorite subject, Spanish.",
+                      "start": 293.81497
+                    },
+                    {
+                      "end": 299.435,
+                      "text": "So if someone is funny,",
+                      "start": 297.895
+                    }
+                  ]
+                }
+              ],
+              "transcript": "\nI want to practice grammar before we return to our conversations. Because as you've noticed, sometimes you you are good at, doing exercises and grammar, but when it comes to speaking, you are not. Do you understand? You know where you are. Yeah?\n\nSo so so so I want you to not doing this exercises automatically. Try to pay attention to the exercises because once you pay attention to the exercises then you will use the knowledge from the exercises in your speaking. Yes? Because I don't want you to speak yes yes okay it was okay. No.\n\nI want you to expand your vocabulary, and I want you to to to to use more sophisticated sentences. Okay? Okay. So let me choose and we will start with the a 2 grammar. Just give me 1 moment.\n\nJust give me a second. Okay. Let let us start from the scratch. Okay? The grammar from the scratch because it's it's in it's it's important.\n\nYou will see the benefit, of it. Maybe you will do this very quickly. I don't know. But it it it doesn't matter how long it will take. It takes that you understand.\n\nOkay? Alright. So just give me a moment because I have to populate everything with. Oh, that's fine. Okay.\n\nYeah. Yeah. Yeah. Okay. Mhmm.\n\nSo now mhmm. Okay. So now we're beginning the grammar practice. Okay? So the use it usage of language, m, s, and r.\n\nI know that you, last time we had this is and are, but now we will do this properly. Right? So I am, it is, but they are. So the plural singular, I know you know. But now I want you to write and then read the sentence.\n\nMhmm. Classmates. Classmates. Classmates classmates. The classmate Right?\n\nClassmates. Mhmm. Okay. Mhmm. Very good.\n\nMhmm. Okay. So we are moving forward. Funny, beautiful in Spanish, your favorite subject, Spanish. So if someone is funny,"
+            },
+            "transcript": "I want to practice grammar before we return to our conversations. Because as you've noticed, sometimes you you are good at, doing exercises and grammar, but when it comes to speaking, you are not. Do you understand? You know where you are. Yeah? So so so so I want you to not doing this exercises automatically. Try to pay attention to the exercises because once you pay attention to the exercises then you will use the knowledge from the exercises in your speaking. Yes? Because I don't want you to speak yes yes okay it was okay. No. I want you to expand your vocabulary, and I want you to to to to use more sophisticated sentences. Okay? Okay. So let me choose and we will start with the a 2 grammar. Just give me 1 moment. Just give me a second. Okay. Let let us start from the scratch. Okay? The grammar from the scratch because it's it's in it's it's important. You will see the benefit, of it. Maybe you will do this very quickly. I don't know. But it it it doesn't matter how long it will take. It takes that you understand. Okay? Alright. So just give me a moment because I have to populate everything with. Oh, that's fine. Okay. Yeah. Yeah. Yeah. Okay. Mhmm. So now mhmm. Okay. So now we're beginning the grammar practice. Okay? So the use it usage of language, m, s, and r. I know that you, last time we had this is and are, but now we will do this properly. Right? So I am, it is, but they are. So the plural singular, I know you know. But now I want you to write and then read the sentence. Mhmm. Classmates. Classmates. Classmates classmates. The classmate Right? Classmates. Mhmm. Okay. Mhmm. Very good. Mhmm. Okay. So we are moving forward. Funny, beautiful in Spanish, your favorite subject, Spanish. So if someone is funny,"
+          }
+        ]
+      }
+    ],
+    "paragraphs": {
+      "paragraphs": [
+        {
+          "end": 18.22,
+          "start": 0,
+          "channel": 1,
+          "num_words": 37,
+          "sentences": [
+            {
+              "end": 8.1,
+              "text": "I want to practice grammar before we return to our conversations.",
+              "start": 0
+            },
+            {
+              "end": 17.165,
+              "text": "Because as you've noticed, sometimes you you are good at, doing exercises and grammar, but when it comes to speaking, you are not.",
+              "start": 8.24
+            },
+            {
+              "end": 18.22,
+              "text": "Do you understand?",
+              "start": 17.56
+            }
+          ]
+        },
+        {
+          "end": 18.36,
+          "start": 17.86,
+          "channel": 0,
+          "num_words": 1,
+          "sentences": [
+            {
+              "end": 18.36,
+              "text": "Mhmm.",
+              "start": 17.86
+            }
+          ]
+        },
+        {
+          "end": 19.16,
+          "start": 18.6,
+          "channel": 1,
+          "num_words": 3,
+          "sentences": [
+            {
+              "end": 19.16,
+              "text": "You know where",
+              "start": 18.6
+            }
+          ]
+        },
+        {
+          "end": 19.56,
+          "start": 19.06,
+          "channel": 0,
+          "num_words": 1,
+          "sentences": [
+            {
+              "end": 19.56,
+              "text": "Yeah.",
+              "start": 19.06
+            }
+          ]
+        },
+        {
+          "end": 20.06,
+          "start": 19.16,
+          "channel": 1,
+          "num_words": 3,
+          "sentences": [
+            {
+              "end": 19.56,
+              "text": "you are.",
+              "start": 19.16
+            },
+            {
+              "end": 20.06,
+              "text": "Yeah?",
+              "start": 19.56
+            }
+          ]
+        },
+        {
+          "end": 20.76,
+          "start": 20.02,
+          "channel": 0,
+          "num_words": 2,
+          "sentences": [
+            {
+              "end": 20.26,
+              "text": "Yeah.",
+              "start": 20.02
+            },
+            {
+              "end": 20.76,
+              "text": "Yeah.",
+              "start": 20.26
+            }
+          ]
+        },
+        {
+          "end": 46.394997,
+          "start": 20.36,
+          "channel": 1,
+          "num_words": 55,
+          "sentences": [
+            {
+              "end": 28.465,
+              "text": "So so so so I want you to not doing this exercises automatically.",
+              "start": 20.36
+            },
+            {
+              "end": 40.975,
+              "text": "Try to pay attention to the exercises because once you pay attention to the exercises then you will use the knowledge from the exercises in your speaking.",
+              "start": 29.805
+            },
+            {
+              "end": 41.914997,
+              "text": "Yes?",
+              "start": 41.434998
+            },
+            {
+              "end": 46.155,
+              "text": "Because I don't want you to speak yes yes okay it was okay.",
+              "start": 41.914997
+            },
+            {
+              "end": 46.394997,
+              "text": "No.",
+              "start": 46.155
+            }
+          ]
+        },
+        {
+          "end": 54.14,
+          "start": 46.394997,
+          "channel": 1,
+          "num_words": 19,
+          "sentences": [
+            {
+              "end": 54.14,
+              "text": "I want you to expand your vocabulary, and I want you to to to to use more sophisticated sentences.",
+              "start": 46.394997
+            }
+          ]
+        },
+        {
+          "end": 54.28,
+          "start": 53.78,
+          "channel": 0,
+          "num_words": 1,
+          "sentences": [
+            {
+              "end": 54.28,
+              "text": "Yeah.",
+              "start": 53.78
+            }
+          ]
+        },
+        {
+          "end": 54.78,
+          "start": 54.28,
+          "channel": 1,
+          "num_words": 1,
+          "sentences": [
+            {
+              "end": 54.78,
+              "text": "Okay?",
+              "start": 54.28
+            }
+          ]
+        },
+        {
+          "end": 56.04,
+          "start": 54.66,
+          "channel": 0,
+          "num_words": 3,
+          "sentences": [
+            {
+              "end": 55.32,
+              "text": "I understand.",
+              "start": 54.66
+            },
+            {
+              "end": 56.04,
+              "text": "Yeah.",
+              "start": 55.54
+            }
+          ]
+        },
+        {
+          "end": 75.674995,
+          "start": 55.915,
+          "channel": 1,
+          "num_words": 25,
+          "sentences": [
+            {
+              "end": 56.415,
+              "text": "Okay.",
+              "start": 55.915
+            },
+            {
+              "end": 64.975,
+              "text": "So let me choose and we will start with the a 2 grammar.",
+              "start": 57.594997
+            },
+            {
+              "end": 66.5,
+              "text": "Just give me 1 moment.",
+              "start": 65.354996
+            },
+            {
+              "end": 67.88,
+              "text": "Just give me a second.",
+              "start": 66.5
+            },
+            {
+              "end": 75.674995,
+              "text": "Okay.",
+              "start": 75.354996
+            }
+          ]
+        },
+        {
+          "end": 85.9,
+          "start": 75.674995,
+          "channel": 1,
+          "num_words": 34,
+          "sentences": [
+            {
+              "end": 77.354996,
+              "text": "Let let us start from the scratch.",
+              "start": 75.674995
+            },
+            {
+              "end": 77.755,
+              "text": "Okay?",
+              "start": 77.354996
+            },
+            {
+              "end": 80.814995,
+              "text": "The grammar from the scratch because it's it's in it's it's important.",
+              "start": 77.755
+            },
+            {
+              "end": 83.935,
+              "text": "You will see the benefit, of it.",
+              "start": 81.275
+            },
+            {
+              "end": 85.9,
+              "text": "Maybe you will do this very quickly.",
+              "start": 84.200005
+            }
+          ]
+        },
+        {
+          "end": 94.085,
+          "start": 86.44,
+          "channel": 1,
+          "num_words": 20,
+          "sentences": [
+            {
+              "end": 87.08,
+              "text": "I don't know.",
+              "start": 86.44
+            },
+            {
+              "end": 91.74,
+              "text": "But it it it doesn't matter how long it will take.",
+              "start": 87.08
+            },
+            {
+              "end": 93.365005,
+              "text": "It takes that you understand.",
+              "start": 91.825005
+            },
+            {
+              "end": 94.085,
+              "text": "Okay?",
+              "start": 93.585
+            }
+          ]
+        },
+        {
+          "end": 95.01501,
+          "start": 94.51501,
+          "channel": 0,
+          "num_words": 1,
+          "sentences": [
+            {
+              "end": 95.01501,
+              "text": "Okay.",
+              "start": 94.51501
+            }
+          ]
+        },
+        {
+          "end": 98.965004,
+          "start": 95.425,
+          "channel": 1,
+          "num_words": 12,
+          "sentences": [
+            {
+              "end": 95.745,
+              "text": "Alright.",
+              "start": 95.425
+            },
+            {
+              "end": 98.965004,
+              "text": "So just give me a moment because I have to populate",
+              "start": 95.745
+            }
+          ]
+        },
+        {
+          "end": 99.770004,
+          "start": 99.270004,
+          "channel": 0,
+          "num_words": 1,
+          "sentences": [
+            {
+              "end": 99.770004,
+              "text": "Okay.",
+              "start": 99.270004
+            }
+          ]
+        },
+        {
+          "end": 101.96999,
+          "start": 100.909996,
+          "channel": 1,
+          "num_words": 2,
+          "sentences": [
+            {
+              "end": 101.96999,
+              "text": "everything with.",
+              "start": 100.909996
+            }
+          ]
+        },
+        {
+          "end": 110.125,
+          "start": 103.03,
+          "channel": 0,
+          "num_words": 14,
+          "sentences": [
+            {
+              "end": 110.125,
+              "text": "Give me moment because, I don't have, I don't have, to write, you know,",
+              "start": 103.03
+            }
+          ]
+        },
+        {
+          "end": 110.335,
+          "start": 109.935,
+          "channel": 1,
+          "num_words": 1,
+          "sentences": [
+            {
+              "end": 110.335,
+              "text": "Oh,",
+              "start": 109.935
+            }
+          ]
+        },
+        {
+          "end": 110.784996,
+          "start": 110.284996,
+          "channel": 0,
+          "num_words": 1,
+          "sentences": [
+            {
+              "end": 110.784996,
+              "text": "paper.",
+              "start": 110.284996
+            }
+          ]
+        },
+        {
+          "end": 111.615,
+          "start": 110.335,
+          "channel": 1,
+          "num_words": 6,
+          "sentences": [
+            {
+              "end": 110.895,
+              "text": "that's fine.",
+              "start": 110.335
+            },
+            {
+              "end": 111.134995,
+              "text": "Okay.",
+              "start": 110.895
+            },
+            {
+              "end": 111.295,
+              "text": "Yeah.",
+              "start": 111.134995
+            },
+            {
+              "end": 111.375,
+              "text": "Yeah.",
+              "start": 111.295
+            },
+            {
+              "end": 111.615,
+              "text": "Yeah.",
+              "start": 111.375
+            }
+          ]
+        },
+        {
+          "end": 112.115,
+          "start": 111.615,
+          "channel": 1,
+          "num_words": 1,
+          "sentences": [
+            {
+              "end": 112.115,
+              "text": "Okay.",
+              "start": 111.615
+            }
+          ]
+        },
+        {
+          "end": 140.01001,
+          "start": 139.51001,
+          "channel": 0,
+          "num_words": 1,
+          "sentences": [
+            {
+              "end": 140.01001,
+              "text": "Okay.",
+              "start": 139.51001
+            }
+          ]
+        },
+        {
+          "end": 185.62001,
+          "start": 140.95,
+          "channel": 1,
+          "num_words": 13,
+          "sentences": [
+            {
+              "end": 141.45,
+              "text": "Mhmm.",
+              "start": 140.95
+            },
+            {
+              "end": 148.13501,
+              "text": "So now mhmm.",
+              "start": 145.395
+            },
+            {
+              "end": 180.595,
+              "text": "Okay.",
+              "start": 180.095
+            },
+            {
+              "end": 184.915,
+              "text": "So now we're beginning the grammar practice.",
+              "start": 182.495
+            },
+            {
+              "end": 185.62001,
+              "text": "Okay?",
+              "start": 185.12001
+            }
+          ]
+        },
+        {
+          "end": 186.375,
+          "start": 185.875,
+          "channel": 0,
+          "num_words": 1,
+          "sentences": [
+            {
+              "end": 186.375,
+              "text": "Okay.",
+              "start": 185.875
+            }
+          ]
+        },
+        {
+          "end": 198.485,
+          "start": 186.40001,
+          "channel": 1,
+          "num_words": 33,
+          "sentences": [
+            {
+              "end": 191.46,
+              "text": "So the use it usage of language, m, s, and r.",
+              "start": 186.40001
+            },
+            {
+              "end": 197.545,
+              "text": "I know that you, last time we had this is and are, but now we will do this properly.",
+              "start": 191.76001
+            },
+            {
+              "end": 197.92499,
+              "text": "Right?",
+              "start": 197.605
+            },
+            {
+              "end": 198.485,
+              "text": "So I",
+              "start": 197.92499
+            }
+          ]
+        },
+        {
+          "end": 198.79001,
+          "start": 198.29001,
+          "channel": 0,
+          "num_words": 1,
+          "sentences": [
+            {
+              "end": 198.79001,
+              "text": "Okay.",
+              "start": 198.29001
+            }
+          ]
+        },
+        {
+          "end": 207.09,
+          "start": 198.485,
+          "channel": 1,
+          "num_words": 26,
+          "sentences": [
+            {
+              "end": 200.885,
+              "text": "am, it is, but they are.",
+              "start": 198.485
+            },
+            {
+              "end": 203.55,
+              "text": "So the plural singular, I know you know.",
+              "start": 200.885
+            },
+            {
+              "end": 207.09,
+              "text": "But now I want you to write and then read the sentence.",
+              "start": 203.63
+            }
+          ]
+        },
+        {
+          "end": 214.12999,
+          "start": 207.70999,
+          "channel": 0,
+          "num_words": 11,
+          "sentences": [
+            {
+              "end": 208.20999,
+              "text": "Okay.",
+              "start": 207.70999
+            },
+            {
+              "end": 208.67,
+              "text": "Hello.",
+              "start": 208.26999
+            },
+            {
+              "end": 212.04999,
+              "text": "My name my name is, Joanna.",
+              "start": 208.67
+            },
+            {
+              "end": 214.12999,
+              "text": "I'm a student.",
+              "start": 212.75
+            }
+          ]
+        },
+        {
+          "end": 215.08499,
+          "start": 214.58499,
+          "channel": 1,
+          "num_words": 1,
+          "sentences": [
+            {
+              "end": 215.08499,
+              "text": "Mhmm.",
+              "start": 214.58499
+            }
+          ]
+        },
+        {
+          "end": 237.845,
+          "start": 218.595,
+          "channel": 0,
+          "num_words": 18,
+          "sentences": [
+            {
+              "end": 219.49501,
+              "text": "He's Russell.",
+              "start": 218.595
+            },
+            {
+              "end": 223.395,
+              "text": "He he he's Russell.",
+              "start": 220.515
+            },
+            {
+              "end": 224.535,
+              "text": "He's a student.",
+              "start": 223.395
+            },
+            {
+              "end": 237.125,
+              "text": "Russell and I Russell and I are classmate.",
+              "start": 226.73
+            },
+            {
+              "end": 237.845,
+              "text": "We,",
+              "start": 237.345
+            }
+          ]
+        },
+        {
+          "end": 240.39,
+          "start": 238.85,
+          "channel": 1,
+          "num_words": 2,
+          "sentences": [
+            {
+              "end": 239.35,
+              "text": "Classmates.",
+              "start": 238.85
+            },
+            {
+              "end": 240.39,
+              "text": "Classmates.",
+              "start": 239.89
+            }
+          ]
+        },
+        {
+          "end": 240.965,
+          "start": 239.905,
+          "channel": 0,
+          "num_words": 2,
+          "sentences": [
+            {
+              "end": 240.405,
+              "text": "classmates.",
+              "start": 239.905
+            },
+            {
+              "end": 240.965,
+              "text": "Classmates.",
+              "start": 240.465
+            }
+          ]
+        },
+        {
+          "end": 241.43001,
+          "start": 240.93001,
+          "channel": 1,
+          "num_words": 1,
+          "sentences": [
+            {
+              "end": 241.43001,
+              "text": "Classmates",
+              "start": 240.93001
+            }
+          ]
+        },
+        {
+          "end": 242.86,
+          "start": 242.36,
+          "channel": 0,
+          "num_words": 1,
+          "sentences": [
+            {
+              "end": 242.86,
+              "text": "Classmates.",
+              "start": 242.36
+            }
+          ]
+        },
+        {
+          "end": 243.11,
+          "start": 242.61,
+          "channel": 1,
+          "num_words": 1,
+          "sentences": [
+            {
+              "end": 243.11,
+              "text": "classmates.",
+              "start": 242.61
+            }
+          ]
+        },
+        {
+          "end": 243.66,
+          "start": 243.16,
+          "channel": 0,
+          "num_words": 1,
+          "sentences": [
+            {
+              "end": 243.66,
+              "text": "Classmates.",
+              "start": 243.16
+            }
+          ]
+        },
+        {
+          "end": 243.91,
+          "start": 243.33,
+          "channel": 1,
+          "num_words": 2,
+          "sentences": [
+            {
+              "end": 243.91,
+              "text": "The classmate",
+              "start": 243.33
+            }
+          ]
+        },
+        {
+          "end": 244.54,
+          "start": 244.04,
+          "channel": 0,
+          "num_words": 1,
+          "sentences": [
+            {
+              "end": 244.54,
+              "text": "Classmates.",
+              "start": 244.04
+            }
+          ]
+        },
+        {
+          "end": 247.11,
+          "start": 245.57,
+          "channel": 1,
+          "num_words": 3,
+          "sentences": [
+            {
+              "end": 245.89,
+              "text": "Right?",
+              "start": 245.57
+            },
+            {
+              "end": 246.39,
+              "text": "Classmates.",
+              "start": 245.89
+            },
+            {
+              "end": 247.11,
+              "text": "Mhmm.",
+              "start": 246.61
+            }
+          ]
+        },
+        {
+          "end": 249.81999,
+          "start": 246.68,
+          "channel": 0,
+          "num_words": 8,
+          "sentences": [
+            {
+              "end": 246.92,
+              "text": "Classmates.",
+              "start": 246.68
+            },
+            {
+              "end": 247.16,
+              "text": "Mhmm.",
+              "start": 246.92
+            },
+            {
+              "end": 248.14,
+              "text": "Class are classmates.",
+              "start": 247.16
+            },
+            {
+              "end": 249.81999,
+              "text": "We are friends.",
+              "start": 248.92
+            }
+          ]
+        },
+        {
+          "end": 251.53499,
+          "start": 251.03499,
+          "channel": 1,
+          "num_words": 1,
+          "sentences": [
+            {
+              "end": 251.53499,
+              "text": "Okay.",
+              "start": 251.03499
+            }
+          ]
+        },
+        {
+          "end": 271.145,
+          "start": 252.385,
+          "channel": 0,
+          "num_words": 22,
+          "sentences": [
+            {
+              "end": 254.965,
+              "text": "Emma and Sally are my friends.",
+              "start": 252.385
+            },
+            {
+              "end": 261.84998,
+              "text": "They, they they are English teachers.",
+              "start": 255.58499
+            },
+            {
+              "end": 265.34998,
+              "text": "Hello.",
+              "start": 264.87
+            },
+            {
+              "end": 267.21,
+              "text": "My name is Emma.",
+              "start": 265.34998
+            },
+            {
+              "end": 271.145,
+              "text": "I am from the UK.",
+              "start": 268.585
+            }
+          ]
+        },
+        {
+          "end": 285.23,
+          "start": 271.145,
+          "channel": 0,
+          "num_words": 16,
+          "sentences": [
+            {
+              "end": 273.085,
+              "text": "My parents are Indian.",
+              "start": 271.145
+            },
+            {
+              "end": 282.83002,
+              "text": "I'm from the I am from the UK.",
+              "start": 277.77002
+            },
+            {
+              "end": 285.23,
+              "text": "My parents, are India.",
+              "start": 282.97
+            }
+          ]
+        },
+        {
+          "end": 293.735,
+          "start": 286.00998,
+          "channel": 1,
+          "num_words": 10,
+          "sentences": [
+            {
+              "end": 286.16998,
+              "text": "Mhmm.",
+              "start": 286.00998
+            },
+            {
+              "end": 286.96997,
+              "text": "Very good.",
+              "start": 286.16998
+            },
+            {
+              "end": 287.46997,
+              "text": "Mhmm.",
+              "start": 286.96997
+            },
+            {
+              "end": 290.99,
+              "text": "Okay.",
+              "start": 290.49
+            },
+            {
+              "end": 293.735,
+              "text": "So we are moving forward.",
+              "start": 292.16998
+            }
+          ]
+        },
+        {
+          "end": 299.435,
+          "start": 293.81497,
+          "channel": 1,
+          "num_words": 13,
+          "sentences": [
+            {
+              "end": 297.59497,
+              "text": "Funny, beautiful in Spanish, your favorite subject, Spanish.",
+              "start": 293.81497
+            },
+            {
+              "end": 299.435,
+              "text": "So if someone is funny,",
+              "start": 297.895
+            }
+          ]
+        }
+      ],
+      "transcript": "\nChannel 1: I want to practice grammar before we return to our conversations. Because as you've noticed, sometimes you you are good at, doing exercises and grammar, but when it comes to speaking, you are not. Do you understand?\n\nChannel 0: Mhmm.\n\nChannel 1: You know where\n\nChannel 0: Yeah.\n\nChannel 1: you are. Yeah?\n\nChannel 0: Yeah. Yeah.\n\nChannel 1: So so so so I want you to not doing this exercises automatically. Try to pay attention to the exercises because once you pay attention to the exercises then you will use the knowledge from the exercises in your speaking. Yes? Because I don't want you to speak yes yes okay it was okay. No.\n\nI want you to expand your vocabulary, and I want you to to to to use more sophisticated sentences.\n\nChannel 0: Yeah.\n\nChannel 1: Okay?\n\nChannel 0: I understand. Yeah.\n\nChannel 1: Okay. So let me choose and we will start with the a 2 grammar. Just give me 1 moment. Just give me a second. Okay.\n\nLet let us start from the scratch. Okay? The grammar from the scratch because it's it's in it's it's important. You will see the benefit, of it. Maybe you will do this very quickly.\n\nI don't know. But it it it doesn't matter how long it will take. It takes that you understand. Okay?\n\nChannel 0: Okay.\n\nChannel 1: Alright. So just give me a moment because I have to populate\n\nChannel 0: Okay.\n\nChannel 1: everything with.\n\nChannel 0: Give me moment because, I don't have, I don't have, to write, you know,\n\nChannel 1: Oh,\n\nChannel 0: paper.\n\nChannel 1: that's fine. Okay. Yeah. Yeah. Yeah.\n\nOkay.\n\nChannel 0: Okay.\n\nChannel 1: Mhmm. So now mhmm. Okay. So now we're beginning the grammar practice. Okay?\n\nChannel 0: Okay.\n\nChannel 1: So the use it usage of language, m, s, and r. I know that you, last time we had this is and are, but now we will do this properly. Right? So I\n\nChannel 0: Okay.\n\nChannel 1: am, it is, but they are. So the plural singular, I know you know. But now I want you to write and then read the sentence.\n\nChannel 0: Okay. Hello. My name my name is, Joanna. I'm a student.\n\nChannel 1: Mhmm.\n\nChannel 0: He's Russell. He he he's Russell. He's a student. Russell and I Russell and I are classmate. We,\n\nChannel 1: Classmates. Classmates.\n\nChannel 0: classmates. Classmates.\n\nChannel 1: Classmates\n\nChannel 0: Classmates.\n\nChannel 1: classmates.\n\nChannel 0: Classmates.\n\nChannel 1: The classmate\n\nChannel 0: Classmates.\n\nChannel 1: Right? Classmates. Mhmm.\n\nChannel 0: Classmates. Mhmm. Class are classmates. We are friends.\n\nChannel 1: Okay.\n\nChannel 0: Emma and Sally are my friends. They, they they are English teachers. Hello. My name is Emma. I am from the UK.\n\nMy parents are Indian. I'm from the I am from the UK. My parents, are India.\n\nChannel 1: Mhmm. Very good. Mhmm. Okay. So we are moving forward.\n\nFunny, beautiful in Spanish, your favorite subject, Spanish. So if someone is funny,"
+    }
+  }
+}

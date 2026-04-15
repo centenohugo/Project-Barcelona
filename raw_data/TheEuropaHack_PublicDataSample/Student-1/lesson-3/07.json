@@ -1,0 +1,5832 @@
+{
+  "results": {
+    "channels": [
+      {
+        "alternatives": [
+          {
+            "transcript": "First of all, it would be my phone because I get a lot of informations via my phone. I don't use my laptop out of my work and out of my language learning. Right now, I use laptop, but I'm not a person who who like, for example, playing games. So I don't I don't use my laptop out of my my obligations. So so, yeah, it's I don't have I have my personal lap laptop. Now I'm using it, and I'm laptop from my job to to work. Yeah? So I have two laptops, but my personal laptop is used practically only to to Preply, yeah, in this moment. For Preply. For Preply. Yeah. In this moment. Because as I told you, I don't play a lot of games. So it no. I don't think it's a a waste of time at all. If someone like, likes it, it likes it, it can it can be funny. Like, for me, let learning playing with this is funny. But I've never I've never been a person who who liked playing games. It's was not my my passion. Yeah. But but I don't think it's a waste of time if someone need if someone needs one or two hours per day to to to relax. Yeah? Yeah. Because it can it can yeah. It can back up become become. Yeah. It can become it can be it becomes very problematic if you play during the night and you you don't sleep and you it cow it can cause more problem in your in your life. I think so because because I have read a lot of investigations when investigate when investigators burst out this this opinion because it was it was shown, I think, that we are more disrupted. And even, for example, if we read a book if you read a book via your laptop or your smartphone, it's not the same if we if you use a book. Yeah? A book like so it's it shows that that that our disruptions, whether do we use application, whether or not, has caused a lot of a lot of changes in in the recent years. Yeah? We've been we've been living with with with It's not in short area. TikTok TikTok, you know, I saw one investigation or I had one opinion about TikTok that's comparing it to YouTube. In YouTube, you have you On YouTube. On you on YouTube, you have both videos one hours videos, one minute videos. Yeah? But in YouTube, you you are on YouTube. On YouTube. Yeah. On YouTube. On YouTube, you are supposed to choose what you want to watch. Yeah? And on tick on TikTok. Yeah? On TikTok, the algorithm decides. So you are more lazy, let's say, when it comes to choose. So it it cause more problems when it comes to your attention. And I don't like this type of videos that's that's",
+            "confidence": 0.9941406,
+            "words": [
+              {
+                "word": "first",
+                "start": 0,
+                "end": 0.56,
+                "confidence": 0.8388672,
+                "punctuated_word": "First"
+              },
+              {
+                "word": "of",
+                "start": 0.56,
+                "end": 0.71999997,
+                "confidence": 1,
+                "punctuated_word": "of"
+              },
+              {
+                "word": "all",
+                "start": 0.71999997,
+                "end": 1.04,
+                "confidence": 0.99853516,
+                "punctuated_word": "all,"
+              },
+              {
+                "word": "it",
+                "start": 1.04,
+                "end": 1.4399999,
+                "confidence": 0.640625,
+                "punctuated_word": "it"
+              },
+              {
+                "word": "would",
+                "start": 1.4399999,
+                "end": 1.68,
+                "confidence": 0.9921875,
+                "punctuated_word": "would"
+              },
+              {
+                "word": "be",
+                "start": 1.68,
+                "end": 2.1599998,
+                "confidence": 1,
+                "punctuated_word": "be"
+              },
+              {
+                "word": "my",
+                "start": 2.1599998,
+                "end": 2.48,
+                "confidence": 1,
+                "punctuated_word": "my"
+              },
+              {
+                "word": "phone",
+                "start": 2.48,
+                "end": 2.72,
+                "confidence": 1,
+                "punctuated_word": "phone"
+              },
+              {
+                "word": "because",
+                "start": 2.72,
+                "end": 3.28,
+                "confidence": 0.88720703,
+                "punctuated_word": "because"
+              },
+              {
+                "word": "i",
+                "start": 3.28,
+                "end": 3.9199998,
+                "confidence": 1,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "get",
+                "start": 4.56,
+                "end": 5.44,
+                "confidence": 0.9790039,
+                "punctuated_word": "get"
+              },
+              {
+                "word": "a",
+                "start": 6.48,
+                "end": 6.72,
+                "confidence": 0.99609375,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "lot",
+                "start": 6.72,
+                "end": 6.8799996,
+                "confidence": 0.9716797,
+                "punctuated_word": "lot"
+              },
+              {
+                "word": "of",
+                "start": 6.8799996,
+                "end": 7.04,
+                "confidence": 0.99316406,
+                "punctuated_word": "of"
+              },
+              {
+                "word": "informations",
+                "start": 7.04,
+                "end": 8,
+                "confidence": 0.8400879,
+                "punctuated_word": "informations"
+              },
+              {
+                "word": "via",
+                "start": 8,
+                "end": 8.4,
+                "confidence": 0.7998047,
+                "punctuated_word": "via"
+              },
+              {
+                "word": "my",
+                "start": 8.4,
+                "end": 8.639999,
+                "confidence": 0.9980469,
+                "punctuated_word": "my"
+              },
+              {
+                "word": "phone",
+                "start": 8.639999,
+                "end": 9.2,
+                "confidence": 1,
+                "punctuated_word": "phone."
+              },
+              {
+                "word": "i",
+                "start": 9.2,
+                "end": 9.5199995,
+                "confidence": 0.9970703,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "don't",
+                "start": 9.5199995,
+                "end": 9.76,
+                "confidence": 0.9995117,
+                "punctuated_word": "don't"
+              },
+              {
+                "word": "use",
+                "start": 9.76,
+                "end": 10.08,
+                "confidence": 1,
+                "punctuated_word": "use"
+              },
+              {
+                "word": "my",
+                "start": 10.08,
+                "end": 11.04,
+                "confidence": 0.99316406,
+                "punctuated_word": "my"
+              },
+              {
+                "word": "laptop",
+                "start": 11.04,
+                "end": 13.04,
+                "confidence": 1,
+                "punctuated_word": "laptop"
+              },
+              {
+                "word": "out",
+                "start": 14.335,
+                "end": 14.895,
+                "confidence": 0.9951172,
+                "punctuated_word": "out"
+              },
+              {
+                "word": "of",
+                "start": 14.895,
+                "end": 15.135,
+                "confidence": 1,
+                "punctuated_word": "of"
+              },
+              {
+                "word": "my",
+                "start": 15.135,
+                "end": 15.375,
+                "confidence": 1,
+                "punctuated_word": "my"
+              },
+              {
+                "word": "work",
+                "start": 15.375,
+                "end": 15.935,
+                "confidence": 1,
+                "punctuated_word": "work"
+              },
+              {
+                "word": "and",
+                "start": 15.935,
+                "end": 16.255001,
+                "confidence": 0.9790039,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "out",
+                "start": 16.255001,
+                "end": 16.655,
+                "confidence": 1,
+                "punctuated_word": "out"
+              },
+              {
+                "word": "of",
+                "start": 16.655,
+                "end": 16.815,
+                "confidence": 0.99902344,
+                "punctuated_word": "of"
+              },
+              {
+                "word": "my",
+                "start": 16.815,
+                "end": 16.975,
+                "confidence": 1,
+                "punctuated_word": "my"
+              },
+              {
+                "word": "language",
+                "start": 16.975,
+                "end": 17.295,
+                "confidence": 1,
+                "punctuated_word": "language"
+              },
+              {
+                "word": "learning",
+                "start": 17.295,
+                "end": 17.855,
+                "confidence": 0.8366699,
+                "punctuated_word": "learning."
+              },
+              {
+                "word": "right",
+                "start": 17.855,
+                "end": 18.015,
+                "confidence": 0.9506836,
+                "punctuated_word": "Right"
+              },
+              {
+                "word": "now",
+                "start": 18.015,
+                "end": 18.255001,
+                "confidence": 0.8803711,
+                "punctuated_word": "now,"
+              },
+              {
+                "word": "i",
+                "start": 18.255001,
+                "end": 18.415,
+                "confidence": 0.9980469,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "use",
+                "start": 18.415,
+                "end": 18.655,
+                "confidence": 0.9838867,
+                "punctuated_word": "use"
+              },
+              {
+                "word": "laptop",
+                "start": 18.655,
+                "end": 19.215,
+                "confidence": 0.89501953,
+                "punctuated_word": "laptop,"
+              },
+              {
+                "word": "but",
+                "start": 19.215,
+                "end": 19.295,
+                "confidence": 1,
+                "punctuated_word": "but"
+              },
+              {
+                "word": "i'm",
+                "start": 19.295,
+                "end": 20.095001,
+                "confidence": 0.9848633,
+                "punctuated_word": "I'm"
+              },
+              {
+                "word": "not",
+                "start": 20.095001,
+                "end": 20.255001,
+                "confidence": 1,
+                "punctuated_word": "not"
+              },
+              {
+                "word": "a",
+                "start": 20.255001,
+                "end": 20.415,
+                "confidence": 1,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "person",
+                "start": 20.415,
+                "end": 20.815,
+                "confidence": 1,
+                "punctuated_word": "person"
+              },
+              {
+                "word": "who",
+                "start": 20.815,
+                "end": 21.455,
+                "confidence": 0.99902344,
+                "punctuated_word": "who"
+              },
+              {
+                "word": "who",
+                "start": 21.695,
+                "end": 21.935001,
+                "confidence": 0.98291016,
+                "punctuated_word": "who"
+              },
+              {
+                "word": "like",
+                "start": 21.935001,
+                "end": 22.335,
+                "confidence": 0.7253418,
+                "punctuated_word": "like,"
+              },
+              {
+                "word": "for",
+                "start": 22.335,
+                "end": 22.494999,
+                "confidence": 1,
+                "punctuated_word": "for"
+              },
+              {
+                "word": "example",
+                "start": 22.494999,
+                "end": 23.135,
+                "confidence": 0.99902344,
+                "punctuated_word": "example,"
+              },
+              {
+                "word": "playing",
+                "start": 24.095001,
+                "end": 24.814999,
+                "confidence": 0.98828125,
+                "punctuated_word": "playing"
+              },
+              {
+                "word": "games",
+                "start": 25.215,
+                "end": 26.095,
+                "confidence": 0.8786621,
+                "punctuated_word": "games."
+              },
+              {
+                "word": "so",
+                "start": 26.255001,
+                "end": 26.975,
+                "confidence": 0.99121094,
+                "punctuated_word": "So"
+              },
+              {
+                "word": "i",
+                "start": 26.975,
+                "end": 27.215,
+                "confidence": 1,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "don't",
+                "start": 27.215,
+                "end": 28.015,
+                "confidence": 1,
+                "punctuated_word": "don't"
+              },
+              {
+                "word": "i",
+                "start": 29.23,
+                "end": 29.630001,
+                "confidence": 0.99902344,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "don't",
+                "start": 29.630001,
+                "end": 29.95,
+                "confidence": 1,
+                "punctuated_word": "don't"
+              },
+              {
+                "word": "use",
+                "start": 29.95,
+                "end": 31.07,
+                "confidence": 0.99121094,
+                "punctuated_word": "use"
+              },
+              {
+                "word": "my",
+                "start": 32.11,
+                "end": 32.43,
+                "confidence": 1,
+                "punctuated_word": "my"
+              },
+              {
+                "word": "laptop",
+                "start": 32.43,
+                "end": 33.23,
+                "confidence": 1,
+                "punctuated_word": "laptop"
+              },
+              {
+                "word": "out",
+                "start": 33.55,
+                "end": 33.95,
+                "confidence": 0.98291016,
+                "punctuated_word": "out"
+              },
+              {
+                "word": "of",
+                "start": 33.95,
+                "end": 34.11,
+                "confidence": 0.99902344,
+                "punctuated_word": "of"
+              },
+              {
+                "word": "my",
+                "start": 34.11,
+                "end": 34.75,
+                "confidence": 1,
+                "punctuated_word": "my"
+              },
+              {
+                "word": "my",
+                "start": 36.67,
+                "end": 37.07,
+                "confidence": 0.9902344,
+                "punctuated_word": "my"
+              },
+              {
+                "word": "obligations",
+                "start": 37.07,
+                "end": 38.03,
+                "confidence": 0.99316406,
+                "punctuated_word": "obligations."
+              },
+              {
+                "word": "so",
+                "start": 38.03,
+                "end": 38.510002,
+                "confidence": 0.97314453,
+                "punctuated_word": "So"
+              },
+              {
+                "word": "so",
+                "start": 38.510002,
+                "end": 38.91,
+                "confidence": 0.6381836,
+                "punctuated_word": "so,"
+              },
+              {
+                "word": "yeah",
+                "start": 38.91,
+                "end": 39.07,
+                "confidence": 0.99194336,
+                "punctuated_word": "yeah,"
+              },
+              {
+                "word": "it's",
+                "start": 39.07,
+                "end": 39.47,
+                "confidence": 0.99560547,
+                "punctuated_word": "it's"
+              },
+              {
+                "word": "i",
+                "start": 39.63,
+                "end": 39.79,
+                "confidence": 1,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "don't",
+                "start": 39.79,
+                "end": 40.11,
+                "confidence": 1,
+                "punctuated_word": "don't"
+              },
+              {
+                "word": "have",
+                "start": 40.11,
+                "end": 41.31,
+                "confidence": 1,
+                "punctuated_word": "have"
+              },
+              {
+                "word": "i",
+                "start": 45.775,
+                "end": 46.015003,
+                "confidence": 0.9951172,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "have",
+                "start": 46.015003,
+                "end": 46.255,
+                "confidence": 0.9892578,
+                "punctuated_word": "have"
+              },
+              {
+                "word": "my",
+                "start": 46.255,
+                "end": 46.655003,
+                "confidence": 0.9970703,
+                "punctuated_word": "my"
+              },
+              {
+                "word": "personal",
+                "start": 46.655003,
+                "end": 47.055,
+                "confidence": 0.99902344,
+                "punctuated_word": "personal"
+              },
+              {
+                "word": "lap",
+                "start": 47.055,
+                "end": 47.375,
+                "confidence": 0.89453125,
+                "punctuated_word": "lap"
+              },
+              {
+                "word": "laptop",
+                "start": 47.615,
+                "end": 48.175003,
+                "confidence": 0.93408203,
+                "punctuated_word": "laptop."
+              },
+              {
+                "word": "now",
+                "start": 48.175003,
+                "end": 49.135002,
+                "confidence": 0.99121094,
+                "punctuated_word": "Now"
+              },
+              {
+                "word": "i'm",
+                "start": 49.295002,
+                "end": 49.775,
+                "confidence": 0.9838867,
+                "punctuated_word": "I'm"
+              },
+              {
+                "word": "using",
+                "start": 49.775,
+                "end": 50.415,
+                "confidence": 1,
+                "punctuated_word": "using"
+              },
+              {
+                "word": "it",
+                "start": 50.735,
+                "end": 51.295002,
+                "confidence": 0.8598633,
+                "punctuated_word": "it,"
+              },
+              {
+                "word": "and",
+                "start": 51.295002,
+                "end": 51.455,
+                "confidence": 1,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "i'm",
+                "start": 51.455,
+                "end": 52.255,
+                "confidence": 0.99316406,
+                "punctuated_word": "I'm"
+              },
+              {
+                "word": "laptop",
+                "start": 53.935,
+                "end": 54.255,
+                "confidence": 0.60791016,
+                "punctuated_word": "laptop"
+              },
+              {
+                "word": "from",
+                "start": 54.255,
+                "end": 54.575,
+                "confidence": 0.9970703,
+                "punctuated_word": "from"
+              },
+              {
+                "word": "my",
+                "start": 54.575,
+                "end": 54.735,
+                "confidence": 1,
+                "punctuated_word": "my"
+              },
+              {
+                "word": "job",
+                "start": 54.735,
+                "end": 54.975002,
+                "confidence": 1,
+                "punctuated_word": "job"
+              },
+              {
+                "word": "to",
+                "start": 54.975002,
+                "end": 55.375,
+                "confidence": 0.99902344,
+                "punctuated_word": "to"
+              },
+              {
+                "word": "to",
+                "start": 55.375,
+                "end": 55.695,
+                "confidence": 0.9921875,
+                "punctuated_word": "to"
+              },
+              {
+                "word": "work",
+                "start": 55.695,
+                "end": 56.015,
+                "confidence": 0.986084,
+                "punctuated_word": "work."
+              },
+              {
+                "word": "yeah",
+                "start": 56.015,
+                "end": 56.335003,
+                "confidence": 0.9506836,
+                "punctuated_word": "Yeah?"
+              },
+              {
+                "word": "so",
+                "start": 56.335003,
+                "end": 56.575,
+                "confidence": 1,
+                "punctuated_word": "So"
+              },
+              {
+                "word": "i",
+                "start": 56.575,
+                "end": 56.815002,
+                "confidence": 1,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "have",
+                "start": 56.815002,
+                "end": 57.055,
+                "confidence": 1,
+                "punctuated_word": "have"
+              },
+              {
+                "word": "two",
+                "start": 57.055,
+                "end": 57.695,
+                "confidence": 0.9951172,
+                "punctuated_word": "two"
+              },
+              {
+                "word": "laptops",
+                "start": 57.695,
+                "end": 58.495003,
+                "confidence": 0.9440918,
+                "punctuated_word": "laptops,"
+              },
+              {
+                "word": "but",
+                "start": 58.495003,
+                "end": 59.055,
+                "confidence": 1,
+                "punctuated_word": "but"
+              },
+              {
+                "word": "my",
+                "start": 58.820004,
+                "end": 59.140003,
+                "confidence": 1,
+                "punctuated_word": "my"
+              },
+              {
+                "word": "personal",
+                "start": 59.140003,
+                "end": 59.460003,
+                "confidence": 0.99902344,
+                "punctuated_word": "personal"
+              },
+              {
+                "word": "laptop",
+                "start": 59.460003,
+                "end": 60.02,
+                "confidence": 1,
+                "punctuated_word": "laptop"
+              },
+              {
+                "word": "is",
+                "start": 60.02,
+                "end": 60.34,
+                "confidence": 0.99902344,
+                "punctuated_word": "is"
+              },
+              {
+                "word": "used",
+                "start": 60.34,
+                "end": 60.66,
+                "confidence": 1,
+                "punctuated_word": "used"
+              },
+              {
+                "word": "practically",
+                "start": 60.66,
+                "end": 61.86,
+                "confidence": 0.7631836,
+                "punctuated_word": "practically"
+              },
+              {
+                "word": "only",
+                "start": 61.86,
+                "end": 62.420002,
+                "confidence": 0.9921875,
+                "punctuated_word": "only"
+              },
+              {
+                "word": "to",
+                "start": 62.420002,
+                "end": 63.06,
+                "confidence": 0.99902344,
+                "punctuated_word": "to"
+              },
+              {
+                "word": "to",
+                "start": 63.620003,
+                "end": 64.020004,
+                "confidence": 0.96435547,
+                "punctuated_word": "to"
+              },
+              {
+                "word": "preply",
+                "start": 64.020004,
+                "end": 64.58,
+                "confidence": 0.69466144,
+                "punctuated_word": "Preply,"
+              },
+              {
+                "word": "yeah",
+                "start": 64.58,
+                "end": 64.740005,
+                "confidence": 0.99902344,
+                "punctuated_word": "yeah,"
+              },
+              {
+                "word": "in",
+                "start": 64.740005,
+                "end": 64.9,
+                "confidence": 1,
+                "punctuated_word": "in"
+              },
+              {
+                "word": "this",
+                "start": 64.9,
+                "end": 65.06,
+                "confidence": 0.9970703,
+                "punctuated_word": "this"
+              },
+              {
+                "word": "moment",
+                "start": 65.06,
+                "end": 65.700005,
+                "confidence": 0.7602539,
+                "punctuated_word": "moment."
+              },
+              {
+                "word": "for",
+                "start": 67.78,
+                "end": 68.020004,
+                "confidence": 0.9550781,
+                "punctuated_word": "For"
+              },
+              {
+                "word": "preply",
+                "start": 68.020004,
+                "end": 68.5,
+                "confidence": 0.8463542,
+                "punctuated_word": "Preply."
+              },
+              {
+                "word": "for",
+                "start": 68.5,
+                "end": 68.58,
+                "confidence": 0.9951172,
+                "punctuated_word": "For"
+              },
+              {
+                "word": "preply",
+                "start": 68.58,
+                "end": 68.98,
+                "confidence": 0.8673503,
+                "punctuated_word": "Preply."
+              },
+              {
+                "word": "yeah",
+                "start": 68.98,
+                "end": 69.14,
+                "confidence": 0.9880371,
+                "punctuated_word": "Yeah."
+              },
+              {
+                "word": "in",
+                "start": 69.14,
+                "end": 69.3,
+                "confidence": 0.9970703,
+                "punctuated_word": "In"
+              },
+              {
+                "word": "this",
+                "start": 69.3,
+                "end": 69.46,
+                "confidence": 0.99902344,
+                "punctuated_word": "this"
+              },
+              {
+                "word": "moment",
+                "start": 69.46,
+                "end": 70.020004,
+                "confidence": 0.7746582,
+                "punctuated_word": "moment."
+              },
+              {
+                "word": "because",
+                "start": 70.020004,
+                "end": 70.42,
+                "confidence": 0.99902344,
+                "punctuated_word": "Because"
+              },
+              {
+                "word": "as",
+                "start": 70.42,
+                "end": 70.740005,
+                "confidence": 0.7495117,
+                "punctuated_word": "as"
+              },
+              {
+                "word": "i",
+                "start": 70.740005,
+                "end": 70.82,
+                "confidence": 0.99902344,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "told",
+                "start": 70.82,
+                "end": 70.98,
+                "confidence": 0.93408203,
+                "punctuated_word": "told"
+              },
+              {
+                "word": "you",
+                "start": 70.98,
+                "end": 71.22,
+                "confidence": 0.98413086,
+                "punctuated_word": "you,"
+              },
+              {
+                "word": "i",
+                "start": 71.22,
+                "end": 71.380005,
+                "confidence": 1,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "don't",
+                "start": 71.380005,
+                "end": 71.700005,
+                "confidence": 1,
+                "punctuated_word": "don't"
+              },
+              {
+                "word": "play",
+                "start": 71.700005,
+                "end": 72.340004,
+                "confidence": 1,
+                "punctuated_word": "play"
+              },
+              {
+                "word": "a",
+                "start": 72.340004,
+                "end": 72.58,
+                "confidence": 0.9970703,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "lot",
+                "start": 72.58,
+                "end": 72.740005,
+                "confidence": 1,
+                "punctuated_word": "lot"
+              },
+              {
+                "word": "of",
+                "start": 72.740005,
+                "end": 72.9,
+                "confidence": 0.9970703,
+                "punctuated_word": "of"
+              },
+              {
+                "word": "games",
+                "start": 72.9,
+                "end": 73.62,
+                "confidence": 0.82592773,
+                "punctuated_word": "games."
+              },
+              {
+                "word": "so",
+                "start": 73.62,
+                "end": 73.86,
+                "confidence": 0.9921875,
+                "punctuated_word": "So"
+              },
+              {
+                "word": "it",
+                "start": 74.645,
+                "end": 74.884995,
+                "confidence": 0.6323242,
+                "punctuated_word": "it"
+              },
+              {
+                "word": "no",
+                "start": 76.325,
+                "end": 76.965,
+                "confidence": 0.8847656,
+                "punctuated_word": "no."
+              },
+              {
+                "word": "i",
+                "start": 79.924995,
+                "end": 80.085,
+                "confidence": 0.99902344,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "don't",
+                "start": 80.085,
+                "end": 80.405,
+                "confidence": 1,
+                "punctuated_word": "don't"
+              },
+              {
+                "word": "think",
+                "start": 80.405,
+                "end": 80.645,
+                "confidence": 1,
+                "punctuated_word": "think"
+              },
+              {
+                "word": "it's",
+                "start": 80.645,
+                "end": 81.045,
+                "confidence": 1,
+                "punctuated_word": "it's"
+              },
+              {
+                "word": "a",
+                "start": 81.045,
+                "end": 81.284996,
+                "confidence": 0.82373047,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "a",
+                "start": 81.284996,
+                "end": 81.524994,
+                "confidence": 0.5239258,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "waste",
+                "start": 81.524994,
+                "end": 81.84499,
+                "confidence": 0.9970703,
+                "punctuated_word": "waste"
+              },
+              {
+                "word": "of",
+                "start": 81.84499,
+                "end": 82.085,
+                "confidence": 0.99902344,
+                "punctuated_word": "of"
+              },
+              {
+                "word": "time",
+                "start": 82.085,
+                "end": 82.405,
+                "confidence": 1,
+                "punctuated_word": "time"
+              },
+              {
+                "word": "at",
+                "start": 82.405,
+                "end": 82.884995,
+                "confidence": 0.99902344,
+                "punctuated_word": "at"
+              },
+              {
+                "word": "all",
+                "start": 82.884995,
+                "end": 83.365,
+                "confidence": 0.99853516,
+                "punctuated_word": "all."
+              },
+              {
+                "word": "if",
+                "start": 83.84499,
+                "end": 84.085,
+                "confidence": 0.9951172,
+                "punctuated_word": "If"
+              },
+              {
+                "word": "someone",
+                "start": 84.085,
+                "end": 84.564995,
+                "confidence": 1,
+                "punctuated_word": "someone"
+              },
+              {
+                "word": "like",
+                "start": 84.564995,
+                "end": 85.284996,
+                "confidence": 0.8762207,
+                "punctuated_word": "like,"
+              },
+              {
+                "word": "likes",
+                "start": 86.564995,
+                "end": 86.884995,
+                "confidence": 0.99902344,
+                "punctuated_word": "likes"
+              },
+              {
+                "word": "it",
+                "start": 86.884995,
+                "end": 87.284996,
+                "confidence": 0.9267578,
+                "punctuated_word": "it,"
+              },
+              {
+                "word": "it",
+                "start": 87.445,
+                "end": 87.685,
+                "confidence": 0.9921875,
+                "punctuated_word": "it"
+              },
+              {
+                "word": "likes",
+                "start": 87.9,
+                "end": 88.380005,
+                "confidence": 0.96533203,
+                "punctuated_word": "likes"
+              },
+              {
+                "word": "it",
+                "start": 88.380005,
+                "end": 88.62,
+                "confidence": 0.8347168,
+                "punctuated_word": "it,"
+              },
+              {
+                "word": "it",
+                "start": 88.62,
+                "end": 89.020004,
+                "confidence": 0.97802734,
+                "punctuated_word": "it"
+              },
+              {
+                "word": "can",
+                "start": 89.020004,
+                "end": 89.66,
+                "confidence": 0.9614258,
+                "punctuated_word": "can"
+              },
+              {
+                "word": "it",
+                "start": 89.98,
+                "end": 90.22,
+                "confidence": 0.9707031,
+                "punctuated_word": "it"
+              },
+              {
+                "word": "can",
+                "start": 90.22,
+                "end": 90.380005,
+                "confidence": 0.9980469,
+                "punctuated_word": "can"
+              },
+              {
+                "word": "be",
+                "start": 90.380005,
+                "end": 90.54,
+                "confidence": 0.9980469,
+                "punctuated_word": "be"
+              },
+              {
+                "word": "funny",
+                "start": 90.54,
+                "end": 91.18,
+                "confidence": 0.9506836,
+                "punctuated_word": "funny."
+              },
+              {
+                "word": "like",
+                "start": 91.26,
+                "end": 91.58,
+                "confidence": 0.9042969,
+                "punctuated_word": "Like,"
+              },
+              {
+                "word": "for",
+                "start": 91.58,
+                "end": 91.74,
+                "confidence": 1,
+                "punctuated_word": "for"
+              },
+              {
+                "word": "me",
+                "start": 91.74,
+                "end": 92.3,
+                "confidence": 0.96875,
+                "punctuated_word": "me,"
+              },
+              {
+                "word": "let",
+                "start": 92.380005,
+                "end": 92.54,
+                "confidence": 0.46240234,
+                "punctuated_word": "let"
+              },
+              {
+                "word": "learning",
+                "start": 92.78,
+                "end": 93.18,
+                "confidence": 0.98291016,
+                "punctuated_word": "learning"
+              },
+              {
+                "word": "playing",
+                "start": 93.18,
+                "end": 93.5,
+                "confidence": 0.48583984,
+                "punctuated_word": "playing"
+              },
+              {
+                "word": "with",
+                "start": 93.5,
+                "end": 93.66,
+                "confidence": 0.8203125,
+                "punctuated_word": "with"
+              },
+              {
+                "word": "this",
+                "start": 93.66,
+                "end": 93.82,
+                "confidence": 0.6894531,
+                "punctuated_word": "this"
+              },
+              {
+                "word": "is",
+                "start": 93.82,
+                "end": 93.98,
+                "confidence": 0.76953125,
+                "punctuated_word": "is"
+              },
+              {
+                "word": "funny",
+                "start": 93.98,
+                "end": 94.54,
+                "confidence": 0.79052734,
+                "punctuated_word": "funny."
+              },
+              {
+                "word": "but",
+                "start": 94.700005,
+                "end": 95.26,
+                "confidence": 0.99902344,
+                "punctuated_word": "But"
+              },
+              {
+                "word": "i've",
+                "start": 95.26,
+                "end": 95.58,
+                "confidence": 0.9765625,
+                "punctuated_word": "I've"
+              },
+              {
+                "word": "never",
+                "start": 95.58,
+                "end": 95.82,
+                "confidence": 0.9970703,
+                "punctuated_word": "never"
+              },
+              {
+                "word": "i've",
+                "start": 95.82,
+                "end": 96.22,
+                "confidence": 0.9980469,
+                "punctuated_word": "I've"
+              },
+              {
+                "word": "never",
+                "start": 96.22,
+                "end": 96.46,
+                "confidence": 1,
+                "punctuated_word": "never"
+              },
+              {
+                "word": "been",
+                "start": 96.46,
+                "end": 96.700005,
+                "confidence": 0.9892578,
+                "punctuated_word": "been"
+              },
+              {
+                "word": "a",
+                "start": 96.700005,
+                "end": 96.94,
+                "confidence": 0.9970703,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "person",
+                "start": 96.94,
+                "end": 97.340004,
+                "confidence": 1,
+                "punctuated_word": "person"
+              },
+              {
+                "word": "who",
+                "start": 97.340004,
+                "end": 97.58,
+                "confidence": 0.99902344,
+                "punctuated_word": "who"
+              },
+              {
+                "word": "who",
+                "start": 97.58,
+                "end": 98.14,
+                "confidence": 0.9838867,
+                "punctuated_word": "who"
+              },
+              {
+                "word": "liked",
+                "start": 98.14,
+                "end": 98.86,
+                "confidence": 0.93847656,
+                "punctuated_word": "liked"
+              },
+              {
+                "word": "playing",
+                "start": 98.86,
+                "end": 99.42,
+                "confidence": 0.9921875,
+                "punctuated_word": "playing"
+              },
+              {
+                "word": "games",
+                "start": 99.42,
+                "end": 99.9,
+                "confidence": 0.9760742,
+                "punctuated_word": "games."
+              },
+              {
+                "word": "it's",
+                "start": 99.9,
+                "end": 100.62,
+                "confidence": 0.8647461,
+                "punctuated_word": "It's"
+              },
+              {
+                "word": "was",
+                "start": 100.975006,
+                "end": 101.215004,
+                "confidence": 0.9921875,
+                "punctuated_word": "was"
+              },
+              {
+                "word": "not",
+                "start": 101.215004,
+                "end": 101.535,
+                "confidence": 1,
+                "punctuated_word": "not"
+              },
+              {
+                "word": "my",
+                "start": 101.535,
+                "end": 102.255005,
+                "confidence": 1,
+                "punctuated_word": "my"
+              },
+              {
+                "word": "my",
+                "start": 102.655,
+                "end": 102.975006,
+                "confidence": 0.9223633,
+                "punctuated_word": "my"
+              },
+              {
+                "word": "passion",
+                "start": 102.975006,
+                "end": 103.455,
+                "confidence": 0.9260254,
+                "punctuated_word": "passion."
+              },
+              {
+                "word": "yeah",
+                "start": 103.455,
+                "end": 103.695,
+                "confidence": 0.6965332,
+                "punctuated_word": "Yeah."
+              },
+              {
+                "word": "but",
+                "start": 103.695,
+                "end": 103.855,
+                "confidence": 0.99316406,
+                "punctuated_word": "But"
+              },
+              {
+                "word": "but",
+                "start": 103.855,
+                "end": 104.255005,
+                "confidence": 0.95410156,
+                "punctuated_word": "but"
+              },
+              {
+                "word": "i",
+                "start": 104.255005,
+                "end": 104.415,
+                "confidence": 0.9980469,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "don't",
+                "start": 104.415,
+                "end": 104.655,
+                "confidence": 1,
+                "punctuated_word": "don't"
+              },
+              {
+                "word": "think",
+                "start": 104.655,
+                "end": 104.815,
+                "confidence": 1,
+                "punctuated_word": "think"
+              },
+              {
+                "word": "it's",
+                "start": 104.815,
+                "end": 105.135,
+                "confidence": 1,
+                "punctuated_word": "it's"
+              },
+              {
+                "word": "a",
+                "start": 105.135,
+                "end": 105.215004,
+                "confidence": 0.9941406,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "waste",
+                "start": 105.215004,
+                "end": 105.535,
+                "confidence": 0.99609375,
+                "punctuated_word": "waste"
+              },
+              {
+                "word": "of",
+                "start": 105.535,
+                "end": 105.695,
+                "confidence": 0.99902344,
+                "punctuated_word": "of"
+              },
+              {
+                "word": "time",
+                "start": 105.695,
+                "end": 105.935005,
+                "confidence": 1,
+                "punctuated_word": "time"
+              },
+              {
+                "word": "if",
+                "start": 105.935005,
+                "end": 106.335,
+                "confidence": 0.92333984,
+                "punctuated_word": "if"
+              },
+              {
+                "word": "someone",
+                "start": 106.335,
+                "end": 107.215004,
+                "confidence": 1,
+                "punctuated_word": "someone"
+              },
+              {
+                "word": "need",
+                "start": 107.295006,
+                "end": 108.015,
+                "confidence": 0.9941406,
+                "punctuated_word": "need"
+              },
+              {
+                "word": "if",
+                "start": 108.255005,
+                "end": 108.655,
+                "confidence": 0.58154297,
+                "punctuated_word": "if"
+              },
+              {
+                "word": "someone",
+                "start": 108.655,
+                "end": 108.975006,
+                "confidence": 1,
+                "punctuated_word": "someone"
+              },
+              {
+                "word": "needs",
+                "start": 108.975006,
+                "end": 109.695,
+                "confidence": 0.99902344,
+                "punctuated_word": "needs"
+              },
+              {
+                "word": "one",
+                "start": 111.215004,
+                "end": 111.855,
+                "confidence": 0.95166016,
+                "punctuated_word": "one"
+              },
+              {
+                "word": "or",
+                "start": 111.855,
+                "end": 112.175,
+                "confidence": 0.9970703,
+                "punctuated_word": "or"
+              },
+              {
+                "word": "two",
+                "start": 112.175,
+                "end": 112.415,
+                "confidence": 1,
+                "punctuated_word": "two"
+              },
+              {
+                "word": "hours",
+                "start": 112.415,
+                "end": 113.215004,
+                "confidence": 1,
+                "punctuated_word": "hours"
+              },
+              {
+                "word": "per",
+                "start": 113.535,
+                "end": 113.775,
+                "confidence": 0.9902344,
+                "punctuated_word": "per"
+              },
+              {
+                "word": "day",
+                "start": 113.775,
+                "end": 114.095,
+                "confidence": 0.9951172,
+                "punctuated_word": "day"
+              },
+              {
+                "word": "to",
+                "start": 114.095,
+                "end": 114.335,
+                "confidence": 0.99121094,
+                "punctuated_word": "to"
+              },
+              {
+                "word": "to",
+                "start": 114.335,
+                "end": 114.735,
+                "confidence": 0.9941406,
+                "punctuated_word": "to"
+              },
+              {
+                "word": "to",
+                "start": 114.735,
+                "end": 115.375,
+                "confidence": 0.8388672,
+                "punctuated_word": "to"
+              },
+              {
+                "word": "relax",
+                "start": 115.375,
+                "end": 115.935005,
+                "confidence": 0.9975586,
+                "punctuated_word": "relax."
+              },
+              {
+                "word": "yeah",
+                "start": 115.935005,
+                "end": 116.175,
+                "confidence": 0.9001465,
+                "punctuated_word": "Yeah?"
+              },
+              {
+                "word": "yeah",
+                "start": 120.619995,
+                "end": 120.939995,
+                "confidence": 0.9975586,
+                "punctuated_word": "Yeah."
+              },
+              {
+                "word": "because",
+                "start": 120.939995,
+                "end": 121.34,
+                "confidence": 0.82666016,
+                "punctuated_word": "Because"
+              },
+              {
+                "word": "it",
+                "start": 121.34,
+                "end": 121.579994,
+                "confidence": 0.9980469,
+                "punctuated_word": "it"
+              },
+              {
+                "word": "can",
+                "start": 121.579994,
+                "end": 121.899994,
+                "confidence": 0.99902344,
+                "punctuated_word": "can"
+              },
+              {
+                "word": "it",
+                "start": 121.899994,
+                "end": 122.21999,
+                "confidence": 0.9951172,
+                "punctuated_word": "it"
+              },
+              {
+                "word": "can",
+                "start": 122.21999,
+                "end": 122.78,
+                "confidence": 1,
+                "punctuated_word": "can"
+              },
+              {
+                "word": "yeah",
+                "start": 122.939995,
+                "end": 123.259995,
+                "confidence": 0.99658203,
+                "punctuated_word": "yeah."
+              },
+              {
+                "word": "it",
+                "start": 123.259995,
+                "end": 123.5,
+                "confidence": 0.9980469,
+                "punctuated_word": "It"
+              },
+              {
+                "word": "can",
+                "start": 123.5,
+                "end": 123.899994,
+                "confidence": 1,
+                "punctuated_word": "can"
+              },
+              {
+                "word": "back",
+                "start": 123.899994,
+                "end": 124.21999,
+                "confidence": 0.5102539,
+                "punctuated_word": "back"
+              },
+              {
+                "word": "up",
+                "start": 124.21999,
+                "end": 124.38,
+                "confidence": 0.9658203,
+                "punctuated_word": "up"
+              },
+              {
+                "word": "become",
+                "start": 124.46,
+                "end": 124.78,
+                "confidence": 0.9970703,
+                "punctuated_word": "become"
+              },
+              {
+                "word": "become",
+                "start": 124.78,
+                "end": 125.259995,
+                "confidence": 0.73876953,
+                "punctuated_word": "become."
+              },
+              {
+                "word": "yeah",
+                "start": 125.259995,
+                "end": 125.5,
+                "confidence": 0.7648926,
+                "punctuated_word": "Yeah."
+              },
+              {
+                "word": "it",
+                "start": 125.5,
+                "end": 125.659996,
+                "confidence": 0.99609375,
+                "punctuated_word": "It"
+              },
+              {
+                "word": "can",
+                "start": 125.659996,
+                "end": 125.82,
+                "confidence": 0.99902344,
+                "punctuated_word": "can"
+              },
+              {
+                "word": "become",
+                "start": 125.82,
+                "end": 126.299995,
+                "confidence": 0.9970703,
+                "punctuated_word": "become"
+              },
+              {
+                "word": "it",
+                "start": 127.579994,
+                "end": 127.82,
+                "confidence": 0.9941406,
+                "punctuated_word": "it"
+              },
+              {
+                "word": "can",
+                "start": 127.82,
+                "end": 127.979996,
+                "confidence": 0.9951172,
+                "punctuated_word": "can"
+              },
+              {
+                "word": "be",
+                "start": 127.979996,
+                "end": 128.14,
+                "confidence": 0.5058594,
+                "punctuated_word": "be"
+              },
+              {
+                "word": "it",
+                "start": 128.22,
+                "end": 128.3,
+                "confidence": 0.9941406,
+                "punctuated_word": "it"
+              },
+              {
+                "word": "becomes",
+                "start": 128.3,
+                "end": 128.62,
+                "confidence": 0.5288086,
+                "punctuated_word": "becomes"
+              },
+              {
+                "word": "very",
+                "start": 128.62,
+                "end": 128.86,
+                "confidence": 0.98291016,
+                "punctuated_word": "very"
+              },
+              {
+                "word": "problematic",
+                "start": 128.86,
+                "end": 129.58,
+                "confidence": 1,
+                "punctuated_word": "problematic"
+              },
+              {
+                "word": "if",
+                "start": 129.58,
+                "end": 129.98,
+                "confidence": 0.9892578,
+                "punctuated_word": "if"
+              },
+              {
+                "word": "you",
+                "start": 129.98,
+                "end": 131.9,
+                "confidence": 1,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "play",
+                "start": 131.175,
+                "end": 131.895,
+                "confidence": 1,
+                "punctuated_word": "play"
+              },
+              {
+                "word": "during",
+                "start": 131.895,
+                "end": 132.77501,
+                "confidence": 0.99902344,
+                "punctuated_word": "during"
+              },
+              {
+                "word": "the",
+                "start": 133.175,
+                "end": 133.41501,
+                "confidence": 0.90771484,
+                "punctuated_word": "the"
+              },
+              {
+                "word": "night",
+                "start": 133.41501,
+                "end": 133.735,
+                "confidence": 0.9951172,
+                "punctuated_word": "night"
+              },
+              {
+                "word": "and",
+                "start": 133.735,
+                "end": 133.975,
+                "confidence": 0.5703125,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "you",
+                "start": 133.975,
+                "end": 134.295,
+                "confidence": 0.9863281,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "you",
+                "start": 134.295,
+                "end": 135.015,
+                "confidence": 0.5722656,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "don't",
+                "start": 135.015,
+                "end": 135.335,
+                "confidence": 0.9995117,
+                "punctuated_word": "don't"
+              },
+              {
+                "word": "sleep",
+                "start": 135.335,
+                "end": 135.735,
+                "confidence": 0.99902344,
+                "punctuated_word": "sleep"
+              },
+              {
+                "word": "and",
+                "start": 135.735,
+                "end": 135.975,
+                "confidence": 0.8510742,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "you",
+                "start": 135.975,
+                "end": 136.615,
+                "confidence": 0.9921875,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "it",
+                "start": 136.77501,
+                "end": 137.095,
+                "confidence": 0.9980469,
+                "punctuated_word": "it"
+              },
+              {
+                "word": "cow",
+                "start": 137.095,
+                "end": 137.41501,
+                "confidence": 0.7182617,
+                "punctuated_word": "cow"
+              },
+              {
+                "word": "it",
+                "start": 137.575,
+                "end": 137.815,
+                "confidence": 0.99902344,
+                "punctuated_word": "it"
+              },
+              {
+                "word": "can",
+                "start": 137.815,
+                "end": 138.375,
+                "confidence": 0.9873047,
+                "punctuated_word": "can"
+              },
+              {
+                "word": "cause",
+                "start": 138.375,
+                "end": 138.935,
+                "confidence": 0.85595703,
+                "punctuated_word": "cause"
+              },
+              {
+                "word": "more",
+                "start": 138.935,
+                "end": 139.41501,
+                "confidence": 0.9980469,
+                "punctuated_word": "more"
+              },
+              {
+                "word": "problem",
+                "start": 139.41501,
+                "end": 139.735,
+                "confidence": 0.8798828,
+                "punctuated_word": "problem"
+              },
+              {
+                "word": "in",
+                "start": 139.735,
+                "end": 139.975,
+                "confidence": 0.99902344,
+                "punctuated_word": "in"
+              },
+              {
+                "word": "your",
+                "start": 139.975,
+                "end": 140.615,
+                "confidence": 0.99902344,
+                "punctuated_word": "your"
+              },
+              {
+                "word": "in",
+                "start": 140.855,
+                "end": 141.175,
+                "confidence": 0.9770508,
+                "punctuated_word": "in"
+              },
+              {
+                "word": "your",
+                "start": 141.175,
+                "end": 141.895,
+                "confidence": 0.99902344,
+                "punctuated_word": "your"
+              },
+              {
+                "word": "life",
+                "start": 142.695,
+                "end": 143.015,
+                "confidence": 0.99316406,
+                "punctuated_word": "life."
+              },
+              {
+                "word": "i",
+                "start": 159.01001,
+                "end": 159.41,
+                "confidence": 0.71777344,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "think",
+                "start": 159.41,
+                "end": 159.65001,
+                "confidence": 0.99902344,
+                "punctuated_word": "think"
+              },
+              {
+                "word": "so",
+                "start": 159.65001,
+                "end": 160.37001,
+                "confidence": 0.99902344,
+                "punctuated_word": "so"
+              },
+              {
+                "word": "because",
+                "start": 160.61,
+                "end": 162.13,
+                "confidence": 0.6254883,
+                "punctuated_word": "because"
+              },
+              {
+                "word": "because",
+                "start": 161.735,
+                "end": 162.535,
+                "confidence": 0.9921875,
+                "punctuated_word": "because"
+              },
+              {
+                "word": "i",
+                "start": 163.095,
+                "end": 163.33499,
+                "confidence": 0.9892578,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "have",
+                "start": 163.33499,
+                "end": 163.575,
+                "confidence": 0.96435547,
+                "punctuated_word": "have"
+              },
+              {
+                "word": "read",
+                "start": 163.575,
+                "end": 163.895,
+                "confidence": 0.90625,
+                "punctuated_word": "read"
+              },
+              {
+                "word": "a",
+                "start": 163.895,
+                "end": 164.055,
+                "confidence": 0.9970703,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "lot",
+                "start": 164.055,
+                "end": 164.215,
+                "confidence": 1,
+                "punctuated_word": "lot"
+              },
+              {
+                "word": "of",
+                "start": 164.215,
+                "end": 164.295,
+                "confidence": 0.9980469,
+                "punctuated_word": "of"
+              },
+              {
+                "word": "investigations",
+                "start": 164.295,
+                "end": 165.415,
+                "confidence": 0.99902344,
+                "punctuated_word": "investigations"
+              },
+              {
+                "word": "when",
+                "start": 165.415,
+                "end": 166.695,
+                "confidence": 0.9667969,
+                "punctuated_word": "when"
+              },
+              {
+                "word": "investigate",
+                "start": 167.175,
+                "end": 167.735,
+                "confidence": 0.85253906,
+                "punctuated_word": "investigate"
+              },
+              {
+                "word": "when",
+                "start": 167.97499,
+                "end": 168.77501,
+                "confidence": 0.9980469,
+                "punctuated_word": "when"
+              },
+              {
+                "word": "investigators",
+                "start": 169.255,
+                "end": 170.935,
+                "confidence": 0.96875,
+                "punctuated_word": "investigators"
+              },
+              {
+                "word": "burst",
+                "start": 172.215,
+                "end": 172.61499,
+                "confidence": 0.114990234,
+                "punctuated_word": "burst"
+              },
+              {
+                "word": "out",
+                "start": 172.61499,
+                "end": 173.255,
+                "confidence": 0.9941406,
+                "punctuated_word": "out"
+              },
+              {
+                "word": "this",
+                "start": 173.97499,
+                "end": 174.775,
+                "confidence": 0.9902344,
+                "punctuated_word": "this"
+              },
+              {
+                "word": "this",
+                "start": 176.05,
+                "end": 176.45,
+                "confidence": 0.99609375,
+                "punctuated_word": "this"
+              },
+              {
+                "word": "opinion",
+                "start": 176.45,
+                "end": 177.01001,
+                "confidence": 0.9951172,
+                "punctuated_word": "opinion"
+              },
+              {
+                "word": "because",
+                "start": 177.01001,
+                "end": 177.41,
+                "confidence": 0.79296875,
+                "punctuated_word": "because"
+              },
+              {
+                "word": "it",
+                "start": 177.41,
+                "end": 177.97,
+                "confidence": 0.9873047,
+                "punctuated_word": "it"
+              },
+              {
+                "word": "was",
+                "start": 177.97,
+                "end": 178.53,
+                "confidence": 0.99902344,
+                "punctuated_word": "was"
+              },
+              {
+                "word": "it",
+                "start": 178.53,
+                "end": 178.85,
+                "confidence": 0.98828125,
+                "punctuated_word": "it"
+              },
+              {
+                "word": "was",
+                "start": 178.85,
+                "end": 179.09,
+                "confidence": 1,
+                "punctuated_word": "was"
+              },
+              {
+                "word": "shown",
+                "start": 179.09,
+                "end": 179.49,
+                "confidence": 0.95825195,
+                "punctuated_word": "shown,"
+              },
+              {
+                "word": "i",
+                "start": 179.49,
+                "end": 179.73001,
+                "confidence": 1,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "think",
+                "start": 179.73001,
+                "end": 180.05,
+                "confidence": 0.9667969,
+                "punctuated_word": "think,"
+              },
+              {
+                "word": "that",
+                "start": 180.05,
+                "end": 180.13,
+                "confidence": 1,
+                "punctuated_word": "that"
+              },
+              {
+                "word": "we",
+                "start": 180.13,
+                "end": 181.01001,
+                "confidence": 0.98828125,
+                "punctuated_word": "we"
+              },
+              {
+                "word": "are",
+                "start": 181.17,
+                "end": 181.41,
+                "confidence": 0.99609375,
+                "punctuated_word": "are"
+              },
+              {
+                "word": "more",
+                "start": 181.41,
+                "end": 181.81,
+                "confidence": 0.99902344,
+                "punctuated_word": "more"
+              },
+              {
+                "word": "disrupted",
+                "start": 181.81,
+                "end": 182.69,
+                "confidence": 0.8496094,
+                "punctuated_word": "disrupted."
+              },
+              {
+                "word": "and",
+                "start": 182.69,
+                "end": 182.93001,
+                "confidence": 0.99902344,
+                "punctuated_word": "And"
+              },
+              {
+                "word": "even",
+                "start": 182.93001,
+                "end": 183.81001,
+                "confidence": 0.7438965,
+                "punctuated_word": "even,"
+              },
+              {
+                "word": "for",
+                "start": 183.89,
+                "end": 184.05,
+                "confidence": 1,
+                "punctuated_word": "for"
+              },
+              {
+                "word": "example",
+                "start": 184.05,
+                "end": 184.45,
+                "confidence": 0.99658203,
+                "punctuated_word": "example,"
+              },
+              {
+                "word": "if",
+                "start": 184.45,
+                "end": 184.69,
+                "confidence": 1,
+                "punctuated_word": "if"
+              },
+              {
+                "word": "we",
+                "start": 184.69,
+                "end": 185.25,
+                "confidence": 1,
+                "punctuated_word": "we"
+              },
+              {
+                "word": "read",
+                "start": 185.25,
+                "end": 185.81,
+                "confidence": 0.9873047,
+                "punctuated_word": "read"
+              },
+              {
+                "word": "a",
+                "start": 185.81,
+                "end": 186.53,
+                "confidence": 0.9980469,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "book",
+                "start": 186.53,
+                "end": 187.09001,
+                "confidence": 0.82177734,
+                "punctuated_word": "book"
+              },
+              {
+                "word": "if",
+                "start": 187.25,
+                "end": 187.49,
+                "confidence": 1,
+                "punctuated_word": "if"
+              },
+              {
+                "word": "you",
+                "start": 187.49,
+                "end": 187.73001,
+                "confidence": 1,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "read",
+                "start": 187.73001,
+                "end": 188.21,
+                "confidence": 0.9980469,
+                "punctuated_word": "read"
+              },
+              {
+                "word": "a",
+                "start": 188.21,
+                "end": 188.45,
+                "confidence": 0.99902344,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "book",
+                "start": 188.45,
+                "end": 189.01001,
+                "confidence": 1,
+                "punctuated_word": "book"
+              },
+              {
+                "word": "via",
+                "start": 189.89,
+                "end": 190.29001,
+                "confidence": 0.9589844,
+                "punctuated_word": "via"
+              },
+              {
+                "word": "your",
+                "start": 190.29001,
+                "end": 190.61,
+                "confidence": 0.98828125,
+                "punctuated_word": "your"
+              },
+              {
+                "word": "laptop",
+                "start": 190.61,
+                "end": 191.09,
+                "confidence": 0.9951172,
+                "punctuated_word": "laptop"
+              },
+              {
+                "word": "or",
+                "start": 191.09,
+                "end": 191.41,
+                "confidence": 0.9902344,
+                "punctuated_word": "or"
+              },
+              {
+                "word": "your",
+                "start": 191.41,
+                "end": 192.21,
+                "confidence": 0.9970703,
+                "punctuated_word": "your"
+              },
+              {
+                "word": "smartphone",
+                "start": 191.625,
+                "end": 192.505,
+                "confidence": 0.85717773,
+                "punctuated_word": "smartphone,"
+              },
+              {
+                "word": "it's",
+                "start": 192.665,
+                "end": 192.985,
+                "confidence": 0.99853516,
+                "punctuated_word": "it's"
+              },
+              {
+                "word": "not",
+                "start": 192.985,
+                "end": 193.22499,
+                "confidence": 1,
+                "punctuated_word": "not"
+              },
+              {
+                "word": "the",
+                "start": 193.22499,
+                "end": 193.385,
+                "confidence": 1,
+                "punctuated_word": "the"
+              },
+              {
+                "word": "same",
+                "start": 193.385,
+                "end": 193.705,
+                "confidence": 1,
+                "punctuated_word": "same"
+              },
+              {
+                "word": "if",
+                "start": 193.705,
+                "end": 194.025,
+                "confidence": 0.9951172,
+                "punctuated_word": "if"
+              },
+              {
+                "word": "we",
+                "start": 194.025,
+                "end": 194.185,
+                "confidence": 0.37597656,
+                "punctuated_word": "we"
+              },
+              {
+                "word": "if",
+                "start": 194.42499,
+                "end": 194.745,
+                "confidence": 1,
+                "punctuated_word": "if"
+              },
+              {
+                "word": "you",
+                "start": 194.745,
+                "end": 195.06499,
+                "confidence": 0.99609375,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "use",
+                "start": 195.06499,
+                "end": 195.865,
+                "confidence": 0.9980469,
+                "punctuated_word": "use"
+              },
+              {
+                "word": "a",
+                "start": 196.105,
+                "end": 196.345,
+                "confidence": 0.97802734,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "book",
+                "start": 196.345,
+                "end": 196.58499,
+                "confidence": 0.8203125,
+                "punctuated_word": "book."
+              },
+              {
+                "word": "yeah",
+                "start": 196.58499,
+                "end": 196.905,
+                "confidence": 0.9243164,
+                "punctuated_word": "Yeah?"
+              },
+              {
+                "word": "a",
+                "start": 196.905,
+                "end": 197.22499,
+                "confidence": 0.99609375,
+                "punctuated_word": "A"
+              },
+              {
+                "word": "book",
+                "start": 197.22499,
+                "end": 197.385,
+                "confidence": 0.9760742,
+                "punctuated_word": "book"
+              },
+              {
+                "word": "like",
+                "start": 197.385,
+                "end": 197.70499,
+                "confidence": 0.7529297,
+                "punctuated_word": "like"
+              },
+              {
+                "word": "so",
+                "start": 198.58499,
+                "end": 198.825,
+                "confidence": 0.99902344,
+                "punctuated_word": "so"
+              },
+              {
+                "word": "it's",
+                "start": 198.825,
+                "end": 199.22499,
+                "confidence": 0.921875,
+                "punctuated_word": "it's"
+              },
+              {
+                "word": "it",
+                "start": 200.42499,
+                "end": 200.58499,
+                "confidence": 0.9970703,
+                "punctuated_word": "it"
+              },
+              {
+                "word": "shows",
+                "start": 200.58499,
+                "end": 201.06499,
+                "confidence": 0.99902344,
+                "punctuated_word": "shows"
+              },
+              {
+                "word": "that",
+                "start": 201.06499,
+                "end": 201.305,
+                "confidence": 0.9970703,
+                "punctuated_word": "that"
+              },
+              {
+                "word": "that",
+                "start": 201.305,
+                "end": 201.625,
+                "confidence": 0.9428711,
+                "punctuated_word": "that"
+              },
+              {
+                "word": "that",
+                "start": 201.625,
+                "end": 202.185,
+                "confidence": 0.6245117,
+                "punctuated_word": "that"
+              },
+              {
+                "word": "our",
+                "start": 202.185,
+                "end": 202.665,
+                "confidence": 0.9921875,
+                "punctuated_word": "our"
+              },
+              {
+                "word": "disruptions",
+                "start": 202.665,
+                "end": 203.70499,
+                "confidence": 0.85546875,
+                "punctuated_word": "disruptions,"
+              },
+              {
+                "word": "whether",
+                "start": 203.70499,
+                "end": 204.265,
+                "confidence": 0.99609375,
+                "punctuated_word": "whether"
+              },
+              {
+                "word": "do",
+                "start": 204.42499,
+                "end": 204.58499,
+                "confidence": 0.6230469,
+                "punctuated_word": "do"
+              },
+              {
+                "word": "we",
+                "start": 204.58499,
+                "end": 204.745,
+                "confidence": 0.99902344,
+                "punctuated_word": "we"
+              },
+              {
+                "word": "use",
+                "start": 204.745,
+                "end": 205.30501,
+                "confidence": 1,
+                "punctuated_word": "use"
+              },
+              {
+                "word": "application",
+                "start": 205.385,
+                "end": 206.105,
+                "confidence": 0.92089844,
+                "punctuated_word": "application,"
+              },
+              {
+                "word": "whether",
+                "start": 206.105,
+                "end": 206.42499,
+                "confidence": 0.9970703,
+                "punctuated_word": "whether"
+              },
+              {
+                "word": "or",
+                "start": 206.42499,
+                "end": 206.745,
+                "confidence": 0.7631836,
+                "punctuated_word": "or"
+              },
+              {
+                "word": "not",
+                "start": 206.745,
+                "end": 207.06499,
+                "confidence": 0.9033203,
+                "punctuated_word": "not,"
+              },
+              {
+                "word": "has",
+                "start": 208.64,
+                "end": 208.96,
+                "confidence": 0.96435547,
+                "punctuated_word": "has"
+              },
+              {
+                "word": "caused",
+                "start": 208.96,
+                "end": 209.36,
+                "confidence": 0.9741211,
+                "punctuated_word": "caused"
+              },
+              {
+                "word": "a",
+                "start": 209.36,
+                "end": 209.84,
+                "confidence": 0.9980469,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "lot",
+                "start": 209.84,
+                "end": 210,
+                "confidence": 0.98291016,
+                "punctuated_word": "lot"
+              },
+              {
+                "word": "of",
+                "start": 210,
+                "end": 210.56,
+                "confidence": 0.99609375,
+                "punctuated_word": "of"
+              },
+              {
+                "word": "a",
+                "start": 210.56,
+                "end": 210.8,
+                "confidence": 0.98535156,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "lot",
+                "start": 210.8,
+                "end": 211.04,
+                "confidence": 0.9980469,
+                "punctuated_word": "lot"
+              },
+              {
+                "word": "of",
+                "start": 211.04,
+                "end": 211.2,
+                "confidence": 0.99902344,
+                "punctuated_word": "of"
+              },
+              {
+                "word": "changes",
+                "start": 211.2,
+                "end": 211.76,
+                "confidence": 0.9951172,
+                "punctuated_word": "changes"
+              },
+              {
+                "word": "in",
+                "start": 211.76,
+                "end": 212.08,
+                "confidence": 1,
+                "punctuated_word": "in"
+              },
+              {
+                "word": "in",
+                "start": 212.08,
+                "end": 212.88,
+                "confidence": 0.48754883,
+                "punctuated_word": "in"
+              },
+              {
+                "word": "the",
+                "start": 212.88,
+                "end": 213.04,
+                "confidence": 0.99121094,
+                "punctuated_word": "the"
+              },
+              {
+                "word": "recent",
+                "start": 213.04,
+                "end": 213.28,
+                "confidence": 0.9951172,
+                "punctuated_word": "recent"
+              },
+              {
+                "word": "years",
+                "start": 213.28,
+                "end": 213.84,
+                "confidence": 0.98657227,
+                "punctuated_word": "years."
+              },
+              {
+                "word": "yeah",
+                "start": 213.84,
+                "end": 214.32,
+                "confidence": 0.921875,
+                "punctuated_word": "Yeah?"
+              },
+              {
+                "word": "we've",
+                "start": 214.56,
+                "end": 214.96,
+                "confidence": 0.9980469,
+                "punctuated_word": "We've"
+              },
+              {
+                "word": "been",
+                "start": 214.96,
+                "end": 215.12,
+                "confidence": 0.99902344,
+                "punctuated_word": "been"
+              },
+              {
+                "word": "we've",
+                "start": 215.12,
+                "end": 215.52,
+                "confidence": 0.9980469,
+                "punctuated_word": "we've"
+              },
+              {
+                "word": "been",
+                "start": 215.52,
+                "end": 215.68,
+                "confidence": 0.99609375,
+                "punctuated_word": "been"
+              },
+              {
+                "word": "living",
+                "start": 215.68,
+                "end": 215.92,
+                "confidence": 0.6801758,
+                "punctuated_word": "living"
+              },
+              {
+                "word": "with",
+                "start": 215.92,
+                "end": 216.24,
+                "confidence": 0.7524414,
+                "punctuated_word": "with"
+              },
+              {
+                "word": "with",
+                "start": 216.24,
+                "end": 216.72,
+                "confidence": 0.89746094,
+                "punctuated_word": "with"
+              },
+              {
+                "word": "with",
+                "start": 216.72,
+                "end": 217.76001,
+                "confidence": 0.8076172,
+                "punctuated_word": "with"
+              },
+              {
+                "word": "it's",
+                "start": 223.125,
+                "end": 223.445,
+                "confidence": 0.76416016,
+                "punctuated_word": "It's"
+              },
+              {
+                "word": "not",
+                "start": 223.445,
+                "end": 223.605,
+                "confidence": 0.8125,
+                "punctuated_word": "not"
+              },
+              {
+                "word": "in",
+                "start": 223.605,
+                "end": 223.765,
+                "confidence": 0.5439453,
+                "punctuated_word": "in"
+              },
+              {
+                "word": "short",
+                "start": 223.765,
+                "end": 224.005,
+                "confidence": 0.74658203,
+                "punctuated_word": "short"
+              },
+              {
+                "word": "area",
+                "start": 224.005,
+                "end": 224.325,
+                "confidence": 0.83154297,
+                "punctuated_word": "area."
+              },
+              {
+                "word": "tiktok",
+                "start": 239.25,
+                "end": 239.73,
+                "confidence": 0.8378906,
+                "punctuated_word": "TikTok"
+              },
+              {
+                "word": "tiktok",
+                "start": 239.73,
+                "end": 240.37,
+                "confidence": 0.67041016,
+                "punctuated_word": "TikTok,"
+              },
+              {
+                "word": "you",
+                "start": 240.37,
+                "end": 240.45,
+                "confidence": 1,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "know",
+                "start": 240.45,
+                "end": 240.69,
+                "confidence": 0.94018555,
+                "punctuated_word": "know,"
+              },
+              {
+                "word": "i",
+                "start": 240.69,
+                "end": 241.25,
+                "confidence": 0.91503906,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "saw",
+                "start": 241.25,
+                "end": 241.73,
+                "confidence": 0.99902344,
+                "punctuated_word": "saw"
+              },
+              {
+                "word": "one",
+                "start": 241.73,
+                "end": 242.13,
+                "confidence": 0.98291016,
+                "punctuated_word": "one"
+              },
+              {
+                "word": "investigation",
+                "start": 242.13,
+                "end": 242.93,
+                "confidence": 1,
+                "punctuated_word": "investigation"
+              },
+              {
+                "word": "or",
+                "start": 242.93,
+                "end": 243.33,
+                "confidence": 0.5854492,
+                "punctuated_word": "or"
+              },
+              {
+                "word": "i",
+                "start": 243.33,
+                "end": 243.97,
+                "confidence": 0.9970703,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "had",
+                "start": 243.97,
+                "end": 244.29,
+                "confidence": 0.6748047,
+                "punctuated_word": "had"
+              },
+              {
+                "word": "one",
+                "start": 244.29,
+                "end": 244.53,
+                "confidence": 0.99121094,
+                "punctuated_word": "one"
+              },
+              {
+                "word": "opinion",
+                "start": 244.53,
+                "end": 244.93,
+                "confidence": 1,
+                "punctuated_word": "opinion"
+              },
+              {
+                "word": "about",
+                "start": 244.93,
+                "end": 245.17,
+                "confidence": 1,
+                "punctuated_word": "about"
+              },
+              {
+                "word": "tiktok",
+                "start": 245.17,
+                "end": 245.65,
+                "confidence": 0.99902344,
+                "punctuated_word": "TikTok"
+              },
+              {
+                "word": "that's",
+                "start": 245.65,
+                "end": 246.05,
+                "confidence": 0.7192383,
+                "punctuated_word": "that's"
+              },
+              {
+                "word": "comparing",
+                "start": 246.05,
+                "end": 246.69,
+                "confidence": 0.77246094,
+                "punctuated_word": "comparing"
+              },
+              {
+                "word": "it",
+                "start": 249.17,
+                "end": 249.49,
+                "confidence": 0.9941406,
+                "punctuated_word": "it"
+              },
+              {
+                "word": "to",
+                "start": 249.49,
+                "end": 250.29,
+                "confidence": 0.98535156,
+                "punctuated_word": "to"
+              },
+              {
+                "word": "youtube",
+                "start": 250.29,
+                "end": 251.17001,
+                "confidence": 0.9836426,
+                "punctuated_word": "YouTube."
+              },
+              {
+                "word": "in",
+                "start": 251.56999,
+                "end": 251.81,
+                "confidence": 0.99609375,
+                "punctuated_word": "In"
+              },
+              {
+                "word": "youtube",
+                "start": 251.81,
+                "end": 252.45,
+                "confidence": 0.97875977,
+                "punctuated_word": "YouTube,"
+              },
+              {
+                "word": "you",
+                "start": 252.45,
+                "end": 252.93001,
+                "confidence": 1,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "have",
+                "start": 253.09,
+                "end": 253.41,
+                "confidence": 0.9970703,
+                "punctuated_word": "have"
+              },
+              {
+                "word": "you",
+                "start": 253.73,
+                "end": 253.97,
+                "confidence": 0.98828125,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "on",
+                "start": 254.86499,
+                "end": 255.105,
+                "confidence": 0.93359375,
+                "punctuated_word": "On"
+              },
+              {
+                "word": "youtube",
+                "start": 255.105,
+                "end": 255.58499,
+                "confidence": 0.6973877,
+                "punctuated_word": "YouTube."
+              },
+              {
+                "word": "on",
+                "start": 255.58499,
+                "end": 255.825,
+                "confidence": 0.9921875,
+                "punctuated_word": "On"
+              },
+              {
+                "word": "you",
+                "start": 255.825,
+                "end": 255.985,
+                "confidence": 0.36987305,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "on",
+                "start": 256.145,
+                "end": 256.625,
+                "confidence": 0.9902344,
+                "punctuated_word": "on"
+              },
+              {
+                "word": "youtube",
+                "start": 256.625,
+                "end": 257.185,
+                "confidence": 0.9589844,
+                "punctuated_word": "YouTube,"
+              },
+              {
+                "word": "you",
+                "start": 257.185,
+                "end": 257.745,
+                "confidence": 0.9658203,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "have",
+                "start": 257.745,
+                "end": 258.385,
+                "confidence": 0.99902344,
+                "punctuated_word": "have"
+              },
+              {
+                "word": "both",
+                "start": 258.385,
+                "end": 259.025,
+                "confidence": 0.9970703,
+                "punctuated_word": "both"
+              },
+              {
+                "word": "videos",
+                "start": 260.305,
+                "end": 261.105,
+                "confidence": 0.93603516,
+                "punctuated_word": "videos"
+              },
+              {
+                "word": "one",
+                "start": 262.705,
+                "end": 262.945,
+                "confidence": 1,
+                "punctuated_word": "one"
+              },
+              {
+                "word": "hours",
+                "start": 262.945,
+                "end": 263.345,
+                "confidence": 0.77734375,
+                "punctuated_word": "hours"
+              },
+              {
+                "word": "videos",
+                "start": 263.345,
+                "end": 264.065,
+                "confidence": 0.9448242,
+                "punctuated_word": "videos,"
+              },
+              {
+                "word": "one",
+                "start": 264.065,
+                "end": 264.465,
+                "confidence": 0.99902344,
+                "punctuated_word": "one"
+              },
+              {
+                "word": "minute",
+                "start": 264.465,
+                "end": 264.785,
+                "confidence": 0.9970703,
+                "punctuated_word": "minute"
+              },
+              {
+                "word": "videos",
+                "start": 264.785,
+                "end": 265.26498,
+                "confidence": 0.9946289,
+                "punctuated_word": "videos."
+              },
+              {
+                "word": "yeah",
+                "start": 265.26498,
+                "end": 265.825,
+                "confidence": 0.9711914,
+                "punctuated_word": "Yeah?"
+              },
+              {
+                "word": "but",
+                "start": 266.705,
+                "end": 267.025,
+                "confidence": 0.99316406,
+                "punctuated_word": "But"
+              },
+              {
+                "word": "in",
+                "start": 267.025,
+                "end": 267.345,
+                "confidence": 0.9980469,
+                "punctuated_word": "in"
+              },
+              {
+                "word": "youtube",
+                "start": 267.345,
+                "end": 267.985,
+                "confidence": 0.9794922,
+                "punctuated_word": "YouTube,"
+              },
+              {
+                "word": "you",
+                "start": 267.985,
+                "end": 268.545,
+                "confidence": 1,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "you",
+                "start": 269.185,
+                "end": 269.505,
+                "confidence": 0.9873047,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "are",
+                "start": 269.505,
+                "end": 270.065,
+                "confidence": 0.95947266,
+                "punctuated_word": "are"
+              },
+              {
+                "word": "on",
+                "start": 270.84,
+                "end": 271.08,
+                "confidence": 0.5859375,
+                "punctuated_word": "on"
+              },
+              {
+                "word": "youtube",
+                "start": 271.08,
+                "end": 271.31998,
+                "confidence": 0.7055664,
+                "punctuated_word": "YouTube."
+              },
+              {
+                "word": "on",
+                "start": 271.31998,
+                "end": 271.63998,
+                "confidence": 0.5776367,
+                "punctuated_word": "On"
+              },
+              {
+                "word": "youtube",
+                "start": 271.63998,
+                "end": 271.96,
+                "confidence": 0.9682617,
+                "punctuated_word": "YouTube."
+              },
+              {
+                "word": "yeah",
+                "start": 271.96,
+                "end": 272.19998,
+                "confidence": 0.9921875,
+                "punctuated_word": "Yeah."
+              },
+              {
+                "word": "on",
+                "start": 272.19998,
+                "end": 272.28,
+                "confidence": 0.99902344,
+                "punctuated_word": "On"
+              },
+              {
+                "word": "youtube",
+                "start": 272.28,
+                "end": 272.75998,
+                "confidence": 0.9926758,
+                "punctuated_word": "YouTube."
+              },
+              {
+                "word": "on",
+                "start": 272.75998,
+                "end": 272.91998,
+                "confidence": 0.99902344,
+                "punctuated_word": "On"
+              },
+              {
+                "word": "youtube",
+                "start": 272.91998,
+                "end": 273.4,
+                "confidence": 0.986084,
+                "punctuated_word": "YouTube,"
+              },
+              {
+                "word": "you",
+                "start": 273.4,
+                "end": 273.56,
+                "confidence": 1,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "are",
+                "start": 273.56,
+                "end": 273.71997,
+                "confidence": 1,
+                "punctuated_word": "are"
+              },
+              {
+                "word": "supposed",
+                "start": 273.71997,
+                "end": 274.19998,
+                "confidence": 0.99609375,
+                "punctuated_word": "supposed"
+              },
+              {
+                "word": "to",
+                "start": 274.19998,
+                "end": 274.68,
+                "confidence": 0.9970703,
+                "punctuated_word": "to"
+              },
+              {
+                "word": "choose",
+                "start": 274.84,
+                "end": 275.47998,
+                "confidence": 0.99902344,
+                "punctuated_word": "choose"
+              },
+              {
+                "word": "what",
+                "start": 275.47998,
+                "end": 275.8,
+                "confidence": 1,
+                "punctuated_word": "what"
+              },
+              {
+                "word": "you",
+                "start": 275.8,
+                "end": 276.03998,
+                "confidence": 0.99902344,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "want",
+                "start": 276.03998,
+                "end": 276.36,
+                "confidence": 0.99609375,
+                "punctuated_word": "want"
+              },
+              {
+                "word": "to",
+                "start": 276.36,
+                "end": 276.91998,
+                "confidence": 0.99902344,
+                "punctuated_word": "to"
+              },
+              {
+                "word": "watch",
+                "start": 277.08,
+                "end": 277.4,
+                "confidence": 0.9638672,
+                "punctuated_word": "watch."
+              },
+              {
+                "word": "yeah",
+                "start": 277.4,
+                "end": 277.8,
+                "confidence": 0.9445801,
+                "punctuated_word": "Yeah?"
+              },
+              {
+                "word": "and",
+                "start": 277.8,
+                "end": 278.03998,
+                "confidence": 0.96972656,
+                "punctuated_word": "And"
+              },
+              {
+                "word": "on",
+                "start": 278.03998,
+                "end": 279.24,
+                "confidence": 0.60253906,
+                "punctuated_word": "on"
+              },
+              {
+                "word": "tick",
+                "start": 279.24,
+                "end": 279.47998,
+                "confidence": 0.5678711,
+                "punctuated_word": "tick"
+              },
+              {
+                "word": "on",
+                "start": 279.56,
+                "end": 279.71997,
+                "confidence": 0.9970703,
+                "punctuated_word": "on"
+              },
+              {
+                "word": "tiktok",
+                "start": 279.71997,
+                "end": 280.19998,
+                "confidence": 0.81030273,
+                "punctuated_word": "TikTok."
+              },
+              {
+                "word": "yeah",
+                "start": 280.19998,
+                "end": 280.75998,
+                "confidence": 0.8552246,
+                "punctuated_word": "Yeah?"
+              },
+              {
+                "word": "on",
+                "start": 281.63998,
+                "end": 281.87997,
+                "confidence": 0.9902344,
+                "punctuated_word": "On"
+              },
+              {
+                "word": "tiktok",
+                "start": 281.87997,
+                "end": 282.28,
+                "confidence": 0.9782715,
+                "punctuated_word": "TikTok,"
+              },
+              {
+                "word": "the",
+                "start": 283.065,
+                "end": 283.385,
+                "confidence": 0.81396484,
+                "punctuated_word": "the"
+              },
+              {
+                "word": "algorithm",
+                "start": 283.385,
+                "end": 283.945,
+                "confidence": 0.6484375,
+                "punctuated_word": "algorithm"
+              },
+              {
+                "word": "decides",
+                "start": 283.945,
+                "end": 284.98502,
+                "confidence": 0.8642578,
+                "punctuated_word": "decides."
+              },
+              {
+                "word": "so",
+                "start": 284.98502,
+                "end": 285.46503,
+                "confidence": 0.9980469,
+                "punctuated_word": "So"
+              },
+              {
+                "word": "you",
+                "start": 285.46503,
+                "end": 285.785,
+                "confidence": 1,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "are",
+                "start": 285.785,
+                "end": 286.42502,
+                "confidence": 1,
+                "punctuated_word": "are"
+              },
+              {
+                "word": "more",
+                "start": 286.42502,
+                "end": 286.74503,
+                "confidence": 1,
+                "punctuated_word": "more"
+              },
+              {
+                "word": "lazy",
+                "start": 286.74503,
+                "end": 287.545,
+                "confidence": 0.9914551,
+                "punctuated_word": "lazy,"
+              },
+              {
+                "word": "let's",
+                "start": 287.545,
+                "end": 287.945,
+                "confidence": 1,
+                "punctuated_word": "let's"
+              },
+              {
+                "word": "say",
+                "start": 287.945,
+                "end": 288.42502,
+                "confidence": 0.9951172,
+                "punctuated_word": "say,"
+              },
+              {
+                "word": "when",
+                "start": 289.065,
+                "end": 289.225,
+                "confidence": 1,
+                "punctuated_word": "when"
+              },
+              {
+                "word": "it",
+                "start": 289.225,
+                "end": 289.385,
+                "confidence": 0.9970703,
+                "punctuated_word": "it"
+              },
+              {
+                "word": "comes",
+                "start": 289.385,
+                "end": 289.545,
+                "confidence": 1,
+                "punctuated_word": "comes"
+              },
+              {
+                "word": "to",
+                "start": 289.545,
+                "end": 289.785,
+                "confidence": 0.9951172,
+                "punctuated_word": "to"
+              },
+              {
+                "word": "choose",
+                "start": 289.785,
+                "end": 290.42502,
+                "confidence": 0.859375,
+                "punctuated_word": "choose."
+              },
+              {
+                "word": "so",
+                "start": 290.42502,
+                "end": 290.74503,
+                "confidence": 1,
+                "punctuated_word": "So"
+              },
+              {
+                "word": "it",
+                "start": 290.74503,
+                "end": 290.98502,
+                "confidence": 0.99902344,
+                "punctuated_word": "it"
+              },
+              {
+                "word": "it",
+                "start": 290.98502,
+                "end": 291.385,
+                "confidence": 0.9091797,
+                "punctuated_word": "it"
+              },
+              {
+                "word": "cause",
+                "start": 291.385,
+                "end": 291.785,
+                "confidence": 0.41479492,
+                "punctuated_word": "cause"
+              },
+              {
+                "word": "more",
+                "start": 291.785,
+                "end": 292.345,
+                "confidence": 0.9951172,
+                "punctuated_word": "more"
+              },
+              {
+                "word": "problems",
+                "start": 292.345,
+                "end": 292.665,
+                "confidence": 0.99902344,
+                "punctuated_word": "problems"
+              },
+              {
+                "word": "when",
+                "start": 292.665,
+                "end": 292.905,
+                "confidence": 0.99902344,
+                "punctuated_word": "when"
+              },
+              {
+                "word": "it",
+                "start": 292.905,
+                "end": 293.065,
+                "confidence": 0.9980469,
+                "punctuated_word": "it"
+              },
+              {
+                "word": "comes",
+                "start": 293.065,
+                "end": 293.225,
+                "confidence": 1,
+                "punctuated_word": "comes"
+              },
+              {
+                "word": "to",
+                "start": 293.225,
+                "end": 293.78503,
+                "confidence": 0.99902344,
+                "punctuated_word": "to"
+              },
+              {
+                "word": "your",
+                "start": 293.945,
+                "end": 294.42502,
+                "confidence": 0.99902344,
+                "punctuated_word": "your"
+              },
+              {
+                "word": "attention",
+                "start": 294.42502,
+                "end": 294.98502,
+                "confidence": 0.75634766,
+                "punctuated_word": "attention."
+              },
+              {
+                "word": "and",
+                "start": 294.98502,
+                "end": 295.30502,
+                "confidence": 1,
+                "punctuated_word": "And"
+              },
+              {
+                "word": "i",
+                "start": 295.67493,
+                "end": 295.91492,
+                "confidence": 1,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "don't",
+                "start": 295.91492,
+                "end": 296.15494,
+                "confidence": 1,
+                "punctuated_word": "don't"
+              },
+              {
+                "word": "like",
+                "start": 296.15494,
+                "end": 296.39493,
+                "confidence": 1,
+                "punctuated_word": "like"
+              },
+              {
+                "word": "this",
+                "start": 296.39493,
+                "end": 296.71494,
+                "confidence": 0.57910156,
+                "punctuated_word": "this"
+              },
+              {
+                "word": "type",
+                "start": 296.71494,
+                "end": 296.95493,
+                "confidence": 1,
+                "punctuated_word": "type"
+              },
+              {
+                "word": "of",
+                "start": 296.95493,
+                "end": 297.27493,
+                "confidence": 0.99902344,
+                "punctuated_word": "of"
+              },
+              {
+                "word": "videos",
+                "start": 297.27493,
+                "end": 297.7549,
+                "confidence": 0.9970703,
+                "punctuated_word": "videos"
+              },
+              {
+                "word": "that's",
+                "start": 297.7549,
+                "end": 298.55493,
+                "confidence": 0.8684082,
+                "punctuated_word": "that's"
+              },
+              {
+                "word": "that's",
+                "start": 298.79492,
+                "end": 299.59494,
+                "confidence": 0.94873047,
+                "punctuated_word": "that's"
+              }
+            ],
+            "paragraphs": {
+              "transcript": "\nFirst of all, it would be my phone because I get a lot of informations via my phone. I don't use my laptop out of my work and out of my language learning. Right now, I use laptop, but I'm not a person who who like, for example, playing games. So I don't I don't use my laptop out of my my obligations. So so, yeah, it's I don't have I have my personal lap laptop.\n\nNow I'm using it, and I'm laptop from my job to to work. Yeah? So I have two laptops, but my personal laptop is used practically only to to Preply, yeah, in this moment. For Preply. For Preply.\n\nYeah. In this moment. Because as I told you, I don't play a lot of games. So it no. I don't think it's a a waste of time at all.\n\nIf someone like, likes it, it likes it, it can it can be funny. Like, for me, let learning playing with this is funny. But I've never I've never been a person who who liked playing games. It's was not my my passion. Yeah.\n\nBut but I don't think it's a waste of time if someone need if someone needs one or two hours per day to to to relax. Yeah? Yeah. Because it can it can yeah. It can back up become become.\n\nYeah. It can become it can be it becomes very problematic if you play during the night and you you don't sleep and you it cow it can cause more problem in your in your life. I think so because because I have read a lot of investigations when investigate when investigators burst out this this opinion because it was it was shown, I think, that we are more disrupted. And even, for example, if we read a book if you read a book via your laptop or your smartphone, it's not the same if we if you use a book. Yeah?\n\nA book like so it's it shows that that that our disruptions, whether do we use application, whether or not, has caused a lot of a lot of changes in in the recent years. Yeah? We've been we've been living with with with It's not in short area. TikTok TikTok, you know, I saw one investigation or I had one opinion about TikTok that's comparing it to YouTube. In YouTube, you have you On YouTube.\n\nOn you on YouTube, you have both videos one hours videos, one minute videos. Yeah? But in YouTube, you you are on YouTube. On YouTube. Yeah.\n\nOn YouTube. On YouTube, you are supposed to choose what you want to watch. Yeah? And on tick on TikTok. Yeah?\n\nOn TikTok, the algorithm decides. So you are more lazy, let's say, when it comes to choose. So it it cause more problems when it comes to your attention. And I don't like this type of videos that's that's",
+              "paragraphs": [
+                {
+                  "sentences": [
+                    {
+                      "text": "First of all, it would be my phone because I get a lot of informations via my phone.",
+                      "start": 0,
+                      "end": 9.2
+                    },
+                    {
+                      "text": "I don't use my laptop out of my work and out of my language learning.",
+                      "start": 9.2,
+                      "end": 17.855
+                    },
+                    {
+                      "text": "Right now, I use laptop, but I'm not a person who who like, for example, playing games.",
+                      "start": 17.855,
+                      "end": 26.095
+                    },
+                    {
+                      "text": "So I don't I don't use my laptop out of my my obligations.",
+                      "start": 26.255001,
+                      "end": 38.03
+                    },
+                    {
+                      "text": "So so, yeah, it's I don't have I have my personal lap laptop.",
+                      "start": 38.03,
+                      "end": 48.175003
+                    }
+                  ],
+                  "num_words": 76,
+                  "start": 0,
+                  "end": 48.175003
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "Now I'm using it, and I'm laptop from my job to to work.",
+                      "start": 48.175003,
+                      "end": 56.015
+                    },
+                    {
+                      "text": "Yeah?",
+                      "start": 56.015,
+                      "end": 56.335003
+                    },
+                    {
+                      "text": "So I have two laptops, but my personal laptop is used practically only to to Preply, yeah, in this moment.",
+                      "start": 56.335003,
+                      "end": 65.700005
+                    },
+                    {
+                      "text": "For Preply.",
+                      "start": 67.78,
+                      "end": 68.5
+                    },
+                    {
+                      "text": "For Preply.",
+                      "start": 68.5,
+                      "end": 68.98
+                    }
+                  ],
+                  "num_words": 38,
+                  "start": 48.175003,
+                  "end": 68.98
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "Yeah.",
+                      "start": 68.98,
+                      "end": 69.14
+                    },
+                    {
+                      "text": "In this moment.",
+                      "start": 69.14,
+                      "end": 70.020004
+                    },
+                    {
+                      "text": "Because as I told you, I don't play a lot of games.",
+                      "start": 70.020004,
+                      "end": 73.62
+                    },
+                    {
+                      "text": "So it no.",
+                      "start": 73.62,
+                      "end": 76.965
+                    },
+                    {
+                      "text": "I don't think it's a a waste of time at all.",
+                      "start": 79.924995,
+                      "end": 83.365
+                    }
+                  ],
+                  "num_words": 30,
+                  "start": 68.98,
+                  "end": 83.365
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "If someone like, likes it, it likes it, it can it can be funny.",
+                      "start": 83.84499,
+                      "end": 91.18
+                    },
+                    {
+                      "text": "Like, for me, let learning playing with this is funny.",
+                      "start": 91.26,
+                      "end": 94.54
+                    },
+                    {
+                      "text": "But I've never I've never been a person who who liked playing games.",
+                      "start": 94.700005,
+                      "end": 99.9
+                    },
+                    {
+                      "text": "It's was not my my passion.",
+                      "start": 99.9,
+                      "end": 103.455
+                    },
+                    {
+                      "text": "Yeah.",
+                      "start": 103.455,
+                      "end": 103.695
+                    }
+                  ],
+                  "num_words": 44,
+                  "start": 83.84499,
+                  "end": 103.695
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "But but I don't think it's a waste of time if someone need if someone needs one or two hours per day to to to relax.",
+                      "start": 103.695,
+                      "end": 115.935005
+                    },
+                    {
+                      "text": "Yeah?",
+                      "start": 115.935005,
+                      "end": 116.175
+                    },
+                    {
+                      "text": "Yeah.",
+                      "start": 120.619995,
+                      "end": 120.939995
+                    },
+                    {
+                      "text": "Because it can it can yeah.",
+                      "start": 120.939995,
+                      "end": 123.259995
+                    },
+                    {
+                      "text": "It can back up become become.",
+                      "start": 123.259995,
+                      "end": 125.259995
+                    }
+                  ],
+                  "num_words": 40,
+                  "start": 103.695,
+                  "end": 125.259995
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "Yeah.",
+                      "start": 125.259995,
+                      "end": 125.5
+                    },
+                    {
+                      "text": "It can become it can be it becomes very problematic if you play during the night and you you don't sleep and you it cow it can cause more problem in your in your life.",
+                      "start": 125.5,
+                      "end": 143.015
+                    },
+                    {
+                      "text": "I think so because because I have read a lot of investigations when investigate when investigators burst out this this opinion because it was it was shown, I think, that we are more disrupted.",
+                      "start": 159.01001,
+                      "end": 182.69
+                    },
+                    {
+                      "text": "And even, for example, if we read a book if you read a book via your laptop or your smartphone, it's not the same if we if you use a book.",
+                      "start": 182.69,
+                      "end": 196.58499
+                    },
+                    {
+                      "text": "Yeah?",
+                      "start": 196.58499,
+                      "end": 196.905
+                    }
+                  ],
+                  "num_words": 102,
+                  "start": 125.259995,
+                  "end": 196.905
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "A book like so it's it shows that that that our disruptions, whether do we use application, whether or not, has caused a lot of a lot of changes in in the recent years.",
+                      "start": 196.905,
+                      "end": 213.84
+                    },
+                    {
+                      "text": "Yeah?",
+                      "start": 213.84,
+                      "end": 214.32
+                    },
+                    {
+                      "text": "We've been we've been living with with with It's not in short area.",
+                      "start": 214.56,
+                      "end": 224.325
+                    },
+                    {
+                      "text": "TikTok TikTok, you know, I saw one investigation or I had one opinion about TikTok that's comparing it to YouTube.",
+                      "start": 239.25,
+                      "end": 251.17001
+                    },
+                    {
+                      "text": "In YouTube, you have you On YouTube.",
+                      "start": 251.56999,
+                      "end": 255.58499
+                    }
+                  ],
+                  "num_words": 75,
+                  "start": 196.905,
+                  "end": 255.58499
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "On you on YouTube, you have both videos one hours videos, one minute videos.",
+                      "start": 255.58499,
+                      "end": 265.26498
+                    },
+                    {
+                      "text": "Yeah?",
+                      "start": 265.26498,
+                      "end": 265.825
+                    },
+                    {
+                      "text": "But in YouTube, you you are on YouTube.",
+                      "start": 266.705,
+                      "end": 271.31998
+                    },
+                    {
+                      "text": "On YouTube.",
+                      "start": 271.31998,
+                      "end": 271.96
+                    },
+                    {
+                      "text": "Yeah.",
+                      "start": 271.96,
+                      "end": 272.19998
+                    }
+                  ],
+                  "num_words": 26,
+                  "start": 255.58499,
+                  "end": 272.19998
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "On YouTube.",
+                      "start": 272.19998,
+                      "end": 272.75998
+                    },
+                    {
+                      "text": "On YouTube, you are supposed to choose what you want to watch.",
+                      "start": 272.75998,
+                      "end": 277.4
+                    },
+                    {
+                      "text": "Yeah?",
+                      "start": 277.4,
+                      "end": 277.8
+                    },
+                    {
+                      "text": "And on tick on TikTok.",
+                      "start": 277.8,
+                      "end": 280.19998
+                    },
+                    {
+                      "text": "Yeah?",
+                      "start": 280.19998,
+                      "end": 280.75998
+                    }
+                  ],
+                  "num_words": 21,
+                  "start": 272.19998,
+                  "end": 280.75998
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "On TikTok, the algorithm decides.",
+                      "start": 281.63998,
+                      "end": 284.98502
+                    },
+                    {
+                      "text": "So you are more lazy, let's say, when it comes to choose.",
+                      "start": 284.98502,
+                      "end": 290.42502
+                    },
+                    {
+                      "text": "So it it cause more problems when it comes to your attention.",
+                      "start": 290.42502,
+                      "end": 294.98502
+                    },
+                    {
+                      "text": "And I don't like this type of videos that's that's",
+                      "start": 294.98502,
+                      "end": 299.59494
+                    }
+                  ],
+                  "num_words": 39,
+                  "start": 281.63998,
+                  "end": 299.59494
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "alternatives": [
+          {
+            "transcript": "You don't have ice do you have a personal laptop? Four four four. You think it's a waste of time, my friend? Do you think it's a waste of time? Yeah. And if it doesn't interfere with his daily life because there are it looks like 20 five. Mhmm. Health, life. Yes. That's all. And the next one I want to ask is, do you think smartphones are making our attention worse? Yeah. Yeah. But I think our we talked about this, my friend. Our attention span has gotten shorter and shorter due to the various issues we have talked about, such as Internet addiction, social media. I used for the first time ever TikTok yesterday, and I realized it's even worse than Instagram because Oh, only. Sir, only. Sorry. Or you took my friend. Yeah. Yeah. The algorithm uses",
+            "confidence": 0.9946289,
+            "words": [
+              {
+                "word": "you",
+                "start": 41.705,
+                "end": 41.945,
+                "confidence": 0.93408203,
+                "punctuated_word": "You"
+              },
+              {
+                "word": "don't",
+                "start": 41.945,
+                "end": 42.185,
+                "confidence": 0.9926758,
+                "punctuated_word": "don't"
+              },
+              {
+                "word": "have",
+                "start": 42.185,
+                "end": 42.345,
+                "confidence": 0.99902344,
+                "punctuated_word": "have"
+              },
+              {
+                "word": "ice",
+                "start": 42.345,
+                "end": 42.825,
+                "confidence": 0.40820312,
+                "punctuated_word": "ice"
+              },
+              {
+                "word": "do",
+                "start": 42.985,
+                "end": 43.225002,
+                "confidence": 1,
+                "punctuated_word": "do"
+              },
+              {
+                "word": "you",
+                "start": 43.225002,
+                "end": 43.305,
+                "confidence": 1,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "have",
+                "start": 43.305,
+                "end": 43.465,
+                "confidence": 1,
+                "punctuated_word": "have"
+              },
+              {
+                "word": "a",
+                "start": 43.465,
+                "end": 43.545002,
+                "confidence": 1,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "personal",
+                "start": 43.545002,
+                "end": 43.945,
+                "confidence": 0.9951172,
+                "punctuated_word": "personal"
+              },
+              {
+                "word": "laptop",
+                "start": 43.945,
+                "end": 44.425003,
+                "confidence": 0.9470215,
+                "punctuated_word": "laptop?"
+              },
+              {
+                "word": "four",
+                "start": 66.42,
+                "end": 66.58,
+                "confidence": 0.18640137,
+                "punctuated_word": "Four"
+              },
+              {
+                "word": "four",
+                "start": 66.58,
+                "end": 66.9,
+                "confidence": 0.9560547,
+                "punctuated_word": "four"
+              },
+              {
+                "word": "four",
+                "start": 66.9,
+                "end": 66.979996,
+                "confidence": 0.33862305,
+                "punctuated_word": "four."
+              },
+              {
+                "word": "you",
+                "start": 68.805,
+                "end": 69.765,
+                "confidence": 0.33544922,
+                "punctuated_word": "You"
+              },
+              {
+                "word": "think",
+                "start": 74.405,
+                "end": 74.645004,
+                "confidence": 0.99609375,
+                "punctuated_word": "think"
+              },
+              {
+                "word": "it's",
+                "start": 74.645004,
+                "end": 74.805,
+                "confidence": 1,
+                "punctuated_word": "it's"
+              },
+              {
+                "word": "a",
+                "start": 74.805,
+                "end": 74.965004,
+                "confidence": 1,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "waste",
+                "start": 74.965004,
+                "end": 75.205,
+                "confidence": 0.99902344,
+                "punctuated_word": "waste"
+              },
+              {
+                "word": "of",
+                "start": 75.205,
+                "end": 75.365,
+                "confidence": 1,
+                "punctuated_word": "of"
+              },
+              {
+                "word": "time",
+                "start": 75.365,
+                "end": 75.925,
+                "confidence": 0.9707031,
+                "punctuated_word": "time,"
+              },
+              {
+                "word": "my",
+                "start": 75.925,
+                "end": 76.165,
+                "confidence": 1,
+                "punctuated_word": "my"
+              },
+              {
+                "word": "friend",
+                "start": 76.165,
+                "end": 76.725,
+                "confidence": 0.98535156,
+                "punctuated_word": "friend?"
+              },
+              {
+                "word": "do",
+                "start": 77.205,
+                "end": 77.445,
+                "confidence": 0.99902344,
+                "punctuated_word": "Do"
+              },
+              {
+                "word": "you",
+                "start": 77.445,
+                "end": 77.605,
+                "confidence": 1,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "think",
+                "start": 77.605,
+                "end": 77.765,
+                "confidence": 1,
+                "punctuated_word": "think"
+              },
+              {
+                "word": "it's",
+                "start": 77.765,
+                "end": 78.085,
+                "confidence": 1,
+                "punctuated_word": "it's"
+              },
+              {
+                "word": "a",
+                "start": 78.085,
+                "end": 78.165,
+                "confidence": 1,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "waste",
+                "start": 78.165,
+                "end": 78.485,
+                "confidence": 1,
+                "punctuated_word": "waste"
+              },
+              {
+                "word": "of",
+                "start": 78.485,
+                "end": 78.645004,
+                "confidence": 1,
+                "punctuated_word": "of"
+              },
+              {
+                "word": "time",
+                "start": 78.645004,
+                "end": 78.965004,
+                "confidence": 0.9980469,
+                "punctuated_word": "time?"
+              },
+              {
+                "word": "yeah",
+                "start": 115.729996,
+                "end": 116.45,
+                "confidence": 0.93725586,
+                "punctuated_word": "Yeah."
+              },
+              {
+                "word": "and",
+                "start": 116.85,
+                "end": 116.93,
+                "confidence": 0.9350586,
+                "punctuated_word": "And"
+              },
+              {
+                "word": "if",
+                "start": 116.93,
+                "end": 117.17,
+                "confidence": 0.99902344,
+                "punctuated_word": "if"
+              },
+              {
+                "word": "it",
+                "start": 117.17,
+                "end": 117.33,
+                "confidence": 0.9980469,
+                "punctuated_word": "it"
+              },
+              {
+                "word": "doesn't",
+                "start": 117.33,
+                "end": 117.57,
+                "confidence": 0.9995117,
+                "punctuated_word": "doesn't"
+              },
+              {
+                "word": "interfere",
+                "start": 117.57,
+                "end": 118.13,
+                "confidence": 1,
+                "punctuated_word": "interfere"
+              },
+              {
+                "word": "with",
+                "start": 118.13,
+                "end": 118.77,
+                "confidence": 0.96875,
+                "punctuated_word": "with"
+              },
+              {
+                "word": "his",
+                "start": 118.77,
+                "end": 119.33,
+                "confidence": 0.8720703,
+                "punctuated_word": "his"
+              },
+              {
+                "word": "daily",
+                "start": 119.33,
+                "end": 119.81,
+                "confidence": 1,
+                "punctuated_word": "daily"
+              },
+              {
+                "word": "life",
+                "start": 119.81,
+                "end": 120.05,
+                "confidence": 1,
+                "punctuated_word": "life"
+              },
+              {
+                "word": "because",
+                "start": 120.05,
+                "end": 120.369995,
+                "confidence": 0.5058594,
+                "punctuated_word": "because"
+              },
+              {
+                "word": "there",
+                "start": 120.369995,
+                "end": 120.61,
+                "confidence": 0.9560547,
+                "punctuated_word": "there"
+              },
+              {
+                "word": "are",
+                "start": 120.61,
+                "end": 121.09,
+                "confidence": 0.9951172,
+                "punctuated_word": "are"
+              },
+              {
+                "word": "it",
+                "start": 121.33,
+                "end": 121.49,
+                "confidence": 0.43603516,
+                "punctuated_word": "it"
+              },
+              {
+                "word": "looks",
+                "start": 121.49,
+                "end": 121.65,
+                "confidence": 0.96240234,
+                "punctuated_word": "looks"
+              },
+              {
+                "word": "like",
+                "start": 121.65,
+                "end": 121.89,
+                "confidence": 0.96875,
+                "punctuated_word": "like"
+              },
+              {
+                "word": "20",
+                "start": 121.89,
+                "end": 122.369995,
+                "confidence": 0.8286133,
+                "punctuated_word": "20"
+              },
+              {
+                "word": "five",
+                "start": 122.369995,
+                "end": 122.85,
+                "confidence": 0.56030273,
+                "punctuated_word": "five."
+              },
+              {
+                "word": "mhmm",
+                "start": 143.92001,
+                "end": 144.48001,
+                "confidence": 0.97021484,
+                "punctuated_word": "Mhmm."
+              },
+              {
+                "word": "health",
+                "start": 144.48001,
+                "end": 145.04001,
+                "confidence": 0.79907227,
+                "punctuated_word": "Health,"
+              },
+              {
+                "word": "life",
+                "start": 145.04001,
+                "end": 145.52,
+                "confidence": 0.9733887,
+                "punctuated_word": "life."
+              },
+              {
+                "word": "yes",
+                "start": 145.52,
+                "end": 146.08002,
+                "confidence": 1,
+                "punctuated_word": "Yes."
+              },
+              {
+                "word": "that's",
+                "start": 146.32,
+                "end": 148.16,
+                "confidence": 0.8588867,
+                "punctuated_word": "That's"
+              },
+              {
+                "word": "all",
+                "start": 148.16,
+                "end": 148.48001,
+                "confidence": 0.99316406,
+                "punctuated_word": "all."
+              },
+              {
+                "word": "and",
+                "start": 148.48001,
+                "end": 148.64001,
+                "confidence": 1,
+                "punctuated_word": "And"
+              },
+              {
+                "word": "the",
+                "start": 148.64001,
+                "end": 148.8,
+                "confidence": 0.98535156,
+                "punctuated_word": "the"
+              },
+              {
+                "word": "next",
+                "start": 148.8,
+                "end": 149.04001,
+                "confidence": 1,
+                "punctuated_word": "next"
+              },
+              {
+                "word": "one",
+                "start": 149.04001,
+                "end": 149.20001,
+                "confidence": 1,
+                "punctuated_word": "one"
+              },
+              {
+                "word": "i",
+                "start": 149.20001,
+                "end": 149.36,
+                "confidence": 0.9980469,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "want",
+                "start": 149.36,
+                "end": 149.6,
+                "confidence": 0.9970703,
+                "punctuated_word": "want"
+              },
+              {
+                "word": "to",
+                "start": 149.6,
+                "end": 149.68001,
+                "confidence": 0.99902344,
+                "punctuated_word": "to"
+              },
+              {
+                "word": "ask",
+                "start": 149.68001,
+                "end": 149.92001,
+                "confidence": 1,
+                "punctuated_word": "ask"
+              },
+              {
+                "word": "is",
+                "start": 149.92001,
+                "end": 150.24,
+                "confidence": 0.8388672,
+                "punctuated_word": "is,"
+              },
+              {
+                "word": "do",
+                "start": 152.575,
+                "end": 152.895,
+                "confidence": 0.9970703,
+                "punctuated_word": "do"
+              },
+              {
+                "word": "you",
+                "start": 152.895,
+                "end": 153.05501,
+                "confidence": 1,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "think",
+                "start": 153.05501,
+                "end": 153.455,
+                "confidence": 1,
+                "punctuated_word": "think"
+              },
+              {
+                "word": "smartphones",
+                "start": 153.455,
+                "end": 154.175,
+                "confidence": 0.9970703,
+                "punctuated_word": "smartphones"
+              },
+              {
+                "word": "are",
+                "start": 154.175,
+                "end": 154.495,
+                "confidence": 1,
+                "punctuated_word": "are"
+              },
+              {
+                "word": "making",
+                "start": 154.495,
+                "end": 154.895,
+                "confidence": 1,
+                "punctuated_word": "making"
+              },
+              {
+                "word": "our",
+                "start": 154.895,
+                "end": 155.215,
+                "confidence": 1,
+                "punctuated_word": "our"
+              },
+              {
+                "word": "attention",
+                "start": 155.215,
+                "end": 155.775,
+                "confidence": 1,
+                "punctuated_word": "attention"
+              },
+              {
+                "word": "worse",
+                "start": 155.775,
+                "end": 156.255,
+                "confidence": 0.9980469,
+                "punctuated_word": "worse?"
+              },
+              {
+                "word": "yeah",
+                "start": 214.21501,
+                "end": 214.85501,
+                "confidence": 0.97680664,
+                "punctuated_word": "Yeah."
+              },
+              {
+                "word": "yeah",
+                "start": 214.85501,
+                "end": 215.41501,
+                "confidence": 0.9667969,
+                "punctuated_word": "Yeah."
+              },
+              {
+                "word": "but",
+                "start": 217.815,
+                "end": 218.05501,
+                "confidence": 0.44604492,
+                "punctuated_word": "But"
+              },
+              {
+                "word": "i",
+                "start": 218.05501,
+                "end": 218.13501,
+                "confidence": 0.78027344,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "think",
+                "start": 218.13501,
+                "end": 218.455,
+                "confidence": 0.8574219,
+                "punctuated_word": "think"
+              },
+              {
+                "word": "our",
+                "start": 218.455,
+                "end": 218.77501,
+                "confidence": 0.99121094,
+                "punctuated_word": "our"
+              },
+              {
+                "word": "we",
+                "start": 218.935,
+                "end": 219.175,
+                "confidence": 0.96972656,
+                "punctuated_word": "we"
+              },
+              {
+                "word": "talked",
+                "start": 219.175,
+                "end": 219.41501,
+                "confidence": 0.9951172,
+                "punctuated_word": "talked"
+              },
+              {
+                "word": "about",
+                "start": 219.41501,
+                "end": 219.655,
+                "confidence": 1,
+                "punctuated_word": "about"
+              },
+              {
+                "word": "this",
+                "start": 219.655,
+                "end": 219.975,
+                "confidence": 0.9885254,
+                "punctuated_word": "this,"
+              },
+              {
+                "word": "my",
+                "start": 219.975,
+                "end": 220.13501,
+                "confidence": 1,
+                "punctuated_word": "my"
+              },
+              {
+                "word": "friend",
+                "start": 220.13501,
+                "end": 220.375,
+                "confidence": 0.95874023,
+                "punctuated_word": "friend."
+              },
+              {
+                "word": "our",
+                "start": 220.375,
+                "end": 220.615,
+                "confidence": 1,
+                "punctuated_word": "Our"
+              },
+              {
+                "word": "attention",
+                "start": 220.615,
+                "end": 221.015,
+                "confidence": 0.99902344,
+                "punctuated_word": "attention"
+              },
+              {
+                "word": "span",
+                "start": 221.015,
+                "end": 221.41501,
+                "confidence": 0.99316406,
+                "punctuated_word": "span"
+              },
+              {
+                "word": "has",
+                "start": 221.41501,
+                "end": 221.735,
+                "confidence": 1,
+                "punctuated_word": "has"
+              },
+              {
+                "word": "gotten",
+                "start": 221.735,
+                "end": 222.375,
+                "confidence": 0.99316406,
+                "punctuated_word": "gotten"
+              },
+              {
+                "word": "shorter",
+                "start": 222.375,
+                "end": 222.695,
+                "confidence": 0.97998047,
+                "punctuated_word": "shorter"
+              },
+              {
+                "word": "and",
+                "start": 222.695,
+                "end": 222.935,
+                "confidence": 0.9980469,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "shorter",
+                "start": 222.935,
+                "end": 223.255,
+                "confidence": 0.99609375,
+                "punctuated_word": "shorter"
+              },
+              {
+                "word": "due",
+                "start": 223.81,
+                "end": 224.69,
+                "confidence": 0.79003906,
+                "punctuated_word": "due"
+              },
+              {
+                "word": "to",
+                "start": 224.76999,
+                "end": 225.32999,
+                "confidence": 0.9589844,
+                "punctuated_word": "to"
+              },
+              {
+                "word": "the",
+                "start": 225.32999,
+                "end": 225.73,
+                "confidence": 0.9921875,
+                "punctuated_word": "the"
+              },
+              {
+                "word": "various",
+                "start": 225.73,
+                "end": 226.37,
+                "confidence": 0.54541016,
+                "punctuated_word": "various"
+              },
+              {
+                "word": "issues",
+                "start": 226.37,
+                "end": 226.76999,
+                "confidence": 0.99902344,
+                "punctuated_word": "issues"
+              },
+              {
+                "word": "we",
+                "start": 226.76999,
+                "end": 227.01,
+                "confidence": 1,
+                "punctuated_word": "we"
+              },
+              {
+                "word": "have",
+                "start": 227.01,
+                "end": 227.17,
+                "confidence": 1,
+                "punctuated_word": "have"
+              },
+              {
+                "word": "talked",
+                "start": 227.17,
+                "end": 227.40999,
+                "confidence": 1,
+                "punctuated_word": "talked"
+              },
+              {
+                "word": "about",
+                "start": 227.40999,
+                "end": 227.89,
+                "confidence": 0.8474121,
+                "punctuated_word": "about,"
+              },
+              {
+                "word": "such",
+                "start": 228.12999,
+                "end": 228.29,
+                "confidence": 1,
+                "punctuated_word": "such"
+              },
+              {
+                "word": "as",
+                "start": 228.29,
+                "end": 228.85,
+                "confidence": 1,
+                "punctuated_word": "as"
+              },
+              {
+                "word": "internet",
+                "start": 229.32999,
+                "end": 230.20999,
+                "confidence": 0.47314453,
+                "punctuated_word": "Internet"
+              },
+              {
+                "word": "addiction",
+                "start": 230.20999,
+                "end": 231.09,
+                "confidence": 0.99365234,
+                "punctuated_word": "addiction,"
+              },
+              {
+                "word": "social",
+                "start": 231.40999,
+                "end": 231.81,
+                "confidence": 1,
+                "punctuated_word": "social"
+              },
+              {
+                "word": "media",
+                "start": 231.81,
+                "end": 232.45,
+                "confidence": 0.99365234,
+                "punctuated_word": "media."
+              },
+              {
+                "word": "i",
+                "start": 232.68999,
+                "end": 232.84999,
+                "confidence": 1,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "used",
+                "start": 232.84999,
+                "end": 233.17,
+                "confidence": 0.99902344,
+                "punctuated_word": "used"
+              },
+              {
+                "word": "for",
+                "start": 233.17,
+                "end": 233.40999,
+                "confidence": 0.7607422,
+                "punctuated_word": "for"
+              },
+              {
+                "word": "the",
+                "start": 233.40999,
+                "end": 233.56999,
+                "confidence": 1,
+                "punctuated_word": "the"
+              },
+              {
+                "word": "first",
+                "start": 233.56999,
+                "end": 233.81,
+                "confidence": 1,
+                "punctuated_word": "first"
+              },
+              {
+                "word": "time",
+                "start": 233.81,
+                "end": 234.04999,
+                "confidence": 1,
+                "punctuated_word": "time"
+              },
+              {
+                "word": "ever",
+                "start": 234.04999,
+                "end": 234.37,
+                "confidence": 1,
+                "punctuated_word": "ever"
+              },
+              {
+                "word": "tiktok",
+                "start": 234.37,
+                "end": 235.09,
+                "confidence": 0.98828125,
+                "punctuated_word": "TikTok"
+              },
+              {
+                "word": "yesterday",
+                "start": 235.09,
+                "end": 235.73,
+                "confidence": 0.9741211,
+                "punctuated_word": "yesterday,"
+              },
+              {
+                "word": "and",
+                "start": 236.255,
+                "end": 236.575,
+                "confidence": 1,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "i",
+                "start": 236.575,
+                "end": 236.815,
+                "confidence": 1,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "realized",
+                "start": 236.815,
+                "end": 237.295,
+                "confidence": 0.9951172,
+                "punctuated_word": "realized"
+              },
+              {
+                "word": "it's",
+                "start": 237.295,
+                "end": 237.615,
+                "confidence": 0.9946289,
+                "punctuated_word": "it's"
+              },
+              {
+                "word": "even",
+                "start": 237.615,
+                "end": 237.855,
+                "confidence": 1,
+                "punctuated_word": "even"
+              },
+              {
+                "word": "worse",
+                "start": 237.855,
+                "end": 238.095,
+                "confidence": 0.9941406,
+                "punctuated_word": "worse"
+              },
+              {
+                "word": "than",
+                "start": 238.095,
+                "end": 238.335,
+                "confidence": 0.99609375,
+                "punctuated_word": "than"
+              },
+              {
+                "word": "instagram",
+                "start": 238.335,
+                "end": 238.895,
+                "confidence": 1,
+                "punctuated_word": "Instagram"
+              },
+              {
+                "word": "because",
+                "start": 238.895,
+                "end": 239.615,
+                "confidence": 0.95410156,
+                "punctuated_word": "because"
+              },
+              {
+                "word": "oh",
+                "start": 253.51,
+                "end": 253.75,
+                "confidence": 0.40808105,
+                "punctuated_word": "Oh,"
+              },
+              {
+                "word": "only",
+                "start": 253.75,
+                "end": 254.39,
+                "confidence": 0.5350342,
+                "punctuated_word": "only."
+              },
+              {
+                "word": "sir",
+                "start": 254.39,
+                "end": 254.79,
+                "confidence": 0.6984863,
+                "punctuated_word": "Sir,"
+              },
+              {
+                "word": "only",
+                "start": 254.79,
+                "end": 255.03,
+                "confidence": 0.9863281,
+                "punctuated_word": "only."
+              },
+              {
+                "word": "sorry",
+                "start": 269.095,
+                "end": 269.57498,
+                "confidence": 0.82055664,
+                "punctuated_word": "Sorry."
+              },
+              {
+                "word": "or",
+                "start": 269.57498,
+                "end": 269.735,
+                "confidence": 0.6323242,
+                "punctuated_word": "Or"
+              },
+              {
+                "word": "you",
+                "start": 269.735,
+                "end": 270.055,
+                "confidence": 0.24523926,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "took",
+                "start": 270.055,
+                "end": 270.215,
+                "confidence": 0.7739258,
+                "punctuated_word": "took"
+              },
+              {
+                "word": "my",
+                "start": 270.215,
+                "end": 270.535,
+                "confidence": 0.94140625,
+                "punctuated_word": "my"
+              },
+              {
+                "word": "friend",
+                "start": 270.535,
+                "end": 270.85498,
+                "confidence": 0.94970703,
+                "punctuated_word": "friend."
+              },
+              {
+                "word": "yeah",
+                "start": 280.79,
+                "end": 281.35,
+                "confidence": 0.8654785,
+                "punctuated_word": "Yeah."
+              },
+              {
+                "word": "yeah",
+                "start": 281.35,
+                "end": 281.83002,
+                "confidence": 0.984375,
+                "punctuated_word": "Yeah."
+              },
+              {
+                "word": "the",
+                "start": 281.83002,
+                "end": 281.99,
+                "confidence": 0.9580078,
+                "punctuated_word": "The"
+              },
+              {
+                "word": "algorithm",
+                "start": 281.99,
+                "end": 282.79,
+                "confidence": 0.9658203,
+                "punctuated_word": "algorithm"
+              },
+              {
+                "word": "uses",
+                "start": 282.79,
+                "end": 283.91,
+                "confidence": 0.96533203,
+                "punctuated_word": "uses"
+              }
+            ],
+            "paragraphs": {
+              "transcript": "\nYou don't have ice do you have a personal laptop? Four four four. You think it's a waste of time, my friend? Do you think it's a waste of time? Yeah.\n\nAnd if it doesn't interfere with his daily life because there are it looks like 20 five. Mhmm. Health, life. Yes. That's all.\n\nAnd the next one I want to ask is, do you think smartphones are making our attention worse? Yeah. Yeah. But I think our we talked about this, my friend. Our attention span has gotten shorter and shorter due to the various issues we have talked about, such as Internet addiction, social media.\n\nI used for the first time ever TikTok yesterday, and I realized it's even worse than Instagram because Oh, only. Sir, only. Sorry. Or you took my friend. Yeah.\n\nYeah. The algorithm uses",
+              "paragraphs": [
+                {
+                  "sentences": [
+                    {
+                      "text": "You don't have ice do you have a personal laptop?",
+                      "start": 41.705,
+                      "end": 44.425003
+                    },
+                    {
+                      "text": "Four four four.",
+                      "start": 66.42,
+                      "end": 66.979996
+                    },
+                    {
+                      "text": "You think it's a waste of time, my friend?",
+                      "start": 68.805,
+                      "end": 76.725
+                    },
+                    {
+                      "text": "Do you think it's a waste of time?",
+                      "start": 77.205,
+                      "end": 78.965004
+                    },
+                    {
+                      "text": "Yeah.",
+                      "start": 115.729996,
+                      "end": 116.45
+                    }
+                  ],
+                  "num_words": 31,
+                  "start": 41.705,
+                  "end": 116.45
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "And if it doesn't interfere with his daily life because there are it looks like 20 five.",
+                      "start": 116.85,
+                      "end": 122.85
+                    },
+                    {
+                      "text": "Mhmm.",
+                      "start": 143.92001,
+                      "end": 144.48001
+                    },
+                    {
+                      "text": "Health, life.",
+                      "start": 144.48001,
+                      "end": 145.52
+                    },
+                    {
+                      "text": "Yes.",
+                      "start": 145.52,
+                      "end": 146.08002
+                    },
+                    {
+                      "text": "That's all.",
+                      "start": 146.32,
+                      "end": 148.48001
+                    }
+                  ],
+                  "num_words": 23,
+                  "start": 116.85,
+                  "end": 148.48001
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "And the next one I want to ask is, do you think smartphones are making our attention worse?",
+                      "start": 148.48001,
+                      "end": 156.255
+                    },
+                    {
+                      "text": "Yeah.",
+                      "start": 214.21501,
+                      "end": 214.85501
+                    },
+                    {
+                      "text": "Yeah.",
+                      "start": 214.85501,
+                      "end": 215.41501
+                    },
+                    {
+                      "text": "But I think our we talked about this, my friend.",
+                      "start": 217.815,
+                      "end": 220.375
+                    },
+                    {
+                      "text": "Our attention span has gotten shorter and shorter due to the various issues we have talked about, such as Internet addiction, social media.",
+                      "start": 220.375,
+                      "end": 232.45
+                    }
+                  ],
+                  "num_words": 53,
+                  "start": 148.48001,
+                  "end": 232.45
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "I used for the first time ever TikTok yesterday, and I realized it's even worse than Instagram because Oh, only.",
+                      "start": 232.68999,
+                      "end": 254.39
+                    },
+                    {
+                      "text": "Sir, only.",
+                      "start": 254.39,
+                      "end": 255.03
+                    },
+                    {
+                      "text": "Sorry.",
+                      "start": 269.095,
+                      "end": 269.57498
+                    },
+                    {
+                      "text": "Or you took my friend.",
+                      "start": 269.57498,
+                      "end": 270.85498
+                    },
+                    {
+                      "text": "Yeah.",
+                      "start": 280.79,
+                      "end": 281.35
+                    }
+                  ],
+                  "num_words": 29,
+                  "start": 232.68999,
+                  "end": 281.35
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "Yeah.",
+                      "start": 281.35,
+                      "end": 281.83002
+                    },
+                    {
+                      "text": "The algorithm uses",
+                      "start": 281.83002,
+                      "end": 283.91
+                    }
+                  ],
+                  "num_words": 4,
+                  "start": 281.35,
+                  "end": 283.91
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "paragraphs": {
+      "transcript": "\nChannel 0: First of all, it would be my phone because I get a lot of informations via my phone. I don't use my laptop out of my work and out of my language learning. Right now, I use laptop, but I'm not a person who who like, for example, playing games. So I don't I don't use my laptop out of my my obligations. So so, yeah, it's I don't have\n\nChannel 1: You don't have ice do you have a personal laptop?\n\nChannel 0: I have my personal lap laptop. Now I'm using it, and I'm laptop from my job to to work. Yeah? So I have two laptops, but my personal laptop is used practically only to to Preply, yeah, in this moment.\n\nChannel 1: Four four four.\n\nChannel 0: For Preply. For Preply.\n\nChannel 1: You\n\nChannel 0: Yeah. In this moment. Because as I told you, I don't play a lot of games. So\n\nChannel 1: think\n\nChannel 0: it\n\nChannel 1: it's a waste of time, my friend?\n\nChannel 0: no.\n\nChannel 1: Do you think it's a waste of time?\n\nChannel 0: I don't think it's a a waste of time at all. If someone like, likes it, it likes it, it can it can be funny. Like, for me, let learning playing with this is funny. But I've never I've never been a person who who liked playing games. It's was not my my passion.\n\nYeah. But but I don't think it's a waste of time if someone need if someone needs one or two hours per day to to to relax.\n\nChannel 1: Yeah.\n\nChannel 0: Yeah?\n\nChannel 1: And if it doesn't interfere with his daily life because there are\n\nChannel 0: Yeah. Because\n\nChannel 1: it\n\nChannel 0: it\n\nChannel 1: looks\n\nChannel 0: can\n\nChannel 1: like 20\n\nChannel 0: it can\n\nChannel 1: five.\n\nChannel 0: yeah. It can back up become become. Yeah. It can become it can be it becomes very problematic if you play during the night and you you don't sleep and you it cow it can cause more problem in your in your life.\n\nChannel 1: Mhmm. Health, life. Yes. That's all. And the next one I want to ask is, do you think smartphones are making our attention worse?\n\nChannel 0: I think so because because I have read a lot of investigations when investigate when investigators burst out this this opinion because it was it was shown, I think, that we are more disrupted. And even, for example, if we read a book if you read a book via your laptop or your smartphone, it's not the same if we if you use a book. Yeah? A book like so it's it shows that that that our disruptions, whether do we use application, whether or not, has caused a lot of a lot of changes in in the recent years. Yeah?\n\nChannel 1: Yeah.\n\nChannel 0: We've\n\nChannel 1: Yeah.\n\nChannel 0: been we've been living with with with\n\nChannel 1: But I think our we talked about this, my friend. Our attention span has gotten shorter and shorter\n\nChannel 0: It's not in short\n\nChannel 1: due\n\nChannel 0: area.\n\nChannel 1: to the various issues we have talked about, such as Internet addiction, social media. I used for the first time ever TikTok yesterday, and I realized it's even worse than Instagram because\n\nChannel 0: TikTok TikTok, you know, I saw one investigation or I had one opinion about TikTok that's comparing it to YouTube. In YouTube, you have\n\nChannel 1: Oh,\n\nChannel 0: you\n\nChannel 1: only. Sir, only.\n\nChannel 0: On YouTube. On you on YouTube, you have both videos one hours videos, one minute videos. Yeah? But in YouTube, you\n\nChannel 1: Sorry.\n\nChannel 0: you are\n\nChannel 1: Or you took my friend.\n\nChannel 0: on YouTube. On YouTube. Yeah. On YouTube. On YouTube, you are supposed to choose what you want to watch.\n\nYeah? And on tick on TikTok. Yeah?\n\nChannel 1: Yeah. Yeah.\n\nChannel 0: On\n\nChannel 1: The\n\nChannel 0: TikTok,\n\nChannel 1: algorithm uses\n\nChannel 0: the algorithm decides. So you are more lazy, let's say, when it comes to choose. So it it cause more problems when it comes to your attention. And I don't like this type of videos that's that's",
+      "paragraphs": [
+        {
+          "sentences": [
+            {
+              "text": "First of all, it would be my phone because I get a lot of informations via my phone.",
+              "start": 0,
+              "end": 9.2
+            },
+            {
+              "text": "I don't use my laptop out of my work and out of my language learning.",
+              "start": 9.2,
+              "end": 17.855
+            },
+            {
+              "text": "Right now, I use laptop, but I'm not a person who who like, for example, playing games.",
+              "start": 17.855,
+              "end": 26.095
+            },
+            {
+              "text": "So I don't I don't use my laptop out of my my obligations.",
+              "start": 26.255001,
+              "end": 38.03
+            },
+            {
+              "text": "So so, yeah, it's I don't have",
+              "start": 38.03,
+              "end": 41.31
+            }
+          ],
+          "channel": 0,
+          "num_words": 70,
+          "start": 0,
+          "end": 41.31
+        },
+        {
+          "sentences": [
+            {
+              "text": "You don't have ice do you have a personal laptop?",
+              "start": 41.705,
+              "end": 44.425003
+            }
+          ],
+          "channel": 1,
+          "num_words": 10,
+          "start": 41.705,
+          "end": 44.425003
+        },
+        {
+          "sentences": [
+            {
+              "text": "I have my personal lap laptop.",
+              "start": 45.775,
+              "end": 48.175003
+            },
+            {
+              "text": "Now I'm using it, and I'm laptop from my job to to work.",
+              "start": 48.175003,
+              "end": 56.015
+            },
+            {
+              "text": "Yeah?",
+              "start": 56.015,
+              "end": 56.335003
+            },
+            {
+              "text": "So I have two laptops, but my personal laptop is used practically only to to Preply, yeah, in this moment.",
+              "start": 56.335003,
+              "end": 65.700005
+            }
+          ],
+          "channel": 0,
+          "num_words": 40,
+          "start": 45.775,
+          "end": 65.700005
+        },
+        {
+          "sentences": [
+            {
+              "text": "Four four four.",
+              "start": 66.42,
+              "end": 66.979996
+            }
+          ],
+          "channel": 1,
+          "num_words": 3,
+          "start": 66.42,
+          "end": 66.979996
+        },
+        {
+          "sentences": [
+            {
+              "text": "For Preply.",
+              "start": 67.78,
+              "end": 68.5
+            },
+            {
+              "text": "For Preply.",
+              "start": 68.5,
+              "end": 68.98
+            }
+          ],
+          "channel": 0,
+          "num_words": 4,
+          "start": 67.78,
+          "end": 68.98
+        },
+        {
+          "sentences": [
+            {
+              "text": "You",
+              "start": 68.805,
+              "end": 69.765
+            }
+          ],
+          "channel": 1,
+          "num_words": 1,
+          "start": 68.805,
+          "end": 69.765
+        },
+        {
+          "sentences": [
+            {
+              "text": "Yeah.",
+              "start": 68.98,
+              "end": 69.14
+            },
+            {
+              "text": "In this moment.",
+              "start": 69.14,
+              "end": 70.020004
+            },
+            {
+              "text": "Because as I told you, I don't play a lot of games.",
+              "start": 70.020004,
+              "end": 73.62
+            },
+            {
+              "text": "So",
+              "start": 73.62,
+              "end": 73.86
+            }
+          ],
+          "channel": 0,
+          "num_words": 17,
+          "start": 68.98,
+          "end": 73.86
+        },
+        {
+          "sentences": [
+            {
+              "text": "think",
+              "start": 74.405,
+              "end": 74.645004
+            }
+          ],
+          "channel": 1,
+          "num_words": 1,
+          "start": 74.405,
+          "end": 74.645004
+        },
+        {
+          "sentences": [
+            {
+              "text": "it",
+              "start": 74.645,
+              "end": 74.884995
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 74.645,
+          "end": 74.884995
+        },
+        {
+          "sentences": [
+            {
+              "text": "it's a waste of time, my friend?",
+              "start": 74.645004,
+              "end": 76.725
+            }
+          ],
+          "channel": 1,
+          "num_words": 7,
+          "start": 74.645004,
+          "end": 76.725
+        },
+        {
+          "sentences": [
+            {
+              "text": "no.",
+              "start": 76.325,
+              "end": 76.965
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 76.325,
+          "end": 76.965
+        },
+        {
+          "sentences": [
+            {
+              "text": "Do you think it's a waste of time?",
+              "start": 77.205,
+              "end": 78.965004
+            }
+          ],
+          "channel": 1,
+          "num_words": 8,
+          "start": 77.205,
+          "end": 78.965004
+        },
+        {
+          "sentences": [
+            {
+              "text": "I don't think it's a a waste of time at all.",
+              "start": 79.924995,
+              "end": 83.365
+            },
+            {
+              "text": "If someone like, likes it, it likes it, it can it can be funny.",
+              "start": 83.84499,
+              "end": 91.18
+            },
+            {
+              "text": "Like, for me, let learning playing with this is funny.",
+              "start": 91.26,
+              "end": 94.54
+            },
+            {
+              "text": "But I've never I've never been a person who who liked playing games.",
+              "start": 94.700005,
+              "end": 99.9
+            },
+            {
+              "text": "It's was not my my passion.",
+              "start": 99.9,
+              "end": 103.455
+            }
+          ],
+          "channel": 0,
+          "num_words": 54,
+          "start": 79.924995,
+          "end": 103.455
+        },
+        {
+          "sentences": [
+            {
+              "text": "Yeah.",
+              "start": 103.455,
+              "end": 103.695
+            },
+            {
+              "text": "But but I don't think it's a waste of time if someone need if someone needs one or two hours per day to to to relax.",
+              "start": 103.695,
+              "end": 115.935005
+            }
+          ],
+          "channel": 0,
+          "num_words": 27,
+          "start": 103.455,
+          "end": 115.935005
+        },
+        {
+          "sentences": [
+            {
+              "text": "Yeah.",
+              "start": 115.729996,
+              "end": 116.45
+            }
+          ],
+          "channel": 1,
+          "num_words": 1,
+          "start": 115.729996,
+          "end": 116.45
+        },
+        {
+          "sentences": [
+            {
+              "text": "Yeah?",
+              "start": 115.935005,
+              "end": 116.175
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 115.935005,
+          "end": 116.175
+        },
+        {
+          "sentences": [
+            {
+              "text": "And if it doesn't interfere with his daily life because there are",
+              "start": 116.85,
+              "end": 121.09
+            }
+          ],
+          "channel": 1,
+          "num_words": 12,
+          "start": 116.85,
+          "end": 121.09
+        },
+        {
+          "sentences": [
+            {
+              "text": "Yeah.",
+              "start": 120.619995,
+              "end": 120.939995
+            },
+            {
+              "text": "Because",
+              "start": 120.939995,
+              "end": 121.34
+            }
+          ],
+          "channel": 0,
+          "num_words": 2,
+          "start": 120.619995,
+          "end": 121.34
+        },
+        {
+          "sentences": [
+            {
+              "text": "it",
+              "start": 121.33,
+              "end": 121.49
+            }
+          ],
+          "channel": 1,
+          "num_words": 1,
+          "start": 121.33,
+          "end": 121.49
+        },
+        {
+          "sentences": [
+            {
+              "text": "it",
+              "start": 121.34,
+              "end": 121.579994
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 121.34,
+          "end": 121.579994
+        },
+        {
+          "sentences": [
+            {
+              "text": "looks",
+              "start": 121.49,
+              "end": 121.65
+            }
+          ],
+          "channel": 1,
+          "num_words": 1,
+          "start": 121.49,
+          "end": 121.65
+        },
+        {
+          "sentences": [
+            {
+              "text": "can",
+              "start": 121.579994,
+              "end": 121.899994
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 121.579994,
+          "end": 121.899994
+        },
+        {
+          "sentences": [
+            {
+              "text": "like 20",
+              "start": 121.65,
+              "end": 122.369995
+            }
+          ],
+          "channel": 1,
+          "num_words": 2,
+          "start": 121.65,
+          "end": 122.369995
+        },
+        {
+          "sentences": [
+            {
+              "text": "it can",
+              "start": 121.899994,
+              "end": 122.78
+            }
+          ],
+          "channel": 0,
+          "num_words": 2,
+          "start": 121.899994,
+          "end": 122.78
+        },
+        {
+          "sentences": [
+            {
+              "text": "five.",
+              "start": 122.369995,
+              "end": 122.85
+            }
+          ],
+          "channel": 1,
+          "num_words": 1,
+          "start": 122.369995,
+          "end": 122.85
+        },
+        {
+          "sentences": [
+            {
+              "text": "yeah.",
+              "start": 122.939995,
+              "end": 123.259995
+            },
+            {
+              "text": "It can back up become become.",
+              "start": 123.259995,
+              "end": 125.259995
+            },
+            {
+              "text": "Yeah.",
+              "start": 125.259995,
+              "end": 125.5
+            },
+            {
+              "text": "It can become it can be it becomes very problematic if you play during the night and you you don't sleep and you it cow it can cause more problem in your in your life.",
+              "start": 125.5,
+              "end": 143.015
+            }
+          ],
+          "channel": 0,
+          "num_words": 43,
+          "start": 122.939995,
+          "end": 143.015
+        },
+        {
+          "sentences": [
+            {
+              "text": "Mhmm.",
+              "start": 143.92001,
+              "end": 144.48001
+            },
+            {
+              "text": "Health, life.",
+              "start": 144.48001,
+              "end": 145.52
+            },
+            {
+              "text": "Yes.",
+              "start": 145.52,
+              "end": 146.08002
+            },
+            {
+              "text": "That's all.",
+              "start": 146.32,
+              "end": 148.48001
+            },
+            {
+              "text": "And the next one I want to ask is, do you think smartphones are making our attention worse?",
+              "start": 148.48001,
+              "end": 156.255
+            }
+          ],
+          "channel": 1,
+          "num_words": 24,
+          "start": 143.92001,
+          "end": 156.255
+        },
+        {
+          "sentences": [
+            {
+              "text": "I think so because because I have read a lot of investigations when investigate when investigators burst out this this opinion because it was it was shown, I think, that we are more disrupted.",
+              "start": 159.01001,
+              "end": 182.69
+            },
+            {
+              "text": "And even, for example, if we read a book if you read a book via your laptop or your smartphone, it's not the same if we if you use a book.",
+              "start": 182.69,
+              "end": 196.58499
+            },
+            {
+              "text": "Yeah?",
+              "start": 196.58499,
+              "end": 196.905
+            },
+            {
+              "text": "A book like so it's it shows that that that our disruptions, whether do we use application, whether or not, has caused a lot of a lot of changes in in the recent years.",
+              "start": 196.905,
+              "end": 213.84
+            },
+            {
+              "text": "Yeah?",
+              "start": 213.84,
+              "end": 214.32
+            }
+          ],
+          "channel": 0,
+          "num_words": 101,
+          "start": 159.01001,
+          "end": 214.32
+        },
+        {
+          "sentences": [
+            {
+              "text": "Yeah.",
+              "start": 214.21501,
+              "end": 214.85501
+            }
+          ],
+          "channel": 1,
+          "num_words": 1,
+          "start": 214.21501,
+          "end": 214.85501
+        },
+        {
+          "sentences": [
+            {
+              "text": "We've",
+              "start": 214.56,
+              "end": 214.96
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 214.56,
+          "end": 214.96
+        },
+        {
+          "sentences": [
+            {
+              "text": "Yeah.",
+              "start": 214.85501,
+              "end": 215.41501
+            }
+          ],
+          "channel": 1,
+          "num_words": 1,
+          "start": 214.85501,
+          "end": 215.41501
+        },
+        {
+          "sentences": [
+            {
+              "text": "been we've been living with with with",
+              "start": 214.96,
+              "end": 217.76001
+            }
+          ],
+          "channel": 0,
+          "num_words": 7,
+          "start": 214.96,
+          "end": 217.76001
+        },
+        {
+          "sentences": [
+            {
+              "text": "But I think our we talked about this, my friend.",
+              "start": 217.815,
+              "end": 220.375
+            },
+            {
+              "text": "Our attention span has gotten shorter and shorter",
+              "start": 220.375,
+              "end": 223.255
+            }
+          ],
+          "channel": 1,
+          "num_words": 18,
+          "start": 217.815,
+          "end": 223.255
+        },
+        {
+          "sentences": [
+            {
+              "text": "It's not in short",
+              "start": 223.125,
+              "end": 224.005
+            }
+          ],
+          "channel": 0,
+          "num_words": 4,
+          "start": 223.125,
+          "end": 224.005
+        },
+        {
+          "sentences": [
+            {
+              "text": "due",
+              "start": 223.81,
+              "end": 224.69
+            }
+          ],
+          "channel": 1,
+          "num_words": 1,
+          "start": 223.81,
+          "end": 224.69
+        },
+        {
+          "sentences": [
+            {
+              "text": "area.",
+              "start": 224.005,
+              "end": 224.325
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 224.005,
+          "end": 224.325
+        },
+        {
+          "sentences": [
+            {
+              "text": "to the various issues we have talked about, such as Internet addiction, social media.",
+              "start": 224.76999,
+              "end": 232.45
+            },
+            {
+              "text": "I used for the first time ever TikTok yesterday, and I realized it's even worse than Instagram because",
+              "start": 232.68999,
+              "end": 239.615
+            }
+          ],
+          "channel": 1,
+          "num_words": 32,
+          "start": 224.76999,
+          "end": 239.615
+        },
+        {
+          "sentences": [
+            {
+              "text": "TikTok TikTok, you know, I saw one investigation or I had one opinion about TikTok that's comparing it to YouTube.",
+              "start": 239.25,
+              "end": 251.17001
+            },
+            {
+              "text": "In YouTube, you have",
+              "start": 251.56999,
+              "end": 253.41
+            }
+          ],
+          "channel": 0,
+          "num_words": 24,
+          "start": 239.25,
+          "end": 253.41
+        },
+        {
+          "sentences": [
+            {
+              "text": "Oh,",
+              "start": 253.51,
+              "end": 253.75
+            }
+          ],
+          "channel": 1,
+          "num_words": 1,
+          "start": 253.51,
+          "end": 253.75
+        },
+        {
+          "sentences": [
+            {
+              "text": "you",
+              "start": 253.73,
+              "end": 253.97
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 253.73,
+          "end": 253.97
+        },
+        {
+          "sentences": [
+            {
+              "text": "only.",
+              "start": 253.75,
+              "end": 254.39
+            },
+            {
+              "text": "Sir, only.",
+              "start": 254.39,
+              "end": 255.03
+            }
+          ],
+          "channel": 1,
+          "num_words": 3,
+          "start": 253.75,
+          "end": 255.03
+        },
+        {
+          "sentences": [
+            {
+              "text": "On YouTube.",
+              "start": 254.86499,
+              "end": 255.58499
+            },
+            {
+              "text": "On you on YouTube, you have both videos one hours videos, one minute videos.",
+              "start": 255.58499,
+              "end": 265.26498
+            },
+            {
+              "text": "Yeah?",
+              "start": 265.26498,
+              "end": 265.825
+            },
+            {
+              "text": "But in YouTube, you",
+              "start": 266.705,
+              "end": 268.545
+            }
+          ],
+          "channel": 0,
+          "num_words": 21,
+          "start": 254.86499,
+          "end": 268.545
+        },
+        {
+          "sentences": [
+            {
+              "text": "Sorry.",
+              "start": 269.095,
+              "end": 269.57498
+            }
+          ],
+          "channel": 1,
+          "num_words": 1,
+          "start": 269.095,
+          "end": 269.57498
+        },
+        {
+          "sentences": [
+            {
+              "text": "you are",
+              "start": 269.185,
+              "end": 270.065
+            }
+          ],
+          "channel": 0,
+          "num_words": 2,
+          "start": 269.185,
+          "end": 270.065
+        },
+        {
+          "sentences": [
+            {
+              "text": "Or you took my friend.",
+              "start": 269.57498,
+              "end": 270.85498
+            }
+          ],
+          "channel": 1,
+          "num_words": 5,
+          "start": 269.57498,
+          "end": 270.85498
+        },
+        {
+          "sentences": [
+            {
+              "text": "on YouTube.",
+              "start": 270.84,
+              "end": 271.31998
+            },
+            {
+              "text": "On YouTube.",
+              "start": 271.31998,
+              "end": 271.96
+            },
+            {
+              "text": "Yeah.",
+              "start": 271.96,
+              "end": 272.19998
+            },
+            {
+              "text": "On YouTube.",
+              "start": 272.19998,
+              "end": 272.75998
+            },
+            {
+              "text": "On YouTube, you are supposed to choose what you want to watch.",
+              "start": 272.75998,
+              "end": 277.4
+            }
+          ],
+          "channel": 0,
+          "num_words": 19,
+          "start": 270.84,
+          "end": 277.4
+        },
+        {
+          "sentences": [
+            {
+              "text": "Yeah?",
+              "start": 277.4,
+              "end": 277.8
+            },
+            {
+              "text": "And on tick on TikTok.",
+              "start": 277.8,
+              "end": 280.19998
+            },
+            {
+              "text": "Yeah?",
+              "start": 280.19998,
+              "end": 280.75998
+            }
+          ],
+          "channel": 0,
+          "num_words": 7,
+          "start": 277.4,
+          "end": 280.75998
+        },
+        {
+          "sentences": [
+            {
+              "text": "Yeah.",
+              "start": 280.79,
+              "end": 281.35
+            },
+            {
+              "text": "Yeah.",
+              "start": 281.35,
+              "end": 281.83002
+            }
+          ],
+          "channel": 1,
+          "num_words": 2,
+          "start": 280.79,
+          "end": 281.83002
+        },
+        {
+          "sentences": [
+            {
+              "text": "On",
+              "start": 281.63998,
+              "end": 281.87997
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 281.63998,
+          "end": 281.87997
+        },
+        {
+          "sentences": [
+            {
+              "text": "The",
+              "start": 281.83002,
+              "end": 281.99
+            }
+          ],
+          "channel": 1,
+          "num_words": 1,
+          "start": 281.83002,
+          "end": 281.99
+        },
+        {
+          "sentences": [
+            {
+              "text": "TikTok,",
+              "start": 281.87997,
+              "end": 282.28
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 281.87997,
+          "end": 282.28
+        },
+        {
+          "sentences": [
+            {
+              "text": "algorithm uses",
+              "start": 281.99,
+              "end": 283.91
+            }
+          ],
+          "channel": 1,
+          "num_words": 2,
+          "start": 281.99,
+          "end": 283.91
+        },
+        {
+          "sentences": [
+            {
+              "text": "the algorithm decides.",
+              "start": 283.065,
+              "end": 284.98502
+            },
+            {
+              "text": "So you are more lazy, let's say, when it comes to choose.",
+              "start": 284.98502,
+              "end": 290.42502
+            },
+            {
+              "text": "So it it cause more problems when it comes to your attention.",
+              "start": 290.42502,
+              "end": 294.98502
+            },
+            {
+              "text": "And I don't like this type of videos that's that's",
+              "start": 294.98502,
+              "end": 299.59494
+            }
+          ],
+          "channel": 0,
+          "num_words": 37,
+          "start": 283.065,
+          "end": 299.59494
+        }
+      ]
+    }
+  }
+}

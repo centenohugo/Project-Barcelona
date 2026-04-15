@@ -1,0 +1,6112 @@
+{
+  "results": {
+    "channels": [
+      {
+        "alternatives": [
+          {
+            "transcript": "A cup of coffee. And I don't I don't remember I don't remember them what's what's what you what you thought. Okay. Mhmm. Today, I took, today today, I took eggs and, a cup of coffee. Today, I took eggs and a cup of coffee. Today, I ate 2 bald eggs and a cup of coffee. Today, I ate 2 bald eggs and a cup of hot coffee. Today, I ate 2 bold eggs 2 bold 2 bold eggs and a cup of of hot or on black hot coffee. Okay. Today, I ate 2 eggs and a cup of coffee. Today, I ate 2 bold eggs and a cup of coffee. Today, I ate 2 bold eggs and a cup of black hot coffee. Today, I ate 2 x and a cup of coffee. Yeah. Today, I ate 2 x and a cup of of hot coffee. Yeah? Today, I ate 2 eggs and a cup of hot coffee. Today, I ate 2 eggs and a cup of black hot coffee. Mhmm. Okay. Okay. So so I mhmm. Okay. Okay. Okay. Okay. Today, I ate 2 eggs and coffee. Today, I ate 2 eggs and a cup of coffee. Today, I had, I had today, I had 2 eggs and a cup of coffee. Today, I had 2 egg",
+            "confidence": 0.9970703,
+            "words": [
+              {
+                "word": "a",
+                "start": 0,
+                "end": 0.16,
+                "confidence": 0.5517578,
+                "punctuated_word": "A"
+              },
+              {
+                "word": "cup",
+                "start": 0.16,
+                "end": 0.48,
+                "confidence": 0.9941406,
+                "punctuated_word": "cup"
+              },
+              {
+                "word": "of",
+                "start": 0.48,
+                "end": 0.64,
+                "confidence": 0.99902344,
+                "punctuated_word": "of"
+              },
+              {
+                "word": "coffee",
+                "start": 0.64,
+                "end": 1.3599999,
+                "confidence": 0.86865234,
+                "punctuated_word": "coffee."
+              },
+              {
+                "word": "and",
+                "start": 1.5999999,
+                "end": 1.92,
+                "confidence": 0.99609375,
+                "punctuated_word": "And"
+              },
+              {
+                "word": "i",
+                "start": 1.92,
+                "end": 3.4399998,
+                "confidence": 0.74072266,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "don't",
+                "start": 3.4399998,
+                "end": 3.6799998,
+                "confidence": 0.97802734,
+                "punctuated_word": "don't"
+              },
+              {
+                "word": "i",
+                "start": 3.6799998,
+                "end": 3.9199998,
+                "confidence": 0.96777344,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "don't",
+                "start": 3.9199998,
+                "end": 4.16,
+                "confidence": 0.9995117,
+                "punctuated_word": "don't"
+              },
+              {
+                "word": "remember",
+                "start": 4.16,
+                "end": 5.04,
+                "confidence": 0.9980469,
+                "punctuated_word": "remember"
+              },
+              {
+                "word": "i",
+                "start": 5.52,
+                "end": 5.8399997,
+                "confidence": 0.8510742,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "don't",
+                "start": 5.8399997,
+                "end": 6,
+                "confidence": 1,
+                "punctuated_word": "don't"
+              },
+              {
+                "word": "remember",
+                "start": 6,
+                "end": 6.8,
+                "confidence": 1,
+                "punctuated_word": "remember"
+              },
+              {
+                "word": "them",
+                "start": 7.3599997,
+                "end": 7.7599998,
+                "confidence": 0.7578125,
+                "punctuated_word": "them"
+              },
+              {
+                "word": "what's",
+                "start": 7.7599998,
+                "end": 8.4,
+                "confidence": 0.61572266,
+                "punctuated_word": "what's"
+              },
+              {
+                "word": "what's",
+                "start": 8.4,
+                "end": 9.76,
+                "confidence": 0.81640625,
+                "punctuated_word": "what's"
+              },
+              {
+                "word": "what",
+                "start": 9.92,
+                "end": 10,
+                "confidence": 0.9951172,
+                "punctuated_word": "what"
+              },
+              {
+                "word": "you",
+                "start": 10,
+                "end": 10.24,
+                "confidence": 0.9291992,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "what",
+                "start": 10.24,
+                "end": 10.48,
+                "confidence": 0.8232422,
+                "punctuated_word": "what"
+              },
+              {
+                "word": "you",
+                "start": 10.48,
+                "end": 10.639999,
+                "confidence": 0.99316406,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "thought",
+                "start": 10.639999,
+                "end": 10.96,
+                "confidence": 0.9724121,
+                "punctuated_word": "thought."
+              },
+              {
+                "word": "okay",
+                "start": 15.225,
+                "end": 15.865,
+                "confidence": 0.9926758,
+                "punctuated_word": "Okay."
+              },
+              {
+                "word": "mhmm",
+                "start": 18.825,
+                "end": 19.225,
+                "confidence": 0.86206055,
+                "punctuated_word": "Mhmm."
+              },
+              {
+                "word": "today",
+                "start": 30.76,
+                "end": 31.400002,
+                "confidence": 0.8491211,
+                "punctuated_word": "Today,"
+              },
+              {
+                "word": "i",
+                "start": 31.400002,
+                "end": 31.560001,
+                "confidence": 1,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "took",
+                "start": 31.560001,
+                "end": 32.12,
+                "confidence": 0.71606445,
+                "punctuated_word": "took,"
+              },
+              {
+                "word": "today",
+                "start": 32.6,
+                "end": 33.24,
+                "confidence": 0.99902344,
+                "punctuated_word": "today"
+              },
+              {
+                "word": "today",
+                "start": 33.24,
+                "end": 33.88,
+                "confidence": 0.94677734,
+                "punctuated_word": "today,"
+              },
+              {
+                "word": "i",
+                "start": 33.88,
+                "end": 34.04,
+                "confidence": 1,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "took",
+                "start": 34.04,
+                "end": 34.6,
+                "confidence": 0.99902344,
+                "punctuated_word": "took"
+              },
+              {
+                "word": "eggs",
+                "start": 34.6,
+                "end": 35.08,
+                "confidence": 0.95410156,
+                "punctuated_word": "eggs"
+              },
+              {
+                "word": "and",
+                "start": 35.08,
+                "end": 35.64,
+                "confidence": 0.9406738,
+                "punctuated_word": "and,"
+              },
+              {
+                "word": "a",
+                "start": 35.88,
+                "end": 36.120003,
+                "confidence": 1,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "cup",
+                "start": 36.120003,
+                "end": 36.440002,
+                "confidence": 0.9970703,
+                "punctuated_word": "cup"
+              },
+              {
+                "word": "of",
+                "start": 36.440002,
+                "end": 36.6,
+                "confidence": 1,
+                "punctuated_word": "of"
+              },
+              {
+                "word": "coffee",
+                "start": 36.6,
+                "end": 37,
+                "confidence": 0.9951172,
+                "punctuated_word": "coffee."
+              },
+              {
+                "word": "today",
+                "start": 46.655003,
+                "end": 47.535,
+                "confidence": 0.95947266,
+                "punctuated_word": "Today,"
+              },
+              {
+                "word": "i",
+                "start": 47.535,
+                "end": 47.775,
+                "confidence": 1,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "took",
+                "start": 47.775,
+                "end": 48.095,
+                "confidence": 0.99902344,
+                "punctuated_word": "took"
+              },
+              {
+                "word": "eggs",
+                "start": 48.095,
+                "end": 48.495003,
+                "confidence": 0.9790039,
+                "punctuated_word": "eggs"
+              },
+              {
+                "word": "and",
+                "start": 48.495003,
+                "end": 48.895,
+                "confidence": 0.9980469,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "a",
+                "start": 48.895,
+                "end": 49.215,
+                "confidence": 0.99902344,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "cup",
+                "start": 49.215,
+                "end": 49.455,
+                "confidence": 1,
+                "punctuated_word": "cup"
+              },
+              {
+                "word": "of",
+                "start": 49.455,
+                "end": 49.615,
+                "confidence": 0.99902344,
+                "punctuated_word": "of"
+              },
+              {
+                "word": "coffee",
+                "start": 49.615,
+                "end": 50.015,
+                "confidence": 0.9970703,
+                "punctuated_word": "coffee."
+              },
+              {
+                "word": "today",
+                "start": 58.829998,
+                "end": 59.629997,
+                "confidence": 0.9477539,
+                "punctuated_word": "Today,"
+              },
+              {
+                "word": "i",
+                "start": 59.629997,
+                "end": 59.87,
+                "confidence": 1,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "ate",
+                "start": 59.87,
+                "end": 60.51,
+                "confidence": 0.9980469,
+                "punctuated_word": "ate"
+              },
+              {
+                "word": "2",
+                "start": 60.51,
+                "end": 61.149998,
+                "confidence": 0.9980469,
+                "punctuated_word": "2"
+              },
+              {
+                "word": "bald",
+                "start": 61.39,
+                "end": 61.789997,
+                "confidence": 0.65808105,
+                "punctuated_word": "bald"
+              },
+              {
+                "word": "eggs",
+                "start": 61.789997,
+                "end": 62.35,
+                "confidence": 0.9873047,
+                "punctuated_word": "eggs"
+              },
+              {
+                "word": "and",
+                "start": 62.35,
+                "end": 64.27,
+                "confidence": 0.8125,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "a",
+                "start": 64.43,
+                "end": 64.59,
+                "confidence": 0.8984375,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "cup",
+                "start": 64.59,
+                "end": 64.83,
+                "confidence": 0.68847656,
+                "punctuated_word": "cup"
+              },
+              {
+                "word": "of",
+                "start": 64.83,
+                "end": 64.99,
+                "confidence": 0.99902344,
+                "punctuated_word": "of"
+              },
+              {
+                "word": "coffee",
+                "start": 64.99,
+                "end": 65.39,
+                "confidence": 0.9951172,
+                "punctuated_word": "coffee."
+              },
+              {
+                "word": "today",
+                "start": 73.875,
+                "end": 74.515,
+                "confidence": 0.9108887,
+                "punctuated_word": "Today,"
+              },
+              {
+                "word": "i",
+                "start": 74.515,
+                "end": 74.755005,
+                "confidence": 1,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "ate",
+                "start": 74.755005,
+                "end": 75.395004,
+                "confidence": 0.99902344,
+                "punctuated_word": "ate"
+              },
+              {
+                "word": "2",
+                "start": 75.395004,
+                "end": 76.195,
+                "confidence": 1,
+                "punctuated_word": "2"
+              },
+              {
+                "word": "bald",
+                "start": 76.195,
+                "end": 76.595,
+                "confidence": 0.8100586,
+                "punctuated_word": "bald"
+              },
+              {
+                "word": "eggs",
+                "start": 76.595,
+                "end": 77.075005,
+                "confidence": 0.9951172,
+                "punctuated_word": "eggs"
+              },
+              {
+                "word": "and",
+                "start": 77.075005,
+                "end": 77.795006,
+                "confidence": 0.99609375,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "a",
+                "start": 77.875,
+                "end": 78.19501,
+                "confidence": 1,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "cup",
+                "start": 78.19501,
+                "end": 78.515,
+                "confidence": 1,
+                "punctuated_word": "cup"
+              },
+              {
+                "word": "of",
+                "start": 78.515,
+                "end": 78.755005,
+                "confidence": 1,
+                "punctuated_word": "of"
+              },
+              {
+                "word": "hot",
+                "start": 78.755005,
+                "end": 79.075005,
+                "confidence": 1,
+                "punctuated_word": "hot"
+              },
+              {
+                "word": "coffee",
+                "start": 79.075005,
+                "end": 79.475006,
+                "confidence": 0.99853516,
+                "punctuated_word": "coffee."
+              },
+              {
+                "word": "today",
+                "start": 87.71999,
+                "end": 88.28,
+                "confidence": 0.93066406,
+                "punctuated_word": "Today,"
+              },
+              {
+                "word": "i",
+                "start": 88.28,
+                "end": 88.52,
+                "confidence": 1,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "ate",
+                "start": 88.52,
+                "end": 89.079994,
+                "confidence": 0.9951172,
+                "punctuated_word": "ate"
+              },
+              {
+                "word": "2",
+                "start": 89.079994,
+                "end": 89.56,
+                "confidence": 0.9970703,
+                "punctuated_word": "2"
+              },
+              {
+                "word": "bold",
+                "start": 89.56,
+                "end": 90.28,
+                "confidence": 0.24499512,
+                "punctuated_word": "bold"
+              },
+              {
+                "word": "eggs",
+                "start": 90.28,
+                "end": 90.92,
+                "confidence": 0.9428711,
+                "punctuated_word": "eggs"
+              },
+              {
+                "word": "2",
+                "start": 91.159996,
+                "end": 91.32,
+                "confidence": 0.9941406,
+                "punctuated_word": "2"
+              },
+              {
+                "word": "bold",
+                "start": 91.32,
+                "end": 91.64,
+                "confidence": 0.7583008,
+                "punctuated_word": "bold"
+              },
+              {
+                "word": "2",
+                "start": 91.64,
+                "end": 91.88,
+                "confidence": 0.9091797,
+                "punctuated_word": "2"
+              },
+              {
+                "word": "bold",
+                "start": 91.88,
+                "end": 92.119995,
+                "confidence": 0.95703125,
+                "punctuated_word": "bold"
+              },
+              {
+                "word": "eggs",
+                "start": 92.119995,
+                "end": 92.6,
+                "confidence": 0.9892578,
+                "punctuated_word": "eggs"
+              },
+              {
+                "word": "and",
+                "start": 92.6,
+                "end": 93.399994,
+                "confidence": 0.93359375,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "a",
+                "start": 94.439995,
+                "end": 94.759995,
+                "confidence": 0.99609375,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "cup",
+                "start": 94.759995,
+                "end": 95.079994,
+                "confidence": 0.98535156,
+                "punctuated_word": "cup"
+              },
+              {
+                "word": "of",
+                "start": 95.079994,
+                "end": 95.96,
+                "confidence": 1,
+                "punctuated_word": "of"
+              },
+              {
+                "word": "of",
+                "start": 97.825,
+                "end": 98.145004,
+                "confidence": 0.99316406,
+                "punctuated_word": "of"
+              },
+              {
+                "word": "hot",
+                "start": 98.145004,
+                "end": 98.945,
+                "confidence": 0.9902344,
+                "punctuated_word": "hot"
+              },
+              {
+                "word": "or",
+                "start": 99.025,
+                "end": 99.265,
+                "confidence": 0.4807129,
+                "punctuated_word": "or"
+              },
+              {
+                "word": "on",
+                "start": 99.265,
+                "end": 99.505,
+                "confidence": 0.28833008,
+                "punctuated_word": "on"
+              },
+              {
+                "word": "black",
+                "start": 99.505,
+                "end": 99.985,
+                "confidence": 0.80371094,
+                "punctuated_word": "black"
+              },
+              {
+                "word": "hot",
+                "start": 100.145004,
+                "end": 100.705,
+                "confidence": 0.7988281,
+                "punctuated_word": "hot"
+              },
+              {
+                "word": "coffee",
+                "start": 100.705,
+                "end": 101.665,
+                "confidence": 0.97021484,
+                "punctuated_word": "coffee."
+              },
+              {
+                "word": "okay",
+                "start": 101.905,
+                "end": 102.465004,
+                "confidence": 0.9880371,
+                "punctuated_word": "Okay."
+              },
+              {
+                "word": "today",
+                "start": 108.89,
+                "end": 109.61,
+                "confidence": 0.7753906,
+                "punctuated_word": "Today,"
+              },
+              {
+                "word": "i",
+                "start": 109.61,
+                "end": 109.770004,
+                "confidence": 1,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "ate",
+                "start": 109.770004,
+                "end": 110.49,
+                "confidence": 0.9970703,
+                "punctuated_word": "ate"
+              },
+              {
+                "word": "2",
+                "start": 110.97,
+                "end": 111.21,
+                "confidence": 1,
+                "punctuated_word": "2"
+              },
+              {
+                "word": "eggs",
+                "start": 111.21,
+                "end": 111.61,
+                "confidence": 0.97802734,
+                "punctuated_word": "eggs"
+              },
+              {
+                "word": "and",
+                "start": 111.61,
+                "end": 111.93,
+                "confidence": 0.9980469,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "a",
+                "start": 111.93,
+                "end": 112.17,
+                "confidence": 1,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "cup",
+                "start": 112.17,
+                "end": 112.490005,
+                "confidence": 1,
+                "punctuated_word": "cup"
+              },
+              {
+                "word": "of",
+                "start": 112.490005,
+                "end": 112.65,
+                "confidence": 1,
+                "punctuated_word": "of"
+              },
+              {
+                "word": "coffee",
+                "start": 112.65,
+                "end": 112.97,
+                "confidence": 1,
+                "punctuated_word": "coffee."
+              },
+              {
+                "word": "today",
+                "start": 122.905,
+                "end": 123.625,
+                "confidence": 0.91381836,
+                "punctuated_word": "Today,"
+              },
+              {
+                "word": "i",
+                "start": 123.625,
+                "end": 123.865,
+                "confidence": 1,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "ate",
+                "start": 123.865,
+                "end": 124.265,
+                "confidence": 0.9980469,
+                "punctuated_word": "ate"
+              },
+              {
+                "word": "2",
+                "start": 124.265,
+                "end": 124.665,
+                "confidence": 1,
+                "punctuated_word": "2"
+              },
+              {
+                "word": "bold",
+                "start": 124.665,
+                "end": 125.065,
+                "confidence": 0.5180664,
+                "punctuated_word": "bold"
+              },
+              {
+                "word": "eggs",
+                "start": 125.065,
+                "end": 125.465,
+                "confidence": 0.99316406,
+                "punctuated_word": "eggs"
+              },
+              {
+                "word": "and",
+                "start": 125.465,
+                "end": 125.945,
+                "confidence": 0.99609375,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "a",
+                "start": 125.945,
+                "end": 126.185,
+                "confidence": 1,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "cup",
+                "start": 126.185,
+                "end": 126.585,
+                "confidence": 1,
+                "punctuated_word": "cup"
+              },
+              {
+                "word": "of",
+                "start": 126.585,
+                "end": 126.905,
+                "confidence": 1,
+                "punctuated_word": "of"
+              },
+              {
+                "word": "coffee",
+                "start": 126.905,
+                "end": 127.385,
+                "confidence": 1,
+                "punctuated_word": "coffee."
+              },
+              {
+                "word": "today",
+                "start": 135.94,
+                "end": 136.74,
+                "confidence": 0.9248047,
+                "punctuated_word": "Today,"
+              },
+              {
+                "word": "i",
+                "start": 136.74,
+                "end": 136.90001,
+                "confidence": 1,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "ate",
+                "start": 136.90001,
+                "end": 137.54001,
+                "confidence": 0.99902344,
+                "punctuated_word": "ate"
+              },
+              {
+                "word": "2",
+                "start": 137.54001,
+                "end": 138.18001,
+                "confidence": 1,
+                "punctuated_word": "2"
+              },
+              {
+                "word": "bold",
+                "start": 138.26001,
+                "end": 138.58,
+                "confidence": 0.6977539,
+                "punctuated_word": "bold"
+              },
+              {
+                "word": "eggs",
+                "start": 138.58,
+                "end": 139.06001,
+                "confidence": 0.98828125,
+                "punctuated_word": "eggs"
+              },
+              {
+                "word": "and",
+                "start": 139.06001,
+                "end": 139.46,
+                "confidence": 0.9980469,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "a",
+                "start": 139.46,
+                "end": 139.70001,
+                "confidence": 1,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "cup",
+                "start": 139.70001,
+                "end": 140.02,
+                "confidence": 0.9970703,
+                "punctuated_word": "cup"
+              },
+              {
+                "word": "of",
+                "start": 140.02,
+                "end": 140.66002,
+                "confidence": 1,
+                "punctuated_word": "of"
+              },
+              {
+                "word": "black",
+                "start": 141.3,
+                "end": 141.70001,
+                "confidence": 0.99902344,
+                "punctuated_word": "black"
+              },
+              {
+                "word": "hot",
+                "start": 141.70001,
+                "end": 142.18001,
+                "confidence": 0.9770508,
+                "punctuated_word": "hot"
+              },
+              {
+                "word": "coffee",
+                "start": 142.18001,
+                "end": 142.74,
+                "confidence": 1,
+                "punctuated_word": "coffee."
+              },
+              {
+                "word": "today",
+                "start": 150.485,
+                "end": 151.285,
+                "confidence": 0.8876953,
+                "punctuated_word": "Today,"
+              },
+              {
+                "word": "i",
+                "start": 151.285,
+                "end": 151.365,
+                "confidence": 1,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "ate",
+                "start": 151.365,
+                "end": 152.085,
+                "confidence": 0.99902344,
+                "punctuated_word": "ate"
+              },
+              {
+                "word": "2",
+                "start": 152.085,
+                "end": 152.32501,
+                "confidence": 0.99902344,
+                "punctuated_word": "2"
+              },
+              {
+                "word": "x",
+                "start": 152.32501,
+                "end": 152.645,
+                "confidence": 0.6621094,
+                "punctuated_word": "x"
+              },
+              {
+                "word": "and",
+                "start": 152.645,
+                "end": 152.96501,
+                "confidence": 0.9951172,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "a",
+                "start": 152.96501,
+                "end": 153.125,
+                "confidence": 1,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "cup",
+                "start": 153.125,
+                "end": 153.365,
+                "confidence": 0.99902344,
+                "punctuated_word": "cup"
+              },
+              {
+                "word": "of",
+                "start": 153.365,
+                "end": 153.52501,
+                "confidence": 0.99902344,
+                "punctuated_word": "of"
+              },
+              {
+                "word": "coffee",
+                "start": 153.52501,
+                "end": 154.24501,
+                "confidence": 1,
+                "punctuated_word": "coffee."
+              },
+              {
+                "word": "yeah",
+                "start": 155.68501,
+                "end": 156.40501,
+                "confidence": 0.9980469,
+                "punctuated_word": "Yeah."
+              },
+              {
+                "word": "today",
+                "start": 161.125,
+                "end": 161.68501,
+                "confidence": 0.9909668,
+                "punctuated_word": "Today,"
+              },
+              {
+                "word": "i",
+                "start": 161.68501,
+                "end": 161.845,
+                "confidence": 1,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "ate",
+                "start": 161.845,
+                "end": 162.32501,
+                "confidence": 0.99902344,
+                "punctuated_word": "ate"
+              },
+              {
+                "word": "2",
+                "start": 162.32501,
+                "end": 162.565,
+                "confidence": 1,
+                "punctuated_word": "2"
+              },
+              {
+                "word": "x",
+                "start": 162.565,
+                "end": 162.88501,
+                "confidence": 0.9980469,
+                "punctuated_word": "x"
+              },
+              {
+                "word": "and",
+                "start": 162.88501,
+                "end": 163.205,
+                "confidence": 0.99316406,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "a",
+                "start": 163.205,
+                "end": 163.84502,
+                "confidence": 0.92333984,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "cup",
+                "start": 163.925,
+                "end": 164.565,
+                "confidence": 0.8198242,
+                "punctuated_word": "cup"
+              },
+              {
+                "word": "of",
+                "start": 164.43,
+                "end": 165.54999,
+                "confidence": 0.9980469,
+                "punctuated_word": "of"
+              },
+              {
+                "word": "of",
+                "start": 165.54999,
+                "end": 165.87,
+                "confidence": 0.984375,
+                "punctuated_word": "of"
+              },
+              {
+                "word": "hot",
+                "start": 165.87,
+                "end": 166.18999,
+                "confidence": 0.9951172,
+                "punctuated_word": "hot"
+              },
+              {
+                "word": "coffee",
+                "start": 166.18999,
+                "end": 166.67,
+                "confidence": 0.9995117,
+                "punctuated_word": "coffee."
+              },
+              {
+                "word": "yeah",
+                "start": 166.67,
+                "end": 167.31,
+                "confidence": 0.9008789,
+                "punctuated_word": "Yeah?"
+              },
+              {
+                "word": "today",
+                "start": 175.54999,
+                "end": 176.10999,
+                "confidence": 0.9951172,
+                "punctuated_word": "Today,"
+              },
+              {
+                "word": "i",
+                "start": 176.10999,
+                "end": 176.26999,
+                "confidence": 1,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "ate",
+                "start": 176.26999,
+                "end": 176.67,
+                "confidence": 0.9980469,
+                "punctuated_word": "ate"
+              },
+              {
+                "word": "2",
+                "start": 176.67,
+                "end": 176.90999,
+                "confidence": 1,
+                "punctuated_word": "2"
+              },
+              {
+                "word": "eggs",
+                "start": 176.90999,
+                "end": 177.23,
+                "confidence": 0.99902344,
+                "punctuated_word": "eggs"
+              },
+              {
+                "word": "and",
+                "start": 177.23,
+                "end": 177.46999,
+                "confidence": 0.99902344,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "a",
+                "start": 177.46999,
+                "end": 177.79,
+                "confidence": 1,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "cup",
+                "start": 177.79,
+                "end": 178.03,
+                "confidence": 0.99902344,
+                "punctuated_word": "cup"
+              },
+              {
+                "word": "of",
+                "start": 178.03,
+                "end": 178.26999,
+                "confidence": 1,
+                "punctuated_word": "of"
+              },
+              {
+                "word": "hot",
+                "start": 178.26999,
+                "end": 178.59,
+                "confidence": 1,
+                "punctuated_word": "hot"
+              },
+              {
+                "word": "coffee",
+                "start": 178.59,
+                "end": 179.06999,
+                "confidence": 0.9980469,
+                "punctuated_word": "coffee."
+              },
+              {
+                "word": "today",
+                "start": 187.48499,
+                "end": 188.20499,
+                "confidence": 0.9667969,
+                "punctuated_word": "Today,"
+              },
+              {
+                "word": "i",
+                "start": 188.20499,
+                "end": 188.28499,
+                "confidence": 1,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "ate",
+                "start": 188.28499,
+                "end": 188.605,
+                "confidence": 0.99902344,
+                "punctuated_word": "ate"
+              },
+              {
+                "word": "2",
+                "start": 188.605,
+                "end": 188.84499,
+                "confidence": 1,
+                "punctuated_word": "2"
+              },
+              {
+                "word": "eggs",
+                "start": 188.84499,
+                "end": 189.08499,
+                "confidence": 0.99902344,
+                "punctuated_word": "eggs"
+              },
+              {
+                "word": "and",
+                "start": 189.08499,
+                "end": 189.405,
+                "confidence": 1,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "a",
+                "start": 189.405,
+                "end": 189.56499,
+                "confidence": 1,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "cup",
+                "start": 189.56499,
+                "end": 189.885,
+                "confidence": 0.99902344,
+                "punctuated_word": "cup"
+              },
+              {
+                "word": "of",
+                "start": 189.885,
+                "end": 190.125,
+                "confidence": 1,
+                "punctuated_word": "of"
+              },
+              {
+                "word": "black",
+                "start": 190.125,
+                "end": 190.765,
+                "confidence": 1,
+                "punctuated_word": "black"
+              },
+              {
+                "word": "hot",
+                "start": 190.765,
+                "end": 191.165,
+                "confidence": 0.98535156,
+                "punctuated_word": "hot"
+              },
+              {
+                "word": "coffee",
+                "start": 191.165,
+                "end": 191.64499,
+                "confidence": 0.99902344,
+                "punctuated_word": "coffee."
+              },
+              {
+                "word": "mhmm",
+                "start": 214.89499,
+                "end": 215.295,
+                "confidence": 0.76660156,
+                "punctuated_word": "Mhmm."
+              },
+              {
+                "word": "okay",
+                "start": 222.48001,
+                "end": 223.36002,
+                "confidence": 0.9885254,
+                "punctuated_word": "Okay."
+              },
+              {
+                "word": "okay",
+                "start": 226.8,
+                "end": 227.28001,
+                "confidence": 0.984375,
+                "punctuated_word": "Okay."
+              },
+              {
+                "word": "so",
+                "start": 238.015,
+                "end": 238.735,
+                "confidence": 0.9267578,
+                "punctuated_word": "So"
+              },
+              {
+                "word": "so",
+                "start": 240.575,
+                "end": 240.97499,
+                "confidence": 0.9863281,
+                "punctuated_word": "so"
+              },
+              {
+                "word": "i",
+                "start": 240.97499,
+                "end": 241.775,
+                "confidence": 0.99121094,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "mhmm",
+                "start": 244.095,
+                "end": 244.495,
+                "confidence": 0.9633789,
+                "punctuated_word": "mhmm."
+              },
+              {
+                "word": "okay",
+                "start": 253.7,
+                "end": 254.34001,
+                "confidence": 0.9980469,
+                "punctuated_word": "Okay."
+              },
+              {
+                "word": "okay",
+                "start": 255.38,
+                "end": 255.86,
+                "confidence": 0.9975586,
+                "punctuated_word": "Okay."
+              },
+              {
+                "word": "okay",
+                "start": 255.86,
+                "end": 256.1,
+                "confidence": 0.9951172,
+                "punctuated_word": "Okay."
+              },
+              {
+                "word": "okay",
+                "start": 258.795,
+                "end": 259.515,
+                "confidence": 0.98950195,
+                "punctuated_word": "Okay."
+              },
+              {
+                "word": "today",
+                "start": 266.155,
+                "end": 267.03503,
+                "confidence": 0.90478516,
+                "punctuated_word": "Today,"
+              },
+              {
+                "word": "i",
+                "start": 267.11502,
+                "end": 267.355,
+                "confidence": 1,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "ate",
+                "start": 267.355,
+                "end": 267.67502,
+                "confidence": 0.9980469,
+                "punctuated_word": "ate"
+              },
+              {
+                "word": "2",
+                "start": 267.67502,
+                "end": 267.99503,
+                "confidence": 0.9970703,
+                "punctuated_word": "2"
+              },
+              {
+                "word": "eggs",
+                "start": 267.99503,
+                "end": 268.23502,
+                "confidence": 0.9741211,
+                "punctuated_word": "eggs"
+              },
+              {
+                "word": "and",
+                "start": 268.23502,
+                "end": 268.475,
+                "confidence": 0.9980469,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "coffee",
+                "start": 268.475,
+                "end": 269.035,
+                "confidence": 0.99853516,
+                "punctuated_word": "coffee."
+              },
+              {
+                "word": "today",
+                "start": 276.69,
+                "end": 277.49,
+                "confidence": 0.967041,
+                "punctuated_word": "Today,"
+              },
+              {
+                "word": "i",
+                "start": 277.56998,
+                "end": 277.81,
+                "confidence": 1,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "ate",
+                "start": 277.81,
+                "end": 278.21,
+                "confidence": 0.99902344,
+                "punctuated_word": "ate"
+              },
+              {
+                "word": "2",
+                "start": 278.21,
+                "end": 278.84998,
+                "confidence": 0.7578125,
+                "punctuated_word": "2"
+              },
+              {
+                "word": "eggs",
+                "start": 278.84998,
+                "end": 279.16998,
+                "confidence": 0.9941406,
+                "punctuated_word": "eggs"
+              },
+              {
+                "word": "and",
+                "start": 279.16998,
+                "end": 279.49,
+                "confidence": 0.99902344,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "a",
+                "start": 279.49,
+                "end": 279.72998,
+                "confidence": 1,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "cup",
+                "start": 279.72998,
+                "end": 280.05,
+                "confidence": 1,
+                "punctuated_word": "cup"
+              },
+              {
+                "word": "of",
+                "start": 280.05,
+                "end": 280.28998,
+                "confidence": 1,
+                "punctuated_word": "of"
+              },
+              {
+                "word": "coffee",
+                "start": 280.28998,
+                "end": 280.77,
+                "confidence": 1,
+                "punctuated_word": "coffee."
+              },
+              {
+                "word": "today",
+                "start": 286.945,
+                "end": 287.585,
+                "confidence": 0.8996582,
+                "punctuated_word": "Today,"
+              },
+              {
+                "word": "i",
+                "start": 287.585,
+                "end": 287.665,
+                "confidence": 1,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "had",
+                "start": 287.665,
+                "end": 288.305,
+                "confidence": 0.7919922,
+                "punctuated_word": "had,"
+              },
+              {
+                "word": "i",
+                "start": 288.865,
+                "end": 289.105,
+                "confidence": 0.9980469,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "had",
+                "start": 289.105,
+                "end": 289.42502,
+                "confidence": 0.99902344,
+                "punctuated_word": "had"
+              },
+              {
+                "word": "today",
+                "start": 289.42502,
+                "end": 289.905,
+                "confidence": 0.6999512,
+                "punctuated_word": "today,"
+              },
+              {
+                "word": "i",
+                "start": 289.905,
+                "end": 290.065,
+                "confidence": 1,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "had",
+                "start": 290.065,
+                "end": 290.305,
+                "confidence": 1,
+                "punctuated_word": "had"
+              },
+              {
+                "word": "2",
+                "start": 290.305,
+                "end": 290.785,
+                "confidence": 0.99121094,
+                "punctuated_word": "2"
+              },
+              {
+                "word": "eggs",
+                "start": 290.785,
+                "end": 291.105,
+                "confidence": 0.9941406,
+                "punctuated_word": "eggs"
+              },
+              {
+                "word": "and",
+                "start": 291.105,
+                "end": 291.42502,
+                "confidence": 0.9970703,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "a",
+                "start": 291.42502,
+                "end": 291.745,
+                "confidence": 0.99902344,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "cup",
+                "start": 291.745,
+                "end": 291.98502,
+                "confidence": 1,
+                "punctuated_word": "cup"
+              },
+              {
+                "word": "of",
+                "start": 291.98502,
+                "end": 292.145,
+                "confidence": 1,
+                "punctuated_word": "of"
+              },
+              {
+                "word": "coffee",
+                "start": 292.145,
+                "end": 292.86502,
+                "confidence": 1,
+                "punctuated_word": "coffee."
+              },
+              {
+                "word": "today",
+                "start": 298.465,
+                "end": 299.105,
+                "confidence": 0.9970703,
+                "punctuated_word": "Today,"
+              },
+              {
+                "word": "i",
+                "start": 299.105,
+                "end": 299.265,
+                "confidence": 1,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "had",
+                "start": 299.265,
+                "end": 299.585,
+                "confidence": 0.9892578,
+                "punctuated_word": "had"
+              },
+              {
+                "word": "2",
+                "start": 299.585,
+                "end": 299.905,
+                "confidence": 0.99316406,
+                "punctuated_word": "2"
+              },
+              {
+                "word": "egg",
+                "start": 299.905,
+                "end": 300.065,
+                "confidence": 0.43164062,
+                "punctuated_word": "egg"
+              }
+            ],
+            "paragraphs": {
+              "transcript": "\nA cup of coffee. And I don't I don't remember I don't remember them what's what's what you what you thought. Okay. Mhmm. Today, I took, today today, I took eggs and, a cup of coffee.\n\nToday, I took eggs and a cup of coffee. Today, I ate 2 bald eggs and a cup of coffee. Today, I ate 2 bald eggs and a cup of hot coffee. Today, I ate 2 bold eggs 2 bold 2 bold eggs and a cup of of hot or on black hot coffee. Okay.\n\nToday, I ate 2 eggs and a cup of coffee. Today, I ate 2 bold eggs and a cup of coffee. Today, I ate 2 bold eggs and a cup of black hot coffee. Today, I ate 2 x and a cup of coffee. Yeah.\n\nToday, I ate 2 x and a cup of of hot coffee. Yeah? Today, I ate 2 eggs and a cup of hot coffee. Today, I ate 2 eggs and a cup of black hot coffee. Mhmm.\n\nOkay. Okay. So so I mhmm. Okay. Okay.\n\nOkay. Okay. Today, I ate 2 eggs and coffee. Today, I ate 2 eggs and a cup of coffee. Today, I had, I had today, I had 2 eggs and a cup of coffee.\n\nToday, I had 2 egg",
+              "paragraphs": [
+                {
+                  "sentences": [
+                    {
+                      "text": "A cup of coffee.",
+                      "start": 0,
+                      "end": 1.3599999
+                    },
+                    {
+                      "text": "And I don't I don't remember I don't remember them what's what's what you what you thought.",
+                      "start": 1.5999999,
+                      "end": 10.96
+                    },
+                    {
+                      "text": "Okay.",
+                      "start": 15.225,
+                      "end": 15.865
+                    },
+                    {
+                      "text": "Mhmm.",
+                      "start": 18.825,
+                      "end": 19.225
+                    },
+                    {
+                      "text": "Today, I took, today today, I took eggs and, a cup of coffee.",
+                      "start": 30.76,
+                      "end": 37
+                    }
+                  ],
+                  "num_words": 36,
+                  "start": 0,
+                  "end": 37
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "Today, I took eggs and a cup of coffee.",
+                      "start": 46.655003,
+                      "end": 50.015
+                    },
+                    {
+                      "text": "Today, I ate 2 bald eggs and a cup of coffee.",
+                      "start": 58.829998,
+                      "end": 65.39
+                    },
+                    {
+                      "text": "Today, I ate 2 bald eggs and a cup of hot coffee.",
+                      "start": 73.875,
+                      "end": 79.475006
+                    },
+                    {
+                      "text": "Today, I ate 2 bold eggs 2 bold 2 bold eggs and a cup of of hot or on black hot coffee.",
+                      "start": 87.71999,
+                      "end": 101.665
+                    },
+                    {
+                      "text": "Okay.",
+                      "start": 101.905,
+                      "end": 102.465004
+                    }
+                  ],
+                  "num_words": 55,
+                  "start": 46.655003,
+                  "end": 102.465004
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "Today, I ate 2 eggs and a cup of coffee.",
+                      "start": 108.89,
+                      "end": 112.97
+                    },
+                    {
+                      "text": "Today, I ate 2 bold eggs and a cup of coffee.",
+                      "start": 122.905,
+                      "end": 127.385
+                    },
+                    {
+                      "text": "Today, I ate 2 bold eggs and a cup of black hot coffee.",
+                      "start": 135.94,
+                      "end": 142.74
+                    },
+                    {
+                      "text": "Today, I ate 2 x and a cup of coffee.",
+                      "start": 150.485,
+                      "end": 154.24501
+                    },
+                    {
+                      "text": "Yeah.",
+                      "start": 155.68501,
+                      "end": 156.40501
+                    }
+                  ],
+                  "num_words": 45,
+                  "start": 108.89,
+                  "end": 156.40501
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "Today, I ate 2 x and a cup of of hot coffee.",
+                      "start": 161.125,
+                      "end": 166.67
+                    },
+                    {
+                      "text": "Yeah?",
+                      "start": 166.67,
+                      "end": 167.31
+                    },
+                    {
+                      "text": "Today, I ate 2 eggs and a cup of hot coffee.",
+                      "start": 175.54999,
+                      "end": 179.06999
+                    },
+                    {
+                      "text": "Today, I ate 2 eggs and a cup of black hot coffee.",
+                      "start": 187.48499,
+                      "end": 191.64499
+                    },
+                    {
+                      "text": "Mhmm.",
+                      "start": 214.89499,
+                      "end": 215.295
+                    }
+                  ],
+                  "num_words": 37,
+                  "start": 161.125,
+                  "end": 215.295
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "Okay.",
+                      "start": 222.48001,
+                      "end": 223.36002
+                    },
+                    {
+                      "text": "Okay.",
+                      "start": 226.8,
+                      "end": 227.28001
+                    },
+                    {
+                      "text": "So so I mhmm.",
+                      "start": 238.015,
+                      "end": 244.495
+                    },
+                    {
+                      "text": "Okay.",
+                      "start": 253.7,
+                      "end": 254.34001
+                    },
+                    {
+                      "text": "Okay.",
+                      "start": 255.38,
+                      "end": 255.86
+                    }
+                  ],
+                  "num_words": 8,
+                  "start": 222.48001,
+                  "end": 255.86
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "Okay.",
+                      "start": 255.86,
+                      "end": 256.1
+                    },
+                    {
+                      "text": "Okay.",
+                      "start": 258.795,
+                      "end": 259.515
+                    },
+                    {
+                      "text": "Today, I ate 2 eggs and coffee.",
+                      "start": 266.155,
+                      "end": 269.035
+                    },
+                    {
+                      "text": "Today, I ate 2 eggs and a cup of coffee.",
+                      "start": 276.69,
+                      "end": 280.77
+                    },
+                    {
+                      "text": "Today, I had, I had today, I had 2 eggs and a cup of coffee.",
+                      "start": 286.945,
+                      "end": 292.86502
+                    }
+                  ],
+                  "num_words": 34,
+                  "start": 255.86,
+                  "end": 292.86502
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "Today, I had 2 egg",
+                      "start": 298.465,
+                      "end": 300.065
+                    }
+                  ],
+                  "num_words": 5,
+                  "start": 298.465,
+                  "end": 300.065
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "alternatives": [
+          {
+            "transcript": "Yeah. That's that's all I wanted. It's it's a short statement. I'm going to rephrase that statement again and again. So today, I took eggs and a cup of coffee. You can see I took my time. So no no rush. Yeah. Let's go. Good. Good. That's what that's the first word. Close to perfect. Today, I took eggs and a cup of of coffee. Good. Good. Today, I ate 2 boiled eggs and a cup of coffee. Good. Today, I ate 2 boiled eggs and a cup of hot coffee. Today, I ate 2 boiled eggs and a cup of black hot coffee. Black pot black pot coffee. Today, I ate 2 eggs and a cup of coffee. Perfect. Today, I ate 2 boiled eggs and a cup of hot coffee. Today, I ate 2 boiled eggs and a cup of black hot coffee. Beautiful. Today, I ate 2 eggs and a cup of coffee. Yeah. Today, I ate 2 eggs and a cup of hot coffee. Yeah. Let's take more time on that. Today, I ate 2 eggs and a cup of hot coffee. Beautiful. Today, I ate 2 eggs and a cup of black hot coffee. Yeah. So let me now let me just add this. Just I don't I just want I I just to, like, put this to notes so you keep in keep in mind. You know, we as people, when we learn something or when we know something, we try to speed up because we've we've we've known it. Don't don't don't get tricked. Don't don't don't follow the speed. Just stay keep calm. That's the best approach. You understand? Even if you know it, still keep calm. It's better with yeah. So we're gonna repeat that again, then I'll ask you the question, then you're gonna give me the answer straight. You understand. Right? We're gonna we're gonna we're gonna repeat the test again. I want us to repeat the test again where you repeat after me. And after repeating a test, I'll ask quest then I'll ask the direct question. What did you eat today? Then you will have to be able to give me answer. But first but first, let's repeat the test again. Today, I ate 2 eggs and coffee. Today, I had 2 eggs and a cup of coffee. Today, I had 2 eggs and a cup of coffee. Today, I had 2 eggs and a cup of coffee.",
+            "confidence": 0.99902344,
+            "words": [
+              {
+                "word": "yeah",
+                "start": 11.04,
+                "end": 11.44,
+                "confidence": 0.99365234,
+                "punctuated_word": "Yeah."
+              },
+              {
+                "word": "that's",
+                "start": 11.44,
+                "end": 11.679999,
+                "confidence": 0.9921875,
+                "punctuated_word": "That's"
+              },
+              {
+                "word": "that's",
+                "start": 11.679999,
+                "end": 12.08,
+                "confidence": 0.9975586,
+                "punctuated_word": "that's"
+              },
+              {
+                "word": "all",
+                "start": 12.08,
+                "end": 12.24,
+                "confidence": 1,
+                "punctuated_word": "all"
+              },
+              {
+                "word": "i",
+                "start": 12.24,
+                "end": 12.4,
+                "confidence": 1,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "wanted",
+                "start": 12.4,
+                "end": 12.719999,
+                "confidence": 0.99853516,
+                "punctuated_word": "wanted."
+              },
+              {
+                "word": "it's",
+                "start": 12.719999,
+                "end": 12.88,
+                "confidence": 1,
+                "punctuated_word": "It's"
+              },
+              {
+                "word": "it's",
+                "start": 12.88,
+                "end": 13.12,
+                "confidence": 0.9975586,
+                "punctuated_word": "it's"
+              },
+              {
+                "word": "a",
+                "start": 13.12,
+                "end": 13.2,
+                "confidence": 1,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "short",
+                "start": 13.2,
+                "end": 13.44,
+                "confidence": 0.99902344,
+                "punctuated_word": "short"
+              },
+              {
+                "word": "statement",
+                "start": 13.44,
+                "end": 13.92,
+                "confidence": 0.9338379,
+                "punctuated_word": "statement."
+              },
+              {
+                "word": "i'm",
+                "start": 14.335,
+                "end": 14.735001,
+                "confidence": 0.7141113,
+                "punctuated_word": "I'm"
+              },
+              {
+                "word": "going",
+                "start": 14.735001,
+                "end": 14.815001,
+                "confidence": 0.5996094,
+                "punctuated_word": "going"
+              },
+              {
+                "word": "to",
+                "start": 14.815001,
+                "end": 14.895,
+                "confidence": 1,
+                "punctuated_word": "to"
+              },
+              {
+                "word": "rephrase",
+                "start": 14.895,
+                "end": 15.295,
+                "confidence": 0.6147461,
+                "punctuated_word": "rephrase"
+              },
+              {
+                "word": "that",
+                "start": 15.295,
+                "end": 15.615,
+                "confidence": 1,
+                "punctuated_word": "that"
+              },
+              {
+                "word": "statement",
+                "start": 15.615,
+                "end": 16.175,
+                "confidence": 0.9951172,
+                "punctuated_word": "statement"
+              },
+              {
+                "word": "again",
+                "start": 16.175,
+                "end": 16.975,
+                "confidence": 1,
+                "punctuated_word": "again"
+              },
+              {
+                "word": "and",
+                "start": 17.055,
+                "end": 17.375,
+                "confidence": 0.99902344,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "again",
+                "start": 17.375,
+                "end": 18.095,
+                "confidence": 1,
+                "punctuated_word": "again."
+              },
+              {
+                "word": "so",
+                "start": 18.494999,
+                "end": 18.815,
+                "confidence": 1,
+                "punctuated_word": "So"
+              },
+              {
+                "word": "today",
+                "start": 18.815,
+                "end": 19.695,
+                "confidence": 0.96240234,
+                "punctuated_word": "today,"
+              },
+              {
+                "word": "i",
+                "start": 19.935,
+                "end": 20.175,
+                "confidence": 1,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "took",
+                "start": 20.175,
+                "end": 20.814999,
+                "confidence": 1,
+                "punctuated_word": "took"
+              },
+              {
+                "word": "eggs",
+                "start": 21.055,
+                "end": 21.935,
+                "confidence": 0.9980469,
+                "punctuated_word": "eggs"
+              },
+              {
+                "word": "and",
+                "start": 22.575,
+                "end": 23.375,
+                "confidence": 0.9980469,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "a",
+                "start": 24.095001,
+                "end": 24.415,
+                "confidence": 1,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "cup",
+                "start": 24.415,
+                "end": 24.735,
+                "confidence": 1,
+                "punctuated_word": "cup"
+              },
+              {
+                "word": "of",
+                "start": 24.735,
+                "end": 24.975,
+                "confidence": 1,
+                "punctuated_word": "of"
+              },
+              {
+                "word": "coffee",
+                "start": 24.975,
+                "end": 25.455,
+                "confidence": 1,
+                "punctuated_word": "coffee."
+              },
+              {
+                "word": "you",
+                "start": 25.455,
+                "end": 25.615,
+                "confidence": 1,
+                "punctuated_word": "You"
+              },
+              {
+                "word": "can",
+                "start": 25.615,
+                "end": 25.695,
+                "confidence": 0.99902344,
+                "punctuated_word": "can"
+              },
+              {
+                "word": "see",
+                "start": 25.695,
+                "end": 25.855,
+                "confidence": 0.98095703,
+                "punctuated_word": "see"
+              },
+              {
+                "word": "i",
+                "start": 25.855,
+                "end": 26.015,
+                "confidence": 0.9970703,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "took",
+                "start": 26.015,
+                "end": 26.175,
+                "confidence": 1,
+                "punctuated_word": "took"
+              },
+              {
+                "word": "my",
+                "start": 26.175,
+                "end": 26.335,
+                "confidence": 1,
+                "punctuated_word": "my"
+              },
+              {
+                "word": "time",
+                "start": 26.335,
+                "end": 26.895,
+                "confidence": 0.86621094,
+                "punctuated_word": "time."
+              },
+              {
+                "word": "so",
+                "start": 27.055,
+                "end": 27.375,
+                "confidence": 1,
+                "punctuated_word": "So"
+              },
+              {
+                "word": "no",
+                "start": 27.375,
+                "end": 27.615,
+                "confidence": 0.87158203,
+                "punctuated_word": "no"
+              },
+              {
+                "word": "no",
+                "start": 27.615,
+                "end": 27.855,
+                "confidence": 0.9941406,
+                "punctuated_word": "no"
+              },
+              {
+                "word": "rush",
+                "start": 27.855,
+                "end": 28.175,
+                "confidence": 1,
+                "punctuated_word": "rush."
+              },
+              {
+                "word": "yeah",
+                "start": 28.5,
+                "end": 28.9,
+                "confidence": 0.9741211,
+                "punctuated_word": "Yeah."
+              },
+              {
+                "word": "let's",
+                "start": 28.9,
+                "end": 29.06,
+                "confidence": 0.9995117,
+                "punctuated_word": "Let's"
+              },
+              {
+                "word": "go",
+                "start": 29.06,
+                "end": 29.539999,
+                "confidence": 0.9995117,
+                "punctuated_word": "go."
+              },
+              {
+                "word": "good",
+                "start": 37.22,
+                "end": 37.78,
+                "confidence": 0.99560547,
+                "punctuated_word": "Good."
+              },
+              {
+                "word": "good",
+                "start": 37.78,
+                "end": 38.1,
+                "confidence": 0.9995117,
+                "punctuated_word": "Good."
+              },
+              {
+                "word": "that's",
+                "start": 38.1,
+                "end": 38.34,
+                "confidence": 0.98217773,
+                "punctuated_word": "That's"
+              },
+              {
+                "word": "what",
+                "start": 38.34,
+                "end": 38.5,
+                "confidence": 0.44067383,
+                "punctuated_word": "what"
+              },
+              {
+                "word": "that's",
+                "start": 38.58,
+                "end": 38.739998,
+                "confidence": 0.98461914,
+                "punctuated_word": "that's"
+              },
+              {
+                "word": "the",
+                "start": 38.739998,
+                "end": 38.82,
+                "confidence": 0.9951172,
+                "punctuated_word": "the"
+              },
+              {
+                "word": "first",
+                "start": 38.82,
+                "end": 38.98,
+                "confidence": 0.99316406,
+                "punctuated_word": "first"
+              },
+              {
+                "word": "word",
+                "start": 38.98,
+                "end": 39.62,
+                "confidence": 0.7907715,
+                "punctuated_word": "word."
+              },
+              {
+                "word": "close",
+                "start": 39.78,
+                "end": 40.02,
+                "confidence": 0.9980469,
+                "punctuated_word": "Close"
+              },
+              {
+                "word": "to",
+                "start": 40.02,
+                "end": 40.18,
+                "confidence": 0.99902344,
+                "punctuated_word": "to"
+              },
+              {
+                "word": "perfect",
+                "start": 40.18,
+                "end": 40.58,
+                "confidence": 0.99658203,
+                "punctuated_word": "perfect."
+              },
+              {
+                "word": "today",
+                "start": 41.305,
+                "end": 42.185,
+                "confidence": 0.982666,
+                "punctuated_word": "Today,"
+              },
+              {
+                "word": "i",
+                "start": 42.345,
+                "end": 42.505,
+                "confidence": 0.99902344,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "took",
+                "start": 42.505,
+                "end": 42.745,
+                "confidence": 1,
+                "punctuated_word": "took"
+              },
+              {
+                "word": "eggs",
+                "start": 42.745,
+                "end": 43.545,
+                "confidence": 0.9980469,
+                "punctuated_word": "eggs"
+              },
+              {
+                "word": "and",
+                "start": 43.545002,
+                "end": 43.865,
+                "confidence": 0.9902344,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "a",
+                "start": 43.865,
+                "end": 44.025,
+                "confidence": 0.99902344,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "cup",
+                "start": 44.025,
+                "end": 44.265,
+                "confidence": 1,
+                "punctuated_word": "cup"
+              },
+              {
+                "word": "of",
+                "start": 44.265,
+                "end": 44.585,
+                "confidence": 0.99902344,
+                "punctuated_word": "of"
+              },
+              {
+                "word": "of",
+                "start": 44.585,
+                "end": 44.825,
+                "confidence": 0.61572266,
+                "punctuated_word": "of"
+              },
+              {
+                "word": "coffee",
+                "start": 44.825,
+                "end": 45.545,
+                "confidence": 1,
+                "punctuated_word": "coffee."
+              },
+              {
+                "word": "good",
+                "start": 50.025,
+                "end": 50.665,
+                "confidence": 0.9995117,
+                "punctuated_word": "Good."
+              },
+              {
+                "word": "good",
+                "start": 50.665,
+                "end": 51.305,
+                "confidence": 1,
+                "punctuated_word": "Good."
+              },
+              {
+                "word": "today",
+                "start": 52.025,
+                "end": 52.985,
+                "confidence": 0.9909668,
+                "punctuated_word": "Today,"
+              },
+              {
+                "word": "i",
+                "start": 53.145,
+                "end": 53.385002,
+                "confidence": 1,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "ate",
+                "start": 53.385002,
+                "end": 54.265,
+                "confidence": 0.9873047,
+                "punctuated_word": "ate"
+              },
+              {
+                "word": "2",
+                "start": 54.47,
+                "end": 54.79,
+                "confidence": 1,
+                "punctuated_word": "2"
+              },
+              {
+                "word": "boiled",
+                "start": 54.79,
+                "end": 55.27,
+                "confidence": 1,
+                "punctuated_word": "boiled"
+              },
+              {
+                "word": "eggs",
+                "start": 55.27,
+                "end": 56.15,
+                "confidence": 1,
+                "punctuated_word": "eggs"
+              },
+              {
+                "word": "and",
+                "start": 56.230003,
+                "end": 56.63,
+                "confidence": 0.9863281,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "a",
+                "start": 56.63,
+                "end": 56.870003,
+                "confidence": 0.99902344,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "cup",
+                "start": 56.870003,
+                "end": 57.27,
+                "confidence": 1,
+                "punctuated_word": "cup"
+              },
+              {
+                "word": "of",
+                "start": 57.27,
+                "end": 57.59,
+                "confidence": 0.99902344,
+                "punctuated_word": "of"
+              },
+              {
+                "word": "coffee",
+                "start": 57.59,
+                "end": 58.39,
+                "confidence": 1,
+                "punctuated_word": "coffee."
+              },
+              {
+                "word": "good",
+                "start": 65.75,
+                "end": 66.15,
+                "confidence": 0.9995117,
+                "punctuated_word": "Good."
+              },
+              {
+                "word": "today",
+                "start": 67.265,
+                "end": 67.985,
+                "confidence": 0.95825195,
+                "punctuated_word": "Today,"
+              },
+              {
+                "word": "i",
+                "start": 67.985,
+                "end": 68.225,
+                "confidence": 0.99902344,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "ate",
+                "start": 68.225,
+                "end": 68.865,
+                "confidence": 0.9921875,
+                "punctuated_word": "ate"
+              },
+              {
+                "word": "2",
+                "start": 69.024994,
+                "end": 69.265,
+                "confidence": 0.99902344,
+                "punctuated_word": "2"
+              },
+              {
+                "word": "boiled",
+                "start": 69.265,
+                "end": 69.744995,
+                "confidence": 0.9914551,
+                "punctuated_word": "boiled"
+              },
+              {
+                "word": "eggs",
+                "start": 69.744995,
+                "end": 70.384995,
+                "confidence": 1,
+                "punctuated_word": "eggs"
+              },
+              {
+                "word": "and",
+                "start": 70.384995,
+                "end": 70.704994,
+                "confidence": 0.9902344,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "a",
+                "start": 70.704994,
+                "end": 70.945,
+                "confidence": 1,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "cup",
+                "start": 70.945,
+                "end": 71.424995,
+                "confidence": 1,
+                "punctuated_word": "cup"
+              },
+              {
+                "word": "of",
+                "start": 71.424995,
+                "end": 71.665,
+                "confidence": 1,
+                "punctuated_word": "of"
+              },
+              {
+                "word": "hot",
+                "start": 71.665,
+                "end": 72.064995,
+                "confidence": 0.99902344,
+                "punctuated_word": "hot"
+              },
+              {
+                "word": "coffee",
+                "start": 72.064995,
+                "end": 72.784996,
+                "confidence": 0.9995117,
+                "punctuated_word": "coffee."
+              },
+              {
+                "word": "today",
+                "start": 81.119995,
+                "end": 82,
+                "confidence": 0.9379883,
+                "punctuated_word": "Today,"
+              },
+              {
+                "word": "i",
+                "start": 82,
+                "end": 82.079994,
+                "confidence": 0.99902344,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "ate",
+                "start": 82.079994,
+                "end": 82.479996,
+                "confidence": 0.9560547,
+                "punctuated_word": "ate"
+              },
+              {
+                "word": "2",
+                "start": 82.479996,
+                "end": 82.799995,
+                "confidence": 1,
+                "punctuated_word": "2"
+              },
+              {
+                "word": "boiled",
+                "start": 82.799995,
+                "end": 83.2,
+                "confidence": 0.9970703,
+                "punctuated_word": "boiled"
+              },
+              {
+                "word": "eggs",
+                "start": 83.2,
+                "end": 83.84,
+                "confidence": 0.99902344,
+                "punctuated_word": "eggs"
+              },
+              {
+                "word": "and",
+                "start": 83.84,
+                "end": 84.159996,
+                "confidence": 0.99121094,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "a",
+                "start": 84.159996,
+                "end": 84.399994,
+                "confidence": 0.99902344,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "cup",
+                "start": 84.399994,
+                "end": 84.71999,
+                "confidence": 1,
+                "punctuated_word": "cup"
+              },
+              {
+                "word": "of",
+                "start": 84.71999,
+                "end": 85.03999,
+                "confidence": 1,
+                "punctuated_word": "of"
+              },
+              {
+                "word": "black",
+                "start": 85.03999,
+                "end": 85.52,
+                "confidence": 0.99902344,
+                "punctuated_word": "black"
+              },
+              {
+                "word": "hot",
+                "start": 85.52,
+                "end": 86.24,
+                "confidence": 0.9790039,
+                "punctuated_word": "hot"
+              },
+              {
+                "word": "coffee",
+                "start": 86.24,
+                "end": 86.799995,
+                "confidence": 0.99658203,
+                "punctuated_word": "coffee."
+              },
+              {
+                "word": "black",
+                "start": 97.925,
+                "end": 98.325005,
+                "confidence": 0.9716797,
+                "punctuated_word": "Black"
+              },
+              {
+                "word": "pot",
+                "start": 98.325005,
+                "end": 98.805,
+                "confidence": 0.4567871,
+                "punctuated_word": "pot"
+              },
+              {
+                "word": "black",
+                "start": 98.805,
+                "end": 99.685005,
+                "confidence": 0.67041016,
+                "punctuated_word": "black"
+              },
+              {
+                "word": "pot",
+                "start": 99.685005,
+                "end": 100.245,
+                "confidence": 0.8305664,
+                "punctuated_word": "pot"
+              },
+              {
+                "word": "coffee",
+                "start": 100.245,
+                "end": 101.205,
+                "confidence": 0.99316406,
+                "punctuated_word": "coffee."
+              },
+              {
+                "word": "today",
+                "start": 102.965004,
+                "end": 103.845,
+                "confidence": 0.9863281,
+                "punctuated_word": "Today,"
+              },
+              {
+                "word": "i",
+                "start": 103.925,
+                "end": 104.165,
+                "confidence": 1,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "ate",
+                "start": 104.165,
+                "end": 104.645004,
+                "confidence": 0.9970703,
+                "punctuated_word": "ate"
+              },
+              {
+                "word": "2",
+                "start": 104.645004,
+                "end": 104.885,
+                "confidence": 1,
+                "punctuated_word": "2"
+              },
+              {
+                "word": "eggs",
+                "start": 104.885,
+                "end": 105.765,
+                "confidence": 1,
+                "punctuated_word": "eggs"
+              },
+              {
+                "word": "and",
+                "start": 106.22,
+                "end": 106.7,
+                "confidence": 0.97998047,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "a",
+                "start": 106.7,
+                "end": 106.94,
+                "confidence": 1,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "cup",
+                "start": 106.94,
+                "end": 107.26,
+                "confidence": 1,
+                "punctuated_word": "cup"
+              },
+              {
+                "word": "of",
+                "start": 107.26,
+                "end": 107.5,
+                "confidence": 1,
+                "punctuated_word": "of"
+              },
+              {
+                "word": "coffee",
+                "start": 107.5,
+                "end": 108.299995,
+                "confidence": 0.9995117,
+                "punctuated_word": "coffee."
+              },
+              {
+                "word": "perfect",
+                "start": 113.74,
+                "end": 114.46,
+                "confidence": 0.9980469,
+                "punctuated_word": "Perfect."
+              },
+              {
+                "word": "today",
+                "start": 114.94,
+                "end": 115.659996,
+                "confidence": 0.9909668,
+                "punctuated_word": "Today,"
+              },
+              {
+                "word": "i",
+                "start": 115.659996,
+                "end": 115.82,
+                "confidence": 1,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "ate",
+                "start": 115.82,
+                "end": 116.46,
+                "confidence": 0.9951172,
+                "punctuated_word": "ate"
+              },
+              {
+                "word": "2",
+                "start": 117.26,
+                "end": 117.659996,
+                "confidence": 1,
+                "punctuated_word": "2"
+              },
+              {
+                "word": "boiled",
+                "start": 117.659996,
+                "end": 118.3,
+                "confidence": 1,
+                "punctuated_word": "boiled"
+              },
+              {
+                "word": "eggs",
+                "start": 118.3,
+                "end": 119.18,
+                "confidence": 1,
+                "punctuated_word": "eggs"
+              },
+              {
+                "word": "and",
+                "start": 119.675,
+                "end": 120.155,
+                "confidence": 0.9707031,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "a",
+                "start": 120.155,
+                "end": 120.475,
+                "confidence": 0.99902344,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "cup",
+                "start": 120.475,
+                "end": 120.875,
+                "confidence": 1,
+                "punctuated_word": "cup"
+              },
+              {
+                "word": "of",
+                "start": 120.875,
+                "end": 121.195,
+                "confidence": 1,
+                "punctuated_word": "of"
+              },
+              {
+                "word": "hot",
+                "start": 121.195,
+                "end": 121.595,
+                "confidence": 0.99902344,
+                "punctuated_word": "hot"
+              },
+              {
+                "word": "coffee",
+                "start": 121.595,
+                "end": 122.475,
+                "confidence": 0.99902344,
+                "punctuated_word": "coffee."
+              },
+              {
+                "word": "today",
+                "start": 128.955,
+                "end": 129.675,
+                "confidence": 0.98339844,
+                "punctuated_word": "Today,"
+              },
+              {
+                "word": "i",
+                "start": 129.755,
+                "end": 129.91501,
+                "confidence": 1,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "ate",
+                "start": 129.91501,
+                "end": 130.315,
+                "confidence": 0.9970703,
+                "punctuated_word": "ate"
+              },
+              {
+                "word": "2",
+                "start": 130.315,
+                "end": 130.635,
+                "confidence": 1,
+                "punctuated_word": "2"
+              },
+              {
+                "word": "boiled",
+                "start": 130.635,
+                "end": 131.035,
+                "confidence": 1,
+                "punctuated_word": "boiled"
+              },
+              {
+                "word": "eggs",
+                "start": 131.035,
+                "end": 131.755,
+                "confidence": 1,
+                "punctuated_word": "eggs"
+              },
+              {
+                "word": "and",
+                "start": 131.91501,
+                "end": 132.315,
+                "confidence": 0.99609375,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "a",
+                "start": 132.315,
+                "end": 132.55501,
+                "confidence": 1,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "cup",
+                "start": 132.55501,
+                "end": 132.875,
+                "confidence": 1,
+                "punctuated_word": "cup"
+              },
+              {
+                "word": "of",
+                "start": 132.875,
+                "end": 133.195,
+                "confidence": 1,
+                "punctuated_word": "of"
+              },
+              {
+                "word": "black",
+                "start": 133.195,
+                "end": 133.835,
+                "confidence": 0.99902344,
+                "punctuated_word": "black"
+              },
+              {
+                "word": "hot",
+                "start": 133.835,
+                "end": 134.715,
+                "confidence": 0.97998047,
+                "punctuated_word": "hot"
+              },
+              {
+                "word": "coffee",
+                "start": 134.49,
+                "end": 135.37001,
+                "confidence": 0.99365234,
+                "punctuated_word": "coffee."
+              },
+              {
+                "word": "beautiful",
+                "start": 142.97,
+                "end": 143.77002,
+                "confidence": 0.9951172,
+                "punctuated_word": "Beautiful."
+              },
+              {
+                "word": "today",
+                "start": 145.45001,
+                "end": 146.41002,
+                "confidence": 0.9758301,
+                "punctuated_word": "Today,"
+              },
+              {
+                "word": "i",
+                "start": 146.57,
+                "end": 146.73001,
+                "confidence": 0.9980469,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "ate",
+                "start": 146.73001,
+                "end": 147.05,
+                "confidence": 0.99121094,
+                "punctuated_word": "ate"
+              },
+              {
+                "word": "2",
+                "start": 147.05,
+                "end": 147.37001,
+                "confidence": 1,
+                "punctuated_word": "2"
+              },
+              {
+                "word": "eggs",
+                "start": 147.37001,
+                "end": 148.01001,
+                "confidence": 1,
+                "punctuated_word": "eggs"
+              },
+              {
+                "word": "and",
+                "start": 148.01001,
+                "end": 148.41,
+                "confidence": 0.9790039,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "a",
+                "start": 148.41,
+                "end": 148.65001,
+                "confidence": 0.99902344,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "cup",
+                "start": 148.65001,
+                "end": 148.97,
+                "confidence": 1,
+                "punctuated_word": "cup"
+              },
+              {
+                "word": "of",
+                "start": 148.97,
+                "end": 149.21,
+                "confidence": 0.99902344,
+                "punctuated_word": "of"
+              },
+              {
+                "word": "coffee",
+                "start": 149.21,
+                "end": 149.69,
+                "confidence": 0.99902344,
+                "punctuated_word": "coffee."
+              },
+              {
+                "word": "yeah",
+                "start": 154.00499,
+                "end": 154.725,
+                "confidence": 0.99658203,
+                "punctuated_word": "Yeah."
+              },
+              {
+                "word": "today",
+                "start": 155.20499,
+                "end": 156.005,
+                "confidence": 0.9812012,
+                "punctuated_word": "Today,"
+              },
+              {
+                "word": "i",
+                "start": 156.245,
+                "end": 156.48499,
+                "confidence": 0.99902344,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "ate",
+                "start": 156.48499,
+                "end": 156.805,
+                "confidence": 0.9980469,
+                "punctuated_word": "ate"
+              },
+              {
+                "word": "2",
+                "start": 156.805,
+                "end": 157.125,
+                "confidence": 1,
+                "punctuated_word": "2"
+              },
+              {
+                "word": "eggs",
+                "start": 157.125,
+                "end": 157.605,
+                "confidence": 1,
+                "punctuated_word": "eggs"
+              },
+              {
+                "word": "and",
+                "start": 157.605,
+                "end": 158.245,
+                "confidence": 0.99902344,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "a",
+                "start": 158.245,
+                "end": 158.48499,
+                "confidence": 1,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "cup",
+                "start": 158.48499,
+                "end": 158.805,
+                "confidence": 1,
+                "punctuated_word": "cup"
+              },
+              {
+                "word": "of",
+                "start": 158.805,
+                "end": 159.125,
+                "confidence": 1,
+                "punctuated_word": "of"
+              },
+              {
+                "word": "hot",
+                "start": 159.125,
+                "end": 159.605,
+                "confidence": 1,
+                "punctuated_word": "hot"
+              },
+              {
+                "word": "coffee",
+                "start": 159.605,
+                "end": 160.165,
+                "confidence": 1,
+                "punctuated_word": "coffee."
+              },
+              {
+                "word": "yeah",
+                "start": 167.15001,
+                "end": 167.47,
+                "confidence": 0.9926758,
+                "punctuated_word": "Yeah."
+              },
+              {
+                "word": "let's",
+                "start": 167.47,
+                "end": 167.63,
+                "confidence": 0.9995117,
+                "punctuated_word": "Let's"
+              },
+              {
+                "word": "take",
+                "start": 167.63,
+                "end": 167.79001,
+                "confidence": 1,
+                "punctuated_word": "take"
+              },
+              {
+                "word": "more",
+                "start": 167.79001,
+                "end": 167.95001,
+                "confidence": 0.9980469,
+                "punctuated_word": "more"
+              },
+              {
+                "word": "time",
+                "start": 167.95001,
+                "end": 168.11,
+                "confidence": 1,
+                "punctuated_word": "time"
+              },
+              {
+                "word": "on",
+                "start": 168.11,
+                "end": 168.27,
+                "confidence": 0.9375,
+                "punctuated_word": "on"
+              },
+              {
+                "word": "that",
+                "start": 168.27,
+                "end": 168.67001,
+                "confidence": 0.9995117,
+                "punctuated_word": "that."
+              },
+              {
+                "word": "today",
+                "start": 168.67001,
+                "end": 169.31001,
+                "confidence": 0.9770508,
+                "punctuated_word": "Today,"
+              },
+              {
+                "word": "i",
+                "start": 169.31001,
+                "end": 169.47,
+                "confidence": 1,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "ate",
+                "start": 169.47,
+                "end": 170.03,
+                "confidence": 0.99902344,
+                "punctuated_word": "ate"
+              },
+              {
+                "word": "2",
+                "start": 170.03,
+                "end": 170.35,
+                "confidence": 1,
+                "punctuated_word": "2"
+              },
+              {
+                "word": "eggs",
+                "start": 170.35,
+                "end": 171.07,
+                "confidence": 1,
+                "punctuated_word": "eggs"
+              },
+              {
+                "word": "and",
+                "start": 171.15001,
+                "end": 171.55,
+                "confidence": 0.9951172,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "a",
+                "start": 171.55,
+                "end": 171.87001,
+                "confidence": 1,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "cup",
+                "start": 171.87001,
+                "end": 172.19,
+                "confidence": 1,
+                "punctuated_word": "cup"
+              },
+              {
+                "word": "of",
+                "start": 172.19,
+                "end": 172.51001,
+                "confidence": 1,
+                "punctuated_word": "of"
+              },
+              {
+                "word": "hot",
+                "start": 172.51001,
+                "end": 172.91,
+                "confidence": 1,
+                "punctuated_word": "hot"
+              },
+              {
+                "word": "coffee",
+                "start": 172.91,
+                "end": 173.79001,
+                "confidence": 0.99902344,
+                "punctuated_word": "coffee."
+              },
+              {
+                "word": "beautiful",
+                "start": 179.425,
+                "end": 180.065,
+                "confidence": 0.99853516,
+                "punctuated_word": "Beautiful."
+              },
+              {
+                "word": "today",
+                "start": 180.705,
+                "end": 181.505,
+                "confidence": 0.97631836,
+                "punctuated_word": "Today,"
+              },
+              {
+                "word": "i",
+                "start": 181.58499,
+                "end": 181.825,
+                "confidence": 1,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "ate",
+                "start": 181.825,
+                "end": 182.385,
+                "confidence": 0.99121094,
+                "punctuated_word": "ate"
+              },
+              {
+                "word": "2",
+                "start": 182.385,
+                "end": 182.705,
+                "confidence": 1,
+                "punctuated_word": "2"
+              },
+              {
+                "word": "eggs",
+                "start": 182.705,
+                "end": 183.50499,
+                "confidence": 1,
+                "punctuated_word": "eggs"
+              },
+              {
+                "word": "and",
+                "start": 183.50499,
+                "end": 183.825,
+                "confidence": 0.98535156,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "a",
+                "start": 183.825,
+                "end": 184.065,
+                "confidence": 1,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "cup",
+                "start": 184.065,
+                "end": 184.385,
+                "confidence": 1,
+                "punctuated_word": "cup"
+              },
+              {
+                "word": "of",
+                "start": 184.385,
+                "end": 184.94499,
+                "confidence": 1,
+                "punctuated_word": "of"
+              },
+              {
+                "word": "black",
+                "start": 184.94499,
+                "end": 185.58499,
+                "confidence": 0.99902344,
+                "punctuated_word": "black"
+              },
+              {
+                "word": "hot",
+                "start": 185.58499,
+                "end": 186.38501,
+                "confidence": 0.9790039,
+                "punctuated_word": "hot"
+              },
+              {
+                "word": "coffee",
+                "start": 186.465,
+                "end": 187.025,
+                "confidence": 0.9995117,
+                "punctuated_word": "coffee."
+              },
+              {
+                "word": "yeah",
+                "start": 192.08,
+                "end": 192.48,
+                "confidence": 0.99902344,
+                "punctuated_word": "Yeah."
+              },
+              {
+                "word": "so",
+                "start": 192.48,
+                "end": 192.88,
+                "confidence": 1,
+                "punctuated_word": "So"
+              },
+              {
+                "word": "let",
+                "start": 192.88,
+                "end": 193.12,
+                "confidence": 1,
+                "punctuated_word": "let"
+              },
+              {
+                "word": "me",
+                "start": 193.12,
+                "end": 193.28,
+                "confidence": 1,
+                "punctuated_word": "me"
+              },
+              {
+                "word": "now",
+                "start": 193.28,
+                "end": 193.52,
+                "confidence": 0.86035156,
+                "punctuated_word": "now"
+              },
+              {
+                "word": "let",
+                "start": 194.31999,
+                "end": 194.56,
+                "confidence": 0.99902344,
+                "punctuated_word": "let"
+              },
+              {
+                "word": "me",
+                "start": 194.56,
+                "end": 194.72,
+                "confidence": 1,
+                "punctuated_word": "me"
+              },
+              {
+                "word": "just",
+                "start": 194.72,
+                "end": 195.28,
+                "confidence": 1,
+                "punctuated_word": "just"
+              },
+              {
+                "word": "add",
+                "start": 197.59999,
+                "end": 197.84,
+                "confidence": 0.9892578,
+                "punctuated_word": "add"
+              },
+              {
+                "word": "this",
+                "start": 197.84,
+                "end": 198.56,
+                "confidence": 0.8581543,
+                "punctuated_word": "this."
+              },
+              {
+                "word": "just",
+                "start": 198.8,
+                "end": 198.95999,
+                "confidence": 0.7573242,
+                "punctuated_word": "Just"
+              },
+              {
+                "word": "i",
+                "start": 199.12,
+                "end": 199.2,
+                "confidence": 0.99609375,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "don't",
+                "start": 199.2,
+                "end": 199.28,
+                "confidence": 0.8261719,
+                "punctuated_word": "don't"
+              },
+              {
+                "word": "i",
+                "start": 199.36,
+                "end": 199.52,
+                "confidence": 0.99902344,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "just",
+                "start": 199.52,
+                "end": 199.59999,
+                "confidence": 0.96777344,
+                "punctuated_word": "just"
+              },
+              {
+                "word": "want",
+                "start": 199.59999,
+                "end": 199.76,
+                "confidence": 0.91748047,
+                "punctuated_word": "want"
+              },
+              {
+                "word": "i",
+                "start": 199.84,
+                "end": 200,
+                "confidence": 0.99902344,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "i",
+                "start": 200,
+                "end": 200.16,
+                "confidence": 0.7182617,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "just",
+                "start": 200.16,
+                "end": 200.64,
+                "confidence": 0.98291016,
+                "punctuated_word": "just"
+              },
+              {
+                "word": "to",
+                "start": 200.4,
+                "end": 200.8,
+                "confidence": 0.56225586,
+                "punctuated_word": "to,"
+              },
+              {
+                "word": "like",
+                "start": 200.95999,
+                "end": 201.12,
+                "confidence": 0.9980469,
+                "punctuated_word": "like,"
+              },
+              {
+                "word": "put",
+                "start": 203.69499,
+                "end": 203.935,
+                "confidence": 0.9951172,
+                "punctuated_word": "put"
+              },
+              {
+                "word": "this",
+                "start": 203.935,
+                "end": 204.095,
+                "confidence": 0.60009766,
+                "punctuated_word": "this"
+              },
+              {
+                "word": "to",
+                "start": 204.095,
+                "end": 204.25499,
+                "confidence": 0.9892578,
+                "punctuated_word": "to"
+              },
+              {
+                "word": "notes",
+                "start": 204.25499,
+                "end": 204.575,
+                "confidence": 0.96875,
+                "punctuated_word": "notes"
+              },
+              {
+                "word": "so",
+                "start": 204.575,
+                "end": 204.815,
+                "confidence": 0.9370117,
+                "punctuated_word": "so"
+              },
+              {
+                "word": "you",
+                "start": 204.815,
+                "end": 204.97499,
+                "confidence": 0.99902344,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "keep",
+                "start": 204.97499,
+                "end": 205.135,
+                "confidence": 0.99609375,
+                "punctuated_word": "keep"
+              },
+              {
+                "word": "in",
+                "start": 205.135,
+                "end": 205.295,
+                "confidence": 0.81347656,
+                "punctuated_word": "in"
+              },
+              {
+                "word": "keep",
+                "start": 205.295,
+                "end": 205.535,
+                "confidence": 0.9951172,
+                "punctuated_word": "keep"
+              },
+              {
+                "word": "in",
+                "start": 205.535,
+                "end": 205.69499,
+                "confidence": 0.99316406,
+                "punctuated_word": "in"
+              },
+              {
+                "word": "mind",
+                "start": 205.69499,
+                "end": 206.175,
+                "confidence": 0.99902344,
+                "punctuated_word": "mind."
+              },
+              {
+                "word": "you",
+                "start": 206.25499,
+                "end": 206.495,
+                "confidence": 1,
+                "punctuated_word": "You"
+              },
+              {
+                "word": "know",
+                "start": 206.495,
+                "end": 206.735,
+                "confidence": 0.9099121,
+                "punctuated_word": "know,"
+              },
+              {
+                "word": "we",
+                "start": 206.735,
+                "end": 206.89499,
+                "confidence": 1,
+                "punctuated_word": "we"
+              },
+              {
+                "word": "as",
+                "start": 206.89499,
+                "end": 207.215,
+                "confidence": 0.74365234,
+                "punctuated_word": "as"
+              },
+              {
+                "word": "people",
+                "start": 207.215,
+                "end": 207.775,
+                "confidence": 0.9543457,
+                "punctuated_word": "people,"
+              },
+              {
+                "word": "when",
+                "start": 207.775,
+                "end": 208.015,
+                "confidence": 0.97314453,
+                "punctuated_word": "when"
+              },
+              {
+                "word": "we",
+                "start": 208.015,
+                "end": 208.49501,
+                "confidence": 1,
+                "punctuated_word": "we"
+              },
+              {
+                "word": "learn",
+                "start": 208.655,
+                "end": 208.97499,
+                "confidence": 0.9863281,
+                "punctuated_word": "learn"
+              },
+              {
+                "word": "something",
+                "start": 208.97499,
+                "end": 209.295,
+                "confidence": 1,
+                "punctuated_word": "something"
+              },
+              {
+                "word": "or",
+                "start": 209.295,
+                "end": 209.535,
+                "confidence": 0.9941406,
+                "punctuated_word": "or"
+              },
+              {
+                "word": "when",
+                "start": 209.535,
+                "end": 209.69499,
+                "confidence": 0.9902344,
+                "punctuated_word": "when"
+              },
+              {
+                "word": "we",
+                "start": 209.69499,
+                "end": 209.775,
+                "confidence": 1,
+                "punctuated_word": "we"
+              },
+              {
+                "word": "know",
+                "start": 209.775,
+                "end": 210.015,
+                "confidence": 0.9941406,
+                "punctuated_word": "know"
+              },
+              {
+                "word": "something",
+                "start": 210.015,
+                "end": 210.655,
+                "confidence": 0.9995117,
+                "punctuated_word": "something,"
+              },
+              {
+                "word": "we",
+                "start": 211.055,
+                "end": 211.295,
+                "confidence": 1,
+                "punctuated_word": "we"
+              },
+              {
+                "word": "try",
+                "start": 211.295,
+                "end": 211.61499,
+                "confidence": 0.9980469,
+                "punctuated_word": "try"
+              },
+              {
+                "word": "to",
+                "start": 211.61499,
+                "end": 212.095,
+                "confidence": 1,
+                "punctuated_word": "to"
+              },
+              {
+                "word": "speed",
+                "start": 212.095,
+                "end": 212.495,
+                "confidence": 1,
+                "punctuated_word": "speed"
+              },
+              {
+                "word": "up",
+                "start": 212.495,
+                "end": 212.655,
+                "confidence": 1,
+                "punctuated_word": "up"
+              },
+              {
+                "word": "because",
+                "start": 212.655,
+                "end": 212.97499,
+                "confidence": 0.97509766,
+                "punctuated_word": "because"
+              },
+              {
+                "word": "we've",
+                "start": 212.97499,
+                "end": 213.295,
+                "confidence": 0.88061523,
+                "punctuated_word": "we've"
+              },
+              {
+                "word": "we've",
+                "start": 213.295,
+                "end": 213.455,
+                "confidence": 0.9892578,
+                "punctuated_word": "we've"
+              },
+              {
+                "word": "we've",
+                "start": 213.455,
+                "end": 213.69499,
+                "confidence": 0.7507324,
+                "punctuated_word": "we've"
+              },
+              {
+                "word": "known",
+                "start": 213.69499,
+                "end": 213.935,
+                "confidence": 0.8569336,
+                "punctuated_word": "known"
+              },
+              {
+                "word": "it",
+                "start": 213.935,
+                "end": 214.41501,
+                "confidence": 0.9970703,
+                "punctuated_word": "it."
+              },
+              {
+                "word": "don't",
+                "start": 214.655,
+                "end": 215.135,
+                "confidence": 1,
+                "punctuated_word": "Don't"
+              },
+              {
+                "word": "don't",
+                "start": 215.135,
+                "end": 215.69499,
+                "confidence": 0.95703125,
+                "punctuated_word": "don't"
+              },
+              {
+                "word": "don't",
+                "start": 215.69499,
+                "end": 215.855,
+                "confidence": 0.77978516,
+                "punctuated_word": "don't"
+              },
+              {
+                "word": "get",
+                "start": 215.855,
+                "end": 216.015,
+                "confidence": 0.98828125,
+                "punctuated_word": "get"
+              },
+              {
+                "word": "tricked",
+                "start": 216.015,
+                "end": 216.33499,
+                "confidence": 0.99641925,
+                "punctuated_word": "tricked."
+              },
+              {
+                "word": "don't",
+                "start": 216.63,
+                "end": 216.95,
+                "confidence": 1,
+                "punctuated_word": "Don't"
+              },
+              {
+                "word": "don't",
+                "start": 216.95,
+                "end": 217.43,
+                "confidence": 0.9794922,
+                "punctuated_word": "don't"
+              },
+              {
+                "word": "don't",
+                "start": 217.43,
+                "end": 217.67,
+                "confidence": 0.9848633,
+                "punctuated_word": "don't"
+              },
+              {
+                "word": "follow",
+                "start": 217.67,
+                "end": 217.91,
+                "confidence": 0.99902344,
+                "punctuated_word": "follow"
+              },
+              {
+                "word": "the",
+                "start": 217.91,
+                "end": 218.15,
+                "confidence": 0.99902344,
+                "punctuated_word": "the"
+              },
+              {
+                "word": "speed",
+                "start": 218.15,
+                "end": 218.63,
+                "confidence": 0.9951172,
+                "punctuated_word": "speed."
+              },
+              {
+                "word": "just",
+                "start": 218.63,
+                "end": 219.11,
+                "confidence": 1,
+                "punctuated_word": "Just"
+              },
+              {
+                "word": "stay",
+                "start": 219.11,
+                "end": 219.75,
+                "confidence": 0.9980469,
+                "punctuated_word": "stay"
+              },
+              {
+                "word": "keep",
+                "start": 219.99,
+                "end": 220.23,
+                "confidence": 1,
+                "punctuated_word": "keep"
+              },
+              {
+                "word": "calm",
+                "start": 220.23,
+                "end": 220.70999,
+                "confidence": 0.99316406,
+                "punctuated_word": "calm."
+              },
+              {
+                "word": "that's",
+                "start": 220.70999,
+                "end": 220.95,
+                "confidence": 1,
+                "punctuated_word": "That's"
+              },
+              {
+                "word": "the",
+                "start": 220.95,
+                "end": 221.11,
+                "confidence": 1,
+                "punctuated_word": "the"
+              },
+              {
+                "word": "best",
+                "start": 221.11,
+                "end": 221.35,
+                "confidence": 1,
+                "punctuated_word": "best"
+              },
+              {
+                "word": "approach",
+                "start": 221.35,
+                "end": 221.99,
+                "confidence": 1,
+                "punctuated_word": "approach."
+              },
+              {
+                "word": "you",
+                "start": 222.31,
+                "end": 222.47,
+                "confidence": 0.9819336,
+                "punctuated_word": "You"
+              },
+              {
+                "word": "understand",
+                "start": 222.47,
+                "end": 222.87,
+                "confidence": 0.99902344,
+                "punctuated_word": "understand?"
+              },
+              {
+                "word": "even",
+                "start": 222.87,
+                "end": 223.27,
+                "confidence": 0.9086914,
+                "punctuated_word": "Even"
+              },
+              {
+                "word": "if",
+                "start": 223.27,
+                "end": 223.43,
+                "confidence": 0.9951172,
+                "punctuated_word": "if"
+              },
+              {
+                "word": "you",
+                "start": 223.43,
+                "end": 223.59,
+                "confidence": 1,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "know",
+                "start": 223.59,
+                "end": 223.83,
+                "confidence": 0.9970703,
+                "punctuated_word": "know"
+              },
+              {
+                "word": "it",
+                "start": 223.83,
+                "end": 224.39,
+                "confidence": 0.9970703,
+                "punctuated_word": "it,"
+              },
+              {
+                "word": "still",
+                "start": 224.55,
+                "end": 224.95,
+                "confidence": 0.9980469,
+                "punctuated_word": "still"
+              },
+              {
+                "word": "keep",
+                "start": 224.95,
+                "end": 225.27,
+                "confidence": 1,
+                "punctuated_word": "keep"
+              },
+              {
+                "word": "calm",
+                "start": 225.27,
+                "end": 225.91,
+                "confidence": 0.9995117,
+                "punctuated_word": "calm."
+              },
+              {
+                "word": "it's",
+                "start": 226.47,
+                "end": 226.79,
+                "confidence": 1,
+                "punctuated_word": "It's"
+              },
+              {
+                "word": "better",
+                "start": 226.79,
+                "end": 227.19,
+                "confidence": 0.9819336,
+                "punctuated_word": "better"
+              },
+              {
+                "word": "with",
+                "start": 227.19,
+                "end": 227.59,
+                "confidence": 0.24353027,
+                "punctuated_word": "with"
+              },
+              {
+                "word": "yeah",
+                "start": 227.67,
+                "end": 228.23001,
+                "confidence": 0.99194336,
+                "punctuated_word": "yeah."
+              },
+              {
+                "word": "so",
+                "start": 228.39,
+                "end": 228.63,
+                "confidence": 1,
+                "punctuated_word": "So"
+              },
+              {
+                "word": "we're",
+                "start": 228.63,
+                "end": 228.87,
+                "confidence": 0.9951172,
+                "punctuated_word": "we're"
+              },
+              {
+                "word": "gonna",
+                "start": 228.87,
+                "end": 229.43,
+                "confidence": 0.9970703,
+                "punctuated_word": "gonna"
+              },
+              {
+                "word": "repeat",
+                "start": 229.43,
+                "end": 229.91,
+                "confidence": 0.96533203,
+                "punctuated_word": "repeat"
+              },
+              {
+                "word": "that",
+                "start": 229.91,
+                "end": 230.47,
+                "confidence": 1,
+                "punctuated_word": "that"
+              },
+              {
+                "word": "again",
+                "start": 230.63,
+                "end": 231.03,
+                "confidence": 0.7687988,
+                "punctuated_word": "again,"
+              },
+              {
+                "word": "then",
+                "start": 231.405,
+                "end": 231.725,
+                "confidence": 0.9980469,
+                "punctuated_word": "then"
+              },
+              {
+                "word": "i'll",
+                "start": 231.725,
+                "end": 231.965,
+                "confidence": 0.99853516,
+                "punctuated_word": "I'll"
+              },
+              {
+                "word": "ask",
+                "start": 231.965,
+                "end": 232.205,
+                "confidence": 1,
+                "punctuated_word": "ask"
+              },
+              {
+                "word": "you",
+                "start": 232.205,
+                "end": 232.285,
+                "confidence": 0.9941406,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "the",
+                "start": 232.285,
+                "end": 232.44499,
+                "confidence": 0.97802734,
+                "punctuated_word": "the"
+              },
+              {
+                "word": "question",
+                "start": 232.44499,
+                "end": 233.005,
+                "confidence": 0.939209,
+                "punctuated_word": "question,"
+              },
+              {
+                "word": "then",
+                "start": 233.005,
+                "end": 233.165,
+                "confidence": 0.99902344,
+                "punctuated_word": "then"
+              },
+              {
+                "word": "you're",
+                "start": 233.165,
+                "end": 233.485,
+                "confidence": 0.98168945,
+                "punctuated_word": "you're"
+              },
+              {
+                "word": "gonna",
+                "start": 233.485,
+                "end": 233.565,
+                "confidence": 0.9970703,
+                "punctuated_word": "gonna"
+              },
+              {
+                "word": "give",
+                "start": 233.565,
+                "end": 233.725,
+                "confidence": 0.99902344,
+                "punctuated_word": "give"
+              },
+              {
+                "word": "me",
+                "start": 233.725,
+                "end": 233.805,
+                "confidence": 1,
+                "punctuated_word": "me"
+              },
+              {
+                "word": "the",
+                "start": 233.805,
+                "end": 233.965,
+                "confidence": 0.9970703,
+                "punctuated_word": "the"
+              },
+              {
+                "word": "answer",
+                "start": 233.965,
+                "end": 234.205,
+                "confidence": 0.98095703,
+                "punctuated_word": "answer"
+              },
+              {
+                "word": "straight",
+                "start": 234.205,
+                "end": 234.925,
+                "confidence": 1,
+                "punctuated_word": "straight."
+              },
+              {
+                "word": "you",
+                "start": 235.565,
+                "end": 235.885,
+                "confidence": 0.98828125,
+                "punctuated_word": "You"
+              },
+              {
+                "word": "understand",
+                "start": 235.885,
+                "end": 236.44499,
+                "confidence": 0.94677734,
+                "punctuated_word": "understand."
+              },
+              {
+                "word": "right",
+                "start": 236.44499,
+                "end": 237.005,
+                "confidence": 1,
+                "punctuated_word": "Right?"
+              },
+              {
+                "word": "we're",
+                "start": 240.525,
+                "end": 241.005,
+                "confidence": 0.9609375,
+                "punctuated_word": "We're"
+              },
+              {
+                "word": "gonna",
+                "start": 241.005,
+                "end": 241.165,
+                "confidence": 0.99316406,
+                "punctuated_word": "gonna"
+              },
+              {
+                "word": "we're",
+                "start": 241.165,
+                "end": 241.645,
+                "confidence": 0.98217773,
+                "punctuated_word": "we're"
+              },
+              {
+                "word": "gonna",
+                "start": 241.645,
+                "end": 241.805,
+                "confidence": 0.9526367,
+                "punctuated_word": "gonna"
+              },
+              {
+                "word": "we're",
+                "start": 241.805,
+                "end": 242.045,
+                "confidence": 0.8083496,
+                "punctuated_word": "we're"
+              },
+              {
+                "word": "gonna",
+                "start": 242.045,
+                "end": 242.205,
+                "confidence": 0.99609375,
+                "punctuated_word": "gonna"
+              },
+              {
+                "word": "repeat",
+                "start": 242.205,
+                "end": 242.44499,
+                "confidence": 0.99902344,
+                "punctuated_word": "repeat"
+              },
+              {
+                "word": "the",
+                "start": 242.44499,
+                "end": 242.605,
+                "confidence": 1,
+                "punctuated_word": "the"
+              },
+              {
+                "word": "test",
+                "start": 242.605,
+                "end": 242.845,
+                "confidence": 0.99609375,
+                "punctuated_word": "test"
+              },
+              {
+                "word": "again",
+                "start": 242.845,
+                "end": 243.485,
+                "confidence": 0.9995117,
+                "punctuated_word": "again."
+              },
+              {
+                "word": "i",
+                "start": 243.485,
+                "end": 243.805,
+                "confidence": 1,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "want",
+                "start": 243.805,
+                "end": 243.965,
+                "confidence": 0.99902344,
+                "punctuated_word": "want"
+              },
+              {
+                "word": "us",
+                "start": 243.965,
+                "end": 244.045,
+                "confidence": 0.9902344,
+                "punctuated_word": "us"
+              },
+              {
+                "word": "to",
+                "start": 244.045,
+                "end": 244.205,
+                "confidence": 0.9980469,
+                "punctuated_word": "to"
+              },
+              {
+                "word": "repeat",
+                "start": 244.205,
+                "end": 244.44499,
+                "confidence": 1,
+                "punctuated_word": "repeat"
+              },
+              {
+                "word": "the",
+                "start": 244.44499,
+                "end": 244.605,
+                "confidence": 0.99902344,
+                "punctuated_word": "the"
+              },
+              {
+                "word": "test",
+                "start": 244.605,
+                "end": 244.845,
+                "confidence": 0.99902344,
+                "punctuated_word": "test"
+              },
+              {
+                "word": "again",
+                "start": 244.845,
+                "end": 245.08499,
+                "confidence": 1,
+                "punctuated_word": "again"
+              },
+              {
+                "word": "where",
+                "start": 245.08499,
+                "end": 245.325,
+                "confidence": 0.796875,
+                "punctuated_word": "where"
+              },
+              {
+                "word": "you",
+                "start": 245.325,
+                "end": 245.565,
+                "confidence": 0.9941406,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "repeat",
+                "start": 245.565,
+                "end": 245.885,
+                "confidence": 0.99609375,
+                "punctuated_word": "repeat"
+              },
+              {
+                "word": "after",
+                "start": 245.885,
+                "end": 246.205,
+                "confidence": 0.99902344,
+                "punctuated_word": "after"
+              },
+              {
+                "word": "me",
+                "start": 246.205,
+                "end": 246.44499,
+                "confidence": 0.8972168,
+                "punctuated_word": "me."
+              },
+              {
+                "word": "and",
+                "start": 247.05,
+                "end": 247.37,
+                "confidence": 0.89208984,
+                "punctuated_word": "And"
+              },
+              {
+                "word": "after",
+                "start": 247.37,
+                "end": 247.69,
+                "confidence": 1,
+                "punctuated_word": "after"
+              },
+              {
+                "word": "repeating",
+                "start": 247.69,
+                "end": 248.09,
+                "confidence": 0.99902344,
+                "punctuated_word": "repeating"
+              },
+              {
+                "word": "a",
+                "start": 248.09,
+                "end": 248.25,
+                "confidence": 0.5229492,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "test",
+                "start": 248.25,
+                "end": 248.65,
+                "confidence": 0.9980469,
+                "punctuated_word": "test,"
+              },
+              {
+                "word": "i'll",
+                "start": 248.65,
+                "end": 248.89,
+                "confidence": 0.9995117,
+                "punctuated_word": "I'll"
+              },
+              {
+                "word": "ask",
+                "start": 248.89,
+                "end": 249.29,
+                "confidence": 1,
+                "punctuated_word": "ask"
+              },
+              {
+                "word": "quest",
+                "start": 249.29,
+                "end": 249.61,
+                "confidence": 0.86328125,
+                "punctuated_word": "quest"
+              },
+              {
+                "word": "then",
+                "start": 249.77,
+                "end": 250.17,
+                "confidence": 0.56347656,
+                "punctuated_word": "then"
+              },
+              {
+                "word": "i'll",
+                "start": 250.17,
+                "end": 250.41,
+                "confidence": 0.9995117,
+                "punctuated_word": "I'll"
+              },
+              {
+                "word": "ask",
+                "start": 250.41,
+                "end": 250.65,
+                "confidence": 1,
+                "punctuated_word": "ask"
+              },
+              {
+                "word": "the",
+                "start": 250.65,
+                "end": 250.81,
+                "confidence": 0.9482422,
+                "punctuated_word": "the"
+              },
+              {
+                "word": "direct",
+                "start": 250.81,
+                "end": 251.05,
+                "confidence": 0.9921875,
+                "punctuated_word": "direct"
+              },
+              {
+                "word": "question",
+                "start": 251.05,
+                "end": 251.61,
+                "confidence": 0.91796875,
+                "punctuated_word": "question."
+              },
+              {
+                "word": "what",
+                "start": 251.61,
+                "end": 251.77,
+                "confidence": 0.99902344,
+                "punctuated_word": "What"
+              },
+              {
+                "word": "did",
+                "start": 251.77,
+                "end": 251.93,
+                "confidence": 1,
+                "punctuated_word": "did"
+              },
+              {
+                "word": "you",
+                "start": 251.93,
+                "end": 252.09,
+                "confidence": 1,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "eat",
+                "start": 252.09,
+                "end": 252.33,
+                "confidence": 1,
+                "punctuated_word": "eat"
+              },
+              {
+                "word": "today",
+                "start": 252.33,
+                "end": 252.97,
+                "confidence": 0.99853516,
+                "punctuated_word": "today?"
+              },
+              {
+                "word": "then",
+                "start": 253.13,
+                "end": 253.29,
+                "confidence": 0.9970703,
+                "punctuated_word": "Then"
+              },
+              {
+                "word": "you",
+                "start": 253.29,
+                "end": 253.45,
+                "confidence": 1,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "will",
+                "start": 253.45,
+                "end": 253.61,
+                "confidence": 0.7001953,
+                "punctuated_word": "will"
+              },
+              {
+                "word": "have",
+                "start": 253.61,
+                "end": 253.69,
+                "confidence": 1,
+                "punctuated_word": "have"
+              },
+              {
+                "word": "to",
+                "start": 253.69,
+                "end": 253.77,
+                "confidence": 1,
+                "punctuated_word": "to"
+              },
+              {
+                "word": "be",
+                "start": 253.77,
+                "end": 253.93,
+                "confidence": 0.984375,
+                "punctuated_word": "be"
+              },
+              {
+                "word": "able",
+                "start": 253.93,
+                "end": 254.09,
+                "confidence": 0.2668457,
+                "punctuated_word": "able"
+              },
+              {
+                "word": "to",
+                "start": 254.09,
+                "end": 254.25,
+                "confidence": 1,
+                "punctuated_word": "to"
+              },
+              {
+                "word": "give",
+                "start": 254.25,
+                "end": 254.41,
+                "confidence": 0.9980469,
+                "punctuated_word": "give"
+              },
+              {
+                "word": "me",
+                "start": 254.41,
+                "end": 254.56999,
+                "confidence": 0.9658203,
+                "punctuated_word": "me"
+              },
+              {
+                "word": "answer",
+                "start": 254.56999,
+                "end": 255.21,
+                "confidence": 0.7897949,
+                "punctuated_word": "answer."
+              },
+              {
+                "word": "but",
+                "start": 255.37,
+                "end": 255.53,
+                "confidence": 1,
+                "punctuated_word": "But"
+              },
+              {
+                "word": "first",
+                "start": 255.53,
+                "end": 255.84999,
+                "confidence": 0.984375,
+                "punctuated_word": "first"
+              },
+              {
+                "word": "but",
+                "start": 255.84999,
+                "end": 256.16998,
+                "confidence": 0.98095703,
+                "punctuated_word": "but"
+              },
+              {
+                "word": "first",
+                "start": 256.16998,
+                "end": 256.57,
+                "confidence": 0.9855957,
+                "punctuated_word": "first,"
+              },
+              {
+                "word": "let's",
+                "start": 256.57,
+                "end": 256.88998,
+                "confidence": 1,
+                "punctuated_word": "let's"
+              },
+              {
+                "word": "repeat",
+                "start": 256.88998,
+                "end": 257.29,
+                "confidence": 1,
+                "punctuated_word": "repeat"
+              },
+              {
+                "word": "the",
+                "start": 257.29,
+                "end": 257.53,
+                "confidence": 1,
+                "punctuated_word": "the"
+              },
+              {
+                "word": "test",
+                "start": 257.53,
+                "end": 257.77,
+                "confidence": 1,
+                "punctuated_word": "test"
+              },
+              {
+                "word": "again",
+                "start": 257.77,
+                "end": 258.01,
+                "confidence": 1,
+                "punctuated_word": "again."
+              },
+              {
+                "word": "today",
+                "start": 259.995,
+                "end": 260.63498,
+                "confidence": 0.9807129,
+                "punctuated_word": "Today,"
+              },
+              {
+                "word": "i",
+                "start": 260.63498,
+                "end": 260.79498,
+                "confidence": 1,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "ate",
+                "start": 260.79498,
+                "end": 261.435,
+                "confidence": 0.99902344,
+                "punctuated_word": "ate"
+              },
+              {
+                "word": "2",
+                "start": 261.435,
+                "end": 261.755,
+                "confidence": 1,
+                "punctuated_word": "2"
+              },
+              {
+                "word": "eggs",
+                "start": 261.755,
+                "end": 262.475,
+                "confidence": 1,
+                "punctuated_word": "eggs"
+              },
+              {
+                "word": "and",
+                "start": 262.555,
+                "end": 263.195,
+                "confidence": 1,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "coffee",
+                "start": 263.195,
+                "end": 264.075,
+                "confidence": 0.9995117,
+                "punctuated_word": "coffee."
+              },
+              {
+                "word": "today",
+                "start": 270.395,
+                "end": 271.115,
+                "confidence": 0.99609375,
+                "punctuated_word": "Today,"
+              },
+              {
+                "word": "i",
+                "start": 271.51498,
+                "end": 271.755,
+                "confidence": 1,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "had",
+                "start": 271.755,
+                "end": 272.63498,
+                "confidence": 1,
+                "punctuated_word": "had"
+              },
+              {
+                "word": "2",
+                "start": 272.72,
+                "end": 273.04,
+                "confidence": 1,
+                "punctuated_word": "2"
+              },
+              {
+                "word": "eggs",
+                "start": 273.04,
+                "end": 273.76,
+                "confidence": 1,
+                "punctuated_word": "eggs"
+              },
+              {
+                "word": "and",
+                "start": 273.92,
+                "end": 274.40002,
+                "confidence": 0.9980469,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "a",
+                "start": 274.40002,
+                "end": 274.72,
+                "confidence": 0.99902344,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "cup",
+                "start": 274.72,
+                "end": 275.04,
+                "confidence": 1,
+                "punctuated_word": "cup"
+              },
+              {
+                "word": "of",
+                "start": 275.04,
+                "end": 275.36002,
+                "confidence": 1,
+                "punctuated_word": "of"
+              },
+              {
+                "word": "coffee",
+                "start": 275.36002,
+                "end": 276.16003,
+                "confidence": 1,
+                "punctuated_word": "coffee."
+              },
+              {
+                "word": "today",
+                "start": 281.6,
+                "end": 282.56003,
+                "confidence": 0.99560547,
+                "punctuated_word": "Today,"
+              },
+              {
+                "word": "i",
+                "start": 282.56003,
+                "end": 282.80002,
+                "confidence": 1,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "had",
+                "start": 282.80002,
+                "end": 283.44003,
+                "confidence": 1,
+                "punctuated_word": "had"
+              },
+              {
+                "word": "2",
+                "start": 283.52002,
+                "end": 283.84003,
+                "confidence": 1,
+                "punctuated_word": "2"
+              },
+              {
+                "word": "eggs",
+                "start": 283.84003,
+                "end": 284.56003,
+                "confidence": 1,
+                "punctuated_word": "eggs"
+              },
+              {
+                "word": "and",
+                "start": 284.72,
+                "end": 285.12003,
+                "confidence": 0.99902344,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "a",
+                "start": 285.12003,
+                "end": 285.36002,
+                "confidence": 1,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "cup",
+                "start": 285.36002,
+                "end": 285.76,
+                "confidence": 1,
+                "punctuated_word": "cup"
+              },
+              {
+                "word": "of",
+                "start": 285.76,
+                "end": 286,
+                "confidence": 0.99902344,
+                "punctuated_word": "of"
+              },
+              {
+                "word": "coffee",
+                "start": 286,
+                "end": 286.48,
+                "confidence": 0.99902344,
+                "punctuated_word": "coffee."
+              },
+              {
+                "word": "today",
+                "start": 293.86502,
+                "end": 294.58502,
+                "confidence": 0.9538574,
+                "punctuated_word": "Today,"
+              },
+              {
+                "word": "i",
+                "start": 294.665,
+                "end": 294.825,
+                "confidence": 0.99902344,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "had",
+                "start": 294.825,
+                "end": 295.14502,
+                "confidence": 0.99316406,
+                "punctuated_word": "had"
+              },
+              {
+                "word": "2",
+                "start": 295.14502,
+                "end": 295.465,
+                "confidence": 1,
+                "punctuated_word": "2"
+              },
+              {
+                "word": "eggs",
+                "start": 295.465,
+                "end": 296.185,
+                "confidence": 1,
+                "punctuated_word": "eggs"
+              },
+              {
+                "word": "and",
+                "start": 296.185,
+                "end": 296.58502,
+                "confidence": 0.99609375,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "a",
+                "start": 296.58502,
+                "end": 296.825,
+                "confidence": 0.99902344,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "cup",
+                "start": 296.825,
+                "end": 297.14502,
+                "confidence": 1,
+                "punctuated_word": "cup"
+              },
+              {
+                "word": "of",
+                "start": 297.14502,
+                "end": 297.385,
+                "confidence": 0.99902344,
+                "punctuated_word": "of"
+              },
+              {
+                "word": "coffee",
+                "start": 297.385,
+                "end": 297.86502,
+                "confidence": 0.9980469,
+                "punctuated_word": "coffee."
+              }
+            ],
+            "paragraphs": {
+              "transcript": "\nYeah. That's that's all I wanted. It's it's a short statement. I'm going to rephrase that statement again and again. So today, I took eggs and a cup of coffee.\n\nYou can see I took my time. So no no rush. Yeah. Let's go. Good.\n\nGood. That's what that's the first word. Close to perfect. Today, I took eggs and a cup of of coffee. Good.\n\nGood. Today, I ate 2 boiled eggs and a cup of coffee. Good. Today, I ate 2 boiled eggs and a cup of hot coffee. Today, I ate 2 boiled eggs and a cup of black hot coffee.\n\nBlack pot black pot coffee. Today, I ate 2 eggs and a cup of coffee. Perfect. Today, I ate 2 boiled eggs and a cup of hot coffee. Today, I ate 2 boiled eggs and a cup of black hot coffee.\n\nBeautiful. Today, I ate 2 eggs and a cup of coffee. Yeah. Today, I ate 2 eggs and a cup of hot coffee. Yeah.\n\nLet's take more time on that. Today, I ate 2 eggs and a cup of hot coffee. Beautiful. Today, I ate 2 eggs and a cup of black hot coffee. Yeah.\n\nSo let me now let me just add this. Just I don't I just want I I just to, like, put this to notes so you keep in keep in mind. You know, we as people, when we learn something or when we know something, we try to speed up because we've we've we've known it. Don't don't don't get tricked. Don't don't don't follow the speed.\n\nJust stay keep calm. That's the best approach. You understand? Even if you know it, still keep calm. It's better with yeah.\n\nSo we're gonna repeat that again, then I'll ask you the question, then you're gonna give me the answer straight. You understand. Right? We're gonna we're gonna we're gonna repeat the test again. I want us to repeat the test again where you repeat after me.\n\nAnd after repeating a test, I'll ask quest then I'll ask the direct question. What did you eat today? Then you will have to be able to give me answer. But first but first, let's repeat the test again. Today, I ate 2 eggs and coffee.\n\nToday, I had 2 eggs and a cup of coffee. Today, I had 2 eggs and a cup of coffee. Today, I had 2 eggs and a cup of coffee.",
+              "paragraphs": [
+                {
+                  "sentences": [
+                    {
+                      "text": "Yeah.",
+                      "start": 11.04,
+                      "end": 11.44
+                    },
+                    {
+                      "text": "That's that's all I wanted.",
+                      "start": 11.44,
+                      "end": 12.719999
+                    },
+                    {
+                      "text": "It's it's a short statement.",
+                      "start": 12.719999,
+                      "end": 13.92
+                    },
+                    {
+                      "text": "I'm going to rephrase that statement again and again.",
+                      "start": 14.335,
+                      "end": 18.095
+                    },
+                    {
+                      "text": "So today, I took eggs and a cup of coffee.",
+                      "start": 18.494999,
+                      "end": 25.455
+                    }
+                  ],
+                  "num_words": 30,
+                  "start": 11.04,
+                  "end": 25.455
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "You can see I took my time.",
+                      "start": 25.455,
+                      "end": 26.895
+                    },
+                    {
+                      "text": "So no no rush.",
+                      "start": 27.055,
+                      "end": 28.175
+                    },
+                    {
+                      "text": "Yeah.",
+                      "start": 28.5,
+                      "end": 28.9
+                    },
+                    {
+                      "text": "Let's go.",
+                      "start": 28.9,
+                      "end": 29.539999
+                    },
+                    {
+                      "text": "Good.",
+                      "start": 37.22,
+                      "end": 37.78
+                    }
+                  ],
+                  "num_words": 15,
+                  "start": 25.455,
+                  "end": 37.78
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "Good.",
+                      "start": 37.78,
+                      "end": 38.1
+                    },
+                    {
+                      "text": "That's what that's the first word.",
+                      "start": 38.1,
+                      "end": 39.62
+                    },
+                    {
+                      "text": "Close to perfect.",
+                      "start": 39.78,
+                      "end": 40.58
+                    },
+                    {
+                      "text": "Today, I took eggs and a cup of of coffee.",
+                      "start": 41.305,
+                      "end": 45.545
+                    },
+                    {
+                      "text": "Good.",
+                      "start": 50.025,
+                      "end": 50.665
+                    }
+                  ],
+                  "num_words": 21,
+                  "start": 37.78,
+                  "end": 50.665
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "Good.",
+                      "start": 50.665,
+                      "end": 51.305
+                    },
+                    {
+                      "text": "Today, I ate 2 boiled eggs and a cup of coffee.",
+                      "start": 52.025,
+                      "end": 58.39
+                    },
+                    {
+                      "text": "Good.",
+                      "start": 65.75,
+                      "end": 66.15
+                    },
+                    {
+                      "text": "Today, I ate 2 boiled eggs and a cup of hot coffee.",
+                      "start": 67.265,
+                      "end": 72.784996
+                    },
+                    {
+                      "text": "Today, I ate 2 boiled eggs and a cup of black hot coffee.",
+                      "start": 81.119995,
+                      "end": 86.799995
+                    }
+                  ],
+                  "num_words": 38,
+                  "start": 50.665,
+                  "end": 86.799995
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "Black pot black pot coffee.",
+                      "start": 97.925,
+                      "end": 101.205
+                    },
+                    {
+                      "text": "Today, I ate 2 eggs and a cup of coffee.",
+                      "start": 102.965004,
+                      "end": 108.299995
+                    },
+                    {
+                      "text": "Perfect.",
+                      "start": 113.74,
+                      "end": 114.46
+                    },
+                    {
+                      "text": "Today, I ate 2 boiled eggs and a cup of hot coffee.",
+                      "start": 114.94,
+                      "end": 122.475
+                    },
+                    {
+                      "text": "Today, I ate 2 boiled eggs and a cup of black hot coffee.",
+                      "start": 128.955,
+                      "end": 135.37001
+                    }
+                  ],
+                  "num_words": 41,
+                  "start": 97.925,
+                  "end": 135.37001
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "Beautiful.",
+                      "start": 142.97,
+                      "end": 143.77002
+                    },
+                    {
+                      "text": "Today, I ate 2 eggs and a cup of coffee.",
+                      "start": 145.45001,
+                      "end": 149.69
+                    },
+                    {
+                      "text": "Yeah.",
+                      "start": 154.00499,
+                      "end": 154.725
+                    },
+                    {
+                      "text": "Today, I ate 2 eggs and a cup of hot coffee.",
+                      "start": 155.20499,
+                      "end": 160.165
+                    },
+                    {
+                      "text": "Yeah.",
+                      "start": 167.15001,
+                      "end": 167.47
+                    }
+                  ],
+                  "num_words": 24,
+                  "start": 142.97,
+                  "end": 167.47
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "Let's take more time on that.",
+                      "start": 167.47,
+                      "end": 168.67001
+                    },
+                    {
+                      "text": "Today, I ate 2 eggs and a cup of hot coffee.",
+                      "start": 168.67001,
+                      "end": 173.79001
+                    },
+                    {
+                      "text": "Beautiful.",
+                      "start": 179.425,
+                      "end": 180.065
+                    },
+                    {
+                      "text": "Today, I ate 2 eggs and a cup of black hot coffee.",
+                      "start": 180.705,
+                      "end": 187.025
+                    },
+                    {
+                      "text": "Yeah.",
+                      "start": 192.08,
+                      "end": 192.48
+                    }
+                  ],
+                  "num_words": 31,
+                  "start": 167.47,
+                  "end": 192.48
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "So let me now let me just add this.",
+                      "start": 192.48,
+                      "end": 198.56
+                    },
+                    {
+                      "text": "Just I don't I just want I I just to, like, put this to notes so you keep in keep in mind.",
+                      "start": 198.8,
+                      "end": 206.175
+                    },
+                    {
+                      "text": "You know, we as people, when we learn something or when we know something, we try to speed up because we've we've we've known it.",
+                      "start": 206.25499,
+                      "end": 214.41501
+                    },
+                    {
+                      "text": "Don't don't don't get tricked.",
+                      "start": 214.655,
+                      "end": 216.33499
+                    },
+                    {
+                      "text": "Don't don't don't follow the speed.",
+                      "start": 216.63,
+                      "end": 218.63
+                    }
+                  ],
+                  "num_words": 67,
+                  "start": 192.48,
+                  "end": 218.63
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "Just stay keep calm.",
+                      "start": 218.63,
+                      "end": 220.70999
+                    },
+                    {
+                      "text": "That's the best approach.",
+                      "start": 220.70999,
+                      "end": 221.99
+                    },
+                    {
+                      "text": "You understand?",
+                      "start": 222.31,
+                      "end": 222.87
+                    },
+                    {
+                      "text": "Even if you know it, still keep calm.",
+                      "start": 222.87,
+                      "end": 225.91
+                    },
+                    {
+                      "text": "It's better with yeah.",
+                      "start": 226.47,
+                      "end": 228.23001
+                    }
+                  ],
+                  "num_words": 22,
+                  "start": 218.63,
+                  "end": 228.23001
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "So we're gonna repeat that again, then I'll ask you the question, then you're gonna give me the answer straight.",
+                      "start": 228.39,
+                      "end": 234.925
+                    },
+                    {
+                      "text": "You understand.",
+                      "start": 235.565,
+                      "end": 236.44499
+                    },
+                    {
+                      "text": "Right?",
+                      "start": 236.44499,
+                      "end": 237.005
+                    },
+                    {
+                      "text": "We're gonna we're gonna we're gonna repeat the test again.",
+                      "start": 240.525,
+                      "end": 243.485
+                    },
+                    {
+                      "text": "I want us to repeat the test again where you repeat after me.",
+                      "start": 243.485,
+                      "end": 246.44499
+                    }
+                  ],
+                  "num_words": 46,
+                  "start": 228.39,
+                  "end": 246.44499
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "And after repeating a test, I'll ask quest then I'll ask the direct question.",
+                      "start": 247.05,
+                      "end": 251.61
+                    },
+                    {
+                      "text": "What did you eat today?",
+                      "start": 251.61,
+                      "end": 252.97
+                    },
+                    {
+                      "text": "Then you will have to be able to give me answer.",
+                      "start": 253.13,
+                      "end": 255.21
+                    },
+                    {
+                      "text": "But first but first, let's repeat the test again.",
+                      "start": 255.37,
+                      "end": 258.01
+                    },
+                    {
+                      "text": "Today, I ate 2 eggs and coffee.",
+                      "start": 259.995,
+                      "end": 264.075
+                    }
+                  ],
+                  "num_words": 46,
+                  "start": 247.05,
+                  "end": 264.075
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "Today, I had 2 eggs and a cup of coffee.",
+                      "start": 270.395,
+                      "end": 276.16003
+                    },
+                    {
+                      "text": "Today, I had 2 eggs and a cup of coffee.",
+                      "start": 281.6,
+                      "end": 286.48
+                    },
+                    {
+                      "text": "Today, I had 2 eggs and a cup of coffee.",
+                      "start": 293.86502,
+                      "end": 297.86502
+                    }
+                  ],
+                  "num_words": 30,
+                  "start": 270.395,
+                  "end": 297.86502
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "paragraphs": {
+      "transcript": "\nChannel 0: A cup of coffee. And I don't I don't remember I don't remember them what's what's what you what you thought.\n\nChannel 1: Yeah. That's that's all I wanted. It's it's a short statement. I'm going to rephrase\n\nChannel 0: Okay.\n\nChannel 1: that statement again and again. So today,\n\nChannel 0: Mhmm.\n\nChannel 1: I took eggs and a cup of coffee. You can see I took my time. So no no rush. Yeah. Let's go.\n\nChannel 0: Today, I took, today today, I took eggs and, a cup of coffee.\n\nChannel 1: Good. Good. That's what that's the first word. Close to perfect. Today, I took eggs and a cup of of coffee.\n\nChannel 0: Today, I took eggs and a cup of coffee.\n\nChannel 1: Good. Good. Today, I ate 2 boiled eggs and a cup of coffee.\n\nChannel 0: Today, I ate 2 bald eggs and a cup of coffee.\n\nChannel 1: Good. Today, I ate 2 boiled eggs and a cup of hot coffee.\n\nChannel 0: Today, I ate 2 bald eggs and a cup of hot coffee.\n\nChannel 1: Today, I ate 2 boiled eggs and a cup of black hot coffee.\n\nChannel 0: Today, I ate 2 bold eggs 2 bold 2 bold eggs and a cup of of\n\nChannel 1: Black\n\nChannel 0: hot\n\nChannel 1: pot black\n\nChannel 0: or on black\n\nChannel 1: pot\n\nChannel 0: hot\n\nChannel 1: coffee.\n\nChannel 0: coffee. Okay.\n\nChannel 1: Today, I ate 2 eggs and a cup of coffee.\n\nChannel 0: Today, I ate 2 eggs and a cup of coffee.\n\nChannel 1: Perfect. Today, I ate 2 boiled eggs and a cup of hot coffee.\n\nChannel 0: Today, I ate 2 bold eggs and a cup of coffee.\n\nChannel 1: Today, I ate 2 boiled eggs and a cup of black hot coffee.\n\nChannel 0: Today, I ate 2 bold eggs and a cup of black hot coffee.\n\nChannel 1: Beautiful. Today, I ate 2 eggs and a cup of coffee.\n\nChannel 0: Today, I ate 2 x and a cup of coffee.\n\nChannel 1: Yeah. Today,\n\nChannel 0: Yeah.\n\nChannel 1: I ate 2 eggs and a cup of hot coffee.\n\nChannel 0: Today, I ate 2 x and a cup of of hot coffee. Yeah?\n\nChannel 1: Yeah. Let's take more time on that. Today, I ate 2 eggs and a cup of hot coffee.\n\nChannel 0: Today, I ate 2 eggs and a cup of hot coffee.\n\nChannel 1: Beautiful. Today, I ate 2 eggs and a cup of black hot coffee.\n\nChannel 0: Today, I ate 2 eggs and a cup of black hot coffee.\n\nChannel 1: Yeah. So let me now let me just add this. Just I don't I just want I I just to, like, put this to notes so you keep in keep in mind. You know, we as people, when we learn something or when we know something, we try to speed up because we've we've we've known it. Don't\n\nChannel 0: Mhmm.\n\nChannel 1: don't don't get tricked. Don't don't don't follow the speed. Just stay keep calm. That's the best approach. You understand?\n\nChannel 0: Okay.\n\nChannel 1: Even if you know it, still keep calm. It's better\n\nChannel 0: Okay.\n\nChannel 1: with yeah. So we're gonna repeat that again, then I'll ask you the question, then you're gonna give me the answer straight. You understand. Right?\n\nChannel 0: So\n\nChannel 1: We're\n\nChannel 0: so I\n\nChannel 1: gonna we're gonna we're gonna repeat the test again. I want us to\n\nChannel 0: mhmm.\n\nChannel 1: repeat the test again where you repeat after me. And after repeating a test, I'll ask quest then I'll ask the direct question. What did you eat today? Then you will have to\n\nChannel 0: Okay.\n\nChannel 1: be able to give me answer. But\n\nChannel 0: Okay.\n\nChannel 1: first but\n\nChannel 0: Okay.\n\nChannel 1: first, let's repeat the test again.\n\nChannel 0: Okay.\n\nChannel 1: Today, I ate 2 eggs and coffee.\n\nChannel 0: Today, I ate 2 eggs and coffee.\n\nChannel 1: Today, I had 2 eggs and a cup of coffee.\n\nChannel 0: Today, I ate 2 eggs and a cup of coffee.\n\nChannel 1: Today, I had 2 eggs and a cup of coffee.\n\nChannel 0: Today, I had, I had today, I had 2 eggs and a cup of coffee.\n\nChannel 1: Today, I had 2 eggs and a cup of coffee.\n\nChannel 0: Today, I had 2 egg",
+      "paragraphs": [
+        {
+          "sentences": [
+            {
+              "text": "A cup of coffee.",
+              "start": 0,
+              "end": 1.3599999
+            },
+            {
+              "text": "And I don't I don't remember I don't remember them what's what's what you what you thought.",
+              "start": 1.5999999,
+              "end": 10.96
+            }
+          ],
+          "channel": 0,
+          "num_words": 21,
+          "start": 0,
+          "end": 10.96
+        },
+        {
+          "sentences": [
+            {
+              "text": "Yeah.",
+              "start": 11.04,
+              "end": 11.44
+            },
+            {
+              "text": "That's that's all I wanted.",
+              "start": 11.44,
+              "end": 12.719999
+            },
+            {
+              "text": "It's it's a short statement.",
+              "start": 12.719999,
+              "end": 13.92
+            },
+            {
+              "text": "I'm going to rephrase",
+              "start": 14.335,
+              "end": 15.295
+            }
+          ],
+          "channel": 1,
+          "num_words": 15,
+          "start": 11.04,
+          "end": 15.295
+        },
+        {
+          "sentences": [
+            {
+              "text": "Okay.",
+              "start": 15.225,
+              "end": 15.865
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 15.225,
+          "end": 15.865
+        },
+        {
+          "sentences": [
+            {
+              "text": "that statement again and again.",
+              "start": 15.295,
+              "end": 18.095
+            },
+            {
+              "text": "So today,",
+              "start": 18.494999,
+              "end": 19.695
+            }
+          ],
+          "channel": 1,
+          "num_words": 7,
+          "start": 15.295,
+          "end": 19.695
+        },
+        {
+          "sentences": [
+            {
+              "text": "Mhmm.",
+              "start": 18.825,
+              "end": 19.225
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 18.825,
+          "end": 19.225
+        },
+        {
+          "sentences": [
+            {
+              "text": "I took eggs and a cup of coffee.",
+              "start": 19.935,
+              "end": 25.455
+            },
+            {
+              "text": "You can see I took my time.",
+              "start": 25.455,
+              "end": 26.895
+            },
+            {
+              "text": "So no no rush.",
+              "start": 27.055,
+              "end": 28.175
+            },
+            {
+              "text": "Yeah.",
+              "start": 28.5,
+              "end": 28.9
+            },
+            {
+              "text": "Let's go.",
+              "start": 28.9,
+              "end": 29.539999
+            }
+          ],
+          "channel": 1,
+          "num_words": 22,
+          "start": 19.935,
+          "end": 29.539999
+        },
+        {
+          "sentences": [
+            {
+              "text": "Today, I took, today today, I took eggs and, a cup of coffee.",
+              "start": 30.76,
+              "end": 37
+            }
+          ],
+          "channel": 0,
+          "num_words": 13,
+          "start": 30.76,
+          "end": 37
+        },
+        {
+          "sentences": [
+            {
+              "text": "Good.",
+              "start": 37.22,
+              "end": 37.78
+            },
+            {
+              "text": "Good.",
+              "start": 37.78,
+              "end": 38.1
+            },
+            {
+              "text": "That's what that's the first word.",
+              "start": 38.1,
+              "end": 39.62
+            },
+            {
+              "text": "Close to perfect.",
+              "start": 39.78,
+              "end": 40.58
+            },
+            {
+              "text": "Today, I took eggs and a cup of of coffee.",
+              "start": 41.305,
+              "end": 45.545
+            }
+          ],
+          "channel": 1,
+          "num_words": 21,
+          "start": 37.22,
+          "end": 45.545
+        },
+        {
+          "sentences": [
+            {
+              "text": "Today, I took eggs and a cup of coffee.",
+              "start": 46.655003,
+              "end": 50.015
+            }
+          ],
+          "channel": 0,
+          "num_words": 9,
+          "start": 46.655003,
+          "end": 50.015
+        },
+        {
+          "sentences": [
+            {
+              "text": "Good.",
+              "start": 50.025,
+              "end": 50.665
+            },
+            {
+              "text": "Good.",
+              "start": 50.665,
+              "end": 51.305
+            },
+            {
+              "text": "Today, I ate 2 boiled eggs and a cup of coffee.",
+              "start": 52.025,
+              "end": 58.39
+            }
+          ],
+          "channel": 1,
+          "num_words": 13,
+          "start": 50.025,
+          "end": 58.39
+        },
+        {
+          "sentences": [
+            {
+              "text": "Today, I ate 2 bald eggs and a cup of coffee.",
+              "start": 58.829998,
+              "end": 65.39
+            }
+          ],
+          "channel": 0,
+          "num_words": 11,
+          "start": 58.829998,
+          "end": 65.39
+        },
+        {
+          "sentences": [
+            {
+              "text": "Good.",
+              "start": 65.75,
+              "end": 66.15
+            },
+            {
+              "text": "Today, I ate 2 boiled eggs and a cup of hot coffee.",
+              "start": 67.265,
+              "end": 72.784996
+            }
+          ],
+          "channel": 1,
+          "num_words": 13,
+          "start": 65.75,
+          "end": 72.784996
+        },
+        {
+          "sentences": [
+            {
+              "text": "Today, I ate 2 bald eggs and a cup of hot coffee.",
+              "start": 73.875,
+              "end": 79.475006
+            }
+          ],
+          "channel": 0,
+          "num_words": 12,
+          "start": 73.875,
+          "end": 79.475006
+        },
+        {
+          "sentences": [
+            {
+              "text": "Today, I ate 2 boiled eggs and a cup of black hot coffee.",
+              "start": 81.119995,
+              "end": 86.799995
+            }
+          ],
+          "channel": 1,
+          "num_words": 13,
+          "start": 81.119995,
+          "end": 86.799995
+        },
+        {
+          "sentences": [
+            {
+              "text": "Today, I ate 2 bold eggs 2 bold 2 bold eggs and a cup of of",
+              "start": 87.71999,
+              "end": 98.145004
+            }
+          ],
+          "channel": 0,
+          "num_words": 16,
+          "start": 87.71999,
+          "end": 98.145004
+        },
+        {
+          "sentences": [
+            {
+              "text": "Black",
+              "start": 97.925,
+              "end": 98.325005
+            }
+          ],
+          "channel": 1,
+          "num_words": 1,
+          "start": 97.925,
+          "end": 98.325005
+        },
+        {
+          "sentences": [
+            {
+              "text": "hot",
+              "start": 98.145004,
+              "end": 98.945
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 98.145004,
+          "end": 98.945
+        },
+        {
+          "sentences": [
+            {
+              "text": "pot black",
+              "start": 98.325005,
+              "end": 99.685005
+            }
+          ],
+          "channel": 1,
+          "num_words": 2,
+          "start": 98.325005,
+          "end": 99.685005
+        },
+        {
+          "sentences": [
+            {
+              "text": "or on black",
+              "start": 99.025,
+              "end": 99.985
+            }
+          ],
+          "channel": 0,
+          "num_words": 3,
+          "start": 99.025,
+          "end": 99.985
+        },
+        {
+          "sentences": [
+            {
+              "text": "pot",
+              "start": 99.685005,
+              "end": 100.245
+            }
+          ],
+          "channel": 1,
+          "num_words": 1,
+          "start": 99.685005,
+          "end": 100.245
+        },
+        {
+          "sentences": [
+            {
+              "text": "hot",
+              "start": 100.145004,
+              "end": 100.705
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 100.145004,
+          "end": 100.705
+        },
+        {
+          "sentences": [
+            {
+              "text": "coffee.",
+              "start": 100.245,
+              "end": 101.205
+            }
+          ],
+          "channel": 1,
+          "num_words": 1,
+          "start": 100.245,
+          "end": 101.205
+        },
+        {
+          "sentences": [
+            {
+              "text": "coffee.",
+              "start": 100.705,
+              "end": 101.665
+            },
+            {
+              "text": "Okay.",
+              "start": 101.905,
+              "end": 102.465004
+            }
+          ],
+          "channel": 0,
+          "num_words": 2,
+          "start": 100.705,
+          "end": 102.465004
+        },
+        {
+          "sentences": [
+            {
+              "text": "Today, I ate 2 eggs and a cup of coffee.",
+              "start": 102.965004,
+              "end": 108.299995
+            }
+          ],
+          "channel": 1,
+          "num_words": 10,
+          "start": 102.965004,
+          "end": 108.299995
+        },
+        {
+          "sentences": [
+            {
+              "text": "Today, I ate 2 eggs and a cup of coffee.",
+              "start": 108.89,
+              "end": 112.97
+            }
+          ],
+          "channel": 0,
+          "num_words": 10,
+          "start": 108.89,
+          "end": 112.97
+        },
+        {
+          "sentences": [
+            {
+              "text": "Perfect.",
+              "start": 113.74,
+              "end": 114.46
+            },
+            {
+              "text": "Today, I ate 2 boiled eggs and a cup of hot coffee.",
+              "start": 114.94,
+              "end": 122.475
+            }
+          ],
+          "channel": 1,
+          "num_words": 13,
+          "start": 113.74,
+          "end": 122.475
+        },
+        {
+          "sentences": [
+            {
+              "text": "Today, I ate 2 bold eggs and a cup of coffee.",
+              "start": 122.905,
+              "end": 127.385
+            }
+          ],
+          "channel": 0,
+          "num_words": 11,
+          "start": 122.905,
+          "end": 127.385
+        },
+        {
+          "sentences": [
+            {
+              "text": "Today, I ate 2 boiled eggs and a cup of black hot coffee.",
+              "start": 128.955,
+              "end": 135.37001
+            }
+          ],
+          "channel": 1,
+          "num_words": 13,
+          "start": 128.955,
+          "end": 135.37001
+        },
+        {
+          "sentences": [
+            {
+              "text": "Today, I ate 2 bold eggs and a cup of black hot coffee.",
+              "start": 135.94,
+              "end": 142.74
+            }
+          ],
+          "channel": 0,
+          "num_words": 13,
+          "start": 135.94,
+          "end": 142.74
+        },
+        {
+          "sentences": [
+            {
+              "text": "Beautiful.",
+              "start": 142.97,
+              "end": 143.77002
+            },
+            {
+              "text": "Today, I ate 2 eggs and a cup of coffee.",
+              "start": 145.45001,
+              "end": 149.69
+            }
+          ],
+          "channel": 1,
+          "num_words": 11,
+          "start": 142.97,
+          "end": 149.69
+        },
+        {
+          "sentences": [
+            {
+              "text": "Today, I ate 2 x and a cup of coffee.",
+              "start": 150.485,
+              "end": 154.24501
+            }
+          ],
+          "channel": 0,
+          "num_words": 10,
+          "start": 150.485,
+          "end": 154.24501
+        },
+        {
+          "sentences": [
+            {
+              "text": "Yeah.",
+              "start": 154.00499,
+              "end": 154.725
+            },
+            {
+              "text": "Today,",
+              "start": 155.20499,
+              "end": 156.005
+            }
+          ],
+          "channel": 1,
+          "num_words": 2,
+          "start": 154.00499,
+          "end": 156.005
+        },
+        {
+          "sentences": [
+            {
+              "text": "Yeah.",
+              "start": 155.68501,
+              "end": 156.40501
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 155.68501,
+          "end": 156.40501
+        },
+        {
+          "sentences": [
+            {
+              "text": "I ate 2 eggs and a cup of hot coffee.",
+              "start": 156.245,
+              "end": 160.165
+            }
+          ],
+          "channel": 1,
+          "num_words": 10,
+          "start": 156.245,
+          "end": 160.165
+        },
+        {
+          "sentences": [
+            {
+              "text": "Today, I ate 2 x and a cup of of hot coffee.",
+              "start": 161.125,
+              "end": 166.67
+            },
+            {
+              "text": "Yeah?",
+              "start": 166.67,
+              "end": 167.31
+            }
+          ],
+          "channel": 0,
+          "num_words": 13,
+          "start": 161.125,
+          "end": 167.31
+        },
+        {
+          "sentences": [
+            {
+              "text": "Yeah.",
+              "start": 167.15001,
+              "end": 167.47
+            },
+            {
+              "text": "Let's take more time on that.",
+              "start": 167.47,
+              "end": 168.67001
+            },
+            {
+              "text": "Today, I ate 2 eggs and a cup of hot coffee.",
+              "start": 168.67001,
+              "end": 173.79001
+            }
+          ],
+          "channel": 1,
+          "num_words": 18,
+          "start": 167.15001,
+          "end": 173.79001
+        },
+        {
+          "sentences": [
+            {
+              "text": "Today, I ate 2 eggs and a cup of hot coffee.",
+              "start": 175.54999,
+              "end": 179.06999
+            }
+          ],
+          "channel": 0,
+          "num_words": 11,
+          "start": 175.54999,
+          "end": 179.06999
+        },
+        {
+          "sentences": [
+            {
+              "text": "Beautiful.",
+              "start": 179.425,
+              "end": 180.065
+            },
+            {
+              "text": "Today, I ate 2 eggs and a cup of black hot coffee.",
+              "start": 180.705,
+              "end": 187.025
+            }
+          ],
+          "channel": 1,
+          "num_words": 13,
+          "start": 179.425,
+          "end": 187.025
+        },
+        {
+          "sentences": [
+            {
+              "text": "Today, I ate 2 eggs and a cup of black hot coffee.",
+              "start": 187.48499,
+              "end": 191.64499
+            }
+          ],
+          "channel": 0,
+          "num_words": 12,
+          "start": 187.48499,
+          "end": 191.64499
+        },
+        {
+          "sentences": [
+            {
+              "text": "Yeah.",
+              "start": 192.08,
+              "end": 192.48
+            },
+            {
+              "text": "So let me now let me just add this.",
+              "start": 192.48,
+              "end": 198.56
+            },
+            {
+              "text": "Just I don't I just want I I just to, like, put this to notes so you keep in keep in mind.",
+              "start": 198.8,
+              "end": 206.175
+            },
+            {
+              "text": "You know, we as people, when we learn something or when we know something, we try to speed up because we've we've we've known it.",
+              "start": 206.25499,
+              "end": 214.41501
+            },
+            {
+              "text": "Don't",
+              "start": 214.655,
+              "end": 215.135
+            }
+          ],
+          "channel": 1,
+          "num_words": 58,
+          "start": 192.08,
+          "end": 215.135
+        },
+        {
+          "sentences": [
+            {
+              "text": "Mhmm.",
+              "start": 214.89499,
+              "end": 215.295
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 214.89499,
+          "end": 215.295
+        },
+        {
+          "sentences": [
+            {
+              "text": "don't don't get tricked.",
+              "start": 215.135,
+              "end": 216.33499
+            },
+            {
+              "text": "Don't don't don't follow the speed.",
+              "start": 216.63,
+              "end": 218.63
+            },
+            {
+              "text": "Just stay keep calm.",
+              "start": 218.63,
+              "end": 220.70999
+            },
+            {
+              "text": "That's the best approach.",
+              "start": 220.70999,
+              "end": 221.99
+            },
+            {
+              "text": "You understand?",
+              "start": 222.31,
+              "end": 222.87
+            }
+          ],
+          "channel": 1,
+          "num_words": 20,
+          "start": 215.135,
+          "end": 222.87
+        },
+        {
+          "sentences": [
+            {
+              "text": "Okay.",
+              "start": 222.48001,
+              "end": 223.36002
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 222.48001,
+          "end": 223.36002
+        },
+        {
+          "sentences": [
+            {
+              "text": "Even if you know it, still keep calm.",
+              "start": 222.87,
+              "end": 225.91
+            },
+            {
+              "text": "It's better",
+              "start": 226.47,
+              "end": 227.19
+            }
+          ],
+          "channel": 1,
+          "num_words": 10,
+          "start": 222.87,
+          "end": 227.19
+        },
+        {
+          "sentences": [
+            {
+              "text": "Okay.",
+              "start": 226.8,
+              "end": 227.28001
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 226.8,
+          "end": 227.28001
+        },
+        {
+          "sentences": [
+            {
+              "text": "with yeah.",
+              "start": 227.19,
+              "end": 228.23001
+            },
+            {
+              "text": "So we're gonna repeat that again, then I'll ask you the question, then you're gonna give me the answer straight.",
+              "start": 228.39,
+              "end": 234.925
+            },
+            {
+              "text": "You understand.",
+              "start": 235.565,
+              "end": 236.44499
+            },
+            {
+              "text": "Right?",
+              "start": 236.44499,
+              "end": 237.005
+            }
+          ],
+          "channel": 1,
+          "num_words": 25,
+          "start": 227.19,
+          "end": 237.005
+        },
+        {
+          "sentences": [
+            {
+              "text": "So",
+              "start": 238.015,
+              "end": 238.735
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 238.015,
+          "end": 238.735
+        },
+        {
+          "sentences": [
+            {
+              "text": "We're",
+              "start": 240.525,
+              "end": 241.005
+            }
+          ],
+          "channel": 1,
+          "num_words": 1,
+          "start": 240.525,
+          "end": 241.005
+        },
+        {
+          "sentences": [
+            {
+              "text": "so I",
+              "start": 240.575,
+              "end": 241.775
+            }
+          ],
+          "channel": 0,
+          "num_words": 2,
+          "start": 240.575,
+          "end": 241.775
+        },
+        {
+          "sentences": [
+            {
+              "text": "gonna we're gonna we're gonna repeat the test again.",
+              "start": 241.005,
+              "end": 243.485
+            },
+            {
+              "text": "I want us to",
+              "start": 243.485,
+              "end": 244.205
+            }
+          ],
+          "channel": 1,
+          "num_words": 13,
+          "start": 241.005,
+          "end": 244.205
+        },
+        {
+          "sentences": [
+            {
+              "text": "mhmm.",
+              "start": 244.095,
+              "end": 244.495
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 244.095,
+          "end": 244.495
+        },
+        {
+          "sentences": [
+            {
+              "text": "repeat the test again where you repeat after me.",
+              "start": 244.205,
+              "end": 246.44499
+            },
+            {
+              "text": "And after repeating a test, I'll ask quest then I'll ask the direct question.",
+              "start": 247.05,
+              "end": 251.61
+            },
+            {
+              "text": "What did you eat today?",
+              "start": 251.61,
+              "end": 252.97
+            },
+            {
+              "text": "Then you will have to",
+              "start": 253.13,
+              "end": 253.77
+            }
+          ],
+          "channel": 1,
+          "num_words": 33,
+          "start": 244.205,
+          "end": 253.77
+        },
+        {
+          "sentences": [
+            {
+              "text": "Okay.",
+              "start": 253.7,
+              "end": 254.34001
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 253.7,
+          "end": 254.34001
+        },
+        {
+          "sentences": [
+            {
+              "text": "be able to give me answer.",
+              "start": 253.77,
+              "end": 255.21
+            },
+            {
+              "text": "But",
+              "start": 255.37,
+              "end": 255.53
+            }
+          ],
+          "channel": 1,
+          "num_words": 7,
+          "start": 253.77,
+          "end": 255.53
+        },
+        {
+          "sentences": [
+            {
+              "text": "Okay.",
+              "start": 255.38,
+              "end": 255.86
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 255.38,
+          "end": 255.86
+        },
+        {
+          "sentences": [
+            {
+              "text": "first but",
+              "start": 255.53,
+              "end": 256.16998
+            }
+          ],
+          "channel": 1,
+          "num_words": 2,
+          "start": 255.53,
+          "end": 256.16998
+        },
+        {
+          "sentences": [
+            {
+              "text": "Okay.",
+              "start": 255.86,
+              "end": 256.1
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 255.86,
+          "end": 256.1
+        },
+        {
+          "sentences": [
+            {
+              "text": "first, let's repeat the test again.",
+              "start": 256.16998,
+              "end": 258.01
+            }
+          ],
+          "channel": 1,
+          "num_words": 6,
+          "start": 256.16998,
+          "end": 258.01
+        },
+        {
+          "sentences": [
+            {
+              "text": "Okay.",
+              "start": 258.795,
+              "end": 259.515
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 258.795,
+          "end": 259.515
+        },
+        {
+          "sentences": [
+            {
+              "text": "Today, I ate 2 eggs and coffee.",
+              "start": 259.995,
+              "end": 264.075
+            }
+          ],
+          "channel": 1,
+          "num_words": 7,
+          "start": 259.995,
+          "end": 264.075
+        },
+        {
+          "sentences": [
+            {
+              "text": "Today, I ate 2 eggs and coffee.",
+              "start": 266.155,
+              "end": 269.035
+            }
+          ],
+          "channel": 0,
+          "num_words": 7,
+          "start": 266.155,
+          "end": 269.035
+        },
+        {
+          "sentences": [
+            {
+              "text": "Today, I had 2 eggs and a cup of coffee.",
+              "start": 270.395,
+              "end": 276.16003
+            }
+          ],
+          "channel": 1,
+          "num_words": 10,
+          "start": 270.395,
+          "end": 276.16003
+        },
+        {
+          "sentences": [
+            {
+              "text": "Today, I ate 2 eggs and a cup of coffee.",
+              "start": 276.69,
+              "end": 280.77
+            }
+          ],
+          "channel": 0,
+          "num_words": 10,
+          "start": 276.69,
+          "end": 280.77
+        },
+        {
+          "sentences": [
+            {
+              "text": "Today, I had 2 eggs and a cup of coffee.",
+              "start": 281.6,
+              "end": 286.48
+            }
+          ],
+          "channel": 1,
+          "num_words": 10,
+          "start": 281.6,
+          "end": 286.48
+        },
+        {
+          "sentences": [
+            {
+              "text": "Today, I had, I had today, I had 2 eggs and a cup of coffee.",
+              "start": 286.945,
+              "end": 292.86502
+            }
+          ],
+          "channel": 0,
+          "num_words": 15,
+          "start": 286.945,
+          "end": 292.86502
+        },
+        {
+          "sentences": [
+            {
+              "text": "Today, I had 2 eggs and a cup of coffee.",
+              "start": 293.86502,
+              "end": 297.86502
+            }
+          ],
+          "channel": 1,
+          "num_words": 10,
+          "start": 293.86502,
+          "end": 297.86502
+        },
+        {
+          "sentences": [
+            {
+              "text": "Today, I had 2 egg",
+              "start": 298.465,
+              "end": 300.065
+            }
+          ],
+          "channel": 0,
+          "num_words": 5,
+          "start": 298.465,
+          "end": 300.065
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1021 @@
+[
+  {
+    "sentence": "You know, that that's, you know, cross country again and the same place.",
+    "sentence_index": 27,
+    "rule_id": "CROSS_COMPOUNDS",
+    "grammar_category": "verb/tense error",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "cross country",
+    "message": "The noun, adjective or adverb “cross-country” is spelled with a hyphen.",
+    "replacements": [
+      "cross-country"
+    ],
+    "offset": 33,
+    "error_length": 13
+  },
+  {
+    "sentence": "And, yeah, the this is why I'm going there because this is kind of unique, year that, we can follow the shoulder.",
+    "sentence_index": 30,
+    "rule_id": "DT_DT",
+    "grammar_category": "double determiner",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "the this",
+    "message": "Two determiners in a row. Choose either “the” or “this”.",
+    "replacements": [
+      "the",
+      "this"
+    ],
+    "offset": 11,
+    "error_length": 8
+  },
+  {
+    "sentence": "Last year, there was no snow at all, and I never been skiing, last year.",
+    "sentence_index": 32,
+    "rule_id": "PRP_PAST_PART",
+    "grammar_category": "past tense",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "never been",
+    "message": "A verb (‘be’ or ‘have’) is missing before the past participle.",
+    "replacements": [
+      "have never been",
+      "never was",
+      "never were"
+    ],
+    "offset": 43,
+    "error_length": 10
+  },
+  {
+    "sentence": "It it's I think I don't remember, it happening earlier.",
+    "sentence_index": 36,
+    "rule_id": "IT_IT",
+    "grammar_category": "grammar error",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "It it",
+    "message": "It seems you mean “if it”.",
+    "replacements": [
+      "If it"
+    ],
+    "offset": 0,
+    "error_length": 5
+  },
+  {
+    "sentence": "It it's I think I don't remember, it happening earlier.",
+    "sentence_index": 36,
+    "rule_id": "PRP_VBG",
+    "grammar_category": "verb/tense error",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "it happening",
+    "message": "An auxiliary verb seems to be missing from this progressive structure. Did you mean “it's happening”, “it is happening”, or “it was happening”?",
+    "replacements": [
+      "it's happening",
+      "it is happening",
+      "it was happening"
+    ],
+    "offset": 34,
+    "error_length": 12
+  },
+  {
+    "sentence": "And, it probably happened that there you might be remember.",
+    "sentence_index": 48,
+    "rule_id": "MD_BE_NON_VBP",
+    "grammar_category": "verb/tense error",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "be remember",
+    "message": "There may an error in the verb form ‘be remember’.",
+    "replacements": [
+      "be remembered",
+      "be remembering",
+      "remember",
+      "be to remember"
+    ],
+    "offset": 47,
+    "error_length": 11
+  },
+  {
+    "sentence": "And there was invasions of Swedish army to Poland.",
+    "sentence_index": 52,
+    "rule_id": "THERE_WAS_MANY",
+    "grammar_category": "grammar error",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "there was invasions",
+    "message": "Did you mean “there were invasions”?",
+    "replacements": [
+      "there were invasions"
+    ],
+    "offset": 4,
+    "error_length": 19
+  },
+  {
+    "sentence": "In the Turkish world, far east, on the Ukraine at the moment.",
+    "sentence_index": 55,
+    "rule_id": "UKRAINE_NO_THE",
+    "grammar_category": "nominal error",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "the Ukraine",
+    "message": "Since becoming an independent nation in 1991, the article ‘the’ has been dropped from the name of the country of Ukraine.",
+    "replacements": [
+      "Ukraine"
+    ],
+    "offset": 35,
+    "error_length": 11
+  },
+  {
+    "sentence": "It would this was the this was like, you know, the Turkish Osman army was very strong at that moment.",
+    "sentence_index": 57,
+    "rule_id": "DT_DT",
+    "grammar_category": "double determiner",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "the this",
+    "message": "Two determiners in a row. Choose either “the” or “this”.",
+    "replacements": [
+      "the",
+      "this"
+    ],
+    "offset": 18,
+    "error_length": 8
+  },
+  {
+    "sentence": "So and that at that time, the this was called, I think, some something that the sixteens, hundred, it was so called, small IC, period, in Europe.",
+    "sentence_index": 68,
+    "rule_id": "DT_DT",
+    "grammar_category": "double determiner",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "the this",
+    "message": "Two determiners in a row. Choose either “the” or “this”.",
+    "replacements": [
+      "the",
+      "this"
+    ],
+    "offset": 26,
+    "error_length": 8
+  },
+  {
+    "sentence": "So and that at that time, the this was called, I think, some something that the sixteens, hundred, it was so called, small IC, period, in Europe.",
+    "sentence_index": 68,
+    "rule_id": "NODT_DOZEN",
+    "grammar_category": "grammar error",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "hundred",
+    "message": "Use “a hundred”, or use a number before ‘hundred’.",
+    "replacements": [
+      "a hundred"
+    ],
+    "offset": 90,
+    "error_length": 7
+  },
+  {
+    "sentence": "So it was more colder than it used to be.",
+    "sentence_index": 69,
+    "rule_id": "MOST_COMPARATIVE",
+    "grammar_category": "grammar error",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "more colder",
+    "message": "Use only “colder” (without ‘more’) when you use the comparative.",
+    "replacements": [
+      "colder"
+    ],
+    "offset": 10,
+    "error_length": 11
+  },
+  {
+    "sentence": "And, that that's why Baltic see, sometimes, at least the east part of Baltic Sea was covered by ice.",
+    "sentence_index": 70,
+    "rule_id": "DETERMINER_GEOGRAPHICAL_WORD",
+    "grammar_category": "determiner use",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "of Baltic Sea",
+    "message": "A determiner may be missing.",
+    "replacements": [
+      "of the Baltic Sea"
+    ],
+    "offset": 67,
+    "error_length": 13
+  },
+  {
+    "sentence": "And I remember even from my childhood that, certain, that you know, on the far east of Baltic, there are certain gulfs, like, Finns gulfs or like, Finnish gulf and, this Finnish Gulf thing always, iced, practically fully iced, in the winter.",
+    "sentence_index": 72,
+    "rule_id": "DETERMINER_GEOGRAPHICAL_WORD",
+    "grammar_category": "determiner use",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "of Baltic",
+    "message": "A determiner may be missing.",
+    "replacements": [
+      "of the Baltic"
+    ],
+    "offset": 84,
+    "error_length": 9
+  },
+  {
+    "sentence": "IIII don't think it is iced at the moment because of climate change.",
+    "sentence_index": 73,
+    "rule_id": "MORFOLOGIK_RULE_EN_US",
+    "grammar_category": "incorrect word form",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "IIII",
+    "message": "Possible spelling mistake found.",
+    "replacements": [
+      "III",
+      "ITII",
+      "VIII",
+      "XIII",
+      "I III",
+      "II II",
+      "III I"
+    ],
+    "offset": 0,
+    "error_length": 4
+  },
+  {
+    "sentence": "The snow is usually is not, staying long.",
+    "sentence_index": 75,
+    "rule_id": "BE_RB_BE",
+    "grammar_category": "grammar error",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "is usually is",
+    "message": "The grammar seems incorrect. Please check.",
+    "replacements": [],
+    "offset": 9,
+    "error_length": 13
+  },
+  {
+    "sentence": "So You know, I'm at ease at the moment about Ukraine because the this is, you know, what what's going on, in media because in the media I mean, how you can judge having, you know, some gossips, guesses, and, not confirmed information.",
+    "sentence_index": 84,
+    "rule_id": "DT_DT",
+    "grammar_category": "double determiner",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "the this",
+    "message": "Two determiners in a row. Choose either “the” or “this”.",
+    "replacements": [
+      "the",
+      "this"
+    ],
+    "offset": 61,
+    "error_length": 8
+  },
+  {
+    "sentence": "So You know, I'm at ease at the moment about Ukraine because the this is, you know, what what's going on, in media because in the media I mean, how you can judge having, you know, some gossips, guesses, and, not confirmed information.",
+    "sentence_index": 84,
+    "rule_id": "ENGLISH_WORD_REPEAT_RULE",
+    "grammar_category": "word repetition",
+    "dimension_code": "A",
+    "dimension_label": "Sentence Architecture",
+    "matched_text": "what what",
+    "message": "Possible typo: you repeated a word.",
+    "replacements": [
+      "what"
+    ],
+    "offset": 84,
+    "error_length": 9
+  },
+  {
+    "sentence": "And it end up with this cold war and it adapt, with, kind of so socialistic communism, idea, including Poland.",
+    "sentence_index": 95,
+    "rule_id": "CC_NNP_VBP",
+    "grammar_category": "verb/tense error",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "end",
+    "message": "It appears that the verb form is incorrect.",
+    "replacements": [
+      "ends",
+      "ended"
+    ],
+    "offset": 7,
+    "error_length": 3
+  },
+  {
+    "sentence": "And it end up with this cold war and it adapt, with, kind of so socialistic communism, idea, including Poland.",
+    "sentence_index": 95,
+    "rule_id": "IT_VBZ",
+    "grammar_category": "subject-verb agreement",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "adapt",
+    "message": "After ‘it’, use the third-person verb form “adapts”.",
+    "replacements": [
+      "adapts"
+    ],
+    "offset": 40,
+    "error_length": 5
+  },
+  {
+    "sentence": "If they will give us all the resources, maybe I will consider this.",
+    "sentence_index": 101,
+    "rule_id": "CONDITIONAL_CLAUSE",
+    "grammar_category": "conditional structure",
+    "dimension_code": "D",
+    "dimension_label": "Modal & Functional Range",
+    "matched_text": "will give",
+    "message": "The first clause in a conditional statement is not usually in the future tense. Consider removing the modal verb “will”.",
+    "replacements": [
+      "give"
+    ],
+    "offset": 8,
+    "error_length": 9
+  },
+  {
+    "sentence": "And this is just colonialistic policy.",
+    "sentence_index": 102,
+    "rule_id": "MORFOLOGIK_RULE_EN_US",
+    "grammar_category": "incorrect word form",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "colonialistic",
+    "message": "Possible spelling mistake found.",
+    "replacements": [
+      "colonialist",
+      "colonialists"
+    ],
+    "offset": 17,
+    "error_length": 13
+  },
+  {
+    "sentence": "And, I mean, I'm hundred percent I mean, if I would be Ukraine, I would say, fuck off, Trump.",
+    "sentence_index": 104,
+    "rule_id": "NODT_DOZEN",
+    "grammar_category": "grammar error",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "hundred",
+    "message": "Use “a hundred”, or use a number before ‘hundred’.",
+    "replacements": [
+      "a hundred"
+    ],
+    "offset": 17,
+    "error_length": 7
+  },
+  {
+    "sentence": "This will be my ans because it would be even worse for Ukraine, to have such friend, quote, unquote friend, colonial colonialistic friend rather than rejoining Russia.",
+    "sentence_index": 108,
+    "rule_id": "MORFOLOGIK_RULE_EN_US",
+    "grammar_category": "incorrect word form",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "colonialistic",
+    "message": "Possible spelling mistake found.",
+    "replacements": [
+      "colonialist",
+      "colonialists"
+    ],
+    "offset": 117,
+    "error_length": 13
+  },
+  {
+    "sentence": "But you know, this is the you know, there is huge work ahead Ukraine to do to really build a stable democracy.",
+    "sentence_index": 114,
+    "rule_id": "DT_PRP",
+    "grammar_category": "nominal error",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "the you",
+    "message": "Using a determiner and a pronoun together is incorrect. Did you mean “the” or “you”?",
+    "replacements": [
+      "the",
+      "you"
+    ],
+    "offset": 22,
+    "error_length": 7
+  },
+  {
+    "sentence": "And, I mean, you have to be very focused to not to lose the democracy.",
+    "sentence_index": 119,
+    "rule_id": "TO_RB_TO_VB",
+    "grammar_category": "grammar error",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "to not to",
+    "message": "One of these words (‘to’) is redundant.",
+    "replacements": [
+      "to not",
+      "not to"
+    ],
+    "offset": 41,
+    "error_length": 9
+  },
+  {
+    "sentence": "grateful that they the majority of them at least have this dream to join the Western Europe, to join, you know.",
+    "sentence_index": 122,
+    "rule_id": "PRP_THE",
+    "grammar_category": "verb/tense error",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "they the",
+    "message": "A verb may be missing between “they” and “the”, or a word may be misspelled.",
+    "replacements": [],
+    "offset": 14,
+    "error_length": 8
+  },
+  {
+    "sentence": "He he's so stupid that it is even, you know, out of comment.",
+    "sentence_index": 133,
+    "rule_id": "ENGLISH_WORD_REPEAT_RULE",
+    "grammar_category": "word repetition",
+    "dimension_code": "A",
+    "dimension_label": "Sentence Architecture",
+    "matched_text": "He he",
+    "message": "Possible typo: you repeated a word.",
+    "replacements": [
+      "He"
+    ],
+    "offset": 0,
+    "error_length": 5
+  },
+  {
+    "sentence": "And, it was, by law forbidden to do it during the any freedom, you know, any under regulation of freedom, limitations.",
+    "sentence_index": 139,
+    "rule_id": "THE_SOME",
+    "grammar_category": "nominal error",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "the any",
+    "message": "There appears to be a superfluous article here.",
+    "replacements": [
+      "any"
+    ],
+    "offset": 46,
+    "error_length": 7
+  },
+  {
+    "sentence": "So now by the way, now there is a big political affair because the government at that time decided that there will be, like, elections through the, correspondence, through the mails mail.",
+    "sentence_index": 140,
+    "rule_id": "THE_PUNCT",
+    "grammar_category": "nominal error",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "the,",
+    "message": "Articles like ‘the’ are rarely followed by punctuation. A word may be missing after ‘the’, or the punctuation mark may not be necessary.",
+    "replacements": [
+      "the"
+    ],
+    "offset": 143,
+    "error_length": 4
+  },
+  {
+    "sentence": "but it is forbidden important that this cannot be done, especially in the way they propose that they the post offices will be the election offices.",
+    "sentence_index": 141,
+    "rule_id": "PRP_THE",
+    "grammar_category": "verb/tense error",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "they the",
+    "message": "A verb may be missing between “they” and “the”, or a word may be misspelled.",
+    "replacements": [],
+    "offset": 96,
+    "error_length": 8
+  },
+  {
+    "sentence": "But yes, I mean, the elections was moved for few months.",
+    "sentence_index": 144,
+    "rule_id": "PCT_PLURAL_NOUN_SINGULAR_VERB_AGREEMENT",
+    "grammar_category": "subject-verb agreement",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "was",
+    "message": "“elections” is a plural noun. It appears that the verb form is incorrect.",
+    "replacements": [
+      "were"
+    ],
+    "offset": 31,
+    "error_length": 3
+  },
+  {
+    "sentence": "I mean and what happen if there is election?",
+    "sentence_index": 147,
+    "rule_id": "WHAT_DO_THAT",
+    "grammar_category": "grammar error",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "happen",
+    "message": "Did you mean “happens”?",
+    "replacements": [
+      "happens"
+    ],
+    "offset": 16,
+    "error_length": 6
+  },
+  {
+    "sentence": "How we can do it in a, like, big cities like Kharkov on a front line?",
+    "sentence_index": 150,
+    "rule_id": "THE_PUNCT",
+    "grammar_category": "nominal error",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "a,",
+    "message": "Articles like ‘a’ are rarely followed by punctuation. A word may be missing after ‘a’, or the punctuation mark may not be necessary.",
+    "replacements": [
+      "a"
+    ],
+    "offset": 20,
+    "error_length": 2
+  },
+  {
+    "sentence": "I mean, I it's so stupid.",
+    "sentence_index": 151,
+    "rule_id": "PRP_REPITION",
+    "grammar_category": "nominal error",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "I it",
+    "message": "Consider using only one pronoun here.",
+    "replacements": [
+      "I",
+      "It"
+    ],
+    "offset": 8,
+    "error_length": 4
+  },
+  {
+    "sentence": "I mean, you may have, you know, simple the I'm not sure how what is the English word, the big gun.",
+    "sentence_index": 174,
+    "rule_id": "DT_PRP",
+    "grammar_category": "nominal error",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "the I",
+    "message": "Using a determiner and a pronoun together is incorrect. Did you mean “the” or “I”?",
+    "replacements": [
+      "the",
+      "I"
+    ],
+    "offset": 39,
+    "error_length": 5
+  },
+  {
+    "sentence": "The I right?",
+    "sentence_index": 175,
+    "rule_id": "DT_PRP",
+    "grammar_category": "nominal error",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "The I",
+    "message": "Using a determiner and a pronoun together is incorrect. Did you mean “The” or “I”?",
+    "replacements": [
+      "The",
+      "I"
+    ],
+    "offset": 0,
+    "error_length": 5
+  },
+  {
+    "sentence": "The this is but the use it the Russian use the artillery from second World War. is still operational, it's killing people.",
+    "sentence_index": 181,
+    "rule_id": "DT_DT",
+    "grammar_category": "double determiner",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "The this",
+    "message": "Two determiners in a row. Choose either “The” or “this”.",
+    "replacements": [
+      "The",
+      "This"
+    ],
+    "offset": 0,
+    "error_length": 8
+  },
+  {
+    "sentence": "The this is but the use it the Russian use the artillery from second World War. is still operational, it's killing people.",
+    "sentence_index": 181,
+    "rule_id": "PRP_THE",
+    "grammar_category": "verb/tense error",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "it the",
+    "message": "A verb may be missing between “it” and “the”, or a word may be misspelled.",
+    "replacements": [],
+    "offset": 24,
+    "error_length": 6
+  },
+  {
+    "sentence": "Like, the tactics is, yeah, is really focused and prepared to massive war to war like it was, Yeah.",
+    "sentence_index": 196,
+    "rule_id": "PCT_PLURAL_NOUN_SINGULAR_VERB_AGREEMENT",
+    "grammar_category": "subject-verb agreement",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "is",
+    "message": "“tactics” is a plural noun. It appears that the verb form is incorrect.",
+    "replacements": [
+      "are"
+    ],
+    "offset": 18,
+    "error_length": 2
+  },
+  {
+    "sentence": "The this it's changing everything.",
+    "sentence_index": 201,
+    "rule_id": "DT_DT",
+    "grammar_category": "double determiner",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "The this",
+    "message": "Two determiners in a row. Choose either “The” or “this”.",
+    "replacements": [
+      "The",
+      "This"
+    ],
+    "offset": 0,
+    "error_length": 8
+  },
+  {
+    "sentence": "And we have all the this how big we are.",
+    "sentence_index": 209,
+    "rule_id": "DT_DT",
+    "grammar_category": "double determiner",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "the this",
+    "message": "Two determiners in a row. Choose either “the” or “this”.",
+    "replacements": [
+      "the",
+      "this"
+    ],
+    "offset": 16,
+    "error_length": 8
+  },
+  {
+    "sentence": "We have this, Hamway, heavy whatever car.",
+    "sentence_index": 210,
+    "rule_id": "MORFOLOGIK_RULE_EN_US",
+    "grammar_category": "incorrect word form",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "Hamway",
+    "message": "Possible spelling mistake found.",
+    "replacements": [
+      "Ham way"
+    ],
+    "offset": 14,
+    "error_length": 6
+  },
+  {
+    "sentence": "To, you know, this propaganda you the US propaganda film, like, about heroes in Libya.",
+    "sentence_index": 216,
+    "rule_id": "PRP_THE",
+    "grammar_category": "verb/tense error",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "you the",
+    "message": "A verb may be missing between “you” and “the”, or a word may be misspelled.",
+    "replacements": [],
+    "offset": 30,
+    "error_length": 7
+  },
+  {
+    "sentence": "They they've been fighting against Libyan, partisans at the wall, and they've been protecting, It's based on or something.",
+    "sentence_index": 217,
+    "rule_id": "ENGLISH_WORD_REPEAT_RULE",
+    "grammar_category": "word repetition",
+    "dimension_code": "A",
+    "dimension_label": "Sentence Architecture",
+    "matched_text": "They they",
+    "message": "Possible typo: you repeated a word.",
+    "replacements": [
+      "They"
+    ],
+    "offset": 0,
+    "error_length": 9
+  },
+  {
+    "sentence": "You know, all they're saying is really interesting and probably fun because they converting their experiences from, leading the troops, to right, to the business.",
+    "sentence_index": 233,
+    "rule_id": "PRP_VBG",
+    "grammar_category": "verb/tense error",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "they converting",
+    "message": "An auxiliary verb seems to be missing from this progressive structure. Did you mean “they're converting”, “they are converting”, or “they were converting”?",
+    "replacements": [
+      "they're converting",
+      "they are converting",
+      "they were converting"
+    ],
+    "offset": 76,
+    "error_length": 15
+  },
+  {
+    "sentence": "You are digging in the deep in the ground, and you covering yourself.",
+    "sentence_index": 240,
+    "rule_id": "PRP_VBG",
+    "grammar_category": "verb/tense error",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "you covering",
+    "message": "An auxiliary verb seems to be missing from this progressive structure. Did you mean “you're covering”, “you are covering”, or “you were covering”?",
+    "replacements": [
+      "you're covering",
+      "you are covering",
+      "you were covering"
+    ],
+    "offset": 47,
+    "error_length": 12
+  },
+  {
+    "sentence": "It not the military.",
+    "sentence_index": 255,
+    "rule_id": "PRP_RB_NO_VB",
+    "grammar_category": "verb/tense error",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "not the",
+    "message": "A verb may be missing after ‘not’.",
+    "replacements": [],
+    "offset": 3,
+    "error_length": 7
+  },
+  {
+    "sentence": "Because how we can you know, the this is first of all, it based on the superpower, intelligence.",
+    "sentence_index": 262,
+    "rule_id": "DT_DT",
+    "grammar_category": "double determiner",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "the this",
+    "message": "Two determiners in a row. Choose either “the” or “this”.",
+    "replacements": [
+      "the",
+      "this"
+    ],
+    "offset": 29,
+    "error_length": 8
+  },
+  {
+    "sentence": "You have control in a air, like, having a lot of planes flying and supporting the troops on the ground.",
+    "sentence_index": 264,
+    "rule_id": "EN_A_VS_AN",
+    "grammar_category": "article choice (a/an)",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "a",
+    "message": "Use “an” instead of ‘a’ if the following word starts with a vowel sound, e.g. ‘an article’, ‘an hour’.",
+    "replacements": [
+      "an"
+    ],
+    "offset": 20,
+    "error_length": 1
+  },
+  {
+    "sentence": "Like, all this experience from, Vietnam is useless because now you have the, handy shot fire, which can kill helicopter in a second.",
+    "sentence_index": 275,
+    "rule_id": "THE_PUNCT",
+    "grammar_category": "nominal error",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "the,",
+    "message": "Articles like ‘the’ are rarely followed by punctuation. A word may be missing after ‘the’, or the punctuation mark may not be necessary.",
+    "replacements": [
+      "the"
+    ],
+    "offset": 72,
+    "error_length": 4
+  },
+  {
+    "sentence": "Like, Denmark, for example, which is kind of the, star, you know, sending a lot of equipment, compared to the, possibilities.",
+    "sentence_index": 284,
+    "rule_id": "THE_PUNCT",
+    "grammar_category": "nominal error",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "the,",
+    "message": "Articles like ‘the’ are rarely followed by punctuation. A word may be missing after ‘the’, or the punctuation mark may not be necessary.",
+    "replacements": [
+      "the"
+    ],
+    "offset": 45,
+    "error_length": 4
+  },
+  {
+    "sentence": "Like, Denmark, for example, which is kind of the, star, you know, sending a lot of equipment, compared to the, possibilities.",
+    "sentence_index": 284,
+    "rule_id": "THE_PUNCT",
+    "grammar_category": "nominal error",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "the,",
+    "message": "Articles like ‘the’ are rarely followed by punctuation. A word may be missing after ‘the’, or the punctuation mark may not be necessary.",
+    "replacements": [
+      "the"
+    ],
+    "offset": 106,
+    "error_length": 4
+  },
+  {
+    "sentence": "But they've been killed in the first week almost to 90 percent Because they because they've been trained to different world.",
+    "sentence_index": 290,
+    "rule_id": "PHRASE_REPETITION",
+    "grammar_category": "modal/conditional error",
+    "dimension_code": "D",
+    "dimension_label": "Modal & Functional Range",
+    "matched_text": "Because they because they",
+    "message": "This phrase is duplicated. You should probably use “Because they” only once.",
+    "replacements": [
+      "Because they"
+    ],
+    "offset": 63,
+    "error_length": 25
+  },
+  {
+    "sentence": "They be, you know, they been trained to front attack.",
+    "sentence_index": 292,
+    "rule_id": "PRP_PAST_PART",
+    "grammar_category": "past tense",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "been",
+    "message": "A verb (‘be’ or ‘have’) is missing before the past participle.",
+    "replacements": [
+      "have been",
+      "was",
+      "were"
+    ],
+    "offset": 24,
+    "error_length": 4
+  },
+  {
+    "sentence": "So they they've been, like, you know, like, during the second world war, they've been like, running with the frontline on open field.",
+    "sentence_index": 293,
+    "rule_id": "ENGLISH_WORD_REPEAT_RULE",
+    "grammar_category": "word repetition",
+    "dimension_code": "A",
+    "dimension_label": "Sentence Architecture",
+    "matched_text": "they they",
+    "message": "Possible typo: you repeated a word.",
+    "replacements": [
+      "they"
+    ],
+    "offset": 3,
+    "error_length": 9
+  },
+  {
+    "sentence": "There was a picture, some, the I think, our president, was in, Washington, during the first cadence currency of Trump.",
+    "sentence_index": 306,
+    "rule_id": "DT_PRP",
+    "grammar_category": "nominal error",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "the I",
+    "message": "Using a determiner and a pronoun together is incorrect. Did you mean “the” or “I”?",
+    "replacements": [
+      "the",
+      "I"
+    ],
+    "offset": 27,
+    "error_length": 5
+  },
+  {
+    "sentence": "So and that it is only in the oval room, oval office, and Tammy sitting by the desk.",
+    "sentence_index": 311,
+    "rule_id": "AGREEMENT_SENT_START",
+    "grammar_category": "subject-verb agreement",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "is",
+    "message": "You should probably use “are”.",
+    "replacements": [
+      "are"
+    ],
+    "offset": 15,
+    "error_length": 2
+  },
+  {
+    "sentence": "This was very, heavily criticized that, I mean, on 1 hand, okay, it first time happened that somebody, some foreign president, is invited to our, office because, you know, the official meetings are somewhere else.",
+    "sentence_index": 313,
+    "rule_id": "IT_VBZ",
+    "grammar_category": "subject-verb agreement",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "time",
+    "message": "After ‘it’, use the third-person verb form “times”.",
+    "replacements": [
+      "times"
+    ],
+    "offset": 74,
+    "error_length": 4
+  },
+  {
+    "sentence": "It it's",
+    "sentence_index": 320,
+    "rule_id": "IT_IT",
+    "grammar_category": "grammar error",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "It it",
+    "message": "It seems you mean “if it”.",
+    "replacements": [
+      "If it"
+    ],
+    "offset": 0,
+    "error_length": 5
+  },
+  {
+    "sentence": "he's on the second time, at the moment, so he cannot candidate.",
+    "sentence_index": 336,
+    "rule_id": "PRP_MD_NN",
+    "grammar_category": "verb/tense error",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "candidate",
+    "message": "The word ‘candidate’ is a noun or an adjective. A verb or adverb is missing or misspelled here, or maybe a comma is missing.",
+    "replacements": [],
+    "offset": 53,
+    "error_length": 9
+  },
+  {
+    "sentence": "I think, you know, the this is Very interesting political situation because they as always, we have this called democratic coalition, and they have a very strong candidate who is, the president of, a mayor of Warsaw at the moment.",
+    "sentence_index": 337,
+    "rule_id": "DT_DT",
+    "grammar_category": "double determiner",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "the this",
+    "message": "Two determiners in a row. Choose either “the” or “this”.",
+    "replacements": [
+      "the",
+      "this"
+    ],
+    "offset": 19,
+    "error_length": 8
+  },
+  {
+    "sentence": "But, you know, on the PIS, they did a trick that they didn't that they don't have the their own candidate.",
+    "sentence_index": 341,
+    "rule_id": "I_DONT_DT",
+    "grammar_category": "verb/tense error",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "that",
+    "message": "It appears that a verb is missing before “n’t”.",
+    "replacements": [
+      "have that",
+      "do that",
+      "get that",
+      "see that",
+      "know that"
+    ],
+    "offset": 61,
+    "error_length": 4
+  },
+  {
+    "sentence": "The there is, conservative party in Poland and the new body, I would say, which was, the they supposed to be the rising star during, last election, which was 2 years ago.",
+    "sentence_index": 351,
+    "rule_id": "DT_PRP",
+    "grammar_category": "nominal error",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "the they",
+    "message": "Using a determiner and a pronoun together is incorrect. Did you mean “the” or “they”?",
+    "replacements": [
+      "the",
+      "they"
+    ],
+    "offset": 85,
+    "error_length": 8
+  },
+  {
+    "sentence": "And, actually, this is kind of the, do you call it, white horse?",
+    "sentence_index": 358,
+    "rule_id": "THE_PUNCT",
+    "grammar_category": "nominal error",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "the,",
+    "message": "Articles like ‘the’ are rarely followed by punctuation. A word may be missing after ‘the’, or the punctuation mark may not be necessary.",
+    "replacements": [
+      "the"
+    ],
+    "offset": 31,
+    "error_length": 4
+  },
+  {
+    "sentence": "And, there will be second round, and, it is almost hundred percent sure that in second round, he's winning with, PIS guy, but and very significantly.",
+    "sentence_index": 364,
+    "rule_id": "AND_BUT",
+    "grammar_category": "grammar error",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "but and",
+    "message": "Please check if you only wanted to use one conjunction here.",
+    "replacements": [
+      "but",
+      "and"
+    ],
+    "offset": 122,
+    "error_length": 7
+  }
+]

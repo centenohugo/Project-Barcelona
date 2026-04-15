@@ -1,0 +1,566 @@
+[
+  {
+    "sentence": "Because I the weather is great.",
+    "sentence_index": 10,
+    "rule_id": "PRP_THE",
+    "grammar_category": "verb/tense error",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "I the",
+    "message": "A verb may be missing between “I” and “the”, or a word may be misspelled.",
+    "replacements": [],
+    "offset": 8,
+    "error_length": 5
+  },
+  {
+    "sentence": "Mhmm.",
+    "sentence_index": 17,
+    "rule_id": "MORFOLOGIK_RULE_EN_US",
+    "grammar_category": "incorrect word form",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "Mhmm",
+    "message": "Possible spelling mistake found.",
+    "replacements": [
+      "MMM",
+      "Hmm",
+      "M hmm"
+    ],
+    "offset": 0,
+    "error_length": 4
+  },
+  {
+    "sentence": "That's according to a recent study published in computers in human behavior in which 118 university students were split into three groups to take part in Stroop takes tasks",
+    "sentence_index": 23,
+    "rule_id": "MORFOLOGIK_RULE_EN_US",
+    "grammar_category": "incorrect word form",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "Stroop",
+    "message": "Possible spelling mistake found.",
+    "replacements": [
+      "Troop",
+      "Strewn",
+      "Stoop",
+      "Strop",
+      "Strew",
+      "Strews"
+    ],
+    "offset": 154,
+    "error_length": 6
+  },
+  {
+    "sentence": "During Stroop tasks, participations are shown the word for a color, but the font will be in a different color.",
+    "sentence_index": 24,
+    "rule_id": "MORFOLOGIK_RULE_EN_US",
+    "grammar_category": "incorrect word form",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "Stroop",
+    "message": "Possible spelling mistake found.",
+    "replacements": [
+      "Troop",
+      "Strewn",
+      "Stoop",
+      "Strop",
+      "Strew",
+      "Strews"
+    ],
+    "offset": 7,
+    "error_length": 6
+  },
+  {
+    "sentence": "They would occasionally see notifications from their most used phones phone apps appear on their computer screen.",
+    "sentence_index": 31,
+    "rule_id": "REPEATED_VERBS",
+    "grammar_category": "word/phrase repetition",
+    "dimension_code": "A",
+    "dimension_label": "Sentence Architecture",
+    "matched_text": "phones phone",
+    "message": "You’ve repeated a verb. Did you mean to only write one of them?",
+    "replacements": [
+      "phones",
+      "phone"
+    ],
+    "offset": 63,
+    "error_length": 12
+  },
+  {
+    "sentence": "However, Hippologt Fournier, one of the study authors told CPOST, Even short disruption when repeated dose dozens or hundreds of time per day may meaningfully affect concentration",
+    "sentence_index": 47,
+    "rule_id": "MORFOLOGIK_RULE_EN_US",
+    "grammar_category": "incorrect word form",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "Hippologt",
+    "message": "Possible spelling mistake found.",
+    "replacements": [
+      "Histology",
+      "Hippolyta",
+      "Hippolyte",
+      "Haplology",
+      "Hierology"
+    ],
+    "offset": 9,
+    "error_length": 9
+  },
+  {
+    "sentence": "However, Hippologt Fournier, one of the study authors told CPOST, Even short disruption when repeated dose dozens or hundreds of time per day may meaningfully affect concentration",
+    "sentence_index": 47,
+    "rule_id": "MORFOLOGIK_RULE_EN_US",
+    "grammar_category": "incorrect word form",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "CPOST",
+    "message": "Possible spelling mistake found.",
+    "replacements": [
+      "COST",
+      "POST",
+      "CP OST",
+      "CPO ST"
+    ],
+    "offset": 59,
+    "error_length": 5
+  },
+  {
+    "sentence": "I my phone, when I I'm receiving a call, my phone can zip.",
+    "sentence_index": 58,
+    "rule_id": "ENGLISH_WORD_REPEAT_RULE",
+    "grammar_category": "word repetition",
+    "dimension_code": "A",
+    "dimension_label": "Sentence Architecture",
+    "matched_text": "I I",
+    "message": "Possible typo: you repeated a word.",
+    "replacements": [
+      "I"
+    ],
+    "offset": 17,
+    "error_length": 3
+  },
+  {
+    "sentence": "and I do have not nothing to do, I something start to use Twitter.",
+    "sentence_index": 99,
+    "rule_id": "DOUBLE_NEGATIVE",
+    "grammar_category": "grammar error",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": " nothing",
+    "message": "This phrase contains a double negative, or a comma may be missing.",
+    "replacements": [
+      " anything",
+      ", nothing"
+    ],
+    "offset": 17,
+    "error_length": 8
+  },
+  {
+    "sentence": "and I do have not nothing to do, I something start to use Twitter.",
+    "sentence_index": 99,
+    "rule_id": "PRP_VB",
+    "grammar_category": "nominal error",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "I something",
+    "message": "Check that the noun ‘something’ after the pronoun ‘I’ is correct. It’s possible that you may need to switch to a possessive pronoun, or use another part of speech.",
+    "replacements": [],
+    "offset": 33,
+    "error_length": 11
+  },
+  {
+    "sentence": "It does it doesn't help you.",
+    "sentence_index": 101,
+    "rule_id": "PHRASE_REPETITION",
+    "grammar_category": "modal/conditional error",
+    "dimension_code": "D",
+    "dimension_label": "Modal & Functional Range",
+    "matched_text": "It does it does",
+    "message": "This phrase is duplicated. You should probably use “It does” only once.",
+    "replacements": [
+      "It does"
+    ],
+    "offset": 0,
+    "error_length": 15
+  },
+  {
+    "sentence": "I'm more focused mhmm.",
+    "sentence_index": 104,
+    "rule_id": "MORFOLOGIK_RULE_EN_US",
+    "grammar_category": "incorrect word form",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "mhmm",
+    "message": "Possible spelling mistake found.",
+    "replacements": [
+      "MMM",
+      "hmm",
+      "m hmm"
+    ],
+    "offset": 17,
+    "error_length": 4
+  },
+  {
+    "sentence": "Then I don't because when I working now I'm working from home.",
+    "sentence_index": 111,
+    "rule_id": "PRP_VBG",
+    "grammar_category": "verb/tense error",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "I working",
+    "message": "An auxiliary verb seems to be missing from this progressive structure. Did you mean “I'm working”, “I am working”, or “I was working”?",
+    "replacements": [
+      "I'm working",
+      "I am working",
+      "I was working"
+    ],
+    "offset": 26,
+    "error_length": 9
+  },
+  {
+    "sentence": "It doesn't depend only on my planifications, but I try to be concentrated when I need to work.",
+    "sentence_index": 114,
+    "rule_id": "MORFOLOGIK_RULE_EN_US",
+    "grammar_category": "incorrect word form",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "planifications",
+    "message": "Possible spelling mistake found.",
+    "replacements": [
+      "clarifications",
+      "pacifications"
+    ],
+    "offset": 29,
+    "error_length": 14
+  },
+  {
+    "sentence": "it's not very demanding, but and it's not very complicated, but you need to be concentrated, be focused on what you write,",
+    "sentence_index": 120,
+    "rule_id": "AND_BUT",
+    "grammar_category": "grammar error",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "but and",
+    "message": "Please check if you only wanted to use one conjunction here.",
+    "replacements": [
+      "but",
+      "and"
+    ],
+    "offset": 25,
+    "error_length": 7
+  },
+  {
+    "sentence": "So to pass every maths exam, I needed to be very concentrated, very prepared, and with every disruption that's occurs",
+    "sentence_index": 134,
+    "rule_id": "MORFOLOGIK_RULE_EN_US",
+    "grammar_category": "incorrect word form",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "maths",
+    "message": "Possible spelling mistake. ‘maths’ is British English.",
+    "replacements": [
+      "math"
+    ],
+    "offset": 17,
+    "error_length": 5
+  },
+  {
+    "sentence": "So to pass every maths exam, I needed to be very concentrated, very prepared, and with every disruption that's occurs",
+    "sentence_index": 134,
+    "rule_id": "IS_VBZ",
+    "grammar_category": "subject-verb agreement",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "'s occurs",
+    "message": "The verb form seems incorrect.",
+    "replacements": [
+      "'s occurring",
+      " occurs"
+    ],
+    "offset": 108,
+    "error_length": 9
+  },
+  {
+    "sentence": "So it's a it has showed me that you need to be that even a small signal can straight things down.",
+    "sentence_index": 136,
+    "rule_id": "EN_A_VS_AN",
+    "grammar_category": "article choice (a/an)",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "a",
+    "message": "Use “an” instead of ‘a’ if the following word starts with a vowel sound, e.g. ‘an article’, ‘an hour’.",
+    "replacements": [
+      "an"
+    ],
+    "offset": 8,
+    "error_length": 1
+  },
+  {
+    "sentence": "And in your country, what peep do people use messenger or what's I don't see I'm not I don't know because when I was at school, I didn't receive a lot of lessons about this problem.",
+    "sentence_index": 163,
+    "rule_id": "ARE_WE_HAVE",
+    "grammar_category": "verb/tense error",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "what's I do",
+    "message": "There seems to be an error in these verb forms.",
+    "replacements": [
+      "what does I do",
+      "what's I doing",
+      "what's I done"
+    ],
+    "offset": 58,
+    "error_length": 11
+  },
+  {
+    "sentence": "I I'm not sure.",
+    "sentence_index": 168,
+    "rule_id": "ENGLISH_WORD_REPEAT_RULE",
+    "grammar_category": "word repetition",
+    "dimension_code": "A",
+    "dimension_label": "Sentence Architecture",
+    "matched_text": "I I",
+    "message": "Possible typo: you repeated a word.",
+    "replacements": [
+      "I"
+    ],
+    "offset": 0,
+    "error_length": 3
+  },
+  {
+    "sentence": "So even if it had happened, it would it wouldn't have this cost problems, you know.",
+    "sentence_index": 185,
+    "rule_id": "PHRASE_REPETITION",
+    "grammar_category": "modal/conditional error",
+    "dimension_code": "D",
+    "dimension_label": "Modal & Functional Range",
+    "matched_text": "it would it would",
+    "message": "This phrase is duplicated. You should probably use “it would” only once.",
+    "replacements": [
+      "it would"
+    ],
+    "offset": 28,
+    "error_length": 17
+  },
+  {
+    "sentence": "So even if it had happened, it would it wouldn't have this cost problems, you know.",
+    "sentence_index": 185,
+    "rule_id": "THIS_NNS",
+    "grammar_category": "grammar error",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "this",
+    "message": "Did you mean “these”?",
+    "replacements": [
+      "these"
+    ],
+    "offset": 54,
+    "error_length": 4
+  },
+  {
+    "sentence": "So I have two laptops, but my personal laptop is used practically only to Preply, yeah, in this moment.",
+    "sentence_index": 192,
+    "rule_id": "MORFOLOGIK_RULE_EN_US",
+    "grammar_category": "incorrect word form",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "Preply",
+    "message": "Possible spelling mistake found.",
+    "replacements": [
+      "Reply",
+      "Preppy",
+      "Prepay"
+    ],
+    "offset": 74,
+    "error_length": 6
+  },
+  {
+    "sentence": "For Preply.",
+    "sentence_index": 193,
+    "rule_id": "MORFOLOGIK_RULE_EN_US",
+    "grammar_category": "incorrect word form",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "Preply",
+    "message": "Possible spelling mistake found.",
+    "replacements": [
+      "Reply",
+      "Preppy",
+      "Prepay"
+    ],
+    "offset": 4,
+    "error_length": 6
+  },
+  {
+    "sentence": "It can become it can be it becomes very problematic if you play during the night and you don't sleep and you it cow it can cause more problem in your life.",
+    "sentence_index": 205,
+    "rule_id": "IT_VBZ",
+    "grammar_category": "subject-verb agreement",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "cow",
+    "message": "After ‘it’, use the third-person verb form “cows”.",
+    "replacements": [
+      "cows"
+    ],
+    "offset": 112,
+    "error_length": 3
+  },
+  {
+    "sentence": "On you on YouTube, you have both videos one hours videos, one minute videos.",
+    "sentence_index": 212,
+    "rule_id": "HOUR_HYPHEN",
+    "grammar_category": "grammar error",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "one minute",
+    "message": "When ‘one-minute’ is used as a modifier, it is usually spelled with a hyphen.",
+    "replacements": [
+      "one-minute"
+    ],
+    "offset": 58,
+    "error_length": 10
+  },
+  {
+    "sentence": "So it cause more problems when it comes to your attention.",
+    "sentence_index": 219,
+    "rule_id": "CC_NNP_VBP",
+    "grammar_category": "verb/tense error",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "cause",
+    "message": "It appears that the verb form is incorrect.",
+    "replacements": [
+      "causes",
+      "caused"
+    ],
+    "offset": 6,
+    "error_length": 5
+  },
+  {
+    "sentence": "And I don't like this type of videos that's It is too short for me.",
+    "sentence_index": 220,
+    "rule_id": "THAT_S_YOU_RE",
+    "grammar_category": "grammar error",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "that's It is",
+    "message": "Did you mean “that It is” or “that is its”?",
+    "replacements": [
+      "that It is",
+      "that is its"
+    ],
+    "offset": 37,
+    "error_length": 12
+  },
+  {
+    "sentence": "and I must to do it, depends.",
+    "sentence_index": 235,
+    "rule_id": "MUST_HAVE_TO",
+    "grammar_category": "verb/tense error",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "must to",
+    "message": "After ‘must’, the verb is used without ‘to’. Probably, you should use “must” or “have to” here.",
+    "replacements": [
+      "must",
+      "have to"
+    ],
+    "offset": 6,
+    "error_length": 7
+  },
+  {
+    "sentence": "It depends of importance of this stuff.",
+    "sentence_index": 239,
+    "rule_id": "DEPEND_ON",
+    "grammar_category": "verb/tense error",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "depends of",
+    "message": "The verb ‘to depend’ requires the preposition ‘(up)on’.",
+    "replacements": [
+      "depends on"
+    ],
+    "offset": 3,
+    "error_length": 10
+  },
+  {
+    "sentence": "Now I have people that I like to upset, but I wouldn't say that I have an I idols.",
+    "sentence_index": 242,
+    "rule_id": "DT_PRP",
+    "grammar_category": "nominal error",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "an I",
+    "message": "Using a determiner and a pronoun together is incorrect. Did you mean “an” or “I”?",
+    "replacements": [
+      "an",
+      "I"
+    ],
+    "offset": 71,
+    "error_length": 4
+  },
+  {
+    "sentence": "I would agree that we have an image of our idols that's it's only what they can show.",
+    "sentence_index": 251,
+    "rule_id": "THAT_S_YOU_RE",
+    "grammar_category": "grammar error",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "that's it's",
+    "message": "Did you mean “that it is” or “that is its”?",
+    "replacements": [
+      "that it is",
+      "that is its"
+    ],
+    "offset": 49,
+    "error_length": 11
+  },
+  {
+    "sentence": "So it's not about that as a human beings, they both.",
+    "sentence_index": 252,
+    "rule_id": "A_NNS",
+    "grammar_category": "nominal error",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "a human beings",
+    "message": "The plural noun “beings” cannot be used with the article “a”. Did you mean “a human being” or “human beings”?",
+    "replacements": [
+      "a human being",
+      "human beings"
+    ],
+    "offset": 26,
+    "error_length": 14
+  },
+  {
+    "sentence": "Because when we are teenagers, we tend to have a lot of changes in a short terms of time.",
+    "sentence_index": 258,
+    "rule_id": "A_NNS",
+    "grammar_category": "nominal error",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "a short terms",
+    "message": "The plural noun “terms” cannot be used with the article “a”. Did you mean “a short term” or “short terms”?",
+    "replacements": [
+      "a short term",
+      "short terms"
+    ],
+    "offset": 67,
+    "error_length": 13
+  },
+  {
+    "sentence": "So mhmm.",
+    "sentence_index": 290,
+    "rule_id": "MORFOLOGIK_RULE_EN_US",
+    "grammar_category": "incorrect word form",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "mhmm",
+    "message": "Possible spelling mistake found.",
+    "replacements": [
+      "MMM",
+      "hmm",
+      "m hmm"
+    ],
+    "offset": 3,
+    "error_length": 4
+  }
+]

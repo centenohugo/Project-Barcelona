@@ -1,0 +1,390 @@
+[
+  {
+    "sentence": "There are many students who study hard for the Erics and the movie which, we watched last night.",
+    "sentence_index": 18,
+    "rule_id": "MORFOLOGIK_RULE_EN_US",
+    "grammar_category": "incorrect word form",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "Erics",
+    "message": "Possible spelling mistake found.",
+    "replacements": [
+      "Eric's",
+      "Eric",
+      "Erich",
+      "Epics",
+      "Erica",
+      "Eris",
+      "BRICS",
+      "Erick",
+      "Eries",
+      "Èric",
+      "Éric"
+    ],
+    "offset": 47,
+    "error_length": 5
+  },
+  {
+    "sentence": "And then which right.",
+    "sentence_index": 21,
+    "rule_id": "MISSING_VERB_AFTER_WHAT",
+    "grammar_category": "verb/tense error",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "which",
+    "message": "It seems that a verb is missing after “what”.",
+    "replacements": [
+      "which is"
+    ],
+    "offset": 9,
+    "error_length": 5
+  },
+  {
+    "sentence": "Mhmm.",
+    "sentence_index": 31,
+    "rule_id": "MORFOLOGIK_RULE_EN_US",
+    "grammar_category": "incorrect word form",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "Mhmm",
+    "message": "Possible spelling mistake found.",
+    "replacements": [
+      "MMM",
+      "Hmm",
+      "M hmm"
+    ],
+    "offset": 0,
+    "error_length": 4
+  },
+  {
+    "sentence": "I'm from the I am from the UK.",
+    "sentence_index": 49,
+    "rule_id": "DT_PRP",
+    "grammar_category": "nominal error",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "the I",
+    "message": "Using a determiner and a pronoun together is incorrect. Did you mean “the” or “I”?",
+    "replacements": [
+      "the",
+      "I"
+    ],
+    "offset": 9,
+    "error_length": 5
+  },
+  {
+    "sentence": "Direct sheets is, shirts.",
+    "sentence_index": 63,
+    "rule_id": "AGREEMENT_SENT_START_2",
+    "grammar_category": "subject-verb agreement",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "is",
+    "message": "It seems that the correct verb form here is “are”.",
+    "replacements": [
+      "are"
+    ],
+    "offset": 14,
+    "error_length": 2
+  },
+  {
+    "sentence": "The red shirts is, small.",
+    "sentence_index": 65,
+    "rule_id": "SUBJECT_VERB_AGREEMENT_PLURAL",
+    "grammar_category": "subject-verb agreement",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "is",
+    "message": "The verb form ‘is’ does not seem to match the subject ‘shirts’.",
+    "replacements": [
+      "are",
+      "was",
+      "were",
+      "will be"
+    ],
+    "offset": 15,
+    "error_length": 2
+  },
+  {
+    "sentence": "The blue shirts is, Correct.",
+    "sentence_index": 66,
+    "rule_id": "SUBJECT_VERB_AGREEMENT_PLURAL",
+    "grammar_category": "subject-verb agreement",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "is",
+    "message": "The verb form ‘is’ does not seem to match the subject ‘shirts’.",
+    "replacements": [
+      "are",
+      "was",
+      "were",
+      "will be"
+    ],
+    "offset": 16,
+    "error_length": 2
+  },
+  {
+    "sentence": "I I'm not.",
+    "sentence_index": 73,
+    "rule_id": "ENGLISH_WORD_REPEAT_RULE",
+    "grammar_category": "word repetition",
+    "dimension_code": "A",
+    "dimension_label": "Sentence Architecture",
+    "matched_text": "I I",
+    "message": "Possible typo: you repeated a word.",
+    "replacements": [
+      "I"
+    ],
+    "offset": 0,
+    "error_length": 3
+  },
+  {
+    "sentence": "I okay.",
+    "sentence_index": 74,
+    "rule_id": "PRP_JJ",
+    "grammar_category": "verb/tense error",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "I",
+    "message": "A verb may be missing.",
+    "replacements": [
+      "I am"
+    ],
+    "offset": 0,
+    "error_length": 1
+  },
+  {
+    "sentence": "Oh, I I'm not a teacher.",
+    "sentence_index": 76,
+    "rule_id": "ENGLISH_WORD_REPEAT_RULE",
+    "grammar_category": "word repetition",
+    "dimension_code": "A",
+    "dimension_label": "Sentence Architecture",
+    "matched_text": "I I",
+    "message": "Possible typo: you repeated a word.",
+    "replacements": [
+      "I"
+    ],
+    "offset": 4,
+    "error_length": 3
+  },
+  {
+    "sentence": "My name my name's Jack.",
+    "sentence_index": 82,
+    "rule_id": "PHRASE_REPETITION",
+    "grammar_category": "modal/conditional error",
+    "dimension_code": "D",
+    "dimension_label": "Modal & Functional Range",
+    "matched_text": "My name my name",
+    "message": "This phrase is duplicated. You should probably use “My name” only once.",
+    "replacements": [
+      "My name"
+    ],
+    "offset": 0,
+    "error_length": 15
+  },
+  {
+    "sentence": "Australia is isn't, my country.",
+    "sentence_index": 84,
+    "rule_id": "BE_HAVENT",
+    "grammar_category": "verb/tense error",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "is isn't",
+    "message": "It seems that one verb is redundant.",
+    "replacements": [
+      "isn't",
+      "is"
+    ],
+    "offset": 10,
+    "error_length": 8
+  },
+  {
+    "sentence": "It time, Eddy.",
+    "sentence_index": 109,
+    "rule_id": "IT_ITS",
+    "grammar_category": "nominal error",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "It",
+    "message": "It seems that the possessive pronoun “its” fits better in this context. Please verify.",
+    "replacements": [
+      "Its"
+    ],
+    "offset": 0,
+    "error_length": 2
+  },
+  {
+    "sentence": "Are you and Lya sisters?",
+    "sentence_index": 112,
+    "rule_id": "MORFOLOGIK_RULE_EN_US",
+    "grammar_category": "incorrect word form",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "Lya",
+    "message": "Possible spelling mistake found.",
+    "replacements": [
+      "Lay",
+      "LA",
+      "LGA",
+      "LMA",
+      "Lea",
+      "Lyn",
+      "LCA",
+      "LDA",
+      "LSA",
+      "Lyra",
+      "Lye",
+      "LBA",
+      "AYA",
+      "BYA",
+      "CYA",
+      "Ilya",
+      "LEA",
+      "LHA",
+      "LIA",
+      "LKA",
+      "LNA",
+      "LOA",
+      "LPA",
+      "LTA",
+      "LVA",
+      "LY",
+      "LYD",
+      "La",
+      "Léa",
+      "MYA",
+      "NYA",
+      "WYA",
+      "Ya",
+      "Lua"
+    ],
+    "offset": 12,
+    "error_length": 3
+  },
+  {
+    "sentence": "So Shekhar.",
+    "sentence_index": 116,
+    "rule_id": "MORFOLOGIK_RULE_EN_US",
+    "grammar_category": "incorrect word form",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "Shekhar",
+    "message": "Possible spelling mistake found.",
+    "replacements": [
+      "Shikhar"
+    ],
+    "offset": 3,
+    "error_length": 7
+  },
+  {
+    "sentence": "I it's",
+    "sentence_index": 123,
+    "rule_id": "PRP_REPITION",
+    "grammar_category": "nominal error",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "I it",
+    "message": "Consider using only one pronoun here.",
+    "replacements": [
+      "I",
+      "It"
+    ],
+    "offset": 0,
+    "error_length": 4
+  },
+  {
+    "sentence": "They have the they have 2 children, Tina, had a cat has a cat.",
+    "sentence_index": 143,
+    "rule_id": "DT_PRP",
+    "grammar_category": "nominal error",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "the they",
+    "message": "Using a determiner and a pronoun together is incorrect. Did you mean “the” or “they”?",
+    "replacements": [
+      "the",
+      "they"
+    ],
+    "offset": 10,
+    "error_length": 8
+  },
+  {
+    "sentence": "Team dot Can goes to work early?",
+    "sentence_index": 146,
+    "rule_id": "MD_BASEFORM",
+    "grammar_category": "verb/tense error",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "goes",
+    "message": "The modal verb ‘Can’ requires the verb’s base form.",
+    "replacements": [
+      "go"
+    ],
+    "offset": 13,
+    "error_length": 4
+  },
+  {
+    "sentence": "Evan and Stacy writes Dave's, in the city.",
+    "sentence_index": 181,
+    "rule_id": "COMPOUND_NNP_AGREEMENT",
+    "grammar_category": "subject-verb agreement",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "writes",
+    "message": "Possible subject-verb agreement error. Did you mean to use a different form of ‘write’?",
+    "replacements": [
+      "write",
+      "wrote"
+    ],
+    "offset": 15,
+    "error_length": 6
+  },
+  {
+    "sentence": "The dog are friendly.",
+    "sentence_index": 192,
+    "rule_id": "SINGULAR_AGREEMENT_SENT_START",
+    "grammar_category": "subject-verb agreement",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "are",
+    "message": "You should probably use “is”.",
+    "replacements": [
+      "is"
+    ],
+    "offset": 8,
+    "error_length": 3
+  },
+  {
+    "sentence": "Swetta, does, but Hillary doesn't.",
+    "sentence_index": 254,
+    "rule_id": "MORFOLOGIK_RULE_EN_US",
+    "grammar_category": "incorrect word form",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "Swetta",
+    "message": "Possible spelling mistake found.",
+    "replacements": [
+      "Sweet",
+      "Swept",
+      "Sweat",
+      "Sweets",
+      "Etta",
+      "Quetta",
+      "Septa",
+      "Sett",
+      "Sweats",
+      "Sweaty",
+      "Siesta",
+      "Seta",
+      "Jetta",
+      "SCETA",
+      "SNETAA",
+      "Shelta",
+      "Shetty",
+      "Setts"
+    ],
+    "offset": 0,
+    "error_length": 6
+  }
+]

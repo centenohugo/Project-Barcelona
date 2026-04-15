@@ -1,0 +1,944 @@
+[
+  {
+    "sentence": "And there was one or two days of, you know, warmer weather with snow, like, minus four, and now we we're back to minus 20 almost.",
+    "sentence_index": 8,
+    "rule_id": "ENGLISH_WORD_REPEAT_RULE",
+    "grammar_category": "word repetition",
+    "dimension_code": "A",
+    "dimension_label": "Sentence Architecture",
+    "matched_text": "we we",
+    "message": "Possible typo: you repeated a word.",
+    "replacements": [
+      "we"
+    ],
+    "offset": 96,
+    "error_length": 5
+  },
+  {
+    "sentence": "you know, they they're going really fast because the like, yesterday, there was almost no wind.",
+    "sentence_index": 25,
+    "rule_id": "ENGLISH_WORD_REPEAT_RULE",
+    "grammar_category": "word repetition",
+    "dimension_code": "A",
+    "dimension_label": "Sentence Architecture",
+    "matched_text": "they they",
+    "message": "Possible typo: you repeated a word.",
+    "replacements": [
+      "they"
+    ],
+    "offset": 10,
+    "error_length": 9
+  },
+  {
+    "sentence": "And there and but they were, speeding like her.",
+    "sentence_index": 26,
+    "rule_id": "AND_BUT",
+    "grammar_category": "grammar error",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "and but",
+    "message": "Please check if you only wanted to use one conjunction here.",
+    "replacements": [
+      "and",
+      "but"
+    ],
+    "offset": 10,
+    "error_length": 7
+  },
+  {
+    "sentence": "They you know?",
+    "sentence_index": 27,
+    "rule_id": "PRP_REPITION",
+    "grammar_category": "nominal error",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "They you",
+    "message": "Consider using only one pronoun here.",
+    "replacements": [
+      "They",
+      "You"
+    ],
+    "offset": 0,
+    "error_length": 8
+  },
+  {
+    "sentence": "I mean, there was only little wind, and you know, that they use it because if you if you're moving on the snow on the skis, the is it torsion?",
+    "sentence_index": 28,
+    "rule_id": "PHRASE_REPETITION",
+    "grammar_category": "modal/conditional error",
+    "dimension_code": "D",
+    "dimension_label": "Modal & Functional Range",
+    "matched_text": "if you if you",
+    "message": "This phrase is duplicated. You should probably use “if you” only once.",
+    "replacements": [
+      "if you"
+    ],
+    "offset": 75,
+    "error_length": 13
+  },
+  {
+    "sentence": "So they speeding up very fast, and this is great.",
+    "sentence_index": 32,
+    "rule_id": "PRP_VBG",
+    "grammar_category": "verb/tense error",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "they speeding",
+    "message": "An auxiliary verb seems to be missing from this progressive structure. Did you mean “they're speeding”, “they are speeding”, or “they were speeding”?",
+    "replacements": [
+      "they're speeding",
+      "they are speeding",
+      "they were speeding"
+    ],
+    "offset": 3,
+    "error_length": 13
+  },
+  {
+    "sentence": "I mean, the it looks like very easy, but it is not easy at all.",
+    "sentence_index": 33,
+    "rule_id": "THE_IT",
+    "grammar_category": "grammar error",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "the it",
+    "message": "Please verify. Did you mean “it” or “the IT” (= information technology)?",
+    "replacements": [
+      "it",
+      "the IT"
+    ],
+    "offset": 8,
+    "error_length": 6
+  },
+  {
+    "sentence": "If you have ski, you have the edge of the ski, and it is very little.",
+    "sentence_index": 41,
+    "rule_id": "HAVE_PART_AGREEMENT",
+    "grammar_category": "verb form in perfect aspect",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "ski",
+    "message": "It appears that the past participle should be used here.",
+    "replacements": [
+      "skied"
+    ],
+    "offset": 12,
+    "error_length": 3
+  },
+  {
+    "sentence": "And that's why you speeding up very quickly, and really you know, getting very, high speed.",
+    "sentence_index": 44,
+    "rule_id": "PRP_VBG",
+    "grammar_category": "verb/tense error",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "you speeding",
+    "message": "An auxiliary verb seems to be missing from this progressive structure. Did you mean “you're speeding”, “you are speeding”, or “you were speeding”?",
+    "replacements": [
+      "you're speeding",
+      "you are speeding",
+      "you were speeding"
+    ],
+    "offset": 15,
+    "error_length": 12
+  },
+  {
+    "sentence": "And the only difficulty is that if you're doing this and the wind is too strong, then you you're done.",
+    "sentence_index": 45,
+    "rule_id": "ENGLISH_WORD_REPEAT_RULE",
+    "grammar_category": "word repetition",
+    "dimension_code": "A",
+    "dimension_label": "Sentence Architecture",
+    "matched_text": "you you",
+    "message": "Possible typo: you repeated a word.",
+    "replacements": [
+      "you"
+    ],
+    "offset": 86,
+    "error_length": 7
+  },
+  {
+    "sentence": "That's the I mean, of course, you because if you turn upwind, then it stops a little bit.",
+    "sentence_index": 47,
+    "rule_id": "DT_PRP",
+    "grammar_category": "nominal error",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "the I",
+    "message": "Using a determiner and a pronoun together is incorrect. Did you mean “the” or “I”?",
+    "replacements": [
+      "the",
+      "I"
+    ],
+    "offset": 7,
+    "error_length": 5
+  },
+  {
+    "sentence": "And, actually, you we watched some jumps on the kite, and it looks amazing.",
+    "sentence_index": 53,
+    "rule_id": "PRP_REPITION",
+    "grammar_category": "nominal error",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "you we",
+    "message": "Consider using only one pronoun here.",
+    "replacements": [
+      "you",
+      "we"
+    ],
+    "offset": 15,
+    "error_length": 6
+  },
+  {
+    "sentence": "They I believe, you know, we watch it from some distance, but I believe that they jump maybe three meters more maybe more.",
+    "sentence_index": 55,
+    "rule_id": "PRP_REPITION",
+    "grammar_category": "nominal error",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "They I",
+    "message": "Consider using only one pronoun here.",
+    "replacements": [
+      "They",
+      "I"
+    ],
+    "offset": 0,
+    "error_length": 6
+  },
+  {
+    "sentence": "And if you compare to the water kite surfing, then if you fail to land correctly and you just hit the you know, the ice, I mean, you better not try.",
+    "sentence_index": 57,
+    "rule_id": "DT_PRP",
+    "grammar_category": "nominal error",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "the you",
+    "message": "Using a determiner and a pronoun together is incorrect. Did you mean “the” or “you”?",
+    "replacements": [
+      "the",
+      "you"
+    ],
+    "offset": 98,
+    "error_length": 7
+  },
+  {
+    "sentence": "It's actually, maybe it has some different English name because the you know, the this is mostly Swedish or Scandinavian way to move on this on the ice.",
+    "sentence_index": 59,
+    "rule_id": "DT_PRP",
+    "grammar_category": "nominal error",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "the you",
+    "message": "Using a determiner and a pronoun together is incorrect. Did you mean “the” or “you”?",
+    "replacements": [
+      "the",
+      "you"
+    ],
+    "offset": 64,
+    "error_length": 7
+  },
+  {
+    "sentence": "It's actually, maybe it has some different English name because the you know, the this is mostly Swedish or Scandinavian way to move on this on the ice.",
+    "sentence_index": 59,
+    "rule_id": "DT_DT",
+    "grammar_category": "double determiner",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "the this",
+    "message": "Two determiners in a row. Choose either “the” or “this”.",
+    "replacements": [
+      "the",
+      "this"
+    ],
+    "offset": 78,
+    "error_length": 8
+  },
+  {
+    "sentence": "the this is also very, speedy.",
+    "sentence_index": 64,
+    "rule_id": "DT_DT",
+    "grammar_category": "double determiner",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "the this",
+    "message": "Two determiners in a row. Choose either “the” or “this”.",
+    "replacements": [
+      "the",
+      "this"
+    ],
+    "offset": 0,
+    "error_length": 8
+  },
+  {
+    "sentence": "Ice boat or ice Kuta.",
+    "sentence_index": 74,
+    "rule_id": "MORFOLOGIK_RULE_EN_US",
+    "grammar_category": "incorrect word form",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "Kuta",
+    "message": "Possible spelling mistake found.",
+    "replacements": [
+      "Kura",
+      "UTA",
+      "Kurta",
+      "Ku ta",
+      "Kutt"
+    ],
+    "offset": 16,
+    "error_length": 4
+  },
+  {
+    "sentence": "I I'm not, like, positive whether this is the thing, but this is you know",
+    "sentence_index": 76,
+    "rule_id": "ENGLISH_WORD_REPEAT_RULE",
+    "grammar_category": "word repetition",
+    "dimension_code": "A",
+    "dimension_label": "Sentence Architecture",
+    "matched_text": "I I",
+    "message": "Possible typo: you repeated a word.",
+    "replacements": [
+      "I"
+    ],
+    "offset": 0,
+    "error_length": 3
+  },
+  {
+    "sentence": "The this is the boat.",
+    "sentence_index": 78,
+    "rule_id": "DT_DT",
+    "grammar_category": "double determiner",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "The this",
+    "message": "Two determiners in a row. Choose either “The” or “this”.",
+    "replacements": [
+      "The",
+      "This"
+    ],
+    "offset": 0,
+    "error_length": 8
+  },
+  {
+    "sentence": "If you look just, you know, like the this speed boats are faster than this almost as fast as the speed boats the ocean speed boats.",
+    "sentence_index": 96,
+    "rule_id": "DT_DT",
+    "grammar_category": "double determiner",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "the this",
+    "message": "Two determiners in a row. Choose either “the” or “this”.",
+    "replacements": [
+      "the",
+      "this"
+    ],
+    "offset": 33,
+    "error_length": 8
+  },
+  {
+    "sentence": "they you know, you can sail.",
+    "sentence_index": 98,
+    "rule_id": "PRP_REPITION",
+    "grammar_category": "nominal error",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "they you",
+    "message": "Consider using only one pronoun here.",
+    "replacements": [
+      "they",
+      "you"
+    ],
+    "offset": 0,
+    "error_length": 8
+  },
+  {
+    "sentence": "Here, you you're taking the wind, which is only just ground wind.",
+    "sentence_index": 113,
+    "rule_id": "ENGLISH_WORD_REPEAT_RULE",
+    "grammar_category": "word repetition",
+    "dimension_code": "A",
+    "dimension_label": "Sentence Architecture",
+    "matched_text": "you you",
+    "message": "Possible typo: you repeated a word.",
+    "replacements": [
+      "you"
+    ],
+    "offset": 6,
+    "error_length": 7
+  },
+  {
+    "sentence": "So then you are just lying in the water, having your legs on the ball on the board, and you pulling up a little bit the sail, and the wind is taking you back to the boat.",
+    "sentence_index": 137,
+    "rule_id": "PRP_VBG",
+    "grammar_category": "verb/tense error",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "you pulling",
+    "message": "An auxiliary verb seems to be missing from this progressive structure. Did you mean “you're pulling”, “you are pulling”, or “you were pulling”?",
+    "replacements": [
+      "you're pulling",
+      "you are pulling",
+      "you were pulling"
+    ],
+    "offset": 88,
+    "error_length": 11
+  },
+  {
+    "sentence": "We the it",
+    "sentence_index": 143,
+    "rule_id": "THE_IT",
+    "grammar_category": "grammar error",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "the it",
+    "message": "Please verify. Did you mean “it” or “the IT” (= information technology)?",
+    "replacements": [
+      "it",
+      "the IT"
+    ],
+    "offset": 3,
+    "error_length": 6
+  },
+  {
+    "sentence": "It it's hell",
+    "sentence_index": 145,
+    "rule_id": "IT_IT",
+    "grammar_category": "grammar error",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "It it",
+    "message": "It seems you mean “if it”.",
+    "replacements": [
+      "If it"
+    ],
+    "offset": 0,
+    "error_length": 5
+  },
+  {
+    "sentence": "And second thing is that, you know, if the dip of the water is not too high, it's like, you know, the ideal dip of the water is one point five meter.",
+    "sentence_index": 157,
+    "rule_id": "CD_NN",
+    "grammar_category": "verb/tense error",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "meter",
+    "message": "Possible agreement error. The noun ‘meter’ seems to be countable.",
+    "replacements": [
+      "meters"
+    ],
+    "offset": 143,
+    "error_length": 5
+  },
+  {
+    "sentence": "And I'm rather going to Greece, and there is a Rhodos Island, and they have Prasunisi Peninsula on the very, you know, far away just the far end of the island.",
+    "sentence_index": 162,
+    "rule_id": "MORFOLOGIK_RULE_EN_US",
+    "grammar_category": "incorrect word form",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "Prasunisi",
+    "message": "Possible spelling mistake found.",
+    "replacements": [
+      "Krasniqi",
+      "Parsonish"
+    ],
+    "offset": 76,
+    "error_length": 9
+  },
+  {
+    "sentence": "and so people mostly for kite surfing have a fun to do it on waves, which is you can jump, you can you know, play, etcetera.",
+    "sentence_index": 168,
+    "rule_id": "NON3PRS_VERB",
+    "grammar_category": "nominal error",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "is",
+    "message": "The pronoun ‘you’ must be used with “are”.",
+    "replacements": [
+      "are"
+    ],
+    "offset": 74,
+    "error_length": 2
+  },
+  {
+    "sentence": "and wind, they have also I mean, one part of the wind is the, you know, Mediterranean Sea wind, but also they have f tert tertomic effect because the bay is surrounded by some hills, which when which are getting heat, you know, sun heat, and it makes it, like, you know, terming wind.",
+    "sentence_index": 171,
+    "rule_id": "MORFOLOGIK_RULE_EN_US",
+    "grammar_category": "incorrect word form",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "tert",
+    "message": "Possible spelling mistake found.",
+    "replacements": [
+      "term",
+      "text",
+      "test",
+      "tent",
+      "Bert",
+      "tort",
+      "Teri",
+      "tart",
+      "tern",
+      "cert",
+      "pert",
+      "ERT",
+      "FERT",
+      "PERT",
+      "TER",
+      "TRT",
+      "Terr",
+      "Tet",
+      "Teut",
+      "teat",
+      "vert"
+    ],
+    "offset": 117,
+    "error_length": 4
+  },
+  {
+    "sentence": "and wind, they have also I mean, one part of the wind is the, you know, Mediterranean Sea wind, but also they have f tert tertomic effect because the bay is surrounded by some hills, which when which are getting heat, you know, sun heat, and it makes it, like, you know, terming wind.",
+    "sentence_index": 171,
+    "rule_id": "MORFOLOGIK_RULE_EN_US",
+    "grammar_category": "incorrect word form",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "tertomic",
+    "message": "Possible spelling mistake found.",
+    "replacements": [
+      "tectonic",
+      "Teutonic",
+      "entomic",
+      "pentomic",
+      "tetratomic"
+    ],
+    "offset": 122,
+    "error_length": 8
+  },
+  {
+    "sentence": "this is perfect spot, and I going the actually, I was.",
+    "sentence_index": 173,
+    "rule_id": "PRP_VBG",
+    "grammar_category": "verb/tense error",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "I going",
+    "message": "An auxiliary verb seems to be missing from this progressive structure. Did you mean “I'm going”, “I am going”, or “I was going”?",
+    "replacements": [
+      "I'm going",
+      "I am going",
+      "I was going"
+    ],
+    "offset": 26,
+    "error_length": 7
+  },
+  {
+    "sentence": "this is perfect spot, and I going the actually, I was.",
+    "sentence_index": 173,
+    "rule_id": "DT_RB_IN",
+    "grammar_category": "verb/tense error",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "the actually",
+    "message": "The adverb “actually” cannot be used like a noun.",
+    "replacements": [],
+    "offset": 34,
+    "error_length": 12
+  },
+  {
+    "sentence": "But the we we've been there almost twice a year or something like this.",
+    "sentence_index": 174,
+    "rule_id": "DT_PRP",
+    "grammar_category": "nominal error",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "the we",
+    "message": "Using a determiner and a pronoun together is incorrect. Did you mean “the” or “we”?",
+    "replacements": [
+      "the",
+      "we"
+    ],
+    "offset": 4,
+    "error_length": 6
+  },
+  {
+    "sentence": "I I've been doing windsurfing with my wife.",
+    "sentence_index": 176,
+    "rule_id": "ENGLISH_WORD_REPEAT_RULE",
+    "grammar_category": "word repetition",
+    "dimension_code": "A",
+    "dimension_label": "Sentence Architecture",
+    "matched_text": "I I",
+    "message": "Possible typo: you repeated a word.",
+    "replacements": [
+      "I"
+    ],
+    "offset": 0,
+    "error_length": 3
+  },
+  {
+    "sentence": "Agruba, Bonner, and Curacao?",
+    "sentence_index": 189,
+    "rule_id": "MORFOLOGIK_RULE_EN_US",
+    "grammar_category": "incorrect word form",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "Agruba",
+    "message": "Possible spelling mistake found.",
+    "replacements": [
+      "Aruba"
+    ],
+    "offset": 0,
+    "error_length": 6
+  },
+  {
+    "sentence": "so and also, you know, the, Bon Air is not, devastated by huge tourist organization, hotels, and, you know, it's not as packed with people.",
+    "sentence_index": 218,
+    "rule_id": "THE_PUNCT",
+    "grammar_category": "nominal error",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "the,",
+    "message": "Articles like ‘the’ are rarely followed by punctuation. A word may be missing after ‘the’, or the punctuation mark may not be necessary.",
+    "replacements": [
+      "the"
+    ],
+    "offset": 23,
+    "error_length": 4
+  },
+  {
+    "sentence": "Aruba was perfect spot for windsurfing as But afterwards, it was surrounded by huge hotels, and these hotels kill killed the wind.",
+    "sentence_index": 220,
+    "rule_id": "REPEATED_VERBS",
+    "grammar_category": "word/phrase repetition",
+    "dimension_code": "A",
+    "dimension_label": "Sentence Architecture",
+    "matched_text": "kill killed",
+    "message": "You’ve repeated a verb. Did you mean to only write one of them?",
+    "replacements": [
+      "kill",
+      "killed"
+    ],
+    "offset": 109,
+    "error_length": 11
+  },
+  {
+    "sentence": "So it know, the spot was spoiled with by the hotels, and it no longer a good spot.",
+    "sentence_index": 221,
+    "rule_id": "CC_NNP_VBP",
+    "grammar_category": "verb/tense error",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "know",
+    "message": "It appears that the verb form is incorrect.",
+    "replacements": [
+      "knows",
+      "knew"
+    ],
+    "offset": 6,
+    "error_length": 4
+  },
+  {
+    "sentence": "If you get a wolf and you you're losing control over the parachute, you are just and you hit the ground.",
+    "sentence_index": 225,
+    "rule_id": "ENGLISH_WORD_REPEAT_RULE",
+    "grammar_category": "word repetition",
+    "dimension_code": "A",
+    "dimension_label": "Sentence Architecture",
+    "matched_text": "you you",
+    "message": "Possible typo: you repeated a word.",
+    "replacements": [
+      "you"
+    ],
+    "offset": 22,
+    "error_length": 7
+  },
+  {
+    "sentence": "And, actually, think that some one or two guys were killed because of the accident on a.",
+    "sentence_index": 228,
+    "rule_id": "THE_SENT_END",
+    "grammar_category": "grammar error",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "a.",
+    "message": "A word may be missing after ‘a’.",
+    "replacements": [],
+    "offset": 86,
+    "error_length": 2
+  },
+  {
+    "sentence": "I you know, I believe that kite surfing is really nice sport.",
+    "sentence_index": 230,
+    "rule_id": "PRP_REPITION",
+    "grammar_category": "nominal error",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "I you",
+    "message": "Consider using only one pronoun here.",
+    "replacements": [
+      "I",
+      "You"
+    ],
+    "offset": 0,
+    "error_length": 5
+  },
+  {
+    "sentence": "But the steering bar has a kind of A rift?",
+    "sentence_index": 246,
+    "rule_id": "KIND_OF_A",
+    "grammar_category": "grammar error",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "kind of A",
+    "message": "If ‘kind’ is a classification term, ‘A’ is not necessary. Use “kind of”. (The phrases ‘kind of’ and ‘sort of’ are informal if they mean ‘to some extent’.)",
+    "replacements": [
+      "kind of"
+    ],
+    "offset": 27,
+    "error_length": 9
+  },
+  {
+    "sentence": "you using the safety state safety switch, then basically, it is relatively safe.",
+    "sentence_index": 257,
+    "rule_id": "PRP_VBG",
+    "grammar_category": "verb/tense error",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "you using",
+    "message": "An auxiliary verb seems to be missing from this progressive structure. Did you mean “you're using”, “you are using”, or “you were using”?",
+    "replacements": [
+      "you're using",
+      "you are using",
+      "you were using"
+    ],
+    "offset": 0,
+    "error_length": 9
+  },
+  {
+    "sentence": "Because I don't know whether you ever seen how windsurfing is, you how to operate.",
+    "sentence_index": 260,
+    "rule_id": "PRP_PAST_PART",
+    "grammar_category": "past tense",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "ever seen",
+    "message": "A verb (‘be’ or ‘have’) is missing before the past participle.",
+    "replacements": [
+      "have ever seen",
+      "ever saw"
+    ],
+    "offset": 33,
+    "error_length": 9
+  },
+  {
+    "sentence": "And you the and you messed with the hook and your lines.",
+    "sentence_index": 265,
+    "rule_id": "THE_CC",
+    "grammar_category": "nominal error",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "the",
+    "message": "It appears that a noun is missing after “the”.",
+    "replacements": [],
+    "offset": 8,
+    "error_length": 3
+  },
+  {
+    "sentence": "I mean, you swimming in the water, you have no, like, such power You have to swim under.",
+    "sentence_index": 275,
+    "rule_id": "PRP_VBG",
+    "grammar_category": "verb/tense error",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "you swimming",
+    "message": "An auxiliary verb seems to be missing from this progressive structure. Did you mean “you're swimming”, “you are swimming”, or “you were swimming”?",
+    "replacements": [
+      "you're swimming",
+      "you are swimming",
+      "you were swimming"
+    ],
+    "offset": 8,
+    "error_length": 12
+  },
+  {
+    "sentence": "think that, you know, the I remember when I started the my adventure with the with Windsurfing, we at that time, we used the life jacket just for safety.",
+    "sentence_index": 280,
+    "rule_id": "DT_PRP",
+    "grammar_category": "nominal error",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "the I",
+    "message": "Using a determiner and a pronoun together is incorrect. Did you mean “the” or “I”?",
+    "replacements": [
+      "the",
+      "I"
+    ],
+    "offset": 22,
+    "error_length": 5
+  },
+  {
+    "sentence": "so I you know, it",
+    "sentence_index": 283,
+    "rule_id": "PRP_REPITION",
+    "grammar_category": "nominal error",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "I you",
+    "message": "Consider using only one pronoun here.",
+    "replacements": [
+      "I",
+      "You"
+    ],
+    "offset": 3,
+    "error_length": 5
+  },
+  {
+    "sentence": "But, actually, in the, I had a situation.",
+    "sentence_index": 286,
+    "rule_id": "THE_PUNCT",
+    "grammar_category": "nominal error",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "the,",
+    "message": "Articles like ‘the’ are rarely followed by punctuation. A word may be missing after ‘the’, or the punctuation mark may not be necessary.",
+    "replacements": [
+      "the"
+    ],
+    "offset": 18,
+    "error_length": 4
+  },
+  {
+    "sentence": "So, actually, I I've been pressed by the sail, and, actually, I could not swim under the sail because it was not enough depth.",
+    "sentence_index": 289,
+    "rule_id": "ENGLISH_WORD_REPEAT_RULE",
+    "grammar_category": "word repetition",
+    "dimension_code": "A",
+    "dimension_label": "Sentence Architecture",
+    "matched_text": "I I",
+    "message": "Possible typo: you repeated a word.",
+    "replacements": [
+      "I"
+    ],
+    "offset": 14,
+    "error_length": 3
+  },
+  {
+    "sentence": "So I couldn't dive down because there was just a sand under me.",
+    "sentence_index": 290,
+    "rule_id": "A_UNCOUNTABLE",
+    "grammar_category": "nominal error",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "a sand",
+    "message": "Uncountable nouns are usually not used with an indefinite article. Use simply “sand”.",
+    "replacements": [
+      "sand"
+    ],
+    "offset": 47,
+    "error_length": 6
+  },
+  {
+    "sentence": "Fortunately, I just, you know, just control my panic, and I you know, I find that",
+    "sentence_index": 292,
+    "rule_id": "PRP_REPITION",
+    "grammar_category": "nominal error",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "I you",
+    "message": "Consider using only one pronoun here.",
+    "replacements": [
+      "I",
+      "You"
+    ],
+    "offset": 58,
+    "error_length": 5
+  },
+  {
+    "sentence": "and I'm swimmed out from under the site.",
+    "sentence_index": 297,
+    "rule_id": "MORFOLOGIK_RULE_EN_US",
+    "grammar_category": "incorrect word form",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "swimmed",
+    "message": "Possible spelling mistake found.",
+    "replacements": [
+      "swam"
+    ],
+    "offset": 8,
+    "error_length": 7
+  },
+  {
+    "sentence": "So this was kind of stressy situation.",
+    "sentence_index": 301,
+    "rule_id": "MORFOLOGIK_RULE_EN_US",
+    "grammar_category": "incorrect word form",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "stressy",
+    "message": "Possible spelling mistake found.",
+    "replacements": [
+      "stress",
+      "STRESS"
+    ],
+    "offset": 20,
+    "error_length": 7
+  },
+  {
+    "sentence": "But, you know, the if you if you're well trained and if you know the methods how to survive, it is not as really as dangerous.",
+    "sentence_index": 302,
+    "rule_id": "THE_CC",
+    "grammar_category": "nominal error",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "the",
+    "message": "It appears that a noun is missing after “the”.",
+    "replacements": [],
+    "offset": 15,
+    "error_length": 3
+  },
+  {
+    "sentence": "But, you know, the if you if you're well trained and if you know the methods how to survive, it is not as really as dangerous.",
+    "sentence_index": 302,
+    "rule_id": "PHRASE_REPETITION",
+    "grammar_category": "modal/conditional error",
+    "dimension_code": "D",
+    "dimension_label": "Modal & Functional Range",
+    "matched_text": "if you if you",
+    "message": "This phrase is duplicated. You should probably use “if you” only once.",
+    "replacements": [
+      "if you"
+    ],
+    "offset": 19,
+    "error_length": 13
+  },
+  {
+    "sentence": "But also there are some other kind of methods to move it out.",
+    "sentence_index": 307,
+    "rule_id": "THERE_RE_MANY",
+    "grammar_category": "verb/tense error",
+    "dimension_code": "B",
+    "dimension_label": "Tense & Aspect Mastery",
+    "matched_text": "kind",
+    "message": "Possible agreement error. Did you mean “kinds”?",
+    "replacements": [
+      "kinds"
+    ],
+    "offset": 30,
+    "error_length": 4
+  },
+  {
+    "sentence": "and then you it help track.",
+    "sentence_index": 326,
+    "rule_id": "PRP_REPITION",
+    "grammar_category": "nominal error",
+    "dimension_code": "C",
+    "dimension_label": "Nominal Precision",
+    "matched_text": "you it",
+    "message": "Consider using only one pronoun here.",
+    "replacements": [
+      "you",
+      "it"
+    ],
+    "offset": 9,
+    "error_length": 6
+  }
+]

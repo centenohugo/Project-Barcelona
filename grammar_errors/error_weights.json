@@ -1,0 +1,99 @@
+{
+  "version": "1.0",
+  "scale": "0–5  (0 = not an error / ignore, 1 = minor, 5 = critical)",
+  "note": "Categories with weight 0 are filtered out before any error is recorded.",
+  "grammar_categories": {
+
+    "subject-verb agreement":        { "dimension": "B", "weight": 5 },
+    "third person agreement":        { "dimension": "B", "weight": 5 },
+
+    "verb form after auxiliary":     { "dimension": "B", "weight": 4 },
+    "verb form in perfect aspect":   { "dimension": "B", "weight": 4 },
+    "verb form in perfect":          { "dimension": "B", "weight": 4 },
+    "verb form after 'to'":          { "dimension": "B", "weight": 4 },
+    "incorrect verb tense":          { "dimension": "B", "weight": 4 },
+    "incorrect verb form":           { "dimension": "B", "weight": 4 },
+    "verb/tense error":              { "dimension": "B", "weight": 4 },
+    "verb tense":                    { "dimension": "B", "weight": 4 },
+    "verb form":                     { "dimension": "B", "weight": 4 },
+    "incorrect past form":           { "dimension": "B", "weight": 4 },
+    "past tense":                    { "dimension": "B", "weight": 4 },
+    "perfect aspect":                { "dimension": "B", "weight": 4 },
+    "infinitive form":               { "dimension": "B", "weight": 4 },
+    "participle form":               { "dimension": "B", "weight": 4 },
+
+    "verb tense choice":             { "dimension": "B", "weight": 3 },
+    "aspect choice":                 { "dimension": "B", "weight": 3 },
+    "gerund vs infinitive":          { "dimension": "B", "weight": 3 },
+    "incorrect word form":           { "dimension": "B", "weight": 3 },
+    "passive voice":                 { "dimension": "B", "weight": 3 },
+    "continuous aspect":             { "dimension": "B", "weight": 3 },
+    "irregular verb form":           { "dimension": "B", "weight": 3 },
+
+    "missing preposition":           { "dimension": "C", "weight": 4 },
+    "pronoun choice":                { "dimension": "C", "weight": 4 },
+    "pronoun-verb agreement":        { "dimension": "C", "weight": 4 },
+    "pronoun use":                   { "dimension": "C", "weight": 4 },
+
+    "incorrect preposition":         { "dimension": "C", "weight": 3 },
+    "preposition after verb":        { "dimension": "C", "weight": 3 },
+    "preposition use":               { "dimension": "C", "weight": 3 },
+    "article omission":              { "dimension": "C", "weight": 3 },
+    "article use":                   { "dimension": "C", "weight": 3 },
+    "quantifier choice":             { "dimension": "C", "weight": 3 },
+    "quantifier use":                { "dimension": "C", "weight": 3 },
+    "determiner choice":             { "dimension": "C", "weight": 3 },
+    "determiner use":                { "dimension": "C", "weight": 3 },
+    "adjective vs adverb":           { "dimension": "C", "weight": 3 },
+    "adjective use":                 { "dimension": "C", "weight": 3 },
+    "adverb use":                    { "dimension": "C", "weight": 3 },
+    "noun vs verb form":             { "dimension": "C", "weight": 3 },
+    "noun form":                     { "dimension": "C", "weight": 3 },
+    "irregular plural":              { "dimension": "C", "weight": 3 },
+    "plural form":                   { "dimension": "C", "weight": 3 },
+    "singular form":                 { "dimension": "C", "weight": 3 },
+    "genitive form":                 { "dimension": "C", "weight": 3 },
+    "possessive form":               { "dimension": "C", "weight": 3 },
+    "its vs it's":                   { "dimension": "C", "weight": 3 },
+    "nominal error":                 { "dimension": "C", "weight": 3 },
+    "grammar error":                 { "dimension": "C", "weight": 3 },
+
+    "article choice (a/an)":         { "dimension": "C", "weight": 2 },
+    "article with superlative":      { "dimension": "C", "weight": 2 },
+    "demonstrative choice":          { "dimension": "C", "weight": 2 },
+    "double determiner":             { "dimension": "C", "weight": 2 },
+
+    "missing subject":               { "dimension": "A", "weight": 5 },
+
+    "sentence fragment":             { "dimension": "A", "weight": 4 },
+    "word order":                    { "dimension": "A", "weight": 4 },
+
+    "word confusion":                { "dimension": "A", "weight": 3 },
+    "relative clause structure":     { "dimension": "A", "weight": 3 },
+    "relative clause":               { "dimension": "A", "weight": 3 },
+    "clause structure":              { "dimension": "A", "weight": 3 },
+    "sentence structure":            { "dimension": "A", "weight": 3 },
+    "conjunction use":               { "dimension": "A", "weight": 3 },
+
+    "comma splice / run-on":         { "dimension": "A", "weight": 2 },
+    "run-on sentence":               { "dimension": "A", "weight": 2 },
+    "comma splice":                  { "dimension": "A", "weight": 2 },
+    "sentence punctuation":          { "dimension": "A", "weight": 2 },
+
+    "word repetition":               { "dimension": "A", "weight": 0 },
+    "phrase repetition":             { "dimension": "A", "weight": 0 },
+    "word/phrase repetition":        { "dimension": "A", "weight": 0 },
+
+    "conditional structure":         { "dimension": "D", "weight": 4 },
+    "modal verb form":               { "dimension": "D", "weight": 4 },
+    "conditional clause":            { "dimension": "D", "weight": 4 },
+
+    "modal expression":              { "dimension": "D", "weight": 3 },
+    "modal equivalent":              { "dimension": "D", "weight": 3 },
+    "modal verb use":                { "dimension": "D", "weight": 3 },
+    "subjunctive form":              { "dimension": "D", "weight": 3 },
+    "modal/conditional error":       { "dimension": "D", "weight": 3 },
+
+    "polite request form":           { "dimension": "D", "weight": 2 }
+  }
+}

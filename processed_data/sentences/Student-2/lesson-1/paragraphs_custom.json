@@ -1,0 +1,1540 @@
+{
+  "source": "processed_data/sentences/Student-2/lesson-1/validated-sentence-separation.txt",
+  "student": "Student-2",
+  "lesson": "lesson-1",
+  "partition_method": "manual_topic",
+  "paragraphs": [
+    {
+      "id": 1,
+      "label": "Opening and excuse for being late",
+      "sentences": [
+        {
+          "index": 1,
+          "text": "﻿Hi."
+        },
+        {
+          "index": 2,
+          "text": "Hi, Marissa."
+        },
+        {
+          "index": 3,
+          "text": "III will join you in a second."
+        },
+        {
+          "index": 4,
+          "text": "Just give me 2 minutes."
+        },
+        {
+          "index": 5,
+          "text": "Okay?"
+        },
+        {
+          "index": 6,
+          "text": "I'm back, but I'm trying to open my camera."
+        },
+        {
+          "index": 7,
+          "text": "So"
+        },
+        {
+          "index": 8,
+          "text": "yeah."
+        },
+        {
+          "index": 9,
+          "text": "I will leave and 1 second."
+        },
+        {
+          "index": 10,
+          "text": "Then I Oh, okay."
+        },
+        {
+          "index": 11,
+          "text": "I'm back."
+        },
+        {
+          "index": 12,
+          "text": "I'm very sorry for being late, but what happened, I missed the bus."
+        },
+        {
+          "index": 13,
+          "text": "I had my, you know, an accident on my way."
+        },
+        {
+          "index": 14,
+          "text": "You know, someone was killed."
+        },
+        {
+          "index": 15,
+          "text": "I have to I had to call to rescue."
+        },
+        {
+          "index": 16,
+          "text": "No."
+        },
+        {
+          "index": 17,
+          "text": "It's a joke."
+        },
+        {
+          "index": 18,
+          "text": "You know, what people saying?"
+        },
+        {
+          "index": 19,
+          "text": "You know, when they miss the class."
+        },
+        {
+          "index": 20,
+          "text": "Sorry."
+        },
+        {
+          "index": 21,
+          "text": "This is what happens, you know, sometimes when you have, you know, something out of schedule, which is, you're changing the regular time."
+        },
+        {
+          "index": 22,
+          "text": "And then, you know, I slept over."
+        },
+        {
+          "index": 23,
+          "text": "That's something"
+        },
+        {
+          "index": 24,
+          "text": "I overslept."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "label": "Weekend activities and Polish geography",
+      "sentences": [
+        {
+          "index": 25,
+          "text": "So you know, it happens, you know, maybe few times a year, but it always happens when you have, you know, something, you know, in something early, not regular."
+        },
+        {
+          "index": 26,
+          "text": "Beautiful weekend in the mountains, skiing."
+        },
+        {
+          "index": 27,
+          "text": "You know, that that's, you know, cross country again and the same place."
+        },
+        {
+          "index": 28,
+          "text": "Not exactly every weekend, but, this was my first time this winter."
+        },
+        {
+          "index": 29,
+          "text": "So, every second weekend."
+        },
+        {
+          "index": 30,
+          "text": "And, yeah, the this is why I'm going there because this is kind of unique, year that, we can follow the shoulder."
+        },
+        {
+          "index": 31,
+          "text": "Last year."
+        },
+        {
+          "index": 32,
+          "text": "Last year, there was no snow at all, and I never been skiing, last year."
+        },
+        {
+          "index": 33,
+          "text": "So that was you know, I missed the first window in December, And there was only 1 weekend with the snow, December."
+        },
+        {
+          "index": 34,
+          "text": "And then there was no snow."
+        },
+        {
+          "index": 35,
+          "text": "No snow."
+        },
+        {
+          "index": 36,
+          "text": "It it's I think I don't remember, it happening earlier."
+        },
+        {
+          "index": 37,
+          "text": "So they do a safe time."
+        },
+        {
+          "index": 38,
+          "text": "There was no snow in the winter."
+        },
+        {
+          "index": 39,
+          "text": "But this time is much better, and it was snowing every day, all time."
+        },
+        {
+          "index": 40,
+          "text": "It's pretty close."
+        },
+        {
+          "index": 41,
+          "text": "NICE, it's just on the Seacoast."
+        },
+        {
+          "index": 42,
+          "text": "So it"
+        },
+        {
+          "index": 43,
+          "text": "it"
+        },
+        {
+          "index": 44,
+          "text": "it always, that they have different climate and then, most of the products."
+        },
+        {
+          "index": 45,
+          "text": "So because c is, moderated climate."
+        },
+        {
+          "index": 46,
+          "text": "So it's always less, harsh than the continental 1, which we have, in east part of Poland."
+        },
+        {
+          "index": 47,
+          "text": "So they have, more lanes and, sometimes, at least, there is a legend."
+        },
+        {
+          "index": 48,
+          "text": "And, it probably happened that there you might be remember."
+        },
+        {
+          "index": 49,
+          "text": "III think III told, you about the Swedish flood of a Poland."
+        },
+        {
+          "index": 50,
+          "text": "It was in the 16, I think, 48."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "label": "Baltic Sea history and the Little Ice Age",
+      "sentences": [
+        {
+          "index": 51,
+          "text": "far back, long ago."
+        },
+        {
+          "index": 52,
+          "text": "And there was invasions of Swedish army to Poland."
+        },
+        {
+          "index": 53,
+          "text": "And actually, this was very unfortunate because Poland was engaged, in Turkish war far east."
+        },
+        {
+          "index": 54,
+          "text": "It's say again?"
+        },
+        {
+          "index": 55,
+          "text": "In the Turkish world, far east, on the Ukraine at the moment."
+        },
+        {
+          "index": 56,
+          "text": "And, actually and we were not beaten, but it was very, demanding work."
+        },
+        {
+          "index": 57,
+          "text": "It would this was the this was like, you know, the Turkish Osman army was very strong at that moment."
+        },
+        {
+          "index": 58,
+          "text": "Also, Russian army, was against Poland, etcetera."
+        },
+        {
+          "index": 59,
+          "text": "So this was, like, very demanding for the country."
+        },
+        {
+          "index": 60,
+          "text": "And, sweet, sweets, use it because they use the moment."
+        },
+        {
+          "index": 61,
+          "text": "Right?"
+        },
+        {
+          "index": 62,
+          "text": "And they invaded, to Poland and, you know, how sweet Sweden."
+        },
+        {
+          "index": 63,
+          "text": "Sweden is across the Baltic Sea."
+        },
+        {
+          "index": 64,
+          "text": "So it is not I mean, it is not far,"
+        },
+        {
+          "index": 65,
+          "text": "because but it's a small 1, but still, you need, you know, possibility to move the big army."
+        },
+        {
+          "index": 66,
+          "text": "And they had that at that time, they had some ships, but, they did votes."
+        },
+        {
+          "index": 67,
+          "text": "But, also, they invited through the ice, icy Baltic."
+        },
+        {
+          "index": 68,
+          "text": "So and that at that time, the this was called, I think, some something that the sixteens, hundred, it was so called, small IC, period, in Europe."
+        },
+        {
+          "index": 69,
+          "text": "So it was more colder than it used to be."
+        },
+        {
+          "index": 70,
+          "text": "And, that that's why Baltic see, sometimes, at least the east part of Baltic Sea was covered by ice."
+        },
+        {
+          "index": 71,
+          "text": "so, you know, now it's very different."
+        },
+        {
+          "index": 72,
+          "text": "And I remember even from my childhood that, certain, that you know, on the far east of Baltic, there are certain gulfs, like, Finns gulfs or like, Finnish gulf and, this Finnish Gulf thing always, iced, practically fully iced, in the winter."
+        },
+        {
+          "index": 73,
+          "text": "IIII don't think it is iced at the moment because of climate change."
+        },
+        {
+          "index": 74,
+          "text": "So that that's why the ice has some difficulty with snow because there might be a snowfall, but it is short."
+        },
+        {
+          "index": 75,
+          "text": "The snow is usually is not, staying long."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "label": "Snow and weather in Warsaw",
+      "sentences": [
+        {
+          "index": 76,
+          "text": "Actually it's moving at the moment in Warsaw."
+        },
+        {
+          "index": 77,
+          "text": "The snow is big 1."
+        },
+        {
+          "index": 78,
+          "text": "You know, the snow is not very big."
+        },
+        {
+          "index": 79,
+          "text": "It's, very lightly white outside."
+        },
+        {
+          "index": 80,
+          "text": "and"
+        },
+        {
+          "index": 81,
+          "text": "but it is snowing it"
+        },
+        {
+          "index": 82,
+          "text": "it was snowing, like, whole week."
+        },
+        {
+          "index": 83,
+          "text": "So but very likely."
+        },
+        {
+          "index": 84,
+          "text": "So You know, I'm at ease at the moment about Ukraine because the this is, you know, what what's going on, in media because in the media I mean, how you can judge having, you know, some gossips, guesses, and, not confirmed information."
+        },
+        {
+          "index": 85,
+          "text": "I mean,"
+        },
+        {
+          "index": 86,
+          "text": "what are these people talking about?"
+        },
+        {
+          "index": 87,
+          "text": "III think, you know, the Trump is playing very dangerous game."
+        },
+        {
+          "index": 88,
+          "text": "And, I would say he will lose in final global decision."
+        },
+        {
+          "index": 89,
+          "text": "Because he will lose because, it will end up, on another Yalta."
+        },
+        {
+          "index": 90,
+          "text": "You remember Yalta?"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "label": "Trump, Ukraine and the Yalta comparison",
+      "sentences": [
+        {
+          "index": 91,
+          "text": "Yalta Treaty"
+        },
+        {
+          "index": 92,
+          "text": "Yalta Treaty, it was on the end of, Second World War."
+        },
+        {
+          "index": 93,
+          "text": "Yalta is actually Russian town, And there was, like, treaty between Soviet Union at that time and, the US and, the UK."
+        },
+        {
+          "index": 94,
+          "text": "this was the vision of the world, The vision of everyone's areas."
+        },
+        {
+          "index": 95,
+          "text": "And it end up with this cold war and it adapt, with, kind of so socialistic communism, idea, including Poland."
+        },
+        {
+          "index": 96,
+          "text": "And nobody asked us whether we want to be, there or not."
+        },
+        {
+          "index": 97,
+          "text": "This was just, you know, like, I believe it was based on what whether we whether the US and UK the UK, want war with Russia to, gain Poland, Czech Republic, Czechoslovakia at that time, or not, or maybe Baltic countries and take it over to and, like, rejoin them to the Western Europe."
+        },
+        {
+          "index": 98,
+          "text": "And I mean, they had clear picture that they will not be dying for Poland."
+        },
+        {
+          "index": 99,
+          "text": "And this is exactly the same situation."
+        },
+        {
+          "index": 100,
+          "text": "Now Trump is saying, I will not be dying for Ukraine."
+        },
+        {
+          "index": 101,
+          "text": "If they will give us all the resources, maybe I will consider this."
+        },
+        {
+          "index": 102,
+          "text": "And this is just colonialistic policy."
+        },
+        {
+          "index": 103,
+          "text": "I mean We already tested it."
+        },
+        {
+          "index": 104,
+          "text": "And, I mean, I'm hundred percent I mean, if I would be Ukraine, I would say, fuck off, Trump."
+        },
+        {
+          "index": 105,
+          "text": "You don't want help us?"
+        },
+        {
+          "index": 106,
+          "text": "We'll rejoin Russia."
+        },
+        {
+          "index": 107,
+          "text": "This will be my answer."
+        },
+        {
+          "index": 108,
+          "text": "This will be my ans because it would be even worse for Ukraine, to have such friend, quote, unquote friend, colonial colonialistic friend rather than rejoining Russia."
+        },
+        {
+          "index": 109,
+          "text": "Because whatever we're saying and whatever is the building of nationality, you know, as far the culture thing, it's much closer to Russia than stupid Trump."
+        },
+        {
+          "index": 110,
+          "text": "They may have some dreams to join democratic, community, but they are far away from democratic community In their laws, in their policy, in their habits."
+        },
+        {
+          "index": 111,
+          "text": "They are you know, I'm not saying anything bad because you know, every country, every nationality, have their own habits, their own tradition, I don't know."
+        },
+        {
+          "index": 112,
+          "text": "Yes."
+        },
+        {
+          "index": 113,
+          "text": "Has their own, habits, tradition, experiences, etcetera."
+        },
+        {
+          "index": 114,
+          "text": "But you know, this is the you know, there is huge work ahead Ukraine to do to really build a stable democracy."
+        },
+        {
+          "index": 115,
+          "text": "I'm saying it because I"
+        },
+        {
+          "index": 116,
+          "text": "I we tested it in Poland every day."
+        },
+        {
+          "index": 117,
+          "text": "You know, we had maybe 1 third of these difficulties at the beginning in the nineties."
+        },
+        {
+          "index": 118,
+          "text": "And I know how difficult it is to reestablish or build new democracy, you know, to make it stable."
+        },
+        {
+          "index": 119,
+          "text": "And, I mean, you have to be very focused to not to lose the democracy."
+        },
+        {
+          "index": 120,
+          "text": "And, so you know, I'm very happy."
+        },
+        {
+          "index": 121,
+          "text": "I'm very gracious to Ukraine people."
+        },
+        {
+          "index": 122,
+          "text": "grateful that they the majority of them at least have this dream to join the Western Europe, to join, you know."
+        },
+        {
+          "index": 123,
+          "text": "But if Western Europe is giving him them, the big fuck, And if Trump is giving them big fuck, they will change their mind instantly."
+        },
+        {
+          "index": 124,
+          "text": "You will see."
+        },
+        {
+          "index": 125,
+          "text": "There will be Russia in 1 or 2 years."
+        },
+        {
+          "index": 126,
+          "text": "Because they say, okay."
+        },
+        {
+          "index": 127,
+          "text": "If we have no support, if nobody care about us, right, I mean, why we should die?"
+        },
+        {
+          "index": 128,
+          "text": "what is the reason?"
+        },
+        {
+          "index": 129,
+          "text": "I mean, they simply don't want us, right, in their community."
+        },
+        {
+          "index": 130,
+          "text": "I think that his last chance is, and I don't know whether you heard what, Trump, told about Zelensky, I think somewhere in Florida."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "label": "Ukraine elections and Zelensky",
+      "sentences": [
+        {
+          "index": 131,
+          "text": "She said that Zelensky is dicta dictator without any ground in, election actually nobody supports him, in Ukraine."
+        },
+        {
+          "index": 132,
+          "text": "This is just Russian propaganda."
+        },
+        {
+          "index": 133,
+          "text": "He he's so stupid that it is even, you know, out of comment."
+        },
+        {
+          "index": 134,
+          "text": "so you know, okay."
+        },
+        {
+          "index": 135,
+          "text": "I mean, first of all, in no country, you have election, during War."
+        },
+        {
+          "index": 136,
+          "text": "hot war."
+        },
+        {
+          "index": 137,
+          "text": "Even in Poland, we had this big problem because of pandemia, and this was, under regulations of, limited freedom And, at the at that time, the supposed to be presidential election."
+        },
+        {
+          "index": 138,
+          "text": "And there was a big problem, you know, how to do it, in democratic way."
+        },
+        {
+          "index": 139,
+          "text": "And, it was, by law forbidden to do it during the any freedom, you know, any under regulation of freedom, limitations."
+        },
+        {
+          "index": 140,
+          "text": "So now by the way, now there is a big political affair because the government at that time decided that there will be, like, elections through the, correspondence, through the mails mail."
+        },
+        {
+          "index": 141,
+          "text": "but it is forbidden important that this cannot be done, especially in the way they propose that they the post offices will be the election offices."
+        },
+        {
+          "index": 142,
+          "text": "So it was forbidden now."
+        },
+        {
+          "index": 143,
+          "text": "This is a fear, of bigger political affair."
+        },
+        {
+          "index": 144,
+          "text": "But yes, I mean, the elections was moved for few months."
+        },
+        {
+          "index": 145,
+          "text": "Well, the election was moved for few months, after the window of pandemic"
+        },
+        {
+          "index": 146,
+          "text": "So you know, III mean, how we can say that, you know, that there was no that there is election missing."
+        },
+        {
+          "index": 147,
+          "text": "I mean and what happen if there is election?"
+        },
+        {
+          "index": 148,
+          "text": "I mean, first of all, 1 third or 1 fourth part of Ukraine cannot vote because it is under control of Russia."
+        },
+        {
+          "index": 149,
+          "text": "And it is not stabilized and, how we can I mean, how we can do it?"
+        },
+        {
+          "index": 150,
+          "text": "How we can do it in a, like, big cities like Kharkov on a front line?"
+        },
+        {
+          "index": 151,
+          "text": "I mean, I it's so stupid."
+        },
+        {
+          "index": 152,
+          "text": "I mean, he's popular"
+        },
+        {
+          "index": 153,
+          "text": "he's simply insane."
+        },
+        {
+          "index": 154,
+          "text": "It's more dangerous man."
+        },
+        {
+          "index": 155,
+          "text": "On other hand, he can stop war immediately."
+        },
+        {
+          "index": 156,
+          "text": "Just stop sending military equipment to Ukraine and that that's it."
+        },
+        {
+          "index": 157,
+          "text": "Because Europe is so spread over."
+        },
+        {
+          "index": 158,
+          "text": "It's I mean, these people are insane in different way."
+        },
+        {
+          "index": 159,
+          "text": "I mean, they maybe have some good intentions, but"
+        },
+        {
+          "index": 160,
+          "text": "but they are like children."
+        },
+        {
+          "index": 161,
+          "text": "I mean, they cannot decide anything."
+        },
+        {
+          "index": 162,
+          "text": "I mean, why, oh, we will send our boys and they will die."
+        },
+        {
+          "index": 163,
+          "text": "I mean, it could not happen."
+        },
+        {
+          "index": 164,
+          "text": "I mean, what we have"
+        },
+        {
+          "index": 165,
+          "text": "I mean, like, what is with, Reinhold,"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "label": "Modern warfare and military equipment",
+      "sentences": [
+        {
+          "index": 166,
+          "text": "Is it Reinhold?"
+        },
+        {
+          "index": 167,
+          "text": "It's what whatever the big film in the big concern in Germany, the military program."
+        },
+        {
+          "index": 168,
+          "text": "They do the tanks and other heavy military equipment."
+        },
+        {
+          "index": 169,
+          "text": "The production is, like, few times a year."
+        },
+        {
+          "index": 170,
+          "text": "If you compare to Russia, they just moved they always had this policy that, you know, the backup production is in Siberia far, away from the potential frontline."
+        },
+        {
+          "index": 171,
+          "text": "they're doing it in hundreds at the moment."
+        },
+        {
+          "index": 172,
+          "text": "Of course."
+        },
+        {
+          "index": 173,
+          "text": "It is a wall of steel, and this thing, you know, steel is winning."
+        },
+        {
+          "index": 174,
+          "text": "I mean, you may have, you know, simple the I'm not sure how what is the English word, the big gun."
+        },
+        {
+          "index": 175,
+          "text": "The I right?"
+        },
+        {
+          "index": 176,
+          "text": "The simple artillery is because pick second."
+        },
+        {
+          "index": 177,
+          "text": "I'm saying about this you know, artillery."
+        },
+        {
+          "index": 178,
+          "text": "GANS."
+        },
+        {
+          "index": 179,
+          "text": "The big 1."
+        },
+        {
+          "index": 180,
+          "text": "If you get what I mean?"
+        },
+        {
+          "index": 181,
+          "text": "The this is but the use it the Russian use the artillery from second World War. is still operational, it's killing people."
+        },
+        {
+          "index": 182,
+          "text": "It's killing people."
+        },
+        {
+          "index": 183,
+          "text": "I mean, you really don't need very sophisticated, very expensive, and not"
+        },
+        {
+          "index": 184,
+          "text": "and, you know, and you have to train people for this new planes for years to use it."
+        },
+        {
+          "index": 185,
+          "text": "I mean, it's insane because you need simple planes, you know, in thousands, in hundreds."
+        },
+        {
+          "index": 186,
+          "text": "Just then okay."
+        },
+        {
+          "index": 187,
+          "text": "You're losing people."
+        },
+        {
+          "index": 188,
+          "text": "You're losing equipment."
+        },
+        {
+          "index": 189,
+          "text": "But on the end, you're winning."
+        },
+        {
+          "index": 190,
+          "text": "If you don't have it, at the end, you're winning."
+        },
+        {
+          "index": 191,
+          "text": "If you don't have this mass because, you know, nobody's, for you know, like, Nobody in Europe and nobody in, actually, in the US is focusing on that if you have massive war, like, in Ukraine at the moment this is the first 1, first massive war after the second World War, actually."
+        },
+        {
+          "index": 192,
+          "text": "Because all the other words like Afghanistan, whether this was Russia, whether this was, the US, whether this was Syria, whether this was Libya, whether this was Mali or whatever what are African countries."
+        },
+        {
+          "index": 193,
+          "text": "This, just, you know, partisan world."
+        },
+        {
+          "index": 194,
+          "text": "Most of these, rebel or whatever partisans, they have only light equipment, like, just manic they have no heavy equipment in frontline, in stake, on the frontline."
+        },
+        {
+          "index": 195,
+          "text": "In Russia, you have massive heavy equipment no military NATO plans or whatever how we call it."
+        },
+        {
+          "index": 196,
+          "text": "Like, the tactics is, yeah, is really focused and prepared to massive war to war like it was, Yeah."
+        },
+        {
+          "index": 197,
+          "text": "For massive war, like it was in sec during the second World War."
+        },
+        {
+          "index": 198,
+          "text": "That's right."
+        },
+        {
+          "index": 199,
+          "text": "There'd been millions of people fighting, against each other."
+        },
+        {
+          "index": 200,
+          "text": "This is, like, you know, huge change."
+        },
+        {
+          "index": 201,
+          "text": "The this it's changing everything."
+        },
+        {
+          "index": 202,
+          "text": "Everything."
+        },
+        {
+          "index": 203,
+          "text": "because you can, you know, you can say, oh, I'm big guy because I have this technology, and I can kill hundreds of these partisans and look, we lose nobody."
+        },
+        {
+          "index": 204,
+          "text": "We lost nobody."
+        },
+        {
+          "index": 205,
+          "text": "We lost no 1."
+        },
+        {
+          "index": 206,
+          "text": "Oh, we are heroes."
+        },
+        {
+          "index": 207,
+          "text": "We how big we are, we beat these partisans."
+        },
+        {
+          "index": 208,
+          "text": "You know, they have only machine guns and we have, you know, f 16 or f 35 or whatever f we have."
+        },
+        {
+          "index": 209,
+          "text": "And we have all the this how big we are."
+        },
+        {
+          "index": 210,
+          "text": "We have this, Hamway, heavy whatever car."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "label": "NATO tactics and their limitations",
+      "sentences": [
+        {
+          "index": 211,
+          "text": "Oh, we got I saw this stupid film."
+        },
+        {
+          "index": 212,
+          "text": "Not stupid."
+        },
+        {
+          "index": 213,
+          "text": "It's not stupid because it's tragic."
+        },
+        {
+          "index": 214,
+          "text": "But just recently, I opened on Netflix."
+        },
+        {
+          "index": 215,
+          "text": "It was, like, 13 hours or something."
+        },
+        {
+          "index": 216,
+          "text": "To, you know, this propaganda you the US propaganda film, like, about heroes in Libya."
+        },
+        {
+          "index": 217,
+          "text": "They they've been fighting against Libyan, partisans at the wall, and they've been protecting, It's based on or something."
+        },
+        {
+          "index": 218,
+          "text": "You know?"
+        },
+        {
+          "index": 219,
+          "text": "And there was, like, 6 guys, you know, heavy armed, and they've been, you know, big guys, with a gun."
+        },
+        {
+          "index": 220,
+          "text": "I mean, all this fine."
+        },
+        {
+          "index": 221,
+          "text": "Maybe even they survived."
+        },
+        {
+          "index": 222,
+          "text": "Maybe they killed maybe 30 or 50 people, and only 2 of them died, or been killed."
+        },
+        {
+          "index": 223,
+          "text": "But I mean, they've been fighting."
+        },
+        {
+          "index": 224,
+          "text": "The trained soldiers been tried fighting, protecting themselves, which, means, you are on a much better position."
+        },
+        {
+          "index": 225,
+          "text": "If you're protecting, if you defend, if you are, in defense, you are much stronger."
+        },
+        {
+          "index": 226,
+          "text": "You need less manpower, right, than if you act out."
+        },
+        {
+          "index": 227,
+          "text": "So maybe there was, like, they"
+        },
+        {
+          "index": 228,
+          "text": "they lost 2 men, and this rebel lost maybe 50 or hundred men, right, lying on the ground."
+        },
+        {
+          "index": 229,
+          "text": "But I mean, oh, how big heroes they are."
+        },
+        {
+          "index": 230,
+          "text": "I tell you about this, you know, this difference because I actually, I read, some book about management, and, it happens that this book was, written by I don't remember whether what ranch was it was, but"
+        },
+        {
+          "index": 231,
+          "text": "but, the US soldier, the marines."
+        },
+        {
+          "index": 232,
+          "text": "But it was generally about how to manage, a group of people."
+        },
+        {
+          "index": 233,
+          "text": "You know, all they're saying is really interesting and probably fun because they converting their experiences from, leading the troops, to right, to the business."
+        },
+        {
+          "index": 234,
+          "text": "How they, you know, how they experience in leading troops, can help in leading, employees."
+        },
+        {
+          "index": 235,
+          "text": "And it was interesting, you know, how well organized, you know, marine's groups, how they communicate, how they cooperate, how they do certain thing."
+        },
+        {
+          "index": 236,
+          "text": "All this fine."
+        },
+        {
+          "index": 237,
+          "text": "All this is really interesting."
+        },
+        {
+          "index": 238,
+          "text": "It's it you know, it's a category it might be."
+        },
+        {
+          "index": 239,
+          "text": "Because if you're under the fire the really, gunfire, the heavy gunfire, massive gunfire, all these very sophisticated, tricks are useless because you are the rat."
+        },
+        {
+          "index": 240,
+          "text": "You are digging in the deep in the ground, and you covering yourself."
+        },
+        {
+          "index": 241,
+          "text": "You're trying to move out from the should line."
+        },
+        {
+          "index": 242,
+          "text": "What's story?"
+        },
+        {
+          "index": 243,
+          "text": "End of story."
+        },
+        {
+          "index": 244,
+          "text": "This is end of the world."
+        },
+        {
+          "index": 245,
+          "text": "This is everything what you do on the phone line."
+        },
+        {
+          "index": 246,
+          "text": "Exactly."
+        },
+        {
+          "index": 247,
+          "text": "And all these stupid things."
+        },
+        {
+          "index": 248,
+          "text": "So how well we organize."
+        },
+        {
+          "index": 249,
+          "text": "Look."
+        },
+        {
+          "index": 250,
+          "text": "We've been under shot fire."
+        },
+        {
+          "index": 251,
+          "text": "There was like 10:10 partisans shooting to us."
+        },
+        {
+          "index": 252,
+          "text": "That's alright."
+        },
+        {
+          "index": 253,
+          "text": "I mean, that's very brave."
+        },
+        {
+          "index": 254,
+          "text": "This is what people are doing, but this is only police methods."
+        },
+        {
+          "index": 255,
+          "text": "It not the military."
+        },
+        {
+          "index": 256,
+          "text": "It's not the frontline methods."
+        },
+        {
+          "index": 257,
+          "text": "It was III heard some reports from Ukrainian guys."
+        },
+        {
+          "index": 258,
+          "text": "They say they'd say, okay."
+        },
+        {
+          "index": 259,
+          "text": "We did the NATO training."
+        },
+        {
+          "index": 260,
+          "text": "It's useless."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "label": "North Korean troops and Trump–Poland relations",
+      "sentences": [
+        {
+          "index": 261,
+          "text": "useless."
+        },
+        {
+          "index": 262,
+          "text": "Because how we can you know, the this is first of all, it based on the superpower, intelligence."
+        },
+        {
+          "index": 263,
+          "text": "The AWACS, planes, having control over the all, you know, the enemy equipment."
+        },
+        {
+          "index": 264,
+          "text": "You have control in a air, like, having a lot of planes flying and supporting the troops on the ground."
+        },
+        {
+          "index": 265,
+          "text": "You have, you know, very distance, artillery, shooting the enemy equipment."
+        },
+        {
+          "index": 266,
+          "text": "And they're just watching."
+        },
+        {
+          "index": 267,
+          "text": "And they have on the front line."
+        },
+        {
+          "index": 268,
+          "text": "They have all these helicopters flying cover you know, they can fly over."
+        },
+        {
+          "index": 269,
+          "text": "You know, why this is funny because, I'm sometimes I'm looking for statistics with what equipment was, destroyed in on a frontline."
+        },
+        {
+          "index": 270,
+          "text": "Practically, no helicopter was destroyed."
+        },
+        {
+          "index": 271,
+          "text": "Why?"
+        },
+        {
+          "index": 272,
+          "text": "Because no helicopter is flying."
+        },
+        {
+          "index": 273,
+          "text": "If you have no cover by all this intelligence, by all this, you know, air control, by all this, you know, f 16 or whatever, you cannot fly with helicopters because you will be shot in a minute."
+        },
+        {
+          "index": 274,
+          "text": "got you know, all these helicopters would cost millions, are useless."
+        },
+        {
+          "index": 275,
+          "text": "Like, all this experience from, Vietnam is useless because now you have the, handy shot fire, which can kill helicopter in a second."
+        },
+        {
+          "index": 276,
+          "text": "mean, you know, it"
+        },
+        {
+          "index": 277,
+          "text": "it's you have drones which can call kill helicopters in a second."
+        },
+        {
+          "index": 278,
+          "text": "You know, all these methods, all these NATO methods are based on far history, experience."
+        },
+        {
+          "index": 279,
+          "text": "All the all, you know, at all, useless on the on any current from all data."
+        },
+        {
+          "index": 280,
+          "text": "So you know, how you can say and, you know, Europe is missing the big opportunity to train their troops in the modern, frontline."
+        },
+        {
+          "index": 281,
+          "text": "They learned anything."
+        },
+        {
+          "index": 282,
+          "text": "They really learned nothing."
+        },
+        {
+          "index": 283,
+          "text": "Like France, like, Great Britain is maybe, you know, a little more active, but, still far, away from, the needs."
+        },
+        {
+          "index": 284,
+          "text": "Like, Denmark, for example, which is kind of the, star, you know, sending a lot of equipment, compared to the, possibilities."
+        },
+        {
+          "index": 285,
+          "text": "But, again, I mean, this is all about training, all about experience."
+        },
+        {
+          "index": 286,
+          "text": "How you can get experience if you have no troops?"
+        },
+        {
+          "index": 287,
+          "text": "No I mean, nobody who is really on the front line."
+        },
+        {
+          "index": 288,
+          "text": "Not even observers who can train, further train the troop."
+        },
+        {
+          "index": 289,
+          "text": "Well, you probably heard what happened with, North Korean troops."
+        },
+        {
+          "index": 290,
+          "text": "But they've been killed in the first week almost to 90 percent Because they because they've been trained to different world."
+        },
+        {
+          "index": 291,
+          "text": "They've been trained to different way."
+        },
+        {
+          "index": 292,
+          "text": "They be, you know, they been trained to front attack."
+        },
+        {
+          "index": 293,
+          "text": "So they they've been, like, you know, like, during the second world war, they've been like, running with the frontline on open field."
+        },
+        {
+          "index": 294,
+          "text": "It's simply, you know, they really don't care about, people's lives."
+        },
+        {
+          "index": 295,
+          "text": "you know, if you're sending troops without any training, they already knew that, the North Korean training is outdated."
+        },
+        {
+          "index": 296,
+          "text": "But nobody even tries to train them before they"
+        },
+        {
+          "index": 297,
+          "text": "they come to the front line."
+        },
+        {
+          "index": 298,
+          "text": "and this was only propaganda."
+        },
+        {
+          "index": 299,
+          "text": "And you know, in North Korea, if you lose 10000 people, nothing happen even better because the anger is less."
+        },
+        {
+          "index": 300,
+          "text": "I mean, it's"
+        },
+        {
+          "index": 301,
+          "text": "it's like this."
+        },
+        {
+          "index": 302,
+          "text": "I mean, it"
+        },
+        {
+          "index": 303,
+          "text": "I can I have no other explanation?"
+        },
+        {
+          "index": 304,
+          "text": "Absolutely."
+        },
+        {
+          "index": 305,
+          "text": "These people don't care about people's life."
+        },
+        {
+          "index": 306,
+          "text": "There was a picture, some, the I think, our president, was in, Washington, during the first cadence currency of Trump."
+        },
+        {
+          "index": 307,
+          "text": "Is that cadence?"
+        },
+        {
+          "index": 308,
+          "text": "Candid"
+        },
+        {
+          "index": 309,
+          "text": "so you know, when Trump was first, the president and there was Tom."
+        },
+        {
+          "index": 310,
+          "text": "Tom."
+        },
+        {
+          "index": 311,
+          "text": "So and that it is only in the oval room, oval office, and Tammy sitting by the desk."
+        },
+        {
+          "index": 312,
+          "text": "And our president standing just, close to him signing something standing."
+        },
+        {
+          "index": 313,
+          "text": "This was very, heavily criticized that, I mean, on 1 hand, okay, it first time happened that somebody, some foreign president, is invited to our, office because, you know, the official meetings are somewhere else."
+        },
+        {
+          "index": 314,
+          "text": "I don't know where."
+        },
+        {
+          "index": 315,
+          "text": "But so all this was like, oh, I'm in heaven, like, you know, being a president, friend best friend of Trump."
+        },
+        {
+          "index": 316,
+          "text": "On other hand, it was criticizing Poland because this is disrespect for other president that 1 is sitting, the other is standing."
+        },
+        {
+          "index": 317,
+          "text": "The in diplomat, it cannot it can never happen."
+        },
+        {
+          "index": 318,
+          "text": "It might be if you have close friend, at home, you can do whatever."
+        },
+        {
+          "index": 319,
+          "text": "But it's disrespect."
+        },
+        {
+          "index": 320,
+          "text": "It it's"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "label": "Polish presidential elections",
+      "sentences": [
+        {
+          "index": 321,
+          "text": "it's disrespect for 1 who is standing."
+        },
+        {
+          "index": 322,
+          "text": "Just imagine."
+        },
+        {
+          "index": 323,
+          "text": "I mean, even if you're at work, you know, you're sitting and your boss is standing."
+        },
+        {
+          "index": 324,
+          "text": "You always stand up."
+        },
+        {
+          "index": 325,
+          "text": "Trump was sitting."
+        },
+        {
+          "index": 326,
+          "text": "Other president was standing."
+        },
+        {
+          "index": 327,
+          "text": "but by his desk."
+        },
+        {
+          "index": 328,
+          "text": "I mean, our president is saying, yes."
+        },
+        {
+          "index": 329,
+          "text": "We are best friends with Trump."
+        },
+        {
+          "index": 330,
+          "text": "I don't think Trump recognized him at all."
+        },
+        {
+          "index": 331,
+          "text": "He understands that."
+        },
+        {
+          "index": 332,
+          "text": "Oh, maybe there was some guy."
+        },
+        {
+          "index": 333,
+          "text": "I don't he was good guy."
+        },
+        {
+          "index": 334,
+          "text": "Good guy."
+        },
+        {
+          "index": 335,
+          "text": "Oh, no."
+        },
+        {
+          "index": 336,
+          "text": "he's on the second time, at the moment, so he cannot candidate."
+        },
+        {
+          "index": 337,
+          "text": "I think, you know, the this is Very interesting political situation because they as always, we have this called democratic coalition, and they have a very strong candidate who is, the president of, a mayor of Warsaw at the moment."
+        },
+        {
+          "index": 338,
+          "text": "And he's a very nice guy, and probably, he could be good president."
+        },
+        {
+          "index": 339,
+          "text": "I will vote."
+        },
+        {
+          "index": 340,
+          "text": "I will vote for him anyway."
+        },
+        {
+          "index": 341,
+          "text": "But, you know, on the PIS, they did a trick that they didn't that they don't have the their own candidate."
+        },
+        {
+          "index": 342,
+          "text": "And instead, they support, someone who is called the citizens candidate."
+        },
+        {
+          "index": 343,
+          "text": "So he was formally promoted by just, you know, small organization of people."
+        },
+        {
+          "index": 344,
+          "text": "But it is, you know, heavily supported."
+        },
+        {
+          "index": 345,
+          "text": "He's heavily supported by PIS."
+        },
+        {
+          "index": 346,
+          "text": "He is not very well, known guy, but he is leading kind of, national memorial, institute which is kind of historical and fighting for or maybe protecting the good, name of Poland."
+        },
+        {
+          "index": 347,
+          "text": "he's very he"
+        },
+        {
+          "index": 348,
+          "text": "he's very right, wing guy, very conservative, very nationalistic, or chauvinistic even, I would say."
+        },
+        {
+          "index": 349,
+          "text": "So, I mean, he is not very nice for me, at least."
+        },
+        {
+          "index": 350,
+          "text": "There is a third guy."
+        },
+        {
+          "index": 351,
+          "text": "The there is, conservative party in Poland and the new body, I would say, which was, the they supposed to be the rising star during, last election, which was 2 years ago."
+        },
+        {
+          "index": 352,
+          "text": "They even reached, like, maybe 15, maybe 17 percent, but they collapsed and, end up with 5 percent of support."
+        },
+        {
+          "index": 353,
+          "text": "Now they have a young guy."
+        },
+        {
+          "index": 354,
+          "text": "This is conservative party."
+        },
+        {
+          "index": 355,
+          "text": "They have young guy who is really doing good job, in this presidential election, because he is reaching, 15 percent at the moment."
+        },
+        {
+          "index": 356,
+          "text": "So he's actually very"
+        },
+        {
+          "index": 357,
+          "text": "I mean, he's getting closer and closer to this PIS guy."
+        },
+        {
+          "index": 358,
+          "text": "And, actually, this is kind of the, do you call it, white horse?"
+        },
+        {
+          "index": 359,
+          "text": "Is it Black horse."
+        },
+        {
+          "index": 360,
+          "text": "Black horse."
+        },
+        {
+          "index": 361,
+          "text": "That horse."
+        },
+        {
+          "index": 362,
+          "text": "Of elections."
+        },
+        {
+          "index": 363,
+          "text": "So he may change a lot in the election because you know, if the support for democratic, candidate is strong, but it is not sufficient to win in the first turn, first round."
+        },
+        {
+          "index": 364,
+          "text": "And, there will be second round, and, it is almost hundred percent sure that in second round, he's winning with, PIS guy, but and very significantly."
+        },
+        {
+          "index": 365,
+          "text": "However, if in second round, there will be this guy, the conservative guy, it is not as clear whether, you know, who will be winning."
+        },
+        {
+          "index": 366,
+          "text": "Even he's he has much less at the moment in the first round than the PIS guy."
+        },
+        {
+          "index": 367,
+          "text": "So this might be, you know, this might be interesting, but the bad thing is that, if this, conservative guy win, it will be bad news for Paul."
+        },
+        {
+          "index": 368,
+          "text": "It will be I mean, actually, everyone who everyone else than the democratic candidate, is a very bad news for Paul."
+        }
+      ]
+    }
+  ]
+}

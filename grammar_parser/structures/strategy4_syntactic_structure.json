@@ -1,0 +1,5310 @@
+{
+  "group": "SYNTACTIC_STRUCTURE",
+  "detection_method": "spacy.matcher.DependencyMatcher + spacy.matcher.Matcher for interrogative structures",
+  "description": "Rules requiring sentence-level syntactic analysis: clause types and embeddings, reported speech, focus/cleft constructions, and question forms. Detected via dependency arcs and structural patterns.",
+  "total_structures": 198,
+  "categories": {
+    "CLAUSES": 133,
+    "REPORTED SPEECH": 17,
+    "FOCUS": 15,
+    "QUESTIONS": 33
+  },
+  "level_distribution": {
+    "A1": 12,
+    "A2": 46,
+    "B1": 64,
+    "B2": 30,
+    "C1": 23,
+    "C2": 23
+  },
+  "structures": [
+    {
+      "id": "1741163708567x184494536538858620",
+      "category": "CLAUSES",
+      "guideword": "FORM/USE: 'BECAUSE', REASONS",
+      "levels": [
+        "A1"
+      ],
+      "lowest_level": "A1",
+      "dep_patterns": [
+        {
+          "type": "causal",
+          "pattern": [
+            {
+              "DEP": "advcl"
+            }
+          ]
+        }
+      ],
+      "description": "causal clause",
+      "examples": [
+        "I love her because she is friendly. (A1 BREAKTHROUGH; 2006; Bengali; Pass)\n\nI like my television because it is big and modern. (A1 BREAKTHROUGH; 2009; Arabic - Other; Pass)"
+      ]
+    },
+    {
+      "id": "1741163708329x286701804737242940",
+      "category": "CLAUSES",
+      "guideword": "FORM: AFFIRMATIVE DECLARATIVE",
+      "levels": [
+        "A1"
+      ],
+      "lowest_level": "A1",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "I study English at college. (A1 BREAKTHROUGH; 2007; Mandarin; Pass)\n\nMy friend is a nurse. (A1 BREAKTHROUGH; 2006; Panjabi; Pass)\n\nI'm living in Manchester. (A1 BREAKTHROUGH; 2009; Kurdish; Pass)\n\nIt'"
+      ]
+    },
+    {
+      "id": "1741163708329x931125497510935300",
+      "category": "CLAUSES",
+      "guideword": "FORM: AFFIRMATIVE DECLARATIVE, MODAL AUXILIARY VERBS",
+      "levels": [
+        "A1"
+      ],
+      "lowest_level": "A1",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "I can go to see her tomorrow. (A1 BREAKTHROUGH; 2009; Panjabi; Pass)\n\nI will visit you soon. (A1 BREAKTHROUGH; 2009; Kurdish; Pass)"
+      ]
+    },
+    {
+      "id": "1741163708336x928067678664856700",
+      "category": "CLAUSES",
+      "guideword": "FORM: AFFIRMATIVE INTERROGATIVE, WITH 'BE'",
+      "levels": [
+        "A1"
+      ],
+      "lowest_level": "A1",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "How are you? (A1 BREAKTHROUGH; 2009; Farsi; Pass)\n\nAre you ok? (A1 BREAKTHROUGH; 2011; Thai; Pass)"
+      ]
+    },
+    {
+      "id": "1741163708153x480316823264789900",
+      "category": "CLAUSES",
+      "guideword": "FORM: CLAUSE + CLAUSE, ELLIPTED SUBJECT",
+      "levels": [
+        "A1"
+      ],
+      "lowest_level": "A1",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "She likes to listen to music and watch TV. (A1 BREAKTHROUGH; 2006; Urdu; Pass)\n\nAfter break we go to the class and play some games or study. (A1 BREAKTHROUGH; 2007; Polish; Pass)\n\nSometimes I go to th"
+      ]
+    },
+    {
+      "id": "1741163708153x695756963015404300",
+      "category": "CLAUSES",
+      "guideword": "FORM: MAIN CLAUSE + MAIN CLAUSE",
+      "levels": [
+        "A1"
+      ],
+      "lowest_level": "A1",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "I like my college and I like my class. (A1 BREAKTHROUGH; 2007; Gujarati; Pass)\n\nOn Sunday I visit my friends, but I often stay at home and I read books. (Poland; A1 BREAKTHROUGH; 2010; Polish; Pass)\n\n"
+      ]
+    },
+    {
+      "id": "1741163708329x778951051617750700",
+      "category": "CLAUSES",
+      "guideword": "FORM: NEGATIVE DECLARATIVE WITH 'BE'",
+      "levels": [
+        "A1"
+      ],
+      "lowest_level": "A1",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "My college is not very big. (A1 BREAKTHROUGH; 2007; Polish; Pass)\n\nThis place isn't big. (A1 BREAKTHROUGH; 2007; Lithuanian; Pass)\n\nI'm not bad. (A1 BREAKTHROUGH; 2006; Panjabi; Pass)"
+      ]
+    },
+    {
+      "id": "1741163708329x894844343465365000",
+      "category": "CLAUSES",
+      "guideword": "FORM: NEGATIVE DECLARATIVE, LEXICAL VERBS",
+      "levels": [
+        "A1"
+      ],
+      "lowest_level": "A1",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "I don't like maths. (A1 BREAKTHROUGH; 2007; Farsi; Pass)\n\nI don't have children. (A1 BREAKTHROUGH; 2008; Polish; Pass)\n\nI don't know. (A1 BREAKTHROUGH; 2009; French; Pass)"
+      ]
+    },
+    {
+      "id": "1741163708567x510473221734893950",
+      "category": "CLAUSES",
+      "guideword": "FORM/USE: 'IF' CLAUSES, CONDITIONS",
+      "levels": [
+        "A2"
+      ],
+      "lowest_level": "A2",
+      "dep_patterns": [
+        {
+          "type": "conditional",
+          "pattern": [
+            {
+              "DEP": "advcl"
+            }
+          ]
+        }
+      ],
+      "description": "conditional clause",
+      "examples": [
+        "I would be very happy if you visit me in Dublin. (A2 WAYSTAGE; 2007; Spanish - Other; Pass)\n\nI will come see you on Friday if it’s ok with you. (A2 WAYSTAGE; 2008; Farsi; Pass)\n\nIf you want to come, j"
+      ]
+    },
+    {
+      "id": "1741163708331x843997098925344500",
+      "category": "CLAUSES",
+      "guideword": "FORM/USE: 'LET'S', SUGGESTION",
+      "levels": [
+        "A2"
+      ],
+      "lowest_level": "A2",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "The concert will be in Canecão. Let's go!!! (Brazil; A2 WAYSTAGE; 2009; Portuguese; Pass)\n\nLet's go to the town centre, it is an interesting place. (China; A2 WAYSTAGE; 2001; Chinese; Pass)\n\nLet's mee"
+      ]
+    },
+    {
+      "id": "1741163708153x322996688200238400",
+      "category": "CLAUSES",
+      "guideword": "FORM/USE: MULTIPLE MAIN CLAUSES, INSTRUCTIONS",
+      "levels": [
+        "A2"
+      ],
+      "lowest_level": "A2",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "Your house is near to mine so turn down the 5th street and then go straight almost all the way. When you see the purple street turn there, then go to the left to the Red street, that is my street, my "
+      ]
+    },
+    {
+      "id": "1741163708331x891503713311455000",
+      "category": "CLAUSES",
+      "guideword": "FORM/USE: NEGATIVE ",
+      "levels": [
+        "A2"
+      ],
+      "lowest_level": "A2",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "Don't tell Lucy, please. (Mexico; A2 WAYSTAGE; 2007; Spanish - Latin American; Pass)\n\nDon't bring your children please. (A2 WAYSTAGE; 2006; Slovak; Pass)\n\nDon't worry, I'll be there. (Slovakia; A2 WAY"
+      ]
+    },
+    {
+      "id": "1741163715820x505908632783048000",
+      "category": "FOCUS",
+      "guideword": "FORM/USE: PREPOSITIONAL PHRASES, FRONTING ",
+      "levels": [
+        "A2"
+      ],
+      "lowest_level": "A2",
+      "dep_patterns": [
+        {
+          "type": "focus",
+          "pattern": [
+            {
+              "DEP": "advcl"
+            }
+          ]
+        }
+      ],
+      "description": "focus construction",
+      "examples": [
+        "In the morning, I go to the beach. (Argentina; A2 WAYSTAGE; 2009; Spanish - Latin American; Pass)\n\nIn my country, the most popular food is Paella, which is a kind of rice with seafood, really tasty. ("
+      ]
+    },
+    {
+      "id": "1741163715620x498638187111649860",
+      "category": "CLAUSES",
+      "guideword": "FORM/USE: PRESENT SIMPLE 'IF' CLAUSE, REAL CONDITIONS",
+      "levels": [
+        "A2"
+      ],
+      "lowest_level": "A2",
+      "dep_patterns": [
+        {
+          "type": "conditional",
+          "pattern": [
+            {
+              "DEP": "advcl"
+            }
+          ]
+        }
+      ],
+      "description": "conditional clause",
+      "examples": [
+        "If I have spare time I always read a book. (Turkey; A2 WAYSTAGE; 2004; Turkish; Pass)\n\nIf you need to contact me, here is my number: 07938776341, so just call me. (A2 WAYSTAGE; 2009; Polish; Pass)\n\nIf"
+      ]
+    },
+    {
+      "id": "1741163708567x890527430865632800",
+      "category": "CLAUSES",
+      "guideword": "FORM/USE: PURPOSE",
+      "levels": [
+        "A2"
+      ],
+      "lowest_level": "A2",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "To get to my house you'll have to take the 5th avenue and go 6 streets to the left and at the bottom you'll see another street, go 3 streets to the right and there you'll find my house. (Mexico; A2 WA"
+      ]
+    },
+    {
+      "id": "1741163708567x901227389993147800",
+      "category": "CLAUSES",
+      "guideword": "FORM/USE: TIME",
+      "levels": [
+        "A2"
+      ],
+      "lowest_level": "A2",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "I feel comfortable when I am wearing these clothes. (Malaysia; A2 WAYSTAGE; 2008; Malay; Pass)\n\nWhen I bought my computer, the price was 1000 pounds. (China; A2 WAYSTAGE; 2002; Chinese; Pass)\n\nWhen yo"
+      ]
+    },
+    {
+      "id": "1741163708149x720696896419150700",
+      "category": "CLAUSES",
+      "guideword": "FORM: 'BE LIKE' + NOUN OR PRONOUN",
+      "levels": [
+        "A2"
+      ],
+      "lowest_level": "A2",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "I like her because she is like me. (Poland; A2 WAYSTAGE; 2010; Polish; Pass)\n\nWhen you get to the station, you'll take \"The Funiculaire.\" It's like a little train. (France; A2 WAYSTAGE; 2001; French; "
+      ]
+    },
+    {
+      "id": "1741163715620x681820697260531000",
+      "category": "CLAUSES",
+      "guideword": "FORM: 'IF' + PRESENT SIMPLE",
+      "levels": [
+        "A2"
+      ],
+      "lowest_level": "A2",
+      "dep_patterns": [
+        {
+          "type": "conditional",
+          "pattern": [
+            {
+              "DEP": "advcl"
+            }
+          ]
+        }
+      ],
+      "description": "conditional clause",
+      "examples": [
+        "It is 3 hours long, and if you want to pass it you will have to study very hard, it is very difficult. (Italy; A2 WAYSTAGE; 2006; Italian; Pass)\n\nIf you buy a gift for me, please buy a book, because I"
+      ]
+    },
+    {
+      "id": "1741163708343x138205144325988400",
+      "category": "CLAUSES",
+      "guideword": "FORM: 'WHAT A PITY' + ('THAT') CLAUSE",
+      "levels": [
+        "A2"
+      ],
+      "lowest_level": "A2",
+      "dep_patterns": [
+        {
+          "type": "that_clause",
+          "pattern": [
+            {
+              "DEP": "ccomp"
+            }
+          ]
+        }
+      ],
+      "description": "that-clause",
+      "examples": [
+        "What a pity that you didn't come. (Brazil; A2 WAYSTAGE; 2004; Portuguese; Pass)\n\nWhat a pity you lost the information about the new art class. (Cyprus; A2 WAYSTAGE; 2006; Greek; Pass)"
+      ]
+    },
+    {
+      "id": "1741163708343x470186262730331460",
+      "category": "CLAUSES",
+      "guideword": "FORM: 'WHAT A …!'",
+      "levels": [
+        "A2"
+      ],
+      "lowest_level": "A2",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "What a brilliant idea. (France; A2 WAYSTAGE; 2003; French; Pass)\n\nWhat a nice present I have! (China; A2 WAYSTAGE; 2004; Chinese; Pass)\n\nWhat a great afternoon I had yesterday! (France; A2 WAYSTAGE; 2"
+      ]
+    },
+    {
+      "id": "1741163708330x197590942940390140",
+      "category": "CLAUSES",
+      "guideword": "FORM: AFFIRMATIVE",
+      "levels": [
+        "A2"
+      ],
+      "lowest_level": "A2",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "Goodbye. Write soon. (Russia; A2 WAYSTAGE; 2007; Russian; Pass)\n\nBring your swim-suit for the swimming pool. (Spain; A2 WAYSTAGE; 2009; Spanish - European; Pass)\n\nCall me if you need anything. (Spain;"
+      ]
+    },
+    {
+      "id": "1741163708342x469176927335390700",
+      "category": "CLAUSES",
+      "guideword": "FORM: AFFIRMATIVE 'WH-' INTERROGATIVE ",
+      "levels": [
+        "A2"
+      ],
+      "lowest_level": "A2",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "When are you coming here? (Spain; A2 WAYSTAGE; 2009; Spanish - European; Pass)\n\nWhat have you bought? (Turkey; A2 WAYSTAGE; 2008; Turkish; Pass)\n\nAnd what must I bring? (France; A2 WAYSTAGE; 2009; Fre"
+      ]
+    },
+    {
+      "id": "1741163708336x930002080700909000",
+      "category": "CLAUSES",
+      "guideword": "FORM: AFFIRMATIVE INTERROGATIVE",
+      "levels": [
+        "A2"
+      ],
+      "lowest_level": "A2",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "Do you remember Julie? (Brazil; A2 WAYSTAGE; 2004; Portuguese; Pass)\n\nDid you buy a new mobile phone? (Spain; A2 WAYSTAGE; 2007; Spanish - European; Pass)"
+      ]
+    },
+    {
+      "id": "1741163708336x903931402154698900",
+      "category": "CLAUSES",
+      "guideword": "FORM: AFFIRMATIVE INTERROGATIVE, WITH AUXILIARY 'BE/HAVE'",
+      "levels": [
+        "A2"
+      ],
+      "lowest_level": "A2",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "Are you going to the new art class? (Cyprus; A2 WAYSTAGE; 2006; Turkish; Pass)\n\nHave you got a new dress for the party? (Italy; A2 WAYSTAGE; 2008; Italian; Pass)"
+      ]
+    },
+    {
+      "id": "1741163708336x128539343181511400",
+      "category": "CLAUSES",
+      "guideword": "FORM: AFFIRMATIVE INTERROGATIVE, WITH MODAL AUXILIARY VERBS",
+      "levels": [
+        "A2"
+      ],
+      "lowest_level": "A2",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "Would you like to come with me? (Argentina; A2 WAYSTAGE; 2005; Spanish - Latin American; Pass)\n\nWill you go with me? (Russia; A2 WAYSTAGE; 2009; Russian; Pass)\n\nCan I come tomorrow to collect it? (Pol"
+      ]
+    },
+    {
+      "id": "1741163708563x534984544701562900",
+      "category": "CLAUSES",
+      "guideword": "FORM: DEFINING, OBJECT, WITH 'THAT'",
+      "levels": [
+        "A2"
+      ],
+      "lowest_level": "A2",
+      "dep_patterns": [
+        {
+          "type": "that_clause",
+          "pattern": [
+            {
+              "DEP": "ccomp"
+            }
+          ]
+        }
+      ],
+      "description": "that-clause",
+      "examples": [
+        "The team that I like is called 'The Monkeys', but Paty prefers 'The Walls'. (Uruguay; A2 WAYSTAGE; 2007; Spanish - Latin American; Pass)\n\nI bought some clothes that I will need for my trip to Greece. "
+      ]
+    },
+    {
+      "id": "1741163708564x475588905228959040",
+      "category": "CLAUSES",
+      "guideword": "FORM: DEFINING, OBJECT, WITH 'WHICH'",
+      "levels": [
+        "A2"
+      ],
+      "lowest_level": "A2",
+      "dep_patterns": [
+        {
+          "type": "relcl",
+          "pattern": [
+            {
+              "DEP": "relcl"
+            }
+          ]
+        }
+      ],
+      "description": "relative clause",
+      "examples": [
+        "I came to your house yesterday with the computer game which I borrowed from Mayank. (India; A2 WAYSTAGE; 2005; Hindi; Pass)\n\nThe coffee-cup which my good friend gave me is pretty. (China; A2 WAYSTAGE;"
+      ]
+    },
+    {
+      "id": "1741163708563x237474925872659840",
+      "category": "CLAUSES",
+      "guideword": "FORM: DEFINING, SUBJECT, WITH 'WHICH'",
+      "levels": [
+        "A2"
+      ],
+      "lowest_level": "A2",
+      "dep_patterns": [
+        {
+          "type": "relcl",
+          "pattern": [
+            {
+              "DEP": "relcl"
+            }
+          ]
+        }
+      ],
+      "description": "relative clause",
+      "examples": [
+        "At the end of the game, the KASAS sang to Hagas a piece of music which makes me cry. Suzanna watched with me and she cried alot. (Brazil; A2 WAYSTAGE; 2007; Portuguese; Pass)\n\nYou should wear clothes "
+      ]
+    },
+    {
+      "id": "1741163708563x223728715353026530",
+      "category": "CLAUSES",
+      "guideword": "FORM: DEFINING, SUBJECT, WITH 'WHO'",
+      "levels": [
+        "A2"
+      ],
+      "lowest_level": "A2",
+      "dep_patterns": [
+        {
+          "type": "relcl",
+          "pattern": [
+            {
+              "DEP": "relcl"
+            }
+          ]
+        }
+      ],
+      "description": "relative clause",
+      "examples": [
+        "It's about a girl who went to the war when she was 22 years old. (Mexico; A2 WAYSTAGE; 1999; Spanish - Latin American; Pass)\n\nI'd like a pen-friend who really likes music and reading. (China; A2 WAYST"
+      ]
+    },
+    {
+      "id": "1741163708565x817408966754863900",
+      "category": "CLAUSES",
+      "guideword": "FORM: DEFINING, WITHOUT PRONOUN",
+      "levels": [
+        "A2"
+      ],
+      "lowest_level": "A2",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "My friends said the clothes I wore were very old, and they didn't like them. (Spain; A2 WAYSTAGE; 2008; Spanish - European; Pass)\n\nAll my friends gave me a present but the one I liked best was John's."
+      ]
+    },
+    {
+      "id": "1741163708343x903441921851317900",
+      "category": "CLAUSES",
+      "guideword": "FORM: NEGATIVE 'WH-' INTERROGATIVE ",
+      "levels": [
+        "A2"
+      ],
+      "lowest_level": "A2",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "Why don't we watch a film? (Sri Lanka; A2 WAYSTAGE; 2009; Tamil; Pass)\n\nWhy didn't you come with me? (Bulgaria; A2 WAYSTAGE; 2008; Bulgarian; Pass)\n\nWhy don't you ask Jennifer to go with you? (Uruguay"
+      ]
+    },
+    {
+      "id": "1741163708330x456690728495361200",
+      "category": "CLAUSES",
+      "guideword": "FORM: NEGATIVE DECLARATIVE WITH 'HAVE'",
+      "levels": [
+        "A2"
+      ],
+      "lowest_level": "A2",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "I haven't eaten Italian food for a long time. (Ecuador; A2 WAYSTAGE; 2003; Spanish - Latin American; Pass)\n\n… now I haven't got any money. (Spain; A2 WAYSTAGE; 2005; Spanish - European; Pass)\n\nI bough"
+      ]
+    },
+    {
+      "id": "1741163708330x413468355048861400",
+      "category": "CLAUSES",
+      "guideword": "FORM: NEGATIVE DECLARATIVE, MODAL AUXILIARY VERBS",
+      "levels": [
+        "A2"
+      ],
+      "lowest_level": "A2",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "I know you couldn't come to my party so I want to tell you about my presents and party. (Turkey; A2 WAYSTAGE; 2004; Turkish; Pass)\n\nI can't wait to see you and tell you the rest. (Argentina; A2 WAYSTA"
+      ]
+    },
+    {
+      "id": "1741163708343x892117738381544400",
+      "category": "CLAUSES",
+      "guideword": "FORM: NEGATIVE INTERROGATIVE",
+      "levels": [
+        "A2"
+      ],
+      "lowest_level": "A2",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "Isn't it great? (Switzerland; A2 WAYSTAGE; 2004; German; Pass)\n\nDon't you like pizza? (Burmese, A2 WAYSTAGE)\n\n[Talking about a car] I bought one. Didn't I tell you? (Portuguese, A2 WAYSTAGE)"
+      ]
+    },
+    {
+      "id": "1741163708564x509910132136988540",
+      "category": "CLAUSES",
+      "guideword": "FORM: NON-DEFINING, OBJECT, WITH 'WHICH'",
+      "levels": [
+        "A2"
+      ],
+      "lowest_level": "A2",
+      "dep_patterns": [
+        {
+          "type": "relcl",
+          "pattern": [
+            {
+              "DEP": "relcl"
+            }
+          ]
+        }
+      ],
+      "description": "relative clause",
+      "examples": [
+        "The best of all was a marble statue which my aunt gave me. (Bangladesh; A2 WAYSTAGE; 2004; Bengali; Pass)\n\nThanks for your letter which I received a few days ago. (Greece; A2 WAYSTAGE; 2009; Greek; Pa"
+      ]
+    },
+    {
+      "id": "1741163708563x842654366263886400",
+      "category": "CLAUSES",
+      "guideword": "FORM: NON-DEFINING, SUBJECT, WITH 'WHICH'",
+      "levels": [
+        "A2"
+      ],
+      "lowest_level": "A2",
+      "dep_patterns": [
+        {
+          "type": "relcl",
+          "pattern": [
+            {
+              "DEP": "relcl"
+            }
+          ]
+        }
+      ],
+      "description": "relative clause",
+      "examples": [
+        "I bought it in Peter's Mobile shop, which is near to my home. (Sri Lanka; A2 WAYSTAGE; 2007; Tamil; Pass)\n\nI've been to Cardiff which is the capital city of Wales. (Korea, South; A2 WAYSTAGE; 1999; Ko"
+      ]
+    },
+    {
+      "id": "1741163708563x609059917595893100",
+      "category": "CLAUSES",
+      "guideword": "FORM: NON-DEFINING, SUBJECT, WITH 'WHO'",
+      "levels": [
+        "A2"
+      ],
+      "lowest_level": "A2",
+      "dep_patterns": [
+        {
+          "type": "relcl",
+          "pattern": [
+            {
+              "DEP": "relcl"
+            }
+          ]
+        }
+      ],
+      "description": "relative clause",
+      "examples": [
+        "I watched it with my brother who was also interested in sports. (Malaysia; A2 WAYSTAGE; 2007; Chinese; Pass)\n\nIt's given by Jenny who is one of my best friends. (China; A2 WAYSTAGE; 2004; Chinese; Pas"
+      ]
+    },
+    {
+      "id": "1741163715620x594637230902398300",
+      "category": "CLAUSES",
+      "guideword": "FORM: PRESENT SIMPLE 'IF' CLAUSE + IMPERATIVE",
+      "levels": [
+        "A2"
+      ],
+      "lowest_level": "A2",
+      "dep_patterns": [
+        {
+          "type": "conditional",
+          "pattern": [
+            {
+              "DEP": "advcl"
+            }
+          ]
+        }
+      ],
+      "description": "conditional clause",
+      "examples": [
+        "If you find it, call me. (Brazil; A2 WAYSTAGE; 2005; Portuguese; Pass)\n\nIf you want to come, just tell me. (India; A2 WAYSTAGE; 2009; Tamil; Pass)"
+      ]
+    },
+    {
+      "id": "1741163715817x739086227561965400",
+      "category": "REPORTED SPEECH",
+      "guideword": "FORM: REPORTED STATEMENTS WITH 'SAY', PRONOUN SHIFT",
+      "levels": [
+        "A2"
+      ],
+      "lowest_level": "A2",
+      "dep_patterns": [
+        {
+          "type": "reported_say",
+          "pattern": [
+            {
+              "DEP": "ccomp"
+            }
+          ]
+        }
+      ],
+      "description": "reported speech with say",
+      "examples": [
+        "My mother said that she can take us there. (Brazil; A2 WAYSTAGE; 2008; Portuguese; Pass)\n\nThe teacher said that we have to bring a notebook, a pencil and a rubber. (Spain; A2 WAYSTAGE; 2006; Spanish -"
+      ]
+    },
+    {
+      "id": "1741163715817x253069047706943500",
+      "category": "REPORTED SPEECH",
+      "guideword": "FORM: REPORTED STATEMENTS WITH 'TELL', PRONOUN SHIFT",
+      "levels": [
+        "A2"
+      ],
+      "lowest_level": "A2",
+      "dep_patterns": [
+        {
+          "type": "reported_tell",
+          "pattern": [
+            {
+              "DEP": "dobj"
+            },
+            {
+              "DEP": "ccomp"
+            }
+          ]
+        }
+      ],
+      "description": "reported speech with tell",
+      "examples": [
+        "[about a mobile phone] It's very important to me to have it with me because my brother is in the hospital and my father told me that he will call. (Argentina; A2 WAYSTAGE; 2005; Spanish - Latin Americ"
+      ]
+    },
+    {
+      "id": "1741163715620x337858640533236860",
+      "category": "CLAUSES",
+      "guideword": "USE: 'IF' CLAUSE + IMPERATIVE, HEDGING",
+      "levels": [
+        "A2"
+      ],
+      "lowest_level": "A2",
+      "dep_patterns": [
+        {
+          "type": "conditional",
+          "pattern": [
+            {
+              "DEP": "advcl"
+            }
+          ]
+        }
+      ],
+      "description": "conditional clause",
+      "examples": [
+        "Bring some films if you want. (Spain; A2 WAYSTAGE; 2009; Spanish - European; Pass)\n\nCall me if you like. (Spain; A2 WAYSTAGE; 2010; Spanish - European; Pass)\n\nPlease, come here wearing a white T-shirt"
+      ]
+    },
+    {
+      "id": "1741163708331x925040480671095300",
+      "category": "CLAUSES",
+      "guideword": "USE: CLOSINGS",
+      "levels": [
+        "A2"
+      ],
+      "lowest_level": "A2",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "Email or phone me. (A2 WAYSTAGE; 2008; Estonian; Pass)\n\nWrite to me soon. Take care. (Malaysia; A2 WAYSTAGE; 2008; Chinese; Pass)\n\nCome soon. (Italy; A2 WAYSTAGE; 2007; Italian; Pass)"
+      ]
+    },
+    {
+      "id": "1741163708331x357890058176217500",
+      "category": "CLAUSES",
+      "guideword": "USE: EMPHASISING AN INSTRUCTION ",
+      "levels": [
+        "A2"
+      ],
+      "lowest_level": "A2",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "Our house is next to the school and my home is opposite the post office. Don't forget. (Tamil, A2 WAYSTAGE, Pass, 2009)\n\nWe'll meet at my house at 3 o'clock. Don't be late! (Brazil; A2 WAYSTAGE; 2008;"
+      ]
+    },
+    {
+      "id": "1741163708331x150409111220634050",
+      "category": "CLAUSES",
+      "guideword": "USE: INSTRUCTIONS",
+      "levels": [
+        "A2"
+      ],
+      "lowest_level": "A2",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "Take a taxi to the Petrol station then call me. (Libya; A2 WAYSTAGE; 2009; Arabic - Meghreb; Pass)\n\nThe easiest way to get to my house is by Underground. Take line 14 and then change to line 8. Walk a"
+      ]
+    },
+    {
+      "id": "1741163708149x664942128716233300",
+      "category": "CLAUSES",
+      "guideword": "FORM/USE: 'AS … AS'",
+      "levels": [
+        "B1"
+      ],
+      "lowest_level": "B1",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "When I come back from the hospital, I will try to cover the work as much as I can. (Thailand; B1 THRESHOLD; 2006; Thai; Pass)\n\nThe weather is the best, it is not as cold as I expected, it is just perf"
+      ]
+    },
+    {
+      "id": "1741163708332x482855077867024000",
+      "category": "CLAUSES",
+      "guideword": "FORM/USE: 'DO', EMPHASIS",
+      "levels": [
+        "B1"
+      ],
+      "lowest_level": "B1",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "Do write back and let me know all your news. (Spain; B1 THRESHOLD; 2008; Spanish - European; Pass)\n\nDo let me know your views on this. (India; B1 THRESHOLD; 2004; Others; Pass)\n\nDo follow the instruct"
+      ]
+    },
+    {
+      "id": "1741163715624x888960790421745800",
+      "category": "CLAUSES",
+      "guideword": "FORM/USE: 'IF I WERE YOU' + 'WOULD', FUTURE, IMAGINED SITUATION",
+      "levels": [
+        "B1"
+      ],
+      "lowest_level": "B1",
+      "dep_patterns": [
+        {
+          "type": "conditional",
+          "pattern": [
+            {
+              "DEP": "advcl"
+            }
+          ]
+        }
+      ],
+      "description": "conditional clause",
+      "examples": [
+        "Well, if I were you I would go to a small school in the countryside because it's less complicated than going to a large school in a town. (Peru; B1 THRESHOLD; 2008; Spanish - Latin American; Pass)\n\nIf"
+      ]
+    },
+    {
+      "id": "1741163715624x362174287337988740",
+      "category": "CLAUSES",
+      "guideword": "FORM/USE: 'IF' + PAST PERFECT + 'WOULD HAVE' + '-ED', IMAGINED SITUATION, REGRET|(THIRD CONDITIONAL)",
+      "levels": [
+        "B1"
+      ],
+      "lowest_level": "B1",
+      "dep_patterns": [
+        {
+          "type": "conditional",
+          "pattern": [
+            {
+              "DEP": "advcl"
+            }
+          ]
+        }
+      ],
+      "description": "conditional clause",
+      "examples": [
+        "If they had not been there, I would have been very lonely. (Vietnam; B1 THRESHOLD; 2001; Vietnamese; Pass)\n\nIf I hadn't gone to these horse-riding lessons, I wouldn't have lost my watch. (Argentina; B"
+      ]
+    },
+    {
+      "id": "1741163715624x704023316934564200",
+      "category": "CLAUSES",
+      "guideword": "FORM/USE: 'IF' + PAST SIMPLE + 'COULD', FUTURE, IMAGINED SITUATION",
+      "levels": [
+        "B1"
+      ],
+      "lowest_level": "B1",
+      "dep_patterns": [
+        {
+          "type": "conditional",
+          "pattern": [
+            {
+              "DEP": "advcl"
+            }
+          ]
+        }
+      ],
+      "description": "conditional clause",
+      "examples": [
+        "If you wanted to do some outdoor activities, we could go fishing or even walking through the green fields. (Egypt; B1 THRESHOLD; 2004; Arabic - Egyptian; Pass)\n\nIf you arrived in town the day before, "
+      ]
+    },
+    {
+      "id": "1741163715621x282870273772287460",
+      "category": "CLAUSES",
+      "guideword": "FORM/USE: 'IF' + PAST SIMPLE + 'WOULD', FUTURE, IMAGINED SITUATION|(SECOND CONDITIONAL)",
+      "levels": [
+        "B1"
+      ],
+      "lowest_level": "B1",
+      "dep_patterns": [
+        {
+          "type": "conditional",
+          "pattern": [
+            {
+              "DEP": "advcl"
+            }
+          ]
+        }
+      ],
+      "description": "conditional clause",
+      "examples": [
+        "Maybe it would be more fun if you went with your friends. (Portugal; B1 THRESHOLD; 2008; Portuguese; Pass)\n\nIf you went on holiday with your friends, where would you go? (Italy; B1 THRESHOLD; 2008; It"
+      ]
+    },
+    {
+      "id": "1741163715820x418754553525479940",
+      "category": "FOCUS",
+      "guideword": "FORM/USE: 'IT' + 'BE' ADJECTIVE + 'THAT' CLAUSE",
+      "levels": [
+        "B1"
+      ],
+      "lowest_level": "B1",
+      "dep_patterns": [
+        {
+          "type": "cleft_it",
+          "pattern": [
+            {
+              "DEP": "expl"
+            }
+          ]
+        }
+      ],
+      "description": "it-cleft construction",
+      "examples": [
+        "It's great that you have got a new job! (Spain; B1 THRESHOLD; 2009; Spanish - European; Pass)\n\nIt's true that there are one or two programmes that are interesting or funny, but the rest... they're hor"
+      ]
+    },
+    {
+      "id": "1741163708332x731099780769310200",
+      "category": "CLAUSES",
+      "guideword": "FORM/USE: 'LET ME', FOCUS",
+      "levels": [
+        "B1"
+      ],
+      "lowest_level": "B1",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "Let me tell you my story. (Taiwan; B1 THRESHOLD; 2008; Chinese; Pass)\n\nLet me explain something. (Russia; B1 THRESHOLD; 2008; Russian; Pass)\n\nLet me answer your question. (Libya; B1 THRESHOLD; 2009; A"
+      ]
+    },
+    {
+      "id": "1741163708149x584991035733899400",
+      "category": "CLAUSES",
+      "guideword": "FORM/USE: 'RATHER THAN' + PHRASE",
+      "levels": [
+        "B1"
+      ],
+      "lowest_level": "B1",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "Use the stairs rather than the lift, the bike rather than the tube and whenever you've got enough time, try running around the neighbourhood in the morning before going to work. (Colombia; B1 THRESHOL"
+      ]
+    },
+    {
+      "id": "1741163708150x563640914716471200",
+      "category": "CLAUSES",
+      "guideword": "FORM/USE: 'THE BEST (THAT)'",
+      "levels": [
+        "B1"
+      ],
+      "lowest_level": "B1",
+      "dep_patterns": [
+        {
+          "type": "that_clause",
+          "pattern": [
+            {
+              "DEP": "ccomp"
+            }
+          ]
+        }
+      ],
+      "description": "that-clause",
+      "examples": [
+        "It's the best place that I have ever seen. (Italy; B1 THRESHOLD; 2008; Italian; Pass)\n\nWell, the best decision that I've ever made was the decision to go to France for a year. (Germany; B1 THRESHOLD; "
+      ]
+    },
+    {
+      "id": "1741163708565x846617399720543500",
+      "category": "CLAUSES",
+      "guideword": "FORM/USE: 'THE REASON WHY', FOCUS",
+      "levels": [
+        "B1"
+      ],
+      "lowest_level": "B1",
+      "dep_patterns": [
+        {
+          "type": "causal",
+          "pattern": [
+            {
+              "DEP": "advcl"
+            }
+          ]
+        }
+      ],
+      "description": "causal clause",
+      "examples": [
+        "The reason why I love it is that it's quite original because it's about a woman who can see ghosts. (Spain; B1 THRESHOLD; 2007; Spanish - European; Pass)\n\nThis is the reason why we are changing our wo"
+      ]
+    },
+    {
+      "id": "1741163708565x122254210106770510",
+      "category": "CLAUSES",
+      "guideword": "FORM/USE: 'THE' + NOUN + 'WHO/THAT', FOCUS",
+      "levels": [
+        "B1"
+      ],
+      "lowest_level": "B1",
+      "dep_patterns": [
+        {
+          "type": "relcl",
+          "pattern": [
+            {
+              "DEP": "relcl"
+            }
+          ]
+        }
+      ],
+      "description": "relative clause",
+      "examples": [
+        "The thing that was great is that the weather was really warm and it didn't rain. (France; B1 THRESHOLD; 2003; French; Pass)\n\nThe thing that I love most is going to the shops. (Peru; B1 THRESHOLD; 2001"
+      ]
+    },
+    {
+      "id": "1741163715624x965900869689892700",
+      "category": "CLAUSES",
+      "guideword": "FORM/USE: 'UNLESS', EXCEPTIONS",
+      "levels": [
+        "B1"
+      ],
+      "lowest_level": "B1",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "I think I am going to pay by cash, unless you accept credit cards. (B1 THRESHOLD; 2003; Pass)\n\nIf I were you I'd go to work on foot, unless it's far away from your house. (Libya; B1 THRESHOLD; 2009; A"
+      ]
+    },
+    {
+      "id": "1741163708565x386440393591908900",
+      "category": "CLAUSES",
+      "guideword": "FORM/USE: 'WHEN', FOCUS",
+      "levels": [
+        "B1"
+      ],
+      "lowest_level": "B1",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "The day when he had to go back to Korea, I could not stop myself crying. (Korea, South; B1 THRESHOLD; 1999; Korean; Pass)\n\nI really remember the day when I lost my suitcase in the airport. (Mexico; B1"
+      ]
+    },
+    {
+      "id": "1741163715818x942794164065401900",
+      "category": "REPORTED SPEECH",
+      "guideword": "FORM/USE: 'WONDER', REPORTED THOUGHT",
+      "levels": [
+        "B1"
+      ],
+      "lowest_level": "B1",
+      "dep_patterns": [
+        {
+          "type": "reported_speech",
+          "pattern": [
+            {
+              "DEP": "ccomp"
+            }
+          ]
+        }
+      ],
+      "description": "reported speech",
+      "examples": [
+        "I always had good times with her and was very impatient to read this letter: I wondered what she had written. (France; B1 THRESHOLD; 2008; French; Pass)\n\nI really wondered who he was, but I was embras"
+      ]
+    },
+    {
+      "id": "1741163708330x678606711578176000",
+      "category": "CLAUSES",
+      "guideword": "FORM/USE: AUXILIARY 'DO', FOR EMPHASIS",
+      "levels": [
+        "B1"
+      ],
+      "lowest_level": "B1",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "Yes, I do have a favorite restaurant. (Mexico; B1 THRESHOLD; 2005; Spanish - Latin American; Pass)\n\nI do miss you. (Syria; B1 THRESHOLD; 2002; Arabic - Levant; Pass)\n\nI do apologise for the change but"
+      ]
+    },
+    {
+      "id": "1741163708567x143784828552863340",
+      "category": "CLAUSES",
+      "guideword": "FORM/USE: CONTRAST",
+      "levels": [
+        "B1"
+      ],
+      "lowest_level": "B1",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "You should come with your sister even though you would rather be alone. (France; B1 THRESHOLD; 2009; French; Pass)\n\nEven though I am currently quite busy, I will be very glad to take part in the Confe"
+      ]
+    },
+    {
+      "id": "1741163715625x660401017226531000",
+      "category": "CLAUSES",
+      "guideword": "FORM/USE: ELLIPTED 'IF NOT', ALTERNATIVE ",
+      "levels": [
+        "B1"
+      ],
+      "lowest_level": "B1",
+      "dep_patterns": [
+        {
+          "type": "conditional",
+          "pattern": [
+            {
+              "DEP": "advcl"
+            }
+          ]
+        }
+      ],
+      "description": "conditional clause",
+      "examples": [
+        "Is the Sheraton Hotel ok for you? If not, call me as soon as possible. (Peru; B1 THRESHOLD; 2008; Spanish - Latin American; Pass)\n\nDo you work on Sundays? If not, you could do exercise on Sundays. (Me"
+      ]
+    },
+    {
+      "id": "1741163715625x693512709893246700",
+      "category": "CLAUSES",
+      "guideword": "FORM/USE: ELLIPTED 'IF SO', CONFIRMING",
+      "levels": [
+        "B1"
+      ],
+      "lowest_level": "B1",
+      "dep_patterns": [
+        {
+          "type": "conditional",
+          "pattern": [
+            {
+              "DEP": "advcl"
+            }
+          ]
+        }
+      ],
+      "description": "conditional clause",
+      "examples": [
+        "Do you think we could have an extra class? If so, I'd like to do it to cover the work I'll miss. (Brazil; B1 THRESHOLD; 2006; Portuguese; Pass)\n\nIs it possible to pay by credit card? If so, which ones"
+      ]
+    },
+    {
+      "id": "1741163715820x150522391030215800",
+      "category": "FOCUS",
+      "guideword": "FORM/USE: FRONTING, ADVERBS",
+      "levels": [
+        "B1"
+      ],
+      "lowest_level": "B1",
+      "dep_patterns": [
+        {
+          "type": "focus",
+          "pattern": [
+            {
+              "DEP": "advcl"
+            }
+          ]
+        }
+      ],
+      "description": "focus construction",
+      "examples": [
+        "That's my diary, the dearest thing I had. Here I wrote how I felt, what I did, who I met and all my problems. (Italy; B1 THRESHOLD; 2000; Italian; Pass)\n\nQuickly I opened the envelope, took out a whit"
+      ]
+    },
+    {
+      "id": "1741163708153x823286292425265000",
+      "category": "CLAUSES",
+      "guideword": "FORM/USE: MULTIPLE MAIN CLAUSES, NARRATIVE",
+      "levels": [
+        "B1"
+      ],
+      "lowest_level": "B1",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "By the time his mother arrived home, the suitcase was still lost, so Larry decided to tell her the truth, but then his mother showed him his suitcase and told Larry that he left it in the car. (Mexico"
+      ]
+    },
+    {
+      "id": "1741163708149x267810391266564350",
+      "category": "CLAUSES",
+      "guideword": "FORM/USE: NON-FINITE AFTER 'THAN'",
+      "levels": [
+        "B1"
+      ],
+      "lowest_level": "B1",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "Well, If I were you I would go to a small school in the countryside because it's less complicated than going to a large school in a town. (Peru; B1 THRESHOLD; 2008; Spanish - Latin American; Pass)\n\nBu"
+      ]
+    },
+    {
+      "id": "1741163708569x268710231555063360",
+      "category": "CLAUSES",
+      "guideword": "FORM/USE: NON-FINITE WITH '-ING'",
+      "levels": [
+        "B1",
+        "B2"
+      ],
+      "lowest_level": "B1",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "After having worked for many hours, you'll probably be tired. (Brazil; B2 VANTAGE; 1993; Portuguese; Fail)\n\nAfter having left you, we reached Dublin and we stayed there for four days and then we made ",
+        "Instead I buy books once a month and I read them in the evening before going to bed. (Italy; B1 THRESHOLD; 2005; Italian; Pass)\n\nWe can relax after working hard at school. (Vietnam; B1 THRESHOLD; 2009"
+      ]
+    },
+    {
+      "id": "1741163715620x712487586393501200",
+      "category": "CLAUSES",
+      "guideword": "FORM/USE: PRESENT CONTINUOUS 'IF' CLAUSE , PLANS & ADVICE",
+      "levels": [
+        "B1"
+      ],
+      "lowest_level": "B1",
+      "dep_patterns": [
+        {
+          "type": "conditional",
+          "pattern": [
+            {
+              "DEP": "advcl"
+            }
+          ]
+        }
+      ],
+      "description": "conditional clause",
+      "examples": [
+        "Billy, if you are moving you should think a lot, first you have to go and see the two schools. (Argentina; B1 THRESHOLD; 2008; Spanish - Latin American; Pass)\n\nHowever, if you are looking for fun and "
+      ]
+    },
+    {
+      "id": "1741163715620x555336911205332160",
+      "category": "CLAUSES",
+      "guideword": "FORM/USE: PRESENT SIMPLE 'IF' CLAUSE + 'WILL', FUTURE, LIKELY OUTCOME (FIRST CONDITIONAL)",
+      "levels": [
+        "B1"
+      ],
+      "lowest_level": "B1",
+      "dep_patterns": [
+        {
+          "type": "conditional",
+          "pattern": [
+            {
+              "DEP": "advcl"
+            }
+          ]
+        }
+      ],
+      "description": "conditional clause",
+      "examples": [
+        "I talked to my parents and I think if you tell them your reasons, they will accept it. (Germany; B1 THRESHOLD; 2008; German; Pass)\n\nI'm sure your parents will be happy if you go with them. (Spain; B1 "
+      ]
+    },
+    {
+      "id": "1741163715620x161645047931569860",
+      "category": "CLAUSES",
+      "guideword": "FORM/USE: PRESENT SIMPLE 'IF' CLAUSE + MODAL, FUTURE, POSSIBLE OUTCOME",
+      "levels": [
+        "B1"
+      ],
+      "lowest_level": "B1",
+      "dep_patterns": [
+        {
+          "type": "conditional",
+          "pattern": [
+            {
+              "DEP": "advcl"
+            }
+          ]
+        }
+      ],
+      "description": "conditional clause",
+      "examples": [
+        "I think that it would be very good if you start going to the gym or you start cycling. (Colombia; B1 THRESHOLD; 2009; Spanish - Latin American; Pass)\n\nI would be very glad if you come and visit us. (A"
+      ]
+    },
+    {
+      "id": "1741163708567x913678567426078300",
+      "category": "CLAUSES",
+      "guideword": "FORM/USE: PURPOSE, RESULT",
+      "levels": [
+        "B1"
+      ],
+      "lowest_level": "B1",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "I think it is important to write about this topic so that young students and other people who are working with business, can get some inspiration. (Sweden; B1 THRESHOLD; 2008; Swedish; Pass)\n\nCould yo"
+      ]
+    },
+    {
+      "id": "1741163708567x363468807312569340",
+      "category": "CLAUSES",
+      "guideword": "FORM/USE: REASON",
+      "levels": [
+        "B1"
+      ],
+      "lowest_level": "B1",
+      "dep_patterns": [
+        {
+          "type": "causal",
+          "pattern": [
+            {
+              "DEP": "advcl"
+            }
+          ]
+        }
+      ],
+      "description": "causal clause",
+      "examples": [
+        "I prefer to speak on 14 July, as I have got another appointment on the next day. (India; B1 THRESHOLD; 2009; Malayalam; Pass)\n\nI am going to be absent from my English class next week, as I am travelli"
+      ]
+    },
+    {
+      "id": "1741163715818x394138066867376200",
+      "category": "REPORTED SPEECH",
+      "guideword": "FORM/USE: TEMPORAL SHIFTS, FUTURE",
+      "levels": [
+        "B1"
+      ],
+      "lowest_level": "B1",
+      "dep_patterns": [
+        {
+          "type": "reported_speech",
+          "pattern": [
+            {
+              "DEP": "ccomp"
+            }
+          ]
+        }
+      ],
+      "description": "reported speech",
+      "examples": [
+        "At the airport they told him to come the next morning. (Switzerland; B1 THRESHOLD; 2006; Swiss German; Pass)\n\nThe trainer was impressed and said that if I play next time as well as this time, I'll be "
+      ]
+    },
+    {
+      "id": "1741163708153x841687423551314000",
+      "category": "CLAUSES",
+      "guideword": "FORM: 'EITHER … OR'",
+      "levels": [
+        "B1"
+      ],
+      "lowest_level": "B1",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "Regarding your future plans, we would like to know which city you are going to move to, so that if we get the chance, we can either visit you or write to you. (Uruguay; B1 THRESHOLD; 2002; Spanish - L"
+      ]
+    },
+    {
+      "id": "1741163708344x316156631249672000",
+      "category": "CLAUSES",
+      "guideword": "FORM: 'HOW' + ADJECTIVE",
+      "levels": [
+        "B1"
+      ],
+      "lowest_level": "B1",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "How exciting! (China; B1 THRESHOLD; 2003; Chinese; Pass)\n\nHow terrible! (Bosnia-Herzegovina; B1 THRESHOLD; 2008; Serbian; Pass)\n\nHow amazing! This is my first flight in a hot-air balloon. (China; B1 T"
+      ]
+    },
+    {
+      "id": "1741163708562x194655656955947460",
+      "category": "CLAUSES",
+      "guideword": "FORM: 'HOW' + ADJECTIVE + CLAUSE",
+      "levels": [
+        "B1"
+      ],
+      "lowest_level": "B1",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "How lucky you are to have visited that exhibition! (Switzerland; B1 THRESHOLD; 2007; French; Pass)\n\nHow lovely to get your letter. (Iran; B1 THRESHOLD; 2004; Farsi; Pass)"
+      ]
+    },
+    {
+      "id": "1741163708151x354364358587738300",
+      "category": "CLAUSES",
+      "guideword": "FORM: 'SO' + ADJECTIVE + 'THAT' CLAUSE",
+      "levels": [
+        "B1"
+      ],
+      "lowest_level": "B1",
+      "dep_patterns": [
+        {
+          "type": "that_clause",
+          "pattern": [
+            {
+              "DEP": "ccomp"
+            }
+          ]
+        }
+      ],
+      "description": "that-clause",
+      "examples": [
+        "I was so tired that I didn't have the strength to stand up and ask him for a photograph. (Chile; B1 THRESHOLD; 2009; Spanish - Latin American; Pass)\n\nI was so nervous that when the teacher talked to m"
+      ]
+    },
+    {
+      "id": "1741163708150x748318227253666600",
+      "category": "CLAUSES",
+      "guideword": "FORM: 'THE SAME' (+ NOUN) + 'AS' + PRONOUN OR NOUN",
+      "levels": [
+        "B1"
+      ],
+      "lowest_level": "B1",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "I wasn't the only one in my class, there were many others at the same level as me. (France; B1 THRESHOLD; 2002; French; Pass)\n\nIn my opinion it's better to be with people who are the same age as you. "
+      ]
+    },
+    {
+      "id": "1741163708150x419378332254151740",
+      "category": "CLAUSES",
+      "guideword": "FORM: 'TOO' + 'TO'-INFINITIVE ",
+      "levels": [
+        "B1"
+      ],
+      "lowest_level": "B1",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "First of all, I think you are too young to go on holiday by yourself. (Cyprus; B1 THRESHOLD; 2008; Greek; Pass)\n\nHe always told me that he was too busy to write a letter to me. (France; B1 THRESHOLD; "
+      ]
+    },
+    {
+      "id": "1741163708343x587422418001030500",
+      "category": "CLAUSES",
+      "guideword": "FORM: 'WH-' INTERROGATIVE, SUBJECT",
+      "levels": [
+        "B1"
+      ],
+      "lowest_level": "B1",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "What happened? (Spanish - Latin American, B1 THRESHOLD)\n\nWho cares? (Spanish - Latin American, B1 THRESHOLD)\n\nWho knows? (Portuguese, B1 THRESHOLD)"
+      ]
+    },
+    {
+      "id": "1741163708343x852921288542131100",
+      "category": "CLAUSES",
+      "guideword": "FORM: 'WHICH', 'WHOSE'",
+      "levels": [
+        "B1"
+      ],
+      "lowest_level": "B1",
+      "dep_patterns": [
+        {
+          "type": "relcl",
+          "pattern": [
+            {
+              "DEP": "relcl"
+            }
+          ]
+        }
+      ],
+      "description": "relative clause",
+      "examples": []
+    },
+    {
+      "id": "1741163708153x699829274975112700",
+      "category": "CLAUSES",
+      "guideword": "FORM: COMBINING CLAUSES OF THE SAME TYPE",
+      "levels": [
+        "B1"
+      ],
+      "lowest_level": "B1",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "You will have a great time with your friends, because I know they are going to the seaside and staying in a hotel near the sea. (Georgia (Republic of); B1 THRESHOLD; 2008; Georgian; Pass)\n\nThey chose "
+      ]
+    },
+    {
+      "id": "1741163708565x862760497502034200",
+      "category": "CLAUSES",
+      "guideword": "FORM: DEFINING, OBJECT, WITH 'WHO/THAT'",
+      "levels": [
+        "B1"
+      ],
+      "lowest_level": "B1",
+      "dep_patterns": [
+        {
+          "type": "relcl",
+          "pattern": [
+            {
+              "DEP": "relcl"
+            }
+          ]
+        }
+      ],
+      "description": "relative clause",
+      "examples": [
+        "My friends are the people who I love most. (Argentina; B1 THRESHOLD; 2009; Spanish - Latin American; Pass)\n\nThey filmed two actors who I don't really know arguing and kissing after it. (Spain; B1 THRE"
+      ]
+    },
+    {
+      "id": "1741163715818x645674419690479600",
+      "category": "REPORTED SPEECH",
+      "guideword": "FORM: DIRECT SPEECH, REPORTING CLAUSE, END POSITION",
+      "levels": [
+        "B1"
+      ],
+      "lowest_level": "B1",
+      "dep_patterns": [
+        {
+          "type": "reported_speech",
+          "pattern": [
+            {
+              "DEP": "ccomp"
+            }
+          ]
+        }
+      ],
+      "description": "reported speech",
+      "examples": [
+        "“Excuse me Sir, but you forgot your mobile phone,\" she said. (Germany; B1 THRESHOLD; 2008; German; Pass)\n\n\"I must take it to the police station,\" she thought. (Argentina; B1 THRESHOLD; 2008; Spanish -"
+      ]
+    },
+    {
+      "id": "1741163715818x805291884313691800",
+      "category": "REPORTED SPEECH",
+      "guideword": "FORM: DIRECT SPEECH, REPORTING CLAUSE, INITIAL POSITION",
+      "levels": [
+        "B1"
+      ],
+      "lowest_level": "B1",
+      "dep_patterns": [
+        {
+          "type": "reported_speech",
+          "pattern": [
+            {
+              "DEP": "ccomp"
+            }
+          ]
+        }
+      ],
+      "description": "reported speech",
+      "examples": [
+        "He felt like a worm too and he said to me: \"I'm sorry I'm not a good friend\". (Italy; B1 THRESHOLD; 2000; Italian; Pass)\n\nMaria answered \"Yes!” (Malaysia; B1 THRESHOLD; 2008; Chinese; Pass)\n\nHe answer"
+      ]
+    },
+    {
+      "id": "1741163708149x199194532751942660",
+      "category": "CLAUSES",
+      "guideword": "FORM: FINITE AFTER 'THAN'",
+      "levels": [
+        "B1"
+      ],
+      "lowest_level": "B1",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "I wish our schools could become better than they are. (Georgia (Republic of); B1 THRESHOLD; 2007; Georgian; Pass)\n\nHe is almost 60 years old, but he's faster than you can imagine. (Germany; B1 THRESHO"
+      ]
+    },
+    {
+      "id": "1741163708343x784452436860678700",
+      "category": "CLAUSES",
+      "guideword": "FORM: INTERROGATIVE + ADVERB",
+      "levels": [
+        "B1"
+      ],
+      "lowest_level": "B1",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "Have you ever been to Marseille? (France; B1 THRESHOLD; 2001; French; Pass)\n\nWhat kind of books do you usually read? (Italy; B1 THRESHOLD; 2005; Italian; Pass)\n\nDo you still remember my best friend? ("
+      ]
+    },
+    {
+      "id": "1741163708151x500725106089104700",
+      "category": "CLAUSES",
+      "guideword": "FORM: LINKING VERB + 'LIKE' OR 'SIMILAR TO'",
+      "levels": [
+        "B1"
+      ],
+      "lowest_level": "B1",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "Some people have told me that I look like a pop star when I wear it. (France; B1 THRESHOLD; 2006; French; Pass)\n\nFirst he heard a disconcerting noise that sounded like a gun shot and then he saw a man"
+      ]
+    },
+    {
+      "id": "1741163708565x566817072036876350",
+      "category": "CLAUSES",
+      "guideword": "FORM: NON-DEFINING, OBJECT, WITH 'WHO'",
+      "levels": [
+        "B1"
+      ],
+      "lowest_level": "B1",
+      "dep_patterns": [
+        {
+          "type": "relcl",
+          "pattern": [
+            {
+              "DEP": "relcl"
+            }
+          ]
+        }
+      ],
+      "description": "relative clause",
+      "examples": [
+        "What I liked most was the friend I made there, a green-eyed chubby boy, who I played with till dinner time, when I had to go home. (Brazil; B1 THRESHOLD; 2003; Portuguese; Pass)\n\nShe turned around and"
+      ]
+    },
+    {
+      "id": "1741163715817x804980721338935900",
+      "category": "REPORTED SPEECH",
+      "guideword": "FORM: REPORTED 'WH-' QUESTIONS",
+      "levels": [
+        "B1"
+      ],
+      "lowest_level": "B1",
+      "dep_patterns": [
+        {
+          "type": "reported_speech",
+          "pattern": [
+            {
+              "DEP": "ccomp"
+            }
+          ]
+        }
+      ],
+      "description": "reported speech",
+      "examples": [
+        "I asked why she was here. (Italy; B1 THRESHOLD; 1999; Italian; Pass)\n\nI phoned and asked what sports we could play in this club. (France; B1 THRESHOLD; 2003; French; Pass)\n\nWhen we asked why they were"
+      ]
+    },
+    {
+      "id": "1741163715817x584156896390892800",
+      "category": "REPORTED SPEECH",
+      "guideword": "FORM: REPORTED 'YES-NO' QUESTIONS",
+      "levels": [
+        "B1"
+      ],
+      "lowest_level": "B1",
+      "dep_patterns": [
+        {
+          "type": "reported_speech",
+          "pattern": [
+            {
+              "DEP": "ccomp"
+            }
+          ]
+        }
+      ],
+      "description": "reported speech",
+      "examples": [
+        "You asked me if I like shopping. (Germany; B1 THRESHOLD; 2006; German; Pass)\n\nI am asking you if we can change the time of the meeting to 5.00 pm. (Peru; B1 THRESHOLD; 2008; Spanish - Latin American; "
+      ]
+    },
+    {
+      "id": "1741163715818x484532724787778900",
+      "category": "REPORTED SPEECH",
+      "guideword": "FORM: REPORTED REQUESTS AND COMMANDS",
+      "levels": [
+        "B1"
+      ],
+      "lowest_level": "B1",
+      "dep_patterns": [
+        {
+          "type": "reported_speech",
+          "pattern": [
+            {
+              "DEP": "ccomp"
+            }
+          ]
+        }
+      ],
+      "description": "reported speech",
+      "examples": [
+        "She asked me to come back as soon as possible because my father is seriously ill. (Malaysia; B1 THRESHOLD; 2005; Malay; Pass)\n\nAs the concert finished, I heard someone call my name, I turned and there"
+      ]
+    },
+    {
+      "id": "1741163715817x889153733096531600",
+      "category": "REPORTED SPEECH",
+      "guideword": "FORM: REPORTED STATEMENTS, PRONOUN AND TENSE SHIFT",
+      "levels": [
+        "B1"
+      ],
+      "lowest_level": "B1",
+      "dep_patterns": [
+        {
+          "type": "reported_speech",
+          "pattern": [
+            {
+              "DEP": "ccomp"
+            }
+          ]
+        }
+      ],
+      "description": "reported speech",
+      "examples": [
+        "I immediately called her to see if everything was o.k. and she said that she had won the lottery and she wanted to give some of the money to me. (Italy; B1 THRESHOLD; 2008; Italian; Pass)\n\nHe said tha"
+      ]
+    },
+    {
+      "id": "1741163708151x483888706062789900",
+      "category": "CLAUSES",
+      "guideword": "FORM: SENSE VERBS + 'AS IF' OR 'AS THOUGH' + FINITE CLAUSE",
+      "levels": [
+        "B1"
+      ],
+      "lowest_level": "B1",
+      "dep_patterns": [
+        {
+          "type": "conditional",
+          "pattern": [
+            {
+              "DEP": "advcl"
+            }
+          ]
+        }
+      ],
+      "description": "conditional clause",
+      "examples": [
+        "I was excited and I felt as if I was a bird. (Japan; B1 THRESHOLD; 2003; Japanese; Pass)\n\nSo when you enter the restaurant you feel as if you are in Italy. (Italy; B1 THRESHOLD; 2005; German; Pass)\n\nI"
+      ]
+    },
+    {
+      "id": "1741163708565x251895365489699360",
+      "category": "CLAUSES",
+      "guideword": "FORM: WITH 'WHERE', PLACE",
+      "levels": [
+        "B1"
+      ],
+      "lowest_level": "B1",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "The city where I live is very nice and extremely charming. (B1 THRESHOLD; 2003; ; Pass)\n\nBut if they are going to a place where you go every year you should go with your friends, you will have more fu"
+      ]
+    },
+    {
+      "id": "1741163708565x901437004568881900",
+      "category": "CLAUSES",
+      "guideword": "FORM: WITH 'WHOSE NAME'",
+      "levels": [
+        "B1"
+      ],
+      "lowest_level": "B1",
+      "dep_patterns": [
+        {
+          "type": "relcl",
+          "pattern": [
+            {
+              "DEP": "relcl"
+            }
+          ]
+        }
+      ],
+      "description": "relative clause",
+      "examples": [
+        "We have a new employee whose name is Mary Watts. (Spain; B1 THRESHOLD; 2002; Spanish - European; Pass)\n\nIt was a very famous football player, whose name was known all over the world. (Russia; B1 THRES"
+      ]
+    },
+    {
+      "id": "1741163708332x722525787055346800",
+      "category": "CLAUSES",
+      "guideword": "USE: INVITATION",
+      "levels": [
+        "B1"
+      ],
+      "lowest_level": "B1",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "Come and visit us after the New Year, we've got so much to talk about. (Somali, B1 THRESHOLD)\n\nCome and stay with us this weekend! (Turkish, B1 THRESHOLD)"
+      ]
+    },
+    {
+      "id": "1741163708570x985060556560681900",
+      "category": "CLAUSES",
+      "guideword": "FORM/USE: '-ING' CLAUSE",
+      "levels": [
+        "B2"
+      ],
+      "lowest_level": "B2",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "Having no choice, I sat down on a bench which was in the middle of the road to wait for the rain to stop. (Brazil; B2 VANTAGE; 1993; Portuguese; Pass)\n\nUsing his best smile, Paul asked her if he could"
+      ]
+    },
+    {
+      "id": "1741163708332x959563274800091500",
+      "category": "CLAUSES",
+      "guideword": "FORM/USE: 'DO NOT', EMPHASIS",
+      "levels": [
+        "B2"
+      ],
+      "lowest_level": "B2",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "Do not forget to have a break at lunchtime and try to eat your meal whenever possible in a silent room. (Switzerland; B2 VANTAGE; 1993; German; Pass)\n\nDo not hesitate to contact me should you need fur"
+      ]
+    },
+    {
+      "id": "1741163708332x403656410301087360",
+      "category": "CLAUSES",
+      "guideword": "FORM/USE: 'LET'S NOT', SUGGESTION",
+      "levels": [
+        "B2"
+      ],
+      "lowest_level": "B2",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "Let's not lose track of each other again! (Brazil; B2 VANTAGE; 2004; Portuguese; Pass)\n\nLet's not forget that zoos actually help us keep dying species alive …. (B2 VANTAGE; 1993; Swedish; Pass)\n\nLet's"
+      ]
+    },
+    {
+      "id": "1741163708153x328592532654335940",
+      "category": "CLAUSES",
+      "guideword": "FORM/USE: 'NEITHER … NOR', EMPHASIS",
+      "levels": [
+        "B2"
+      ],
+      "lowest_level": "B2",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "We neither walk nor do exercises. (Turkey; B2 VANTAGE; 2000; Turkish; Fail)\n\nThey neither got married nor had children. (Argentina; B2 VANTAGE; 1997; Korean; Pass)\n\nWe should neither eat too much, nor"
+      ]
+    },
+    {
+      "id": "1741163708154x515786574797433100",
+      "category": "CLAUSES",
+      "guideword": "FORM/USE: 'NOT ONLY … BUT (ALSO)', FOCUS",
+      "levels": [
+        "B2"
+      ],
+      "lowest_level": "B2",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "The atmosphere was friendly, not only because it wasn't too crowded, but also because the waiters always help you. (Greece; B2 VANTAGE; 2009; Greek; Pass)\n\nI really like it; not only because it is nic"
+      ]
+    },
+    {
+      "id": "1741163716064x749646630905427700",
+      "category": "FOCUS",
+      "guideword": "FORM/USE: 'THE REASON (THAT)', 'THE PLACE (WHICH)' + CLAUSE, SUBJECT",
+      "levels": [
+        "B2"
+      ],
+      "lowest_level": "B2",
+      "dep_patterns": [
+        {
+          "type": "focus",
+          "pattern": [
+            {
+              "DEP": "advcl"
+            }
+          ]
+        }
+      ],
+      "description": "focus construction",
+      "examples": [
+        "The reason I am writing is to suggest a few things about our holidays. (Greece; B2 VANTAGE; 2008; Greek; Pass)\n\nThe reason that I never continued taking lessons is that my school-work became too heavy"
+      ]
+    },
+    {
+      "id": "1741163716064x592610604587924000",
+      "category": "FOCUS",
+      "guideword": "FORM/USE: 'THE THING/ FACT/ POINT/ PROBLEM IS (THAT)'",
+      "levels": [
+        "B2"
+      ],
+      "lowest_level": "B2",
+      "dep_patterns": [
+        {
+          "type": "focus",
+          "pattern": [
+            {
+              "DEP": "advcl"
+            }
+          ]
+        }
+      ],
+      "description": "focus construction",
+      "examples": [
+        "The reason is I like children, I have experience of looking after disabled people and I like to do things like volunteering. (B2 VANTAGE; 1993; Japanese; Pass)\n\nThe problem is I know myself, I am alwa"
+      ]
+    },
+    {
+      "id": "1741163715820x680259612514314400",
+      "category": "REPORTED SPEECH",
+      "guideword": "FORM/USE: CITATION, PRESENT SIMPLE",
+      "levels": [
+        "B2"
+      ],
+      "lowest_level": "B2",
+      "dep_patterns": [
+        {
+          "type": "reported_speech",
+          "pattern": [
+            {
+              "DEP": "ccomp"
+            }
+          ]
+        }
+      ],
+      "description": "reported speech",
+      "examples": [
+        "First of all, your advertisement says that you have got two great nights in a hotel for us. (Turkey; B2 VANTAGE; 1997; Turkish; Pass)\n\nIt says you are asking for people to help in a summer camp for fo"
+      ]
+    },
+    {
+      "id": "1741163708569x385656258064060800",
+      "category": "CLAUSES",
+      "guideword": "FORM/USE: CONDITIONS",
+      "levels": [
+        "B2"
+      ],
+      "lowest_level": "B2",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "Unless something is done many people will die. (Greece; B2 VANTAGE; 1993; Greek; Pass)\n\nGetting to work by car is comfortable and faster unless you are caught in a traffic jam. (Poland; B2 VANTAGE; 19"
+      ]
+    },
+    {
+      "id": "1741163708567x103888477209590050",
+      "category": "CLAUSES",
+      "guideword": "FORM/USE: DEFINING, WITH 'WHOSE'",
+      "levels": [
+        "B2"
+      ],
+      "lowest_level": "B2",
+      "dep_patterns": [
+        {
+          "type": "relcl",
+          "pattern": [
+            {
+              "DEP": "relcl"
+            }
+          ]
+        }
+      ],
+      "description": "relative clause",
+      "examples": [
+        "I visited several primary schools in Canberra and had opportunities to teach not only Australian children but also Vietnamese children whose parents immigrated to Australia. (Japan; B2 VANTAGE; 1993; "
+      ]
+    },
+    {
+      "id": "1741163708563x360382864417081200",
+      "category": "CLAUSES",
+      "guideword": "FORM/USE: NEGATIVE INTERROGATIVE ",
+      "levels": [
+        "B2"
+      ],
+      "lowest_level": "B2",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "Wouldn't it be wonderful! (Russian, B2 VANTAGE)\n\nDoesn't that sound excellent to you?! (Denmark; B2 VANTAGE; 1999; Danish; Pass)"
+      ]
+    },
+    {
+      "id": "1741163715820x279868282649035070",
+      "category": "REPORTED SPEECH",
+      "guideword": "FORM/USE: REPORTING VERBS, PAST CONTINUOUS",
+      "levels": [
+        "B2"
+      ],
+      "lowest_level": "B2",
+      "dep_patterns": [
+        {
+          "type": "reported_speech",
+          "pattern": [
+            {
+              "DEP": "ccomp"
+            }
+          ]
+        }
+      ],
+      "description": "reported speech",
+      "examples": [
+        "I was wondering why I failed. (Greece; B2 VANTAGE; 1993; Greek; Pass)\n\nSo, he was wondering why we didn't have our letters. (Korea, North; B2 VANTAGE; 2006; Korean; Pass)\n\nI was thinking which of the "
+      ]
+    },
+    {
+      "id": "1741163708567x429681014975256600",
+      "category": "CLAUSES",
+      "guideword": "FORM/USE: SENTENCE, EVALUATIVE",
+      "levels": [
+        "B2"
+      ],
+      "lowest_level": "B2",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "It is now possible to send a letter and receive an answer within ten minutes, which is a good thing if you want to buy a house, a car etc. (Denmark; B2 VANTAGE; 1999; Danish; Pass)\n\nIn addition, zoolo"
+      ]
+    },
+    {
+      "id": "1741163715625x825088087099632500",
+      "category": "CLAUSES",
+      "guideword": "FORM/USE: SUBORDINATING CONJUNCTIONS, CONDITIONS",
+      "levels": [
+        "B2",
+        "C2"
+      ],
+      "lowest_level": "B2",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "As long as it involves children I'd be delighted to work for you during the summer. (Denmark; B2 VANTAGE; 1998; Danish; Pass)\n\nIf you're really eager to learn age doesn’t really matter as long as you'",
+        "As a matter of fact, education is free and as a result they can attend whichever university they desire so long as they have the proper qualifications, of course. (Greece; C2 MASTERY; 2005; Greek; Pas"
+      ]
+    },
+    {
+      "id": "1741163708151x653728440102574500",
+      "category": "CLAUSES",
+      "guideword": "FORM/USE: SUPERLATIVE ADJECTIVE (+ 'THAT')",
+      "levels": [
+        "B2"
+      ],
+      "lowest_level": "B2",
+      "dep_patterns": [
+        {
+          "type": "that_clause",
+          "pattern": [
+            {
+              "DEP": "ccomp"
+            }
+          ]
+        }
+      ],
+      "description": "that-clause",
+      "examples": [
+        "It was probably the best comedy that anyone could ever have made; however, to the ones who were in the cinema, it didn't seem like a comedy but a horror film. (Portugal; B2 VANTAGE; 1993; Portuguese; "
+      ]
+    },
+    {
+      "id": "1741163715820x946999443663956600",
+      "category": "REPORTED SPEECH",
+      "guideword": "FORM/USE: TEMPORAL SHIFTS, PAST",
+      "levels": [
+        "B2"
+      ],
+      "lowest_level": "B2",
+      "dep_patterns": [
+        {
+          "type": "reported_speech",
+          "pattern": [
+            {
+              "DEP": "ccomp"
+            }
+          ]
+        }
+      ],
+      "description": "reported speech",
+      "examples": [
+        "She had told me the previous day that she had something important to tell me. (Greece; B2 VANTAGE; 1993; Greek; Pass)\n\nWe met Daisy at school on the following day and we told her that the previous day"
+      ]
+    },
+    {
+      "id": "1741163708152x354145685059116700",
+      "category": "CLAUSES",
+      "guideword": "FORM: 'AS IF' OR 'AS THOUGH' + FINITE CLAUSE",
+      "levels": [
+        "B2"
+      ],
+      "lowest_level": "B2",
+      "dep_patterns": [
+        {
+          "type": "conditional",
+          "pattern": [
+            {
+              "DEP": "advcl"
+            }
+          ]
+        }
+      ],
+      "description": "conditional clause",
+      "examples": [
+        "Her heart beat extremely fast, as if it was going to burst out of her chest. (Brazil; B2 VANTAGE; 1999; Portuguese; Pass)\n\nI saw my mate crawling on the floor as if he was looking for something. (Port"
+      ]
+    },
+    {
+      "id": "1741163708151x809054436449001100",
+      "category": "CLAUSES",
+      "guideword": "FORM: 'RATHER THAN' + NON-FINITE CLAUSE",
+      "levels": [
+        "B2"
+      ],
+      "lowest_level": "B2",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "If you prefer watching TV rather than reading, you have to be critical: you mustn't in any way accept everything, every image that passes in front of your eyes. (Portugal; B2 VANTAGE; 1993; Portuguese"
+      ]
+    },
+    {
+      "id": "1741163708151x227455487870367600",
+      "category": "CLAUSES",
+      "guideword": "FORM: 'THE SAME' (+ NOUN) + 'AS' + CLAUSE ",
+      "levels": [
+        "B2"
+      ],
+      "lowest_level": "B2",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "Maybe I'll do the same thing as you did. (Brazil; B1 THRESHOLD; 2003; Portuguese; Pass)\n\nShe was the same as I remembered her, long-haired and green-eyed. (Greece; B2 VANTAGE; 2000; Greek; Pass)\n\nSome"
+      ]
+    },
+    {
+      "id": "1741163708151x444231442548491900",
+      "category": "CLAUSES",
+      "guideword": "FORM: ADJECTIVE + 'ENOUGH' + 'TO'-INFINITIVE ",
+      "levels": [
+        "B2"
+      ],
+      "lowest_level": "B2",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "In my opinion young people at that age are not mature enough to decide by themselves what they want for their future. (B2 VANTAGE; 2009; German; Pass)\n\nI think I am responsible enough to handle this j"
+      ]
+    },
+    {
+      "id": "1741163708151x719474108832722800",
+      "category": "CLAUSES",
+      "guideword": "FORM: COMPARATIVE ADJECTIVE + 'THAN' + NON-FINITE CLAUSE",
+      "levels": [
+        "B2"
+      ],
+      "lowest_level": "B2",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "It is much easier to be single than to have a partner. (B2 VANTAGE; 2008; Italian; Pass)\n\nDue to the provisions and considerations of the contract which was never revised, I think that arbitration is "
+      ]
+    },
+    {
+      "id": "1741163715819x225500036872228400",
+      "category": "REPORTED SPEECH",
+      "guideword": "FORM: DIRECT SPEECH, REPORTING CLAUSE, INVERTED SUBJECT",
+      "levels": [
+        "B2"
+      ],
+      "lowest_level": "B2",
+      "dep_patterns": [
+        {
+          "type": "reported_speech",
+          "pattern": [
+            {
+              "DEP": "ccomp"
+            }
+          ]
+        }
+      ],
+      "description": "reported speech",
+      "examples": [
+        "\"I was astonished when I saw them standing there\", said John. (Netherlands; B2 VANTAGE; 1999; Dutch; Pass)\n\n\"Who are you?\" asked Peter. (Turkey; B2 VANTAGE; 1997; Turkish; Pass)\n\n\"Would you mind lendi"
+      ]
+    },
+    {
+      "id": "1741163715819x186805151899247300",
+      "category": "REPORTED SPEECH",
+      "guideword": "FORM: DIRECT SPEECH, REPORTING CLAUSE, MID POSITION",
+      "levels": [
+        "B2"
+      ],
+      "lowest_level": "B2",
+      "dep_patterns": [
+        {
+          "type": "reported_speech",
+          "pattern": [
+            {
+              "DEP": "ccomp"
+            }
+          ]
+        }
+      ],
+      "description": "reported speech",
+      "examples": [
+        "\"No problem\", I thought, \"there is only one person\". (Botswana; B2 VANTAGE; 1993; Vietnamese; Pass)\n\n\"We have come together\", this man said, \"to celebrate our annual meeting and to call our master's g"
+      ]
+    },
+    {
+      "id": "1741163715819x177565244544510180",
+      "category": "REPORTED SPEECH",
+      "guideword": "FORM: MODIFICATION, REPORTING VERB + ADVERB",
+      "levels": [
+        "B2"
+      ],
+      "lowest_level": "B2",
+      "dep_patterns": [
+        {
+          "type": "reported_speech",
+          "pattern": [
+            {
+              "DEP": "ccomp"
+            }
+          ]
+        }
+      ],
+      "description": "reported speech",
+      "examples": [
+        "\"So this is a real cow, mom?\" she asked doubtfully. (Poland; B2 VANTAGE; 1993; Polish; Pass)\n\n\"A hundred dollars for one day. Is that a deal?\" her husband said forcefully. (Malaysia; B2 VANTAGE; 1999;"
+      ]
+    },
+    {
+      "id": "1741163708343x612263360498884700",
+      "category": "CLAUSES",
+      "guideword": "FORM: NEGATIVE INTERROGATIVE + ADVERB",
+      "levels": [
+        "B2"
+      ],
+      "lowest_level": "B2",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "Money - hasn't it always been one of the most important problems for students? (Japan; B2 VANTAGE; 2000; Japanese; Fail)\n\nWhy don't you ever listen to me? (Sweden; B2 VANTAGE; 1993; Swedish; Pass)\n\nHa"
+      ]
+    },
+    {
+      "id": "1741163708566x933173646960638000",
+      "category": "CLAUSES",
+      "guideword": "FORM: NON-DEFINING, WITH 'WHOSE'",
+      "levels": [
+        "B2"
+      ],
+      "lowest_level": "B2",
+      "dep_patterns": [
+        {
+          "type": "relcl",
+          "pattern": [
+            {
+              "DEP": "relcl"
+            }
+          ]
+        }
+      ],
+      "description": "relative clause",
+      "examples": [
+        "And I was initially employed to be an entrance assistant, whose job was to keep the queue under control as well as keeping the area clean. (China; B2 VANTAGE; 2000; Chinese; Pass)\n\nI was at the concer"
+      ]
+    },
+    {
+      "id": "1741163708565x846306043223088400",
+      "category": "CLAUSES",
+      "guideword": "FORM: PRONOUN + PREPOSITION",
+      "levels": [
+        "B2"
+      ],
+      "lowest_level": "B2",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "Thank you very much for having provided us with valuable information about your finance services, which we are greatly interested in. (China; B2 VANTAGE; 2008; Chinese; Pass)\n\nI would like to do some "
+      ]
+    },
+    {
+      "id": "1741163715820x722979507342767900",
+      "category": "REPORTED SPEECH",
+      "guideword": "FORM: REPORTED REQUESTS AND COMMANDS, NEGATIVE",
+      "levels": [
+        "B2"
+      ],
+      "lowest_level": "B2",
+      "dep_patterns": [
+        {
+          "type": "reported_speech",
+          "pattern": [
+            {
+              "DEP": "ccomp"
+            }
+          ]
+        }
+      ],
+      "description": "reported speech",
+      "examples": [
+        "Meanwhile, she told me not to be scared but the place was very... old. (Brazil; B2 VANTAGE; 1993; Portuguese; Pass)\n\nI told him not to climb the wall but he was so interested in doing movements that h"
+      ]
+    },
+    {
+      "id": "1741163715625x901361750583648400",
+      "category": "CLAUSES",
+      "guideword": "FORM/USE: 'IF' + 'SHOULD', FORMAL, POLITE",
+      "levels": [
+        "C1"
+      ],
+      "lowest_level": "C1",
+      "dep_patterns": [
+        {
+          "type": "conditional",
+          "pattern": [
+            {
+              "DEP": "advcl"
+            }
+          ]
+        }
+      ],
+      "description": "conditional clause",
+      "examples": [
+        "If you should have any concerns about my choice, please tell me. (Germany; C1 EFFECTIVE OPERATIONAL PROFICIENCY; 2008; German; Pass)\n\nIf you should have any problems, you can go to an information boot"
+      ]
+    },
+    {
+      "id": "1741163715625x776180432248680300",
+      "category": "CLAUSES",
+      "guideword": "FORM/USE: 'IF' + PAST PERFECT + MODAL VERBS IMAGINED SITUATION, REGRET",
+      "levels": [
+        "C1"
+      ],
+      "lowest_level": "C1",
+      "dep_patterns": [
+        {
+          "type": "conditional",
+          "pattern": [
+            {
+              "DEP": "advcl"
+            }
+          ]
+        }
+      ],
+      "description": "conditional clause",
+      "examples": [
+        "All this could have been avoided, if the plan had been more flexible. (Poland; C1 EFFECTIVE OPERATIONAL PROFICIENCY; 1993; Polish; Pass)\n\nSeveral statements in the newspaper could have been avoided, i"
+      ]
+    },
+    {
+      "id": "1741163708335x356877701278647700",
+      "category": "CLAUSES",
+      "guideword": "FORM/USE: 'LET' + THIRD PERSON PRONOUN, PERMISSION, ORDER",
+      "levels": [
+        "C1"
+      ],
+      "lowest_level": "C1",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "Try to play chess with him whenever you can and remember: Let him win! (Greece; C1 EFFECTIVE OPERATIONAL PROFICIENCY; 1993; Greek; Pass)\n\nWhile in London, they want to do their shopping there, so let "
+      ]
+    },
+    {
+      "id": "1741163708328x809057828256698500",
+      "category": "CLAUSES",
+      "guideword": "FORM/USE: 'NOT ONLY … BUT (ALSO)' WITH INVERSION, FOCUS",
+      "levels": [
+        "C1"
+      ],
+      "lowest_level": "C1",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "And not only did they come for the most popular sports, such as football and basketball, but many other less known activities were very well attended. (Spain; C1 EFFECTIVE OPERATIONAL PROFICIENCY; 199"
+      ]
+    },
+    {
+      "id": "1741163708570x758271347243594900",
+      "category": "CLAUSES",
+      "guideword": "FORM/USE: 'NOT' + '-ING' CLAUSE",
+      "levels": [
+        "C1"
+      ],
+      "lowest_level": "C1",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "Not knowing the North of London very well it took me quite a long time to get there. (Germany; C1 EFFECTIVE OPERATIONAL PROFICIENCY; 2004; German; Pass)\n\nA nine-member family living peacefully in 19th"
+      ]
+    },
+    {
+      "id": "1741163716065x319522763957327500",
+      "category": "FOCUS",
+      "guideword": "FORM/USE: 'WH-'CLEFT CLAUSE, TITLES",
+      "levels": [
+        "C1"
+      ],
+      "lowest_level": "C1",
+      "dep_patterns": [
+        {
+          "type": "focus",
+          "pattern": [
+            {
+              "DEP": "advcl"
+            }
+          ]
+        }
+      ],
+      "description": "focus construction",
+      "examples": [
+        "Why I think this is a good idea \nPeople are sensitive, and when they hear about charities, they always want to help. (Greece; C1 EFFECTIVE OPERATIONAL PROFICIENCY; 2003; Greek; Pass)\n\nWhy you should c"
+      ]
+    },
+    {
+      "id": "1741163716065x166400508777969860",
+      "category": "FOCUS",
+      "guideword": "FORM/USE: 'WHAT' CLEFT CLAUSE",
+      "levels": [
+        "C1"
+      ],
+      "lowest_level": "C1",
+      "dep_patterns": [
+        {
+          "type": "focus",
+          "pattern": [
+            {
+              "DEP": "advcl"
+            }
+          ]
+        }
+      ],
+      "description": "focus construction",
+      "examples": [
+        "What we need is a strong publicity campaign, directed at young people. (Portugal; C1 EFFECTIVE OPERATIONAL PROFICIENCY; 1993; Portuguese; Pass)\n\nWhat everyone loved were the special effects and we wer"
+      ]
+    },
+    {
+      "id": "1741163708335x435983145620809200",
+      "category": "CLAUSES",
+      "guideword": "FORM/USE: DON'T 'LET' + PRONOUN, PERMISSION, ORDER",
+      "levels": [
+        "C1"
+      ],
+      "lowest_level": "C1",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "Don't let them spend all their free time in front of the TV. (Sweden; C1 EFFECTIVE OPERATIONAL PROFICIENCY; 1999; Swedish; Pass)\n\nDon't let him go out alone, because he may not feel well. (Portugal; C"
+      ]
+    },
+    {
+      "id": "1741163716064x767849913238654200",
+      "category": "FOCUS",
+      "guideword": "FORM/USE: FIXED EXPRESSIONS, FRONTING",
+      "levels": [
+        "C1"
+      ],
+      "lowest_level": "C1",
+      "dep_patterns": [
+        {
+          "type": "focus",
+          "pattern": [
+            {
+              "DEP": "advcl"
+            }
+          ]
+        }
+      ],
+      "description": "focus construction",
+      "examples": [
+        "At the end of the day everything is up to you! (Greece; C1 EFFECTIVE OPERATIONAL PROFICIENCY; 2000; Greek; Fail)\n\nAll in all, the activity week was a nice experience for both students and teachers. (G"
+      ]
+    },
+    {
+      "id": "1741163708335x472053466237699840",
+      "category": "CLAUSES",
+      "guideword": "FORM/USE: IMPERATIVE + 'AND' CONDITIONAL",
+      "levels": [
+        "C1"
+      ],
+      "lowest_level": "C1",
+      "dep_patterns": [
+        {
+          "type": "conditional",
+          "pattern": [
+            {
+              "DEP": "advcl"
+            }
+          ]
+        }
+      ],
+      "description": "conditional clause",
+      "examples": [
+        "See one of them and you'll want to see them all. (C1 EFFECTIVE OPERATIONAL PROFICIENCY; 1993; Swedish; Pass)"
+      ]
+    },
+    {
+      "id": "1741163716065x303072824467764300",
+      "category": "FOCUS",
+      "guideword": "FORM/USE: IMPERATIVES",
+      "levels": [
+        "C1"
+      ],
+      "lowest_level": "C1",
+      "dep_patterns": [
+        {
+          "type": "focus",
+          "pattern": [
+            {
+              "DEP": "advcl"
+            }
+          ]
+        }
+      ],
+      "description": "focus construction",
+      "examples": [
+        "Note the disadvantages of this transfer. (Greece; C1 EFFECTIVE OPERATIONAL PROFICIENCY; 2002; Greek; Pass)\n\nNotice the difference in the salary. (Ecuador; C1 EFFECTIVE OPERATIONAL PROFICIENCY; 2008; S"
+      ]
+    },
+    {
+      "id": "1741163708570x600858468058892400",
+      "category": "CLAUSES",
+      "guideword": "FORM/USE: INVERSION",
+      "levels": [
+        "C1"
+      ],
+      "lowest_level": "C1",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "Should you need any further assistance, do not hesitate to contact me. (Czech; Czech Republic; C1 EFFECTIVE OPERATIONAL PROFICIENCY; Pass; 2007) \n\nHad we known that before we could have taken more mon"
+      ]
+    },
+    {
+      "id": "1741163716065x380877789960183400",
+      "category": "FOCUS",
+      "guideword": "FORM/USE: NON-FINITE WITH '-ED' CLAUSES",
+      "levels": [
+        "C1"
+      ],
+      "lowest_level": "C1",
+      "dep_patterns": [
+        {
+          "type": "focus",
+          "pattern": [
+            {
+              "DEP": "advcl"
+            }
+          ]
+        }
+      ],
+      "description": "focus construction",
+      "examples": [
+        "Compared to other European capitals, there has been a lot done to make riding a bike less dangerous and more comfortable in Berlin. (Germany; C1 EFFECTIVE OPERATIONAL PROFICIENCY; 1998; German; Pass)\n"
+      ]
+    },
+    {
+      "id": "1741163708570x301704306507399700",
+      "category": "CLAUSES",
+      "guideword": "FORM/USE: NON-FINITE WITH '-ED' CLAUSES, FOCUS",
+      "levels": [
+        "C1"
+      ],
+      "lowest_level": "C1",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "Compared to the campsite job this one has its advantages. (Romania; C1 EFFECTIVE OPERATIONAL PROFICIENCY; 2008; Romanian; Pass)\n\nBased on the assessment above, I strongly recommend that we should take"
+      ]
+    },
+    {
+      "id": "1741163715625x266655396639862820",
+      "category": "CLAUSES",
+      "guideword": "FORM: ELLIPTED 'IF' CLAUSE",
+      "levels": [
+        "C1"
+      ],
+      "lowest_level": "C1",
+      "dep_patterns": [
+        {
+          "type": "conditional",
+          "pattern": [
+            {
+              "DEP": "advcl"
+            }
+          ]
+        }
+      ],
+      "description": "conditional clause",
+      "examples": [
+        "Furthermore I found little rooms where an employee could take a short nap if needed. (Switzerland; C1 EFFECTIVE OPERATIONAL PROFICIENCY; 2002; Swiss German; Pass)\n\nMeals are served, if requested, thre"
+      ]
+    },
+    {
+      "id": "1741163715813x920160730248656800",
+      "category": "CLAUSES",
+      "guideword": "FORM: INVERTED CONDITIONAL CLAUSE, 'SHOULD'",
+      "levels": [
+        "C1"
+      ],
+      "lowest_level": "C1",
+      "dep_patterns": [
+        {
+          "type": "conditional",
+          "pattern": [
+            {
+              "DEP": "advcl"
+            }
+          ]
+        }
+      ],
+      "description": "conditional clause",
+      "examples": [
+        "Should you require any further information about the program or any other detail please do not hesitate to ask for it. (Spain; C1 EFFECTIVE OPERATIONAL PROFICIENCY; 2002; Spanish - European; Pass)\n\nSh"
+      ]
+    },
+    {
+      "id": "1741163708570x262059735785698850",
+      "category": "CLAUSES",
+      "guideword": "FORM: NON-FINITE AFTER 'IF'",
+      "levels": [
+        "C1"
+      ],
+      "lowest_level": "C1",
+      "dep_patterns": [
+        {
+          "type": "conditional",
+          "pattern": [
+            {
+              "DEP": "advcl"
+            }
+          ]
+        }
+      ],
+      "description": "conditional clause",
+      "examples": [
+        "Please do not hesitate to ask for further assistance if needed. (other; C1 EFFECTIVE OPERATIONAL PROFICIENCY; 2008; German; Pass)\n\nFinally, there are some suggestions that, if taken, could improve the"
+      ]
+    },
+    {
+      "id": "1741163708152x331629677931650760",
+      "category": "CLAUSES",
+      "guideword": "FORM: SUPERLATIVE ADVERB 'BEST' + CLAUSE",
+      "levels": [
+        "C1"
+      ],
+      "lowest_level": "C1",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "I'm sorry to say that she is not the best of cooks but she tries the best she can. (Sweden; C1 EFFECTIVE OPERATIONAL PROFICIENCY; 1993; Swedish; Pass)\n\nOn Thursday I did the best I could. (Greece; C1 "
+      ]
+    },
+    {
+      "id": "1741163708335x425762217604840600",
+      "category": "CLAUSES",
+      "guideword": "USE: POINTING, IN FORMAL CONTEXTS",
+      "levels": [
+        "C1"
+      ],
+      "lowest_level": "C1",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "See enclosed brochure. (Sweden; C1 EFFECTIVE OPERATIONAL PROFICIENCY; 1993; Swedish; Pass)\n\nAs you requested in your memo, I have spent the past few days gathering information from the six students in"
+      ]
+    },
+    {
+      "id": "1741163708336x234249756391385900",
+      "category": "CLAUSES",
+      "guideword": "FORM/USE: 'DON'T YOU …'",
+      "levels": [
+        "C2"
+      ],
+      "lowest_level": "C2",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "Don't you ever do that again! (Cyprus; C2 MASTERY; 2001; Greek; Pass)\n\nDon't you dare! (Portugal; C2 MASTERY; 1993; Portuguese; Pass)\n\nDon't you dare forget me, I want letters from you promptly, under"
+      ]
+    },
+    {
+      "id": "1741163715814x475016379352568560",
+      "category": "CLAUSES",
+      "guideword": "FORM/USE: 'IF IT WERE NOT FOR', FORMAL",
+      "levels": [
+        "C2"
+      ],
+      "lowest_level": "C2",
+      "dep_patterns": [
+        {
+          "type": "conditional",
+          "pattern": [
+            {
+              "DEP": "advcl"
+            }
+          ]
+        }
+      ],
+      "description": "conditional clause",
+      "examples": [
+        "If it weren't for that boy, I am definitely certain that I would have failed the examinations and I would have ended up taking the class again the following year. (Greece; C2 MASTERY; 2009; Greek; Pas"
+      ]
+    },
+    {
+      "id": "1741163715814x629362533174766300",
+      "category": "CLAUSES",
+      "guideword": "FORM/USE: 'IF IT WERE' + 'TO'-INFINITIVE FORM, FORMAL",
+      "levels": [
+        "C2"
+      ],
+      "lowest_level": "C2",
+      "dep_patterns": [
+        {
+          "type": "conditional",
+          "pattern": [
+            {
+              "DEP": "advcl"
+            }
+          ]
+        }
+      ],
+      "description": "conditional clause",
+      "examples": [
+        "If it were to be published, the first issue would probably include a small introduction about the people who helped in the creation of the magazine. (Greece; C1 EFFECTIVE OPERATIONAL PROFICIENCY; 2001"
+      ]
+    },
+    {
+      "id": "1741163716067x147000311893029860",
+      "category": "FOCUS",
+      "guideword": "FORM/USE: 'IT' CLEFT",
+      "levels": [
+        "C2"
+      ],
+      "lowest_level": "C2",
+      "dep_patterns": [
+        {
+          "type": "focus",
+          "pattern": [
+            {
+              "DEP": "advcl"
+            }
+          ]
+        }
+      ],
+      "description": "focus construction",
+      "examples": [
+        "It is Lily who decides to go to the seaside and it is also her who kills the turkey given by a lorry-driver. (France; C2 MASTERY; 1993; French; Pass)\n\nIt was Paul who stole the money. (Hong Kong; C2 M"
+      ]
+    },
+    {
+      "id": "1741163708335x133935596064802990",
+      "category": "CLAUSES",
+      "guideword": "FORM/USE: 'LET' + THIRD PERSON PRONOUN, DEVOLVING RESPONSIBILITY",
+      "levels": [
+        "C2"
+      ],
+      "lowest_level": "C2",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "Let them find their own food. (Portugal; C2 MASTERY; 1993; Portuguese; Pass)\n\nBut she put aside her friends because she didn't want to be pitied. After few attempts her friends gave up.\"Let her live a"
+      ]
+    },
+    {
+      "id": "1741163716065x120095405121205090",
+      "category": "FOCUS",
+      "guideword": "FORM/USE: 'NOT A' + NOUN",
+      "levels": [
+        "C2"
+      ],
+      "lowest_level": "C2",
+      "dep_patterns": [
+        {
+          "type": "focus",
+          "pattern": [
+            {
+              "DEP": "advcl"
+            }
+          ]
+        }
+      ],
+      "description": "focus construction",
+      "examples": [
+        "Not a word was spoken by anyone throughout the journey. (Cyprus; C2 MASTERY; 2000; Greek; Pass)\n\nNot a scrap of remorse do they have. (Switzerland; C2 MASTERY; 1993; French; Pass)"
+      ]
+    },
+    {
+      "id": "1741163708152x610028410376589400",
+      "category": "CLAUSES",
+      "guideword": "FORM/USE: 'SO ...  AS TO', FORMAL",
+      "levels": [
+        "C2"
+      ],
+      "lowest_level": "C2",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "Travellers should not be so ignorant as to think they can understand other nationalities better when they have once lived in one of their hotels. (Germany; C2 MASTERY; 1993; German; Pass)\n\nHowever, as"
+      ]
+    },
+    {
+      "id": "1741163716065x880428316136173400",
+      "category": "FOCUS",
+      "guideword": "FORM/USE: 'THE' + PREMODIFIER + 'THING, FACT etc.' + 'IS (THAT)'",
+      "levels": [
+        "C2"
+      ],
+      "lowest_level": "C2",
+      "dep_patterns": [
+        {
+          "type": "focus",
+          "pattern": [
+            {
+              "DEP": "advcl"
+            }
+          ]
+        }
+      ],
+      "description": "focus construction",
+      "examples": [
+        "The sad thing about it was that it was actually Richard who said, \"Why don't you go on holiday?” (Poland; C2 MASTERY; 1993; Polish; Pass)\n\nThe strange thing was that the noise reminded her of someone "
+      ]
+    },
+    {
+      "id": "1741163715813x225051382084452860",
+      "category": "CLAUSES",
+      "guideword": "FORM/USE: 'WERE IT NOT FOR', FORMAL",
+      "levels": [
+        "C2"
+      ],
+      "lowest_level": "C2",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "Were it not for my university, I would give up this class immediately. (Russia; B1 THRESHOLD; 2002; Russian; Pass)\n\nWere it not for that kind of toy, children would be able to gain more team-spirit, c"
+      ]
+    },
+    {
+      "id": "1741163708570x297785508495203460",
+      "category": "CLAUSES",
+      "guideword": "FORM/USE: 'WERE' + PRONOUN + 'TO' INFINITIVE, FORMAL",
+      "levels": [
+        "C2"
+      ],
+      "lowest_level": "C2",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "Were I to choose one of them, I would select the last one, so that I could have the opportunity to take part in my favourite radio station's programme. (Greece; C2 MASTERY; 2005; Greek; Fail)\n\nWere yo"
+      ]
+    },
+    {
+      "id": "1741163716065x984349956970362600",
+      "category": "FOCUS",
+      "guideword": "FORM/USE: 'WH-'CLEFT  CLAUSE",
+      "levels": [
+        "C2"
+      ],
+      "lowest_level": "C2",
+      "dep_patterns": [
+        {
+          "type": "focus",
+          "pattern": [
+            {
+              "DEP": "advcl"
+            }
+          ]
+        }
+      ],
+      "description": "focus construction",
+      "examples": [
+        "How we are brought up forms our character, our thinking and our attitude towards ourselves and towards everybody and everything around us. (Switzerland; C2 MASTERY; 1993; German; Fail)\n\nWhere he had g"
+      ]
+    },
+    {
+      "id": "1741163715814x878379023593554300",
+      "category": "CLAUSES",
+      "guideword": "FORM/USE: 'WHETHER OR NOT', FORMAL ",
+      "levels": [
+        "C2"
+      ],
+      "lowest_level": "C2",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "Whether or not the visitors should imitate local customs and behaviour is definitely a debatable issue. (India; 2003; Hindi)\n\nWhether or not it is better to educate boys and girls in separate schools "
+      ]
+    },
+    {
+      "id": "1741163715813x251667317407443520",
+      "category": "CLAUSES",
+      "guideword": "FORM/USE: INVERTED 'WERE' + 'TO' INFINITIVE, FORMAL",
+      "levels": [
+        "C2"
+      ],
+      "lowest_level": "C2",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "Were I to win this travel scholarship, the country of my choice would be Japan. (Switzerland; C2 MASTERY; 2001; German; Pass)\n\nWere you to compare people's views on animals to their views on food, you"
+      ]
+    },
+    {
+      "id": "1741163715813x104521611350361970",
+      "category": "CLAUSES",
+      "guideword": "FORM/USE: INVERTED PAST PERFECT, IMAGINED PAST",
+      "levels": [
+        "C2"
+      ],
+      "lowest_level": "C2",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "Had he been more experienced he would have known that these things always happen in this part of the world. (Sweden; C2 MASTERY; 2001; Swedish; Pass)\n\nHad we known this fact we would have organised mo"
+      ]
+    },
+    {
+      "id": "1741163716067x243366578638317700",
+      "category": "FOCUS",
+      "guideword": "FORM/USE: MULTIPLE FIXED EXPRESSIONS",
+      "levels": [
+        "C2"
+      ],
+      "lowest_level": "C2",
+      "dep_patterns": [
+        {
+          "type": "focus",
+          "pattern": [
+            {
+              "DEP": "advcl"
+            }
+          ]
+        }
+      ],
+      "description": "focus construction",
+      "examples": [
+        "But all of a sudden, out of nowhere a bunch of people came running towards him, yelling something he couldn't understand. (Switzerland; C2 MASTERY; 2000; Chinese; Pass)\n\nAll in all, taking everything "
+      ]
+    },
+    {
+      "id": "1741163708329x546836553751250300",
+      "category": "CLAUSES",
+      "guideword": "FORM/USE: NEGATIVE CLAUSE +  'NOR', FOCUS",
+      "levels": [
+        "C2"
+      ],
+      "lowest_level": "C2",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "That night Kevin did not sleep; nor did Kristin. (Spain; C2 MASTERY; 1999; Catalan; Pass)\n\nThey do not have any hobbies, nor do they have friends or relatives (at least not where they live). (Sweden; "
+      ]
+    },
+    {
+      "id": "1741163708570x407214749191681340",
+      "category": "CLAUSES",
+      "guideword": "FORM/USE: NON-FINITE AFTER 'ALTHOUGH', 'THOUGH'",
+      "levels": [
+        "C2"
+      ],
+      "lowest_level": "C2",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "\nI was my parents' first and only child, and I was brought up at my grandparents' home, because, although married, my mother decided not to leave her parents' home, and my father agreed with her. (Spa"
+      ]
+    },
+    {
+      "id": "1741163708153x262593982426201800",
+      "category": "CLAUSES",
+      "guideword": "FORM: 'AS IF' + NON-FINITE CLAUSE",
+      "levels": [
+        "C2"
+      ],
+      "lowest_level": "C2",
+      "dep_patterns": [
+        {
+          "type": "conditional",
+          "pattern": [
+            {
+              "DEP": "advcl"
+            }
+          ]
+        }
+      ],
+      "description": "conditional clause",
+      "examples": [
+        "She closed her eyes as if to push those thoughts away. (Brazil; C2 MASTERY; 1993; Portuguese; Pass)\n\nThere it was: the chef's body, hacked to pieces, a carving knife in his hand as if to scare off an "
+      ]
+    },
+    {
+      "id": "1741163708563x872592345857643000",
+      "category": "CLAUSES",
+      "guideword": "FORM: 'HOW' + ADVERB + CLAUSE",
+      "levels": [
+        "C2"
+      ],
+      "lowest_level": "C2",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "How differently we were brought up by our mother. (Germany; C2 MASTERY; 1993; German; Pass)"
+      ]
+    },
+    {
+      "id": "1741163708563x629778718895767000",
+      "category": "CLAUSES",
+      "guideword": "FORM: 'HOW' + CLAUSE",
+      "levels": [
+        "C2"
+      ],
+      "lowest_level": "C2",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "How I often longed to play with the other children or relax with a good book. (Germany; C2 MASTERY; 1993; German; Pass)\n\nHow I love the smell of home! (Brazil; C2 MASTERY; 1993; Portuguese; Pass)\n\nHow"
+      ]
+    },
+    {
+      "id": "1741163715813x134565574339758690",
+      "category": "CLAUSES",
+      "guideword": "USE: INVERTED 'SHOULD', FUTURE, POSSIBLE OUTCOME, FORMAL, POLITE ",
+      "levels": [
+        "C2"
+      ],
+      "lowest_level": "C2",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "Should we win your prize we would like to build a new school close to our production center, for the children of the area. (Switzerland; C1 EFFECTIVE OPERATIONAL PROFICIENCY; 2004; German; Pass)\n\nShou"
+      ]
+    },
+    {
+      "id": "1741163715026x782914672927385200",
+      "category": "QUESTIONS",
+      "guideword": "FORM: CLAUSE + CLAUSE",
+      "levels": [
+        "A1",
+        "B1"
+      ],
+      "lowest_level": "A1",
+      "spacy_patterns": [
+        {
+          "TAG": {
+            "IN": [
+              "VBD",
+              "VBZ",
+              "VBP",
+              "MD"
+            ]
+          }
+        }
+      ],
+      "regex_pattern": null,
+      "description": "question",
+      "examples": [
+        "Are you still with him or did you two break up? (Peru; B1 THRESHOLD; 2005; Spanish - Latin American; Pass)\n\nShould I go there and talk to her or should I stay here? (Cyprus; B1 THRESHOLD; 2009; Greek;",
+        "He is a journalist and he likes everything about cinema. (A1 BREAKTHROUGH; 2006; Italian; Pass)\n\nThere are lots of shops in the town and the town is only five minutes away. (A1 BREAKTHROUGH; 2008; Urd"
+      ]
+    },
+    {
+      "id": "1741163715032x756418004139892900",
+      "category": "QUESTIONS",
+      "guideword": "FORM: MODAL VERBS",
+      "levels": [
+        "A1",
+        "A2"
+      ],
+      "lowest_level": "A1",
+      "spacy_patterns": [
+        {
+          "TAG": {
+            "IN": [
+              "VBD",
+              "VBZ",
+              "VBP",
+              "MD"
+            ]
+          }
+        }
+      ],
+      "regex_pattern": null,
+      "description": "question",
+      "examples": [
+        "Can you come to dinner in my house? (A1 BREAKTHROUGH; 2008; Polish; Pass)\n\nI can't find my CD, can you bring some music please? (A1 BREAKTHROUGH; 2008; Romanian; Pass)",
+        "Could you meet me at my home at 7 pm? (Brazil; A2 WAYSTAGE; 2008; Portuguese; Pass)\n\nCould you look for it? (Uruguay; A2 WAYSTAGE; 2005; Spanish - Latin American; Pass)\n\nWould you like to go with me t"
+      ]
+    },
+    {
+      "id": "1741163715026x510674477671172500",
+      "category": "QUESTIONS",
+      "guideword": "FORM: PHRASE + PHRASE",
+      "levels": [
+        "A1",
+        "B1"
+      ],
+      "lowest_level": "A1",
+      "spacy_patterns": [
+        {
+          "TAG": {
+            "IN": [
+              "VBD",
+              "VBZ",
+              "VBP",
+              "MD"
+            ]
+          }
+        }
+      ],
+      "regex_pattern": null,
+      "description": "question",
+      "examples": [
+        "Is this area in the city or in the countryside? (Switzerland; B1 THRESHOLD; 2008; Swiss German; Pass)\n\nDo you feel more sympathy for your friends or your parents? (Germany; B1 THRESHOLD; 2008; German;",
+        "My home is very light and very comfortable. (A1 BREAKTHROUGH; 2009; Polish; Pass)\n\nI live with my mother and her boyfriend. (A1 BREAKTHROUGH; 2009; Polish; Pass)\n\nMy house is small but very nice. (A1 "
+      ]
+    },
+    {
+      "id": "1741163715026x780872145435740400",
+      "category": "QUESTIONS",
+      "guideword": "FORM: WORD + WORD",
+      "levels": [
+        "A1",
+        "A2"
+      ],
+      "lowest_level": "A1",
+      "spacy_patterns": [
+        {
+          "TAG": {
+            "IN": [
+              "VBD",
+              "VBZ",
+              "VBP",
+              "MD"
+            ]
+          }
+        }
+      ],
+      "regex_pattern": null,
+      "description": "question",
+      "examples": [
+        "Can you bring some food or drinks for the dinner? (Spain; A2 WAYSTAGE; 2009; Spanish - European; Pass) \n\nIs it cheap or expensive for you? (Spain; A2 WAYSTAGE; 2010; Spanish - European; Pass)\n\nWe can ",
+        "I like chicken and rice. I don't like meat and fish. (A1 BREAKTHROUGH; 2006; Kurdish; Pass)\n\nMy street is quiet and friendly. (A1 BREAKTHROUGH; 2008; Polish; Pass)\n\nOn Monday and Wednesday I have Engl"
+      ]
+    },
+    {
+      "id": "1741163715031x643536767928989600",
+      "category": "QUESTIONS",
+      "guideword": "FORM/USE: NEGATIVE QUESTONS, SUGGESTIONS",
+      "levels": [
+        "A2"
+      ],
+      "lowest_level": "A2",
+      "spacy_patterns": [
+        {
+          "TAG": {
+            "IN": [
+              "VBD",
+              "VBZ",
+              "VBP",
+              "MD"
+            ]
+          }
+        }
+      ],
+      "regex_pattern": null,
+      "description": "question",
+      "examples": [
+        "Why don't we watch a film? (Tamil, A2 WAYSTAGE)\n\nWhy don't you come with me? (Italian, A2 WAYSTAGE)\n"
+      ]
+    },
+    {
+      "id": "1741163715033x134646499658930300",
+      "category": "QUESTIONS",
+      "guideword": "FORM: AUXILIARY 'BE'",
+      "levels": [
+        "A2"
+      ],
+      "lowest_level": "A2",
+      "spacy_patterns": [
+        {
+          "TAG": {
+            "IN": [
+              "VBD",
+              "VBZ",
+              "VBP",
+              "MD"
+            ]
+          }
+        }
+      ],
+      "regex_pattern": null,
+      "description": "question",
+      "examples": [
+        "Are you going to come? (Spain; A2 WAYSTAGE; 2006; Catalan; Pass)\n\nAre you feeling better? (A2 WAYSTAGE; 2008; Spanish - Latin American; Pass)\n\nAre you going to the new art class? (Cyprus; A2 WAYSTAGE;"
+      ]
+    },
+    {
+      "id": "1741163715033x444139630968705800",
+      "category": "QUESTIONS",
+      "guideword": "FORM: AUXILIARY 'HAVE'",
+      "levels": [
+        "A2"
+      ],
+      "lowest_level": "A2",
+      "spacy_patterns": [
+        {
+          "TAG": {
+            "IN": [
+              "VBD",
+              "VBZ",
+              "VBP",
+              "MD"
+            ]
+          }
+        }
+      ],
+      "regex_pattern": null,
+      "description": "question",
+      "examples": [
+        "I've just watched a football competition with my family and friends. Have you watched it? (Japan; A2 WAYSTAGE; 2007; Japanese; Pass)\n\nI left my mobile in your house, have you seen it? (Argentina; A2 W"
+      ]
+    },
+    {
+      "id": "1741163715033x199281404596736400",
+      "category": "QUESTIONS",
+      "guideword": "FORM: LEXICAL VERBS WITH 'DO'",
+      "levels": [
+        "A2"
+      ],
+      "lowest_level": "A2",
+      "spacy_patterns": [
+        {
+          "TAG": {
+            "IN": [
+              "VBD",
+              "VBZ",
+              "VBP",
+              "MD"
+            ]
+          }
+        }
+      ],
+      "regex_pattern": null,
+      "description": "question",
+      "examples": [
+        "My favourite song is 'Viva la vida'. Do you know it? (Spain; A2 WAYSTAGE; 2009; Spanish - European; Pass)\n\nMy bedroom will be blue!! I love this colour!! Do you like it? (Brazil; A2 WAYSTAGE; 2006; Po"
+      ]
+    },
+    {
+      "id": "1741163715031x898125206259626100",
+      "category": "QUESTIONS",
+      "guideword": "FORM: MAIN VERB 'BE'",
+      "levels": [
+        "A2"
+      ],
+      "lowest_level": "A2",
+      "spacy_patterns": [
+        {
+          "TAG": {
+            "IN": [
+              "VBD",
+              "VBZ",
+              "VBP",
+              "MD"
+            ]
+          }
+        }
+      ],
+      "regex_pattern": null,
+      "description": "question",
+      "examples": [
+        "How was your dinner yesterday? (Mexico; A2 WAYSTAGE; 2009; Spanish - Latin American; Pass)\n\nHow are you, my friend? (India; A2 WAYSTAGE; 2010; Hindi; Pass)\n\nWhere are you, men? (Brazil; A2 WAYSTAGE; 2",
+        "Are you ok? (A2 WAYSTAGE; 2007; Kurdish; Pass)\n\nWhere is your dog? Is it ok? (Turkey; A2 WAYSTAGE; 2003; Turkish; Pass)\n\nAre you ready? (Italy; A2 WAYSTAGE; 2006; Italian; Pass)"
+      ]
+    },
+    {
+      "id": "1741163715031x610001690827891800",
+      "category": "QUESTIONS",
+      "guideword": "FORM: MODAL VERBS ",
+      "levels": [
+        "A2"
+      ],
+      "lowest_level": "A2",
+      "spacy_patterns": [
+        {
+          "TAG": {
+            "IN": [
+              "VBD",
+              "VBZ",
+              "VBP",
+              "MD"
+            ]
+          }
+        }
+      ],
+      "regex_pattern": null,
+      "description": "question",
+      "examples": [
+        "What will you bring? (Turkey; A2 WAYSTAGE; 2009; Turkish; Pass)\n\nWhat can I do? (A2 WAYSTAGE; 2010; Arabic - Other; Pass)\n\nHow can I help you? (A2 WAYSTAGE; 2008; Polish; Pass)\n\nHow will you get here?"
+      ]
+    },
+    {
+      "id": "1741163715029x648850706024519700",
+      "category": "QUESTIONS",
+      "guideword": "FORM: QUESTION TAGS",
+      "levels": [
+        "A2"
+      ],
+      "lowest_level": "A2",
+      "spacy_patterns": [
+        [
+          {
+            "TAG": {
+              "IN": [
+                "NN",
+                "PRP"
+              ]
+            }
+          },
+          {
+            "LOWER": "?"
+          }
+        ]
+      ],
+      "regex_pattern": null,
+      "description": "question tags",
+      "examples": [
+        "You don't know where I live, do you? (Spain; A2 WAYSTAGE; 2009; Spanish - European; Pass)\n\nIt differs from the story which you told me, doesn't it? (Japan; A2 WAYSTAGE; 2010; Japanese; Pass)\n\nIt's fan"
+      ]
+    },
+    {
+      "id": "1741163715031x588201738254725100",
+      "category": "QUESTIONS",
+      "guideword": "FORM: WITH AUXILIARY 'BE'",
+      "levels": [
+        "A2"
+      ],
+      "lowest_level": "A2",
+      "spacy_patterns": [
+        {
+          "TAG": {
+            "IN": [
+              "VBD",
+              "VBZ",
+              "VBP",
+              "MD"
+            ]
+          }
+        }
+      ],
+      "regex_pattern": null,
+      "description": "question",
+      "examples": [
+        "Who are you going with? (Philippines; A2 WAYSTAGE; 2009; Tagalog; Pass)\n\nWhen are you coming here? (Spain; A2 WAYSTAGE; 2009; Spanish - European; Pass)\n\nWhere are you going? (Philippines; A2 WAYSTAGE;"
+      ]
+    },
+    {
+      "id": "1741163715031x260861213622010530",
+      "category": "QUESTIONS",
+      "guideword": "FORM: WITH AUXILIARY 'DO'",
+      "levels": [
+        "A2"
+      ],
+      "lowest_level": "A2",
+      "spacy_patterns": [
+        {
+          "TAG": {
+            "IN": [
+              "VBD",
+              "VBZ",
+              "VBP",
+              "MD"
+            ]
+          }
+        }
+      ],
+      "regex_pattern": null,
+      "description": "question",
+      "examples": [
+        "What do you think? (Brazil; A2 WAYSTAGE; 2001; Portuguese; Pass)\n\nWhat did you do yesterday? (Spain; A2 WAYSTAGE; 2008; Spanish - European; Pass)\n\nWhere did you go? (Taiwan; A2 WAYSTAGE; 2009; Chinese"
+      ]
+    },
+    {
+      "id": "1741163715031x105271547041443380",
+      "category": "QUESTIONS",
+      "guideword": "FORM: WITH AUXILIARY 'HAVE'",
+      "levels": [
+        "A2"
+      ],
+      "lowest_level": "A2",
+      "spacy_patterns": [
+        {
+          "TAG": {
+            "IN": [
+              "VBD",
+              "VBZ",
+              "VBP",
+              "MD"
+            ]
+          }
+        }
+      ],
+      "regex_pattern": null,
+      "description": "question",
+      "examples": [
+        "How have you been? (2666051_1; KET; Brazil; A2 WAYSTAGE; 2009; Portuguese; Pass)\n\nWhat have you brought for me? (2644997_1; KET; France; A2 WAYSTAGE; 2009; French; Pass)"
+      ]
+    },
+    {
+      "id": "1741163715026x244056815814885470",
+      "category": "QUESTIONS",
+      "guideword": "FORM/USE: 'OR NOT'",
+      "levels": [
+        "B1"
+      ],
+      "lowest_level": "B1",
+      "spacy_patterns": [
+        {
+          "TAG": {
+            "IN": [
+              "VBD",
+              "VBZ",
+              "VBP",
+              "MD"
+            ]
+          }
+        }
+      ],
+      "regex_pattern": null,
+      "description": "question",
+      "examples": [
+        "For a few seconds he was quiet. I couldn't wait, I asked nervously about his exam, did he pass or not? (Poland; B1 THRESHOLD; 2005; Polish; Pass)\n\nDo you want to do that or not? (Japan; B1 THRESHOLD; "
+      ]
+    },
+    {
+      "id": "1741163715026x124934317842935180",
+      "category": "QUESTIONS",
+      "guideword": "FORM/USE: 'OR SOMETHING ELSE', VAGUE",
+      "levels": [
+        "B1"
+      ],
+      "lowest_level": "B1",
+      "spacy_patterns": [
+        {
+          "TAG": {
+            "IN": [
+              "VBD",
+              "VBZ",
+              "VBP",
+              "MD"
+            ]
+          }
+        }
+      ],
+      "regex_pattern": null,
+      "description": "question",
+      "examples": [
+        "Shall we buy him a book, a CD or something else? (Greece; B2 VANTAGE; 2000; Greek; Pass)\n\nPoetry, history or something else? (Hungary; B2 VANTAGE; 2004; Hungarian; Pass)"
+      ]
+    },
+    {
+      "id": "1741163715030x321100995378926500",
+      "category": "QUESTIONS",
+      "guideword": "FORM/USE: 'RIGHT' AS AN INFORMAL TAG",
+      "levels": [
+        "B1"
+      ],
+      "lowest_level": "B1",
+      "spacy_patterns": [
+        {
+          "TAG": {
+            "IN": [
+              "VBD",
+              "VBZ",
+              "VBP",
+              "MD"
+            ]
+          }
+        }
+      ],
+      "regex_pattern": null,
+      "description": "question",
+      "examples": [
+        "You are 14 years old, right? (Germany; B1 THRESHOLD; 2008; German; Pass)\n\nI think you asked if I liked shopping for clothes, right? (Peru; B1 THRESHOLD; 2006; Spanish - Latin American; Pass)\n\nYou aske"
+      ]
+    },
+    {
+      "id": "1741163715029x581931663090474100",
+      "category": "QUESTIONS",
+      "guideword": "FORM: AFFIRMATIVE MAIN CLAUSES + AFFIRMATIVE QUESTION TAGS ",
+      "levels": [
+        "B1"
+      ],
+      "lowest_level": "B1",
+      "spacy_patterns": [
+        [
+          {
+            "TAG": {
+              "IN": [
+                "NN",
+                "PRP"
+              ]
+            }
+          },
+          {
+            "LOWER": "?"
+          }
+        ]
+      ],
+      "regex_pattern": null,
+      "description": "question tags",
+      "examples": [
+        "Your boyfriend is also 16, is he? (Germany; B1 THRESHOLD; 2001; German; Pass)\n\nYou bought new black clothes, did you? (France; B1 THRESHOLD; 2006; French; Pass)"
+      ]
+    },
+    {
+      "id": "1741163715029x648987133230414000",
+      "category": "QUESTIONS",
+      "guideword": "FORM: AFFIRMATIVE MAIN CLAUSES + NEGATIVE QUESTION TAGS ",
+      "levels": [
+        "B1"
+      ],
+      "lowest_level": "B1",
+      "spacy_patterns": [
+        [
+          {
+            "TAG": {
+              "IN": [
+                "NN",
+                "PRP"
+              ]
+            }
+          },
+          {
+            "LOWER": "?"
+          }
+        ]
+      ],
+      "regex_pattern": null,
+      "description": "question tags",
+      "examples": [
+        "And so you're moving to a different area, aren't you? (Italy; B1 THRESHOLD; 2008; Italian; Pass)\n\nYou love books, don't you? (Italy; B1 THRESHOLD; 2005; Italian; Pass)\n\nIt sounds peaceful, doesn't it?"
+      ]
+    },
+    {
+      "id": "1741163715029x657729815451493500",
+      "category": "QUESTIONS",
+      "guideword": "FORM: NEGATIVE MAIN CLAUSES + AFFIRMATIVE QUESTION TAGS ",
+      "levels": [
+        "B1"
+      ],
+      "lowest_level": "B1",
+      "spacy_patterns": [
+        [
+          {
+            "TAG": {
+              "IN": [
+                "NN",
+                "PRP"
+              ]
+            }
+          },
+          {
+            "LOWER": "?"
+          }
+        ]
+      ],
+      "regex_pattern": null,
+      "description": "question tags",
+      "examples": [
+        "I mean, your parents don't like discos, do they? (Brazil; B1 THRESHOLD; 2008; Portuguese; Pass)\n\nDoesn't sound interesting, does it? (Germany; B1 THRESHOLD; 2008; German; Pass)\n\nHe is not important, i"
+      ]
+    },
+    {
+      "id": "1741163715034x328104656808845060",
+      "category": "QUESTIONS",
+      "guideword": "FORM: NEGATIVE QUESTIONS MODAL VERBS",
+      "levels": [
+        "B1"
+      ],
+      "lowest_level": "B1",
+      "spacy_patterns": [
+        {
+          "TAG": {
+            "IN": [
+              "VBD",
+              "VBZ",
+              "VBP",
+              "MD"
+            ]
+          }
+        }
+      ],
+      "regex_pattern": null,
+      "description": "question",
+      "examples": [
+        "Wouldn't you like to come? (Uruguay; B1 THRESHOLD; 2002; Spanish - Latin American; Pass)\n\nI'm going to a picnic next Saturday with my parents, won't you come with us? (Uruguay; B1 THRESHOLD; 2009; Spa"
+      ]
+    },
+    {
+      "id": "1741163715034x128016271247440200",
+      "category": "QUESTIONS",
+      "guideword": "FORM: NEGATIVE QUESTIONS WITH 'BE'",
+      "levels": [
+        "B1"
+      ],
+      "lowest_level": "B1",
+      "spacy_patterns": [
+        {
+          "TAG": {
+            "IN": [
+              "VBD",
+              "VBZ",
+              "VBP",
+              "MD"
+            ]
+          }
+        }
+      ],
+      "regex_pattern": null,
+      "description": "question",
+      "examples": [
+        "Aren't you excited about it? (Uruguay; B1 THRESHOLD; 2003; ; Pass)\n\nIsn't he sweet? (Germany; B1 THRESHOLD; 2001; German; Pass)\n\n[talking about a cottage] Isn't it in the mountains? (Czech Republic; B"
+      ]
+    },
+    {
+      "id": "1741163715031x926368932096683900",
+      "category": "QUESTIONS",
+      "guideword": "FORM: NEGATIVE QUESTIONS WITH MODALS",
+      "levels": [
+        "B1"
+      ],
+      "lowest_level": "B1",
+      "spacy_patterns": [
+        {
+          "TAG": {
+            "IN": [
+              "VBD",
+              "VBZ",
+              "VBP",
+              "MD"
+            ]
+          }
+        }
+      ],
+      "regex_pattern": null,
+      "description": "question",
+      "examples": [
+        "Why can't you do both things? (Italy; B1 THRESHOLD; 2008; Italian; Pass)\n\nWhy couldn't I control myself? (Spanish - Latin American, B1 THRESHOLD)"
+      ]
+    },
+    {
+      "id": "1741163715034x165762004955058560",
+      "category": "QUESTIONS",
+      "guideword": "FORM: NEGATIVE QUESTIONS, AUXILIARY VERBS",
+      "levels": [
+        "B1"
+      ],
+      "lowest_level": "B1",
+      "spacy_patterns": [
+        {
+          "TAG": {
+            "IN": [
+              "VBD",
+              "VBZ",
+              "VBP",
+              "MD"
+            ]
+          }
+        }
+      ],
+      "regex_pattern": null,
+      "description": "question",
+      "examples": [
+        "Don't you think so? (Japan; B1 THRESHOLD; 2008; Japanese; Pass)\n\nDon't you like any programmes? (Spain; B1 THRESHOLD; 2007; Spanish - European; Pass)\n\nDon't you think she would be happy? (Argentina; B"
+      ]
+    },
+    {
+      "id": "1741163715034x378736507797090750",
+      "category": "QUESTIONS",
+      "guideword": "USE: SEEKING AGREEMENT",
+      "levels": [
+        "B1"
+      ],
+      "lowest_level": "B1",
+      "spacy_patterns": [
+        {
+          "TAG": {
+            "IN": [
+              "VBD",
+              "VBZ",
+              "VBP",
+              "MD"
+            ]
+          }
+        }
+      ],
+      "regex_pattern": null,
+      "description": "question",
+      "examples": [
+        "Finally two days ago I found it in my pocket! It's funny! Don't you think? (Italy; B1 THRESHOLD; 2000; Italian; Pass)\n\nThey're filming a part of Harry Potter at our school, because our main building i"
+      ]
+    },
+    {
+      "id": "1741163715030x194842096031816000",
+      "category": "QUESTIONS",
+      "guideword": "FORM/USE: TAGS WITH IMPERATIVES AS SOFTENERS",
+      "levels": [
+        "B2"
+      ],
+      "lowest_level": "B2",
+      "spacy_patterns": [
+        {
+          "TAG": {
+            "IN": [
+              "VBD",
+              "VBZ",
+              "VBP",
+              "MD"
+            ]
+          }
+        }
+      ],
+      "regex_pattern": null,
+      "description": "question",
+      "examples": [
+        "Think about it, will you? (Spain; B2 VANTAGE; 2001; Catalan; Pass)\n\nGo to the Lake Frene route, will you? (Japan; B2 VANTAGE; 1998; Japanese; Pass)\n\nLet's check together, shall we? (Turkey; B2 VANTAGE"
+      ]
+    },
+    {
+      "id": "1741163715032x903417430290867700",
+      "category": "QUESTIONS",
+      "guideword": "FORM: NEGATIVE QUESTIONS WITH MAIN VERBS",
+      "levels": [
+        "B2"
+      ],
+      "lowest_level": "B2",
+      "spacy_patterns": [
+        {
+          "TAG": {
+            "IN": [
+              "VBD",
+              "VBZ",
+              "VBP",
+              "MD"
+            ]
+          }
+        }
+      ],
+      "regex_pattern": null,
+      "description": "question",
+      "examples": [
+        "You still have this agonising headache. Why don't you go to your doctor? (Polish, B2 VANTAGE)\n\nWhy didn't you check with the ticket office first before you wrote your article? (China; B2 VANTAGE; 1997"
+      ]
+    },
+    {
+      "id": "1741163715028x242469073040096920",
+      "category": "QUESTIONS",
+      "guideword": "FORM/USE: ELLIPTED MODAL, HEDGING",
+      "levels": [
+        "C1"
+      ],
+      "lowest_level": "C1",
+      "spacy_patterns": [
+        {
+          "TAG": {
+            "IN": [
+              "VBD",
+              "VBZ",
+              "VBP",
+              "MD"
+            ]
+          }
+        }
+      ],
+      "regex_pattern": null,
+      "description": "question",
+      "examples": [
+        "Maybe you could hand out toys or show a movie? (Sweden; C1 EFFECTIVE OPERATIONAL PROFICIENCY; 2005; Swedish; Pass)\n\nMaybe you will be able to arrange another excursion this year or provide more time t"
+      ]
+    },
+    {
+      "id": "1741163715028x672938393631707000",
+      "category": "QUESTIONS",
+      "guideword": "FORM/USE: STRONG ALTERNATIVE",
+      "levels": [
+        "C1"
+      ],
+      "lowest_level": "C1",
+      "spacy_patterns": [
+        {
+          "TAG": {
+            "IN": [
+              "VBD",
+              "VBZ",
+              "VBP",
+              "MD"
+            ]
+          }
+        }
+      ],
+      "regex_pattern": null,
+      "description": "question",
+      "examples": [
+        "Is this new industry a blessing for the region or the exact opposite? (Netherlands; C1 EFFECTIVE OPERATIONAL PROFICIENCY; 2004; Dutch; Pass)"
+      ]
+    },
+    {
+      "id": "1741163715030x683749532720890600",
+      "category": "QUESTIONS",
+      "guideword": "FORM: TAGS WITH 'THERE' + 'BE' ",
+      "levels": [
+        "C1"
+      ],
+      "lowest_level": "C1",
+      "spacy_patterns": [
+        {
+          "TAG": {
+            "IN": [
+              "VBD",
+              "VBZ",
+              "VBP",
+              "MD"
+            ]
+          }
+        }
+      ],
+      "regex_pattern": null,
+      "description": "question",
+      "examples": [
+        "As you put it that way, there isn't much of a difference with our time, is there? (Netherlands; C1 EFFECTIVE OPERATIONAL PROFICIENCY; 2000; Dutch; Pass)\n\nBut there is always something you can improve,"
+      ]
+    },
+    {
+      "id": "1741163715032x219052815087732670",
+      "category": "QUESTIONS",
+      "guideword": "USE: FOCUS",
+      "levels": [
+        "C1"
+      ],
+      "lowest_level": "C1",
+      "spacy_patterns": [
+        {
+          "TAG": {
+            "IN": [
+              "VBD",
+              "VBZ",
+              "VBP",
+              "MD"
+            ]
+          }
+        }
+      ],
+      "regex_pattern": null,
+      "description": "question",
+      "examples": [
+        "Nevertheless, we still give presents because we really want to. You can recognize them normally very fast! They are the ones which are unexpected and made with lots of love. So what makes a good prese"
+      ]
+    },
+    {
+      "id": "1741163715034x601077874617532500",
+      "category": "QUESTIONS",
+      "guideword": "FORM/USE: NEGATIVE QUESTIONS WITH 'NOT', EMPHASIS",
+      "levels": [
+        "C2"
+      ],
+      "lowest_level": "C2",
+      "spacy_patterns": [
+        {
+          "TAG": {
+            "IN": [
+              "VBD",
+              "VBZ",
+              "VBP",
+              "MD"
+            ]
+          }
+        }
+      ],
+      "regex_pattern": null,
+      "description": "question",
+      "examples": [
+        "Do we not want our children to be as happy as possible? (Argentina; C2 MASTERY; 2002; Spanish - Latin American; Pass)\n\nIs it not too easy to put the blame systematically on our education? (France; C2 "
+      ]
+    },
+    {
+      "id": "1741163715029x597656273954143700",
+      "category": "QUESTIONS",
+      "guideword": "FORM: ELLIPSIS",
+      "levels": [
+        "C2"
+      ],
+      "lowest_level": "C2",
+      "spacy_patterns": [
+        {
+          "TAG": {
+            "IN": [
+              "VBD",
+              "VBZ",
+              "VBP",
+              "MD"
+            ]
+          }
+        }
+      ],
+      "regex_pattern": null,
+      "description": "question",
+      "examples": [
+        "Is it not better to take the television away or stop them going to the cinema? (Switzerland; C2 MASTERY; 1993; German; Pass)\n\nDo you enjoy reading, find it a waste of time or have an indifferent attit"
+      ]
+    }
+  ]
+}

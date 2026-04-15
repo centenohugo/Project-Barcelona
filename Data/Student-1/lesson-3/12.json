@@ -1,0 +1,972 @@
+{
+  "results": {
+    "channels": [
+      {
+        "alternatives": [
+          {
+            "transcript": "After this, have to end my job because I yeah. Yeah. Yeah. But one hour and I will finish everything, and I will I will do sports. So I will go go out and and we'll see what's that? Thank you. Have a good day. Have a good day. See you soon.",
+            "confidence": 0.9980469,
+            "words": [
+              {
+                "word": "after",
+                "start": 0,
+                "end": 0.24,
+                "confidence": 0.796875,
+                "punctuated_word": "After"
+              },
+              {
+                "word": "this",
+                "start": 0.24,
+                "end": 0.79999995,
+                "confidence": 0.71655273,
+                "punctuated_word": "this,"
+              },
+              {
+                "word": "have",
+                "start": 1.4399999,
+                "end": 1.76,
+                "confidence": 0.97314453,
+                "punctuated_word": "have"
+              },
+              {
+                "word": "to",
+                "start": 1.76,
+                "end": 2.32,
+                "confidence": 1,
+                "punctuated_word": "to"
+              },
+              {
+                "word": "end",
+                "start": 3.28,
+                "end": 3.6,
+                "confidence": 0.9589844,
+                "punctuated_word": "end"
+              },
+              {
+                "word": "my",
+                "start": 3.6,
+                "end": 3.76,
+                "confidence": 1,
+                "punctuated_word": "my"
+              },
+              {
+                "word": "job",
+                "start": 3.76,
+                "end": 4,
+                "confidence": 1,
+                "punctuated_word": "job"
+              },
+              {
+                "word": "because",
+                "start": 4,
+                "end": 4.7200003,
+                "confidence": 0.9116211,
+                "punctuated_word": "because"
+              },
+              {
+                "word": "i",
+                "start": 5.6,
+                "end": 6.32,
+                "confidence": 0.9921875,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "yeah",
+                "start": 7.7599998,
+                "end": 8.08,
+                "confidence": 0.99853516,
+                "punctuated_word": "yeah."
+              },
+              {
+                "word": "yeah",
+                "start": 8.08,
+                "end": 8.4,
+                "confidence": 1,
+                "punctuated_word": "Yeah."
+              },
+              {
+                "word": "yeah",
+                "start": 8.4,
+                "end": 8.639999,
+                "confidence": 0.99902344,
+                "punctuated_word": "Yeah."
+              },
+              {
+                "word": "but",
+                "start": 8.639999,
+                "end": 8.88,
+                "confidence": 0.9951172,
+                "punctuated_word": "But"
+              },
+              {
+                "word": "one",
+                "start": 8.88,
+                "end": 9.599999,
+                "confidence": 0.9770508,
+                "punctuated_word": "one"
+              },
+              {
+                "word": "hour",
+                "start": 9.599999,
+                "end": 9.92,
+                "confidence": 1,
+                "punctuated_word": "hour"
+              },
+              {
+                "word": "and",
+                "start": 9.92,
+                "end": 10.16,
+                "confidence": 0.64501953,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "i",
+                "start": 10.16,
+                "end": 10.559999,
+                "confidence": 0.9951172,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "will",
+                "start": 10.559999,
+                "end": 11.12,
+                "confidence": 0.9980469,
+                "punctuated_word": "will"
+              },
+              {
+                "word": "finish",
+                "start": 11.12,
+                "end": 11.759999,
+                "confidence": 1,
+                "punctuated_word": "finish"
+              },
+              {
+                "word": "everything",
+                "start": 11.759999,
+                "end": 12.32,
+                "confidence": 0.8117676,
+                "punctuated_word": "everything,"
+              },
+              {
+                "word": "and",
+                "start": 12.32,
+                "end": 12.48,
+                "confidence": 0.99316406,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "i",
+                "start": 12.48,
+                "end": 13.04,
+                "confidence": 0.94628906,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "will",
+                "start": 13.04,
+                "end": 14.16,
+                "confidence": 0.9980469,
+                "punctuated_word": "will"
+              },
+              {
+                "word": "i",
+                "start": 14.325,
+                "end": 14.724999,
+                "confidence": 0.984375,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "will",
+                "start": 14.724999,
+                "end": 15.445,
+                "confidence": 1,
+                "punctuated_word": "will"
+              },
+              {
+                "word": "do",
+                "start": 15.445,
+                "end": 15.684999,
+                "confidence": 0.97509766,
+                "punctuated_word": "do"
+              },
+              {
+                "word": "sports",
+                "start": 15.684999,
+                "end": 16.244999,
+                "confidence": 0.7709961,
+                "punctuated_word": "sports."
+              },
+              {
+                "word": "so",
+                "start": 16.244999,
+                "end": 16.404999,
+                "confidence": 1,
+                "punctuated_word": "So"
+              },
+              {
+                "word": "i",
+                "start": 16.404999,
+                "end": 16.645,
+                "confidence": 0.99902344,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "will",
+                "start": 16.645,
+                "end": 17.045,
+                "confidence": 1,
+                "punctuated_word": "will"
+              },
+              {
+                "word": "go",
+                "start": 17.045,
+                "end": 18.085,
+                "confidence": 0.9741211,
+                "punctuated_word": "go"
+              },
+              {
+                "word": "go",
+                "start": 18.085,
+                "end": 18.485,
+                "confidence": 0.99902344,
+                "punctuated_word": "go"
+              },
+              {
+                "word": "out",
+                "start": 18.485,
+                "end": 18.805,
+                "confidence": 1,
+                "punctuated_word": "out"
+              },
+              {
+                "word": "and",
+                "start": 18.805,
+                "end": 19.125,
+                "confidence": 0.51708984,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "and",
+                "start": 19.125,
+                "end": 19.445,
+                "confidence": 0.9394531,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "we'll",
+                "start": 19.445,
+                "end": 19.845,
+                "confidence": 0.9921875,
+                "punctuated_word": "we'll"
+              },
+              {
+                "word": "see",
+                "start": 19.845,
+                "end": 20.484999,
+                "confidence": 0.99902344,
+                "punctuated_word": "see"
+              },
+              {
+                "word": "what's",
+                "start": 21.445,
+                "end": 21.925,
+                "confidence": 0.7128906,
+                "punctuated_word": "what's"
+              },
+              {
+                "word": "that",
+                "start": 21.925,
+                "end": 22.324999,
+                "confidence": 0.9211426,
+                "punctuated_word": "that?"
+              },
+              {
+                "word": "thank",
+                "start": 24.564999,
+                "end": 24.805,
+                "confidence": 0.99902344,
+                "punctuated_word": "Thank"
+              },
+              {
+                "word": "you",
+                "start": 24.805,
+                "end": 25.364998,
+                "confidence": 1,
+                "punctuated_word": "you."
+              },
+              {
+                "word": "have",
+                "start": 25.845,
+                "end": 26.085,
+                "confidence": 0.9980469,
+                "punctuated_word": "Have"
+              },
+              {
+                "word": "a",
+                "start": 26.085,
+                "end": 26.244999,
+                "confidence": 0.99902344,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "good",
+                "start": 26.244999,
+                "end": 26.404999,
+                "confidence": 1,
+                "punctuated_word": "good"
+              },
+              {
+                "word": "day",
+                "start": 26.404999,
+                "end": 26.724998,
+                "confidence": 0.96875,
+                "punctuated_word": "day."
+              },
+              {
+                "word": "have",
+                "start": 26.724998,
+                "end": 26.884998,
+                "confidence": 0.99316406,
+                "punctuated_word": "Have"
+              },
+              {
+                "word": "a",
+                "start": 26.884998,
+                "end": 27.044998,
+                "confidence": 0.9980469,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "good",
+                "start": 27.044998,
+                "end": 27.125,
+                "confidence": 0.9980469,
+                "punctuated_word": "good"
+              },
+              {
+                "word": "day",
+                "start": 27.125,
+                "end": 27.365,
+                "confidence": 0.9995117,
+                "punctuated_word": "day."
+              },
+              {
+                "word": "see",
+                "start": 27.365,
+                "end": 27.525,
+                "confidence": 0.99609375,
+                "punctuated_word": "See"
+              },
+              {
+                "word": "you",
+                "start": 27.525,
+                "end": 27.605,
+                "confidence": 0.99902344,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "soon",
+                "start": 27.605,
+                "end": 27.845,
+                "confidence": 0.9995117,
+                "punctuated_word": "soon."
+              }
+            ],
+            "paragraphs": {
+              "transcript": "\nAfter this, have to end my job because I yeah. Yeah. Yeah. But one hour and I will finish everything, and I will I will do sports. So I will go go out and and we'll see what's that?\n\nThank you. Have a good day. Have a good day. See you soon.",
+              "paragraphs": [
+                {
+                  "sentences": [
+                    {
+                      "text": "After this, have to end my job because I yeah.",
+                      "start": 0,
+                      "end": 8.08
+                    },
+                    {
+                      "text": "Yeah.",
+                      "start": 8.08,
+                      "end": 8.4
+                    },
+                    {
+                      "text": "Yeah.",
+                      "start": 8.4,
+                      "end": 8.639999
+                    },
+                    {
+                      "text": "But one hour and I will finish everything, and I will I will do sports.",
+                      "start": 8.639999,
+                      "end": 16.244999
+                    },
+                    {
+                      "text": "So I will go go out and and we'll see what's that?",
+                      "start": 16.244999,
+                      "end": 22.324999
+                    }
+                  ],
+                  "num_words": 39,
+                  "start": 0,
+                  "end": 22.324999
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "Thank you.",
+                      "start": 24.564999,
+                      "end": 25.364998
+                    },
+                    {
+                      "text": "Have a good day.",
+                      "start": 25.845,
+                      "end": 26.724998
+                    },
+                    {
+                      "text": "Have a good day.",
+                      "start": 26.724998,
+                      "end": 27.365
+                    },
+                    {
+                      "text": "See you soon.",
+                      "start": 27.365,
+                      "end": 27.845
+                    }
+                  ],
+                  "num_words": 13,
+                  "start": 24.564999,
+                  "end": 27.845
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "alternatives": [
+          {
+            "transcript": "Alright. You're right on maybe. What what kind of work you will do? Yes. Thank you so much. Have a good day. Ciao. See you.",
+            "confidence": 0.96435547,
+            "words": [
+              {
+                "word": "alright",
+                "start": 5.44,
+                "end": 6.08,
+                "confidence": 0.6312256,
+                "punctuated_word": "Alright."
+              },
+              {
+                "word": "you're",
+                "start": 6.08,
+                "end": 6.3999996,
+                "confidence": 0.3227539,
+                "punctuated_word": "You're"
+              },
+              {
+                "word": "right",
+                "start": 6.3999996,
+                "end": 6.64,
+                "confidence": 0.29907227,
+                "punctuated_word": "right"
+              },
+              {
+                "word": "on",
+                "start": 6.64,
+                "end": 6.96,
+                "confidence": 0.56396484,
+                "punctuated_word": "on"
+              },
+              {
+                "word": "maybe",
+                "start": 6.96,
+                "end": 7.3599997,
+                "confidence": 0.74121094,
+                "punctuated_word": "maybe."
+              },
+              {
+                "word": "what",
+                "start": 20.935001,
+                "end": 21.255001,
+                "confidence": 0.58935547,
+                "punctuated_word": "What"
+              },
+              {
+                "word": "what",
+                "start": 21.255001,
+                "end": 21.495,
+                "confidence": 0.49853516,
+                "punctuated_word": "what"
+              },
+              {
+                "word": "kind",
+                "start": 21.495,
+                "end": 21.815,
+                "confidence": 0.86572266,
+                "punctuated_word": "kind"
+              },
+              {
+                "word": "of",
+                "start": 21.815,
+                "end": 21.895,
+                "confidence": 0.96435547,
+                "punctuated_word": "of"
+              },
+              {
+                "word": "work",
+                "start": 21.895,
+                "end": 22.215,
+                "confidence": 0.3869629,
+                "punctuated_word": "work"
+              },
+              {
+                "word": "you",
+                "start": 22.215,
+                "end": 22.455,
+                "confidence": 0.96435547,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "will",
+                "start": 22.455,
+                "end": 22.615,
+                "confidence": 0.9970703,
+                "punctuated_word": "will"
+              },
+              {
+                "word": "do",
+                "start": 22.615,
+                "end": 22.935001,
+                "confidence": 0.92529297,
+                "punctuated_word": "do?"
+              },
+              {
+                "word": "yes",
+                "start": 22.935001,
+                "end": 23.494999,
+                "confidence": 0.99853516,
+                "punctuated_word": "Yes."
+              },
+              {
+                "word": "thank",
+                "start": 23.495,
+                "end": 23.815,
+                "confidence": 1,
+                "punctuated_word": "Thank"
+              },
+              {
+                "word": "you",
+                "start": 23.815,
+                "end": 23.975,
+                "confidence": 1,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "so",
+                "start": 23.975,
+                "end": 24.215,
+                "confidence": 1,
+                "punctuated_word": "so"
+              },
+              {
+                "word": "much",
+                "start": 24.215,
+                "end": 24.695,
+                "confidence": 0.9995117,
+                "punctuated_word": "much."
+              },
+              {
+                "word": "have",
+                "start": 24.695,
+                "end": 24.935001,
+                "confidence": 1,
+                "punctuated_word": "Have"
+              },
+              {
+                "word": "a",
+                "start": 24.935001,
+                "end": 25.015,
+                "confidence": 0.99902344,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "good",
+                "start": 25.015,
+                "end": 25.255001,
+                "confidence": 0.9589844,
+                "punctuated_word": "good"
+              },
+              {
+                "word": "day",
+                "start": 25.255001,
+                "end": 25.654999,
+                "confidence": 0.99365234,
+                "punctuated_word": "day."
+              },
+              {
+                "word": "ciao",
+                "start": 25.654999,
+                "end": 26.295,
+                "confidence": 0.9943034,
+                "punctuated_word": "Ciao."
+              },
+              {
+                "word": "see",
+                "start": 26.295,
+                "end": 26.775,
+                "confidence": 0.87353516,
+                "punctuated_word": "See"
+              },
+              {
+                "word": "you",
+                "start": 28.375,
+                "end": 28.535,
+                "confidence": 0.96606445,
+                "punctuated_word": "you."
+              }
+            ],
+            "paragraphs": {
+              "transcript": "\nAlright. You're right on maybe. What what kind of work you will do? Yes. Thank you so much.\n\nHave a good day. Ciao. See you.",
+              "paragraphs": [
+                {
+                  "sentences": [
+                    {
+                      "text": "Alright.",
+                      "start": 5.44,
+                      "end": 6.08
+                    },
+                    {
+                      "text": "You're right on maybe.",
+                      "start": 6.08,
+                      "end": 7.3599997
+                    },
+                    {
+                      "text": "What what kind of work you will do?",
+                      "start": 20.935001,
+                      "end": 22.935001
+                    },
+                    {
+                      "text": "Yes.",
+                      "start": 22.935001,
+                      "end": 23.494999
+                    },
+                    {
+                      "text": "Thank you so much.",
+                      "start": 23.495,
+                      "end": 24.695
+                    }
+                  ],
+                  "num_words": 18,
+                  "start": 5.44,
+                  "end": 24.695
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "Have a good day.",
+                      "start": 24.695,
+                      "end": 25.654999
+                    },
+                    {
+                      "text": "Ciao.",
+                      "start": 25.654999,
+                      "end": 26.295
+                    },
+                    {
+                      "text": "See you.",
+                      "start": 26.295,
+                      "end": 28.535
+                    }
+                  ],
+                  "num_words": 7,
+                  "start": 24.695,
+                  "end": 28.535
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "paragraphs": {
+      "transcript": "\nChannel 0: After this, have to end my job because\n\nChannel 1: Alright.\n\nChannel 0: I\n\nChannel 1: You're right on maybe.\n\nChannel 0: yeah. Yeah. Yeah. But one hour and I will finish everything, and I will I will do sports. So I will go go out and and we'll see\n\nChannel 1: What what\n\nChannel 0: what's\n\nChannel 1: kind of work\n\nChannel 0: that?\n\nChannel 1: you will do? Yes. Thank you so much.\n\nChannel 0: Thank\n\nChannel 1: Have\n\nChannel 0: you.\n\nChannel 1: a good day. Ciao.\n\nChannel 0: Have a good\n\nChannel 1: See\n\nChannel 0: day. Have a good day. See you soon.\n\nChannel 1: you.",
+      "paragraphs": [
+        {
+          "sentences": [
+            {
+              "text": "After this, have to end my job because",
+              "start": 0,
+              "end": 4.7200003
+            }
+          ],
+          "channel": 0,
+          "num_words": 8,
+          "start": 0,
+          "end": 4.7200003
+        },
+        {
+          "sentences": [
+            {
+              "text": "Alright.",
+              "start": 5.44,
+              "end": 6.08
+            }
+          ],
+          "channel": 1,
+          "num_words": 1,
+          "start": 5.44,
+          "end": 6.08
+        },
+        {
+          "sentences": [
+            {
+              "text": "I",
+              "start": 5.6,
+              "end": 6.32
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 5.6,
+          "end": 6.32
+        },
+        {
+          "sentences": [
+            {
+              "text": "You're right on maybe.",
+              "start": 6.08,
+              "end": 7.3599997
+            }
+          ],
+          "channel": 1,
+          "num_words": 4,
+          "start": 6.08,
+          "end": 7.3599997
+        },
+        {
+          "sentences": [
+            {
+              "text": "yeah.",
+              "start": 7.7599998,
+              "end": 8.08
+            },
+            {
+              "text": "Yeah.",
+              "start": 8.08,
+              "end": 8.4
+            },
+            {
+              "text": "Yeah.",
+              "start": 8.4,
+              "end": 8.639999
+            },
+            {
+              "text": "But one hour and I will finish everything, and I will I will do sports.",
+              "start": 8.639999,
+              "end": 16.244999
+            },
+            {
+              "text": "So I will go go out and and we'll see",
+              "start": 16.244999,
+              "end": 20.484999
+            }
+          ],
+          "channel": 0,
+          "num_words": 28,
+          "start": 7.7599998,
+          "end": 20.484999
+        },
+        {
+          "sentences": [
+            {
+              "text": "What what",
+              "start": 20.935001,
+              "end": 21.495
+            }
+          ],
+          "channel": 1,
+          "num_words": 2,
+          "start": 20.935001,
+          "end": 21.495
+        },
+        {
+          "sentences": [
+            {
+              "text": "what's",
+              "start": 21.445,
+              "end": 21.925
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 21.445,
+          "end": 21.925
+        },
+        {
+          "sentences": [
+            {
+              "text": "kind of work",
+              "start": 21.495,
+              "end": 22.215
+            }
+          ],
+          "channel": 1,
+          "num_words": 3,
+          "start": 21.495,
+          "end": 22.215
+        },
+        {
+          "sentences": [
+            {
+              "text": "that?",
+              "start": 21.925,
+              "end": 22.324999
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 21.925,
+          "end": 22.324999
+        },
+        {
+          "sentences": [
+            {
+              "text": "you will do?",
+              "start": 22.215,
+              "end": 22.935001
+            },
+            {
+              "text": "Yes.",
+              "start": 22.935001,
+              "end": 23.494999
+            },
+            {
+              "text": "Thank you so much.",
+              "start": 23.495,
+              "end": 24.695
+            }
+          ],
+          "channel": 1,
+          "num_words": 8,
+          "start": 22.215,
+          "end": 24.695
+        },
+        {
+          "sentences": [
+            {
+              "text": "Thank",
+              "start": 24.564999,
+              "end": 24.805
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 24.564999,
+          "end": 24.805
+        },
+        {
+          "sentences": [
+            {
+              "text": "Have",
+              "start": 24.695,
+              "end": 24.935001
+            }
+          ],
+          "channel": 1,
+          "num_words": 1,
+          "start": 24.695,
+          "end": 24.935001
+        },
+        {
+          "sentences": [
+            {
+              "text": "you.",
+              "start": 24.805,
+              "end": 25.364998
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 24.805,
+          "end": 25.364998
+        },
+        {
+          "sentences": [
+            {
+              "text": "a good day.",
+              "start": 24.935001,
+              "end": 25.654999
+            },
+            {
+              "text": "Ciao.",
+              "start": 25.654999,
+              "end": 26.295
+            }
+          ],
+          "channel": 1,
+          "num_words": 4,
+          "start": 24.935001,
+          "end": 26.295
+        },
+        {
+          "sentences": [
+            {
+              "text": "Have a good",
+              "start": 25.845,
+              "end": 26.404999
+            }
+          ],
+          "channel": 0,
+          "num_words": 3,
+          "start": 25.845,
+          "end": 26.404999
+        },
+        {
+          "sentences": [
+            {
+              "text": "See",
+              "start": 26.295,
+              "end": 26.775
+            }
+          ],
+          "channel": 1,
+          "num_words": 1,
+          "start": 26.295,
+          "end": 26.775
+        },
+        {
+          "sentences": [
+            {
+              "text": "day.",
+              "start": 26.404999,
+              "end": 26.724998
+            },
+            {
+              "text": "Have a good day.",
+              "start": 26.724998,
+              "end": 27.365
+            },
+            {
+              "text": "See you soon.",
+              "start": 27.365,
+              "end": 27.845
+            }
+          ],
+          "channel": 0,
+          "num_words": 8,
+          "start": 26.404999,
+          "end": 27.845
+        },
+        {
+          "sentences": [
+            {
+              "text": "you.",
+              "start": 28.375,
+              "end": 28.535
+            }
+          ],
+          "channel": 1,
+          "num_words": 1,
+          "start": 28.375,
+          "end": 28.535
+        }
+      ]
+    }
+  }
+}

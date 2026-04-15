@@ -1,0 +1,1357 @@
+{
+  "results": {
+    "channels": [
+      {
+        "alternatives": [
+          {
+            "transcript": "It's true. It's true. It depends on every family, but it's not for example, that you you are 18, like and you are free because there are a lot of people who lives with with their parents, for example, it creates deep dependence. Yeah? Dependence even if your parents are not as obsessive of of being of control you. Yeah. So so I mhmm. No. No.",
+            "confidence": 0.98095703,
+            "words": [
+              {
+                "word": "it's",
+                "start": 0,
+                "end": 0.32,
+                "confidence": 0.9785156,
+                "punctuated_word": "It's"
+              },
+              {
+                "word": "true",
+                "start": 0.32,
+                "end": 0.64,
+                "confidence": 0.97753906,
+                "punctuated_word": "true."
+              },
+              {
+                "word": "it's",
+                "start": 0.64,
+                "end": 0.79999995,
+                "confidence": 0.9980469,
+                "punctuated_word": "It's"
+              },
+              {
+                "word": "true",
+                "start": 0.79999995,
+                "end": 1.3599999,
+                "confidence": 0.9975586,
+                "punctuated_word": "true."
+              },
+              {
+                "word": "it",
+                "start": 11.84,
+                "end": 12.08,
+                "confidence": 0.8154297,
+                "punctuated_word": "It"
+              },
+              {
+                "word": "depends",
+                "start": 12.08,
+                "end": 12.48,
+                "confidence": 0.99902344,
+                "punctuated_word": "depends"
+              },
+              {
+                "word": "on",
+                "start": 12.48,
+                "end": 12.719999,
+                "confidence": 1,
+                "punctuated_word": "on"
+              },
+              {
+                "word": "every",
+                "start": 12.719999,
+                "end": 14.799999,
+                "confidence": 1,
+                "punctuated_word": "every"
+              },
+              {
+                "word": "family",
+                "start": 14.125,
+                "end": 14.925,
+                "confidence": 0.93847656,
+                "punctuated_word": "family,"
+              },
+              {
+                "word": "but",
+                "start": 14.925,
+                "end": 15.085,
+                "confidence": 1,
+                "punctuated_word": "but"
+              },
+              {
+                "word": "it's",
+                "start": 15.085,
+                "end": 15.405001,
+                "confidence": 1,
+                "punctuated_word": "it's"
+              },
+              {
+                "word": "not",
+                "start": 15.405001,
+                "end": 15.645,
+                "confidence": 1,
+                "punctuated_word": "not"
+              },
+              {
+                "word": "for",
+                "start": 15.725,
+                "end": 16.205,
+                "confidence": 0.8339844,
+                "punctuated_word": "for"
+              },
+              {
+                "word": "example",
+                "start": 16.205,
+                "end": 16.685001,
+                "confidence": 0.98291016,
+                "punctuated_word": "example,"
+              },
+              {
+                "word": "that",
+                "start": 16.685001,
+                "end": 16.845001,
+                "confidence": 0.99902344,
+                "punctuated_word": "that"
+              },
+              {
+                "word": "you",
+                "start": 16.845001,
+                "end": 17.565,
+                "confidence": 1,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "you",
+                "start": 18.685001,
+                "end": 19.005001,
+                "confidence": 0.94628906,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "are",
+                "start": 19.005001,
+                "end": 19.405,
+                "confidence": 1,
+                "punctuated_word": "are"
+              },
+              {
+                "word": "18",
+                "start": 19.405,
+                "end": 20.205,
+                "confidence": 0.96118164,
+                "punctuated_word": "18,"
+              },
+              {
+                "word": "like",
+                "start": 20.205,
+                "end": 20.845001,
+                "confidence": 0.9873047,
+                "punctuated_word": "like"
+              },
+              {
+                "word": "and",
+                "start": 21.085,
+                "end": 21.405,
+                "confidence": 1,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "you",
+                "start": 21.405,
+                "end": 21.645,
+                "confidence": 0.9970703,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "are",
+                "start": 21.645,
+                "end": 21.885,
+                "confidence": 0.99902344,
+                "punctuated_word": "are"
+              },
+              {
+                "word": "free",
+                "start": 21.885,
+                "end": 22.845001,
+                "confidence": 0.86279297,
+                "punctuated_word": "free"
+              },
+              {
+                "word": "because",
+                "start": 22.845001,
+                "end": 23.564999,
+                "confidence": 0.76953125,
+                "punctuated_word": "because"
+              },
+              {
+                "word": "there",
+                "start": 24.205,
+                "end": 24.605,
+                "confidence": 0.87841797,
+                "punctuated_word": "there"
+              },
+              {
+                "word": "are",
+                "start": 24.605,
+                "end": 24.765,
+                "confidence": 0.94970703,
+                "punctuated_word": "are"
+              },
+              {
+                "word": "a",
+                "start": 24.765,
+                "end": 24.845001,
+                "confidence": 0.67529297,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "lot",
+                "start": 24.845001,
+                "end": 24.925,
+                "confidence": 0.99609375,
+                "punctuated_word": "lot"
+              },
+              {
+                "word": "of",
+                "start": 24.925,
+                "end": 25.085,
+                "confidence": 0.9941406,
+                "punctuated_word": "of"
+              },
+              {
+                "word": "people",
+                "start": 25.085,
+                "end": 25.325,
+                "confidence": 0.99902344,
+                "punctuated_word": "people"
+              },
+              {
+                "word": "who",
+                "start": 25.325,
+                "end": 25.565,
+                "confidence": 1,
+                "punctuated_word": "who"
+              },
+              {
+                "word": "lives",
+                "start": 25.565,
+                "end": 25.965,
+                "confidence": 0.88720703,
+                "punctuated_word": "lives"
+              },
+              {
+                "word": "with",
+                "start": 25.965,
+                "end": 27.885,
+                "confidence": 0.96240234,
+                "punctuated_word": "with"
+              },
+              {
+                "word": "with",
+                "start": 27.13,
+                "end": 27.529999,
+                "confidence": 0.9921875,
+                "punctuated_word": "with"
+              },
+              {
+                "word": "their",
+                "start": 27.529999,
+                "end": 27.85,
+                "confidence": 0.96240234,
+                "punctuated_word": "their"
+              },
+              {
+                "word": "parents",
+                "start": 27.85,
+                "end": 28.41,
+                "confidence": 0.79956055,
+                "punctuated_word": "parents,"
+              },
+              {
+                "word": "for",
+                "start": 28.41,
+                "end": 28.57,
+                "confidence": 1,
+                "punctuated_word": "for"
+              },
+              {
+                "word": "example",
+                "start": 28.57,
+                "end": 29.13,
+                "confidence": 0.7524414,
+                "punctuated_word": "example,"
+              },
+              {
+                "word": "it",
+                "start": 29.13,
+                "end": 29.289999,
+                "confidence": 0.9941406,
+                "punctuated_word": "it"
+              },
+              {
+                "word": "creates",
+                "start": 29.289999,
+                "end": 30.33,
+                "confidence": 0.98095703,
+                "punctuated_word": "creates"
+              },
+              {
+                "word": "deep",
+                "start": 31.529999,
+                "end": 31.849998,
+                "confidence": 0.8520508,
+                "punctuated_word": "deep"
+              },
+              {
+                "word": "dependence",
+                "start": 31.93,
+                "end": 32.489998,
+                "confidence": 0.9284668,
+                "punctuated_word": "dependence."
+              },
+              {
+                "word": "yeah",
+                "start": 32.57,
+                "end": 33.05,
+                "confidence": 0.9736328,
+                "punctuated_word": "Yeah?"
+              },
+              {
+                "word": "dependence",
+                "start": 33.29,
+                "end": 33.85,
+                "confidence": 0.89192706,
+                "punctuated_word": "Dependence"
+              },
+              {
+                "word": "even",
+                "start": 33.85,
+                "end": 34.57,
+                "confidence": 0.56884766,
+                "punctuated_word": "even"
+              },
+              {
+                "word": "if",
+                "start": 34.57,
+                "end": 34.97,
+                "confidence": 1,
+                "punctuated_word": "if"
+              },
+              {
+                "word": "your",
+                "start": 34.97,
+                "end": 35.45,
+                "confidence": 0.9970703,
+                "punctuated_word": "your"
+              },
+              {
+                "word": "parents",
+                "start": 35.45,
+                "end": 35.93,
+                "confidence": 0.99902344,
+                "punctuated_word": "parents"
+              },
+              {
+                "word": "are",
+                "start": 35.93,
+                "end": 36.17,
+                "confidence": 0.99902344,
+                "punctuated_word": "are"
+              },
+              {
+                "word": "not",
+                "start": 36.17,
+                "end": 36.809998,
+                "confidence": 1,
+                "punctuated_word": "not"
+              },
+              {
+                "word": "as",
+                "start": 38.57,
+                "end": 39.77,
+                "confidence": 0.9707031,
+                "punctuated_word": "as"
+              },
+              {
+                "word": "obsessive",
+                "start": 39.345,
+                "end": 39.825,
+                "confidence": 0.99609375,
+                "punctuated_word": "obsessive"
+              },
+              {
+                "word": "of",
+                "start": 39.825,
+                "end": 40.145,
+                "confidence": 0.99609375,
+                "punctuated_word": "of"
+              },
+              {
+                "word": "of",
+                "start": 40.145,
+                "end": 40.385,
+                "confidence": 0.98095703,
+                "punctuated_word": "of"
+              },
+              {
+                "word": "being",
+                "start": 40.385,
+                "end": 41.024998,
+                "confidence": 0.99902344,
+                "punctuated_word": "being"
+              },
+              {
+                "word": "of",
+                "start": 41.265,
+                "end": 41.505,
+                "confidence": 0.97265625,
+                "punctuated_word": "of"
+              },
+              {
+                "word": "control",
+                "start": 41.505,
+                "end": 41.905,
+                "confidence": 0.7734375,
+                "punctuated_word": "control"
+              },
+              {
+                "word": "you",
+                "start": 41.905,
+                "end": 42.225,
+                "confidence": 0.83569336,
+                "punctuated_word": "you."
+              },
+              {
+                "word": "yeah",
+                "start": 42.225,
+                "end": 42.545,
+                "confidence": 0.85498047,
+                "punctuated_word": "Yeah."
+              },
+              {
+                "word": "so",
+                "start": 42.545,
+                "end": 43.745,
+                "confidence": 0.9819336,
+                "punctuated_word": "So"
+              },
+              {
+                "word": "so",
+                "start": 44.065,
+                "end": 44.465,
+                "confidence": 0.99316406,
+                "punctuated_word": "so"
+              },
+              {
+                "word": "i",
+                "start": 44.465,
+                "end": 44.704998,
+                "confidence": 0.97265625,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "mhmm",
+                "start": 46.385,
+                "end": 46.864998,
+                "confidence": 0.72143555,
+                "punctuated_word": "mhmm."
+              },
+              {
+                "word": "no",
+                "start": 46.864998,
+                "end": 47.344997,
+                "confidence": 0.83935547,
+                "punctuated_word": "No."
+              },
+              {
+                "word": "no",
+                "start": 47.345,
+                "end": 47.504997,
+                "confidence": 0.9484863,
+                "punctuated_word": "No."
+              }
+            ],
+            "paragraphs": {
+              "transcript": "\nIt's true. It's true. It depends on every family, but it's not for example, that you you are 18, like and you are free because there are a lot of people who lives with with their parents, for example, it creates deep dependence. Yeah? Dependence even if your parents are not as obsessive of of being of control you.\n\nYeah. So so I mhmm. No. No.",
+              "paragraphs": [
+                {
+                  "sentences": [
+                    {
+                      "text": "It's true.",
+                      "start": 0,
+                      "end": 0.64
+                    },
+                    {
+                      "text": "It's true.",
+                      "start": 0.64,
+                      "end": 1.3599999
+                    },
+                    {
+                      "text": "It depends on every family, but it's not for example, that you you are 18, like and you are free because there are a lot of people who lives with with their parents, for example, it creates deep dependence.",
+                      "start": 11.84,
+                      "end": 32.489998
+                    },
+                    {
+                      "text": "Yeah?",
+                      "start": 32.57,
+                      "end": 33.05
+                    },
+                    {
+                      "text": "Dependence even if your parents are not as obsessive of of being of control you.",
+                      "start": 33.29,
+                      "end": 42.225
+                    }
+                  ],
+                  "num_words": 59,
+                  "start": 0,
+                  "end": 42.225
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "Yeah.",
+                      "start": 42.225,
+                      "end": 42.545
+                    },
+                    {
+                      "text": "So so I mhmm.",
+                      "start": 42.545,
+                      "end": 46.864998
+                    },
+                    {
+                      "text": "No.",
+                      "start": 46.864998,
+                      "end": 47.344997
+                    },
+                    {
+                      "text": "No.",
+                      "start": 47.345,
+                      "end": 47.504997
+                    }
+                  ],
+                  "num_words": 7,
+                  "start": 42.225,
+                  "end": 47.504997
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "alternatives": [
+          {
+            "transcript": "And, you know, what at what age parents let people go in in your country? Like, they say, god god is with you and, you know, like Yeah. Yeah. I think it's one of the go it's one of the reasons why got disciplined after 15 years of age because my parents didn't push me hard for no reason. They said, oh, you don't want",
+            "confidence": 0.9951172,
+            "words": [
+              {
+                "word": "and",
+                "start": 0,
+                "end": 0.48,
+                "confidence": 0.3059082,
+                "punctuated_word": "And,"
+              },
+              {
+                "word": "you",
+                "start": 0.48,
+                "end": 0.64,
+                "confidence": 0.5917969,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "know",
+                "start": 0.64,
+                "end": 0.79999995,
+                "confidence": 0.9807129,
+                "punctuated_word": "know,"
+              },
+              {
+                "word": "what",
+                "start": 0.79999995,
+                "end": 1.6800001,
+                "confidence": 0.4482422,
+                "punctuated_word": "what"
+              },
+              {
+                "word": "at",
+                "start": 2,
+                "end": 2.1599998,
+                "confidence": 0.9902344,
+                "punctuated_word": "at"
+              },
+              {
+                "word": "what",
+                "start": 2.1599998,
+                "end": 2.3999999,
+                "confidence": 1,
+                "punctuated_word": "what"
+              },
+              {
+                "word": "age",
+                "start": 2.3999999,
+                "end": 3.12,
+                "confidence": 0.99902344,
+                "punctuated_word": "age"
+              },
+              {
+                "word": "parents",
+                "start": 3.28,
+                "end": 4,
+                "confidence": 0.9980469,
+                "punctuated_word": "parents"
+              },
+              {
+                "word": "let",
+                "start": 4,
+                "end": 4.4,
+                "confidence": 0.9970703,
+                "punctuated_word": "let"
+              },
+              {
+                "word": "people",
+                "start": 4.4,
+                "end": 4.7999997,
+                "confidence": 1,
+                "punctuated_word": "people"
+              },
+              {
+                "word": "go",
+                "start": 4.7999997,
+                "end": 5.3599997,
+                "confidence": 1,
+                "punctuated_word": "go"
+              },
+              {
+                "word": "in",
+                "start": 5.3599997,
+                "end": 5.7599998,
+                "confidence": 0.99902344,
+                "punctuated_word": "in"
+              },
+              {
+                "word": "in",
+                "start": 5.7599998,
+                "end": 6.08,
+                "confidence": 0.99902344,
+                "punctuated_word": "in"
+              },
+              {
+                "word": "your",
+                "start": 6.08,
+                "end": 6.3999996,
+                "confidence": 0.99902344,
+                "punctuated_word": "your"
+              },
+              {
+                "word": "country",
+                "start": 6.3999996,
+                "end": 6.96,
+                "confidence": 0.9812012,
+                "punctuated_word": "country?"
+              },
+              {
+                "word": "like",
+                "start": 6.96,
+                "end": 7.44,
+                "confidence": 0.9941406,
+                "punctuated_word": "Like,"
+              },
+              {
+                "word": "they",
+                "start": 7.44,
+                "end": 7.68,
+                "confidence": 0.9951172,
+                "punctuated_word": "they"
+              },
+              {
+                "word": "say",
+                "start": 7.68,
+                "end": 8.32,
+                "confidence": 0.9604492,
+                "punctuated_word": "say,"
+              },
+              {
+                "word": "god",
+                "start": 8.8,
+                "end": 9.5199995,
+                "confidence": 0.70166016,
+                "punctuated_word": "god"
+              },
+              {
+                "word": "god",
+                "start": 9.5199995,
+                "end": 10,
+                "confidence": 0.83984375,
+                "punctuated_word": "god"
+              },
+              {
+                "word": "is",
+                "start": 10,
+                "end": 10.32,
+                "confidence": 0.9980469,
+                "punctuated_word": "is"
+              },
+              {
+                "word": "with",
+                "start": 10.32,
+                "end": 10.48,
+                "confidence": 1,
+                "punctuated_word": "with"
+              },
+              {
+                "word": "you",
+                "start": 10.48,
+                "end": 10.639999,
+                "confidence": 1,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "and",
+                "start": 10.639999,
+                "end": 11.12,
+                "confidence": 0.79418945,
+                "punctuated_word": "and,"
+              },
+              {
+                "word": "you",
+                "start": 11.12,
+                "end": 11.679999,
+                "confidence": 0.96777344,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "know",
+                "start": 11.679999,
+                "end": 11.92,
+                "confidence": 0.9880371,
+                "punctuated_word": "know,"
+              },
+              {
+                "word": "like",
+                "start": 11.92,
+                "end": 12.16,
+                "confidence": 0.96972656,
+                "punctuated_word": "like"
+              },
+              {
+                "word": "yeah",
+                "start": 28.84,
+                "end": 29.24,
+                "confidence": 0.8479004,
+                "punctuated_word": "Yeah."
+              },
+              {
+                "word": "yeah",
+                "start": 43.115,
+                "end": 43.675,
+                "confidence": 0.8149414,
+                "punctuated_word": "Yeah."
+              },
+              {
+                "word": "i",
+                "start": 44.155,
+                "end": 44.475002,
+                "confidence": 0.9448242,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "think",
+                "start": 44.475002,
+                "end": 44.635002,
+                "confidence": 0.9951172,
+                "punctuated_word": "think"
+              },
+              {
+                "word": "it's",
+                "start": 44.635002,
+                "end": 44.955,
+                "confidence": 0.8017578,
+                "punctuated_word": "it's"
+              },
+              {
+                "word": "one",
+                "start": 44.955,
+                "end": 45.115,
+                "confidence": 0.6826172,
+                "punctuated_word": "one"
+              },
+              {
+                "word": "of",
+                "start": 45.115,
+                "end": 45.195,
+                "confidence": 0.9716797,
+                "punctuated_word": "of"
+              },
+              {
+                "word": "the",
+                "start": 45.195,
+                "end": 45.755,
+                "confidence": 0.9716797,
+                "punctuated_word": "the"
+              },
+              {
+                "word": "go",
+                "start": 46.955,
+                "end": 47.275,
+                "confidence": 0.27685547,
+                "punctuated_word": "go"
+              },
+              {
+                "word": "it's",
+                "start": 47.515,
+                "end": 48.155,
+                "confidence": 0.9313965,
+                "punctuated_word": "it's"
+              },
+              {
+                "word": "one",
+                "start": 48.155,
+                "end": 48.395,
+                "confidence": 0.9970703,
+                "punctuated_word": "one"
+              },
+              {
+                "word": "of",
+                "start": 48.395,
+                "end": 48.475,
+                "confidence": 1,
+                "punctuated_word": "of"
+              },
+              {
+                "word": "the",
+                "start": 48.475,
+                "end": 48.635002,
+                "confidence": 0.99902344,
+                "punctuated_word": "the"
+              },
+              {
+                "word": "reasons",
+                "start": 48.635002,
+                "end": 48.955,
+                "confidence": 1,
+                "punctuated_word": "reasons"
+              },
+              {
+                "word": "why",
+                "start": 48.955,
+                "end": 49.675,
+                "confidence": 0.99902344,
+                "punctuated_word": "why"
+              },
+              {
+                "word": "got",
+                "start": 50.475,
+                "end": 50.715,
+                "confidence": 0.99316406,
+                "punctuated_word": "got"
+              },
+              {
+                "word": "disciplined",
+                "start": 50.715,
+                "end": 51.355,
+                "confidence": 0.99902344,
+                "punctuated_word": "disciplined"
+              },
+              {
+                "word": "after",
+                "start": 51.355,
+                "end": 52.075,
+                "confidence": 0.9921875,
+                "punctuated_word": "after"
+              },
+              {
+                "word": "15",
+                "start": 52.075,
+                "end": 52.795,
+                "confidence": 0.99902344,
+                "punctuated_word": "15"
+              },
+              {
+                "word": "years",
+                "start": 52.795,
+                "end": 53.035,
+                "confidence": 1,
+                "punctuated_word": "years"
+              },
+              {
+                "word": "of",
+                "start": 53.035,
+                "end": 53.195,
+                "confidence": 1,
+                "punctuated_word": "of"
+              },
+              {
+                "word": "age",
+                "start": 53.195,
+                "end": 53.435,
+                "confidence": 1,
+                "punctuated_word": "age"
+              },
+              {
+                "word": "because",
+                "start": 53.435,
+                "end": 53.995003,
+                "confidence": 0.81347656,
+                "punctuated_word": "because"
+              },
+              {
+                "word": "my",
+                "start": 55.23494,
+                "end": 55.55494,
+                "confidence": 0.9980469,
+                "punctuated_word": "my"
+              },
+              {
+                "word": "parents",
+                "start": 55.55494,
+                "end": 55.954937,
+                "confidence": 1,
+                "punctuated_word": "parents"
+              },
+              {
+                "word": "didn't",
+                "start": 55.954937,
+                "end": 56.35494,
+                "confidence": 1,
+                "punctuated_word": "didn't"
+              },
+              {
+                "word": "push",
+                "start": 56.35494,
+                "end": 56.67494,
+                "confidence": 1,
+                "punctuated_word": "push"
+              },
+              {
+                "word": "me",
+                "start": 56.67494,
+                "end": 56.834938,
+                "confidence": 0.99902344,
+                "punctuated_word": "me"
+              },
+              {
+                "word": "hard",
+                "start": 56.834938,
+                "end": 57.154938,
+                "confidence": 1,
+                "punctuated_word": "hard"
+              },
+              {
+                "word": "for",
+                "start": 57.154938,
+                "end": 57.474937,
+                "confidence": 1,
+                "punctuated_word": "for"
+              },
+              {
+                "word": "no",
+                "start": 57.474937,
+                "end": 57.71494,
+                "confidence": 1,
+                "punctuated_word": "no"
+              },
+              {
+                "word": "reason",
+                "start": 57.71494,
+                "end": 58.35494,
+                "confidence": 1,
+                "punctuated_word": "reason."
+              },
+              {
+                "word": "they",
+                "start": 58.35494,
+                "end": 58.59494,
+                "confidence": 1,
+                "punctuated_word": "They"
+              },
+              {
+                "word": "said",
+                "start": 58.59494,
+                "end": 58.834938,
+                "confidence": 0.9638672,
+                "punctuated_word": "said,"
+              },
+              {
+                "word": "oh",
+                "start": 58.834938,
+                "end": 58.994938,
+                "confidence": 0.71850586,
+                "punctuated_word": "oh,"
+              },
+              {
+                "word": "you",
+                "start": 58.994938,
+                "end": 59.154938,
+                "confidence": 0.96533203,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "don't",
+                "start": 59.154938,
+                "end": 59.39494,
+                "confidence": 0.9995117,
+                "punctuated_word": "don't"
+              },
+              {
+                "word": "want",
+                "start": 59.39494,
+                "end": 59.87494,
+                "confidence": 0.97802734,
+                "punctuated_word": "want"
+              }
+            ],
+            "paragraphs": {
+              "transcript": "\nAnd, you know, what at what age parents let people go in in your country? Like, they say, god god is with you and, you know, like Yeah. Yeah. I think it's one of the go it's one of the reasons why got disciplined after 15 years of age because my parents didn't push me hard for no reason. They said, oh, you don't want",
+              "paragraphs": [
+                {
+                  "sentences": [
+                    {
+                      "text": "And, you know, what at what age parents let people go in in your country?",
+                      "start": 0,
+                      "end": 6.96
+                    },
+                    {
+                      "text": "Like, they say, god god is with you and, you know, like Yeah.",
+                      "start": 6.96,
+                      "end": 29.24
+                    },
+                    {
+                      "text": "Yeah.",
+                      "start": 43.115,
+                      "end": 43.675
+                    },
+                    {
+                      "text": "I think it's one of the go it's one of the reasons why got disciplined after 15 years of age because my parents didn't push me hard for no reason.",
+                      "start": 44.155,
+                      "end": 58.35494
+                    },
+                    {
+                      "text": "They said, oh, you don't want",
+                      "start": 58.35494,
+                      "end": 59.87494
+                    }
+                  ],
+                  "num_words": 65,
+                  "start": 0,
+                  "end": 59.87494
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "paragraphs": {
+      "transcript": "\nChannel 1: And,\n\nChannel 0: It's true.\n\nChannel 1: you know,\n\nChannel 0: It's\n\nChannel 1: what\n\nChannel 0: true.\n\nChannel 1: at what age parents let people go in in your country? Like, they say, god god is with you and, you know,\n\nChannel 0: It\n\nChannel 1: like\n\nChannel 0: depends on every family, but it's not for example, that you you are 18, like and you are free because there are a lot of people who lives with with their parents, for example,\n\nChannel 1: Yeah.\n\nChannel 0: it creates deep dependence. Yeah? Dependence even if your parents are not as obsessive of of being of control you. Yeah. So\n\nChannel 1: Yeah.\n\nChannel 0: so\n\nChannel 1: I\n\nChannel 0: I\n\nChannel 1: think it's one of the\n\nChannel 0: mhmm. No.\n\nChannel 1: go\n\nChannel 0: No.\n\nChannel 1: it's one of the reasons why got disciplined after 15 years of age because my parents didn't push me hard for no reason. They said, oh, you don't want",
+      "paragraphs": [
+        {
+          "sentences": [
+            {
+              "text": "And,",
+              "start": 0,
+              "end": 0.48
+            }
+          ],
+          "channel": 1,
+          "num_words": 1,
+          "start": 0,
+          "end": 0.48
+        },
+        {
+          "sentences": [
+            {
+              "text": "It's true.",
+              "start": 0,
+              "end": 0.64
+            }
+          ],
+          "channel": 0,
+          "num_words": 2,
+          "start": 0,
+          "end": 0.64
+        },
+        {
+          "sentences": [
+            {
+              "text": "you know,",
+              "start": 0.48,
+              "end": 0.79999995
+            }
+          ],
+          "channel": 1,
+          "num_words": 2,
+          "start": 0.48,
+          "end": 0.79999995
+        },
+        {
+          "sentences": [
+            {
+              "text": "It's",
+              "start": 0.64,
+              "end": 0.79999995
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 0.64,
+          "end": 0.79999995
+        },
+        {
+          "sentences": [
+            {
+              "text": "what",
+              "start": 0.79999995,
+              "end": 1.6800001
+            }
+          ],
+          "channel": 1,
+          "num_words": 1,
+          "start": 0.79999995,
+          "end": 1.6800001
+        },
+        {
+          "sentences": [
+            {
+              "text": "true.",
+              "start": 0.79999995,
+              "end": 1.3599999
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 0.79999995,
+          "end": 1.3599999
+        },
+        {
+          "sentences": [
+            {
+              "text": "at what age parents let people go in in your country?",
+              "start": 2,
+              "end": 6.96
+            },
+            {
+              "text": "Like, they say, god god is with you and, you know,",
+              "start": 6.96,
+              "end": 11.92
+            }
+          ],
+          "channel": 1,
+          "num_words": 22,
+          "start": 2,
+          "end": 11.92
+        },
+        {
+          "sentences": [
+            {
+              "text": "It",
+              "start": 11.84,
+              "end": 12.08
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 11.84,
+          "end": 12.08
+        },
+        {
+          "sentences": [
+            {
+              "text": "like",
+              "start": 11.92,
+              "end": 12.16
+            }
+          ],
+          "channel": 1,
+          "num_words": 1,
+          "start": 11.92,
+          "end": 12.16
+        },
+        {
+          "sentences": [
+            {
+              "text": "depends on every family, but it's not for example, that you you are 18, like and you are free because there are a lot of people who lives with with their parents, for example,",
+              "start": 12.08,
+              "end": 29.13
+            }
+          ],
+          "channel": 0,
+          "num_words": 34,
+          "start": 12.08,
+          "end": 29.13
+        },
+        {
+          "sentences": [
+            {
+              "text": "Yeah.",
+              "start": 28.84,
+              "end": 29.24
+            }
+          ],
+          "channel": 1,
+          "num_words": 1,
+          "start": 28.84,
+          "end": 29.24
+        },
+        {
+          "sentences": [
+            {
+              "text": "it creates deep dependence.",
+              "start": 29.13,
+              "end": 32.489998
+            },
+            {
+              "text": "Yeah?",
+              "start": 32.57,
+              "end": 33.05
+            },
+            {
+              "text": "Dependence even if your parents are not as obsessive of of being of control you.",
+              "start": 33.29,
+              "end": 42.225
+            },
+            {
+              "text": "Yeah.",
+              "start": 42.225,
+              "end": 42.545
+            },
+            {
+              "text": "So",
+              "start": 42.545,
+              "end": 43.745
+            }
+          ],
+          "channel": 0,
+          "num_words": 22,
+          "start": 29.13,
+          "end": 43.745
+        },
+        {
+          "sentences": [
+            {
+              "text": "Yeah.",
+              "start": 43.115,
+              "end": 43.675
+            }
+          ],
+          "channel": 1,
+          "num_words": 1,
+          "start": 43.115,
+          "end": 43.675
+        },
+        {
+          "sentences": [
+            {
+              "text": "so",
+              "start": 44.065,
+              "end": 44.465
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 44.065,
+          "end": 44.465
+        },
+        {
+          "sentences": [
+            {
+              "text": "I",
+              "start": 44.155,
+              "end": 44.475002
+            }
+          ],
+          "channel": 1,
+          "num_words": 1,
+          "start": 44.155,
+          "end": 44.475002
+        },
+        {
+          "sentences": [
+            {
+              "text": "I",
+              "start": 44.465,
+              "end": 44.704998
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 44.465,
+          "end": 44.704998
+        },
+        {
+          "sentences": [
+            {
+              "text": "think it's one of the",
+              "start": 44.475002,
+              "end": 45.755
+            }
+          ],
+          "channel": 1,
+          "num_words": 5,
+          "start": 44.475002,
+          "end": 45.755
+        },
+        {
+          "sentences": [
+            {
+              "text": "mhmm.",
+              "start": 46.385,
+              "end": 46.864998
+            },
+            {
+              "text": "No.",
+              "start": 46.864998,
+              "end": 47.344997
+            }
+          ],
+          "channel": 0,
+          "num_words": 2,
+          "start": 46.385,
+          "end": 47.344997
+        },
+        {
+          "sentences": [
+            {
+              "text": "go",
+              "start": 46.955,
+              "end": 47.275
+            }
+          ],
+          "channel": 1,
+          "num_words": 1,
+          "start": 46.955,
+          "end": 47.275
+        },
+        {
+          "sentences": [
+            {
+              "text": "No.",
+              "start": 47.345,
+              "end": 47.504997
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 47.345,
+          "end": 47.504997
+        },
+        {
+          "sentences": [
+            {
+              "text": "it's one of the reasons why got disciplined after 15 years of age because my parents didn't push me hard for no reason.",
+              "start": 47.515,
+              "end": 58.35494
+            },
+            {
+              "text": "They said, oh, you don't want",
+              "start": 58.35494,
+              "end": 59.87494
+            }
+          ],
+          "channel": 1,
+          "num_words": 29,
+          "start": 47.515,
+          "end": 59.87494
+        }
+      ]
+    }
+  }
+}

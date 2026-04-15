@@ -25,20 +25,9 @@ import spacy
 from spacy.matcher import Matcher
 from spacy.tokens import Doc
 
-from .group1_parser import CEFR_NUMERIC  # shared mapping, no duplication
+from .group1_parser import CEFR_NUMERIC, _normalise_patterns, _resolve_matches
 
 _DEFAULT_JSON = Path(__file__).parent / "structures" / "strategy2_nominal_pos.json"
-
-
-def _normalise_patterns(raw: list) -> list:
-    """Ensure patterns are in [[token_dict, ...], ...] format.
-
-    pos_patterns in strategy2 are always stored as a flat list of token dicts
-    [{"TAG": ...}], representing a single pattern. Wrap to [[{...}]].
-    """
-    if raw and isinstance(raw[0], dict):
-        return [raw]
-    return raw
 
 
 class Group2Parser:
@@ -54,14 +43,21 @@ class Group2Parser:
         the parser does NOT call nlp() internally — callers pass ready Docs.
     json_path : Path | str | None
         Path to strategy2_nominal_pos.json. Defaults to the bundled file.
+    resolve : bool
+        If True, apply _resolve_matches after parsing to filter Tipo B
+        conflicts (same span, incompatible categories). Default False.
     """
 
     def __init__(
         self,
         nlp: spacy.Language,
         json_path: Path | str | None = None,
+        resolve: bool = False,
     ) -> None:
         self._matcher = Matcher(nlp.vocab)
+        self._resolve = resolve
+        # No intra-parser incompatible pairs identified for NOMINAL_POS.
+        self._incompatible_pairs: list[tuple[str, str]] = []
         # Maps structure_id → lightweight metadata dict (no examples).
         self.structures: dict[str, dict[str, Any]] = {}
 
@@ -132,5 +128,8 @@ class Group2Parser:
                 "start_token": start,
                 "end_token": end,
             })
+
+        if self._resolve:
+            results = _resolve_matches(results, doc, self._incompatible_pairs)
 
         return results

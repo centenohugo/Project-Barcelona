@@ -31,7 +31,7 @@ import spacy
 from spacy.matcher import Matcher
 from spacy.tokens import Doc
 
-from .group1_parser import CEFR_NUMERIC, _normalise_patterns
+from .group1_parser import CEFR_NUMERIC, _normalise_patterns, _resolve_matches
 
 _DEFAULT_JSON = Path(__file__).parent / "structures" / "strategy4_syntactic_structure.json"
 
@@ -49,14 +49,21 @@ class Group4Parser:
         the parser does NOT call nlp() internally — callers pass ready Docs.
     json_path : Path | str | None
         Path to strategy4_syntactic_structure.json. Defaults to the bundled file.
+    resolve : bool
+        If True, apply _resolve_matches after parsing to filter Tipo B
+        conflicts (same span, incompatible categories). Default False.
     """
 
     def __init__(
         self,
         nlp: spacy.Language,
         json_path: Path | str | None = None,
+        resolve: bool = False,
     ) -> None:
         self._matcher = Matcher(nlp.vocab)
+        self._resolve = resolve
+        # No intra-parser incompatible pairs identified yet for SYNTACTIC_STRUCTURE.
+        self._incompatible_pairs: list[tuple[str, str]] = []
         self.structures: dict[str, dict[str, Any]] = {}
         self._regex: dict[str, re.Pattern[str]] = {}
 
@@ -142,5 +149,8 @@ class Group4Parser:
                 "start_token": start,
                 "end_token": end,
             })
+
+        if self._resolve:
+            results = _resolve_matches(results, doc, self._incompatible_pairs)
 
         return results

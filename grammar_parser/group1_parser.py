@@ -27,6 +27,7 @@ from __future__ import annotations
 
 import json
 import re
+from collections import defaultdict
 from pathlib import Path
 from typing import Any
 
@@ -45,15 +46,169 @@ _DEFAULT_JSON = Path(__file__).parent / "structures" / "strategy1_lexical_trigge
 
 
 def _normalise_patterns(raw: list) -> list:
-    """Ensure patterns are in [[token_dict, ...], ...] format.
+    """Return patterns in [[token_dict, ...], ...] format for Matcher.add().
 
-    Matcher.add() expects a list of patterns, where each pattern is a list of
-    token dicts. Some rules store a single flat pattern as [token_dict, ...]
-    instead of [[token_dict, ...]] — this function wraps those cases.
+    Handles three input shapes found across the strategy JSON files:
+      NESTED  [[{...}], [{...}]]  — already correct, return unchanged
+      FLAT    [{...}, {...}]      — single multi-token pattern, wrap in a list
+      MIXED   [[{...}], {...}]    — normalise each element individually
+
+    Checking only raw[0] is fragile for mixed arrays, so each element is
+    inspected explicitly.
     """
-    if raw and isinstance(raw[0], dict):
+    if not raw:
+        return raw
+    if all(isinstance(p, list) for p in raw):   # already nested
+        return raw
+    if all(isinstance(p, dict) for p in raw):   # flat single pattern
         return [raw]
-    return raw
+    # mixed: some elements are already patterns (lists), some are lone token dicts
+    result = []
+    for p in raw:
+        if isinstance(p, list):
+            result.append(p)
+        elif isinstance(p, dict):
+            result.append([p])
+    return result
+
+
+def _dep_disambiguate(
+    cat_a: str, cat_b: str, start: int, end: int, doc: Doc
+) -> str | None:
+    """Apply spaCy DEP heuristics for known incompatible category pairs.
+
+    Returns the winning category name, or None if the signal is inconclusive.
+    Only called when both cat_a and cat_b have matches on the same span.
+
+    Supported pairs (order-independent):
+      PASSIVES / PRESENT  — disambiguates VBN spans (passive vs present perfect)
+      PAST     / PASSIVES — disambiguates VBN tokens (simple past vs passive)
+    """
+    pair = frozenset({cat_a, cat_b})
+
+    if pair == frozenset({"PASSIVES", "PRESENT"}):
+        # Passive signal: nsubjpass dependency on any token in the span
+        for i in range(start, end):
+            if doc[i].dep_ == "nsubjpass":
+                return "PASSIVES"
+        # Passive signal: 'by' agent phrase within 5 tokens after the span
+        for j in range(end, min(end + 5, len(doc))):
+            if doc[j].lower_ == "by":
+                return "PASSIVES"
+        # Present progressive signal: VBG within 3 tokens after the span
+        # (e.g. "has been working" — 'working' follows the auxiliary span)
+        for j in range(end, min(end + 3, len(doc))):
+            if doc[j].tag_ == "VBG":
+                return "PRESENT"
+        return None  # inconclusive
+
+    if pair == frozenset({"PAST", "PASSIVES"}):
+        # Passive signal: auxiliary 'be' immediately before the span
+        if start > 0 and doc[start - 1].lemma_ == "be":
+            return "PASSIVES"
+        # Passive signal: nsubjpass on any token in the span
+        for i in range(start, end):
+            if doc[i].dep_ == "nsubjpass":
+                return "PASSIVES"
+        return "PAST"  # default: no auxiliary → simple past
+
+    return None  # pair not handled
+
+
+def _resolve_matches(
+    matches: list[dict[str, Any]],
+    doc: Doc,
+    incompatible_pairs: list[tuple[str, str]],
+) -> list[dict[str, Any]]:
+    """Resolve Tipo B conflicts: same span, mutually incompatible categories.
+
+    For each pair (cat_a, cat_b) in incompatible_pairs, when both categories
+    produce matches on the exact same (start_token, end_token), applies DEP
+    heuristics via _dep_disambiguate to pick the winner. If heuristics are
+    inconclusive, keeps the category with the lowest lowest_level_numeric
+    (most basic structure).
+
+    Tipo A (same category, multiple guidewords) is NOT filtered — all
+    guidewords are pedagogically distinct and intentionally kept.
+
+    Parameters
+    ----------
+    matches           : raw list of match dicts from parse()
+    doc               : the spaCy Doc the matches came from
+    incompatible_pairs: list of (cat_a, cat_b) that are mutually exclusive
+                        when they share the same span
+    """
+    if not incompatible_pairs:
+        return matches
+
+    # Step 1a — Filter PASSIVES false positives (present perfect progressive).
+    # Pattern [VBZ/VBP + VBN] is ambiguous: "has been seen" (passive) vs
+    # "has been working" (present perfect progressive). When the span ends
+    # immediately before a VBG token, it is progressive → drop PASSIVES.
+    if any("PASSIVES" in pair for pair in incompatible_pairs):
+        matches = [
+            m for m in matches
+            if not (
+                m["category"] == "PASSIVES"
+                and m["end_token"] < len(doc)
+                and doc[m["end_token"]].tag_ == "VBG"
+            )
+        ]
+
+    # Step 1b — Filter PAST false positives (passive auxiliary).
+    # "was written" fires PAST on "was" (VBD), but spaCy marks it dep=auxpass
+    # when it's a passive auxiliary, not a simple past main verb. Drop those.
+    if any("PAST" in pair for pair in incompatible_pairs):
+        matches = [
+            m for m in matches
+            if not (
+                m["category"] == "PAST"
+                and any(
+                    doc[i].dep_ == "auxpass"
+                    for i in range(m["start_token"], m["end_token"])
+                )
+            )
+        ]
+
+    # Step 2 — Same-span conflict resolution (Tipo B strict).
+    by_span: dict[tuple[int, int], list[dict[str, Any]]] = defaultdict(list)
+    for m in matches:
+        by_span[(m["start_token"], m["end_token"])].append(m)
+
+    to_remove: set[tuple[str, int, int]] = set()
+
+    for (start, end), span_matches in by_span.items():
+        cats_present = {m["category"] for m in span_matches}
+        for cat_a, cat_b in incompatible_pairs:
+            if cat_a not in cats_present or cat_b not in cats_present:
+                continue
+
+            winner = _dep_disambiguate(cat_a, cat_b, start, end, doc)
+
+            if winner is None:
+                # Tiebreak: keep the category with the lowest minimum level
+                a_min = min(
+                    m["lowest_level_numeric"]
+                    for m in span_matches if m["category"] == cat_a
+                )
+                b_min = min(
+                    m["lowest_level_numeric"]
+                    for m in span_matches if m["category"] == cat_b
+                )
+                winner = cat_a if a_min <= b_min else cat_b
+
+            loser = cat_b if winner == cat_a else cat_a
+            for m in span_matches:
+                if m["category"] == loser:
+                    to_remove.add((m["structure_id"], start, end))
+
+    if not to_remove:
+        return matches
+
+    return [
+        m for m in matches
+        if (m["structure_id"], m["start_token"], m["end_token"]) not in to_remove
+    ]
 
 
 class Group1Parser:
@@ -69,14 +224,22 @@ class Group1Parser:
         the parser does NOT call nlp() internally — callers pass ready Docs.
     json_path : Path | str | None
         Path to strategy1_lexical_trigger.json. Defaults to the bundled file.
+    resolve : bool
+        If True, apply _resolve_matches after parsing to filter Tipo B
+        conflicts (same span, incompatible categories). Default False.
     """
 
     def __init__(
         self,
         nlp: spacy.Language,
         json_path: Path | str | None = None,
+        resolve: bool = False,
     ) -> None:
         self._matcher = Matcher(nlp.vocab)
+        self._resolve = resolve
+        # Group1 has no intra-parser incompatible pairs (MODALITY multi-guideword
+        # matches on the same span are intentional — Tipo A, not Tipo B).
+        self._incompatible_pairs: list[tuple[str, str]] = []
         # Maps structure_id → lightweight metadata dict (no examples/keywords).
         self.structures: dict[str, dict[str, Any]] = {}
         # Maps structure_id → compiled regex (only for rules that carry one).
@@ -174,5 +337,8 @@ class Group1Parser:
                 "start_token": start,
                 "end_token": end,
             })
+
+        if self._resolve:
+            results = _resolve_matches(results, doc, self._incompatible_pairs)
 
         return results

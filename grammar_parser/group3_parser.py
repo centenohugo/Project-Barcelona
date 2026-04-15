@@ -29,7 +29,7 @@ import spacy
 from spacy.matcher import Matcher
 from spacy.tokens import Doc
 
-from .group1_parser import CEFR_NUMERIC, _normalise_patterns
+from .group1_parser import CEFR_NUMERIC, _normalise_patterns, _resolve_matches
 
 _DEFAULT_JSON = Path(__file__).parent / "structures" / "strategy3_verbal_morphology.json"
 
@@ -47,14 +47,26 @@ class Group3Parser:
         the parser does NOT call nlp() internally — callers pass ready Docs.
     json_path : Path | str | None
         Path to strategy3_verbal_morphology.json. Defaults to the bundled file.
+    resolve : bool
+        If True, apply _resolve_matches after parsing to filter Tipo B
+        conflicts (same span, incompatible categories). Default False.
     """
 
     def __init__(
         self,
         nlp: spacy.Language,
         json_path: Path | str | None = None,
+        resolve: bool = False,
     ) -> None:
         self._matcher = Matcher(nlp.vocab)
+        self._resolve = resolve
+        # Intra-parser incompatible pairs for VERBAL_MORPHOLOGY:
+        #   PASSIVES / PRESENT  — same VBN span can be passive or present perfect
+        #   PAST     / PASSIVES — same VBN span can be simple past or passive
+        self._incompatible_pairs: list[tuple[str, str]] = [
+            ("PASSIVES", "PRESENT"),
+            ("PAST", "PASSIVES"),
+        ]
         self.structures: dict[str, dict[str, Any]] = {}
         self._regex: dict[str, re.Pattern[str]] = {}
 
@@ -138,5 +150,8 @@ class Group3Parser:
                 "start_token": start,
                 "end_token": end,
             })
+
+        if self._resolve:
+            results = _resolve_matches(results, doc, self._incompatible_pairs)
 
         return results

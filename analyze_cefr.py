@@ -1,11 +1,12 @@
 """
-Clasifica por nivel CEFR (A1-C2) cada palabra del canal 0 (alumno) de una
-transcripción Deepgram y agrega estadísticas del archivo.
+Simple CEFR classifier (A1-C2) for each word on channel 0 (student) of a
+Deepgram transcription JSON. Uses cefrpy word-level lookup with hardcoded
+whitelists for common contractions and interjections.
 
-Uso:   python analyze_cefr.py <input.json>
-Input: JSON Deepgram con results.channels[0].alternatives[0].words[]
-       (cada token: word, start, end, confidence).
-Output: output/<Student-X>_<lesson-Y>_<NN>.json con
+Usage:  python analyze_cefr.py <input.json>
+Input:  Deepgram JSON with results.channels[0].alternatives[0].words[]
+        (each token: word, start, end, confidence).
+Output: output/<Student-X>_<lesson-Y>_<NN>.json with
         - words[]: {start, end, word, confidence, cefr_level}
         - stats:   total_words, unique_words, cefr_distribution, unknown_words
 """
@@ -20,6 +21,7 @@ from cefrpy import CEFRAnalyzer
 
 LEVELS = ["A1", "A2", "B1", "B2", "C1", "C2", "UNKNOWN"]
 
+# Common interjections and contractions not reliably found in cefrpy
 A1_WHITELIST = frozenset({
     "hello", "hi", "hey", "bye", "goodbye", "thanks", "please", "sorry",
     "yeah", "yep", "yes", "nope", "ok", "okay", "uh", "um", "oh", "ah",
@@ -34,12 +36,8 @@ A1_WHITELIST = frozenset({
     "let's",
 })
 
-A2_WHITELIST = frozenset({
-    "smartphone",
-})
-
-
 def _variants(word):
+    """Yield the word itself plus contraction-stripped forms."""
     yield word
     if word.endswith("'s"):
         yield word[:-2]
@@ -48,6 +46,7 @@ def _variants(word):
 
 
 def classify(analyzer, word):
+    """Return the CEFR level for a single word using whitelists then cefrpy."""
     if word.isdigit():
         return "A1"
     for variant in _variants(word):
@@ -62,9 +61,11 @@ def classify(analyzer, word):
 
 
 def analyze(input_path: Path) -> dict:
+    """Classify every token from channel 0 and aggregate statistics."""
     with input_path.open(encoding="utf-8") as f:
         data = json.load(f)
 
+    # Channel 0 = student speech
     raw_words = data["results"]["channels"][0]["alternatives"][0]["words"]
     analyzer = CEFRAnalyzer()
 
@@ -81,6 +82,7 @@ def analyze(input_path: Path) -> dict:
             "cefr_level": classify(analyzer, token),
         })
 
+    # Aggregate CEFR distribution
     counts = Counter(item["cefr_level"] for item in words)
     total = len(words)
     distribution = {

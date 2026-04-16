@@ -49,7 +49,7 @@ export default function Navbar({ showStudentToggle = true }: { showStudentToggle
         )}
 
         <span className="text-sm text-on-surface-variant font-[family-name:var(--font-body)] justify-self-end">
-          CEFR Progress Tracker
+          Language Progress Tracker
         </span>
       </div>
     </nav>

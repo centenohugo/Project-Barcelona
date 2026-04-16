@@ -1,62 +1,56 @@
 "use client";
 
 import {
-  LineChart,
-  Line,
+  BarChart,
+  Bar,
   XAxis,
   YAxis,
   CartesianGrid,
   Tooltip,
   ResponsiveContainer,
-  Legend,
 } from "recharts";
 
-const mockData = [
-  { lesson: "Lesson 1", vocabLevel: 1.8, lsi: 0.12, rootTtr: 6.2, uniqueWords: 95 },
-  { lesson: "Lesson 2", vocabLevel: 2.1, lsi: 0.19, rootTtr: 7.9, uniqueWords: 133 },
-  { lesson: "Lesson 3", vocabLevel: 2.0, lsi: 0.15, rootTtr: 5.3, uniqueWords: 99 },
-  { lesson: "Lesson 4", vocabLevel: 2.4, lsi: 0.22, rootTtr: 8.1, uniqueWords: 148 },
-  { lesson: "Lesson 5", vocabLevel: 2.6, lsi: 0.25, rootTtr: 8.8, uniqueWords: 162 },
+export const mockData = [
+  { lesson: "L1", totalProgress: 1.8, vocabulary: 1.6, grammar: 2.0, fluency: 1.9 },
+  { lesson: "L2", totalProgress: 2.1, vocabulary: 2.0, grammar: 2.1, fluency: 2.2 },
+  { lesson: "L3", totalProgress: 2.0, vocabulary: 1.9, grammar: 2.2, fluency: 1.8 },
+  { lesson: "L4", totalProgress: 2.4, vocabulary: 2.3, grammar: 2.4, fluency: 2.5 },
+  { lesson: "L5", totalProgress: 2.6, vocabulary: 2.5, grammar: 2.7, fluency: 2.7 },
 ];
 
-const normalizeField = (data: typeof mockData, field: keyof (typeof mockData)[0]) => {
-  const values = data.map((d) => d[field] as number);
-  const max = Math.max(...values);
-  const min = Math.min(...values);
-  const range = max - min || 1;
-  return data.map((d) => ((d[field] as number) - min) / range);
-};
+interface ProgressChartProps {
+  prominent?: boolean;
+}
 
-const compositeData = mockData.map((d, i) => {
-  const normLsi = normalizeField(mockData, "lsi")[i];
-  const normTtr = normalizeField(mockData, "rootTtr")[i];
-  const normUnique = normalizeField(mockData, "uniqueWords")[i];
-  const composite = (normLsi + normTtr + normUnique) / 3;
-  return { ...d, composite: +(composite * 3 + 1).toFixed(2) };
-});
+export default function ProgressChart({ prominent = false }: ProgressChartProps) {
+  const chartHeight = prominent ? 240 : 180;
 
-export default function ProgressChart() {
   return (
-    <div className="flex-1 min-w-0 rounded-2xl bg-surface-lowest p-8 pl-8 pr-6">
-      <h2 className="font-[family-name:var(--font-display)] text-[1.75rem] font-bold text-on-surface tracking-tight mb-6">
-        Vocabulary Progress
+    <div className={`rounded-2xl bg-surface-lowest ${prominent ? "p-10" : "p-8"} max-w-5xl mx-auto w-full`}>
+      <h2
+        className={`font-[family-name:var(--font-display)] font-bold text-on-surface tracking-tight ${
+          prominent ? "text-[2rem] mb-8" : "text-[1.75rem] mb-6"
+        }`}
+      >
+        Total Progress
       </h2>
-      <div className="h-[320px]">
+      <div style={{ height: chartHeight }}>
         <ResponsiveContainer width="100%" height="100%">
-          <LineChart data={compositeData} margin={{ top: 8, right: 16, left: -8, bottom: 8 }}>
+          <BarChart data={mockData} margin={{ top: 8, right: 16, left: -8, bottom: 8 }}>
             <CartesianGrid
               strokeDasharray="3 3"
               stroke="var(--surface-variant)"
               strokeOpacity={0.5}
+              vertical={false}
             />
             <XAxis
               dataKey="lesson"
-              tick={{ fontSize: 12, fill: "var(--on-surface-variant)" }}
+              tick={{ fontSize: prominent ? 13 : 12, fill: "var(--on-surface-variant)" }}
               tickLine={false}
               axisLine={false}
             />
             <YAxis
-              tick={{ fontSize: 12, fill: "var(--on-surface-variant)" }}
+              tick={{ fontSize: prominent ? 13 : 12, fill: "var(--on-surface-variant)" }}
               tickLine={false}
               axisLine={false}
               domain={[0, "auto"]}
@@ -69,68 +63,17 @@ export default function ProgressChart() {
                 boxShadow: "0 8px 32px rgba(28,27,26,0.06)",
                 fontSize: 13,
               }}
+              cursor={false}
             />
-            <Legend
-              wrapperStyle={{ fontSize: 12, fontFamily: "var(--font-body)" }}
-            />
-
-            {/* Sub-lines: individual metrics — thinner, muted */}
-            <Line
-              type="linear"
-              dataKey="lsi"
-              name="LSI"
-              stroke="var(--secondary)"
-              strokeWidth={1}
-              strokeOpacity={0.35}
-              dot={false}
-              activeDot={{ r: 3 }}
-            />
-            <Line
-              type="linear"
-              dataKey="rootTtr"
-              name="Root TTR"
-              stroke="var(--secondary)"
-              strokeWidth={1}
-              strokeOpacity={0.25}
-              strokeDasharray="6 4"
-              dot={false}
-              activeDot={{ r: 3 }}
-            />
-            <Line
-              type="linear"
-              dataKey="uniqueWords"
-              name="Unique Words"
-              stroke="var(--secondary)"
-              strokeWidth={1}
-              strokeOpacity={0.2}
-              strokeDasharray="2 4"
-              dot={false}
-              activeDot={{ r: 3 }}
-              yAxisId="right"
-            />
-
-            {/* Main line: vocab level — prominent */}
-            <Line
-              type="linear"
-              dataKey="vocabLevel"
-              name="Vocab Level"
-              stroke="var(--primary)"
-              strokeWidth={3}
-              dot={{ r: 5, fill: "var(--primary)", strokeWidth: 2, stroke: "var(--surface-container-lowest)" }}
-              activeDot={{ r: 7, fill: "var(--primary)" }}
+            <Bar
+              dataKey="totalProgress"
+              name="Total Progress"
+              fill="var(--primary)"
+              radius={[8, 8, 0, 0]}
               animationDuration={1200}
               animationEasing="ease-out"
             />
-
-            <YAxis
-              yAxisId="right"
-              orientation="right"
-              tick={{ fontSize: 11, fill: "var(--on-surface-variant)" }}
-              tickLine={false}
-              axisLine={false}
-              hide
-            />
-          </LineChart>
+          </BarChart>
         </ResponsiveContainer>
       </div>
     </div>

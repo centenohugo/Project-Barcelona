@@ -1,0 +1,2031 @@
+{
+  "source": "data/preprocessed/Student-1/lesson-3/sentences.json",
+  "student": "Student-1",
+  "lesson": "lesson-3",
+  "partition_method": "ai_context_chunker_v14",
+  "summary": {
+    "paragraph_count": 18,
+    "sentence_count": 414,
+    "total_words": 3690,
+    "total_errors": 93,
+    "weighted_error_sum": 195,
+    "overall_quality_score": 74,
+    "overall_quality_level": "Moderate",
+    "overall_quality_color": "#d97706",
+    "dimension_counts": {
+      "A": 0,
+      "B": 29,
+      "C": 19,
+      "D": 45
+    },
+    "grammar_category_counts": {
+      "modal/conditional error": 45,
+      "incorrect word form": 19,
+      "grammar error": 14,
+      "verb/tense error": 8,
+      "nominal error": 4,
+      "subject-verb agreement": 2,
+      "article choice (a/an)": 1
+    }
+  },
+  "paragraphs": [
+    {
+      "paragraph_id": 1,
+      "label": "Weather improvement and choosing a topic to discuss",
+      "sentence_count": 28,
+      "word_count": 201,
+      "sentence_start_idx": 1,
+      "sentence_end_idx": 28,
+      "error_count": 7,
+      "weighted_error_sum": 15,
+      "quality_score": 63,
+      "quality_level": "Moderate",
+      "quality_color": "#d97706",
+      "dimension_counts": {
+        "A": 0,
+        "B": 4,
+        "C": 1,
+        "D": 2
+      }
+    },
+    {
+      "paragraph_id": 3,
+      "label": "Discussing how notifications hurt concentration and personal habits",
+      "sentence_count": 15,
+      "word_count": 201,
+      "sentence_start_idx": 29,
+      "sentence_end_idx": 43,
+      "error_count": 4,
+      "weighted_error_sum": 8,
+      "quality_score": 80,
+      "quality_level": "Good",
+      "quality_color": "#15803d",
+      "dimension_counts": {
+        "A": 0,
+        "B": 3,
+        "C": 0,
+        "D": 1
+      }
+    },
+    {
+      "paragraph_id": 4,
+      "label": "Turning off phone notifications to improve focus",
+      "sentence_count": 21,
+      "word_count": 248,
+      "sentence_start_idx": 44,
+      "sentence_end_idx": 64,
+      "error_count": 2,
+      "weighted_error_sum": 4,
+      "quality_score": 92,
+      "quality_level": "Good",
+      "quality_color": "#15803d",
+      "dimension_counts": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 2
+      }
+    },
+    {
+      "paragraph_id": 5,
+      "label": "Benefits of turning off phone notifications for concentration",
+      "sentence_count": 18,
+      "word_count": 213,
+      "sentence_start_idx": 65,
+      "sentence_end_idx": 82,
+      "error_count": 3,
+      "weighted_error_sum": 6,
+      "quality_score": 86,
+      "quality_level": "Good",
+      "quality_color": "#15803d",
+      "dimension_counts": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 3
+      }
+    },
+    {
+      "paragraph_id": 6,
+      "label": "Not using phone notifications and Twitter usage habits",
+      "sentence_count": 18,
+      "word_count": 200,
+      "sentence_start_idx": 83,
+      "sentence_end_idx": 100,
+      "error_count": 4,
+      "weighted_error_sum": 8,
+      "quality_score": 80,
+      "quality_level": "Good",
+      "quality_color": "#15803d",
+      "dimension_counts": {
+        "A": 0,
+        "B": 0,
+        "C": 1,
+        "D": 3
+      }
+    },
+    {
+      "paragraph_id": 7,
+      "label": "Social media habits, focus times, and working from home",
+      "sentence_count": 24,
+      "word_count": 212,
+      "sentence_start_idx": 101,
+      "sentence_end_idx": 124,
+      "error_count": 5,
+      "weighted_error_sum": 12,
+      "quality_score": 72,
+      "quality_level": "Moderate",
+      "quality_color": "#d97706",
+      "dimension_counts": {
+        "A": 0,
+        "B": 4,
+        "C": 1,
+        "D": 0
+      }
+    },
+    {
+      "paragraph_id": 8,
+      "label": "How distractions affect concentration during work and exams",
+      "sentence_count": 19,
+      "word_count": 218,
+      "sentence_start_idx": 125,
+      "sentence_end_idx": 143,
+      "error_count": 7,
+      "weighted_error_sum": 14,
+      "quality_score": 68,
+      "quality_level": "Moderate",
+      "quality_color": "#d97706",
+      "dimension_counts": {
+        "A": 0,
+        "B": 1,
+        "C": 1,
+        "D": 5
+      }
+    },
+    {
+      "paragraph_id": 9,
+      "label": "Phone distractions during school exams and scam calls",
+      "sentence_count": 23,
+      "word_count": 211,
+      "sentence_start_idx": 144,
+      "sentence_end_idx": 166,
+      "error_count": 5,
+      "weighted_error_sum": 10,
+      "quality_score": 76,
+      "quality_level": "Moderate",
+      "quality_color": "#d97706",
+      "dimension_counts": {
+        "A": 0,
+        "B": 3,
+        "C": 1,
+        "D": 1
+      }
+    },
+    {
+      "paragraph_id": 10,
+      "label": "Scam calls in Poland and messaging app preferences",
+      "sentence_count": 23,
+      "word_count": 202,
+      "sentence_start_idx": 167,
+      "sentence_end_idx": 189,
+      "error_count": 0,
+      "weighted_error_sum": 0,
+      "quality_score": 100,
+      "quality_level": "Good",
+      "quality_color": "#15803d",
+      "dimension_counts": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      }
+    },
+    {
+      "paragraph_id": 11,
+      "label": "Messaging apps usage, education on digital notifications, learning vocabulary",
+      "sentence_count": 38,
+      "word_count": 235,
+      "sentence_start_idx": 190,
+      "sentence_end_idx": 227,
+      "error_count": 11,
+      "weighted_error_sum": 23,
+      "quality_score": 51,
+      "quality_level": "Weak",
+      "quality_color": "#ea580c",
+      "dimension_counts": {
+        "A": 0,
+        "B": 2,
+        "C": 1,
+        "D": 8
+      }
+    },
+    {
+      "paragraph_id": 12,
+      "label": "Impact of notifications on focus and device usage habits",
+      "sentence_count": 23,
+      "word_count": 210,
+      "sentence_start_idx": 228,
+      "sentence_end_idx": 250,
+      "error_count": 6,
+      "weighted_error_sum": 12,
+      "quality_score": 71,
+      "quality_level": "Moderate",
+      "quality_color": "#d97706",
+      "dimension_counts": {
+        "A": 0,
+        "B": 3,
+        "C": 1,
+        "D": 2
+      }
+    },
+    {
+      "paragraph_id": 13,
+      "label": "Laptop usage, gaming opinions, and digital disruption effects",
+      "sentence_count": 20,
+      "word_count": 234,
+      "sentence_start_idx": 251,
+      "sentence_end_idx": 270,
+      "error_count": 5,
+      "weighted_error_sum": 11,
+      "quality_score": 76,
+      "quality_level": "Moderate",
+      "quality_color": "#d97706",
+      "dimension_counts": {
+        "A": 0,
+        "B": 1,
+        "C": 0,
+        "D": 4
+      }
+    },
+    {
+      "paragraph_id": 14,
+      "label": "TikTok vs YouTube, attention spans, and digital distractions",
+      "sentence_count": 26,
+      "word_count": 202,
+      "sentence_start_idx": 271,
+      "sentence_end_idx": 296,
+      "error_count": 5,
+      "weighted_error_sum": 11,
+      "quality_score": 73,
+      "quality_level": "Moderate",
+      "quality_color": "#d97706",
+      "dimension_counts": {
+        "A": 0,
+        "B": 1,
+        "C": 3,
+        "D": 1
+      }
+    },
+    {
+      "paragraph_id": 15,
+      "label": "Personal discipline, sports habits, and having idols",
+      "sentence_count": 29,
+      "word_count": 208,
+      "sentence_start_idx": 297,
+      "sentence_end_idx": 325,
+      "error_count": 7,
+      "weighted_error_sum": 16,
+      "quality_score": 62,
+      "quality_level": "Moderate",
+      "quality_color": "#d97706",
+      "dimension_counts": {
+        "A": 0,
+        "B": 3,
+        "C": 2,
+        "D": 2
+      }
+    },
+    {
+      "paragraph_id": 16,
+      "label": "Idols, discipline changes during teenage years",
+      "sentence_count": 35,
+      "word_count": 211,
+      "sentence_start_idx": 326,
+      "sentence_end_idx": 360,
+      "error_count": 10,
+      "weighted_error_sum": 20,
+      "quality_score": 53,
+      "quality_level": "Weak",
+      "quality_color": "#ea580c",
+      "dimension_counts": {
+        "A": 0,
+        "B": 1,
+        "C": 4,
+        "D": 5
+      }
+    },
+    {
+      "paragraph_id": 17,
+      "label": "Changes in behavior and discipline from childhood to adulthood",
+      "sentence_count": 16,
+      "word_count": 210,
+      "sentence_start_idx": 361,
+      "sentence_end_idx": 376,
+      "error_count": 4,
+      "weighted_error_sum": 8,
+      "quality_score": 81,
+      "quality_level": "Good",
+      "quality_color": "#15803d",
+      "dimension_counts": {
+        "A": 0,
+        "B": 0,
+        "C": 2,
+        "D": 2
+      }
+    },
+    {
+      "paragraph_id": 18,
+      "label": "Growing up, discipline, family dependence, and focusing on strengths",
+      "sentence_count": 26,
+      "word_count": 221,
+      "sentence_start_idx": 377,
+      "sentence_end_idx": 402,
+      "error_count": 7,
+      "weighted_error_sum": 15,
+      "quality_score": 66,
+      "quality_level": "Moderate",
+      "quality_color": "#d97706",
+      "dimension_counts": {
+        "A": 0,
+        "B": 3,
+        "C": 1,
+        "D": 3
+      }
+    },
+    {
+      "paragraph_id": 19,
+      "label": "Focusing on few topics for better results and farewell",
+      "sentence_count": 12,
+      "word_count": 53,
+      "sentence_start_idx": 403,
+      "sentence_end_idx": 414,
+      "error_count": 1,
+      "weighted_error_sum": 2,
+      "quality_score": 81,
+      "quality_level": "Good",
+      "quality_color": "#15803d",
+      "dimension_counts": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 1
+      }
+    }
+  ],
+  "errors": [
+    {
+      "sentence": "Because I the weather the the weather is great.",
+      "sentence_index": 11,
+      "rule_id": "PRP_THE",
+      "grammar_category": "verb/tense error",
+      "dimension_code": "B",
+      "dimension_label": "Tense & Aspect Mastery",
+      "weight": 3,
+      "matched_text": "I the",
+      "message": "A verb may be missing between “I” and “the”, or a word may be misspelled.",
+      "replacements": [],
+      "offset": 8,
+      "error_length": 5,
+      "paragraph_id": 1
+    },
+    {
+      "sentence": "It has it has improved because in the during the winter, it was it was was very cold.",
+      "sentence_index": 12,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "It has it has",
+      "message": "This phrase is duplicated. You should probably use “It has” only once.",
+      "replacements": [
+        "It has"
+      ],
+      "offset": 0,
+      "error_length": 13,
+      "paragraph_id": 1
+    },
+    {
+      "sentence": "It has it has improved because in the during the winter, it was it was was very cold.",
+      "sentence_index": 12,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "it was it was",
+      "message": "This phrase is duplicated. You should probably use “it was” only once.",
+      "replacements": [
+        "it was"
+      ],
+      "offset": 57,
+      "error_length": 13,
+      "paragraph_id": 1
+    },
+    {
+      "sentence": "Now it it improved.",
+      "sentence_index": 15,
+      "rule_id": "IT_IT",
+      "grammar_category": "grammar error",
+      "dimension_code": "C",
+      "dimension_label": "Nominal Precision",
+      "weight": 2,
+      "matched_text": "it it",
+      "message": "It seems you either mean “it is”, “if it”, “it” or there is a comma missing.",
+      "replacements": [
+        "it is",
+        "if it",
+        "it",
+        "it, it"
+      ],
+      "offset": 4,
+      "error_length": 5,
+      "paragraph_id": 1
+    },
+    {
+      "sentence": "Mhmm.",
+      "sentence_index": 19,
+      "rule_id": "MORFOLOGIK_RULE_EN_US",
+      "grammar_category": "incorrect word form",
+      "dimension_code": "B",
+      "dimension_label": "Tense & Aspect Mastery",
+      "weight": 2,
+      "matched_text": "Mhmm",
+      "message": "Possible spelling mistake found.",
+      "replacements": [
+        "MMM",
+        "Hmm",
+        "M hmm"
+      ],
+      "offset": 0,
+      "error_length": 4,
+      "paragraph_id": 1
+    },
+    {
+      "sentence": "That's according to a recent study published in computers in human behavior in which behavior behavior in which 118 university students were split into three groups to take part in Stroop takes tasks tasks tasks.",
+      "sentence_index": 26,
+      "rule_id": "MORFOLOGIK_RULE_EN_US",
+      "grammar_category": "incorrect word form",
+      "dimension_code": "B",
+      "dimension_label": "Tense & Aspect Mastery",
+      "weight": 2,
+      "matched_text": "Stroop",
+      "message": "Possible spelling mistake found.",
+      "replacements": [
+        "Troop",
+        "Strewn",
+        "Stoop",
+        "Strop",
+        "Strew",
+        "Strews"
+      ],
+      "offset": 181,
+      "error_length": 6,
+      "paragraph_id": 1
+    },
+    {
+      "sentence": "During Stroop tasks, participations are shown the word for a color, but the font will be in a different color.",
+      "sentence_index": 27,
+      "rule_id": "MORFOLOGIK_RULE_EN_US",
+      "grammar_category": "incorrect word form",
+      "dimension_code": "B",
+      "dimension_label": "Tense & Aspect Mastery",
+      "weight": 2,
+      "matched_text": "Stroop",
+      "message": "Possible spelling mistake found.",
+      "replacements": [
+        "Troop",
+        "Strewn",
+        "Stoop",
+        "Strop",
+        "Strew",
+        "Strews"
+      ],
+      "offset": 7,
+      "error_length": 6,
+      "paragraph_id": 1
+    },
+    {
+      "sentence": "However, Hippologt Fournier, one of the study authors told CPOST, Even short disruption when repeated dose dozens or hundreds of time per day may meaningfully affect concentration",
+      "sentence_index": 33,
+      "rule_id": "MORFOLOGIK_RULE_EN_US",
+      "grammar_category": "incorrect word form",
+      "dimension_code": "B",
+      "dimension_label": "Tense & Aspect Mastery",
+      "weight": 2,
+      "matched_text": "Hippologt",
+      "message": "Possible spelling mistake found.",
+      "replacements": [
+        "Histology",
+        "Hippolyta",
+        "Hippolyte",
+        "Haplology",
+        "Hierology"
+      ],
+      "offset": 9,
+      "error_length": 9,
+      "paragraph_id": 3
+    },
+    {
+      "sentence": "However, Hippologt Fournier, one of the study authors told CPOST, Even short disruption when repeated dose dozens or hundreds of time per day may meaningfully affect concentration",
+      "sentence_index": 33,
+      "rule_id": "MORFOLOGIK_RULE_EN_US",
+      "grammar_category": "incorrect word form",
+      "dimension_code": "B",
+      "dimension_label": "Tense & Aspect Mastery",
+      "weight": 2,
+      "matched_text": "CPOST",
+      "message": "Possible spelling mistake found.",
+      "replacements": [
+        "COST",
+        "POST",
+        "CP OST",
+        "CPO ST"
+      ],
+      "offset": 59,
+      "error_length": 5,
+      "paragraph_id": 3
+    },
+    {
+      "sentence": "Mhmm.",
+      "sentence_index": 36,
+      "rule_id": "MORFOLOGIK_RULE_EN_US",
+      "grammar_category": "incorrect word form",
+      "dimension_code": "B",
+      "dimension_label": "Tense & Aspect Mastery",
+      "weight": 2,
+      "matched_text": "Mhmm",
+      "message": "Possible spelling mistake found.",
+      "replacements": [
+        "MMM",
+        "Hmm",
+        "M hmm"
+      ],
+      "offset": 0,
+      "error_length": 4,
+      "paragraph_id": 3
+    },
+    {
+      "sentence": "There are a lot of disruptions that we can encounter, and and it would be great if we were more conscious about it because because it can cause a lot of it can it can cause it can cause a lot of issues when it comes to being present,",
+      "sentence_index": 40,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "it can it can",
+      "message": "This phrase is duplicated. You should probably use “it can” only once.",
+      "replacements": [
+        "it can"
+      ],
+      "offset": 153,
+      "error_length": 13,
+      "paragraph_id": 3
+    },
+    {
+      "sentence": "It can, yeah, sort out sort out.",
+      "sentence_index": 49,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "sort out sort out",
+      "message": "This phrase is duplicated. You should probably use “sort out” only once.",
+      "replacements": [
+        "sort out"
+      ],
+      "offset": 14,
+      "error_length": 17,
+      "paragraph_id": 4
+    },
+    {
+      "sentence": "So so I I did it, and I if I if I could get back in time, I I didn't check anything.",
+      "sentence_index": 57,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "I if I if",
+      "message": "This phrase is duplicated. You should probably use “I if” only once.",
+      "replacements": [
+        "I if"
+      ],
+      "offset": 22,
+      "error_length": 9,
+      "paragraph_id": 4
+    },
+    {
+      "sentence": "When I started to to get off my notifications, I felt this this sensation this sensation of of of losing something.",
+      "sentence_index": 67,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "this sensation this sensation",
+      "message": "This phrase is duplicated. You should probably use “this sensation” only once.",
+      "replacements": [
+        "this sensation"
+      ],
+      "offset": 59,
+      "error_length": 29,
+      "paragraph_id": 5
+    },
+    {
+      "sentence": "So the world creates a lot of informations that that are that are that are unnecessary to to our lives.",
+      "sentence_index": 74,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "that are that are",
+      "message": "This phrase is duplicated. You should probably use “that are” only once.",
+      "replacements": [
+        "that are"
+      ],
+      "offset": 48,
+      "error_length": 17,
+      "paragraph_id": 5
+    },
+    {
+      "sentence": "So if I if I could eliminate if I could get off, let's say, 40% of this type of information, I think it was a great choice.",
+      "sentence_index": 75,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "if I if I",
+      "message": "This phrase is duplicated. You should probably use “if I” only once.",
+      "replacements": [
+        "if I"
+      ],
+      "offset": 3,
+      "error_length": 9,
+      "paragraph_id": 5
+    },
+    {
+      "sentence": "And and I wish it could it could go ahead.",
+      "sentence_index": 91,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "it could it could",
+      "message": "This phrase is duplicated. You should probably use “it could” only once.",
+      "replacements": [
+        "it could"
+      ],
+      "offset": 15,
+      "error_length": 17,
+      "paragraph_id": 6
+    },
+    {
+      "sentence": "So if I try to I try I try to I try to be conscious about it and don't use a lot of of Twitter.",
+      "sentence_index": 95,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "I try I try",
+      "message": "This phrase is duplicated. You should probably use “I try” only once.",
+      "replacements": [
+        "I try"
+      ],
+      "offset": 15,
+      "error_length": 11,
+      "paragraph_id": 6
+    },
+    {
+      "sentence": "and I I do have not nothing to do, I I something start to to use Twitter.",
+      "sentence_index": 97,
+      "rule_id": "DOUBLE_NEGATIVE",
+      "grammar_category": "grammar error",
+      "dimension_code": "C",
+      "dimension_label": "Nominal Precision",
+      "weight": 2,
+      "matched_text": " nothing",
+      "message": "This phrase contains a double negative, or a comma may be missing.",
+      "replacements": [
+        " anything",
+        ", nothing"
+      ],
+      "offset": 19,
+      "error_length": 8,
+      "paragraph_id": 6
+    },
+    {
+      "sentence": "And if you are you can you can get lost in this, you know, using it, reading for forty minutes, one hour, and it don't help you at the end.",
+      "sentence_index": 98,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "you can you can",
+      "message": "This phrase is duplicated. You should probably use “you can” only once.",
+      "replacements": [
+        "you can"
+      ],
+      "offset": 15,
+      "error_length": 15,
+      "paragraph_id": 6
+    },
+    {
+      "sentence": "does it doesn't it doesn't help you.",
+      "sentence_index": 101,
+      "rule_id": "DOES_X_HAS",
+      "grammar_category": "verb/tense error",
+      "dimension_code": "B",
+      "dimension_label": "Tense & Aspect Mastery",
+      "weight": 3,
+      "matched_text": "does",
+      "message": "Did you mean “do”? As ‘do’ is already inflected, the verb cannot also be inflected.",
+      "replacements": [
+        "do"
+      ],
+      "offset": 8,
+      "error_length": 4,
+      "paragraph_id": 7
+    },
+    {
+      "sentence": "I'm more focused mhmm.",
+      "sentence_index": 105,
+      "rule_id": "MORFOLOGIK_RULE_EN_US",
+      "grammar_category": "incorrect word form",
+      "dimension_code": "B",
+      "dimension_label": "Tense & Aspect Mastery",
+      "weight": 2,
+      "matched_text": "mhmm",
+      "message": "Possible spelling mistake found.",
+      "replacements": [
+        "MMM",
+        "hmm",
+        "m hmm"
+      ],
+      "offset": 17,
+      "error_length": 4,
+      "paragraph_id": 7
+    },
+    {
+      "sentence": "Then I don't I don't because when I working now I'm working from home.",
+      "sentence_index": 113,
+      "rule_id": "PRP_VBG",
+      "grammar_category": "verb/tense error",
+      "dimension_code": "B",
+      "dimension_label": "Tense & Aspect Mastery",
+      "weight": 3,
+      "matched_text": "I working",
+      "message": "An auxiliary verb seems to be missing from this progressive structure. Did you mean “I'm working”, “I am working”, or “I was working”?",
+      "replacements": [
+        "I'm working",
+        "I am working",
+        "I was working"
+      ],
+      "offset": 34,
+      "error_length": 9,
+      "paragraph_id": 7
+    },
+    {
+      "sentence": "It it doesn't depend only on my planifications, but but I try to be concentrated when I need need to work.",
+      "sentence_index": 116,
+      "rule_id": "IT_IT",
+      "grammar_category": "grammar error",
+      "dimension_code": "C",
+      "dimension_label": "Nominal Precision",
+      "weight": 2,
+      "matched_text": "It it",
+      "message": "It seems you either mean “it is”, “if it”, “it” or there is a comma missing.",
+      "replacements": [
+        "It is",
+        "If it",
+        "It",
+        "It, it"
+      ],
+      "offset": 0,
+      "error_length": 5,
+      "paragraph_id": 7
+    },
+    {
+      "sentence": "It it doesn't depend only on my planifications, but but I try to be concentrated when I need need to work.",
+      "sentence_index": 116,
+      "rule_id": "MORFOLOGIK_RULE_EN_US",
+      "grammar_category": "incorrect word form",
+      "dimension_code": "B",
+      "dimension_label": "Tense & Aspect Mastery",
+      "weight": 2,
+      "matched_text": "planifications",
+      "message": "Possible spelling mistake found.",
+      "replacements": [
+        "clarifications",
+        "pacifications"
+      ],
+      "offset": 32,
+      "error_length": 14,
+      "paragraph_id": 7
+    },
+    {
+      "sentence": "it's not very demanding, but and it's not very complicated, but you need to be concentrated, be focused on what you what you what you write,",
+      "sentence_index": 126,
+      "rule_id": "AND_BUT",
+      "grammar_category": "grammar error",
+      "dimension_code": "C",
+      "dimension_label": "Nominal Precision",
+      "weight": 2,
+      "matched_text": "but and",
+      "message": "Please check if you only wanted to use one conjunction here.",
+      "replacements": [
+        "but",
+        "and"
+      ],
+      "offset": 25,
+      "error_length": 7,
+      "paragraph_id": 8
+    },
+    {
+      "sentence": "it's not very demanding, but and it's not very complicated, but you need to be concentrated, be focused on what you what you what you write,",
+      "sentence_index": 126,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "what you what you",
+      "message": "This phrase is duplicated. You should probably use “what you” only once.",
+      "replacements": [
+        "what you"
+      ],
+      "offset": 107,
+      "error_length": 17,
+      "paragraph_id": 8
+    },
+    {
+      "sentence": "And if I'm disrupted by not only by notifications, but by every situation, I need I need, like, four, five minutes to to get back and be really concentrated as as if, you know, as if I wasn't disrupted completely.",
+      "sentence_index": 128,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "I need I need",
+      "message": "This phrase is duplicated. You should probably use “I need” only once.",
+      "replacements": [
+        "I need"
+      ],
+      "offset": 75,
+      "error_length": 13,
+      "paragraph_id": 8
+    },
+    {
+      "sentence": "Mhmm.",
+      "sentence_index": 129,
+      "rule_id": "MORFOLOGIK_RULE_EN_US",
+      "grammar_category": "incorrect word form",
+      "dimension_code": "B",
+      "dimension_label": "Tense & Aspect Mastery",
+      "weight": 2,
+      "matched_text": "Mhmm",
+      "message": "Possible spelling mistake found.",
+      "replacements": [
+        "MMM",
+        "Hmm",
+        "M hmm"
+      ],
+      "offset": 0,
+      "error_length": 4,
+      "paragraph_id": 8
+    },
+    {
+      "sentence": "Because if you if you see I",
+      "sentence_index": 131,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "if you if you",
+      "message": "This phrase is duplicated. You should probably use “if you” only once.",
+      "replacements": [
+        "if you"
+      ],
+      "offset": 8,
+      "error_length": 13,
+      "paragraph_id": 8
+    },
+    {
+      "sentence": "For example, I remember that when I was at school and I was supposed to to pass an exam, for example, I I remember that I that I felt that in my pocket, my phone was was, you know, was vibrating.",
+      "sentence_index": 140,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "that I that I",
+      "message": "This phrase is duplicated. You should probably use “that I” only once.",
+      "replacements": [
+        "that I"
+      ],
+      "offset": 115,
+      "error_length": 13,
+      "paragraph_id": 8
+    },
+    {
+      "sentence": "And even this sensation, it cows that I was thinking about it because I I couldn't check check out who who was who was calling to me.",
+      "sentence_index": 142,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "who was who was",
+      "message": "This phrase is duplicated. You should probably use “who was” only once.",
+      "replacements": [
+        "who was"
+      ],
+      "offset": 103,
+      "error_length": 15,
+      "paragraph_id": 8
+    },
+    {
+      "sentence": "So to to pass every maths exam, I needed to be very concentrated, very prepared, and with every disruption that's that's occurs occurs.",
+      "sentence_index": 146,
+      "rule_id": "MORFOLOGIK_RULE_EN_US",
+      "grammar_category": "incorrect word form",
+      "dimension_code": "B",
+      "dimension_label": "Tense & Aspect Mastery",
+      "weight": 2,
+      "matched_text": "maths",
+      "message": "Possible spelling mistake. ‘maths’ is British English.",
+      "replacements": [
+        "math"
+      ],
+      "offset": 20,
+      "error_length": 5,
+      "paragraph_id": 9
+    },
+    {
+      "sentence": "So it's a it has showed me that that that you need to be that even a small signal can can straight things down.",
+      "sentence_index": 148,
+      "rule_id": "EN_A_VS_AN",
+      "grammar_category": "article choice (a/an)",
+      "dimension_code": "C",
+      "dimension_label": "Nominal Precision",
+      "weight": 1,
+      "matched_text": "a",
+      "message": "Use “an” instead of ‘a’ if the following word starts with a vowel sound, e.g. ‘an article’, ‘an hour’.",
+      "replacements": [
+        "an"
+      ],
+      "offset": 8,
+      "error_length": 1,
+      "paragraph_id": 9
+    },
+    {
+      "sentence": "Mhmm.",
+      "sentence_index": 155,
+      "rule_id": "MORFOLOGIK_RULE_EN_US",
+      "grammar_category": "incorrect word form",
+      "dimension_code": "B",
+      "dimension_label": "Tense & Aspect Mastery",
+      "weight": 2,
+      "matched_text": "Mhmm",
+      "message": "Possible spelling mistake found.",
+      "replacements": [
+        "MMM",
+        "Hmm",
+        "M hmm"
+      ],
+      "offset": 0,
+      "error_length": 4,
+      "paragraph_id": 9
+    },
+    {
+      "sentence": "but, you know, people who who has received your number and try to scammer oh, scammers.",
+      "sentence_index": 162,
+      "rule_id": "WANT_TO_NN",
+      "grammar_category": "verb/tense error",
+      "dimension_code": "B",
+      "dimension_label": "Tense & Aspect Mastery",
+      "weight": 3,
+      "matched_text": "to scammer",
+      "message": "Normally, after “try to” a verb is expected.",
+      "replacements": [],
+      "offset": 63,
+      "error_length": 10,
+      "paragraph_id": 9
+    },
+    {
+      "sentence": "Scammers from from banks that that they they say that they they are working in in a in a bank and your account has lost everything.",
+      "sentence_index": 164,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "in a in a",
+      "message": "This phrase is duplicated. You should probably use “in a” only once.",
+      "replacements": [
+        "in a"
+      ],
+      "offset": 79,
+      "error_length": 9,
+      "paragraph_id": 9
+    },
+    {
+      "sentence": "And in your in your country, what peep do people do people use messenger or what's I don't see I'm not I don't know because when I was at school, I didn't receive a lot of lessons about this problem.",
+      "sentence_index": 193,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "in your in your",
+      "message": "This phrase is duplicated. You should probably use “in your” only once.",
+      "replacements": [
+        "in your"
+      ],
+      "offset": 4,
+      "error_length": 15,
+      "paragraph_id": 11
+    },
+    {
+      "sentence": "And in your in your country, what peep do people do people use messenger or what's I don't see I'm not I don't know because when I was at school, I didn't receive a lot of lessons about this problem.",
+      "sentence_index": 193,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "do people do people",
+      "message": "This phrase is duplicated. You should probably use “do people” only once.",
+      "replacements": [
+        "do people"
+      ],
+      "offset": 39,
+      "error_length": 19,
+      "paragraph_id": 11
+    },
+    {
+      "sentence": "And in your in your country, what peep do people do people use messenger or what's I don't see I'm not I don't know because when I was at school, I didn't receive a lot of lessons about this problem.",
+      "sentence_index": 193,
+      "rule_id": "ARE_WE_HAVE",
+      "grammar_category": "verb/tense error",
+      "dimension_code": "B",
+      "dimension_label": "Tense & Aspect Mastery",
+      "weight": 3,
+      "matched_text": "what's I do",
+      "message": "There seems to be an error in these verb forms.",
+      "replacements": [
+        "what does I do",
+        "what's I doing",
+        "what's I done"
+      ],
+      "offset": 76,
+      "error_length": 11,
+      "paragraph_id": 11
+    },
+    {
+      "sentence": "Now it should it should have changed, I guess.",
+      "sentence_index": 198,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "it should it should",
+      "message": "This phrase is duplicated. You should probably use “it should” only once.",
+      "replacements": [
+        "it should"
+      ],
+      "offset": 4,
+      "error_length": 19,
+      "paragraph_id": 11
+    },
+    {
+      "sentence": "But but it depends on the education because if education is is aware of this, I think they will they will teach people how to be to be more more more aware, yeah, of it because it's not only about all their people that's that's that's don't get used to this type of app.",
+      "sentence_index": 199,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "they will they will",
+      "message": "This phrase is duplicated. You should probably use “they will” only once.",
+      "replacements": [
+        "they will"
+      ],
+      "offset": 86,
+      "error_length": 19,
+      "paragraph_id": 11
+    },
+    {
+      "sentence": "But but it depends on the education because if education is is aware of this, I think they will they will teach people how to be to be more more more aware, yeah, of it because it's not only about all their people that's that's that's don't get used to this type of app.",
+      "sentence_index": 199,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "to be to be",
+      "message": "This phrase is duplicated. You should probably use “to be” only once.",
+      "replacements": [
+        "to be"
+      ],
+      "offset": 123,
+      "error_length": 11,
+      "paragraph_id": 11
+    },
+    {
+      "sentence": "But but it depends on the education because if education is is aware of this, I think they will they will teach people how to be to be more more more aware, yeah, of it because it's not only about all their people that's that's that's don't get used to this type of app.",
+      "sentence_index": 199,
+      "rule_id": "MOST_COMPARATIVE",
+      "grammar_category": "grammar error",
+      "dimension_code": "C",
+      "dimension_label": "Nominal Precision",
+      "weight": 2,
+      "matched_text": "more more",
+      "message": "Use only “more” (without ‘more’) when you use the comparative.",
+      "replacements": [
+        "more"
+      ],
+      "offset": 135,
+      "error_length": 9,
+      "paragraph_id": 11
+    },
+    {
+      "sentence": "Mhmm.",
+      "sentence_index": 205,
+      "rule_id": "MORFOLOGIK_RULE_EN_US",
+      "grammar_category": "incorrect word form",
+      "dimension_code": "B",
+      "dimension_label": "Tense & Aspect Mastery",
+      "weight": 2,
+      "matched_text": "Mhmm",
+      "message": "Possible spelling mistake found.",
+      "replacements": [
+        "MMM",
+        "Hmm",
+        "M hmm"
+      ],
+      "offset": 0,
+      "error_length": 4,
+      "paragraph_id": 11
+    },
+    {
+      "sentence": "I have it in our in our chat.",
+      "sentence_index": 207,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "in our in our",
+      "message": "This phrase is duplicated. You should probably use “in our” only once.",
+      "replacements": [
+        "in our"
+      ],
+      "offset": 10,
+      "error_length": 13,
+      "paragraph_id": 11
+    },
+    {
+      "sentence": "But as I as I told you about my school journey journey school exam when I when I was supposed to to pass it to being concentrated, and I couldn't because of the disruption.",
+      "sentence_index": 227,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "as I as I",
+      "message": "This phrase is duplicated. You should probably use “as I” only once.",
+      "replacements": [
+        "as I"
+      ],
+      "offset": 4,
+      "error_length": 9,
+      "paragraph_id": 11
+    },
+    {
+      "sentence": "But as I as I told you about my school journey journey school exam when I when I was supposed to to pass it to being concentrated, and I couldn't because of the disruption.",
+      "sentence_index": 227,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "when I when I",
+      "message": "This phrase is duplicated. You should probably use “when I” only once.",
+      "replacements": [
+        "when I"
+      ],
+      "offset": 67,
+      "error_length": 13,
+      "paragraph_id": 11
+    },
+    {
+      "sentence": "But if I if I used notifications now, it would be it would be possible to to disrupt me because I I saw it in the future, but I was younger.",
+      "sentence_index": 229,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "if I if I",
+      "message": "This phrase is duplicated. You should probably use “if I” only once.",
+      "replacements": [
+        "if I"
+      ],
+      "offset": 4,
+      "error_length": 9,
+      "paragraph_id": 12
+    },
+    {
+      "sentence": "So even if it had happened, it would it wouldn't have this cost problems, you know.",
+      "sentence_index": 233,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "it would it would",
+      "message": "This phrase is duplicated. You should probably use “it would” only once.",
+      "replacements": [
+        "it would"
+      ],
+      "offset": 28,
+      "error_length": 17,
+      "paragraph_id": 12
+    },
+    {
+      "sentence": "So even if it had happened, it would it wouldn't have this cost problems, you know.",
+      "sentence_index": 233,
+      "rule_id": "THIS_NNS",
+      "grammar_category": "grammar error",
+      "dimension_code": "C",
+      "dimension_label": "Nominal Precision",
+      "weight": 2,
+      "matched_text": "this",
+      "message": "Did you mean “these”?",
+      "replacements": [
+        "these"
+      ],
+      "offset": 54,
+      "error_length": 4,
+      "paragraph_id": 12
+    },
+    {
+      "sentence": "So I have two laptops, but my personal laptop is used practically only to to Preply, yeah, in this moment.",
+      "sentence_index": 244,
+      "rule_id": "MORFOLOGIK_RULE_EN_US",
+      "grammar_category": "incorrect word form",
+      "dimension_code": "B",
+      "dimension_label": "Tense & Aspect Mastery",
+      "weight": 2,
+      "matched_text": "Preply",
+      "message": "Possible spelling mistake found.",
+      "replacements": [
+        "Reply",
+        "Preppy",
+        "Prepay"
+      ],
+      "offset": 77,
+      "error_length": 6,
+      "paragraph_id": 12
+    },
+    {
+      "sentence": "For Preply.",
+      "sentence_index": 245,
+      "rule_id": "MORFOLOGIK_RULE_EN_US",
+      "grammar_category": "incorrect word form",
+      "dimension_code": "B",
+      "dimension_label": "Tense & Aspect Mastery",
+      "weight": 2,
+      "matched_text": "Preply",
+      "message": "Possible spelling mistake found.",
+      "replacements": [
+        "Reply",
+        "Preppy",
+        "Prepay"
+      ],
+      "offset": 4,
+      "error_length": 6,
+      "paragraph_id": 12
+    },
+    {
+      "sentence": "For Preply.",
+      "sentence_index": 246,
+      "rule_id": "MORFOLOGIK_RULE_EN_US",
+      "grammar_category": "incorrect word form",
+      "dimension_code": "B",
+      "dimension_label": "Tense & Aspect Mastery",
+      "weight": 2,
+      "matched_text": "Preply",
+      "message": "Possible spelling mistake found.",
+      "replacements": [
+        "Reply",
+        "Preppy",
+        "Prepay"
+      ],
+      "offset": 4,
+      "error_length": 6,
+      "paragraph_id": 12
+    },
+    {
+      "sentence": "If someone like, likes it, it likes it, it can it can be funny.",
+      "sentence_index": 253,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "it can it can",
+      "message": "This phrase is duplicated. You should probably use “it can” only once.",
+      "replacements": [
+        "it can"
+      ],
+      "offset": 40,
+      "error_length": 13,
+      "paragraph_id": 13
+    },
+    {
+      "sentence": "Because it can it can",
+      "sentence_index": 261,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "it can it can",
+      "message": "This phrase is duplicated. You should probably use “it can” only once.",
+      "replacements": [
+        "it can"
+      ],
+      "offset": 8,
+      "error_length": 13,
+      "paragraph_id": 13
+    },
+    {
+      "sentence": "It can become it can be it becomes very problematic if you play during the night and you you don't sleep and you it cow it can cause more problem in your in your life.",
+      "sentence_index": 265,
+      "rule_id": "IT_VBZ",
+      "grammar_category": "subject-verb agreement",
+      "dimension_code": "B",
+      "dimension_label": "Tense & Aspect Mastery",
+      "weight": 3,
+      "matched_text": "cow",
+      "message": "After ‘it’, use the third-person verb form “cows”.",
+      "replacements": [
+        "cows"
+      ],
+      "offset": 116,
+      "error_length": 3,
+      "paragraph_id": 13
+    },
+    {
+      "sentence": "It can become it can be it becomes very problematic if you play during the night and you you don't sleep and you it cow it can cause more problem in your in your life.",
+      "sentence_index": 265,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "in your in your",
+      "message": "This phrase is duplicated. You should probably use “in your” only once.",
+      "replacements": [
+        "in your"
+      ],
+      "offset": 146,
+      "error_length": 15,
+      "paragraph_id": 13
+    },
+    {
+      "sentence": "I think so because because I have read a lot of investigations when investigate when investigators burst out this this opinion because it was it was shown, I think, that we are more disrupted.",
+      "sentence_index": 266,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "it was it was",
+      "message": "This phrase is duplicated. You should probably use “it was” only once.",
+      "replacements": [
+        "it was"
+      ],
+      "offset": 135,
+      "error_length": 13,
+      "paragraph_id": 13
+    },
+    {
+      "sentence": "On you on YouTube, you have both videos one hours videos, one minute videos.",
+      "sentence_index": 274,
+      "rule_id": "HOUR_HYPHEN",
+      "grammar_category": "grammar error",
+      "dimension_code": "C",
+      "dimension_label": "Nominal Precision",
+      "weight": 2,
+      "matched_text": "one minute",
+      "message": "When ‘one-minute’ is used as a modifier, it is usually spelled with a hyphen.",
+      "replacements": [
+        "one-minute"
+      ],
+      "offset": 58,
+      "error_length": 10,
+      "paragraph_id": 14
+    },
+    {
+      "sentence": "So it it cause more problems when it comes to your attention.",
+      "sentence_index": 286,
+      "rule_id": "IT_IT",
+      "grammar_category": "grammar error",
+      "dimension_code": "C",
+      "dimension_label": "Nominal Precision",
+      "weight": 2,
+      "matched_text": "it it",
+      "message": "It seems you either mean “it is”, “if it”, “it” or there is a comma missing.",
+      "replacements": [
+        "it is",
+        "if it",
+        "it",
+        "it, it"
+      ],
+      "offset": 3,
+      "error_length": 5,
+      "paragraph_id": 14
+    },
+    {
+      "sentence": "So it it cause more problems when it comes to your attention.",
+      "sentence_index": 286,
+      "rule_id": "IT_VBZ",
+      "grammar_category": "subject-verb agreement",
+      "dimension_code": "B",
+      "dimension_label": "Tense & Aspect Mastery",
+      "weight": 3,
+      "matched_text": "cause",
+      "message": "After ‘it’, use the third-person verb form “causes”.",
+      "replacements": [
+        "causes"
+      ],
+      "offset": 9,
+      "error_length": 5,
+      "paragraph_id": 14
+    },
+    {
+      "sentence": "And I don't like this type of videos that's that's It is too short for me.",
+      "sentence_index": 287,
+      "rule_id": "THAT_S_YOU_RE",
+      "grammar_category": "grammar error",
+      "dimension_code": "C",
+      "dimension_label": "Nominal Precision",
+      "weight": 2,
+      "matched_text": "that's It is",
+      "message": "Did you mean “that It is” or “that is its”?",
+      "replacements": [
+        "that It is",
+        "that is its"
+      ],
+      "offset": 44,
+      "error_length": 12,
+      "paragraph_id": 14
+    },
+    {
+      "sentence": "It is adjusted to to your to your life.",
+      "sentence_index": 295,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "to your to your",
+      "message": "This phrase is duplicated. You should probably use “to your” only once.",
+      "replacements": [
+        "to your"
+      ],
+      "offset": 18,
+      "error_length": 15,
+      "paragraph_id": 14
+    },
+    {
+      "sentence": "It it don't it doesn't help when it comes to to to sync wider.",
+      "sentence_index": 297,
+      "rule_id": "IT_IT",
+      "grammar_category": "grammar error",
+      "dimension_code": "C",
+      "dimension_label": "Nominal Precision",
+      "weight": 2,
+      "matched_text": "It it",
+      "message": "It seems you either mean “it is”, “if it”, “it” or there is a comma missing.",
+      "replacements": [
+        "It is",
+        "If it",
+        "It",
+        "It, it"
+      ],
+      "offset": 0,
+      "error_length": 5,
+      "paragraph_id": 15
+    },
+    {
+      "sentence": "I I like I like doing sport.",
+      "sentence_index": 305,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "I like I like",
+      "message": "This phrase is duplicated. You should probably use “I like” only once.",
+      "replacements": [
+        "I like"
+      ],
+      "offset": 2,
+      "error_length": 13,
+      "paragraph_id": 15
+    },
+    {
+      "sentence": "I like I like doing sport, and I try to do it every day to maintain my level of of of consistence.",
+      "sentence_index": 307,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "I like I like",
+      "message": "This phrase is duplicated. You should probably use “I like” only once.",
+      "replacements": [
+        "I like"
+      ],
+      "offset": 0,
+      "error_length": 13,
+      "paragraph_id": 15
+    },
+    {
+      "sentence": "and I I must to do it, it depends.",
+      "sentence_index": 310,
+      "rule_id": "MUST_HAVE_TO",
+      "grammar_category": "verb/tense error",
+      "dimension_code": "B",
+      "dimension_label": "Tense & Aspect Mastery",
+      "weight": 3,
+      "matched_text": "must to",
+      "message": "After ‘must’, the verb is used without ‘to’. Probably, you should use “must” or “have to” here.",
+      "replacements": [
+        "must",
+        "have to"
+      ],
+      "offset": 8,
+      "error_length": 7,
+      "paragraph_id": 15
+    },
+    {
+      "sentence": "It depends of importance of this this stuff.",
+      "sentence_index": 315,
+      "rule_id": "DEPEND_ON",
+      "grammar_category": "verb/tense error",
+      "dimension_code": "B",
+      "dimension_label": "Tense & Aspect Mastery",
+      "weight": 3,
+      "matched_text": "depends of",
+      "message": "The verb ‘to depend’ requires the preposition ‘(up)on’.",
+      "replacements": [
+        "depends on"
+      ],
+      "offset": 3,
+      "error_length": 10,
+      "paragraph_id": 15
+    },
+    {
+      "sentence": "Mhmm.",
+      "sentence_index": 318,
+      "rule_id": "MORFOLOGIK_RULE_EN_US",
+      "grammar_category": "incorrect word form",
+      "dimension_code": "B",
+      "dimension_label": "Tense & Aspect Mastery",
+      "weight": 2,
+      "matched_text": "Mhmm",
+      "message": "Possible spelling mistake found.",
+      "replacements": [
+        "MMM",
+        "Hmm",
+        "M hmm"
+      ],
+      "offset": 0,
+      "error_length": 4,
+      "paragraph_id": 15
+    },
+    {
+      "sentence": "Now I have people that I like to upset, but I I wouldn't say that I have an I idols.",
+      "sentence_index": 320,
+      "rule_id": "DT_PRP",
+      "grammar_category": "nominal error",
+      "dimension_code": "C",
+      "dimension_label": "Nominal Precision",
+      "weight": 2,
+      "matched_text": "an I",
+      "message": "Using a determiner and a pronoun together is incorrect. Did you mean “an” or “I”?",
+      "replacements": [
+        "an",
+        "I"
+      ],
+      "offset": 73,
+      "error_length": 4,
+      "paragraph_id": 15
+    },
+    {
+      "sentence": "So and to in your case, do you have anyone who who really who really like?",
+      "sentence_index": 328,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "who really who really",
+      "message": "This phrase is duplicated. You should probably use “who really” only once.",
+      "replacements": [
+        "who really"
+      ],
+      "offset": 47,
+      "error_length": 21,
+      "paragraph_id": 16
+    },
+    {
+      "sentence": "I would I would agree that that we have we have an image of of our idols that's that's that's it's only what they can show.",
+      "sentence_index": 334,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "I would I would",
+      "message": "This phrase is duplicated. You should probably use “I would” only once.",
+      "replacements": [
+        "I would"
+      ],
+      "offset": 0,
+      "error_length": 15,
+      "paragraph_id": 16
+    },
+    {
+      "sentence": "I would I would agree that that we have we have an image of of our idols that's that's that's it's only what they can show.",
+      "sentence_index": 334,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "we have we have",
+      "message": "This phrase is duplicated. You should probably use “we have” only once.",
+      "replacements": [
+        "we have"
+      ],
+      "offset": 32,
+      "error_length": 15,
+      "paragraph_id": 16
+    },
+    {
+      "sentence": "I would I would agree that that we have we have an image of of our idols that's that's that's it's only what they can show.",
+      "sentence_index": 334,
+      "rule_id": "THAT_S_YOU_RE",
+      "grammar_category": "grammar error",
+      "dimension_code": "C",
+      "dimension_label": "Nominal Precision",
+      "weight": 2,
+      "matched_text": "that's it's",
+      "message": "Did you mean “that it is” or “that is its”?",
+      "replacements": [
+        "that it is",
+        "that is its"
+      ],
+      "offset": 87,
+      "error_length": 11,
+      "paragraph_id": 16
+    },
+    {
+      "sentence": "So it's not about that as as a human beings, they they both.",
+      "sentence_index": 336,
+      "rule_id": "A_NNS",
+      "grammar_category": "nominal error",
+      "dimension_code": "C",
+      "dimension_label": "Nominal Precision",
+      "weight": 2,
+      "matched_text": "a human beings",
+      "message": "The plural noun “beings” cannot be used with the article “a”. Did you mean “a human being” or “human beings”?",
+      "replacements": [
+        "a human being",
+        "human beings"
+      ],
+      "offset": 29,
+      "error_length": 14,
+      "paragraph_id": 16
+    },
+    {
+      "sentence": "It's it was because of of of of of being teenager, I think.",
+      "sentence_index": 342,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "of of of of",
+      "message": "This phrase is duplicated. You should probably use “of of” only once.",
+      "replacements": [
+        "of of"
+      ],
+      "offset": 20,
+      "error_length": 11,
+      "paragraph_id": 16
+    },
+    {
+      "sentence": "Because when we are teenagers, we we tend to have a lot of changes in a in a in a short terms of time.",
+      "sentence_index": 343,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "a in a in",
+      "message": "This phrase is duplicated. You should probably use “a in” only once.",
+      "replacements": [
+        "a in"
+      ],
+      "offset": 70,
+      "error_length": 9,
+      "paragraph_id": 16
+    },
+    {
+      "sentence": "Because when we are teenagers, we we tend to have a lot of changes in a in a in a short terms of time.",
+      "sentence_index": 343,
+      "rule_id": "A_NNS",
+      "grammar_category": "nominal error",
+      "dimension_code": "C",
+      "dimension_label": "Nominal Precision",
+      "weight": 2,
+      "matched_text": "a short terms",
+      "message": "The plural noun “terms” cannot be used with the article “a”. Did you mean “a short term” or “short terms”?",
+      "replacements": [
+        "a short term",
+        "short terms"
+      ],
+      "offset": 80,
+      "error_length": 13,
+      "paragraph_id": 16
+    },
+    {
+      "sentence": "So it it was in constantly changing.",
+      "sentence_index": 348,
+      "rule_id": "IT_IT",
+      "grammar_category": "grammar error",
+      "dimension_code": "C",
+      "dimension_label": "Nominal Precision",
+      "weight": 2,
+      "matched_text": "it it",
+      "message": "It seems you either mean “if it”, “it” or there is a comma missing.",
+      "replacements": [
+        "if it",
+        "it",
+        "it, it"
+      ],
+      "offset": 3,
+      "error_length": 5,
+      "paragraph_id": 16
+    },
+    {
+      "sentence": "So so after you mhmm.",
+      "sentence_index": 357,
+      "rule_id": "MORFOLOGIK_RULE_EN_US",
+      "grammar_category": "incorrect word form",
+      "dimension_code": "B",
+      "dimension_label": "Tense & Aspect Mastery",
+      "weight": 2,
+      "matched_text": "mhmm",
+      "message": "Possible spelling mistake found.",
+      "replacements": [
+        "MMM",
+        "hmm",
+        "m hmm"
+      ],
+      "offset": 16,
+      "error_length": 4,
+      "paragraph_id": 16
+    },
+    {
+      "sentence": "I think I think so because it it is natural that you you don't you don't think about it.",
+      "sentence_index": 361,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "I think I think",
+      "message": "This phrase is duplicated. You should probably use “I think” only once.",
+      "replacements": [
+        "I think"
+      ],
+      "offset": 0,
+      "error_length": 15,
+      "paragraph_id": 17
+    },
+    {
+      "sentence": "I think I think so because it it is natural that you you don't you don't think about it.",
+      "sentence_index": 361,
+      "rule_id": "IT_IT",
+      "grammar_category": "grammar error",
+      "dimension_code": "C",
+      "dimension_label": "Nominal Precision",
+      "weight": 2,
+      "matched_text": "it it",
+      "message": "It seems you either mean “if it”, “it” or there is a comma missing.",
+      "replacements": [
+        "if it",
+        "it",
+        "it, it"
+      ],
+      "offset": 27,
+      "error_length": 5,
+      "paragraph_id": 17
+    },
+    {
+      "sentence": "Well, I was the I was the active one when I was very young.",
+      "sentence_index": 368,
+      "rule_id": "DT_PRP",
+      "grammar_category": "nominal error",
+      "dimension_code": "C",
+      "dimension_label": "Nominal Precision",
+      "weight": 2,
+      "matched_text": "the I",
+      "message": "Using a determiner and a pronoun together is incorrect. Did you mean “the” or “I”?",
+      "replacements": [
+        "the",
+        "I"
+      ],
+      "offset": 12,
+      "error_length": 5,
+      "paragraph_id": 17
+    },
+    {
+      "sentence": "But I don't remember exactly how old how old I was, but was I?",
+      "sentence_index": 373,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "how old how old",
+      "message": "This phrase is duplicated. You should probably use “how old” only once.",
+      "replacements": [
+        "how old"
+      ],
+      "offset": 29,
+      "error_length": 15,
+      "paragraph_id": 17
+    },
+    {
+      "sentence": "was I don't remember exactly, but I would say 16 15 or 16.",
+      "sentence_index": 377,
+      "rule_id": "ARE_WE_HAVE",
+      "grammar_category": "verb/tense error",
+      "dimension_code": "B",
+      "dimension_label": "Tense & Aspect Mastery",
+      "weight": 3,
+      "matched_text": "was I do",
+      "message": "There seems to be an error in these verb forms.",
+      "replacements": [
+        "did I do",
+        "was I doing",
+        "was I done"
+      ],
+      "offset": 0,
+      "error_length": 8,
+      "paragraph_id": 18
+    },
+    {
+      "sentence": "So but it it was it happened it happened without thinking about it as we as we as we told.",
+      "sentence_index": 381,
+      "rule_id": "IT_IT",
+      "grammar_category": "grammar error",
+      "dimension_code": "C",
+      "dimension_label": "Nominal Precision",
+      "weight": 2,
+      "matched_text": "it it",
+      "message": "It seems you either mean “if it”, “it” or there is a comma missing.",
+      "replacements": [
+        "if it",
+        "it",
+        "it, it"
+      ],
+      "offset": 7,
+      "error_length": 5,
+      "paragraph_id": 18
+    },
+    {
+      "sentence": "So but it it was it happened it happened without thinking about it as we as we as we told.",
+      "sentence_index": 381,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "it happened it happened",
+      "message": "This phrase is duplicated. You should probably use “it happened” only once.",
+      "replacements": [
+        "it happened"
+      ],
+      "offset": 17,
+      "error_length": 23,
+      "paragraph_id": 18
+    },
+    {
+      "sentence": "So but it it was it happened it happened without thinking about it as we as we as we told.",
+      "sentence_index": 381,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "as we as we",
+      "message": "This phrase is duplicated. You should probably use “as we” only once.",
+      "replacements": [
+        "as we"
+      ],
+      "offset": 67,
+      "error_length": 11,
+      "paragraph_id": 18
+    },
+    {
+      "sentence": "Mhmm.",
+      "sentence_index": 384,
+      "rule_id": "MORFOLOGIK_RULE_EN_US",
+      "grammar_category": "incorrect word form",
+      "dimension_code": "B",
+      "dimension_label": "Tense & Aspect Mastery",
+      "weight": 2,
+      "matched_text": "Mhmm",
+      "message": "Possible spelling mistake found.",
+      "replacements": [
+        "MMM",
+        "Hmm",
+        "M hmm"
+      ],
+      "offset": 0,
+      "error_length": 4,
+      "paragraph_id": 18
+    },
+    {
+      "sentence": "So so I mhmm.",
+      "sentence_index": 391,
+      "rule_id": "MORFOLOGIK_RULE_EN_US",
+      "grammar_category": "incorrect word form",
+      "dimension_code": "B",
+      "dimension_label": "Tense & Aspect Mastery",
+      "weight": 2,
+      "matched_text": "mhmm",
+      "message": "Possible spelling mistake found.",
+      "replacements": [
+        "MMM",
+        "hmm",
+        "m hmm"
+      ],
+      "offset": 8,
+      "error_length": 4,
+      "paragraph_id": 18
+    },
+    {
+      "sentence": "Because if you are trying to learn everything, impossible to be to be good at at everything.",
+      "sentence_index": 400,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "to be to be",
+      "message": "This phrase is duplicated. You should probably use “to be” only once.",
+      "replacements": [
+        "to be"
+      ],
+      "offset": 58,
+      "error_length": 11,
+      "paragraph_id": 18
+    },
+    {
+      "sentence": "and I will finish everything, and I will I will do sports.",
+      "sentence_index": 408,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "I will I will",
+      "message": "This phrase is duplicated. You should probably use “I will” only once.",
+      "replacements": [
+        "I will"
+      ],
+      "offset": 34,
+      "error_length": 13,
+      "paragraph_id": 19
+    }
+  ]
+}

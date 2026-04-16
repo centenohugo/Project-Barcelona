@@ -1,0 +1,2469 @@
+{
+  "source": "data/preprocessed/Student-2/lesson-1/sentences.json",
+  "student": "Student-2",
+  "lesson": "lesson-1",
+  "partition_method": "ai_context_chunker_v14",
+  "summary": {
+    "paragraph_count": 23,
+    "sentence_count": 499,
+    "total_words": 4771,
+    "total_errors": 114,
+    "weighted_error_sum": 235,
+    "overall_quality_score": 75,
+    "overall_quality_level": "Moderate",
+    "overall_quality_color": "#d97706",
+    "dimension_counts": {
+      "A": 0,
+      "B": 20,
+      "C": 44,
+      "D": 50
+    },
+    "grammar_category_counts": {
+      "modal/conditional error": 49,
+      "grammar error": 20,
+      "nominal error": 13,
+      "verb/tense error": 11,
+      "double determiner": 8,
+      "incorrect word form": 3,
+      "gerund vs infinitive": 2,
+      "past tense": 2,
+      "determiner use": 2,
+      "subject-verb agreement": 2,
+      "conditional structure": 1,
+      "article choice (a/an)": 1
+    }
+  },
+  "paragraphs": [
+    {
+      "paragraph_id": 1,
+      "label": "Apologizing for being late and oversleeping, weekend skiing",
+      "sentence_count": 35,
+      "word_count": 202,
+      "sentence_start_idx": 1,
+      "sentence_end_idx": 35,
+      "error_count": 4,
+      "weighted_error_sum": 9,
+      "quality_score": 78,
+      "quality_level": "Moderate",
+      "quality_color": "#d97706",
+      "dimension_counts": {
+        "A": 0,
+        "B": 2,
+        "C": 1,
+        "D": 1
+      }
+    },
+    {
+      "paragraph_id": 2,
+      "label": "Cross-country skiing weekends and snow conditions this winter",
+      "sentence_count": 26,
+      "word_count": 236,
+      "sentence_start_idx": 36,
+      "sentence_end_idx": 61,
+      "error_count": 7,
+      "weighted_error_sum": 16,
+      "quality_score": 66,
+      "quality_level": "Moderate",
+      "quality_color": "#d97706",
+      "dimension_counts": {
+        "A": 0,
+        "B": 3,
+        "C": 4,
+        "D": 0
+      }
+    },
+    {
+      "paragraph_id": 3,
+      "label": "Swedish invasion of Poland and Baltic Sea history",
+      "sentence_count": 17,
+      "word_count": 209,
+      "sentence_start_idx": 62,
+      "sentence_end_idx": 78,
+      "error_count": 10,
+      "weighted_error_sum": 19,
+      "quality_score": 55,
+      "quality_level": "Weak",
+      "quality_color": "#ea580c",
+      "dimension_counts": {
+        "A": 0,
+        "B": 0,
+        "C": 3,
+        "D": 7
+      }
+    },
+    {
+      "paragraph_id": 4,
+      "label": "Little Ice Age, Baltic Sea freezing, and climate change",
+      "sentence_count": 12,
+      "word_count": 200,
+      "sentence_start_idx": 79,
+      "sentence_end_idx": 90,
+      "error_count": 9,
+      "weighted_error_sum": 18,
+      "quality_score": 55,
+      "quality_level": "Weak",
+      "quality_color": "#ea580c",
+      "dimension_counts": {
+        "A": 0,
+        "B": 1,
+        "C": 5,
+        "D": 3
+      }
+    },
+    {
+      "paragraph_id": 5,
+      "label": "Ukraine situation, Trump's politics, and Yalta Treaty comparison",
+      "sentence_count": 21,
+      "word_count": 271,
+      "sentence_start_idx": 91,
+      "sentence_end_idx": 111,
+      "error_count": 10,
+      "weighted_error_sum": 21,
+      "quality_score": 61,
+      "quality_level": "Moderate",
+      "quality_color": "#d97706",
+      "dimension_counts": {
+        "A": 0,
+        "B": 2,
+        "C": 4,
+        "D": 4
+      }
+    },
+    {
+      "paragraph_id": 6,
+      "label": "Yalta Treaty parallels with Trump's Ukraine policy",
+      "sentence_count": 21,
+      "word_count": 200,
+      "sentence_start_idx": 112,
+      "sentence_end_idx": 132,
+      "error_count": 3,
+      "weighted_error_sum": 7,
+      "quality_score": 82,
+      "quality_level": "Good",
+      "quality_color": "#15803d",
+      "dimension_counts": {
+        "A": 0,
+        "B": 1,
+        "C": 1,
+        "D": 1
+      }
+    },
+    {
+      "paragraph_id": 7,
+      "label": "Ukraine's challenges building democracy and Western support",
+      "sentence_count": 18,
+      "word_count": 220,
+      "sentence_start_idx": 133,
+      "sentence_end_idx": 150,
+      "error_count": 5,
+      "weighted_error_sum": 11,
+      "quality_score": 75,
+      "quality_level": "Moderate",
+      "quality_color": "#d97706",
+      "dimension_counts": {
+        "A": 0,
+        "B": 1,
+        "C": 2,
+        "D": 2
+      }
+    },
+    {
+      "paragraph_id": 8,
+      "label": "Ukraine situation, Trump's comments on Zelensky, wartime elections",
+      "sentence_count": 22,
+      "word_count": 202,
+      "sentence_start_idx": 151,
+      "sentence_end_idx": 172,
+      "error_count": 3,
+      "weighted_error_sum": 6,
+      "quality_score": 85,
+      "quality_level": "Good",
+      "quality_color": "#15803d",
+      "dimension_counts": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 3
+      }
+    },
+    {
+      "paragraph_id": 9,
+      "label": "Poland's pandemic election issues and Ukraine's election impossibility",
+      "sentence_count": 15,
+      "word_count": 203,
+      "sentence_start_idx": 173,
+      "sentence_end_idx": 187,
+      "error_count": 5,
+      "weighted_error_sum": 11,
+      "quality_score": 73,
+      "quality_level": "Moderate",
+      "quality_color": "#d97706",
+      "dimension_counts": {
+        "A": 0,
+        "B": 1,
+        "C": 4,
+        "D": 0
+      }
+    },
+    {
+      "paragraph_id": 10,
+      "label": "Ukraine elections, Trump's dangerous policies, European military weakness",
+      "sentence_count": 25,
+      "word_count": 201,
+      "sentence_start_idx": 188,
+      "sentence_end_idx": 212,
+      "error_count": 5,
+      "weighted_error_sum": 10,
+      "quality_score": 75,
+      "quality_level": "Moderate",
+      "quality_color": "#d97706",
+      "dimension_counts": {
+        "A": 0,
+        "B": 0,
+        "C": 2,
+        "D": 3
+      }
+    },
+    {
+      "paragraph_id": 11,
+      "label": "Russian military production advantage over European defense industry",
+      "sentence_count": 26,
+      "word_count": 206,
+      "sentence_start_idx": 213,
+      "sentence_end_idx": 238,
+      "error_count": 5,
+      "weighted_error_sum": 10,
+      "quality_score": 76,
+      "quality_level": "Moderate",
+      "quality_color": "#d97706",
+      "dimension_counts": {
+        "A": 0,
+        "B": 1,
+        "C": 3,
+        "D": 1
+      }
+    },
+    {
+      "paragraph_id": 12,
+      "label": "Modern warfare, mass production vs sophisticated military equipment",
+      "sentence_count": 14,
+      "word_count": 209,
+      "sentence_start_idx": 239,
+      "sentence_end_idx": 252,
+      "error_count": 2,
+      "weighted_error_sum": 4,
+      "quality_score": 90,
+      "quality_level": "Good",
+      "quality_color": "#15803d",
+      "dimension_counts": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 2
+      }
+    },
+    {
+      "paragraph_id": 13,
+      "label": "Modern warfare vs NATO tactics in Ukraine conflict",
+      "sentence_count": 29,
+      "word_count": 222,
+      "sentence_start_idx": 253,
+      "sentence_end_idx": 281,
+      "error_count": 3,
+      "weighted_error_sum": 4,
+      "quality_score": 91,
+      "quality_level": "Good",
+      "quality_color": "#15803d",
+      "dimension_counts": {
+        "A": 0,
+        "B": 1,
+        "C": 2,
+        "D": 0
+      }
+    },
+    {
+      "paragraph_id": 14,
+      "label": "US propaganda film about Libya and military defense tactics",
+      "sentence_count": 24,
+      "word_count": 230,
+      "sentence_start_idx": 282,
+      "sentence_end_idx": 305,
+      "error_count": 1,
+      "weighted_error_sum": 2,
+      "quality_score": 96,
+      "quality_level": "Good",
+      "quality_color": "#15803d",
+      "dimension_counts": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 1
+      }
+    },
+    {
+      "paragraph_id": 15,
+      "label": "Management book by marines vs. reality of frontline combat",
+      "sentence_count": 22,
+      "word_count": 200,
+      "sentence_start_idx": 306,
+      "sentence_end_idx": 327,
+      "error_count": 7,
+      "weighted_error_sum": 16,
+      "quality_score": 60,
+      "quality_level": "Moderate",
+      "quality_color": "#d97706",
+      "dimension_counts": {
+        "A": 0,
+        "B": 2,
+        "C": 1,
+        "D": 4
+      }
+    },
+    {
+      "paragraph_id": 16,
+      "label": "NATO training inadequacy for modern frontline warfare in Ukraine",
+      "sentence_count": 28,
+      "word_count": 206,
+      "sentence_start_idx": 328,
+      "sentence_end_idx": 355,
+      "error_count": 9,
+      "weighted_error_sum": 16,
+      "quality_score": 61,
+      "quality_level": "Moderate",
+      "quality_color": "#d97706",
+      "dimension_counts": {
+        "A": 0,
+        "B": 1,
+        "C": 4,
+        "D": 4
+      }
+    },
+    {
+      "paragraph_id": 17,
+      "label": "Military helicopters and NATO methods obsolete in modern warfare",
+      "sentence_count": 19,
+      "word_count": 216,
+      "sentence_start_idx": 356,
+      "sentence_end_idx": 374,
+      "error_count": 3,
+      "weighted_error_sum": 6,
+      "quality_score": 86,
+      "quality_level": "Good",
+      "quality_color": "#15803d",
+      "dimension_counts": {
+        "A": 0,
+        "B": 0,
+        "C": 1,
+        "D": 2
+      }
+    },
+    {
+      "paragraph_id": 18,
+      "label": "European military training gaps and North Korean troops in Ukraine",
+      "sentence_count": 22,
+      "word_count": 216,
+      "sentence_start_idx": 375,
+      "sentence_end_idx": 396,
+      "error_count": 6,
+      "weighted_error_sum": 13,
+      "quality_score": 70,
+      "quality_level": "Moderate",
+      "quality_color": "#d97706",
+      "dimension_counts": {
+        "A": 0,
+        "B": 1,
+        "C": 1,
+        "D": 4
+      }
+    },
+    {
+      "paragraph_id": 19,
+      "label": "North Korean troops, Polish president's visit to Trump",
+      "sentence_count": 34,
+      "word_count": 241,
+      "sentence_start_idx": 397,
+      "sentence_end_idx": 430,
+      "error_count": 3,
+      "weighted_error_sum": 7,
+      "quality_score": 85,
+      "quality_level": "Good",
+      "quality_color": "#15803d",
+      "dimension_counts": {
+        "A": 0,
+        "B": 1,
+        "C": 1,
+        "D": 1
+      }
+    },
+    {
+      "paragraph_id": 20,
+      "label": "Polish president's diplomatic disrespect during Trump meeting and elections",
+      "sentence_count": 36,
+      "word_count": 217,
+      "sentence_start_idx": 431,
+      "sentence_end_idx": 466,
+      "error_count": 5,
+      "weighted_error_sum": 10,
+      "quality_score": 77,
+      "quality_level": "Moderate",
+      "quality_color": "#d97706",
+      "dimension_counts": {
+        "A": 0,
+        "B": 1,
+        "C": 2,
+        "D": 2
+      }
+    },
+    {
+      "paragraph_id": 21,
+      "label": "Polish presidential election candidates and political situation",
+      "sentence_count": 18,
+      "word_count": 248,
+      "sentence_start_idx": 467,
+      "sentence_end_idx": 484,
+      "error_count": 4,
+      "weighted_error_sum": 9,
+      "quality_score": 82,
+      "quality_level": "Good",
+      "quality_color": "#15803d",
+      "dimension_counts": {
+        "A": 0,
+        "B": 1,
+        "C": 1,
+        "D": 2
+      }
+    },
+    {
+      "paragraph_id": 22,
+      "label": "Polish presidential election candidates and political dynamics",
+      "sentence_count": 14,
+      "word_count": 215,
+      "sentence_start_idx": 485,
+      "sentence_end_idx": 498,
+      "error_count": 5,
+      "weighted_error_sum": 10,
+      "quality_score": 77,
+      "quality_level": "Moderate",
+      "quality_color": "#d97706",
+      "dimension_counts": {
+        "A": 0,
+        "B": 0,
+        "C": 2,
+        "D": 3
+      }
+    },
+    {
+      "paragraph_id": 23,
+      "label": "Polish presidential election candidates and potential outcomes",
+      "sentence_count": 1,
+      "word_count": 1,
+      "sentence_start_idx": 499,
+      "sentence_end_idx": 499,
+      "error_count": 0,
+      "weighted_error_sum": 0,
+      "quality_score": 100,
+      "quality_level": "Good",
+      "quality_color": "#15803d",
+      "dimension_counts": {
+        "A": 0,
+        "B": 0,
+        "C": 0,
+        "D": 0
+      }
+    }
+  ],
+  "errors": [
+    {
+      "sentence": "I'm back, but I'm I'm trying to to open my camera.",
+      "sentence_index": 7,
+      "rule_id": "BE_I_BE_GERUND",
+      "grammar_category": "gerund vs infinitive",
+      "dimension_code": "B",
+      "dimension_label": "Tense & Aspect Mastery",
+      "weight": 2,
+      "matched_text": "'m I'm trying",
+      "message": "Possible grammar error. Make sure that ‘'m I’m trying’ is correct.",
+      "replacements": [],
+      "offset": 15,
+      "error_length": 13,
+      "paragraph_id": 1
+    },
+    {
+      "sentence": "This is what what happens, you know, sometimes when you when you have, you know, something out of schedule, which is, you're changing you're changing the regular time.",
+      "sentence_index": 28,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "when you when you",
+      "message": "This phrase is duplicated. You should probably use “when you” only once.",
+      "replacements": [
+        "when you"
+      ],
+      "offset": 47,
+      "error_length": 17,
+      "paragraph_id": 1
+    },
+    {
+      "sentence": "So so, you know, it happens, you know, maybe few times a year, but it it always happens when you have, you know, something, you know, in something something early, but not regular.",
+      "sentence_index": 33,
+      "rule_id": "IT_IT",
+      "grammar_category": "grammar error",
+      "dimension_code": "C",
+      "dimension_label": "Nominal Precision",
+      "weight": 2,
+      "matched_text": "it it",
+      "message": "It seems you either mean “it is”, “if it”, “it” or there is a comma missing.",
+      "replacements": [
+        "it is",
+        "if it",
+        "it",
+        "it, it"
+      ],
+      "offset": 67,
+      "error_length": 5,
+      "paragraph_id": 1
+    },
+    {
+      "sentence": "You know, that that's, you know, cross country again and the",
+      "sentence_index": 35,
+      "rule_id": "CROSS_COMPOUNDS",
+      "grammar_category": "verb/tense error",
+      "dimension_code": "B",
+      "dimension_label": "Tense & Aspect Mastery",
+      "weight": 3,
+      "matched_text": "cross country",
+      "message": "The noun, adjective or adverb “cross-country” is spelled with a hyphen.",
+      "replacements": [
+        "cross-country"
+      ],
+      "offset": 33,
+      "error_length": 13,
+      "paragraph_id": 1
+    },
+    {
+      "sentence": "And, yeah, the the the this is why I'm going there because because this is kind of unique, year that, we can follow the shoulder.",
+      "sentence_index": 39,
+      "rule_id": "DT_DT",
+      "grammar_category": "double determiner",
+      "dimension_code": "C",
+      "dimension_label": "Nominal Precision",
+      "weight": 1,
+      "matched_text": "the this",
+      "message": "Two determiners in a row. Choose either “the” or “this”.",
+      "replacements": [
+        "the",
+        "this"
+      ],
+      "offset": 19,
+      "error_length": 8,
+      "paragraph_id": 2
+    },
+    {
+      "sentence": "Last year, there was no snow at all, and I I never been skiing, last year.",
+      "sentence_index": 42,
+      "rule_id": "PRP_PAST_PART",
+      "grammar_category": "past tense",
+      "dimension_code": "B",
+      "dimension_label": "Tense & Aspect Mastery",
+      "weight": 3,
+      "matched_text": "never been",
+      "message": "A verb (‘be’ or ‘have’) is missing before the past participle.",
+      "replacements": [
+        "have never been",
+        "never was",
+        "never were"
+      ],
+      "offset": 45,
+      "error_length": 10,
+      "paragraph_id": 2
+    },
+    {
+      "sentence": "It it's I think I don't remember, it happening earlier.",
+      "sentence_index": 46,
+      "rule_id": "IT_IT",
+      "grammar_category": "grammar error",
+      "dimension_code": "C",
+      "dimension_label": "Nominal Precision",
+      "weight": 2,
+      "matched_text": "It it",
+      "message": "It seems you mean “if it”.",
+      "replacements": [
+        "If it"
+      ],
+      "offset": 0,
+      "error_length": 5,
+      "paragraph_id": 2
+    },
+    {
+      "sentence": "It it's I think I don't remember, it happening earlier.",
+      "sentence_index": 46,
+      "rule_id": "PRP_VBG",
+      "grammar_category": "verb/tense error",
+      "dimension_code": "B",
+      "dimension_label": "Tense & Aspect Mastery",
+      "weight": 3,
+      "matched_text": "it happening",
+      "message": "An auxiliary verb seems to be missing from this progressive structure. Did you mean “it's happening”, “it is happening”, or “it was happening”?",
+      "replacements": [
+        "it's happening",
+        "it is happening",
+        "it was happening"
+      ],
+      "offset": 34,
+      "error_length": 12,
+      "paragraph_id": 2
+    },
+    {
+      "sentence": "So it it",
+      "sentence_index": 54,
+      "rule_id": "IT_IT",
+      "grammar_category": "grammar error",
+      "dimension_code": "C",
+      "dimension_label": "Nominal Precision",
+      "weight": 2,
+      "matched_text": "it it",
+      "message": "It seems you either mean “it is”, “if it”, “it” or there is a comma missing.",
+      "replacements": [
+        "it is",
+        "if it",
+        "it",
+        "it, it"
+      ],
+      "offset": 3,
+      "error_length": 5,
+      "paragraph_id": 2
+    },
+    {
+      "sentence": "it it",
+      "sentence_index": 55,
+      "rule_id": "IT_IT",
+      "grammar_category": "grammar error",
+      "dimension_code": "C",
+      "dimension_label": "Nominal Precision",
+      "weight": 2,
+      "matched_text": "it it",
+      "message": "It seems you either mean “it is”, “if it”, “it” or there is a comma missing.",
+      "replacements": [
+        "it is",
+        "if it",
+        "it",
+        "it, it"
+      ],
+      "offset": 0,
+      "error_length": 5,
+      "paragraph_id": 2
+    },
+    {
+      "sentence": "And, it probably happened that there you you you might be remember.",
+      "sentence_index": 60,
+      "rule_id": "MD_BE_NON_VBP",
+      "grammar_category": "verb/tense error",
+      "dimension_code": "B",
+      "dimension_label": "Tense & Aspect Mastery",
+      "weight": 3,
+      "matched_text": "be remember",
+      "message": "There may an error in the verb form ‘be remember’.",
+      "replacements": [
+        "be remembered",
+        "be remembering",
+        "remember",
+        "be to remember"
+      ],
+      "offset": 55,
+      "error_length": 11,
+      "paragraph_id": 2
+    },
+    {
+      "sentence": "It was it was in the in, in the in the 16, I think, 48.",
+      "sentence_index": 62,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "It was it was",
+      "message": "This phrase is duplicated. You should probably use “It was” only once.",
+      "replacements": [
+        "It was"
+      ],
+      "offset": 0,
+      "error_length": 13,
+      "paragraph_id": 3
+    },
+    {
+      "sentence": "It was it was in the in, in the in the 16, I think, 48.",
+      "sentence_index": 62,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "in the in the",
+      "message": "This phrase is duplicated. You should probably use “in the” only once.",
+      "replacements": [
+        "in the"
+      ],
+      "offset": 25,
+      "error_length": 13,
+      "paragraph_id": 3
+    },
+    {
+      "sentence": "And there was invasions of Swedish army to to Poland.",
+      "sentence_index": 64,
+      "rule_id": "THERE_WAS_MANY",
+      "grammar_category": "grammar error",
+      "dimension_code": "C",
+      "dimension_label": "Nominal Precision",
+      "weight": 2,
+      "matched_text": "there was invasions",
+      "message": "Did you mean “there were invasions”?",
+      "replacements": [
+        "there were invasions"
+      ],
+      "offset": 4,
+      "error_length": 19,
+      "paragraph_id": 3
+    },
+    {
+      "sentence": "And actually, this was very unfortunate because Poland was engaged, in Turkish war Turkish war far east.",
+      "sentence_index": 65,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "Turkish war Turkish war",
+      "message": "This phrase is duplicated. You should probably use “Turkish war” only once.",
+      "replacements": [
+        "Turkish war"
+      ],
+      "offset": 71,
+      "error_length": 23,
+      "paragraph_id": 3
+    },
+    {
+      "sentence": "In the in the Turkish world, far far far far east, on the Ukraine at the moment.",
+      "sentence_index": 67,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "In the in the",
+      "message": "This phrase is duplicated. You should probably use “In the” only once.",
+      "replacements": [
+        "In the"
+      ],
+      "offset": 0,
+      "error_length": 13,
+      "paragraph_id": 3
+    },
+    {
+      "sentence": "In the in the Turkish world, far far far far east, on the Ukraine at the moment.",
+      "sentence_index": 67,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "far far far far",
+      "message": "This phrase is duplicated. You should probably use “far far” only once.",
+      "replacements": [
+        "far far"
+      ],
+      "offset": 29,
+      "error_length": 15,
+      "paragraph_id": 3
+    },
+    {
+      "sentence": "In the in the Turkish world, far far far far east, on the Ukraine at the moment.",
+      "sentence_index": 67,
+      "rule_id": "UKRAINE_NO_THE",
+      "grammar_category": "nominal error",
+      "dimension_code": "C",
+      "dimension_label": "Nominal Precision",
+      "weight": 2,
+      "matched_text": "the Ukraine",
+      "message": "Since becoming an independent nation in 1991, the article ‘the’ has been dropped from the name of the country of Ukraine.",
+      "replacements": [
+        "Ukraine"
+      ],
+      "offset": 54,
+      "error_length": 11,
+      "paragraph_id": 3
+    },
+    {
+      "sentence": "And, actually and we we we we were not not beaten, but it was very, very, very demanding demanding work.",
+      "sentence_index": 68,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "we we we we",
+      "message": "This phrase is duplicated. You should probably use “we we” only once.",
+      "replacements": [
+        "we we"
+      ],
+      "offset": 18,
+      "error_length": 11,
+      "paragraph_id": 3
+    },
+    {
+      "sentence": "It would this was the the this was like, you know, the the Turkish Osman army was very strong at that moment.",
+      "sentence_index": 69,
+      "rule_id": "DT_DT",
+      "grammar_category": "double determiner",
+      "dimension_code": "C",
+      "dimension_label": "Nominal Precision",
+      "weight": 1,
+      "matched_text": "the this",
+      "message": "Two determiners in a row. Choose either “the” or “this”.",
+      "replacements": [
+        "the",
+        "this"
+      ],
+      "offset": 22,
+      "error_length": 8,
+      "paragraph_id": 3
+    },
+    {
+      "sentence": "And they they they they had they had that that at that time, they had some ships, but,",
+      "sentence_index": 78,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "they they they they",
+      "message": "This phrase is duplicated. You should probably use “they they” only once.",
+      "replacements": [
+        "they they"
+      ],
+      "offset": 4,
+      "error_length": 19,
+      "paragraph_id": 3
+    },
+    {
+      "sentence": "So and that at that time, the the the the this was called, I I think, some something something that the the the sixteens, sixteens hundred, it was so called, small IC, period, in Europe.",
+      "sentence_index": 81,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "the the the the",
+      "message": "This phrase is duplicated. You should probably use “the the” only once.",
+      "replacements": [
+        "the the"
+      ],
+      "offset": 26,
+      "error_length": 15,
+      "paragraph_id": 4
+    },
+    {
+      "sentence": "So and that at that time, the the the the this was called, I I think, some something something that the the the sixteens, sixteens hundred, it was so called, small IC, period, in Europe.",
+      "sentence_index": 81,
+      "rule_id": "NODT_DOZEN",
+      "grammar_category": "grammar error",
+      "dimension_code": "C",
+      "dimension_label": "Nominal Precision",
+      "weight": 2,
+      "matched_text": "hundred",
+      "message": "Use “a hundred”, or use a number before ‘hundred’.",
+      "replacements": [
+        "a hundred"
+      ],
+      "offset": 131,
+      "error_length": 7,
+      "paragraph_id": 4
+    },
+    {
+      "sentence": "So it was more colder than than, it used to be.",
+      "sentence_index": 82,
+      "rule_id": "MOST_COMPARATIVE",
+      "grammar_category": "grammar error",
+      "dimension_code": "C",
+      "dimension_label": "Nominal Precision",
+      "weight": 2,
+      "matched_text": "more colder",
+      "message": "Use only “colder” (without ‘more’) when you use the comparative.",
+      "replacements": [
+        "colder"
+      ],
+      "offset": 10,
+      "error_length": 11,
+      "paragraph_id": 4
+    },
+    {
+      "sentence": "And, that that's why Baltic see, sometimes, at least at least the east part of Baltic Sea was covered by ice.",
+      "sentence_index": 83,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "at least at least",
+      "message": "This phrase is duplicated. You should probably use “at least” only once.",
+      "replacements": [
+        "at least"
+      ],
+      "offset": 44,
+      "error_length": 17,
+      "paragraph_id": 4
+    },
+    {
+      "sentence": "And, that that's why Baltic see, sometimes, at least at least the east part of Baltic Sea was covered by ice.",
+      "sentence_index": 83,
+      "rule_id": "DETERMINER_GEOGRAPHICAL_WORD",
+      "grammar_category": "determiner use",
+      "dimension_code": "C",
+      "dimension_label": "Nominal Precision",
+      "weight": 2,
+      "matched_text": "of Baltic Sea",
+      "message": "A determiner may be missing.",
+      "replacements": [
+        "of the Baltic Sea"
+      ],
+      "offset": 76,
+      "error_length": 13,
+      "paragraph_id": 4
+    },
+    {
+      "sentence": "And I I remember even from my childhood that, certain, that that that that, you know, on on the far east of Baltic, there are certain gulfs, like, Finns gulfs or like, Finnish gulf and, and this Finnish Gulf thing always, iced, practically fully iced, in the winter.",
+      "sentence_index": 85,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "that that that that",
+      "message": "This phrase is duplicated. You should probably use “that that” only once.",
+      "replacements": [
+        "that that"
+      ],
+      "offset": 55,
+      "error_length": 19,
+      "paragraph_id": 4
+    },
+    {
+      "sentence": "And I I remember even from my childhood that, certain, that that that that, you know, on on the far east of Baltic, there are certain gulfs, like, Finns gulfs or like, Finnish gulf and, and this Finnish Gulf thing always, iced, practically fully iced, in the winter.",
+      "sentence_index": 85,
+      "rule_id": "DETERMINER_GEOGRAPHICAL_WORD",
+      "grammar_category": "determiner use",
+      "dimension_code": "C",
+      "dimension_label": "Nominal Precision",
+      "weight": 2,
+      "matched_text": "of Baltic",
+      "message": "A determiner may be missing.",
+      "replacements": [
+        "of the Baltic"
+      ],
+      "offset": 105,
+      "error_length": 9,
+      "paragraph_id": 4
+    },
+    {
+      "sentence": "IIII don't think it is iced at the moment because of climate change.",
+      "sentence_index": 86,
+      "rule_id": "MORFOLOGIK_RULE_EN_US",
+      "grammar_category": "incorrect word form",
+      "dimension_code": "B",
+      "dimension_label": "Tense & Aspect Mastery",
+      "weight": 2,
+      "matched_text": "IIII",
+      "message": "Possible spelling mistake found.",
+      "replacements": [
+        "III",
+        "ITII",
+        "VIII",
+        "XIII",
+        "I III",
+        "II II",
+        "III I"
+      ],
+      "offset": 0,
+      "error_length": 4,
+      "paragraph_id": 4
+    },
+    {
+      "sentence": "The the snow is usually is not, staying long.",
+      "sentence_index": 88,
+      "rule_id": "BE_RB_BE",
+      "grammar_category": "grammar error",
+      "dimension_code": "C",
+      "dimension_label": "Nominal Precision",
+      "weight": 2,
+      "matched_text": "is usually is",
+      "message": "The grammar seems incorrect. Please check.",
+      "replacements": [],
+      "offset": 13,
+      "error_length": 13,
+      "paragraph_id": 4
+    },
+    {
+      "sentence": "You know, the the the the snow is not very big.",
+      "sentence_index": 91,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "the the the the",
+      "message": "This phrase is duplicated. You should probably use “the the” only once.",
+      "replacements": [
+        "the the"
+      ],
+      "offset": 10,
+      "error_length": 15,
+      "paragraph_id": 5
+    },
+    {
+      "sentence": "So so and and but",
+      "sentence_index": 93,
+      "rule_id": "AND_BUT",
+      "grammar_category": "grammar error",
+      "dimension_code": "C",
+      "dimension_label": "Nominal Precision",
+      "weight": 2,
+      "matched_text": "and but",
+      "message": "Please check if you only wanted to use one conjunction here.",
+      "replacements": [
+        "and",
+        "but"
+      ],
+      "offset": 10,
+      "error_length": 7,
+      "paragraph_id": 5
+    },
+    {
+      "sentence": "but but it is snowing it it",
+      "sentence_index": 94,
+      "rule_id": "IT_IT",
+      "grammar_category": "grammar error",
+      "dimension_code": "C",
+      "dimension_label": "Nominal Precision",
+      "weight": 2,
+      "matched_text": "it it",
+      "message": "It seems you either mean “it is”, “if it”, “it” or there is a comma missing.",
+      "replacements": [
+        "it is",
+        "if it",
+        "it",
+        "it, it"
+      ],
+      "offset": 22,
+      "error_length": 5,
+      "paragraph_id": 5
+    },
+    {
+      "sentence": "So You know, I'm at ease at the moment about Ukraine because because the the the this is, you know, what what what what's going on, in media because in in the media I mean, how you can judge having, you know, some gossips, guesses, and, not not not confirmed information.",
+      "sentence_index": 97,
+      "rule_id": "DT_DT",
+      "grammar_category": "double determiner",
+      "dimension_code": "C",
+      "dimension_label": "Nominal Precision",
+      "weight": 1,
+      "matched_text": "the this",
+      "message": "Two determiners in a row. Choose either “the” or “this”.",
+      "replacements": [
+        "the",
+        "this"
+      ],
+      "offset": 77,
+      "error_length": 8,
+      "paragraph_id": 5
+    },
+    {
+      "sentence": "So You know, I'm at ease at the moment about Ukraine because because the the the this is, you know, what what what what's going on, in media because in in the media I mean, how you can judge having, you know, some gossips, guesses, and, not not not confirmed information.",
+      "sentence_index": 97,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "what what what what",
+      "message": "This phrase is duplicated. You should probably use “what what” only once.",
+      "replacements": [
+        "what what"
+      ],
+      "offset": 100,
+      "error_length": 19,
+      "paragraph_id": 5
+    },
+    {
+      "sentence": "And, I would say he will lose in in in in final global decision.",
+      "sentence_index": 101,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "in in in in",
+      "message": "This phrase is duplicated. You should probably use “in in” only once.",
+      "replacements": [
+        "in in"
+      ],
+      "offset": 30,
+      "error_length": 11,
+      "paragraph_id": 5
+    },
+    {
+      "sentence": "Because he will lose because, it it will end up, on another Yalta.",
+      "sentence_index": 102,
+      "rule_id": "IT_IT",
+      "grammar_category": "grammar error",
+      "dimension_code": "C",
+      "dimension_label": "Nominal Precision",
+      "weight": 2,
+      "matched_text": "it it",
+      "message": "It seems you either mean “it is”, “if it”, “it” or there is a comma missing.",
+      "replacements": [
+        "it is",
+        "if it",
+        "it",
+        "it, it"
+      ],
+      "offset": 30,
+      "error_length": 5,
+      "paragraph_id": 5
+    },
+    {
+      "sentence": "Yalta Yalta Treaty Yalta Treaty?",
+      "sentence_index": 104,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "Yalta Treaty Yalta Treaty",
+      "message": "This phrase is duplicated. You should probably use “Yalta Treaty” only once.",
+      "replacements": [
+        "Yalta Treaty"
+      ],
+      "offset": 6,
+      "error_length": 25,
+      "paragraph_id": 5
+    },
+    {
+      "sentence": "And it end up with this cold war and it adapt, with, kind of so socialistic communism, idea, including Poland.",
+      "sentence_index": 109,
+      "rule_id": "CC_NNP_VBP",
+      "grammar_category": "verb/tense error",
+      "dimension_code": "B",
+      "dimension_label": "Tense & Aspect Mastery",
+      "weight": 3,
+      "matched_text": "end",
+      "message": "It appears that the verb form is incorrect.",
+      "replacements": [
+        "ends",
+        "ended"
+      ],
+      "offset": 7,
+      "error_length": 3,
+      "paragraph_id": 5
+    },
+    {
+      "sentence": "And it end up with this cold war and it adapt, with, kind of so socialistic communism, idea, including Poland.",
+      "sentence_index": 109,
+      "rule_id": "IT_VBZ",
+      "grammar_category": "subject-verb agreement",
+      "dimension_code": "B",
+      "dimension_label": "Tense & Aspect Mastery",
+      "weight": 3,
+      "matched_text": "adapt",
+      "message": "After ‘it’, use the third-person verb form “adapts”.",
+      "replacements": [
+        "adapts"
+      ],
+      "offset": 40,
+      "error_length": 5,
+      "paragraph_id": 5
+    },
+    {
+      "sentence": "If they will give us all the resources, maybe I will consider this.",
+      "sentence_index": 118,
+      "rule_id": "CONDITIONAL_CLAUSE",
+      "grammar_category": "conditional structure",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 3,
+      "matched_text": "will give",
+      "message": "The first clause in a conditional statement is not usually in the future tense. Consider removing the modal verb “will”.",
+      "replacements": [
+        "give"
+      ],
+      "offset": 8,
+      "error_length": 9,
+      "paragraph_id": 6
+    },
+    {
+      "sentence": "And, I mean, I'm I'm hundred percent I mean, if I would be Ukraine, I would say, fuck off, Trump.",
+      "sentence_index": 123,
+      "rule_id": "NODT_DOZEN",
+      "grammar_category": "grammar error",
+      "dimension_code": "C",
+      "dimension_label": "Nominal Precision",
+      "weight": 2,
+      "matched_text": "hundred",
+      "message": "Use “a hundred”, or use a number before ‘hundred’.",
+      "replacements": [
+        "a hundred"
+      ],
+      "offset": 21,
+      "error_length": 7,
+      "paragraph_id": 6
+    },
+    {
+      "sentence": "This will be my ans because because it would be even worse for for Ukraine, to to have such friend, quote, unquote friend, colonial colonialistic friend rather than than rejoining Russia.",
+      "sentence_index": 129,
+      "rule_id": "MORFOLOGIK_RULE_EN_US",
+      "grammar_category": "incorrect word form",
+      "dimension_code": "B",
+      "dimension_label": "Tense & Aspect Mastery",
+      "weight": 2,
+      "matched_text": "colonialistic",
+      "message": "Possible spelling mistake found.",
+      "replacements": [
+        "colonialist",
+        "colonialists"
+      ],
+      "offset": 132,
+      "error_length": 13,
+      "paragraph_id": 6
+    },
+    {
+      "sentence": "In their in their laws, in their policy, in their habits.",
+      "sentence_index": 133,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "In their in their",
+      "message": "This phrase is duplicated. You should probably use “In their” only once.",
+      "replacements": [
+        "In their"
+      ],
+      "offset": 0,
+      "error_length": 17,
+      "paragraph_id": 7
+    },
+    {
+      "sentence": "But but, you know, this is the you know, there is huge work ahead Ukraine to do to really build build a stable democracy.",
+      "sentence_index": 139,
+      "rule_id": "DT_PRP",
+      "grammar_category": "nominal error",
+      "dimension_code": "C",
+      "dimension_label": "Nominal Precision",
+      "weight": 2,
+      "matched_text": "the you",
+      "message": "Using a determiner and a pronoun together is incorrect. Did you mean “the” or “you”?",
+      "replacements": [
+        "the",
+        "you"
+      ],
+      "offset": 27,
+      "error_length": 7,
+      "paragraph_id": 7
+    },
+    {
+      "sentence": "And, I mean, you you have to be very focused to not to lose the democracy.",
+      "sentence_index": 146,
+      "rule_id": "TO_RB_TO_VB",
+      "grammar_category": "grammar error",
+      "dimension_code": "C",
+      "dimension_label": "Nominal Precision",
+      "weight": 2,
+      "matched_text": "to not to",
+      "message": "One of these words (‘to’) is redundant.",
+      "replacements": [
+        "to not",
+        "not to"
+      ],
+      "offset": 45,
+      "error_length": 9,
+      "paragraph_id": 7
+    },
+    {
+      "sentence": "I'm very gracious to to to Ukraine to Ukraine people.",
+      "sentence_index": 148,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "to Ukraine to Ukraine",
+      "message": "This phrase is duplicated. You should probably use “to Ukraine” only once.",
+      "replacements": [
+        "to Ukraine"
+      ],
+      "offset": 24,
+      "error_length": 21,
+      "paragraph_id": 7
+    },
+    {
+      "sentence": "Very grateful that that they they they the majority of them at least have this dream to join the the Western Europe, to to to join, you know.",
+      "sentence_index": 149,
+      "rule_id": "PRP_THE",
+      "grammar_category": "verb/tense error",
+      "dimension_code": "B",
+      "dimension_label": "Tense & Aspect Mastery",
+      "weight": 3,
+      "matched_text": "they the",
+      "message": "A verb may be missing between “they” and “the”, or a word may be misspelled.",
+      "replacements": [],
+      "offset": 34,
+      "error_length": 8,
+      "paragraph_id": 7
+    },
+    {
+      "sentence": "There will be Russia in in in in 1 or 2 years.",
+      "sentence_index": 153,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "in in in in",
+      "message": "This phrase is duplicated. You should probably use “in in” only once.",
+      "replacements": [
+        "in in"
+      ],
+      "offset": 21,
+      "error_length": 11,
+      "paragraph_id": 8
+    },
+    {
+      "sentence": "what what what what is the reason?",
+      "sentence_index": 157,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "what what what what",
+      "message": "This phrase is duplicated. You should probably use “what what” only once.",
+      "replacements": [
+        "what what"
+      ],
+      "offset": 0,
+      "error_length": 19,
+      "paragraph_id": 8
+    },
+    {
+      "sentence": "Even in Poland, we had this big problem because because of pandemia, and this was, this was under regulations of, limited freedom And, at at the the the the the the the at that time, the supposed to be presidential election.",
+      "sentence_index": 171,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "the the the the",
+      "message": "This phrase is duplicated. You should probably use “the the” only once.",
+      "replacements": [
+        "the the"
+      ],
+      "offset": 141,
+      "error_length": 15,
+      "paragraph_id": 8
+    },
+    {
+      "sentence": "And, it it was, by law forbidden to do it during the any freedom, you know, any under regulation of freedom, limitations.",
+      "sentence_index": 174,
+      "rule_id": "IT_IT",
+      "grammar_category": "grammar error",
+      "dimension_code": "C",
+      "dimension_label": "Nominal Precision",
+      "weight": 2,
+      "matched_text": "it it",
+      "message": "It seems you either mean “if it”, “it” or there is a comma missing.",
+      "replacements": [
+        "if it",
+        "it",
+        "it, it"
+      ],
+      "offset": 5,
+      "error_length": 5,
+      "paragraph_id": 9
+    },
+    {
+      "sentence": "And, it it was, by law forbidden to do it during the any freedom, you know, any under regulation of freedom, limitations.",
+      "sentence_index": 174,
+      "rule_id": "THE_SOME",
+      "grammar_category": "nominal error",
+      "dimension_code": "C",
+      "dimension_label": "Nominal Precision",
+      "weight": 2,
+      "matched_text": "the any",
+      "message": "There appears to be a superfluous article here.",
+      "replacements": [
+        "any"
+      ],
+      "offset": 49,
+      "error_length": 7,
+      "paragraph_id": 9
+    },
+    {
+      "sentence": "So now by the way, now there is a a big big political affair because because, the government at that time decided that there will be, like, elections through the, correspondence, through the mails mail.",
+      "sentence_index": 176,
+      "rule_id": "THE_PUNCT",
+      "grammar_category": "nominal error",
+      "dimension_code": "C",
+      "dimension_label": "Nominal Precision",
+      "weight": 2,
+      "matched_text": "the,",
+      "message": "Articles like ‘the’ are rarely followed by punctuation. A word may be missing after ‘the’, or the punctuation mark may not be necessary.",
+      "replacements": [
+        "the"
+      ],
+      "offset": 158,
+      "error_length": 4,
+      "paragraph_id": 9
+    },
+    {
+      "sentence": "but but it is forbidden important that that this this cannot be done, especially in the way they they propose that they the post offices will be the election offices.",
+      "sentence_index": 179,
+      "rule_id": "PRP_THE",
+      "grammar_category": "verb/tense error",
+      "dimension_code": "B",
+      "dimension_label": "Tense & Aspect Mastery",
+      "weight": 3,
+      "matched_text": "they the",
+      "message": "A verb may be missing between “they” and “the”, or a word may be misspelled.",
+      "replacements": [],
+      "offset": 115,
+      "error_length": 8,
+      "paragraph_id": 9
+    },
+    {
+      "sentence": "I mean and what happen if there is election?",
+      "sentence_index": 185,
+      "rule_id": "WHAT_DO_THAT",
+      "grammar_category": "grammar error",
+      "dimension_code": "C",
+      "dimension_label": "Nominal Precision",
+      "weight": 2,
+      "matched_text": "happen",
+      "message": "Did you mean “happens”?",
+      "replacements": [
+        "happens"
+      ],
+      "offset": 16,
+      "error_length": 6,
+      "paragraph_id": 9
+    },
+    {
+      "sentence": "How we can do it in a, like, big cities like Kharkov on a on a front line?",
+      "sentence_index": 189,
+      "rule_id": "THE_PUNCT",
+      "grammar_category": "nominal error",
+      "dimension_code": "C",
+      "dimension_label": "Nominal Precision",
+      "weight": 2,
+      "matched_text": "a,",
+      "message": "Articles like ‘a’ are rarely followed by punctuation. A word may be missing after ‘a’, or the punctuation mark may not be necessary.",
+      "replacements": [
+        "a"
+      ],
+      "offset": 20,
+      "error_length": 2,
+      "paragraph_id": 10
+    },
+    {
+      "sentence": "How we can do it in a, like, big cities like Kharkov on a on a front line?",
+      "sentence_index": 189,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "on a on a",
+      "message": "This phrase is duplicated. You should probably use “on a” only once.",
+      "replacements": [
+        "on a"
+      ],
+      "offset": 53,
+      "error_length": 9,
+      "paragraph_id": 10
+    },
+    {
+      "sentence": "I mean, I it's so stupid.",
+      "sentence_index": 191,
+      "rule_id": "PRP_REPITION",
+      "grammar_category": "nominal error",
+      "dimension_code": "C",
+      "dimension_label": "Nominal Precision",
+      "weight": 2,
+      "matched_text": "I it",
+      "message": "Consider using only one pronoun here.",
+      "replacements": [
+        "I",
+        "It"
+      ],
+      "offset": 8,
+      "error_length": 4,
+      "paragraph_id": 10
+    },
+    {
+      "sentence": "On other hand, he can he can stop war immediately.",
+      "sentence_index": 197,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "he can he can",
+      "message": "This phrase is duplicated. You should probably use “he can” only once.",
+      "replacements": [
+        "he can"
+      ],
+      "offset": 15,
+      "error_length": 13,
+      "paragraph_id": 10
+    },
+    {
+      "sentence": "no I mean, like, what what what what is with, Reinhold, Reinhold?",
+      "sentence_index": 208,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "what what what what",
+      "message": "This phrase is duplicated. You should probably use “what what” only once.",
+      "replacements": [
+        "what what"
+      ],
+      "offset": 17,
+      "error_length": 19,
+      "paragraph_id": 10
+    },
+    {
+      "sentence": "I mean, I mean, you you may have, you know, simple simple, the I'm not the I'm not sure how what what is the English word, the the the the the big gun.",
+      "sentence_index": 219,
+      "rule_id": "DT_PRP",
+      "grammar_category": "nominal error",
+      "dimension_code": "C",
+      "dimension_label": "Nominal Precision",
+      "weight": 2,
+      "matched_text": "the I",
+      "message": "Using a determiner and a pronoun together is incorrect. Did you mean “the” or “I”?",
+      "replacements": [
+        "the",
+        "I"
+      ],
+      "offset": 59,
+      "error_length": 5,
+      "paragraph_id": 11
+    },
+    {
+      "sentence": "I mean, I mean, you you may have, you know, simple simple, the I'm not the I'm not sure how what what is the English word, the the the the the big gun.",
+      "sentence_index": 219,
+      "rule_id": "DT_PRP",
+      "grammar_category": "nominal error",
+      "dimension_code": "C",
+      "dimension_label": "Nominal Precision",
+      "weight": 2,
+      "matched_text": "the I",
+      "message": "Using a determiner and a pronoun together is incorrect. Did you mean “the” or “I”?",
+      "replacements": [
+        "the",
+        "I"
+      ],
+      "offset": 71,
+      "error_length": 5,
+      "paragraph_id": 11
+    },
+    {
+      "sentence": "I mean, I mean, you you may have, you know, simple simple, the I'm not the I'm not sure how what what is the English word, the the the the the big gun.",
+      "sentence_index": 219,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "the the the the",
+      "message": "This phrase is duplicated. You should probably use “the the” only once.",
+      "replacements": [
+        "the the"
+      ],
+      "offset": 123,
+      "error_length": 15,
+      "paragraph_id": 11
+    },
+    {
+      "sentence": "The the this is but but the the the use it the the the Russian use the artillery from second World War.",
+      "sentence_index": 231,
+      "rule_id": "DT_DT",
+      "grammar_category": "double determiner",
+      "dimension_code": "C",
+      "dimension_label": "Nominal Precision",
+      "weight": 1,
+      "matched_text": "the this",
+      "message": "Two determiners in a row. Choose either “the” or “this”.",
+      "replacements": [
+        "the",
+        "this"
+      ],
+      "offset": 4,
+      "error_length": 8,
+      "paragraph_id": 11
+    },
+    {
+      "sentence": "The the this is but but the the the use it the the the Russian use the artillery from second World War.",
+      "sentence_index": 231,
+      "rule_id": "PRP_THE",
+      "grammar_category": "verb/tense error",
+      "dimension_code": "B",
+      "dimension_label": "Tense & Aspect Mastery",
+      "weight": 3,
+      "matched_text": "it the",
+      "message": "A verb may be missing between “it” and “the”, or a word may be misspelled.",
+      "replacements": [],
+      "offset": 40,
+      "error_length": 6,
+      "paragraph_id": 11
+    },
+    {
+      "sentence": "I mean, it's it's insane because you you you need you need simple planes, you know, in thousands, in hundreds.",
+      "sentence_index": 239,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "you need you need",
+      "message": "This phrase is duplicated. You should probably use “you need” only once.",
+      "replacements": [
+        "you need"
+      ],
+      "offset": 41,
+      "error_length": 17,
+      "paragraph_id": 12
+    },
+    {
+      "sentence": "If you don't have this mass because, you know, nobody's, for for for for, you know, like, Nobody in Europe and nobody in, actually, in in, in in the US is focusing on that that that if you have massive war, like, in Ukraine at the moment this is the first 1, first massive war after the second World War, actually.",
+      "sentence_index": 246,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "for for for for",
+      "message": "This phrase is duplicated. You should probably use “for for” only once.",
+      "replacements": [
+        "for for"
+      ],
+      "offset": 57,
+      "error_length": 15,
+      "paragraph_id": 12
+    },
+    {
+      "sentence": "The the this it's changing everything.",
+      "sentence_index": 260,
+      "rule_id": "DT_DT",
+      "grammar_category": "double determiner",
+      "dimension_code": "C",
+      "dimension_label": "Nominal Precision",
+      "weight": 1,
+      "matched_text": "the this",
+      "message": "Two determiners in a row. Choose either “the” or “this”.",
+      "replacements": [
+        "the",
+        "this"
+      ],
+      "offset": 4,
+      "error_length": 8,
+      "paragraph_id": 13
+    },
+    {
+      "sentence": "And we have all the this how big we are.",
+      "sentence_index": 272,
+      "rule_id": "DT_DT",
+      "grammar_category": "double determiner",
+      "dimension_code": "C",
+      "dimension_label": "Nominal Precision",
+      "weight": 1,
+      "matched_text": "the this",
+      "message": "Two determiners in a row. Choose either “the” or “this”.",
+      "replacements": [
+        "the",
+        "this"
+      ],
+      "offset": 16,
+      "error_length": 8,
+      "paragraph_id": 13
+    },
+    {
+      "sentence": "We have this, Hamway, heavy whatever whatever car.",
+      "sentence_index": 273,
+      "rule_id": "MORFOLOGIK_RULE_EN_US",
+      "grammar_category": "incorrect word form",
+      "dimension_code": "B",
+      "dimension_label": "Tense & Aspect Mastery",
+      "weight": 2,
+      "matched_text": "Hamway",
+      "message": "Possible spelling mistake found.",
+      "replacements": [
+        "Ham way"
+      ],
+      "offset": 14,
+      "error_length": 6,
+      "paragraph_id": 13
+    },
+    {
+      "sentence": "I mean, all this all this fine.",
+      "sentence_index": 288,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "all this all this",
+      "message": "This phrase is duplicated. You should probably use “all this” only once.",
+      "replacements": [
+        "all this"
+      ],
+      "offset": 8,
+      "error_length": 17,
+      "paragraph_id": 14
+    },
+    {
+      "sentence": "You know, all they're saying is is really interesting and probably fun because they they they converting their experiences from, leading the troops, to to, right, to the business.",
+      "sentence_index": 308,
+      "rule_id": "PRP_VBG",
+      "grammar_category": "verb/tense error",
+      "dimension_code": "B",
+      "dimension_label": "Tense & Aspect Mastery",
+      "weight": 3,
+      "matched_text": "they converting",
+      "message": "An auxiliary verb seems to be missing from this progressive structure. Did you mean “they're converting”, “they are converting”, or “they were converting”?",
+      "replacements": [
+        "they're converting",
+        "they are converting",
+        "they were converting"
+      ],
+      "offset": 89,
+      "error_length": 15,
+      "paragraph_id": 15
+    },
+    {
+      "sentence": "It's it it it, you know, it's it's a category it might be.",
+      "sentence_index": 314,
+      "rule_id": "IT_IT",
+      "grammar_category": "grammar error",
+      "dimension_code": "C",
+      "dimension_label": "Nominal Precision",
+      "weight": 2,
+      "matched_text": "it it",
+      "message": "It seems you either mean “it is”, “if it”, “it” or there is a comma missing.",
+      "replacements": [
+        "it is",
+        "if it",
+        "it",
+        "it, it"
+      ],
+      "offset": 5,
+      "error_length": 5,
+      "paragraph_id": 15
+    },
+    {
+      "sentence": "Because if if you're under the fire the really, gunfire, the heavy gunfire, massive gunfire, all these very sophisticated, tricks are useless are useless because you are the rat.",
+      "sentence_index": 316,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "are useless are useless",
+      "message": "This phrase is duplicated. You should probably use “are useless” only once.",
+      "replacements": [
+        "are useless"
+      ],
+      "offset": 130,
+      "error_length": 23,
+      "paragraph_id": 15
+    },
+    {
+      "sentence": "You are you are digging in the in the deep in the ground, and you covering yourself.",
+      "sentence_index": 317,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "You are you are",
+      "message": "This phrase is duplicated. You should probably use “You are” only once.",
+      "replacements": [
+        "You are"
+      ],
+      "offset": 0,
+      "error_length": 15,
+      "paragraph_id": 15
+    },
+    {
+      "sentence": "You are you are digging in the in the deep in the ground, and you covering yourself.",
+      "sentence_index": 317,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "in the in the",
+      "message": "This phrase is duplicated. You should probably use “in the” only once.",
+      "replacements": [
+        "in the"
+      ],
+      "offset": 24,
+      "error_length": 13,
+      "paragraph_id": 15
+    },
+    {
+      "sentence": "You are you are digging in the in the deep in the ground, and you covering yourself.",
+      "sentence_index": 317,
+      "rule_id": "PRP_VBG",
+      "grammar_category": "verb/tense error",
+      "dimension_code": "B",
+      "dimension_label": "Tense & Aspect Mastery",
+      "weight": 3,
+      "matched_text": "you covering",
+      "message": "An auxiliary verb seems to be missing from this progressive structure. Did you mean “you're covering”, “you are covering”, or “you were covering”?",
+      "replacements": [
+        "you're covering",
+        "you are covering",
+        "you were covering"
+      ],
+      "offset": 62,
+      "error_length": 12,
+      "paragraph_id": 15
+    },
+    {
+      "sentence": "This is this is everything what you do on the phone line.",
+      "sentence_index": 322,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "This is this is",
+      "message": "This phrase is duplicated. You should probably use “This is” only once.",
+      "replacements": [
+        "This is"
+      ],
+      "offset": 0,
+      "error_length": 15,
+      "paragraph_id": 15
+    },
+    {
+      "sentence": "It it not the the military.",
+      "sentence_index": 336,
+      "rule_id": "IT_IT",
+      "grammar_category": "grammar error",
+      "dimension_code": "C",
+      "dimension_label": "Nominal Precision",
+      "weight": 2,
+      "matched_text": "It it",
+      "message": "It seems you either mean “it is”, “if it”, “it” or there is a comma missing.",
+      "replacements": [
+        "It is",
+        "If it",
+        "It",
+        "It, it"
+      ],
+      "offset": 0,
+      "error_length": 5,
+      "paragraph_id": 16
+    },
+    {
+      "sentence": "It it was III heard some reports from from, Ukrainian guys.",
+      "sentence_index": 339,
+      "rule_id": "IT_IT",
+      "grammar_category": "grammar error",
+      "dimension_code": "C",
+      "dimension_label": "Nominal Precision",
+      "weight": 2,
+      "matched_text": "It it",
+      "message": "It seems you mean “if it”.",
+      "replacements": [
+        "If it"
+      ],
+      "offset": 0,
+      "error_length": 5,
+      "paragraph_id": 16
+    },
+    {
+      "sentence": "Because how we can you know, the the this is first of all, it based on the superpower, intelligence.",
+      "sentence_index": 345,
+      "rule_id": "DT_DT",
+      "grammar_category": "double determiner",
+      "dimension_code": "C",
+      "dimension_label": "Nominal Precision",
+      "weight": 1,
+      "matched_text": "the this",
+      "message": "Two determiners in a row. Choose either “the” or “this”.",
+      "replacements": [
+        "the",
+        "this"
+      ],
+      "offset": 33,
+      "error_length": 8,
+      "paragraph_id": 16
+    },
+    {
+      "sentence": "The AWACS, AWACS, planes, having control over over the over the all, you know, the enemy equipment.",
+      "sentence_index": 348,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "over the over the",
+      "message": "This phrase is duplicated. You should probably use “over the” only once.",
+      "replacements": [
+        "over the"
+      ],
+      "offset": 46,
+      "error_length": 17,
+      "paragraph_id": 16
+    },
+    {
+      "sentence": "You you have control in a in a in a air, like, having a lot of planes flying and supporting the the troops on the ground.",
+      "sentence_index": 349,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "a in a in",
+      "message": "This phrase is duplicated. You should probably use “a in” only once.",
+      "replacements": [
+        "a in"
+      ],
+      "offset": 24,
+      "error_length": 9,
+      "paragraph_id": 16
+    },
+    {
+      "sentence": "You you have control in a in a in a air, like, having a lot of planes flying and supporting the the troops on the ground.",
+      "sentence_index": 349,
+      "rule_id": "EN_A_VS_AN",
+      "grammar_category": "article choice (a/an)",
+      "dimension_code": "C",
+      "dimension_label": "Nominal Precision",
+      "weight": 1,
+      "matched_text": "a",
+      "message": "Use “an” instead of ‘a’ if the following word starts with a vowel sound, e.g. ‘an article’, ‘an hour’.",
+      "replacements": [
+        "an"
+      ],
+      "offset": 34,
+      "error_length": 1,
+      "paragraph_id": 16
+    },
+    {
+      "sentence": "You you have, you know, very distance, artillery, shooting shooting, the the the the the the the, the enemy equipment.",
+      "sentence_index": 350,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "the the the the",
+      "message": "This phrase is duplicated. You should probably use “the the” only once.",
+      "replacements": [
+        "the the"
+      ],
+      "offset": 69,
+      "error_length": 15,
+      "paragraph_id": 16
+    },
+    {
+      "sentence": "You know, why why this is this is funny because, I'm sometimes I'm I'm looking for statistics with",
+      "sentence_index": 355,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "this is this is",
+      "message": "This phrase is duplicated. You should probably use “this is” only once.",
+      "replacements": [
+        "this is"
+      ],
+      "offset": 18,
+      "error_length": 15,
+      "paragraph_id": 16
+    },
+    {
+      "sentence": "You know, why why this is this is funny because, I'm sometimes I'm I'm looking for statistics with",
+      "sentence_index": 355,
+      "rule_id": "BE_I_BE_GERUND",
+      "grammar_category": "gerund vs infinitive",
+      "dimension_code": "B",
+      "dimension_label": "Tense & Aspect Mastery",
+      "weight": 2,
+      "matched_text": "'m I'm looking",
+      "message": "Possible grammar error. Make sure that ‘'m I’m looking’ is correct.",
+      "replacements": [],
+      "offset": 64,
+      "error_length": 14,
+      "paragraph_id": 16
+    },
+    {
+      "sentence": "what equipment was, destroyed in in, on a on a frontline.",
+      "sentence_index": 356,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "on a on a",
+      "message": "This phrase is duplicated. You should probably use “on a” only once.",
+      "replacements": [
+        "on a"
+      ],
+      "offset": 37,
+      "error_length": 9,
+      "paragraph_id": 17
+    },
+    {
+      "sentence": "Like, all this all all all this experience from, from Vietnam is useless because now you have the, handy shot fire, which can kill helicopter in a second.",
+      "sentence_index": 362,
+      "rule_id": "THE_PUNCT",
+      "grammar_category": "nominal error",
+      "dimension_code": "C",
+      "dimension_label": "Nominal Precision",
+      "weight": 2,
+      "matched_text": "the,",
+      "message": "Articles like ‘the’ are rarely followed by punctuation. A word may be missing after ‘the’, or the punctuation mark may not be necessary.",
+      "replacements": [
+        "the"
+      ],
+      "offset": 94,
+      "error_length": 4,
+      "paragraph_id": 17
+    },
+    {
+      "sentence": "You know, all these all these methods, all these NATO methods are based on far far history, experience.",
+      "sentence_index": 366,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "all these all these",
+      "message": "This phrase is duplicated. You should probably use “all these” only once.",
+      "replacements": [
+        "all these"
+      ],
+      "offset": 10,
+      "error_length": 19,
+      "paragraph_id": 17
+    },
+    {
+      "sentence": "Like, Denmark, for example, which is kind of the, star, you know, sending a lot of equipment, compared to to the, to the possibilities.",
+      "sentence_index": 377,
+      "rule_id": "THE_PUNCT",
+      "grammar_category": "nominal error",
+      "dimension_code": "C",
+      "dimension_label": "Nominal Precision",
+      "weight": 2,
+      "matched_text": "the,",
+      "message": "Articles like ‘the’ are rarely followed by punctuation. A word may be missing after ‘the’, or the punctuation mark may not be necessary.",
+      "replacements": [
+        "the"
+      ],
+      "offset": 45,
+      "error_length": 4,
+      "paragraph_id": 18
+    },
+    {
+      "sentence": "But, again, I mean, this is this is all about all about training, all about experience.",
+      "sentence_index": 379,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "this is this is",
+      "message": "This phrase is duplicated. You should probably use “this is” only once.",
+      "replacements": [
+        "this is"
+      ],
+      "offset": 20,
+      "error_length": 15,
+      "paragraph_id": 18
+    },
+    {
+      "sentence": "But, again, I mean, this is this is all about all about training, all about experience.",
+      "sentence_index": 379,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "all about all about",
+      "message": "This phrase is duplicated. You should probably use “all about” only once.",
+      "replacements": [
+        "all about"
+      ],
+      "offset": 36,
+      "error_length": 19,
+      "paragraph_id": 18
+    },
+    {
+      "sentence": "But but but they've been killed in the first week almost to 90 percent Because they because they've been trained to different world.",
+      "sentence_index": 388,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "Because they because they",
+      "message": "This phrase is duplicated. You should probably use “Because they” only once.",
+      "replacements": [
+        "Because they"
+      ],
+      "offset": 71,
+      "error_length": 25,
+      "paragraph_id": 18
+    },
+    {
+      "sentence": "They they be, you know, they they they been trained to front attack.",
+      "sentence_index": 390,
+      "rule_id": "PRP_PAST_PART",
+      "grammar_category": "past tense",
+      "dimension_code": "B",
+      "dimension_label": "Tense & Aspect Mastery",
+      "weight": 3,
+      "matched_text": "been",
+      "message": "A verb (‘be’ or ‘have’) is missing before the past participle.",
+      "replacements": [
+        "have been",
+        "was",
+        "were"
+      ],
+      "offset": 39,
+      "error_length": 4,
+      "paragraph_id": 18
+    },
+    {
+      "sentence": "So they they they've been, like, you know, like, during the second world war, they've been like, running with the with the frontline on open field.",
+      "sentence_index": 391,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "with the with the",
+      "message": "This phrase is duplicated. You should probably use “with the” only once.",
+      "replacements": [
+        "with the"
+      ],
+      "offset": 105,
+      "error_length": 17,
+      "paragraph_id": 18
+    },
+    {
+      "sentence": "they they they they they come to the front line.",
+      "sentence_index": 397,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "they they they they",
+      "message": "This phrase is duplicated. You should probably use “they they” only once.",
+      "replacements": [
+        "they they"
+      ],
+      "offset": 0,
+      "error_length": 19,
+      "paragraph_id": 19
+    },
+    {
+      "sentence": "There was a picture, some, the I think, our president, was in, in Washington, during the first first cadence currency of Trump.",
+      "sentence_index": 413,
+      "rule_id": "DT_PRP",
+      "grammar_category": "nominal error",
+      "dimension_code": "C",
+      "dimension_label": "Nominal Precision",
+      "weight": 2,
+      "matched_text": "the I",
+      "message": "Using a determiner and a pronoun together is incorrect. Did you mean “the” or “I”?",
+      "replacements": [
+        "the",
+        "I"
+      ],
+      "offset": 27,
+      "error_length": 5,
+      "paragraph_id": 19
+    },
+    {
+      "sentence": "This was very, very heavily criticized that, I mean, on 1 hand, okay, it first time happened that somebody, some foreign president, is invited to our, office because because, you know, the official meetings are somewhere else.",
+      "sentence_index": 426,
+      "rule_id": "IT_VBZ",
+      "grammar_category": "subject-verb agreement",
+      "dimension_code": "B",
+      "dimension_label": "Tense & Aspect Mastery",
+      "weight": 3,
+      "matched_text": "time",
+      "message": "After ‘it’, use the third-person verb form “times”.",
+      "replacements": [
+        "times"
+      ],
+      "offset": 79,
+      "error_length": 4,
+      "paragraph_id": 19
+    },
+    {
+      "sentence": "The the the the in in diplomat, it it it cannot it can never happen.",
+      "sentence_index": 432,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "The the the the",
+      "message": "This phrase is duplicated. You should probably use “The the” only once.",
+      "replacements": [
+        "The the"
+      ],
+      "offset": 0,
+      "error_length": 15,
+      "paragraph_id": 20
+    },
+    {
+      "sentence": "The the the the in in diplomat, it it it cannot it can never happen.",
+      "sentence_index": 432,
+      "rule_id": "IT_IT",
+      "grammar_category": "grammar error",
+      "dimension_code": "C",
+      "dimension_label": "Nominal Precision",
+      "weight": 2,
+      "matched_text": "it it",
+      "message": "It seems you either mean “it is”, “if it”, “it” or there is a comma missing.",
+      "replacements": [
+        "it is",
+        "if it",
+        "it",
+        "it, it"
+      ],
+      "offset": 32,
+      "error_length": 5,
+      "paragraph_id": 20
+    },
+    {
+      "sentence": "It might be might be if you have close friend, at home, you can do whatever.",
+      "sentence_index": 434,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "might be might be",
+      "message": "This phrase is duplicated. You should probably use “might be” only once.",
+      "replacements": [
+        "might be"
+      ],
+      "offset": 3,
+      "error_length": 17,
+      "paragraph_id": 20
+    },
+    {
+      "sentence": "so so he he cannot candidate.",
+      "sentence_index": 462,
+      "rule_id": "PRP_MD_NN",
+      "grammar_category": "verb/tense error",
+      "dimension_code": "B",
+      "dimension_label": "Tense & Aspect Mastery",
+      "weight": 3,
+      "matched_text": "candidate",
+      "message": "The word ‘candidate’ is a noun or an adjective. A verb or adverb is missing or misspelled here, or maybe a comma is missing.",
+      "replacements": [],
+      "offset": 19,
+      "error_length": 9,
+      "paragraph_id": 20
+    },
+    {
+      "sentence": "I I think, you know, the this is Very interesting political situation because they as always, we have this called democratic coalition, and they they have a very strong candidate who is, the president of, a mayor of Warsaw at the moment.",
+      "sentence_index": 465,
+      "rule_id": "DT_DT",
+      "grammar_category": "double determiner",
+      "dimension_code": "C",
+      "dimension_label": "Nominal Precision",
+      "weight": 1,
+      "matched_text": "the this",
+      "message": "Two determiners in a row. Choose either “the” or “this”.",
+      "replacements": [
+        "the",
+        "this"
+      ],
+      "offset": 21,
+      "error_length": 8,
+      "paragraph_id": 20
+    },
+    {
+      "sentence": "But, you know, on the PIS, they they they did a trick that they didn't that they don't have the their own candidate.",
+      "sentence_index": 469,
+      "rule_id": "I_DONT_DT",
+      "grammar_category": "verb/tense error",
+      "dimension_code": "B",
+      "dimension_label": "Tense & Aspect Mastery",
+      "weight": 3,
+      "matched_text": "that",
+      "message": "It appears that a verb is missing before “n’t”.",
+      "replacements": [
+        "have that",
+        "do that",
+        "get that",
+        "see that",
+        "know that"
+      ],
+      "offset": 71,
+      "error_length": 4,
+      "paragraph_id": 21
+    },
+    {
+      "sentence": "The the the the the the the the the there is, conservative party in Poland and the new new body, I would say, which was, the the they they supposed to be the the rising star during, last election, which was 2 years ago.",
+      "sentence_index": 480,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "the the the the",
+      "message": "This phrase is duplicated. You should probably use “the the” only once.",
+      "replacements": [
+        "the the"
+      ],
+      "offset": 16,
+      "error_length": 15,
+      "paragraph_id": 21
+    },
+    {
+      "sentence": "The the the the the the the the the there is, conservative party in Poland and the new new body, I would say, which was, the the they they supposed to be the the rising star during, last election, which was 2 years ago.",
+      "sentence_index": 480,
+      "rule_id": "DT_PRP",
+      "grammar_category": "nominal error",
+      "dimension_code": "C",
+      "dimension_label": "Nominal Precision",
+      "weight": 2,
+      "matched_text": "the they",
+      "message": "Using a determiner and a pronoun together is incorrect. Did you mean “the” or “they”?",
+      "replacements": [
+        "the",
+        "they"
+      ],
+      "offset": 125,
+      "error_length": 8,
+      "paragraph_id": 21
+    },
+    {
+      "sentence": "They they have young guy who is who is really doing good job, in this presidential election, because he is reaching, 15 percent at the moment.",
+      "sentence_index": 484,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "who is who is",
+      "message": "This phrase is duplicated. You should probably use “who is” only once.",
+      "replacements": [
+        "who is"
+      ],
+      "offset": 25,
+      "error_length": 13,
+      "paragraph_id": 21
+    },
+    {
+      "sentence": "And, actually, this is kind of the, do do do you call it, white horse?",
+      "sentence_index": 487,
+      "rule_id": "THE_PUNCT",
+      "grammar_category": "nominal error",
+      "dimension_code": "C",
+      "dimension_label": "Nominal Precision",
+      "weight": 2,
+      "matched_text": "the,",
+      "message": "Articles like ‘the’ are rarely followed by punctuation. A word may be missing after ‘the’, or the punctuation mark may not be necessary.",
+      "replacements": [
+        "the"
+      ],
+      "offset": 31,
+      "error_length": 4,
+      "paragraph_id": 22
+    },
+    {
+      "sentence": "So he he may change a lot in the election because because, you know, if if the the the the support for for democratic, candidate is strong, but it is not sufficient to win in the first turn, first round.",
+      "sentence_index": 493,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "the the the the",
+      "message": "This phrase is duplicated. You should probably use “the the” only once.",
+      "replacements": [
+        "the the"
+      ],
+      "offset": 75,
+      "error_length": 15,
+      "paragraph_id": 22
+    },
+    {
+      "sentence": "And, there will be second round, and, it it is it is almost hundred percent sure that in second round, he's winning with, with PIS guy, but and very significantly.",
+      "sentence_index": 494,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "it is it is",
+      "message": "This phrase is duplicated. You should probably use “it is” only once.",
+      "replacements": [
+        "it is"
+      ],
+      "offset": 41,
+      "error_length": 11,
+      "paragraph_id": 22
+    },
+    {
+      "sentence": "And, there will be second round, and, it it is it is almost hundred percent sure that in second round, he's winning with, with PIS guy, but and very significantly.",
+      "sentence_index": 494,
+      "rule_id": "AND_BUT",
+      "grammar_category": "grammar error",
+      "dimension_code": "C",
+      "dimension_label": "Nominal Precision",
+      "weight": 2,
+      "matched_text": "but and",
+      "message": "Please check if you only wanted to use one conjunction here.",
+      "replacements": [
+        "but",
+        "and"
+      ],
+      "offset": 136,
+      "error_length": 7,
+      "paragraph_id": 22
+    },
+    {
+      "sentence": "Even even he's he has much less at the moment in the in the in the first round than the PIS guy.",
+      "sentence_index": 496,
+      "rule_id": "PHRASE_REPETITION",
+      "grammar_category": "modal/conditional error",
+      "dimension_code": "D",
+      "dimension_label": "Modal & Functional Range",
+      "weight": 2,
+      "matched_text": "in the in the",
+      "message": "This phrase is duplicated. You should probably use “in the” only once.",
+      "replacements": [
+        "in the"
+      ],
+      "offset": 46,
+      "error_length": 13,
+      "paragraph_id": 22
+    }
+  ]
+}

@@ -5,7 +5,7 @@ import { useStudent } from "@/lib/student-context";
 
 const students = ["Student-1", "Student-2"] as const;
 
-export default function Navbar() {
+export default function Navbar({ showStudentToggle = true }: { showStudentToggle?: boolean }) {
   const { student, setStudent } = useStudent();
 
   return (
@@ -17,30 +17,36 @@ export default function Navbar() {
           Charlies
         </span>
 
-        {/* Student toggle */}
-        <div className="flex gap-1 rounded-2xl p-1 justify-self-center">
-          {students.map((s) => (
-            <button
-              key={s}
-              onClick={() => setStudent(s)}
-              className="relative px-5 py-2 rounded-xl text-sm font-medium transition-colors duration-200 cursor-pointer outline-none focus-visible:ring-2 focus-visible:ring-primary/40"
-              style={{
-                fontFamily: "var(--font-body)",
-                color: student === s ? "var(--on-primary)" : "var(--on-surface-variant)",
-              }}
-            >
-              {student === s && (
-                <motion.div
-                  layoutId="studentToggle"
-                  className="absolute inset-0 rounded-xl"
-                  style={{ background: "var(--primary)" }}
-                  transition={{ type: "spring", stiffness: 380, damping: 30 }}
-                />
-              )}
-              <span className="relative z-10">{s.replace("-", " ")}</span>
-            </button>
-          ))}
-        </div>
+        {/* Student toggle or name */}
+        {showStudentToggle ? (
+          <div className="flex gap-1 rounded-2xl p-1 justify-self-center">
+            {students.map((s) => (
+              <button
+                key={s}
+                onClick={() => setStudent(s)}
+                className="relative px-5 py-2 rounded-xl text-sm font-medium transition-colors duration-200 cursor-pointer outline-none focus-visible:ring-2 focus-visible:ring-primary/40"
+                style={{
+                  fontFamily: "var(--font-body)",
+                  color: student === s ? "var(--on-primary)" : "var(--on-surface-variant)",
+                }}
+              >
+                {student === s && (
+                  <motion.div
+                    layoutId="studentToggle"
+                    className="absolute inset-0 rounded-xl"
+                    style={{ background: "var(--primary)" }}
+                    transition={{ type: "spring", stiffness: 380, damping: 30 }}
+                  />
+                )}
+                <span className="relative z-10">{s.replace("-", " ")}</span>
+              </button>
+            ))}
+          </div>
+        ) : (
+          <span className="text-sm font-semibold text-on-surface font-[family-name:var(--font-body)] justify-self-center">
+            {student.replace("-", " ")}
+          </span>
+        )}
 
         <span className="text-sm text-on-surface-variant font-[family-name:var(--font-body)] justify-self-end">
           CEFR Progress Tracker

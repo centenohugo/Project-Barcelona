@@ -1,10 +1,11 @@
 "use client";
 
 import { use, useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
 import Navbar from "@/components/Navbar";
 import LessonDetail from "@/components/LessonDetail";
 import { useStudent } from "@/lib/student-context";
-import { studentsData } from "@/lib/mock-data";
+import { realStudentsData } from "@/lib/real-data";
 import type { RealLessonData } from "@/lib/types";
 
 interface PageProps {
@@ -15,16 +16,15 @@ export default function LessonPage({ params }: PageProps) {
   const { id } = use(params);
   const lessonId = parseInt(id, 10);
   const { student } = useStudent();
+  const router = useRouter();
 
+  const lessons = realStudentsData[student]?.lessons ?? [];
   const [lessonData, setLessonData] = useState<RealLessonData | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
-  // Get lesson name from mock data for display
-  const mockLesson = studentsData[student]?.lessons.find(
-    (l) => l.id === lessonId
-  );
-  const lessonName = mockLesson?.name ?? `Lesson ${lessonId}`;
+  const lessonName =
+    lessons.find((l) => l.id === lessonId)?.name ?? `Lesson ${lessonId}`;
 
   useEffect(() => {
     setLoading(true);
@@ -47,7 +47,30 @@ export default function LessonPage({ params }: PageProps) {
 
   return (
     <div className="flex flex-col flex-1 bg-surface">
-      <Navbar />
+      <Navbar showStudentToggle={false} />
+
+      {/* Lesson navigation */}
+      {lessons.length > 1 && (
+        <div className="w-full" style={{ borderBottom: "1px solid rgba(0,0,0,0.06)", background: "rgba(253,251,249,0.9)" }}>
+          <div className="max-w-6xl mx-auto px-8 py-2.5 flex gap-2">
+            {lessons.map((l) => (
+              <button
+                key={l.id}
+                onClick={() => router.push(`/lesson/${l.id}`)}
+                className="px-4 py-1.5 rounded-xl text-sm font-medium cursor-pointer transition-all"
+                style={{
+                  background: l.id === lessonId ? "var(--primary)" : "transparent",
+                  color: l.id === lessonId ? "var(--on-primary)" : "var(--on-surface-variant)",
+                  fontFamily: "var(--font-body)",
+                  border: l.id === lessonId ? "none" : "1px solid rgba(0,0,0,0.1)",
+                }}
+              >
+                {l.name}
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
       {loading ? (
         <div className="w-full max-w-6xl mx-auto px-8 py-12 flex flex-col gap-6">
           {/* Skeleton loading */}
@@ -82,7 +105,7 @@ export default function LessonPage({ params }: PageProps) {
           </div>
         </div>
       ) : lessonData ? (
-        <LessonDetail lesson={lessonData} lessonName={lessonName} />
+        <LessonDetail lesson={lessonData} lessonName={lessonName} studentId={student} lessonId={lessonId} />
       ) : null}
     </div>
   );

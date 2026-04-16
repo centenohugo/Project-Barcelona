@@ -2,11 +2,11 @@
 
 import LessonCard from "./LessonCard";
 import { useStudent } from "@/lib/student-context";
-import { studentsData } from "@/lib/mock-data";
+import { realStudentsData } from "@/lib/real-data";
 
 export default function LessonCards() {
   const { student } = useStudent();
-  const lessons = studentsData[student].lessons;
+  const lessons = realStudentsData[student]?.lessons ?? [];
 
   return (
     <section id="lessons" className="w-full">

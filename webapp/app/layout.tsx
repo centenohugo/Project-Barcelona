@@ -27,7 +27,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${plusJakarta.variable} ${inter.variable} h-full antialiased`}>
-      <body className="min-h-full flex flex-col">
+      <body className="min-h-full flex flex-col" suppressHydrationWarning>
         <StudentProvider>{children}</StudentProvider>
       </body>
     </html>

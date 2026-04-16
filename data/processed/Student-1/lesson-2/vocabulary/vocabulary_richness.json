@@ -1,0 +1,5639 @@
+{
+  "source": "data/preprocessed/Student-1/lesson-2/sentences.json",
+  "student": "Student-1",
+  "lesson": "lesson-2",
+  "partition_method": "ai_context_chunker_v14",
+  "summary": {
+    "paragraph_count": 8,
+    "total_words": 1766,
+    "total_matched": 587,
+    "coverage_rate": 0.3324,
+    "overall_richness": {
+      "score": 42,
+      "label": "Basic",
+      "color": "#ea580c",
+      "level_score": 0.1441,
+      "variety_score": 0.8333,
+      "avg_level": 1.7206,
+      "avg_level_str": "A2",
+      "distinct_levels": [
+        "A1",
+        "A2",
+        "B1",
+        "B2",
+        "C1"
+      ],
+      "level_distribution": {
+        "A1": 335,
+        "B2": 45,
+        "C1": 8,
+        "A2": 142,
+        "B1": 57
+      },
+      "n_matched": 587
+    }
+  },
+  "paragraphs": [
+    {
+      "paragraph_id": 1,
+      "label": "Preparing for class and studying languages including Spanish",
+      "sentence_count": 37,
+      "word_start_id": 1,
+      "word_end_id": 222,
+      "stats": {
+        "total_words": 231,
+        "content_words": 73,
+        "matched_words": 73,
+        "unique_types": 35,
+        "ttr": 0.3463,
+        "lexical_density": 0.316
+      },
+      "matches": [
+        {
+          "sentence_index": 8,
+          "sentence_text": "No problem.",
+          "word": "problem",
+          "lemma": "problem",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 10,
+          "sentence_text": "Good.",
+          "word": "Good",
+          "lemma": "good",
+          "pos": "ADJ",
+          "cefr_level": "B2",
+          "cefr_numeric": 4
+        },
+        {
+          "sentence_index": 11,
+          "sentence_text": "Good.",
+          "word": "Good",
+          "lemma": "good",
+          "pos": "ADJ",
+          "cefr_level": "B2",
+          "cefr_numeric": 4
+        },
+        {
+          "sentence_index": 12,
+          "sentence_text": "Good.",
+          "word": "Good",
+          "lemma": "good",
+          "pos": "ADJ",
+          "cefr_level": "B2",
+          "cefr_numeric": 4
+        },
+        {
+          "sentence_index": 13,
+          "sentence_text": "I'm good.",
+          "word": "good",
+          "lemma": "good",
+          "pos": "ADJ",
+          "cefr_level": "B2",
+          "cefr_numeric": 4
+        },
+        {
+          "sentence_index": 14,
+          "sentence_text": "I was I was listening to about about English after our class, so I wanted to to to to prepare prepare some of it.",
+          "word": "listening",
+          "lemma": "listen",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 14,
+          "sentence_text": "I was I was listening to about about English after our class, so I wanted to to to to prepare prepare some of it.",
+          "word": "class",
+          "lemma": "class",
+          "pos": "NOUN",
+          "cefr_level": "C1",
+          "cefr_numeric": 5
+        },
+        {
+          "sentence_index": 14,
+          "sentence_text": "I was I was listening to about about English after our class, so I wanted to to to to prepare prepare some of it.",
+          "word": "wanted",
+          "lemma": "want",
+          "pos": "VERB",
+          "cefr_level": "B2",
+          "cefr_numeric": 4
+        },
+        {
+          "sentence_index": 14,
+          "sentence_text": "I was I was listening to about about English after our class, so I wanted to to to to prepare prepare some of it.",
+          "word": "to",
+          "lemma": "to",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 14,
+          "sentence_text": "I was I was listening to about about English after our class, so I wanted to to to to prepare prepare some of it.",
+          "word": "prepare",
+          "lemma": "prepare",
+          "pos": "VERB",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 14,
+          "sentence_text": "I was I was listening to about about English after our class, so I wanted to to to to prepare prepare some of it.",
+          "word": "prepare",
+          "lemma": "prepare",
+          "pos": "VERB",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 18,
+          "sentence_text": "Great.",
+          "word": "Great",
+          "lemma": "great",
+          "pos": "ADJ",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 19,
+          "sentence_text": "Great.",
+          "word": "Great",
+          "lemma": "great",
+          "pos": "ADJ",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 20,
+          "sentence_text": "Today today, I was learning a lot.",
+          "word": "Today",
+          "lemma": "today",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 20,
+          "sentence_text": "Today today, I was learning a lot.",
+          "word": "today",
+          "lemma": "today",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 20,
+          "sentence_text": "Today today, I was learning a lot.",
+          "word": "learning",
+          "lemma": "learn",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 20,
+          "sentence_text": "Today today, I was learning a lot.",
+          "word": "lot",
+          "lemma": "lot",
+          "pos": "NOUN",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 21,
+          "sentence_text": "I was learning Spanish because, as I told you, I didn't I didn't I didn't know if I told you, but but I learn I learn Spanish.",
+          "word": "learning",
+          "lemma": "learn",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 21,
+          "sentence_text": "I was learning Spanish because, as I told you, I didn't I didn't I didn't know if I told you, but but I learn I learn Spanish.",
+          "word": "told",
+          "lemma": "tell",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 21,
+          "sentence_text": "I was learning Spanish because, as I told you, I didn't I didn't I didn't know if I told you, but but I learn I learn Spanish.",
+          "word": "did",
+          "lemma": "do",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 21,
+          "sentence_text": "I was learning Spanish because, as I told you, I didn't I didn't I didn't know if I told you, but but I learn I learn Spanish.",
+          "word": "did",
+          "lemma": "do",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 21,
+          "sentence_text": "I was learning Spanish because, as I told you, I didn't I didn't I didn't know if I told you, but but I learn I learn Spanish.",
+          "word": "know",
+          "lemma": "know",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 21,
+          "sentence_text": "I was learning Spanish because, as I told you, I didn't I didn't I didn't know if I told you, but but I learn I learn Spanish.",
+          "word": "told",
+          "lemma": "tell",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 21,
+          "sentence_text": "I was learning Spanish because, as I told you, I didn't I didn't I didn't know if I told you, but but I learn I learn Spanish.",
+          "word": "learn",
+          "lemma": "learn",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 21,
+          "sentence_text": "I was learning Spanish because, as I told you, I didn't I didn't I didn't know if I told you, but but I learn I learn Spanish.",
+          "word": "learn",
+          "lemma": "learn",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 22,
+          "sentence_text": "I learn Italy.",
+          "word": "learn",
+          "lemma": "learn",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 23,
+          "sentence_text": "So I try to learn it.",
+          "word": "So",
+          "lemma": "so",
+          "pos": "ADV",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 23,
+          "sentence_text": "So I try to learn it.",
+          "word": "try",
+          "lemma": "try",
+          "pos": "VERB",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 23,
+          "sentence_text": "So I try to learn it.",
+          "word": "learn",
+          "lemma": "learn",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 24,
+          "sentence_text": "So I was I was studying a lot.",
+          "word": "So",
+          "lemma": "so",
+          "pos": "ADV",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 24,
+          "sentence_text": "So I was I was studying a lot.",
+          "word": "studying",
+          "lemma": "study",
+          "pos": "VERB",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 24,
+          "sentence_text": "So I was I was studying a lot.",
+          "word": "lot",
+          "lemma": "lot",
+          "pos": "NOUN",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 25,
+          "sentence_text": "Then I was listening an English podcast to to have to have to have to have my ability, let's say, the best.",
+          "word": "Then",
+          "lemma": "then",
+          "pos": "ADV",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 25,
+          "sentence_text": "Then I was listening an English podcast to to have to have to have to have my ability, let's say, the best.",
+          "word": "listening",
+          "lemma": "listen",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 25,
+          "sentence_text": "Then I was listening an English podcast to to have to have to have to have my ability, let's say, the best.",
+          "word": "have",
+          "lemma": "have",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 25,
+          "sentence_text": "Then I was listening an English podcast to to have to have to have to have my ability, let's say, the best.",
+          "word": "have",
+          "lemma": "have",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 25,
+          "sentence_text": "Then I was listening an English podcast to to have to have to have to have my ability, let's say, the best.",
+          "word": "have",
+          "lemma": "have",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 25,
+          "sentence_text": "Then I was listening an English podcast to to have to have to have to have my ability, let's say, the best.",
+          "word": "have",
+          "lemma": "have",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 25,
+          "sentence_text": "Then I was listening an English podcast to to have to have to have to have my ability, let's say, the best.",
+          "word": "ability",
+          "lemma": "ability",
+          "pos": "NOUN",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 25,
+          "sentence_text": "Then I was listening an English podcast to to have to have to have to have my ability, let's say, the best.",
+          "word": "let",
+          "lemma": "let",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 25,
+          "sentence_text": "Then I was listening an English podcast to to have to have to have to have my ability, let's say, the best.",
+          "word": "say",
+          "lemma": "say",
+          "pos": "VERB",
+          "cefr_level": "B2",
+          "cefr_numeric": 4
+        },
+        {
+          "sentence_index": 25,
+          "sentence_text": "Then I was listening an English podcast to to have to have to have to have my ability, let's say, the best.",
+          "word": "best",
+          "lemma": "good",
+          "pos": "ADJ",
+          "cefr_level": "B2",
+          "cefr_numeric": 4
+        },
+        {
+          "sentence_index": 26,
+          "sentence_text": "And and now I would like to to to to start, to to to to to practice it, to practice to speak.",
+          "word": "now",
+          "lemma": "now",
+          "pos": "ADV",
+          "cefr_level": "B2",
+          "cefr_numeric": 4
+        },
+        {
+          "sentence_index": 26,
+          "sentence_text": "And and now I would like to to to to start, to to to to to practice it, to practice to speak.",
+          "word": "like",
+          "lemma": "like",
+          "pos": "VERB",
+          "cefr_level": "B1",
+          "cefr_numeric": 3
+        },
+        {
+          "sentence_index": 26,
+          "sentence_text": "And and now I would like to to to to start, to to to to to practice it, to practice to speak.",
+          "word": "start",
+          "lemma": "start",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 26,
+          "sentence_text": "And and now I would like to to to to start, to to to to to practice it, to practice to speak.",
+          "word": "to",
+          "lemma": "to",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 26,
+          "sentence_text": "And and now I would like to to to to start, to to to to to practice it, to practice to speak.",
+          "word": "practice",
+          "lemma": "practice",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 26,
+          "sentence_text": "And and now I would like to to to to start, to to to to to practice it, to practice to speak.",
+          "word": "practice",
+          "lemma": "practice",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 26,
+          "sentence_text": "And and now I would like to to to to start, to to to to to practice it, to practice to speak.",
+          "word": "speak",
+          "lemma": "speak",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 27,
+          "sentence_text": "So so it's I wish it's it were it were it were good.",
+          "word": "So",
+          "lemma": "so",
+          "pos": "ADV",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 27,
+          "sentence_text": "So so it's I wish it's it were it were it were good.",
+          "word": "so",
+          "lemma": "so",
+          "pos": "ADV",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 27,
+          "sentence_text": "So so it's I wish it's it were it were it were good.",
+          "word": "wish",
+          "lemma": "wish",
+          "pos": "VERB",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 27,
+          "sentence_text": "So so it's I wish it's it were it were it were good.",
+          "word": "good",
+          "lemma": "good",
+          "pos": "ADJ",
+          "cefr_level": "B2",
+          "cefr_numeric": 4
+        },
+        {
+          "sentence_index": 31,
+          "sentence_text": "Because because, you know, it was my first time when I had to had to tell you these these things, and I didn't prepare it, but",
+          "word": "know",
+          "lemma": "know",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 31,
+          "sentence_text": "Because because, you know, it was my first time when I had to had to tell you these these things, and I didn't prepare it, but",
+          "word": "first",
+          "lemma": "first",
+          "pos": "ADJ",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 31,
+          "sentence_text": "Because because, you know, it was my first time when I had to had to tell you these these things, and I didn't prepare it, but",
+          "word": "time",
+          "lemma": "time",
+          "pos": "NOUN",
+          "cefr_level": "B2",
+          "cefr_numeric": 4
+        },
+        {
+          "sentence_index": 31,
+          "sentence_text": "Because because, you know, it was my first time when I had to had to tell you these these things, and I didn't prepare it, but",
+          "word": "had",
+          "lemma": "have",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 31,
+          "sentence_text": "Because because, you know, it was my first time when I had to had to tell you these these things, and I didn't prepare it, but",
+          "word": "had",
+          "lemma": "had",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 31,
+          "sentence_text": "Because because, you know, it was my first time when I had to had to tell you these these things, and I didn't prepare it, but",
+          "word": "tell",
+          "lemma": "tell",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 31,
+          "sentence_text": "Because because, you know, it was my first time when I had to had to tell you these these things, and I didn't prepare it, but",
+          "word": "things",
+          "lemma": "thing",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 31,
+          "sentence_text": "Because because, you know, it was my first time when I had to had to tell you these these things, and I didn't prepare it, but",
+          "word": "prepare",
+          "lemma": "prepare",
+          "pos": "VERB",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 32,
+          "sentence_text": "cons",
+          "word": "cons",
+          "lemma": "con",
+          "pos": "NOUN",
+          "cefr_level": "C1",
+          "cefr_numeric": 5
+        },
+        {
+          "sentence_index": 33,
+          "sentence_text": "but I I didn't want to prepare it.",
+          "word": "want",
+          "lemma": "want",
+          "pos": "VERB",
+          "cefr_level": "B2",
+          "cefr_numeric": 4
+        },
+        {
+          "sentence_index": 33,
+          "sentence_text": "but I I didn't want to prepare it.",
+          "word": "prepare",
+          "lemma": "prepare",
+          "pos": "VERB",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 34,
+          "sentence_text": "So I started and and I was thinking when I was speaking.",
+          "word": "So",
+          "lemma": "so",
+          "pos": "ADV",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 34,
+          "sentence_text": "So I started and and I was thinking when I was speaking.",
+          "word": "started",
+          "lemma": "start",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 34,
+          "sentence_text": "So I started and and I was thinking when I was speaking.",
+          "word": "thinking",
+          "lemma": "think",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 34,
+          "sentence_text": "So I started and and I was thinking when I was speaking.",
+          "word": "speaking",
+          "lemma": "speak",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 35,
+          "sentence_text": "You you know?",
+          "word": "know",
+          "lemma": "know",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 36,
+          "sentence_text": "So it was not",
+          "word": "So",
+          "lemma": "so",
+          "pos": "ADV",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 37,
+          "sentence_text": "I know that it was not perfect, but I tried to",
+          "word": "know",
+          "lemma": "know",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 37,
+          "sentence_text": "I know that it was not perfect, but I tried to",
+          "word": "perfect",
+          "lemma": "perfect",
+          "pos": "ADJ",
+          "cefr_level": "C1",
+          "cefr_numeric": 5
+        },
+        {
+          "sentence_index": 37,
+          "sentence_text": "I know that it was not perfect, but I tried to",
+          "word": "tried",
+          "lemma": "try",
+          "pos": "VERB",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        }
+      ],
+      "richness": {
+        "score": 44,
+        "label": "Basic",
+        "color": "#ea580c",
+        "level_score": 0.1753,
+        "variety_score": 0.8333,
+        "avg_level": 1.8767,
+        "avg_level_str": "A2",
+        "distinct_levels": [
+          "A1",
+          "A2",
+          "B1",
+          "B2",
+          "C1"
+        ],
+        "level_distribution": {
+          "A1": 41,
+          "B2": 11,
+          "C1": 3,
+          "A2": 17,
+          "B1": 1
+        },
+        "n_matched": 73
+      }
+    },
+    {
+      "paragraph_id": 2,
+      "label": "Explaining decision to speak spontaneously without preparation",
+      "sentence_count": 38,
+      "word_start_id": 223,
+      "word_end_id": 433,
+      "stats": {
+        "total_words": 228,
+        "content_words": 65,
+        "matched_words": 65,
+        "unique_types": 29,
+        "ttr": 0.2719,
+        "lexical_density": 0.2851
+      },
+      "matches": [
+        {
+          "sentence_index": 1,
+          "sentence_text": "to tell you tell you something.",
+          "word": "tell",
+          "lemma": "tell",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 1,
+          "sentence_text": "to tell you tell you something.",
+          "word": "tell",
+          "lemma": "tell",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 2,
+          "sentence_text": "So you know?",
+          "word": "So",
+          "lemma": "so",
+          "pos": "ADV",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 2,
+          "sentence_text": "So you know?",
+          "word": "know",
+          "lemma": "know",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 4,
+          "sentence_text": "I think I think it's I think it wouldn't be okay if I I had read, for for example, after after telling you.",
+          "word": "think",
+          "lemma": "think",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 4,
+          "sentence_text": "I think I think it's I think it wouldn't be okay if I I had read, for for example, after after telling you.",
+          "word": "think",
+          "lemma": "think",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 4,
+          "sentence_text": "I think I think it's I think it wouldn't be okay if I I had read, for for example, after after telling you.",
+          "word": "think",
+          "lemma": "think",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 4,
+          "sentence_text": "I think I think it's I think it wouldn't be okay if I I had read, for for example, after after telling you.",
+          "word": "okay",
+          "lemma": "okay",
+          "pos": "ADJ",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 4,
+          "sentence_text": "I think I think it's I think it wouldn't be okay if I I had read, for for example, after after telling you.",
+          "word": "read",
+          "lemma": "read",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 4,
+          "sentence_text": "I think I think it's I think it wouldn't be okay if I I had read, for for example, after after telling you.",
+          "word": "example",
+          "lemma": "example",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 4,
+          "sentence_text": "I think I think it's I think it wouldn't be okay if I I had read, for for example, after after telling you.",
+          "word": "telling",
+          "lemma": "tell",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 5,
+          "sentence_text": "So I tried I decided I decided to to to don't prepare it to didn't prepare it.",
+          "word": "So",
+          "lemma": "so",
+          "pos": "ADV",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 5,
+          "sentence_text": "So I tried I decided I decided to to to don't prepare it to didn't prepare it.",
+          "word": "tried",
+          "lemma": "try",
+          "pos": "VERB",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 5,
+          "sentence_text": "So I tried I decided I decided to to to don't prepare it to didn't prepare it.",
+          "word": "decided",
+          "lemma": "decide",
+          "pos": "VERB",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 5,
+          "sentence_text": "So I tried I decided I decided to to to don't prepare it to didn't prepare it.",
+          "word": "decided",
+          "lemma": "decide",
+          "pos": "VERB",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 5,
+          "sentence_text": "So I tried I decided I decided to to to don't prepare it to didn't prepare it.",
+          "word": "prepare",
+          "lemma": "prepare",
+          "pos": "VERB",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 5,
+          "sentence_text": "So I tried I decided I decided to to to don't prepare it to didn't prepare it.",
+          "word": "prepare",
+          "lemma": "prepare",
+          "pos": "VERB",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 7,
+          "sentence_text": "You know?",
+          "word": "know",
+          "lemma": "know",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 8,
+          "sentence_text": "So so I was saying what what I was what I had in my mind only.",
+          "word": "So",
+          "lemma": "so",
+          "pos": "ADV",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 8,
+          "sentence_text": "So so I was saying what what I was what I had in my mind only.",
+          "word": "so",
+          "lemma": "so",
+          "pos": "ADV",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 8,
+          "sentence_text": "So so I was saying what what I was what I had in my mind only.",
+          "word": "saying",
+          "lemma": "say",
+          "pos": "VERB",
+          "cefr_level": "B2",
+          "cefr_numeric": 4
+        },
+        {
+          "sentence_index": 8,
+          "sentence_text": "So so I was saying what what I was what I had in my mind only.",
+          "word": "had",
+          "lemma": "have",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 8,
+          "sentence_text": "So so I was saying what what I was what I had in my mind only.",
+          "word": "mind",
+          "lemma": "mind",
+          "pos": "NOUN",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 8,
+          "sentence_text": "So so I was saying what what I was what I had in my mind only.",
+          "word": "only",
+          "lemma": "only",
+          "pos": "ADV",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 10,
+          "sentence_text": "You know?",
+          "word": "know",
+          "lemma": "know",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 16,
+          "sentence_text": "I try you know,",
+          "word": "try",
+          "lemma": "try",
+          "pos": "VERB",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 16,
+          "sentence_text": "I try you know,",
+          "word": "know",
+          "lemma": "know",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 17,
+          "sentence_text": "I I think that I'm confident when I try to speak.",
+          "word": "think",
+          "lemma": "think",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 17,
+          "sentence_text": "I I think that I'm confident when I try to speak.",
+          "word": "confident",
+          "lemma": "confident",
+          "pos": "ADJ",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 17,
+          "sentence_text": "I I think that I'm confident when I try to speak.",
+          "word": "try",
+          "lemma": "try",
+          "pos": "VERB",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 17,
+          "sentence_text": "I I think that I'm confident when I try to speak.",
+          "word": "speak",
+          "lemma": "speak",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 18,
+          "sentence_text": "I know that I don't already, I don't know anything.",
+          "word": "know",
+          "lemma": "know",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 18,
+          "sentence_text": "I know that I don't already, I don't know anything.",
+          "word": "already",
+          "lemma": "already",
+          "pos": "ADV",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 18,
+          "sentence_text": "I know that I don't already, I don't know anything.",
+          "word": "know",
+          "lemma": "know",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 19,
+          "sentence_text": "I I'm lack of a lot of things, but but I try to to to to to to speak.",
+          "word": "lack",
+          "lemma": "lack",
+          "pos": "NOUN",
+          "cefr_level": "B2",
+          "cefr_numeric": 4
+        },
+        {
+          "sentence_index": 19,
+          "sentence_text": "I I'm lack of a lot of things, but but I try to to to to to to speak.",
+          "word": "lot",
+          "lemma": "lot",
+          "pos": "NOUN",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 19,
+          "sentence_text": "I I'm lack of a lot of things, but but I try to to to to to to speak.",
+          "word": "things",
+          "lemma": "thing",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 19,
+          "sentence_text": "I I'm lack of a lot of things, but but I try to to to to to to speak.",
+          "word": "try",
+          "lemma": "try",
+          "pos": "VERB",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 19,
+          "sentence_text": "I I'm lack of a lot of things, but but I try to to to to to to speak.",
+          "word": "speak",
+          "lemma": "speak",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 26,
+          "sentence_text": "I understand.",
+          "word": "understand",
+          "lemma": "understand",
+          "pos": "VERB",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 30,
+          "sentence_text": "So so I don't I don't know if I understand you.",
+          "word": "So",
+          "lemma": "so",
+          "pos": "ADV",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 30,
+          "sentence_text": "So so I don't I don't know if I understand you.",
+          "word": "so",
+          "lemma": "so",
+          "pos": "ADV",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 30,
+          "sentence_text": "So so I don't I don't know if I understand you.",
+          "word": "know",
+          "lemma": "know",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 30,
+          "sentence_text": "So so I don't I don't know if I understand you.",
+          "word": "understand",
+          "lemma": "understand",
+          "pos": "VERB",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 31,
+          "sentence_text": "You want to to say that it's, for me now, most important to to to speak, for example, slowly, but to but don't speak don't speak fast, for example, to to communicate to communicate good.",
+          "word": "want",
+          "lemma": "want",
+          "pos": "VERB",
+          "cefr_level": "B2",
+          "cefr_numeric": 4
+        },
+        {
+          "sentence_index": 31,
+          "sentence_text": "You want to to say that it's, for me now, most important to to to speak, for example, slowly, but to but don't speak don't speak fast, for example, to to communicate to communicate good.",
+          "word": "say",
+          "lemma": "say",
+          "pos": "VERB",
+          "cefr_level": "B2",
+          "cefr_numeric": 4
+        },
+        {
+          "sentence_index": 31,
+          "sentence_text": "You want to to say that it's, for me now, most important to to to speak, for example, slowly, but to but don't speak don't speak fast, for example, to to communicate to communicate good.",
+          "word": "now",
+          "lemma": "now",
+          "pos": "ADV",
+          "cefr_level": "B2",
+          "cefr_numeric": 4
+        },
+        {
+          "sentence_index": 31,
+          "sentence_text": "You want to to say that it's, for me now, most important to to to speak, for example, slowly, but to but don't speak don't speak fast, for example, to to communicate to communicate good.",
+          "word": "most",
+          "lemma": "most",
+          "pos": "ADV",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 31,
+          "sentence_text": "You want to to say that it's, for me now, most important to to to speak, for example, slowly, but to but don't speak don't speak fast, for example, to to communicate to communicate good.",
+          "word": "important",
+          "lemma": "important",
+          "pos": "ADJ",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 31,
+          "sentence_text": "You want to to say that it's, for me now, most important to to to speak, for example, slowly, but to but don't speak don't speak fast, for example, to to communicate to communicate good.",
+          "word": "speak",
+          "lemma": "speak",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 31,
+          "sentence_text": "You want to to say that it's, for me now, most important to to to speak, for example, slowly, but to but don't speak don't speak fast, for example, to to communicate to communicate good.",
+          "word": "example",
+          "lemma": "example",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 31,
+          "sentence_text": "You want to to say that it's, for me now, most important to to to speak, for example, slowly, but to but don't speak don't speak fast, for example, to to communicate to communicate good.",
+          "word": "slowly",
+          "lemma": "slowly",
+          "pos": "ADV",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 31,
+          "sentence_text": "You want to to say that it's, for me now, most important to to to speak, for example, slowly, but to but don't speak don't speak fast, for example, to to communicate to communicate good.",
+          "word": "speak",
+          "lemma": "speak",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 31,
+          "sentence_text": "You want to to say that it's, for me now, most important to to to speak, for example, slowly, but to but don't speak don't speak fast, for example, to to communicate to communicate good.",
+          "word": "speak",
+          "lemma": "speak",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 31,
+          "sentence_text": "You want to to say that it's, for me now, most important to to to speak, for example, slowly, but to but don't speak don't speak fast, for example, to to communicate to communicate good.",
+          "word": "fast",
+          "lemma": "fast",
+          "pos": "ADV",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 31,
+          "sentence_text": "You want to to say that it's, for me now, most important to to to speak, for example, slowly, but to but don't speak don't speak fast, for example, to to communicate to communicate good.",
+          "word": "example",
+          "lemma": "example",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 31,
+          "sentence_text": "You want to to say that it's, for me now, most important to to to speak, for example, slowly, but to but don't speak don't speak fast, for example, to to communicate to communicate good.",
+          "word": "communicate",
+          "lemma": "communicate",
+          "pos": "VERB",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 31,
+          "sentence_text": "You want to to say that it's, for me now, most important to to to speak, for example, slowly, but to but don't speak don't speak fast, for example, to to communicate to communicate good.",
+          "word": "communicate",
+          "lemma": "communicate",
+          "pos": "VERB",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 31,
+          "sentence_text": "You want to to say that it's, for me now, most important to to to speak, for example, slowly, but to but don't speak don't speak fast, for example, to to communicate to communicate good.",
+          "word": "good",
+          "lemma": "good",
+          "pos": "ADJ",
+          "cefr_level": "B2",
+          "cefr_numeric": 4
+        },
+        {
+          "sentence_index": 37,
+          "sentence_text": "So when when I'm thinking, I I could I could I couldn't",
+          "word": "So",
+          "lemma": "so",
+          "pos": "ADV",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 37,
+          "sentence_text": "So when when I'm thinking, I I could I could I couldn't",
+          "word": "thinking",
+          "lemma": "think",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 38,
+          "sentence_text": "I couldn't I couldn't speak, but I I could think, but think in my mind, yeah,",
+          "word": "speak",
+          "lemma": "speak",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 38,
+          "sentence_text": "I couldn't I couldn't speak, but I I could think, but think in my mind, yeah,",
+          "word": "think",
+          "lemma": "think",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 38,
+          "sentence_text": "I couldn't I couldn't speak, but I I could think, but think in my mind, yeah,",
+          "word": "think",
+          "lemma": "think",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 38,
+          "sentence_text": "I couldn't I couldn't speak, but I I could think, but think in my mind, yeah,",
+          "word": "mind",
+          "lemma": "mind",
+          "pos": "NOUN",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        }
+      ],
+      "richness": {
+        "score": 28,
+        "label": "Sparse",
+        "color": "#dc2626",
+        "level_score": 0.1323,
+        "variety_score": 0.5,
+        "avg_level": 1.6615,
+        "avg_level_str": "A2",
+        "distinct_levels": [
+          "A1",
+          "A2",
+          "B2"
+        ],
+        "level_distribution": {
+          "A1": 34,
+          "A2": 25,
+          "B2": 6
+        },
+        "n_matched": 65
+      }
+    },
+    {
+      "paragraph_id": 3,
+      "label": "Practicing speaking slowly and describing daily activities",
+      "sentence_count": 44,
+      "word_start_id": 434,
+      "word_end_id": 637,
+      "stats": {
+        "total_words": 214,
+        "content_words": 65,
+        "matched_words": 65,
+        "unique_types": 28,
+        "ttr": 0.2944,
+        "lexical_density": 0.3037
+      },
+      "matches": [
+        {
+          "sentence_index": 1,
+          "sentence_text": "without without without for example, now I want to tell you something.",
+          "word": "example",
+          "lemma": "example",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 1,
+          "sentence_text": "without without without for example, now I want to tell you something.",
+          "word": "now",
+          "lemma": "now",
+          "pos": "ADV",
+          "cefr_level": "B2",
+          "cefr_numeric": 4
+        },
+        {
+          "sentence_index": 1,
+          "sentence_text": "without without without for example, now I want to tell you something.",
+          "word": "want",
+          "lemma": "want",
+          "pos": "VERB",
+          "cefr_level": "B2",
+          "cefr_numeric": 4
+        },
+        {
+          "sentence_index": 1,
+          "sentence_text": "without without without for example, now I want to tell you something.",
+          "word": "tell",
+          "lemma": "tell",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 2,
+          "sentence_text": "I don't know what I tell you, and I I'm thinking.",
+          "word": "know",
+          "lemma": "know",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 2,
+          "sentence_text": "I don't know what I tell you, and I I'm thinking.",
+          "word": "tell",
+          "lemma": "tell",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 2,
+          "sentence_text": "I don't know what I tell you, and I I'm thinking.",
+          "word": "thinking",
+          "lemma": "think",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 7,
+          "sentence_text": "I understand.",
+          "word": "understand",
+          "lemma": "understand",
+          "pos": "VERB",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 11,
+          "sentence_text": "So so",
+          "word": "So",
+          "lemma": "so",
+          "pos": "ADV",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 11,
+          "sentence_text": "So so",
+          "word": "so",
+          "lemma": "so",
+          "pos": "ADV",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 12,
+          "sentence_text": "so I should do what what what I've done, but more slowly but about about this topic about this topic, about football, about what what you answered me.",
+          "word": "so",
+          "lemma": "so",
+          "pos": "ADV",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 12,
+          "sentence_text": "so I should do what what what I've done, but more slowly but about about this topic about this topic, about football, about what what you answered me.",
+          "word": "do",
+          "lemma": "do",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 12,
+          "sentence_text": "so I should do what what what I've done, but more slowly but about about this topic about this topic, about football, about what what you answered me.",
+          "word": "done",
+          "lemma": "do",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 12,
+          "sentence_text": "so I should do what what what I've done, but more slowly but about about this topic about this topic, about football, about what what you answered me.",
+          "word": "more",
+          "lemma": "more",
+          "pos": "ADV",
+          "cefr_level": "B1",
+          "cefr_numeric": 3
+        },
+        {
+          "sentence_index": 12,
+          "sentence_text": "so I should do what what what I've done, but more slowly but about about this topic about this topic, about football, about what what you answered me.",
+          "word": "slowly",
+          "lemma": "slowly",
+          "pos": "ADV",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 12,
+          "sentence_text": "so I should do what what what I've done, but more slowly but about about this topic about this topic, about football, about what what you answered me.",
+          "word": "about",
+          "lemma": "about",
+          "pos": "ADV",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 12,
+          "sentence_text": "so I should do what what what I've done, but more slowly but about about this topic about this topic, about football, about what what you answered me.",
+          "word": "topic",
+          "lemma": "topic",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 12,
+          "sentence_text": "so I should do what what what I've done, but more slowly but about about this topic about this topic, about football, about what what you answered me.",
+          "word": "topic",
+          "lemma": "topic",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 12,
+          "sentence_text": "so I should do what what what I've done, but more slowly but about about this topic about this topic, about football, about what what you answered me.",
+          "word": "football",
+          "lemma": "football",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 12,
+          "sentence_text": "so I should do what what what I've done, but more slowly but about about this topic about this topic, about football, about what what you answered me.",
+          "word": "answered",
+          "lemma": "answer",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 14,
+          "sentence_text": "Could you repeat?",
+          "word": "repeat",
+          "lemma": "repeat",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 15,
+          "sentence_text": "Could you repeat?",
+          "word": "repeat",
+          "lemma": "repeat",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 18,
+          "sentence_text": "Today, it's 01:00 in Poland.",
+          "word": "Today",
+          "lemma": "today",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 19,
+          "sentence_text": "Right now, it's 01:00 in Poland.",
+          "word": "Right",
+          "lemma": "right",
+          "pos": "ADV",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 19,
+          "sentence_text": "Right now, it's 01:00 in Poland.",
+          "word": "now",
+          "lemma": "now",
+          "pos": "ADV",
+          "cefr_level": "B2",
+          "cefr_numeric": 4
+        },
+        {
+          "sentence_index": 21,
+          "sentence_text": "Today, it's 1 in Poland.",
+          "word": "Today",
+          "lemma": "today",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 23,
+          "sentence_text": "So I",
+          "word": "So",
+          "lemma": "so",
+          "pos": "ADV",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 24,
+          "sentence_text": "I was I I saw it.",
+          "word": "saw",
+          "lemma": "see",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 26,
+          "sentence_text": "I hacked it.",
+          "word": "hacked",
+          "lemma": "hack",
+          "pos": "VERB",
+          "cefr_level": "C1",
+          "cefr_numeric": 5
+        },
+        {
+          "sentence_index": 27,
+          "sentence_text": "Today, right now, is 01:00.",
+          "word": "Today",
+          "lemma": "today",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 27,
+          "sentence_text": "Today, right now, is 01:00.",
+          "word": "right",
+          "lemma": "right",
+          "pos": "ADV",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 27,
+          "sentence_text": "Today, right now, is 01:00.",
+          "word": "now",
+          "lemma": "now",
+          "pos": "ADV",
+          "cefr_level": "B2",
+          "cefr_numeric": 4
+        },
+        {
+          "sentence_index": 30,
+          "sentence_text": "I try.",
+          "word": "try",
+          "lemma": "try",
+          "pos": "VERB",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 31,
+          "sentence_text": "I try to to to to I try to do it without without any any thinking.",
+          "word": "try",
+          "lemma": "try",
+          "pos": "VERB",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 31,
+          "sentence_text": "I try to to to to I try to do it without without any any thinking.",
+          "word": "try",
+          "lemma": "try",
+          "pos": "VERB",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 31,
+          "sentence_text": "I try to to to to I try to do it without without any any thinking.",
+          "word": "do",
+          "lemma": "do",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 33,
+          "sentence_text": "Without I'm thinking I'm thinking, but I try to I try to",
+          "word": "thinking",
+          "lemma": "think",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 33,
+          "sentence_text": "Without I'm thinking I'm thinking, but I try to I try to",
+          "word": "thinking",
+          "lemma": "think",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 33,
+          "sentence_text": "Without I'm thinking I'm thinking, but I try to I try to",
+          "word": "try",
+          "lemma": "try",
+          "pos": "VERB",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 33,
+          "sentence_text": "Without I'm thinking I'm thinking, but I try to I try to",
+          "word": "try",
+          "lemma": "try",
+          "pos": "VERB",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 34,
+          "sentence_text": "I try to think without without pause or without without stop.",
+          "word": "try",
+          "lemma": "try",
+          "pos": "VERB",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 34,
+          "sentence_text": "I try to think without without pause or without without stop.",
+          "word": "think",
+          "lemma": "think",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 34,
+          "sentence_text": "I try to think without without pause or without without stop.",
+          "word": "pause",
+          "lemma": "pause",
+          "pos": "NOUN",
+          "cefr_level": "B1",
+          "cefr_numeric": 3
+        },
+        {
+          "sentence_index": 34,
+          "sentence_text": "I try to think without without pause or without without stop.",
+          "word": "stop",
+          "lemma": "stop",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 35,
+          "sentence_text": "You you know, you understand.",
+          "word": "know",
+          "lemma": "know",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 35,
+          "sentence_text": "You you know, you understand.",
+          "word": "understand",
+          "lemma": "understand",
+          "pos": "VERB",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 36,
+          "sentence_text": "I am I have I have ate lunch.",
+          "word": "have",
+          "lemma": "have",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 36,
+          "sentence_text": "I am I have I have ate lunch.",
+          "word": "ate",
+          "lemma": "eat",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 36,
+          "sentence_text": "I am I have I have ate lunch.",
+          "word": "lunch",
+          "lemma": "lunch",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 37,
+          "sentence_text": "I ate I ate lunch when I was okay.",
+          "word": "ate",
+          "lemma": "eat",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 37,
+          "sentence_text": "I ate I ate lunch when I was okay.",
+          "word": "ate",
+          "lemma": "eat",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 37,
+          "sentence_text": "I ate I ate lunch when I was okay.",
+          "word": "lunch",
+          "lemma": "lunch",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 37,
+          "sentence_text": "I ate I ate lunch when I was okay.",
+          "word": "okay",
+          "lemma": "okay",
+          "pos": "ADJ",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 38,
+          "sentence_text": "Right now.",
+          "word": "Right",
+          "lemma": "right",
+          "pos": "ADV",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 38,
+          "sentence_text": "Right now.",
+          "word": "now",
+          "lemma": "now",
+          "pos": "ADV",
+          "cefr_level": "B2",
+          "cefr_numeric": 4
+        },
+        {
+          "sentence_index": 39,
+          "sentence_text": "I ate I ate lunch.",
+          "word": "ate",
+          "lemma": "eat",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 39,
+          "sentence_text": "I ate I ate lunch.",
+          "word": "ate",
+          "lemma": "eat",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 39,
+          "sentence_text": "I ate I ate lunch.",
+          "word": "lunch",
+          "lemma": "lunch",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 40,
+          "sentence_text": "I ate",
+          "word": "ate",
+          "lemma": "eat",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 41,
+          "sentence_text": "but I don't know.",
+          "word": "know",
+          "lemma": "know",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 42,
+          "sentence_text": "I don't remember what I ate.",
+          "word": "remember",
+          "lemma": "remember",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 43,
+          "sentence_text": "I ate I ate I ate I ate x.",
+          "word": "ate",
+          "lemma": "eat",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 43,
+          "sentence_text": "I ate I ate I ate I ate x.",
+          "word": "ate",
+          "lemma": "eat",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 43,
+          "sentence_text": "I ate I ate I ate I ate x.",
+          "word": "ate",
+          "lemma": "eat",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 43,
+          "sentence_text": "I ate I ate I ate I ate x.",
+          "word": "ate",
+          "lemma": "eat",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        }
+      ],
+      "richness": {
+        "score": 41,
+        "label": "Basic",
+        "color": "#ea580c",
+        "level_score": 0.12,
+        "variety_score": 0.8333,
+        "avg_level": 1.6,
+        "avg_level_str": "A2",
+        "distinct_levels": [
+          "A1",
+          "A2",
+          "B1",
+          "B2",
+          "C1"
+        ],
+        "level_distribution": {
+          "A1": 41,
+          "B2": 5,
+          "A2": 16,
+          "B1": 2,
+          "C1": 1
+        },
+        "n_matched": 65
+      }
+    },
+    {
+      "paragraph_id": 4,
+      "label": "Discussing lunch, healthy eating habits, and daily activities",
+      "sentence_count": 34,
+      "word_start_id": 638,
+      "word_end_id": 844,
+      "stats": {
+        "total_words": 218,
+        "content_words": 82,
+        "matched_words": 82,
+        "unique_types": 40,
+        "ttr": 0.3716,
+        "lexical_density": 0.3761
+      },
+      "matches": [
+        {
+          "sentence_index": 1,
+          "sentence_text": "I ate x.",
+          "word": "ate",
+          "lemma": "eat",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 2,
+          "sentence_text": "I ate x on the lunch On a lunch.",
+          "word": "ate",
+          "lemma": "eat",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 2,
+          "sentence_text": "I ate x on the lunch On a lunch.",
+          "word": "lunch",
+          "lemma": "lunch",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 2,
+          "sentence_text": "I ate x on the lunch On a lunch.",
+          "word": "lunch",
+          "lemma": "lunch",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 7,
+          "sentence_text": "Today, I ate x for lunch.",
+          "word": "Today",
+          "lemma": "today",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 7,
+          "sentence_text": "Today, I ate x for lunch.",
+          "word": "ate",
+          "lemma": "eat",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 7,
+          "sentence_text": "Today, I ate x for lunch.",
+          "word": "lunch",
+          "lemma": "lunch",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 9,
+          "sentence_text": "I have to, you know, I have to I have to convince myself because I've never done it.",
+          "word": "have",
+          "lemma": "have",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 9,
+          "sentence_text": "I have to, you know, I have to I have to convince myself because I've never done it.",
+          "word": "know",
+          "lemma": "know",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 9,
+          "sentence_text": "I have to, you know, I have to I have to convince myself because I've never done it.",
+          "word": "have",
+          "lemma": "have",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 9,
+          "sentence_text": "I have to, you know, I have to I have to convince myself because I've never done it.",
+          "word": "have",
+          "lemma": "have",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 9,
+          "sentence_text": "I have to, you know, I have to I have to convince myself because I've never done it.",
+          "word": "convince",
+          "lemma": "convince",
+          "pos": "VERB",
+          "cefr_level": "B1",
+          "cefr_numeric": 3
+        },
+        {
+          "sentence_index": 9,
+          "sentence_text": "I have to, you know, I have to I have to convince myself because I've never done it.",
+          "word": "never",
+          "lemma": "never",
+          "pos": "ADV",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 9,
+          "sentence_text": "I have to, you know, I have to I have to convince myself because I've never done it.",
+          "word": "done",
+          "lemma": "do",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 10,
+          "sentence_text": "I've I've I've never done it this mode, you know, and I I need time, but but I think it's good.",
+          "word": "never",
+          "lemma": "never",
+          "pos": "ADV",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 10,
+          "sentence_text": "I've I've I've never done it this mode, you know, and I I need time, but but I think it's good.",
+          "word": "done",
+          "lemma": "do",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 10,
+          "sentence_text": "I've I've I've never done it this mode, you know, and I I need time, but but I think it's good.",
+          "word": "know",
+          "lemma": "know",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 10,
+          "sentence_text": "I've I've I've never done it this mode, you know, and I I need time, but but I think it's good.",
+          "word": "need",
+          "lemma": "need",
+          "pos": "VERB",
+          "cefr_level": "B2",
+          "cefr_numeric": 4
+        },
+        {
+          "sentence_index": 10,
+          "sentence_text": "I've I've I've never done it this mode, you know, and I I need time, but but I think it's good.",
+          "word": "time",
+          "lemma": "time",
+          "pos": "NOUN",
+          "cefr_level": "B2",
+          "cefr_numeric": 4
+        },
+        {
+          "sentence_index": 10,
+          "sentence_text": "I've I've I've never done it this mode, you know, and I I need time, but but I think it's good.",
+          "word": "think",
+          "lemma": "think",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 10,
+          "sentence_text": "I've I've I've never done it this mode, you know, and I I need time, but but I think it's good.",
+          "word": "good",
+          "lemma": "good",
+          "pos": "ADJ",
+          "cefr_level": "B2",
+          "cefr_numeric": 4
+        },
+        {
+          "sentence_index": 12,
+          "sentence_text": "Because it's it sounds more more more better.",
+          "word": "sounds",
+          "lemma": "sound",
+          "pos": "VERB",
+          "cefr_level": "B2",
+          "cefr_numeric": 4
+        },
+        {
+          "sentence_index": 12,
+          "sentence_text": "Because it's it sounds more more more better.",
+          "word": "more",
+          "lemma": "more",
+          "pos": "ADV",
+          "cefr_level": "B1",
+          "cefr_numeric": 3
+        },
+        {
+          "sentence_index": 12,
+          "sentence_text": "Because it's it sounds more more more better.",
+          "word": "more",
+          "lemma": "more",
+          "pos": "ADV",
+          "cefr_level": "B1",
+          "cefr_numeric": 3
+        },
+        {
+          "sentence_index": 12,
+          "sentence_text": "Because it's it sounds more more more better.",
+          "word": "more",
+          "lemma": "more",
+          "pos": "ADV",
+          "cefr_level": "B1",
+          "cefr_numeric": 3
+        },
+        {
+          "sentence_index": 12,
+          "sentence_text": "Because it's it sounds more more more better.",
+          "word": "better",
+          "lemma": "well",
+          "pos": "ADJ",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 14,
+          "sentence_text": "Better.",
+          "word": "Better",
+          "lemma": "well",
+          "pos": "ADV",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 15,
+          "sentence_text": "More coffee.",
+          "word": "More",
+          "lemma": "more",
+          "pos": "ADJ",
+          "cefr_level": "B1",
+          "cefr_numeric": 3
+        },
+        {
+          "sentence_index": 15,
+          "sentence_text": "More coffee.",
+          "word": "coffee",
+          "lemma": "coffee",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 20,
+          "sentence_text": "I okay.",
+          "word": "okay",
+          "lemma": "okay",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 22,
+          "sentence_text": "I ate eggs on lunch today.",
+          "word": "ate",
+          "lemma": "eat",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 22,
+          "sentence_text": "I ate eggs on lunch today.",
+          "word": "eggs",
+          "lemma": "egg",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 22,
+          "sentence_text": "I ate eggs on lunch today.",
+          "word": "lunch",
+          "lemma": "lunch",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 22,
+          "sentence_text": "I ate eggs on lunch today.",
+          "word": "today",
+          "lemma": "today",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 23,
+          "sentence_text": "Didn't watch any sports, but I was listening at I was listening at morning at morning about about football, about languages.",
+          "word": "watch",
+          "lemma": "watch",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 23,
+          "sentence_text": "Didn't watch any sports, but I was listening at I was listening at morning at morning about about football, about languages.",
+          "word": "sports",
+          "lemma": "sport",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 23,
+          "sentence_text": "Didn't watch any sports, but I was listening at I was listening at morning at morning about about football, about languages.",
+          "word": "listening",
+          "lemma": "listen",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 23,
+          "sentence_text": "Didn't watch any sports, but I was listening at I was listening at morning at morning about about football, about languages.",
+          "word": "listening",
+          "lemma": "listen",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 23,
+          "sentence_text": "Didn't watch any sports, but I was listening at I was listening at morning at morning about about football, about languages.",
+          "word": "morning",
+          "lemma": "morning",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 23,
+          "sentence_text": "Didn't watch any sports, but I was listening at I was listening at morning at morning about about football, about languages.",
+          "word": "morning",
+          "lemma": "morning",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 23,
+          "sentence_text": "Didn't watch any sports, but I was listening at I was listening at morning at morning about about football, about languages.",
+          "word": "football",
+          "lemma": "football",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 23,
+          "sentence_text": "Didn't watch any sports, but I was listening at I was listening at morning at morning about about football, about languages.",
+          "word": "languages",
+          "lemma": "language",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 24,
+          "sentence_text": "So I I didn't watch any match, but I was in contact with football, let's say.",
+          "word": "So",
+          "lemma": "so",
+          "pos": "ADV",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 24,
+          "sentence_text": "So I I didn't watch any match, but I was in contact with football, let's say.",
+          "word": "watch",
+          "lemma": "watch",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 24,
+          "sentence_text": "So I I didn't watch any match, but I was in contact with football, let's say.",
+          "word": "match",
+          "lemma": "match",
+          "pos": "NOUN",
+          "cefr_level": "B1",
+          "cefr_numeric": 3
+        },
+        {
+          "sentence_index": 24,
+          "sentence_text": "So I I didn't watch any match, but I was in contact with football, let's say.",
+          "word": "contact",
+          "lemma": "contact",
+          "pos": "NOUN",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 24,
+          "sentence_text": "So I I didn't watch any match, but I was in contact with football, let's say.",
+          "word": "football",
+          "lemma": "football",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 24,
+          "sentence_text": "So I I didn't watch any match, but I was in contact with football, let's say.",
+          "word": "let",
+          "lemma": "let",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 24,
+          "sentence_text": "So I I didn't watch any match, but I was in contact with football, let's say.",
+          "word": "say",
+          "lemma": "say",
+          "pos": "VERB",
+          "cefr_level": "B2",
+          "cefr_numeric": 4
+        },
+        {
+          "sentence_index": 27,
+          "sentence_text": "It was it was delicious.",
+          "word": "delicious",
+          "lemma": "delicious",
+          "pos": "ADJ",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 28,
+          "sentence_text": "I like it.",
+          "word": "like",
+          "lemma": "like",
+          "pos": "VERB",
+          "cefr_level": "B1",
+          "cefr_numeric": 3
+        },
+        {
+          "sentence_index": 29,
+          "sentence_text": "Often, I try to eat healthy, so I liked it.",
+          "word": "Often",
+          "lemma": "often",
+          "pos": "ADV",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 29,
+          "sentence_text": "Often, I try to eat healthy, so I liked it.",
+          "word": "try",
+          "lemma": "try",
+          "pos": "VERB",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 29,
+          "sentence_text": "Often, I try to eat healthy, so I liked it.",
+          "word": "eat",
+          "lemma": "eat",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 29,
+          "sentence_text": "Often, I try to eat healthy, so I liked it.",
+          "word": "healthy",
+          "lemma": "healthy",
+          "pos": "ADJ",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 29,
+          "sentence_text": "Often, I try to eat healthy, so I liked it.",
+          "word": "so",
+          "lemma": "so",
+          "pos": "ADV",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 29,
+          "sentence_text": "Often, I try to eat healthy, so I liked it.",
+          "word": "liked",
+          "lemma": "like",
+          "pos": "VERB",
+          "cefr_level": "B1",
+          "cefr_numeric": 3
+        },
+        {
+          "sentence_index": 31,
+          "sentence_text": "I think I'm really like eating healthy because I think it's important for my health.",
+          "word": "think",
+          "lemma": "think",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 31,
+          "sentence_text": "I think I'm really like eating healthy because I think it's important for my health.",
+          "word": "really",
+          "lemma": "really",
+          "pos": "ADV",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 31,
+          "sentence_text": "I think I'm really like eating healthy because I think it's important for my health.",
+          "word": "eating",
+          "lemma": "eat",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 31,
+          "sentence_text": "I think I'm really like eating healthy because I think it's important for my health.",
+          "word": "healthy",
+          "lemma": "healthy",
+          "pos": "ADJ",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 31,
+          "sentence_text": "I think I'm really like eating healthy because I think it's important for my health.",
+          "word": "think",
+          "lemma": "think",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 31,
+          "sentence_text": "I think I'm really like eating healthy because I think it's important for my health.",
+          "word": "important",
+          "lemma": "important",
+          "pos": "ADJ",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 31,
+          "sentence_text": "I think I'm really like eating healthy because I think it's important for my health.",
+          "word": "health",
+          "lemma": "health",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 32,
+          "sentence_text": "And if if I have if I if I have if I have opportunity to eat healthy, I try to do it for myself.",
+          "word": "have",
+          "lemma": "have",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 32,
+          "sentence_text": "And if if I have if I if I have if I have opportunity to eat healthy, I try to do it for myself.",
+          "word": "have",
+          "lemma": "have",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 32,
+          "sentence_text": "And if if I have if I if I have if I have opportunity to eat healthy, I try to do it for myself.",
+          "word": "have",
+          "lemma": "have",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 32,
+          "sentence_text": "And if if I have if I if I have if I have opportunity to eat healthy, I try to do it for myself.",
+          "word": "opportunity",
+          "lemma": "opportunity",
+          "pos": "NOUN",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 32,
+          "sentence_text": "And if if I have if I if I have if I have opportunity to eat healthy, I try to do it for myself.",
+          "word": "eat",
+          "lemma": "eat",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 32,
+          "sentence_text": "And if if I have if I if I have if I have opportunity to eat healthy, I try to do it for myself.",
+          "word": "healthy",
+          "lemma": "healthy",
+          "pos": "ADJ",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 32,
+          "sentence_text": "And if if I have if I if I have if I have opportunity to eat healthy, I try to do it for myself.",
+          "word": "try",
+          "lemma": "try",
+          "pos": "VERB",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 32,
+          "sentence_text": "And if if I have if I if I have if I have opportunity to eat healthy, I try to do it for myself.",
+          "word": "do",
+          "lemma": "do",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 33,
+          "sentence_text": "It is not what I try to do daily, but 4 times a week, I try to eat eat eat eat.",
+          "word": "try",
+          "lemma": "try",
+          "pos": "VERB",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 33,
+          "sentence_text": "It is not what I try to do daily, but 4 times a week, I try to eat eat eat eat.",
+          "word": "do",
+          "lemma": "do",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 33,
+          "sentence_text": "It is not what I try to do daily, but 4 times a week, I try to eat eat eat eat.",
+          "word": "daily",
+          "lemma": "daily",
+          "pos": "ADV",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 33,
+          "sentence_text": "It is not what I try to do daily, but 4 times a week, I try to eat eat eat eat.",
+          "word": "times",
+          "lemma": "time",
+          "pos": "NOUN",
+          "cefr_level": "B2",
+          "cefr_numeric": 4
+        },
+        {
+          "sentence_index": 33,
+          "sentence_text": "It is not what I try to do daily, but 4 times a week, I try to eat eat eat eat.",
+          "word": "week",
+          "lemma": "week",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 33,
+          "sentence_text": "It is not what I try to do daily, but 4 times a week, I try to eat eat eat eat.",
+          "word": "try",
+          "lemma": "try",
+          "pos": "VERB",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 33,
+          "sentence_text": "It is not what I try to do daily, but 4 times a week, I try to eat eat eat eat.",
+          "word": "eat",
+          "lemma": "eat",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 33,
+          "sentence_text": "It is not what I try to do daily, but 4 times a week, I try to eat eat eat eat.",
+          "word": "eat",
+          "lemma": "eat",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 33,
+          "sentence_text": "It is not what I try to do daily, but 4 times a week, I try to eat eat eat eat.",
+          "word": "eat",
+          "lemma": "eat",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 33,
+          "sentence_text": "It is not what I try to do daily, but 4 times a week, I try to eat eat eat eat.",
+          "word": "eat",
+          "lemma": "eat",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        }
+      ],
+      "richness": {
+        "score": 33,
+        "label": "Basic",
+        "color": "#ea580c",
+        "level_score": 0.1049,
+        "variety_score": 0.6667,
+        "avg_level": 1.5244,
+        "avg_level_str": "A2",
+        "distinct_levels": [
+          "A1",
+          "A2",
+          "B1",
+          "B2"
+        ],
+        "level_distribution": {
+          "A1": 59,
+          "B1": 8,
+          "B2": 6,
+          "A2": 9
+        },
+        "n_matched": 82
+      }
+    },
+    {
+      "paragraph_id": 5,
+      "label": "Healthy eating habits, preferences, and daily plans",
+      "sentence_count": 38,
+      "word_start_id": 845,
+      "word_end_id": 1052,
+      "stats": {
+        "total_words": 214,
+        "content_words": 83,
+        "matched_words": 83,
+        "unique_types": 42,
+        "ttr": 0.3879,
+        "lexical_density": 0.3879
+      },
+      "matches": [
+        {
+          "sentence_index": 1,
+          "sentence_text": "4 times a week.",
+          "word": "times",
+          "lemma": "time",
+          "pos": "NOUN",
+          "cefr_level": "B2",
+          "cefr_numeric": 4
+        },
+        {
+          "sentence_index": 1,
+          "sentence_text": "4 times a week.",
+          "word": "week",
+          "lemma": "week",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 2,
+          "sentence_text": "4 times a week.",
+          "word": "times",
+          "lemma": "time",
+          "pos": "NOUN",
+          "cefr_level": "B2",
+          "cefr_numeric": 4
+        },
+        {
+          "sentence_index": 2,
+          "sentence_text": "4 times a week.",
+          "word": "week",
+          "lemma": "week",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 4,
+          "sentence_text": "4 times a week.",
+          "word": "times",
+          "lemma": "time",
+          "pos": "NOUN",
+          "cefr_level": "B2",
+          "cefr_numeric": 4
+        },
+        {
+          "sentence_index": 4,
+          "sentence_text": "4 times a week.",
+          "word": "week",
+          "lemma": "week",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 5,
+          "sentence_text": "I like changing my diet.",
+          "word": "like",
+          "lemma": "like",
+          "pos": "VERB",
+          "cefr_level": "B1",
+          "cefr_numeric": 3
+        },
+        {
+          "sentence_index": 5,
+          "sentence_text": "I like changing my diet.",
+          "word": "changing",
+          "lemma": "change",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 5,
+          "sentence_text": "I like changing my diet.",
+          "word": "diet",
+          "lemma": "diet",
+          "pos": "NOUN",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 6,
+          "sentence_text": "I like changing what I eat, so I don't I don't imagine eating daily only x, for example.",
+          "word": "like",
+          "lemma": "like",
+          "pos": "VERB",
+          "cefr_level": "B1",
+          "cefr_numeric": 3
+        },
+        {
+          "sentence_index": 6,
+          "sentence_text": "I like changing what I eat, so I don't I don't imagine eating daily only x, for example.",
+          "word": "changing",
+          "lemma": "change",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 6,
+          "sentence_text": "I like changing what I eat, so I don't I don't imagine eating daily only x, for example.",
+          "word": "eat",
+          "lemma": "eat",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 6,
+          "sentence_text": "I like changing what I eat, so I don't I don't imagine eating daily only x, for example.",
+          "word": "so",
+          "lemma": "so",
+          "pos": "ADV",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 6,
+          "sentence_text": "I like changing what I eat, so I don't I don't imagine eating daily only x, for example.",
+          "word": "imagine",
+          "lemma": "imagine",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 6,
+          "sentence_text": "I like changing what I eat, so I don't I don't imagine eating daily only x, for example.",
+          "word": "eating",
+          "lemma": "eat",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 6,
+          "sentence_text": "I like changing what I eat, so I don't I don't imagine eating daily only x, for example.",
+          "word": "daily",
+          "lemma": "daily",
+          "pos": "ADJ",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 6,
+          "sentence_text": "I like changing what I eat, so I don't I don't imagine eating daily only x, for example.",
+          "word": "only",
+          "lemma": "only",
+          "pos": "ADV",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 6,
+          "sentence_text": "I like changing what I eat, so I don't I don't imagine eating daily only x, for example.",
+          "word": "example",
+          "lemma": "example",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 9,
+          "sentence_text": "I think I understood.",
+          "word": "think",
+          "lemma": "think",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 9,
+          "sentence_text": "I think I understood.",
+          "word": "understood",
+          "lemma": "understand",
+          "pos": "VERB",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 10,
+          "sentence_text": "We will see, but but I think I understood.",
+          "word": "see",
+          "lemma": "see",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 10,
+          "sentence_text": "We will see, but but I think I understood.",
+          "word": "think",
+          "lemma": "think",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 10,
+          "sentence_text": "We will see, but but I think I understood.",
+          "word": "understood",
+          "lemma": "understand",
+          "pos": "VERB",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 11,
+          "sentence_text": "1 moment because okay.",
+          "word": "moment",
+          "lemma": "moment",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 12,
+          "sentence_text": "Oh, okay.",
+          "word": "okay",
+          "lemma": "okay",
+          "pos": "ADJ",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 14,
+          "sentence_text": "No. Could you repeat?",
+          "word": "repeat",
+          "lemma": "repeat",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 15,
+          "sentence_text": "Because I didn't understand because I I didn't have the good.",
+          "word": "understand",
+          "lemma": "understand",
+          "pos": "VERB",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 15,
+          "sentence_text": "Because I didn't understand because I I didn't have the good.",
+          "word": "have",
+          "lemma": "have",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 15,
+          "sentence_text": "Because I didn't understand because I I didn't have the good.",
+          "word": "good",
+          "lemma": "good",
+          "pos": "NOUN",
+          "cefr_level": "B2",
+          "cefr_numeric": 4
+        },
+        {
+          "sentence_index": 20,
+          "sentence_text": "I understand.",
+          "word": "understand",
+          "lemma": "understand",
+          "pos": "VERB",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 21,
+          "sentence_text": "So my so my name is Damian.",
+          "word": "So",
+          "lemma": "so",
+          "pos": "ADV",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 21,
+          "sentence_text": "So my so my name is Damian.",
+          "word": "so",
+          "lemma": "so",
+          "pos": "ADV",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 21,
+          "sentence_text": "So my so my name is Damian.",
+          "word": "name",
+          "lemma": "name",
+          "pos": "NOUN",
+          "cefr_level": "B1",
+          "cefr_numeric": 3
+        },
+        {
+          "sentence_index": 22,
+          "sentence_text": "Not my name is Damian.",
+          "word": "name",
+          "lemma": "name",
+          "pos": "NOUN",
+          "cefr_level": "B1",
+          "cefr_numeric": 3
+        },
+        {
+          "sentence_index": 24,
+          "sentence_text": "My name is okay.",
+          "word": "name",
+          "lemma": "name",
+          "pos": "NOUN",
+          "cefr_level": "B1",
+          "cefr_numeric": 3
+        },
+        {
+          "sentence_index": 24,
+          "sentence_text": "My name is okay.",
+          "word": "okay",
+          "lemma": "okay",
+          "pos": "ADJ",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 25,
+          "sentence_text": "My name is my name is Damian.",
+          "word": "name",
+          "lemma": "name",
+          "pos": "NOUN",
+          "cefr_level": "B1",
+          "cefr_numeric": 3
+        },
+        {
+          "sentence_index": 25,
+          "sentence_text": "My name is my name is Damian.",
+          "word": "name",
+          "lemma": "name",
+          "pos": "NOUN",
+          "cefr_level": "B1",
+          "cefr_numeric": 3
+        },
+        {
+          "sentence_index": 27,
+          "sentence_text": "I prefer coffee.",
+          "word": "prefer",
+          "lemma": "prefer",
+          "pos": "VERB",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 27,
+          "sentence_text": "I prefer coffee.",
+          "word": "coffee",
+          "lemma": "coffee",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 28,
+          "sentence_text": "I like the most coffee.",
+          "word": "like",
+          "lemma": "like",
+          "pos": "VERB",
+          "cefr_level": "B1",
+          "cefr_numeric": 3
+        },
+        {
+          "sentence_index": 28,
+          "sentence_text": "I like the most coffee.",
+          "word": "most",
+          "lemma": "most",
+          "pos": "ADJ",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 28,
+          "sentence_text": "I like the most coffee.",
+          "word": "coffee",
+          "lemma": "coffee",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 29,
+          "sentence_text": "I like I like coffee the most of of drinks.",
+          "word": "like",
+          "lemma": "like",
+          "pos": "VERB",
+          "cefr_level": "B1",
+          "cefr_numeric": 3
+        },
+        {
+          "sentence_index": 29,
+          "sentence_text": "I like I like coffee the most of of drinks.",
+          "word": "like",
+          "lemma": "like",
+          "pos": "VERB",
+          "cefr_level": "B1",
+          "cefr_numeric": 3
+        },
+        {
+          "sentence_index": 29,
+          "sentence_text": "I like I like coffee the most of of drinks.",
+          "word": "coffee",
+          "lemma": "coffee",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 29,
+          "sentence_text": "I like I like coffee the most of of drinks.",
+          "word": "most",
+          "lemma": "most",
+          "pos": "ADJ",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 29,
+          "sentence_text": "I like I like coffee the most of of drinks.",
+          "word": "drinks",
+          "lemma": "drink",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 31,
+          "sentence_text": "So so for the rest of the day, I will have many plans.",
+          "word": "So",
+          "lemma": "so",
+          "pos": "ADV",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 31,
+          "sentence_text": "So so for the rest of the day, I will have many plans.",
+          "word": "so",
+          "lemma": "so",
+          "pos": "ADV",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 31,
+          "sentence_text": "So so for the rest of the day, I will have many plans.",
+          "word": "rest",
+          "lemma": "rest",
+          "pos": "NOUN",
+          "cefr_level": "B1",
+          "cefr_numeric": 3
+        },
+        {
+          "sentence_index": 31,
+          "sentence_text": "So so for the rest of the day, I will have many plans.",
+          "word": "day",
+          "lemma": "day",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 31,
+          "sentence_text": "So so for the rest of the day, I will have many plans.",
+          "word": "have",
+          "lemma": "have",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 31,
+          "sentence_text": "So so for the rest of the day, I will have many plans.",
+          "word": "many",
+          "lemma": "many",
+          "pos": "ADJ",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 31,
+          "sentence_text": "So so for the rest of the day, I will have many plans.",
+          "word": "plans",
+          "lemma": "plan",
+          "pos": "NOUN",
+          "cefr_level": "B1",
+          "cefr_numeric": 3
+        },
+        {
+          "sentence_index": 32,
+          "sentence_text": "First of all, I will plan to go outside to to buy something in the shop in the shop, and then I will rest.",
+          "word": "First",
+          "lemma": "first",
+          "pos": "ADV",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 32,
+          "sentence_text": "First of all, I will plan to go outside to to buy something in the shop in the shop, and then I will rest.",
+          "word": "plan",
+          "lemma": "plan",
+          "pos": "VERB",
+          "cefr_level": "B1",
+          "cefr_numeric": 3
+        },
+        {
+          "sentence_index": 32,
+          "sentence_text": "First of all, I will plan to go outside to to buy something in the shop in the shop, and then I will rest.",
+          "word": "go",
+          "lemma": "go",
+          "pos": "VERB",
+          "cefr_level": "B1",
+          "cefr_numeric": 3
+        },
+        {
+          "sentence_index": 32,
+          "sentence_text": "First of all, I will plan to go outside to to buy something in the shop in the shop, and then I will rest.",
+          "word": "outside",
+          "lemma": "outside",
+          "pos": "ADV",
+          "cefr_level": "B2",
+          "cefr_numeric": 4
+        },
+        {
+          "sentence_index": 32,
+          "sentence_text": "First of all, I will plan to go outside to to buy something in the shop in the shop, and then I will rest.",
+          "word": "buy",
+          "lemma": "buy",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 32,
+          "sentence_text": "First of all, I will plan to go outside to to buy something in the shop in the shop, and then I will rest.",
+          "word": "shop",
+          "lemma": "shop",
+          "pos": "NOUN",
+          "cefr_level": "B1",
+          "cefr_numeric": 3
+        },
+        {
+          "sentence_index": 32,
+          "sentence_text": "First of all, I will plan to go outside to to buy something in the shop in the shop, and then I will rest.",
+          "word": "shop",
+          "lemma": "shop",
+          "pos": "NOUN",
+          "cefr_level": "B1",
+          "cefr_numeric": 3
+        },
+        {
+          "sentence_index": 32,
+          "sentence_text": "First of all, I will plan to go outside to to buy something in the shop in the shop, and then I will rest.",
+          "word": "then",
+          "lemma": "then",
+          "pos": "ADV",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 32,
+          "sentence_text": "First of all, I will plan to go outside to to buy something in the shop in the shop, and then I will rest.",
+          "word": "rest",
+          "lemma": "rest",
+          "pos": "VERB",
+          "cefr_level": "B1",
+          "cefr_numeric": 3
+        },
+        {
+          "sentence_index": 33,
+          "sentence_text": "I will rest because I need rest because I've worked.",
+          "word": "rest",
+          "lemma": "rest",
+          "pos": "VERB",
+          "cefr_level": "B1",
+          "cefr_numeric": 3
+        },
+        {
+          "sentence_index": 33,
+          "sentence_text": "I will rest because I need rest because I've worked.",
+          "word": "need",
+          "lemma": "need",
+          "pos": "VERB",
+          "cefr_level": "B2",
+          "cefr_numeric": 4
+        },
+        {
+          "sentence_index": 33,
+          "sentence_text": "I will rest because I need rest because I've worked.",
+          "word": "rest",
+          "lemma": "rest",
+          "pos": "NOUN",
+          "cefr_level": "B1",
+          "cefr_numeric": 3
+        },
+        {
+          "sentence_index": 33,
+          "sentence_text": "I will rest because I need rest because I've worked.",
+          "word": "worked",
+          "lemma": "work",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 34,
+          "sentence_text": "I worked a lot, and I need rest.",
+          "word": "worked",
+          "lemma": "work",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 34,
+          "sentence_text": "I worked a lot, and I need rest.",
+          "word": "lot",
+          "lemma": "lot",
+          "pos": "NOUN",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 34,
+          "sentence_text": "I worked a lot, and I need rest.",
+          "word": "need",
+          "lemma": "need",
+          "pos": "VERB",
+          "cefr_level": "B2",
+          "cefr_numeric": 4
+        },
+        {
+          "sentence_index": 34,
+          "sentence_text": "I worked a lot, and I need rest.",
+          "word": "rest",
+          "lemma": "rest",
+          "pos": "NOUN",
+          "cefr_level": "B1",
+          "cefr_numeric": 3
+        },
+        {
+          "sentence_index": 35,
+          "sentence_text": "I prefer to walk during the day because I like walking when there are many people when when I pre I prefer do it when it's bright.",
+          "word": "prefer",
+          "lemma": "prefer",
+          "pos": "VERB",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 35,
+          "sentence_text": "I prefer to walk during the day because I like walking when there are many people when when I pre I prefer do it when it's bright.",
+          "word": "walk",
+          "lemma": "walk",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 35,
+          "sentence_text": "I prefer to walk during the day because I like walking when there are many people when when I pre I prefer do it when it's bright.",
+          "word": "day",
+          "lemma": "day",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 35,
+          "sentence_text": "I prefer to walk during the day because I like walking when there are many people when when I pre I prefer do it when it's bright.",
+          "word": "walking",
+          "lemma": "walk",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 35,
+          "sentence_text": "I prefer to walk during the day because I like walking when there are many people when when I pre I prefer do it when it's bright.",
+          "word": "are",
+          "lemma": "be",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 35,
+          "sentence_text": "I prefer to walk during the day because I like walking when there are many people when when I pre I prefer do it when it's bright.",
+          "word": "many",
+          "lemma": "many",
+          "pos": "ADJ",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 35,
+          "sentence_text": "I prefer to walk during the day because I like walking when there are many people when when I pre I prefer do it when it's bright.",
+          "word": "people",
+          "lemma": "people",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 35,
+          "sentence_text": "I prefer to walk during the day because I like walking when there are many people when when I pre I prefer do it when it's bright.",
+          "word": "prefer",
+          "lemma": "prefer",
+          "pos": "VERB",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 35,
+          "sentence_text": "I prefer to walk during the day because I like walking when there are many people when when I pre I prefer do it when it's bright.",
+          "word": "do",
+          "lemma": "do",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 35,
+          "sentence_text": "I prefer to walk during the day because I like walking when there are many people when when I pre I prefer do it when it's bright.",
+          "word": "bright",
+          "lemma": "bright",
+          "pos": "ADJ",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 37,
+          "sentence_text": "Bright?",
+          "word": "Bright",
+          "lemma": "bright",
+          "pos": "ADJ",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        }
+      ],
+      "richness": {
+        "score": 38,
+        "label": "Basic",
+        "color": "#ea580c",
+        "level_score": 0.188,
+        "variety_score": 0.6667,
+        "avg_level": 1.9398,
+        "avg_level_str": "A2",
+        "distinct_levels": [
+          "A1",
+          "A2",
+          "B1",
+          "B2"
+        ],
+        "level_distribution": {
+          "B2": 7,
+          "A1": 39,
+          "B1": 20,
+          "A2": 17
+        },
+        "n_matched": 83
+      }
+    },
+    {
+      "paragraph_id": 6,
+      "label": "Daily plans, preferences, and asking teacher questions",
+      "sentence_count": 69,
+      "word_start_id": 1053,
+      "word_end_id": 1254,
+      "stats": {
+        "total_words": 208,
+        "content_words": 65,
+        "matched_words": 65,
+        "unique_types": 28,
+        "ttr": 0.3221,
+        "lexical_density": 0.3125
+      },
+      "matches": [
+        {
+          "sentence_index": 1,
+          "sentence_text": "don't know.",
+          "word": "know",
+          "lemma": "know",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 4,
+          "sentence_text": "So do you like do you like teaching teaching?",
+          "word": "So",
+          "lemma": "so",
+          "pos": "ADV",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 4,
+          "sentence_text": "So do you like do you like teaching teaching?",
+          "word": "like",
+          "lemma": "like",
+          "pos": "VERB",
+          "cefr_level": "B1",
+          "cefr_numeric": 3
+        },
+        {
+          "sentence_index": 4,
+          "sentence_text": "So do you like do you like teaching teaching?",
+          "word": "teaching",
+          "lemma": "teach",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 4,
+          "sentence_text": "So do you like do you like teaching teaching?",
+          "word": "teaching",
+          "lemma": "teach",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 8,
+          "sentence_text": "Do you like do you like teaching languages?",
+          "word": "like",
+          "lemma": "like",
+          "pos": "VERB",
+          "cefr_level": "B1",
+          "cefr_numeric": 3
+        },
+        {
+          "sentence_index": 8,
+          "sentence_text": "Do you like do you like teaching languages?",
+          "word": "teaching",
+          "lemma": "teach",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 8,
+          "sentence_text": "Do you like do you like teaching languages?",
+          "word": "languages",
+          "lemma": "language",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 13,
+          "sentence_text": "I understand.",
+          "word": "understand",
+          "lemma": "understand",
+          "pos": "VERB",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 14,
+          "sentence_text": "Do you know what do you know about languages?",
+          "word": "know",
+          "lemma": "know",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 14,
+          "sentence_text": "Do you know what do you know about languages?",
+          "word": "know",
+          "lemma": "know",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 14,
+          "sentence_text": "Do you know what do you know about languages?",
+          "word": "languages",
+          "lemma": "language",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 18,
+          "sentence_text": "What languages do you know?",
+          "word": "languages",
+          "lemma": "language",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 18,
+          "sentence_text": "What languages do you know?",
+          "word": "know",
+          "lemma": "know",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 22,
+          "sentence_text": "Oh, okay.",
+          "word": "okay",
+          "lemma": "okay",
+          "pos": "ADJ",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 23,
+          "sentence_text": "Much?",
+          "word": "Much",
+          "lemma": "much",
+          "pos": "ADJ",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 25,
+          "sentence_text": "How much lang how how much languages do you want?",
+          "word": "much",
+          "lemma": "much",
+          "pos": "ADJ",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 25,
+          "sentence_text": "How much lang how how much languages do you want?",
+          "word": "much",
+          "lemma": "much",
+          "pos": "ADJ",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 25,
+          "sentence_text": "How much lang how how much languages do you want?",
+          "word": "languages",
+          "lemma": "language",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 25,
+          "sentence_text": "How much lang how how much languages do you want?",
+          "word": "want",
+          "lemma": "want",
+          "pos": "VERB",
+          "cefr_level": "B2",
+          "cefr_numeric": 4
+        },
+        {
+          "sentence_index": 26,
+          "sentence_text": "How many?",
+          "word": "many",
+          "lemma": "many",
+          "pos": "ADJ",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 27,
+          "sentence_text": "How many?",
+          "word": "many",
+          "lemma": "many",
+          "pos": "ADJ",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 28,
+          "sentence_text": "How many?",
+          "word": "many",
+          "lemma": "many",
+          "pos": "ADJ",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 30,
+          "sentence_text": "How many?",
+          "word": "many",
+          "lemma": "many",
+          "pos": "ADJ",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 37,
+          "sentence_text": "As if it were your native languages.",
+          "word": "native",
+          "lemma": "native",
+          "pos": "ADJ",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 37,
+          "sentence_text": "As if it were your native languages.",
+          "word": "languages",
+          "lemma": "language",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 38,
+          "sentence_text": "Oh, it's your native languages.",
+          "word": "native",
+          "lemma": "native",
+          "pos": "ADJ",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 38,
+          "sentence_text": "Oh, it's your native languages.",
+          "word": "languages",
+          "lemma": "language",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 41,
+          "sentence_text": "I understand.",
+          "word": "understand",
+          "lemma": "understand",
+          "pos": "VERB",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 43,
+          "sentence_text": "Do you like do you like watching football, or do you like any other sports?",
+          "word": "like",
+          "lemma": "like",
+          "pos": "VERB",
+          "cefr_level": "B1",
+          "cefr_numeric": 3
+        },
+        {
+          "sentence_index": 43,
+          "sentence_text": "Do you like do you like watching football, or do you like any other sports?",
+          "word": "watching",
+          "lemma": "watch",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 43,
+          "sentence_text": "Do you like do you like watching football, or do you like any other sports?",
+          "word": "football",
+          "lemma": "football",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 43,
+          "sentence_text": "Do you like do you like watching football, or do you like any other sports?",
+          "word": "like",
+          "lemma": "like",
+          "pos": "VERB",
+          "cefr_level": "B1",
+          "cefr_numeric": 3
+        },
+        {
+          "sentence_index": 43,
+          "sentence_text": "Do you like do you like watching football, or do you like any other sports?",
+          "word": "other",
+          "lemma": "other",
+          "pos": "ADJ",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 43,
+          "sentence_text": "Do you like do you like watching football, or do you like any other sports?",
+          "word": "sports",
+          "lemma": "sport",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 47,
+          "sentence_text": "I understood.",
+          "word": "understood",
+          "lemma": "understand",
+          "pos": "VERB",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 48,
+          "sentence_text": "I understood.",
+          "word": "understood",
+          "lemma": "understand",
+          "pos": "VERB",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 50,
+          "sentence_text": "So more more gaming, more playing on computer, let's say, than than than than than watching.",
+          "word": "So",
+          "lemma": "so",
+          "pos": "ADV",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 50,
+          "sentence_text": "So more more gaming, more playing on computer, let's say, than than than than than watching.",
+          "word": "more",
+          "lemma": "more",
+          "pos": "ADV",
+          "cefr_level": "B1",
+          "cefr_numeric": 3
+        },
+        {
+          "sentence_index": 50,
+          "sentence_text": "So more more gaming, more playing on computer, let's say, than than than than than watching.",
+          "word": "more",
+          "lemma": "more",
+          "pos": "ADJ",
+          "cefr_level": "B1",
+          "cefr_numeric": 3
+        },
+        {
+          "sentence_index": 50,
+          "sentence_text": "So more more gaming, more playing on computer, let's say, than than than than than watching.",
+          "word": "more",
+          "lemma": "more",
+          "pos": "ADJ",
+          "cefr_level": "B1",
+          "cefr_numeric": 3
+        },
+        {
+          "sentence_index": 50,
+          "sentence_text": "So more more gaming, more playing on computer, let's say, than than than than than watching.",
+          "word": "computer",
+          "lemma": "computer",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 50,
+          "sentence_text": "So more more gaming, more playing on computer, let's say, than than than than than watching.",
+          "word": "say",
+          "lemma": "say",
+          "pos": "VERB",
+          "cefr_level": "B2",
+          "cefr_numeric": 4
+        },
+        {
+          "sentence_index": 50,
+          "sentence_text": "So more more gaming, more playing on computer, let's say, than than than than than watching.",
+          "word": "watching",
+          "lemma": "watch",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 52,
+          "sentence_text": "Than watching.",
+          "word": "watching",
+          "lemma": "watch",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 58,
+          "sentence_text": "And I have to repeat.",
+          "word": "have",
+          "lemma": "have",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 58,
+          "sentence_text": "And I have to repeat.",
+          "word": "repeat",
+          "lemma": "repeat",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 60,
+          "sentence_text": "I have to repeat.",
+          "word": "have",
+          "lemma": "have",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 60,
+          "sentence_text": "I have to repeat.",
+          "word": "repeat",
+          "lemma": "repeat",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 63,
+          "sentence_text": "So what what do you eat today?",
+          "word": "So",
+          "lemma": "so",
+          "pos": "ADV",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 63,
+          "sentence_text": "So what what do you eat today?",
+          "word": "eat",
+          "lemma": "eat",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 63,
+          "sentence_text": "So what what do you eat today?",
+          "word": "today",
+          "lemma": "today",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 65,
+          "sentence_text": "I ate eggs and drank coffee.",
+          "word": "ate",
+          "lemma": "eat",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 65,
+          "sentence_text": "I ate eggs and drank coffee.",
+          "word": "eggs",
+          "lemma": "egg",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 65,
+          "sentence_text": "I ate eggs and drank coffee.",
+          "word": "coffee",
+          "lemma": "coffee",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 66,
+          "sentence_text": "I didn't eat I ate only eggs, so I didn't eat anymore.",
+          "word": "eat",
+          "lemma": "eat",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 66,
+          "sentence_text": "I didn't eat I ate only eggs, so I didn't eat anymore.",
+          "word": "ate",
+          "lemma": "eat",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 66,
+          "sentence_text": "I didn't eat I ate only eggs, so I didn't eat anymore.",
+          "word": "only",
+          "lemma": "only",
+          "pos": "ADV",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 66,
+          "sentence_text": "I didn't eat I ate only eggs, so I didn't eat anymore.",
+          "word": "eggs",
+          "lemma": "egg",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 66,
+          "sentence_text": "I didn't eat I ate only eggs, so I didn't eat anymore.",
+          "word": "eat",
+          "lemma": "eat",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 66,
+          "sentence_text": "I didn't eat I ate only eggs, so I didn't eat anymore.",
+          "word": "anymore",
+          "lemma": "anymore",
+          "pos": "ADV",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 68,
+          "sentence_text": "So we'll see what I will remember.",
+          "word": "So",
+          "lemma": "so",
+          "pos": "ADV",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 68,
+          "sentence_text": "So we'll see what I will remember.",
+          "word": "see",
+          "lemma": "see",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 68,
+          "sentence_text": "So we'll see what I will remember.",
+          "word": "remember",
+          "lemma": "remember",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 69,
+          "sentence_text": "But we I know.",
+          "word": "know",
+          "lemma": "know",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        }
+      ],
+      "richness": {
+        "score": 33,
+        "label": "Basic",
+        "color": "#ea580c",
+        "level_score": 0.0985,
+        "variety_score": 0.6667,
+        "avg_level": 1.4923,
+        "avg_level_str": "A1",
+        "distinct_levels": [
+          "A1",
+          "A2",
+          "B1",
+          "B2"
+        ],
+        "level_distribution": {
+          "A1": 44,
+          "A2": 12,
+          "B1": 7,
+          "B2": 2
+        },
+        "n_matched": 65
+      }
+    },
+    {
+      "paragraph_id": 9,
+      "label": "Reflecting on class, learning progress, and future goals",
+      "sentence_count": 38,
+      "word_start_id": 1659,
+      "word_end_id": 1889,
+      "stats": {
+        "total_words": 241,
+        "content_words": 88,
+        "matched_words": 88,
+        "unique_types": 37,
+        "ttr": 0.3112,
+        "lexical_density": 0.3651
+      },
+      "matches": [
+        {
+          "sentence_index": 3,
+          "sentence_text": "I okay.",
+          "word": "okay",
+          "lemma": "okay",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 4,
+          "sentence_text": "So I think I've learned about breakfast about breakfast, about what what I ate, what I could could tell you, and I like it because I think it's important to to keep speaking, to keep to keep having vocabulary a vocab the the new vocabulary.",
+          "word": "So",
+          "lemma": "so",
+          "pos": "ADV",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 4,
+          "sentence_text": "So I think I've learned about breakfast about breakfast, about what what I ate, what I could could tell you, and I like it because I think it's important to to keep speaking, to keep to keep having vocabulary a vocab the the new vocabulary.",
+          "word": "think",
+          "lemma": "think",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 4,
+          "sentence_text": "So I think I've learned about breakfast about breakfast, about what what I ate, what I could could tell you, and I like it because I think it's important to to keep speaking, to keep to keep having vocabulary a vocab the the new vocabulary.",
+          "word": "learned",
+          "lemma": "learn",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 4,
+          "sentence_text": "So I think I've learned about breakfast about breakfast, about what what I ate, what I could could tell you, and I like it because I think it's important to to keep speaking, to keep to keep having vocabulary a vocab the the new vocabulary.",
+          "word": "breakfast",
+          "lemma": "breakfast",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 4,
+          "sentence_text": "So I think I've learned about breakfast about breakfast, about what what I ate, what I could could tell you, and I like it because I think it's important to to keep speaking, to keep to keep having vocabulary a vocab the the new vocabulary.",
+          "word": "breakfast",
+          "lemma": "breakfast",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 4,
+          "sentence_text": "So I think I've learned about breakfast about breakfast, about what what I ate, what I could could tell you, and I like it because I think it's important to to keep speaking, to keep to keep having vocabulary a vocab the the new vocabulary.",
+          "word": "ate",
+          "lemma": "eat",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 4,
+          "sentence_text": "So I think I've learned about breakfast about breakfast, about what what I ate, what I could could tell you, and I like it because I think it's important to to keep speaking, to keep to keep having vocabulary a vocab the the new vocabulary.",
+          "word": "tell",
+          "lemma": "tell",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 4,
+          "sentence_text": "So I think I've learned about breakfast about breakfast, about what what I ate, what I could could tell you, and I like it because I think it's important to to keep speaking, to keep to keep having vocabulary a vocab the the new vocabulary.",
+          "word": "like",
+          "lemma": "like",
+          "pos": "VERB",
+          "cefr_level": "B1",
+          "cefr_numeric": 3
+        },
+        {
+          "sentence_index": 4,
+          "sentence_text": "So I think I've learned about breakfast about breakfast, about what what I ate, what I could could tell you, and I like it because I think it's important to to keep speaking, to keep to keep having vocabulary a vocab the the new vocabulary.",
+          "word": "think",
+          "lemma": "think",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 4,
+          "sentence_text": "So I think I've learned about breakfast about breakfast, about what what I ate, what I could could tell you, and I like it because I think it's important to to keep speaking, to keep to keep having vocabulary a vocab the the new vocabulary.",
+          "word": "important",
+          "lemma": "important",
+          "pos": "ADJ",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 4,
+          "sentence_text": "So I think I've learned about breakfast about breakfast, about what what I ate, what I could could tell you, and I like it because I think it's important to to keep speaking, to keep to keep having vocabulary a vocab the the new vocabulary.",
+          "word": "keep",
+          "lemma": "keep",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 4,
+          "sentence_text": "So I think I've learned about breakfast about breakfast, about what what I ate, what I could could tell you, and I like it because I think it's important to to keep speaking, to keep to keep having vocabulary a vocab the the new vocabulary.",
+          "word": "speaking",
+          "lemma": "speak",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 4,
+          "sentence_text": "So I think I've learned about breakfast about breakfast, about what what I ate, what I could could tell you, and I like it because I think it's important to to keep speaking, to keep to keep having vocabulary a vocab the the new vocabulary.",
+          "word": "keep",
+          "lemma": "keep",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 4,
+          "sentence_text": "So I think I've learned about breakfast about breakfast, about what what I ate, what I could could tell you, and I like it because I think it's important to to keep speaking, to keep to keep having vocabulary a vocab the the new vocabulary.",
+          "word": "keep",
+          "lemma": "keep",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 4,
+          "sentence_text": "So I think I've learned about breakfast about breakfast, about what what I ate, what I could could tell you, and I like it because I think it's important to to keep speaking, to keep to keep having vocabulary a vocab the the new vocabulary.",
+          "word": "having",
+          "lemma": "have",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 4,
+          "sentence_text": "So I think I've learned about breakfast about breakfast, about what what I ate, what I could could tell you, and I like it because I think it's important to to keep speaking, to keep to keep having vocabulary a vocab the the new vocabulary.",
+          "word": "vocabulary",
+          "lemma": "vocabulary",
+          "pos": "NOUN",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 4,
+          "sentence_text": "So I think I've learned about breakfast about breakfast, about what what I ate, what I could could tell you, and I like it because I think it's important to to keep speaking, to keep to keep having vocabulary a vocab the the new vocabulary.",
+          "word": "new",
+          "lemma": "new",
+          "pos": "ADJ",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 4,
+          "sentence_text": "So I think I've learned about breakfast about breakfast, about what what I ate, what I could could tell you, and I like it because I think it's important to to keep speaking, to keep to keep having vocabulary a vocab the the new vocabulary.",
+          "word": "vocabulary",
+          "lemma": "vocabulary",
+          "pos": "NOUN",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 5,
+          "sentence_text": "So so I like it, and I feel good.",
+          "word": "So",
+          "lemma": "so",
+          "pos": "ADV",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 5,
+          "sentence_text": "So so I like it, and I feel good.",
+          "word": "so",
+          "lemma": "so",
+          "pos": "ADV",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 5,
+          "sentence_text": "So so I like it, and I feel good.",
+          "word": "like",
+          "lemma": "like",
+          "pos": "VERB",
+          "cefr_level": "B1",
+          "cefr_numeric": 3
+        },
+        {
+          "sentence_index": 5,
+          "sentence_text": "So so I like it, and I feel good.",
+          "word": "feel",
+          "lemma": "feel",
+          "pos": "VERB",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 5,
+          "sentence_text": "So so I like it, and I feel good.",
+          "word": "good",
+          "lemma": "good",
+          "pos": "ADJ",
+          "cefr_level": "B2",
+          "cefr_numeric": 4
+        },
+        {
+          "sentence_index": 16,
+          "sentence_text": "So so I liked I liked our class.",
+          "word": "So",
+          "lemma": "so",
+          "pos": "ADV",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 16,
+          "sentence_text": "So so I liked I liked our class.",
+          "word": "so",
+          "lemma": "so",
+          "pos": "ADV",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 16,
+          "sentence_text": "So so I liked I liked our class.",
+          "word": "liked",
+          "lemma": "like",
+          "pos": "VERB",
+          "cefr_level": "B1",
+          "cefr_numeric": 3
+        },
+        {
+          "sentence_index": 16,
+          "sentence_text": "So so I liked I liked our class.",
+          "word": "liked",
+          "lemma": "like",
+          "pos": "VERB",
+          "cefr_level": "B1",
+          "cefr_numeric": 3
+        },
+        {
+          "sentence_index": 16,
+          "sentence_text": "So so I liked I liked our class.",
+          "word": "class",
+          "lemma": "class",
+          "pos": "NOUN",
+          "cefr_level": "C1",
+          "cefr_numeric": 5
+        },
+        {
+          "sentence_index": 17,
+          "sentence_text": "I liked that we we were able to communicate.",
+          "word": "liked",
+          "lemma": "like",
+          "pos": "VERB",
+          "cefr_level": "B1",
+          "cefr_numeric": 3
+        },
+        {
+          "sentence_index": 17,
+          "sentence_text": "I liked that we we were able to communicate.",
+          "word": "able",
+          "lemma": "able",
+          "pos": "ADJ",
+          "cefr_level": "B1",
+          "cefr_numeric": 3
+        },
+        {
+          "sentence_index": 17,
+          "sentence_text": "I liked that we we were able to communicate.",
+          "word": "communicate",
+          "lemma": "communicate",
+          "pos": "VERB",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 18,
+          "sentence_text": "So I hope we will communicate ourselves ourselves in future.",
+          "word": "So",
+          "lemma": "so",
+          "pos": "ADV",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 18,
+          "sentence_text": "So I hope we will communicate ourselves ourselves in future.",
+          "word": "hope",
+          "lemma": "hope",
+          "pos": "VERB",
+          "cefr_level": "B1",
+          "cefr_numeric": 3
+        },
+        {
+          "sentence_index": 18,
+          "sentence_text": "So I hope we will communicate ourselves ourselves in future.",
+          "word": "communicate",
+          "lemma": "communicate",
+          "pos": "VERB",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 18,
+          "sentence_text": "So I hope we will communicate ourselves ourselves in future.",
+          "word": "future",
+          "lemma": "future",
+          "pos": "NOUN",
+          "cefr_level": "B1",
+          "cefr_numeric": 3
+        },
+        {
+          "sentence_index": 19,
+          "sentence_text": "So I hope I'm looking I will looking forward to to have to have to have a class or to have lessons to have lessons in future.",
+          "word": "So",
+          "lemma": "so",
+          "pos": "ADV",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 19,
+          "sentence_text": "So I hope I'm looking I will looking forward to to have to have to have a class or to have lessons to have lessons in future.",
+          "word": "hope",
+          "lemma": "hope",
+          "pos": "VERB",
+          "cefr_level": "B1",
+          "cefr_numeric": 3
+        },
+        {
+          "sentence_index": 19,
+          "sentence_text": "So I hope I'm looking I will looking forward to to have to have to have a class or to have lessons to have lessons in future.",
+          "word": "looking",
+          "lemma": "look",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 19,
+          "sentence_text": "So I hope I'm looking I will looking forward to to have to have to have a class or to have lessons to have lessons in future.",
+          "word": "looking",
+          "lemma": "look",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 19,
+          "sentence_text": "So I hope I'm looking I will looking forward to to have to have to have a class or to have lessons to have lessons in future.",
+          "word": "forward",
+          "lemma": "forward",
+          "pos": "ADV",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 19,
+          "sentence_text": "So I hope I'm looking I will looking forward to to have to have to have a class or to have lessons to have lessons in future.",
+          "word": "have",
+          "lemma": "have",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 19,
+          "sentence_text": "So I hope I'm looking I will looking forward to to have to have to have a class or to have lessons to have lessons in future.",
+          "word": "have",
+          "lemma": "have",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 19,
+          "sentence_text": "So I hope I'm looking I will looking forward to to have to have to have a class or to have lessons to have lessons in future.",
+          "word": "have",
+          "lemma": "have",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 19,
+          "sentence_text": "So I hope I'm looking I will looking forward to to have to have to have a class or to have lessons to have lessons in future.",
+          "word": "class",
+          "lemma": "class",
+          "pos": "NOUN",
+          "cefr_level": "C1",
+          "cefr_numeric": 5
+        },
+        {
+          "sentence_index": 19,
+          "sentence_text": "So I hope I'm looking I will looking forward to to have to have to have a class or to have lessons to have lessons in future.",
+          "word": "have",
+          "lemma": "have",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 19,
+          "sentence_text": "So I hope I'm looking I will looking forward to to have to have to have a class or to have lessons to have lessons in future.",
+          "word": "lessons",
+          "lemma": "lesson",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 19,
+          "sentence_text": "So I hope I'm looking I will looking forward to to have to have to have a class or to have lessons to have lessons in future.",
+          "word": "have",
+          "lemma": "have",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 19,
+          "sentence_text": "So I hope I'm looking I will looking forward to to have to have to have a class or to have lessons to have lessons in future.",
+          "word": "lessons",
+          "lemma": "lesson",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 19,
+          "sentence_text": "So I hope I'm looking I will looking forward to to have to have to have a class or to have lessons to have lessons in future.",
+          "word": "future",
+          "lemma": "future",
+          "pos": "NOUN",
+          "cefr_level": "B1",
+          "cefr_numeric": 3
+        },
+        {
+          "sentence_index": 20,
+          "sentence_text": "So so I like it.",
+          "word": "So",
+          "lemma": "so",
+          "pos": "ADV",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 20,
+          "sentence_text": "So so I like it.",
+          "word": "so",
+          "lemma": "so",
+          "pos": "ADV",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 20,
+          "sentence_text": "So so I like it.",
+          "word": "like",
+          "lemma": "like",
+          "pos": "VERB",
+          "cefr_level": "B1",
+          "cefr_numeric": 3
+        },
+        {
+          "sentence_index": 22,
+          "sentence_text": "No problem.",
+          "word": "problem",
+          "lemma": "problem",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 23,
+          "sentence_text": "No problem.",
+          "word": "problem",
+          "lemma": "problem",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 29,
+          "sentence_text": "it don't have to be faster, but but mhmm.",
+          "word": "have",
+          "lemma": "have",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 29,
+          "sentence_text": "it don't have to be faster, but but mhmm.",
+          "word": "faster",
+          "lemma": "fast",
+          "pos": "ADV",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 33,
+          "sentence_text": "I think I've learned a lot because for me, it's important to to keep speaking, to keep keep learning.",
+          "word": "think",
+          "lemma": "think",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 33,
+          "sentence_text": "I think I've learned a lot because for me, it's important to to keep speaking, to keep keep learning.",
+          "word": "learned",
+          "lemma": "learn",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 33,
+          "sentence_text": "I think I've learned a lot because for me, it's important to to keep speaking, to keep keep learning.",
+          "word": "lot",
+          "lemma": "lot",
+          "pos": "NOUN",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 33,
+          "sentence_text": "I think I've learned a lot because for me, it's important to to keep speaking, to keep keep learning.",
+          "word": "important",
+          "lemma": "important",
+          "pos": "ADJ",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 33,
+          "sentence_text": "I think I've learned a lot because for me, it's important to to keep speaking, to keep keep learning.",
+          "word": "keep",
+          "lemma": "keep",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 33,
+          "sentence_text": "I think I've learned a lot because for me, it's important to to keep speaking, to keep keep learning.",
+          "word": "speaking",
+          "lemma": "speak",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 33,
+          "sentence_text": "I think I've learned a lot because for me, it's important to to keep speaking, to keep keep learning.",
+          "word": "keep",
+          "lemma": "keep",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 33,
+          "sentence_text": "I think I've learned a lot because for me, it's important to to keep speaking, to keep keep learning.",
+          "word": "keep",
+          "lemma": "keep",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 33,
+          "sentence_text": "I think I've learned a lot because for me, it's important to to keep speaking, to keep keep learning.",
+          "word": "learning",
+          "lemma": "learn",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 34,
+          "sentence_text": "So I liked it, and I wish I learned a lot.",
+          "word": "So",
+          "lemma": "so",
+          "pos": "ADV",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 34,
+          "sentence_text": "So I liked it, and I wish I learned a lot.",
+          "word": "liked",
+          "lemma": "like",
+          "pos": "VERB",
+          "cefr_level": "B1",
+          "cefr_numeric": 3
+        },
+        {
+          "sentence_index": 34,
+          "sentence_text": "So I liked it, and I wish I learned a lot.",
+          "word": "wish",
+          "lemma": "wish",
+          "pos": "VERB",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 34,
+          "sentence_text": "So I liked it, and I wish I learned a lot.",
+          "word": "learned",
+          "lemma": "learn",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 34,
+          "sentence_text": "So I liked it, and I wish I learned a lot.",
+          "word": "lot",
+          "lemma": "lot",
+          "pos": "NOUN",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 36,
+          "sentence_text": "And so I know",
+          "word": "so",
+          "lemma": "so",
+          "pos": "ADV",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 36,
+          "sentence_text": "And so I know",
+          "word": "know",
+          "lemma": "know",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 37,
+          "sentence_text": "and I know that now I don't I don't understand all what what you are doing, for example, but I I know that in future, it will be possible because if if we if we learning, if we're trying, it's possible to communicate better and better.",
+          "word": "know",
+          "lemma": "know",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 37,
+          "sentence_text": "and I know that now I don't I don't understand all what what you are doing, for example, but I I know that in future, it will be possible because if if we if we learning, if we're trying, it's possible to communicate better and better.",
+          "word": "now",
+          "lemma": "now",
+          "pos": "ADV",
+          "cefr_level": "B2",
+          "cefr_numeric": 4
+        },
+        {
+          "sentence_index": 37,
+          "sentence_text": "and I know that now I don't I don't understand all what what you are doing, for example, but I I know that in future, it will be possible because if if we if we learning, if we're trying, it's possible to communicate better and better.",
+          "word": "understand",
+          "lemma": "understand",
+          "pos": "VERB",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 37,
+          "sentence_text": "and I know that now I don't I don't understand all what what you are doing, for example, but I I know that in future, it will be possible because if if we if we learning, if we're trying, it's possible to communicate better and better.",
+          "word": "all",
+          "lemma": "all",
+          "pos": "ADV",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 37,
+          "sentence_text": "and I know that now I don't I don't understand all what what you are doing, for example, but I I know that in future, it will be possible because if if we if we learning, if we're trying, it's possible to communicate better and better.",
+          "word": "doing",
+          "lemma": "do",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 37,
+          "sentence_text": "and I know that now I don't I don't understand all what what you are doing, for example, but I I know that in future, it will be possible because if if we if we learning, if we're trying, it's possible to communicate better and better.",
+          "word": "example",
+          "lemma": "example",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 37,
+          "sentence_text": "and I know that now I don't I don't understand all what what you are doing, for example, but I I know that in future, it will be possible because if if we if we learning, if we're trying, it's possible to communicate better and better.",
+          "word": "know",
+          "lemma": "know",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 37,
+          "sentence_text": "and I know that now I don't I don't understand all what what you are doing, for example, but I I know that in future, it will be possible because if if we if we learning, if we're trying, it's possible to communicate better and better.",
+          "word": "future",
+          "lemma": "future",
+          "pos": "NOUN",
+          "cefr_level": "B1",
+          "cefr_numeric": 3
+        },
+        {
+          "sentence_index": 37,
+          "sentence_text": "and I know that now I don't I don't understand all what what you are doing, for example, but I I know that in future, it will be possible because if if we if we learning, if we're trying, it's possible to communicate better and better.",
+          "word": "possible",
+          "lemma": "possible",
+          "pos": "ADJ",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 37,
+          "sentence_text": "and I know that now I don't I don't understand all what what you are doing, for example, but I I know that in future, it will be possible because if if we if we learning, if we're trying, it's possible to communicate better and better.",
+          "word": "learning",
+          "lemma": "learn",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 37,
+          "sentence_text": "and I know that now I don't I don't understand all what what you are doing, for example, but I I know that in future, it will be possible because if if we if we learning, if we're trying, it's possible to communicate better and better.",
+          "word": "trying",
+          "lemma": "try",
+          "pos": "VERB",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 37,
+          "sentence_text": "and I know that now I don't I don't understand all what what you are doing, for example, but I I know that in future, it will be possible because if if we if we learning, if we're trying, it's possible to communicate better and better.",
+          "word": "possible",
+          "lemma": "possible",
+          "pos": "ADJ",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 37,
+          "sentence_text": "and I know that now I don't I don't understand all what what you are doing, for example, but I I know that in future, it will be possible because if if we if we learning, if we're trying, it's possible to communicate better and better.",
+          "word": "communicate",
+          "lemma": "communicate",
+          "pos": "VERB",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 37,
+          "sentence_text": "and I know that now I don't I don't understand all what what you are doing, for example, but I I know that in future, it will be possible because if if we if we learning, if we're trying, it's possible to communicate better and better.",
+          "word": "better",
+          "lemma": "well",
+          "pos": "ADV",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 37,
+          "sentence_text": "and I know that now I don't I don't understand all what what you are doing, for example, but I I know that in future, it will be possible because if if we if we learning, if we're trying, it's possible to communicate better and better.",
+          "word": "better",
+          "lemma": "well",
+          "pos": "ADV",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        }
+      ],
+      "richness": {
+        "score": 42,
+        "label": "Basic",
+        "color": "#ea580c",
+        "level_score": 0.15,
+        "variety_score": 0.8333,
+        "avg_level": 1.75,
+        "avg_level_str": "A2",
+        "distinct_levels": [
+          "A1",
+          "A2",
+          "B1",
+          "B2",
+          "C1"
+        ],
+        "level_distribution": {
+          "A1": 45,
+          "A2": 26,
+          "B1": 13,
+          "B2": 2,
+          "C1": 2
+        },
+        "n_matched": 88
+      }
+    },
+    {
+      "paragraph_id": 10,
+      "label": "Reflecting on learning goals and closing the class",
+      "sentence_count": 59,
+      "word_start_id": 1890,
+      "word_end_id": 2092,
+      "stats": {
+        "total_words": 212,
+        "content_words": 66,
+        "matched_words": 66,
+        "unique_types": 35,
+        "ttr": 0.3208,
+        "lexical_density": 0.3113
+      },
+      "matches": [
+        {
+          "sentence_index": 1,
+          "sentence_text": "My goal is is is communicate because, as I told you, I don't learn to to have a job.",
+          "word": "goal",
+          "lemma": "goal",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 1,
+          "sentence_text": "My goal is is is communicate because, as I told you, I don't learn to to have a job.",
+          "word": "communicate",
+          "lemma": "communicate",
+          "pos": "ADJ",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 1,
+          "sentence_text": "My goal is is is communicate because, as I told you, I don't learn to to have a job.",
+          "word": "told",
+          "lemma": "tell",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 1,
+          "sentence_text": "My goal is is is communicate because, as I told you, I don't learn to to have a job.",
+          "word": "learn",
+          "lemma": "learn",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 1,
+          "sentence_text": "My goal is is is communicate because, as I told you, I don't learn to to have a job.",
+          "word": "have",
+          "lemma": "have",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 1,
+          "sentence_text": "My goal is is is communicate because, as I told you, I don't learn to to have a job.",
+          "word": "job",
+          "lemma": "job",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 2,
+          "sentence_text": "For example, I learn for myself.",
+          "word": "example",
+          "lemma": "example",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 2,
+          "sentence_text": "For example, I learn for myself.",
+          "word": "learn",
+          "lemma": "learn",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 3,
+          "sentence_text": "So I want to communicate them.",
+          "word": "So",
+          "lemma": "so",
+          "pos": "ADV",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 3,
+          "sentence_text": "So I want to communicate them.",
+          "word": "want",
+          "lemma": "want",
+          "pos": "VERB",
+          "cefr_level": "B2",
+          "cefr_numeric": 4
+        },
+        {
+          "sentence_index": 3,
+          "sentence_text": "So I want to communicate them.",
+          "word": "communicate",
+          "lemma": "communicate",
+          "pos": "VERB",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 4,
+          "sentence_text": "I want to understand better and better, but I don't have I don't have I don't have to rush.",
+          "word": "want",
+          "lemma": "want",
+          "pos": "VERB",
+          "cefr_level": "B2",
+          "cefr_numeric": 4
+        },
+        {
+          "sentence_index": 4,
+          "sentence_text": "I want to understand better and better, but I don't have I don't have I don't have to rush.",
+          "word": "understand",
+          "lemma": "understand",
+          "pos": "VERB",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 4,
+          "sentence_text": "I want to understand better and better, but I don't have I don't have I don't have to rush.",
+          "word": "better",
+          "lemma": "well",
+          "pos": "ADJ",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 4,
+          "sentence_text": "I want to understand better and better, but I don't have I don't have I don't have to rush.",
+          "word": "better",
+          "lemma": "well",
+          "pos": "ADJ",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 4,
+          "sentence_text": "I want to understand better and better, but I don't have I don't have I don't have to rush.",
+          "word": "have",
+          "lemma": "have",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 4,
+          "sentence_text": "I want to understand better and better, but I don't have I don't have I don't have to rush.",
+          "word": "have",
+          "lemma": "have",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 4,
+          "sentence_text": "I want to understand better and better, but I don't have I don't have I don't have to rush.",
+          "word": "have",
+          "lemma": "have",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 4,
+          "sentence_text": "I want to understand better and better, but I don't have I don't have I don't have to rush.",
+          "word": "rush",
+          "lemma": "rush",
+          "pos": "VERB",
+          "cefr_level": "B1",
+          "cefr_numeric": 3
+        },
+        {
+          "sentence_index": 6,
+          "sentence_text": "I don't have to rush.",
+          "word": "have",
+          "lemma": "have",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 6,
+          "sentence_text": "I don't have to rush.",
+          "word": "rush",
+          "lemma": "rush",
+          "pos": "VERB",
+          "cefr_level": "B1",
+          "cefr_numeric": 3
+        },
+        {
+          "sentence_index": 7,
+          "sentence_text": "I think I will be opportunity to to communicate, but now I want to I want to listen to a lot, reading a lot, speaking a lot to to be more fluent.",
+          "word": "think",
+          "lemma": "think",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 7,
+          "sentence_text": "I think I will be opportunity to to communicate, but now I want to I want to listen to a lot, reading a lot, speaking a lot to to be more fluent.",
+          "word": "opportunity",
+          "lemma": "opportunity",
+          "pos": "NOUN",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 7,
+          "sentence_text": "I think I will be opportunity to to communicate, but now I want to I want to listen to a lot, reading a lot, speaking a lot to to be more fluent.",
+          "word": "communicate",
+          "lemma": "communicate",
+          "pos": "VERB",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 7,
+          "sentence_text": "I think I will be opportunity to to communicate, but now I want to I want to listen to a lot, reading a lot, speaking a lot to to be more fluent.",
+          "word": "now",
+          "lemma": "now",
+          "pos": "ADV",
+          "cefr_level": "B2",
+          "cefr_numeric": 4
+        },
+        {
+          "sentence_index": 7,
+          "sentence_text": "I think I will be opportunity to to communicate, but now I want to I want to listen to a lot, reading a lot, speaking a lot to to be more fluent.",
+          "word": "want",
+          "lemma": "want",
+          "pos": "VERB",
+          "cefr_level": "B2",
+          "cefr_numeric": 4
+        },
+        {
+          "sentence_index": 7,
+          "sentence_text": "I think I will be opportunity to to communicate, but now I want to I want to listen to a lot, reading a lot, speaking a lot to to be more fluent.",
+          "word": "want",
+          "lemma": "want",
+          "pos": "VERB",
+          "cefr_level": "B2",
+          "cefr_numeric": 4
+        },
+        {
+          "sentence_index": 7,
+          "sentence_text": "I think I will be opportunity to to communicate, but now I want to I want to listen to a lot, reading a lot, speaking a lot to to be more fluent.",
+          "word": "listen",
+          "lemma": "listen",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 7,
+          "sentence_text": "I think I will be opportunity to to communicate, but now I want to I want to listen to a lot, reading a lot, speaking a lot to to be more fluent.",
+          "word": "lot",
+          "lemma": "lot",
+          "pos": "NOUN",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 7,
+          "sentence_text": "I think I will be opportunity to to communicate, but now I want to I want to listen to a lot, reading a lot, speaking a lot to to be more fluent.",
+          "word": "reading",
+          "lemma": "read",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 7,
+          "sentence_text": "I think I will be opportunity to to communicate, but now I want to I want to listen to a lot, reading a lot, speaking a lot to to be more fluent.",
+          "word": "lot",
+          "lemma": "lot",
+          "pos": "NOUN",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 7,
+          "sentence_text": "I think I will be opportunity to to communicate, but now I want to I want to listen to a lot, reading a lot, speaking a lot to to be more fluent.",
+          "word": "speaking",
+          "lemma": "speak",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 7,
+          "sentence_text": "I think I will be opportunity to to communicate, but now I want to I want to listen to a lot, reading a lot, speaking a lot to to be more fluent.",
+          "word": "lot",
+          "lemma": "lot",
+          "pos": "NOUN",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 7,
+          "sentence_text": "I think I will be opportunity to to communicate, but now I want to I want to listen to a lot, reading a lot, speaking a lot to to be more fluent.",
+          "word": "more",
+          "lemma": "more",
+          "pos": "ADV",
+          "cefr_level": "B1",
+          "cefr_numeric": 3
+        },
+        {
+          "sentence_index": 7,
+          "sentence_text": "I think I will be opportunity to to communicate, but now I want to I want to listen to a lot, reading a lot, speaking a lot to to be more fluent.",
+          "word": "fluent",
+          "lemma": "fluent",
+          "pos": "ADJ",
+          "cefr_level": "B1",
+          "cefr_numeric": 3
+        },
+        {
+          "sentence_index": 8,
+          "sentence_text": "You know?",
+          "word": "know",
+          "lemma": "know",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 9,
+          "sentence_text": "When when I'm fluent, it will be it will be easier and easier.",
+          "word": "fluent",
+          "lemma": "fluent",
+          "pos": "ADJ",
+          "cefr_level": "B1",
+          "cefr_numeric": 3
+        },
+        {
+          "sentence_index": 9,
+          "sentence_text": "When when I'm fluent, it will be it will be easier and easier.",
+          "word": "easier",
+          "lemma": "easy",
+          "pos": "ADJ",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 9,
+          "sentence_text": "When when I'm fluent, it will be it will be easier and easier.",
+          "word": "easier",
+          "lemma": "easy",
+          "pos": "ADJ",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 11,
+          "sentence_text": "So Mhmm.",
+          "word": "So",
+          "lemma": "so",
+          "pos": "ADV",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 15,
+          "sentence_text": "It's changed.",
+          "word": "changed",
+          "lemma": "change",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 16,
+          "sentence_text": "It's changed.",
+          "word": "changed",
+          "lemma": "change",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 17,
+          "sentence_text": "So so I will try to check it.",
+          "word": "So",
+          "lemma": "so",
+          "pos": "ADV",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 17,
+          "sentence_text": "So so I will try to check it.",
+          "word": "so",
+          "lemma": "so",
+          "pos": "ADV",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 17,
+          "sentence_text": "So so I will try to check it.",
+          "word": "try",
+          "lemma": "try",
+          "pos": "VERB",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 17,
+          "sentence_text": "So so I will try to check it.",
+          "word": "check",
+          "lemma": "check",
+          "pos": "VERB",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 18,
+          "sentence_text": "Check it.",
+          "word": "Check",
+          "lemma": "check",
+          "pos": "VERB",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 31,
+          "sentence_text": "No problem.",
+          "word": "problem",
+          "lemma": "problem",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 32,
+          "sentence_text": "For me, it's not a problem.",
+          "word": "problem",
+          "lemma": "problem",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 33,
+          "sentence_text": "Oh, okay.",
+          "word": "okay",
+          "lemma": "okay",
+          "pos": "ADJ",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 34,
+          "sentence_text": "No problem for me.",
+          "word": "problem",
+          "lemma": "problem",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 36,
+          "sentence_text": "I understand.",
+          "word": "understand",
+          "lemma": "understand",
+          "pos": "VERB",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 38,
+          "sentence_text": "But 1 voice note or more?",
+          "word": "voice",
+          "lemma": "voice",
+          "pos": "NOUN",
+          "cefr_level": "C1",
+          "cefr_numeric": 5
+        },
+        {
+          "sentence_index": 38,
+          "sentence_text": "But 1 voice note or more?",
+          "word": "note",
+          "lemma": "note",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 38,
+          "sentence_text": "But 1 voice note or more?",
+          "word": "more",
+          "lemma": "more",
+          "pos": "ADJ",
+          "cefr_level": "B1",
+          "cefr_numeric": 3
+        },
+        {
+          "sentence_index": 44,
+          "sentence_text": "I understand.",
+          "word": "understand",
+          "lemma": "understand",
+          "pos": "VERB",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 47,
+          "sentence_text": "I understand.",
+          "word": "understand",
+          "lemma": "understand",
+          "pos": "VERB",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 55,
+          "sentence_text": "I understand.",
+          "word": "understand",
+          "lemma": "understand",
+          "pos": "VERB",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 56,
+          "sentence_text": "So thank you for for our class, and we will see we will see next week.",
+          "word": "So",
+          "lemma": "so",
+          "pos": "ADV",
+          "cefr_level": "A2",
+          "cefr_numeric": 2
+        },
+        {
+          "sentence_index": 56,
+          "sentence_text": "So thank you for for our class, and we will see we will see next week.",
+          "word": "thank",
+          "lemma": "thank",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 56,
+          "sentence_text": "So thank you for for our class, and we will see we will see next week.",
+          "word": "class",
+          "lemma": "class",
+          "pos": "NOUN",
+          "cefr_level": "C1",
+          "cefr_numeric": 5
+        },
+        {
+          "sentence_index": 56,
+          "sentence_text": "So thank you for for our class, and we will see we will see next week.",
+          "word": "see",
+          "lemma": "see",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 56,
+          "sentence_text": "So thank you for for our class, and we will see we will see next week.",
+          "word": "see",
+          "lemma": "see",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 56,
+          "sentence_text": "So thank you for for our class, and we will see we will see next week.",
+          "word": "next",
+          "lemma": "next",
+          "pos": "ADJ",
+          "cefr_level": "B2",
+          "cefr_numeric": 4
+        },
+        {
+          "sentence_index": 56,
+          "sentence_text": "So thank you for for our class, and we will see we will see next week.",
+          "word": "week",
+          "lemma": "week",
+          "pos": "NOUN",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        },
+        {
+          "sentence_index": 59,
+          "sentence_text": "Thank you.",
+          "word": "Thank",
+          "lemma": "thank",
+          "pos": "VERB",
+          "cefr_level": "A1",
+          "cefr_numeric": 1
+        }
+      ],
+      "richness": {
+        "score": 44,
+        "label": "Basic",
+        "color": "#ea580c",
+        "level_score": 0.1758,
+        "variety_score": 0.8333,
+        "avg_level": 1.8788,
+        "avg_level_str": "A2",
+        "distinct_levels": [
+          "A1",
+          "A2",
+          "B1",
+          "B2",
+          "C1"
+        ],
+        "level_distribution": {
+          "A1": 32,
+          "A2": 20,
+          "B2": 6,
+          "B1": 6,
+          "C1": 2
+        },
+        "n_matched": 66
+      }
+    }
+  ]
+}

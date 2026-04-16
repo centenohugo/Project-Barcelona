@@ -1,5 +1,147 @@
 export type CefrLevel = "A1" | "A2" | "B1" | "B2" | "C1" | "C2";
 
+// --- Fluency types ---
+
+export interface FluencyWordData {
+  word: string;
+  punctuatedWord: string;
+  start: number;
+  end: number;
+  confidence: number;
+  speed: number | null;
+  isFiller: boolean;
+  fillerType: string | null;
+  fillerPattern: string | null;
+}
+
+export interface FluencyDuplicate {
+  phrase: string[];
+  occurrences: number;
+  matchType: string;
+  startIndices: number[];
+}
+
+export interface FluencySentenceRecord {
+  sentenceId: number;
+  text: string;
+  wordCount: number;
+  gaps: { mean: number | null; count: number };
+  fillers: { count: number; rate: number; types: Record<string, number> };
+  duplicates: FluencyDuplicate[];
+  accuracy: { mean: number | null };
+  fluency: {
+    score: number | null;
+    components: {
+      speed: number | null;
+      gaps: number | null;
+      fillers: number | null;
+      dups: number | null;
+    };
+  };
+  words: FluencyWordData[];
+}
+
+export interface FluencyChunk {
+  paragraphId: number;
+  label: string;
+  sentences: FluencySentenceRecord[];
+  fluencyScore: number | null;
+  compAvgs: { speed: number | null; gaps: number | null; fillers: number | null; dups: number | null };
+  fillerCount: number;
+  wordCount: number;
+}
+
+export interface FluencyLessonData {
+  totalWords: number;
+  totalSentences: number;
+  avgFluency: number;
+  fillerRate: number;
+  avgAccuracy: number;
+  avgGapMs: number;
+  fillerCount: number;
+  speedThresholds: { p25Ms: number; p75Ms: number; p90Ms: number };
+  speedBuckets: { fast: number; normal: number; slow: number; verySlow: number; total: number };
+  fillerTypes: Record<string, number>;
+  scoreDist: number[];
+  compAvgs: { speed: number; gaps: number; fillers: number; dups: number };
+  sentences: FluencySentenceRecord[];
+  chunks?: FluencyChunk[];
+}
+
+// --- Grammar types ---
+
+export interface GrammarMatch {
+  sentenceIndex: number;
+  sentenceText: string;
+  category: string;
+  guideword: string;
+  lowestLevel: string;
+  explanation: string;
+  spanText: string;
+  startChar: number;
+  endChar: number;
+  contextStartChar: number;
+  contextEndChar: number;
+  dimension: string;
+}
+
+export interface GrammarError {
+  sentenceIndex: number;
+  sentence: string;
+  paragraphId: number;
+  grammarCategory: string;
+  dimensionCode: string;
+  dimensionLabel: string;
+  weight: number;
+  matchedText: string;
+  message: string;
+  replacements: string[];
+  offset: number;
+  errorLength: number;
+}
+
+export interface GrammarParagraph {
+  paragraphId: number;
+  label: string;
+  sentences: { index: number; text: string }[];
+  matches: GrammarMatch[];
+  errors: GrammarError[];
+  richness: {
+    score: number;
+    label: string;
+    color: string;
+    levelDistribution: Record<string, number>;
+    distinctCategories: string[];
+    dimsPresent: string[];
+    nAssigned: number;
+    density: number;
+    avgLevelStr: string;
+  };
+  errorStats: {
+    count: number;
+    weightedSum: number;
+    qualityScore: number;
+    qualityLevel: string;
+    qualityColor: string;
+    dimensionCounts: Record<string, number>;
+  };
+}
+
+export interface GrammarLessonData {
+  lessonSummary: {
+    avgRichnessScore: number;
+    richnessLabel: string;
+    richnessColor: string;
+    qualityScore: number;
+    qualityLevel: string;
+    qualityColor: string;
+    totalErrors: number;
+    dimensionErrorCounts: Record<string, number>;
+    topCategories: { category: string; count: number }[];
+  };
+  paragraphs: GrammarParagraph[];
+}
+
 // --- Enhanced word for display ---
 
 export interface EnhancedWord {

@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import ProgressChart from "./ProgressChart";
 import MiniChart from "./MiniChart";
@@ -84,6 +85,7 @@ interface DashboardProps {
 
 export default function Dashboard({ vocabProgress }: DashboardProps) {
   const { student } = useStudent();
+  const router = useRouter();
   const progressData = studentsData[student].progress;
 
   const vocabForStudent = vocabProgress[student] ?? [];
@@ -96,12 +98,27 @@ export default function Dashboard({ vocabProgress }: DashboardProps) {
 
   const toggle = (key: string) => setExpanded((prev) => (prev === key ? null : key));
 
+  function handleLessonClick(lesson: string) {
+    // lesson label is "L1", "L2" … → extract numeric id
+    const num = parseInt(lesson.replace(/\D/g, ""), 10);
+    if (!isNaN(num)) router.push(`/lesson/${num}`);
+  }
+
   return (
     <section className="w-full min-h-[calc(100vh-80px)] flex flex-col gap-6 justify-center">
       {/* Primary chart — center, bigger */}
-      <div>
-        <ProgressChart prominent data={progressData} />
-      </div>
+      <motion.div
+        whileHover={{ scale: 1.008 }}
+        whileTap={{ scale: 0.998 }}
+        transition={springTransition}
+        onClick={() => toggle("total")}
+        className="cursor-pointer"
+      >
+        <ProgressChart prominent data={progressData} onLessonClick={handleLessonClick} />
+        <AnimatePresence>
+          {expanded === "total" && <ChartExplanation type="total" />}
+        </AnimatePresence>
+      </motion.div>
       {/* Progress status text */}
       <div className="flex flex-col items-center gap-1 pt-2">
         <motion.p

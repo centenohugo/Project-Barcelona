@@ -99,18 +99,9 @@ export default function Dashboard({ vocabProgress }: DashboardProps) {
   return (
     <section className="w-full min-h-[calc(100vh-80px)] flex flex-col gap-6 justify-center">
       {/* Primary chart — center, bigger */}
-      <motion.div
-        whileHover={{ scale: 1.008 }}
-        whileTap={{ scale: 0.998 }}
-        transition={springTransition}
-        onClick={() => toggle("total")}
-        className="cursor-pointer"
-      >
+      <div>
         <ProgressChart prominent data={progressData} />
-        <AnimatePresence>
-          {expanded === "total" && <ChartExplanation type="total" />}
-        </AnimatePresence>
-      </motion.div>
+      </div>
       {/* Progress status text */}
       <div className="flex flex-col items-center gap-1 pt-2">
         <motion.p

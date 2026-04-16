@@ -1,15 +1,7 @@
 "use client";
 
-import {
-  BarChart,
-  Bar,
-  XAxis,
-  YAxis,
-  CartesianGrid,
-  Tooltip,
-  ResponsiveContainer,
-} from "recharts";
-
+import { useRouter } from "next/navigation";
+import { motion } from "framer-motion";
 import type { ProgressPoint } from "@/lib/mock-data";
 
 interface ProgressChartProps {
@@ -17,59 +9,52 @@ interface ProgressChartProps {
   data: ProgressPoint[];
 }
 
+const barColors = [
+  "var(--primary)",         // pink
+  "var(--secondary)",       // teal
+  "var(--surface-variant)", // warm grey
+];
+
 export default function ProgressChart({ prominent = false, data }: ProgressChartProps) {
-  const chartHeight = prominent ? 240 : 180;
+  const router = useRouter();
+  const maxValue = Math.max(...data.map((d) => d.totalProgress), 0.1);
 
   return (
-    <div className={`rounded-2xl bg-surface-lowest ${prominent ? "p-10" : "p-8"} max-w-5xl mx-auto w-full`}>
+    <div className={`${prominent ? "p-10" : "p-8"} max-w-5xl mx-auto w-full`}>
       <h2
         className={`font-[family-name:var(--font-display)] font-bold text-on-surface tracking-tight ${
           prominent ? "text-[2rem] mb-8" : "text-[1.75rem] mb-6"
         }`}
       >
-        Total Progress
+        Progress per Class
       </h2>
-      <div style={{ height: chartHeight }}>
-        <ResponsiveContainer width="100%" height="100%">
-          <BarChart data={data} margin={{ top: 8, right: 16, left: -8, bottom: 8 }}>
-            <CartesianGrid
-              strokeDasharray="3 3"
-              stroke="var(--surface-variant)"
-              strokeOpacity={0.5}
-              vertical={false}
-            />
-            <XAxis
-              dataKey="lesson"
-              tick={{ fontSize: prominent ? 13 : 12, fill: "var(--on-surface-variant)" }}
-              tickLine={false}
-              axisLine={false}
-            />
-            <YAxis
-              tick={{ fontSize: prominent ? 13 : 12, fill: "var(--on-surface-variant)" }}
-              tickLine={false}
-              axisLine={false}
-              domain={[0, "auto"]}
-            />
-            <Tooltip
-              contentStyle={{
-                background: "var(--surface-container-lowest)",
-                border: "none",
-                borderRadius: 12,
-                boxShadow: "0 8px 32px rgba(28,27,26,0.06)",
-                fontSize: 13,
-              }}
-              cursor={false}
-            />
-            <Bar
-              dataKey="totalProgress"
-              name="Total Progress"
-              fill="var(--primary)"
-              radius={[8, 8, 0, 0]}
-              animationDuration={1200}
-              animationEasing="ease-out"
-            />
-          </BarChart>
-        </ResponsiveContainer>
+      <div
+        className="flex items-end gap-3"
+        style={{ height: prominent ? 240 : 180 }}
+      >
+        {data.map((point, index) => {
+          const heightPct = (point.totalProgress / maxValue) * 100;
+          return (
+            <motion.div
+              key={point.lesson}
+              className="relative flex-1 rounded-t-xl cursor-pointer overflow-hidden"
+              style={{ background: barColors[index % barColors.length] }}
+              initial={{ height: 0 }}
+              animate={{ height: `${heightPct}%` }}
+              transition={{ duration: 0.8, delay: index * 0.08, ease: [0.34, 1.56, 0.64, 1] }}
+              whileHover={{ scale: 1.06, y: -4 }}
+              whileTap={{ scale: 0.97 }}
+              onClick={() => router.push(`/lesson/${index + 1}`)}
+            >
+              <span
+                className="absolute inset-0 flex items-center justify-center font-[family-name:var(--font-display)] text-2xl font-extrabold select-none pointer-events-none"
+                style={{ color: "rgba(28,27,26,0.15)" }}
+              >
+                {String(index + 1).padStart(2, "0")}
+              </span>
+            </motion.div>
+          );
+        })}
       </div>
     </div>
   );

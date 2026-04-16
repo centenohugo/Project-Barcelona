@@ -10,7 +10,9 @@
       "Bash(.venv/Scripts/pip.exe install *)",
       "Bash(.venv/Scripts/python.exe -m spacy download en_core_web_sm)",
       "Bash(.venv/Scripts/python.exe -m ipykernel install --user --name=barcelona-grammar --display-name \"Barcelona Grammar \\(.venv\\)\")",
-      "Bash(.venv/Scripts/python.exe separate_sentences.py)"
+      "Bash(.venv/Scripts/python.exe separate_sentences.py)",
+      "Bash(grep -E \"^[^/]*$|/app/|/lib/\")",
+      "Bash(npx next *)"
     ]
   }
 }

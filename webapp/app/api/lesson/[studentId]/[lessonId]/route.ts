@@ -93,6 +93,12 @@ function isCefrLevel(level: string): level is CefrLevel {
   return CEFR_LEVELS.includes(level as CefrLevel);
 }
 
+// Manual CEFR overrides — words misclassified by WSD
+const CEFR_OVERRIDES: Record<string, string> = {
+  friend: "B1",
+  friends: "B1",
+};
+
 // --- POS filtering: only highlight nouns, adjectives, adverbs ---
 
 const TARGET_POS = new Set(["n", "a", "s", "r"]); // noun, adj, adj-satellite, adverb
@@ -254,9 +260,12 @@ export async function GET(
     let aboveLevelCount = 0;
 
     const words: EnhancedWord[] = paraWords.map((w) => {
-      const cefrLevel = isCefrLevel(w.cefr_level) ? w.cefr_level : undefined;
       const wordLower = w.word.toLowerCase();
-      const content = isContentWord(w.word, w.source, w.cefr_level);
+      const override = CEFR_OVERRIDES[wordLower];
+      const cefrLevel = override
+        ? (override as CefrLevel)
+        : isCefrLevel(w.cefr_level) ? w.cefr_level : undefined;
+      const content = isContentWord(w.word, w.source, override ?? w.cefr_level);
 
       // Only mark content words (nouns, adjectives, adverbs) as highlighted
       const isNew = content && newWordsSet.has(wordLower);

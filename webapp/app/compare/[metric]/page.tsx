@@ -7,6 +7,7 @@ import Navbar from "@/components/Navbar";
 import ChunkCard from "@/components/ChunkCard";
 import GrammarComparePane from "@/components/GrammarComparePane";
 import FluencyCompareSummary from "@/components/FluencyCompareSummary";
+import VocabCompareSummary from "@/components/VocabCompareSummary";
 import { useStudent } from "@/lib/student-context";
 import { studentsData } from "@/lib/mock-data";
 import type {
@@ -268,6 +269,18 @@ export default function ComparePage({ params }: PageProps) {
             />
           </div>
         </div>
+
+        {/* Vocabulary summary — level badges + CEFR mirror chart */}
+        {metric === "vocabulary" && (
+          <VocabCompareSummary
+            key={`summary-${leftId}-${rightId}-${student}`}
+            studentId={student}
+            leftId={leftId}
+            rightId={rightId}
+            leftName={leftLesson?.name ?? `Lesson ${leftId}`}
+            rightName={rightLesson?.name ?? `Lesson ${rightId}`}
+          />
+        )}
 
         {/* Content — grammar uses unified full-width comparison; others use two-column */}
         {metric === "grammar" ? (

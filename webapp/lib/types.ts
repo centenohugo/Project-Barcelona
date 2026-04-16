@@ -231,3 +231,46 @@ export interface RealLessonData {
     trend: string | null;
   };
 }
+
+// --- Vocabulary richness (per-lesson) ---
+
+export interface RichnessData {
+  summary: {
+    score: number;
+    label: string;
+    color: string;
+    avgLevelStr: string;
+    totalWords: number;
+    totalMatched: number;
+    coverageRate: number;
+    paragraphCount: number;
+    levelDistribution: Record<string, number>;
+  };
+  paragraphs: RichnessParagraph[];
+}
+
+export interface RichnessParagraph {
+  paragraphId: number;
+  label: string;
+  sentenceCount: number;
+  richness: {
+    score: number;
+    label: string;
+    color: string;
+    avgLevelStr: string;
+    levelScore: number;
+    varietyScore: number;
+    levelDistribution: Record<string, number>;
+  };
+  stats: {
+    totalWords: number;
+    matchedWords: number;
+    uniqueTypes: number;
+    ttr: number;
+    lexicalDensity: number;
+  };
+  sentences: {
+    text: string;
+    words: { word: string; cefrLevel: CefrLevel; pos: string }[];
+  }[];
+}

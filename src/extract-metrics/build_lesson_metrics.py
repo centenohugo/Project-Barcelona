@@ -44,6 +44,7 @@ from pathlib import Path
 # ── Paths ─────────────────────────────────────────────────────────────────────
 ROOT = Path(__file__).parent.parent.parent
 PROC = ROOT / "data" / "processed"
+PREP = ROOT / "data" / "preprocessed"
 
 # ── Constants ─────────────────────────────────────────────────────────────────
 LEVEL_MAX   = 40
@@ -80,6 +81,31 @@ def _label(score: float | None, table=SCORE_LABELS) -> tuple[str, str]:
 def _mean(vals: list[float]) -> float | None:
     clean = [v for v in vals if v is not None]
     return round(sum(clean) / len(clean), 2) if clean else None
+
+
+# ── Conversation filter ────────────────────────────────────────────────────────
+
+def _conversation_ranges(student: str, lesson: str) -> list[tuple[int, int]] | None:
+    """Returns [(word_start, word_end), ...] for conversation=True paragraphs.
+    Uses cumulative word counts from sentences.json.
+    Returns None if sentences.json is not found (no filtering applied)."""
+    path = PREP / student / lesson / "sentences.json"
+    if not path.exists():
+        return None
+    data = json.loads(path.read_text("utf-8"))
+    ranges: list[tuple[int, int]] = []
+    cum = 0
+    for para in data["paragraphs"]:
+        wc = sum(len(s["text"].split()) for s in para["sentences"])
+        start, end = cum + 1, cum + wc
+        if para.get("conversation_boolean", True):
+            ranges.append((start, end))
+        cum += wc
+    return ranges
+
+
+def _in_conversation(word_start: int, conv_ranges: list[tuple[int, int]]) -> bool:
+    return any(ws <= word_start <= we for ws, we in conv_ranges)
 
 
 # ═══════════════════════════════════════════════════════════════════════════════
@@ -257,20 +283,33 @@ def _build_grammar_section(lesson_dir: Path) -> dict | None:
 #  FLUENCY SECTION
 # ═══════════════════════════════════════════════════════════════════════════════
 
-def _build_fluency_section(lesson_dir: Path) -> dict | None:
+def _build_fluency_section(
+    lesson_dir: Path,
+    conv_ranges: list[tuple[int, int]] | None,
+) -> dict | None:
     fluency_path = lesson_dir / "fluency.json"
     if not fluency_path.exists():
         return None
 
     data = json.loads(fluency_path.read_text("utf-8"))
     all_sents = data["sentences"]
-    all_words = [w for s in all_sents for w in s["words"]]
 
-    # Filter sentences for metric computation
-    included = [s for s in all_sents if s["word_count"] >= FLUENCY_MIN_WORDS
+    # Walk sentences tracking cumulative word position; keep only conversation ones
+    cum = 0
+    conv_sents: list[dict] = []
+    for s in all_sents:
+        start_word = cum + 1
+        cum += s["word_count"]
+        if conv_ranges is None or _in_conversation(start_word, conv_ranges):
+            conv_sents.append(s)
+
+    # Stats words restricted to conversation paragraphs
+    conv_words = [w for s in conv_sents for w in s["words"]]
+
+    # Filter sentences for metric computation (conversation + min length)
+    included = [s for s in conv_sents if s["word_count"] >= FLUENCY_MIN_WORDS
                 and s["fluency"]["score"] is not None]
-    skipped  = [s for s in all_sents if s["word_count"] < FLUENCY_MIN_WORDS
-                or s["fluency"]["score"] is None]
+    n_skipped = len(all_sents) - len(included)
 
     # Aggregate scores
     scores  = [s["fluency"]["score"] for s in included]
@@ -290,18 +329,18 @@ def _build_fluency_section(lesson_dir: Path) -> dict | None:
         "weak":       sum(1 for s in scores if s < 40),
     }
 
-    # Global stats across all words
-    n_words   = len(all_words)
-    n_fillers = sum(1 for w in all_words if w.get("is_filler"))
+    # Global stats restricted to conversation words
+    n_words   = len(conv_words)
+    n_fillers = sum(1 for w in conv_words if w.get("is_filler"))
     filler_types = dict(Counter(
-        w["filler_type"] for w in all_words
+        w["filler_type"] for w in conv_words
         if w.get("is_filler") and w.get("filler_type")
     ).most_common())
-    content_speeds = [w["speed"] for w in all_words
+    content_speeds = [w["speed"] for w in conv_words
                       if w.get("speed") is not None and not w.get("is_filler")]
     avg_speed_ms = round(sum(content_speeds) / len(content_speeds) * 1000) if content_speeds else None
 
-    gap_means = [s["gaps"]["mean"] for s in all_sents if s["gaps"].get("mean") is not None]
+    gap_means = [s["gaps"]["mean"] for s in conv_sents if s["gaps"].get("mean") is not None]
     avg_gap_ms = round(sum(gap_means) / len(gap_means) * 1000) if gap_means else None
 
     # Sentence-level rows (only included ones, compact)
@@ -342,7 +381,7 @@ def _build_fluency_section(lesson_dir: Path) -> dict | None:
             "components":          components,
             "distribution":        dist,
             "sentences_included":  len(included),
-            "sentences_skipped":   len(skipped),
+            "sentences_skipped":   n_skipped,
             "sentences_total":     len(all_sents),
             "stats": {
                 "total_words":    n_words,
@@ -365,8 +404,10 @@ def process_lesson(student: str, lesson: str) -> Path | None:
     lesson_dir = PROC / student / lesson
     out_path   = lesson_dir / "metrics" / "lesson_metrics.json"
 
+    conv_ranges = _conversation_ranges(student, lesson)
+
     grammar_section = _build_grammar_section(lesson_dir)
-    fluency_section = _build_fluency_section(lesson_dir)
+    fluency_section = _build_fluency_section(lesson_dir, conv_ranges)
 
     if grammar_section is None and fluency_section is None:
         print(f"  SKIP {student}/{lesson}: no data found")

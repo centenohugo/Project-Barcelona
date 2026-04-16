@@ -5,13 +5,12 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import Navbar from "@/components/Navbar";
 import ChunkCard from "@/components/ChunkCard";
-import GrammarChunkCard from "@/components/GrammarChunkCard";
+import GrammarComparePane from "@/components/GrammarComparePane";
 import FluencyCompareSummary from "@/components/FluencyCompareSummary";
 import { useStudent } from "@/lib/student-context";
 import { studentsData } from "@/lib/mock-data";
 import type {
   RealLessonData,
-  GrammarLessonData,
   FluencyLessonData,
 } from "@/lib/types";
 
@@ -107,73 +106,7 @@ function VocabPane({ studentId, lessonId }: { studentId: string; lessonId: numbe
   );
 }
 
-// ── Grammar pane ───────────────────────────────────────────────────────────────
 
-function GrammarPane({ studentId, lessonId }: { studentId: string; lessonId: number }) {
-  const [data, setData] = useState<GrammarLessonData | null>(null);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
-  const [showErrors, setShowErrors] = useState(false);
-
-  useEffect(() => {
-    setData(null);
-    setLoading(true);
-    setError(null);
-    fetch(`/api/lesson/${studentId}/${lessonId}/grammar`)
-      .then((r) => { if (!r.ok) throw new Error(`${r.status}`); return r.json(); })
-      .then((d: GrammarLessonData) => { setData(d); setLoading(false); })
-      .catch((e) => { setError(e.message); setLoading(false); });
-  }, [studentId, lessonId]);
-
-  if (loading) return <PaneSkeleton />;
-  if (error || !data) {
-    return (
-      <div className="rounded-2xl bg-surface-lowest p-8 text-center">
-        <p className="text-on-surface-variant font-[family-name:var(--font-body)] text-sm">
-          Grammar data not available.
-        </p>
-      </div>
-    );
-  }
-
-  return (
-    <div className="flex flex-col gap-4">
-      {/* Summary + toggle */}
-      <div className="flex flex-wrap gap-2 items-center">
-        <span
-          className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-semibold"
-          style={{ background: data.lessonSummary.richnessColor + "22", color: data.lessonSummary.richnessColor, border: `1px solid ${data.lessonSummary.richnessColor}44` }}
-        >
-          Richness {data.lessonSummary.avgRichnessScore}
-        </span>
-        <span
-          className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-semibold"
-          style={{ background: data.lessonSummary.qualityColor + "22", color: data.lessonSummary.qualityColor, border: `1px solid ${data.lessonSummary.qualityColor}44` }}
-        >
-          Quality {data.lessonSummary.qualityScore}
-        </span>
-        <button
-          onClick={() => setShowErrors((v) => !v)}
-          className="ml-auto px-3 py-1.5 rounded-xl text-xs font-medium cursor-pointer"
-          style={{
-            background: showErrors ? "var(--primary)" : "rgba(0,0,0,0.06)",
-            color: showErrors ? "var(--on-primary)" : "var(--on-surface-variant)",
-          }}
-        >
-          {showErrors ? "Structures" : "Errors"}
-        </button>
-      </div>
-      {data.paragraphs.map((paragraph, i) => (
-        <GrammarChunkCard
-          key={paragraph.paragraphId}
-          paragraph={paragraph}
-          showErrors={showErrors}
-          index={i}
-        />
-      ))}
-    </div>
-  );
-}
 
 // ── Fluency pane ───────────────────────────────────────────────────────────────
 
@@ -265,7 +198,6 @@ export default function ComparePage({ params }: PageProps) {
 
   function renderPane(lessonId: number) {
     if (metric === "vocabulary") return <VocabPane studentId={student} lessonId={lessonId} />;
-    if (metric === "grammar") return <GrammarPane studentId={student} lessonId={lessonId} />;
     return <FluencyPane studentId={student} lessonId={lessonId} />;
   }
 
@@ -338,25 +270,36 @@ export default function ComparePage({ params }: PageProps) {
           </div>
         </div>
 
-        {/* Split-screen content */}
-        <div className="grid grid-cols-2 gap-6 items-start">
-          <motion.div
-            key={`left-${leftId}-${student}`}
-            initial={{ opacity: 0, x: -12 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.35 }}
-          >
-            {renderPane(leftId)}
-          </motion.div>
-          <motion.div
-            key={`right-${rightId}-${student}`}
-            initial={{ opacity: 0, x: 12 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.35 }}
-          >
-            {renderPane(rightId)}
-          </motion.div>
-        </div>
+        {/* Content — grammar uses unified full-width comparison; others use two-column */}
+        {metric === "grammar" ? (
+          <GrammarComparePane
+            key={`${leftId}-${rightId}-${student}`}
+            studentId={student}
+            leftId={leftId}
+            rightId={rightId}
+            leftName={leftLesson?.name ?? `Lesson ${leftId}`}
+            rightName={rightLesson?.name ?? `Lesson ${rightId}`}
+          />
+        ) : (
+          <div className="grid grid-cols-2 gap-6 items-start">
+            <motion.div
+              key={`left-${leftId}-${student}`}
+              initial={{ opacity: 0, x: -12 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.35 }}
+            >
+              {renderPane(leftId)}
+            </motion.div>
+            <motion.div
+              key={`right-${rightId}-${student}`}
+              initial={{ opacity: 0, x: 12 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.35 }}
+            >
+              {renderPane(rightId)}
+            </motion.div>
+          </div>
+        )}
       </div>
     </div>
   );

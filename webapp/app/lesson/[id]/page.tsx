@@ -4,7 +4,7 @@ import { use, useEffect, useState } from "react";
 import Navbar from "@/components/Navbar";
 import LessonDetail from "@/components/LessonDetail";
 import { useStudent } from "@/lib/student-context";
-import { studentsData } from "@/lib/mock-data";
+import { realStudentsData } from "@/lib/real-data";
 import type { RealLessonData } from "@/lib/types";
 
 interface PageProps {
@@ -20,11 +20,9 @@ export default function LessonPage({ params }: PageProps) {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
-  // Get lesson name from mock data for display
-  const mockLesson = studentsData[student]?.lessons.find(
-    (l) => l.id === lessonId
-  );
-  const lessonName = mockLesson?.name ?? `Lesson ${lessonId}`;
+  const lessonName =
+    realStudentsData[student]?.lessons.find((l) => l.id === lessonId)?.name ??
+    `Lesson ${lessonId}`;
 
   useEffect(() => {
     setLoading(true);

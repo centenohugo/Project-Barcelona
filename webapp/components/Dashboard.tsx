@@ -5,16 +5,16 @@ import { motion } from "framer-motion";
 import ProgressChart from "./ProgressChart";
 import MiniChart from "./MiniChart";
 import { useStudent } from "@/lib/student-context";
-import { studentsData, type ProgressPoint } from "@/lib/mock-data";
-import type { VocabProgress } from "@/lib/progress-data";
+import { realStudentsData } from "@/lib/real-data";
+import type { ProgressPoint } from "@/lib/mock-data";
 
 function getProgressMessage(data: ProgressPoint[]) {
   if (data.length < 2) return { text: "Start your journey", trend: "neutral" as const };
   const last = data[data.length - 1].totalProgress;
   const prev = data[data.length - 2].totalProgress;
   const diff = last - prev;
-  if (diff > 0.15) return { text: "You're making great progress!", trend: "positive" as const };
-  if (diff < -0.15) return { text: "Let's get back on track", trend: "negative" as const };
+  if (diff > 3) return { text: "You're making great progress!", trend: "positive" as const };
+  if (diff < -3) return { text: "Let's get back on track", trend: "negative" as const };
   return { text: "Holding steady \u2014 consistency is key", trend: "neutral" as const };
 }
 
@@ -30,19 +30,25 @@ const springTransition = {
   damping: 24,
 };
 
-interface DashboardProps {
-  vocabProgress: VocabProgress;
-}
-
-export default function Dashboard({ vocabProgress }: DashboardProps) {
+export default function Dashboard() {
   const { student } = useStudent();
-  const progressData = studentsData[student].progress;
   const router = useRouter();
 
-  const vocabForStudent = vocabProgress[student] ?? [];
-  const vocabularyData = vocabForStudent.map((d) => ({ lesson: d.lesson, value: d.vocabScore }));
-  const grammarData = progressData.map((d) => ({ lesson: d.lesson, value: d.grammar }));
-  const fluencyData = progressData.map((d) => ({ lesson: d.lesson, value: d.fluency }));
+  const studentData = realStudentsData[student];
+  const scores = studentData?.scores ?? [];
+
+  // Map real scores to ProgressPoint shape expected by ProgressChart
+  const progressData: ProgressPoint[] = scores.map((s) => ({
+    lesson: s.lesson,
+    totalProgress: s.overall,
+    vocabulary: s.vocabulary,
+    grammar: s.grammar,
+    fluency: s.fluency,
+  }));
+
+  const vocabularyData = scores.map((s) => ({ lesson: s.lesson, value: s.vocabulary }));
+  const grammarData    = scores.map((s) => ({ lesson: s.lesson, value: s.grammar }));
+  const fluencyData    = scores.map((s) => ({ lesson: s.lesson, value: s.fluency }));
 
   const progress = getProgressMessage(progressData);
 
@@ -75,9 +81,9 @@ export default function Dashboard({ vocabProgress }: DashboardProps) {
       {/* Secondary charts — bottom row */}
       <div className="grid grid-cols-3 gap-6">
         {([
-          { key: "vocabulary", title: "Vocabulary", data: vocabularyData, color: "var(--secondary)", domain: [0, 100] as [number, number] },
-          { key: "grammar", title: "Grammar", data: grammarData, color: "var(--primary)", domain: undefined },
-          { key: "fluency", title: "Fluency", data: fluencyData, color: "#8B5CF6", domain: undefined },
+          { key: "vocabulary", title: "Vocabulary", data: vocabularyData, color: "var(--secondary)",    domain: [0, 100] as [number, number] },
+          { key: "grammar",    title: "Grammar",    data: grammarData,    color: "var(--primary)",       domain: [0, 100] as [number, number] },
+          { key: "fluency",    title: "Fluency",    data: fluencyData,    color: "#8B5CF6",              domain: [0, 100] as [number, number] },
         ]).map(({ key, title, data, color, domain }) => (
           <motion.div
             key={key}

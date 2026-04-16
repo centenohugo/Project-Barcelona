@@ -145,6 +145,43 @@ export interface FluencyLessonData {
   chunks?: FluencyChunk[];
 }
 
+// --- Grammar compare types ---
+
+export interface GrammarStructureItem {
+  structureId: string;
+  category: string;
+  guideword: string;
+  lowestLevel: string;
+  lowestLevelNumeric: number;
+  count: number;
+  exampleSentence: string;
+  exampleSpan: string;
+}
+
+export interface GrammarErrorItem {
+  grammarCategory: string;
+  dimensionCode: string;
+  dimensionLabel: string;
+  weight: number;
+  count: number;
+  exampleSentence: string;
+  exampleMatchedText: string;
+  exampleMessage: string;
+  exampleOffset: number;
+  exampleLength: number;
+}
+
+export interface GrammarCompareSummary {
+  structures: GrammarStructureItem[];
+  errors: GrammarErrorItem[];
+  stats: {
+    sentenceCount: number;
+    structureCount: number;
+    errorTypeCount: number;
+    avgRichnessScore: number;
+  };
+}
+
 // --- Per-block data ---
 
 export interface CefrDistribution {

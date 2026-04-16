@@ -2,9 +2,9 @@
   "group": "LEXICAL_TRIGGER",
   "detection_method": "spacy.matcher.Matcher (keywords/lemmas) + Regex for complex conjunctions",
   "description": "Rules detectable by specific function words, modal keywords, negation markers, discourse connectives, conjunctions, and prepositions. Uses keyword/lemma lookup and keyword-anchored token patterns.",
-  "total_structures": 27,
+  "total_structures": 26,
   "categories": {
-    "MODALITY": 20,
+    "MODALITY": 19,
     "DISCOURSE MARKERS": 2,
     "NEGATION": 5
   },
@@ -13,7 +13,7 @@
     "A2": 20,
     "B1": 2,
     "B2": 4,
-    "C1": 1,
+    "C1": 0,
     "C2": 0
   },
   "structures": [
@@ -785,36 +785,6 @@
         "Well, you should be bouncing up and down with joy (just kidding)! (Spain; B2 VANTAGE; 2004; Spanish - European; Pass)\n\nThese are the reasons that I believe we should be reading books instead of watchi"
       ],
       "explanation": "'Should be' + continuous — describes what is expected to be happening right now (e.g. 'You should be studying')."
-    },
-    {
-      "id": "1741163710840x730541799606596100",
-      "category": "MODALITY",
-      "guideword": "FORM/USE: 'MAY WELL'",
-      "levels": [
-        "C1"
-      ],
-      "lowest_level": "C1",
-      "keywords": [
-        "may",
-        "maybe",
-        "might"
-      ],
-      "spacy_patterns": [
-        [
-          {
-            "LOWER": {
-              "IN": [
-                "may",
-                "might"
-              ]
-            }
-          }
-        ]
-      ],
-      "examples": [
-        "I think they may well come to an agreement on these payment problems. (Poland; C1 EFFECTIVE OPERATIONAL PROFICIENCY; 1993; Polish; Pass)\n\nIn general a week's work experience is a good way for a high s"
-      ],
-      "explanation": "'May well' — expresses a strong possibility with a formal or hedged tone (e.g. 'He may well be right')."
     },
     {
       "id": "1741163715814x164578011203941220",

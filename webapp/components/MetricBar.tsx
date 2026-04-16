@@ -6,9 +6,10 @@ export interface MetricBarProps {
   label: string;
   value: number;
   delay?: number;
+  color?: string;
 }
 
-export default function MetricBar({ label, value, delay = 200 }: MetricBarProps) {
+export default function MetricBar({ label, value, delay = 200, color }: MetricBarProps) {
   const [width, setWidth] = useState(0);
 
   useEffect(() => {
@@ -31,7 +32,7 @@ export default function MetricBar({ label, value, delay = 200 }: MetricBarProps)
           className="h-full rounded-full"
           style={{
             width: `${width}%`,
-            background: "linear-gradient(90deg, var(--secondary), var(--secondary-container))",
+            background: color ?? "linear-gradient(90deg, var(--secondary), var(--secondary-container))",
             transition: `width 800ms cubic-bezier(0.34, 1.56, 0.64, 1)`,
           }}
         />

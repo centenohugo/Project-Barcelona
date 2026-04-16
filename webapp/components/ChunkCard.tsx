@@ -2,28 +2,16 @@
 
 import { motion } from "framer-motion";
 import MetricBar from "./MetricBar";
-import type { ConversationChunk, CefrLevel } from "@/lib/mock-data";
-
-const cefrColors: Record<CefrLevel, string> = {
-  A1: "rgba(64, 224, 208, 0.15)",
-  A2: "rgba(64, 224, 208, 0.25)",
-  B1: "rgba(255, 107, 157, 0.15)",
-  B2: "rgba(255, 107, 157, 0.25)",
-  C1: "rgba(18, 17, 17, 0.10)",
-  C2: "rgba(18, 17, 17, 0.18)",
-};
-
-const cefrTextColors: Record<CefrLevel, string> = {
-  A1: "var(--secondary-fixed)",
-  A2: "var(--secondary-fixed)",
-  B1: "var(--primary)",
-  B2: "var(--primary)",
-  C1: "var(--tertiary)",
-  C2: "var(--tertiary)",
-};
+import type { RealConversationChunk, CefrLevel } from "@/lib/types";
+import {
+  cefrBgColors,
+  cefrTextColors,
+  cefrBarGradients,
+  CEFR_LEVELS,
+} from "@/lib/cefr-utils";
 
 interface ChunkCardProps {
-  chunk: ConversationChunk;
+  chunk: RealConversationChunk;
   index: number;
 }
 
@@ -45,38 +33,119 @@ export default function ChunkCard({ chunk, index }: ChunkCardProps) {
           {chunk.topic}
         </span>
         <p className="text-base leading-7 font-[family-name:var(--font-body)] text-on-surface">
-          {chunk.words.map((word, i) => (
-            word.highlight ? (
-              <span
-                key={i}
-                className="inline-block rounded-md px-1 py-0.5 mx-0.5 text-sm font-medium relative group/word cursor-default"
-                style={{
-                  backgroundColor: cefrColors[word.highlight],
-                  color: cefrTextColors[word.highlight],
-                }}
-              >
-                {word.text}
-                <span className="absolute -top-6 left-1/2 -translate-x-1/2 text-[10px] font-bold text-on-primary px-1.5 py-0.5 rounded opacity-0 group-hover/word:opacity-100 transition-opacity pointer-events-none whitespace-nowrap"
-                  style={{ background: "var(--primary)" }}
+          {chunk.words.map((word, i) => {
+            const level = word.cefrLevel;
+            const highlighted = word.isAboveLevel && level;
+
+            if (highlighted) {
+              return (
+                <span
+                  key={i}
+                  className="inline-block rounded-md px-1 py-0.5 mx-0.5 text-sm font-medium relative group/word cursor-default"
+                  style={{
+                    backgroundColor: cefrBgColors[level as CefrLevel],
+                    color: cefrTextColors[level as CefrLevel],
+                  }}
                 >
-                  {word.highlight}
+                  {word.isNew && (
+                    <span
+                      className="absolute -top-0.5 -left-0.5 w-[6px] h-[6px] rounded-full"
+                      style={{ background: "var(--secondary)" }}
+                    />
+                  )}
+                  {word.text}
+                  {/* Tooltip */}
+                  <span
+                    className="absolute -top-7 left-1/2 -translate-x-1/2 text-[10px] font-bold text-white px-1.5 py-0.5 rounded opacity-0 group-hover/word:opacity-100 transition-opacity pointer-events-none whitespace-nowrap z-10"
+                    style={{
+                      background: cefrTextColors[level as CefrLevel],
+                    }}
+                  >
+                    {level}
+                    {word.isNew ? " · NEW" : ""}
+                  </span>
                 </span>
-              </span>
-            ) : (
-              <span key={i}>{word.text} </span>
-            )
-          ))}
+              );
+            }
+
+            if (word.isNew) {
+              return (
+                <span
+                  key={i}
+                  className="inline-block relative mx-0.5 cursor-default group/word"
+                  style={{
+                    borderBottom: "2px solid var(--secondary)",
+                    paddingBottom: "1px",
+                  }}
+                >
+                  <span
+                    className="absolute -top-0.5 -left-0.5 w-[6px] h-[6px] rounded-full"
+                    style={{ background: "var(--secondary)" }}
+                  />
+                  {word.text}
+                  <span
+                    className="absolute -top-7 left-1/2 -translate-x-1/2 text-[10px] font-bold text-white px-1.5 py-0.5 rounded opacity-0 group-hover/word:opacity-100 transition-opacity pointer-events-none whitespace-nowrap z-10"
+                    style={{ background: "var(--secondary-fixed)" }}
+                  >
+                    {word.cefrLevel ?? "?"} · NEW
+                  </span>
+                </span>
+              );
+            }
+
+            return <span key={i}>{word.text} </span>;
+          })}
         </p>
+
+        {/* Summary chips */}
+        <div className="flex gap-3 mt-4">
+          {chunk.stats.aboveLevelCount > 0 && (
+            <span
+              className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-medium"
+              style={{
+                background: "rgba(255, 107, 157, 0.10)",
+                color: "var(--primary)",
+              }}
+            >
+              <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                <path
+                  d="M6 2L7.5 5H10.5L8 7L9 10L6 8L3 10L4 7L1.5 5H4.5L6 2Z"
+                  fill="currentColor"
+                />
+              </svg>
+              {chunk.stats.aboveLevelCount} above level
+            </span>
+          )}
+          {chunk.stats.newWordsCount > 0 && (
+            <span
+              className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-medium"
+              style={{
+                background: "rgba(64, 224, 208, 0.12)",
+                color: "var(--secondary-fixed)",
+              }}
+            >
+              <span
+                className="w-2 h-2 rounded-full"
+                style={{ background: "var(--secondary)" }}
+              />
+              {chunk.stats.newWordsCount} new words
+            </span>
+          )}
+        </div>
       </div>
 
-      {/* Right — metric bars */}
-      <div className="w-[35%] shrink-0 flex flex-col gap-4 justify-center">
-        {chunk.metrics.map((m, i) => (
+      {/* Right — CEFR distribution bars */}
+      <div className="w-[35%] shrink-0 flex flex-col gap-3 justify-center">
+        <span className="text-[10px] font-medium uppercase tracking-[0.08em] text-on-surface-variant font-[family-name:var(--font-body)] mb-1">
+          CEFR Distribution
+        </span>
+        {CEFR_LEVELS.map((level, i) => (
           <MetricBar
-            key={m.label}
-            label={m.label}
-            value={m.value}
-            delay={300 + index * 100 + i * 80}
+            key={level}
+            label={level}
+            value={Math.round(chunk.cefrDistribution[level] * 10) / 10}
+            delay={300 + index * 100 + i * 60}
+            color={cefrBarGradients[level]}
           />
         ))}
       </div>

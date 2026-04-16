@@ -2,14 +2,13 @@
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import ProgressChart, { mockData } from "./ProgressChart";
+import ProgressChart from "./ProgressChart";
 import MiniChart from "./MiniChart";
+import { useStudent } from "@/lib/student-context";
+import { studentsData, type ProgressPoint } from "@/lib/mock-data";
+import type { VocabProgress } from "@/lib/progress-data";
 
-const vocabularyData = mockData.map((d) => ({ lesson: d.lesson, value: d.vocabulary }));
-const grammarData = mockData.map((d) => ({ lesson: d.lesson, value: d.grammar }));
-const fluencyData = mockData.map((d) => ({ lesson: d.lesson, value: d.fluency }));
-
-function getProgressMessage(data: typeof mockData) {
+function getProgressMessage(data: ProgressPoint[]) {
   if (data.length < 2) return { text: "Start your journey", trend: "neutral" as const };
   const last = data[data.length - 1].totalProgress;
   const prev = data[data.length - 2].totalProgress;
@@ -79,8 +78,20 @@ function ChartExplanation({ type }: { type: "total" | "vocabulary" | "grammar" |
   );
 }
 
-export default function Dashboard() {
-  const progress = getProgressMessage(mockData);
+interface DashboardProps {
+  vocabProgress: VocabProgress;
+}
+
+export default function Dashboard({ vocabProgress }: DashboardProps) {
+  const { student } = useStudent();
+  const progressData = studentsData[student].progress;
+
+  const vocabForStudent = vocabProgress[student] ?? [];
+  const vocabularyData = vocabForStudent.map((d) => ({ lesson: d.lesson, value: d.vocabScore }));
+  const grammarData = progressData.map((d) => ({ lesson: d.lesson, value: d.grammar }));
+  const fluencyData = progressData.map((d) => ({ lesson: d.lesson, value: d.fluency }));
+
+  const progress = getProgressMessage(progressData);
   const [expanded, setExpanded] = useState<string | null>(null);
 
   const toggle = (key: string) => setExpanded((prev) => (prev === key ? null : key));
@@ -95,7 +106,7 @@ export default function Dashboard() {
         onClick={() => toggle("total")}
         className="cursor-pointer"
       >
-        <ProgressChart prominent />
+        <ProgressChart prominent data={progressData} />
         <AnimatePresence>
           {expanded === "total" && <ChartExplanation type="total" />}
         </AnimatePresence>
@@ -123,10 +134,10 @@ export default function Dashboard() {
       {/* Secondary charts — top row */}
       <div className="grid grid-cols-3 gap-6">
         {([
-          { key: "vocabulary", title: "Vocabulary", data: vocabularyData, color: "var(--secondary)" },
-          { key: "grammar", title: "Grammar", data: grammarData, color: "var(--primary)" },
-          { key: "fluency", title: "Fluency", data: fluencyData, color: "#8B5CF6" },
-        ] as const).map(({ key, title, data, color }) => (
+          { key: "vocabulary", title: "Vocabulary", data: vocabularyData, color: "var(--secondary)", domain: [0, 100] as [number, number] },
+          { key: "grammar", title: "Grammar", data: grammarData, color: "var(--primary)", domain: undefined },
+          { key: "fluency", title: "Fluency", data: fluencyData, color: "#8B5CF6", domain: undefined },
+        ]).map(({ key, title, data, color, domain }) => (
           <motion.div
             key={key}
             whileHover={{ scale: 1.015 }}
@@ -135,9 +146,9 @@ export default function Dashboard() {
             onClick={() => toggle(key)}
             className="cursor-pointer"
           >
-            <MiniChart title={title} data={data} color={color} />
+            <MiniChart title={title} data={data} color={color} domain={domain} />
             <AnimatePresence>
-              {expanded === key && <ChartExplanation type={key} />}
+              {expanded === key && <ChartExplanation type={key as "vocabulary" | "grammar" | "fluency"} />}
             </AnimatePresence>
           </motion.div>
         ))}

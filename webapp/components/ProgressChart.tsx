@@ -10,19 +10,14 @@ import {
   ResponsiveContainer,
 } from "recharts";
 
-export const mockData = [
-  { lesson: "L1", totalProgress: 1.8, vocabulary: 1.6, grammar: 2.0, fluency: 1.9 },
-  { lesson: "L2", totalProgress: 2.1, vocabulary: 2.0, grammar: 2.1, fluency: 2.2 },
-  { lesson: "L3", totalProgress: 2.0, vocabulary: 1.9, grammar: 2.2, fluency: 1.8 },
-  { lesson: "L4", totalProgress: 2.4, vocabulary: 2.3, grammar: 2.4, fluency: 2.5 },
-  { lesson: "L5", totalProgress: 2.6, vocabulary: 2.5, grammar: 2.7, fluency: 2.7 },
-];
+import type { ProgressPoint } from "@/lib/mock-data";
 
 interface ProgressChartProps {
   prominent?: boolean;
+  data: ProgressPoint[];
 }
 
-export default function ProgressChart({ prominent = false }: ProgressChartProps) {
+export default function ProgressChart({ prominent = false, data }: ProgressChartProps) {
   const chartHeight = prominent ? 240 : 180;
 
   return (
@@ -36,7 +31,7 @@ export default function ProgressChart({ prominent = false }: ProgressChartProps)
       </h2>
       <div style={{ height: chartHeight }}>
         <ResponsiveContainer width="100%" height="100%">
-          <BarChart data={mockData} margin={{ top: 8, right: 16, left: -8, bottom: 8 }}>
+          <BarChart data={data} margin={{ top: 8, right: 16, left: -8, bottom: 8 }}>
             <CartesianGrid
               strokeDasharray="3 3"
               stroke="var(--surface-variant)"

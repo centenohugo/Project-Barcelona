@@ -1,14 +1,13 @@
 "use client";
 
 import LessonCard from "./LessonCard";
-
-const mockLessons = [
-  "Lesson 1",
-  "Lesson 2",
-  "Lesson 3",
-];
+import { useStudent } from "@/lib/student-context";
+import { studentsData } from "@/lib/mock-data";
 
 export default function LessonCards() {
+  const { student } = useStudent();
+  const lessons = studentsData[student].lessons;
+
   return (
     <section id="lessons" className="w-full">
       <h2 className="font-[family-name:var(--font-display)] text-[1.75rem] font-bold text-on-surface tracking-tight mb-8">
@@ -16,14 +15,14 @@ export default function LessonCards() {
       </h2>
       <div
         className="flex items-end justify-center py-16 px-8 overflow-visible"
-        style={{ perspective: "1200px" }}
       >
-        {mockLessons.map((name, i) => (
+        {lessons.map((lesson, i) => (
           <LessonCard
-            key={name}
+            key={lesson.id}
             index={i}
-            total={mockLessons.length}
-            lessonName={name}
+            total={lessons.length}
+            lessonName={lesson.name}
+            lessonId={lesson.id}
           />
         ))}
       </div>

@@ -13,9 +13,10 @@ interface MiniChartProps {
   title: string;
   data: { lesson: string; value: number }[];
   color: string;
+  domain?: [number, number];
 }
 
-export default function MiniChart({ title, data, color }: MiniChartProps) {
+export default function MiniChart({ title, data, color, domain }: MiniChartProps) {
   return (
     <div className="rounded-2xl bg-surface-lowest p-6">
       <h3 className="font-[family-name:var(--font-display)] text-base font-bold text-on-surface tracking-tight mb-4">
@@ -34,7 +35,7 @@ export default function MiniChart({ title, data, color }: MiniChartProps) {
               tick={{ fontSize: 10, fill: "var(--on-surface-variant)" }}
               tickLine={false}
               axisLine={false}
-              domain={[0, "auto"]}
+              domain={domain ?? [0, "auto"]}
             />
             <Tooltip
               contentStyle={{

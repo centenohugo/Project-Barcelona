@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Plus_Jakarta_Sans, Inter } from "next/font/google";
+import { StudentProvider } from "@/lib/student-context";
 import "./globals.css";
 
 const plusJakarta = Plus_Jakarta_Sans({
@@ -15,7 +16,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Barcelona — CEFR Progress Tracker",
+  title: "Charlies — CEFR Progress Tracker",
   description: "Contextual CEFR vocabulary proficiency tracker for ESL students",
 };
 
@@ -26,7 +27,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${plusJakarta.variable} ${inter.variable} h-full antialiased`}>
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        <StudentProvider>{children}</StudentProvider>
+      </body>
     </html>
   );
 }

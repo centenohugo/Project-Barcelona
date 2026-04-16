@@ -68,10 +68,16 @@ PROGRESS_DIR = Path("progress")
 
 def load_lesson_outputs(student: str, lesson: str) -> list[dict]:
     """Find and load all contextual output JSONs for a student/lesson, ordered."""
+    # Try segment-based outputs first (Deepgram: Student-1_lesson-1_01_contextual.json)
     pattern = f"{student}_{lesson}_*_contextual.json"
     files = sorted(OUTPUT_DIR.glob(pattern))
+    # Also check for single paragraphs-format output (Student-1_lesson-1_contextual.json)
+    single = OUTPUT_DIR / f"{student}_{lesson}_contextual.json"
+    if single.exists() and single not in files:
+        files.append(single)
+        files.sort()
     if not files:
-        print(f"[error] No contextual outputs found matching {pattern} in {OUTPUT_DIR}/",
+        print(f"[error] No contextual outputs found for {student}/{lesson} in {OUTPUT_DIR}/",
               file=sys.stderr)
         sys.exit(1)
     outputs = []
@@ -82,11 +88,23 @@ def load_lesson_outputs(student: str, lesson: str) -> list[dict]:
 
 
 def count_expected_segments(student: str, lesson: str) -> int:
-    """Count how many input segments exist for a student/lesson."""
+    """Count how many input segments exist for a student/lesson.
+
+    Checks for Deepgram segment files first, then falls back to counting
+    paragraph outputs (p*_contextual.json) in the output directory.
+    """
     data_dir = Path("Data") / student / lesson
-    if not data_dir.exists():
-        return 0
-    return len(list(data_dir.glob("*.json")))
+    if data_dir.exists():
+        segment_files = list(data_dir.glob("*.json"))
+        if segment_files:
+            return len(segment_files)
+    # Fallback: check for a single paragraphs-format output
+    single = OUTPUT_DIR / f"{student}_{lesson}_contextual.json"
+    if single.exists():
+        with single.open(encoding="utf-8") as f:
+            data = json.load(f)
+        return len(data.get("paragraphs", [1]))
+    return 0
 
 
 def merge_segments(segment_outputs: list[dict]) -> list[dict]:

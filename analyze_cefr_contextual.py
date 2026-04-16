@@ -1,6 +1,10 @@
 """
-Contextual CEFR classifier (A1-C2) for each word on channel 0 (student) of a
-Deepgram transcription JSON, disambiguating word SENSE by context.
+Contextual CEFR classifier (A1-C2) for each word, disambiguating word SENSE
+by context.
+
+Supports two input formats:
+  1. Deepgram transcription JSON (results.channels[0].alternatives[0].words[])
+  2. Paragraphs JSON (paragraphs[].sentences[].text) — auto-detected
 
 Approach (inspired by Kikuchi et al. 2026, arXiv:2510.18466):
 1. For each token, take a +-N word context window.
@@ -10,11 +14,6 @@ Approach (inspired by Kikuchi et al. 2026, arXiv:2510.18466):
 4. Look up the CEFR level of the corresponding sense_key in the CEFR-annotated
    WordNet published on Zenodo (10.5281/zenodo.17395388).
 
-All tokens from the student channel are analyzed. Words without a useful WordNet
-synset (interjections, contractions, digits) are resolved via whitelists or
-cefrpy fallback; proper nouns are protected with a minimum similarity threshold
-to avoid spurious high-level assignments.
-
 One-time setup:
     pip install sentence-transformers nltk numpy cefrpy
     python -m nltk.downloader wordnet omw-1.4
@@ -22,16 +21,19 @@ One-time setup:
     #   https://zenodo.org/records/17395388/files/CEFR-Annotated%20WordNet.zip
     # into resources/cefr_wordnet/
 
-Usage:  python analyze_cefr_contextual.py <input.json> [--window 5]
-Input:  Deepgram JSON with results.channels[0].alternatives[0].words[].
-Output: output/<Student-X>_<lesson-Y>_<NN>_contextual.json with
-        - words[]: {start, end, word, confidence, cefr_level}
-        - stats:   total_words, unique_words, cefr_distribution, unknown_words,
-                   lexical_diversity, synonym_groups, word_families
+Usage:
+    python analyze_cefr_contextual.py <input.json> [--window 5]
+
+    # Deepgram format:
+    python analyze_cefr_contextual.py Data/Student-1/lesson-1/01.json
+
+    # Paragraphs format (processes all paragraphs, one output per paragraph):
+    python analyze_cefr_contextual.py Data/format.json
 """
 
 import argparse
 import json
+import re
 import sys
 from collections import Counter
 from pathlib import Path
@@ -315,14 +317,12 @@ def build_classifier(sensekey_cefr: dict, window: int, model_name: str = "all-Mi
     return classify_token
 
 
-def analyze(input_path: Path, window: int, wordnet_tsv: Path) -> dict:
-    with input_path.open(encoding="utf-8") as f:
-        data = json.load(f)
-    raw_words = data["results"]["channels"][0]["alternatives"][0]["words"]
+def classify_words(raw_words: list[dict], classify_token) -> dict:
+    """Classify a list of word dicts and compute stats. Format-agnostic.
 
-    sensekey_cefr = load_sensekey_cefr(wordnet_tsv)
-    classify_token = build_classifier(sensekey_cefr, window)
-
+    Each entry in raw_words must have at least {"word": str}.
+    Optional: "start", "end", "confidence".
+    """
     tokens = [w.get("word", "").strip() for w in raw_words]
 
     words_out = []
@@ -331,14 +331,17 @@ def analyze(input_path: Path, window: int, wordnet_tsv: Path) -> dict:
         if not token:
             continue
         level, source = classify_token(tokens, i)
-        words_out.append({
-            "start": w["start"],
-            "end": w["end"],
+        entry = {
             "word": token,
-            "confidence": w["confidence"],
+            "confidence": w.get("confidence", 1.0),
             "cefr_level": level,
             "source": source,
-        })
+        }
+        if "start" in w:
+            entry["start"] = w["start"]
+        if "end" in w:
+            entry["end"] = w["end"]
+        words_out.append(entry)
 
     counts = Counter(item["cefr_level"] for item in words_out)
     total = len(words_out)
@@ -368,31 +371,131 @@ def analyze(input_path: Path, window: int, wordnet_tsv: Path) -> dict:
     return {"words": words_out, "stats": stats}
 
 
-def main():
-    parser = argparse.ArgumentParser(description="Contextual CEFR classifier.")
-    parser.add_argument("input", help="Path to Deepgram JSON file")
-    parser.add_argument("--window", type=int, default=5, help="Context window size (+-N tokens)")
-    parser.add_argument("--wordnet-path", type=Path, default=DEFAULT_WORDNET_TSV,
-                        help="Path to wordnet_sensekey_cefr.tsv")
-    args = parser.parse_args()
+# ---------------------------------------------------------------------------
+# Format: Deepgram
+# ---------------------------------------------------------------------------
 
-    input_path = Path(args.input)
-    if not args.wordnet_path.exists():
-        print(f"[error] No encuentro el fichero CEFR-WordNet en {args.wordnet_path}", file=sys.stderr)
-        print("        Descarga y descomprime el ZIP de Zenodo (ver docstring).", file=sys.stderr)
-        sys.exit(1)
 
-    result = analyze(input_path, args.window, args.wordnet_path)
+def analyze_deepgram(input_path: Path, window: int, wordnet_tsv: Path) -> dict:
+    """Analyze a Deepgram transcription JSON (original format)."""
+    with input_path.open(encoding="utf-8") as f:
+        data = json.load(f)
+    raw_words = data["results"]["channels"][0]["alternatives"][0]["words"]
 
-    output_dir = Path("output")
-    output_dir.mkdir(exist_ok=True)
-    parts = input_path.with_suffix("").parts[-3:]
-    output_path = output_dir / ("_".join(parts) + "_contextual.json")
+    sensekey_cefr = load_sensekey_cefr(wordnet_tsv)
+    classify_token = build_classifier(sensekey_cefr, window)
+    return classify_words(raw_words, classify_token)
 
-    with output_path.open("w", encoding="utf-8") as f:
-        json.dump(result, f, indent=2, ensure_ascii=False)
 
-    print(f"Wrote {output_path}")
+# ---------------------------------------------------------------------------
+# Format: Paragraphs JSON
+# ---------------------------------------------------------------------------
+
+
+_PUNCT_STRIP = re.compile(r'^[^\w]+|[^\w]+$')
+
+
+def _tokenize_sentence(text: str) -> list[str]:
+    """Split sentence text into word tokens, stripping surrounding punctuation."""
+    tokens = []
+    for raw in text.split():
+        clean = _PUNCT_STRIP.sub("", raw)
+        if clean:
+            tokens.append(clean)
+    return tokens
+
+
+def load_paragraphs_format(path: Path) -> tuple[str, str, list[tuple[int, str, list[dict]]]]:
+    """Load a paragraphs JSON and return (student, lesson, paragraphs_data).
+
+    paragraphs_data is a list of (paragraph_id, label, raw_words) where
+    raw_words follows the same dict format as Deepgram words.
+    """
+    with path.open(encoding="utf-8") as f:
+        data = json.load(f)
+
+    student = data["student"]
+    lesson = data["lesson"]
+
+    paragraphs_data = []
+    for para in data["paragraphs"]:
+        pid = para["paragraph_id"]
+        label = para.get("label", "")
+        raw_words = []
+        for sent in para.get("sentences", []):
+            for token in _tokenize_sentence(sent.get("text", "")):
+                raw_words.append({"word": token, "confidence": 1.0})
+        paragraphs_data.append((pid, label, raw_words))
+
+    return student, lesson, paragraphs_data
+
+
+def analyze_paragraphs(input_path: Path, window: int, wordnet_tsv: Path) -> dict:
+    """Analyze a paragraphs-format JSON. Returns a single result dict.
+
+    The output contains all words classified across all paragraphs, plus a
+    per-paragraph breakdown in the "paragraphs" key.
+    """
+    student, lesson, paragraphs_data = load_paragraphs_format(input_path)
+
+    sensekey_cefr = load_sensekey_cefr(wordnet_tsv)
+    classify_token = build_classifier(sensekey_cefr, window)
+
+    # Classify all words across all paragraphs as one flat token list
+    # (so the context window can cross paragraph boundaries)
+    all_raw_words = []
+    paragraph_boundaries = []  # (start_idx, end_idx, pid, label)
+    for pid, label, raw_words in paragraphs_data:
+        start = len(all_raw_words)
+        all_raw_words.extend(raw_words)
+        end = len(all_raw_words)
+        paragraph_boundaries.append((start, end, pid, label))
+
+    result = classify_words(all_raw_words, classify_token)
+
+    # Build per-paragraph breakdown from the classified words
+    paragraphs_out = []
+    for start, end, pid, label in paragraph_boundaries:
+        para_words = result["words"][start:end]
+        para_counts = Counter(w["cefr_level"] for w in para_words)
+        para_total = len(para_words)
+        para_dist = {
+            lvl: {
+                "count": para_counts.get(lvl, 0),
+                "percent": round(100 * para_counts.get(lvl, 0) / para_total, 2) if para_total else 0.0,
+            }
+            for lvl in LEVELS
+        }
+        paragraphs_out.append({
+            "paragraph_id": pid,
+            "label": label,
+            "total_words": para_total,
+            "unique_words": len({w["word"] for w in para_words}),
+            "cefr_distribution": para_dist,
+        })
+
+    result["student"] = student
+    result["lesson"] = lesson
+    result["paragraphs"] = paragraphs_out
+    return result
+
+
+# ---------------------------------------------------------------------------
+# Format detection and CLI
+# ---------------------------------------------------------------------------
+
+
+def detect_format(input_path: Path) -> str:
+    """Detect whether the input JSON is Deepgram or paragraphs format."""
+    with input_path.open(encoding="utf-8") as f:
+        data = json.load(f)
+    if "paragraphs" in data:
+        return "paragraphs"
+    return "deepgram"
+
+
+def _print_result_summary(result: dict):
+    """Print summary stats for a single analysis result."""
     print(f"  total_words={result['stats']['total_words']}  unique={result['stats']['unique_words']}")
     for lvl, d in result["stats"]["cefr_distribution"].items():
         print(f"  {lvl}: {d['count']} ({d['percent']}%)")
@@ -404,8 +507,44 @@ def main():
         print(f"    synonym group: {g['words_used']} ({g['synset']}) -> {g['cefr_levels']}")
     if result["stats"]["word_families"]:
         print(f"  Word families found: {len(result['stats']['word_families'])}")
-        for f in result["stats"]["word_families"]:
-            print(f"    family: {f['members_used']} -> {f['cefr_levels']}")
+        for fam in result["stats"]["word_families"]:
+            print(f"    family: {fam['members_used']} -> {fam['cefr_levels']}")
+
+
+def main():
+    parser = argparse.ArgumentParser(description="Contextual CEFR classifier.")
+    parser.add_argument("input", help="Path to input JSON (Deepgram or paragraphs format)")
+    parser.add_argument("--window", type=int, default=5, help="Context window size (+-N tokens)")
+    parser.add_argument("--wordnet-path", type=Path, default=DEFAULT_WORDNET_TSV,
+                        help="Path to wordnet_sensekey_cefr.tsv")
+    args = parser.parse_args()
+
+    input_path = Path(args.input)
+    if not args.wordnet_path.exists():
+        print(f"[error] No encuentro el fichero CEFR-WordNet en {args.wordnet_path}", file=sys.stderr)
+        print("        Descarga y descomprime el ZIP de Zenodo (ver docstring).", file=sys.stderr)
+        sys.exit(1)
+
+    fmt = detect_format(input_path)
+    output_dir = Path("output")
+    output_dir.mkdir(exist_ok=True)
+
+    if fmt == "paragraphs":
+        print(f"[info] Detected paragraphs format", file=sys.stderr)
+        result = analyze_paragraphs(input_path, args.window, args.wordnet_path)
+        student = result["student"]
+        lesson = result["lesson"]
+        output_path = output_dir / f"{student}_{lesson}_contextual.json"
+    else:
+        result = analyze_deepgram(input_path, args.window, args.wordnet_path)
+        parts = input_path.with_suffix("").parts[-3:]
+        output_path = output_dir / ("_".join(parts) + "_contextual.json")
+
+    with output_path.open("w", encoding="utf-8") as f:
+        json.dump(result, f, indent=2, ensure_ascii=False)
+
+    print(f"Wrote {output_path}")
+    _print_result_summary(result)
 
 
 if __name__ == "__main__":

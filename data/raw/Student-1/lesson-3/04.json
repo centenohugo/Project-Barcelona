@@ -1,0 +1,5371 @@
+{
+  "results": {
+    "channels": [
+      {
+        "alternatives": [
+          {
+            "transcript": "Then I don't I don't because when I working now I'm working from home. So I have a lot of frames in my when I have both spare time and the time in which I need to work. So it depends on the situation. It it doesn't depend only on my planifications, but but I try to be concentrated when I need need to work. And if I have a spare time to to do something different, I I used to not not use a lot of applications to to waste time. Yeah. You know? For me, sometimes it's hard and sometimes doesn't in sense that it isn't. It isn't. It isn't. It's and sometimes it isn't in sense that when I sometimes I need to I need to use Excel, yeah, as a as a program when it's it's very it's not very demanding, but and it's not very complicated, but you need to be concentrated, be focused on what you what you what you write, yeah, what you put generally. And if I'm disrupted by not only by notifications, but by every situation, I need I need, like, four, five minutes to to get back and be really concentrated as as if, you know, as if I wasn't disrupted completely. Mhmm. Yeah. Because if you if you see I I guess that if you see that it's that someone called you during the class, you you notice it and you thinking about you are thinking about it during having a class, having a lesson. Yeah? And it even if you you you don't want, it can disrupt. Happens automatically. Yeah. Yeah. Yes. I have. For example, I remember that when I was at school and I was supposed to to pass an exam, for example, I I remember that I that I felt that in my pocket, my phone was was, you know, was vibrating. Was vibrating. And even this sensation, it cows that I was thinking about it because I I couldn't check check out who who was who was calling to me. So I was disruptive disruptive disruptive. And in this moment, I need to be concentrated because it was a very complicated exam, and I lost, like",
+            "confidence": 0.99121094,
+            "words": [
+              {
+                "word": "then",
+                "start": 4.96,
+                "end": 5.84,
+                "confidence": 0.54833984,
+                "punctuated_word": "Then",
+                "word_id": 1381
+              },
+              {
+                "word": "i",
+                "start": 7.2,
+                "end": 7.44,
+                "confidence": 0.76953125,
+                "punctuated_word": "I",
+                "word_id": 1382
+              },
+              {
+                "word": "don't",
+                "start": 7.44,
+                "end": 7.8399997,
+                "confidence": 1,
+                "punctuated_word": "don't",
+                "word_id": 1383
+              },
+              {
+                "word": "i",
+                "start": 7.8399997,
+                "end": 8.639999,
+                "confidence": 0.49951172,
+                "punctuated_word": "I",
+                "word_id": 1384
+              },
+              {
+                "word": "don't",
+                "start": 8.639999,
+                "end": 8.96,
+                "confidence": 1,
+                "punctuated_word": "don't",
+                "word_id": 1385
+              },
+              {
+                "word": "because",
+                "start": 8.96,
+                "end": 9.679999,
+                "confidence": 0.8378906,
+                "punctuated_word": "because",
+                "word_id": 1386
+              },
+              {
+                "word": "when",
+                "start": 9.84,
+                "end": 10.16,
+                "confidence": 0.9716797,
+                "punctuated_word": "when",
+                "word_id": 1387
+              },
+              {
+                "word": "i",
+                "start": 10.16,
+                "end": 10.4,
+                "confidence": 0.9970703,
+                "punctuated_word": "I",
+                "word_id": 1388
+              },
+              {
+                "word": "working",
+                "start": 10.4,
+                "end": 10.88,
+                "confidence": 0.6557617,
+                "punctuated_word": "working",
+                "word_id": 1389
+              },
+              {
+                "word": "now",
+                "start": 10.96,
+                "end": 11.36,
+                "confidence": 0.82177734,
+                "punctuated_word": "now",
+                "word_id": 1390
+              },
+              {
+                "word": "i'm",
+                "start": 11.36,
+                "end": 11.679999,
+                "confidence": 0.9848633,
+                "punctuated_word": "I'm",
+                "word_id": 1391
+              },
+              {
+                "word": "working",
+                "start": 11.679999,
+                "end": 11.92,
+                "confidence": 1,
+                "punctuated_word": "working",
+                "word_id": 1392
+              },
+              {
+                "word": "from",
+                "start": 11.92,
+                "end": 12.32,
+                "confidence": 1,
+                "punctuated_word": "from",
+                "word_id": 1393
+              },
+              {
+                "word": "home",
+                "start": 12.32,
+                "end": 12.719999,
+                "confidence": 0.814209,
+                "punctuated_word": "home.",
+                "word_id": 1394
+              },
+              {
+                "word": "so",
+                "start": 14.135,
+                "end": 15.095,
+                "confidence": 0.99121094,
+                "punctuated_word": "So",
+                "word_id": 1395
+              },
+              {
+                "word": "i",
+                "start": 16.055,
+                "end": 16.295,
+                "confidence": 0.9760742,
+                "punctuated_word": "I",
+                "word_id": 1396
+              },
+              {
+                "word": "have",
+                "start": 16.295,
+                "end": 16.535,
+                "confidence": 0.99121094,
+                "punctuated_word": "have",
+                "word_id": 1397
+              },
+              {
+                "word": "a",
+                "start": 16.535,
+                "end": 16.775,
+                "confidence": 0.9921875,
+                "punctuated_word": "a",
+                "word_id": 1398
+              },
+              {
+                "word": "lot",
+                "start": 16.775,
+                "end": 16.935,
+                "confidence": 1,
+                "punctuated_word": "lot",
+                "word_id": 1399
+              },
+              {
+                "word": "of",
+                "start": 16.935,
+                "end": 17.415,
+                "confidence": 1,
+                "punctuated_word": "of",
+                "word_id": 1400
+              },
+              {
+                "word": "frames",
+                "start": 18.455,
+                "end": 19.095001,
+                "confidence": 0.9658203,
+                "punctuated_word": "frames",
+                "word_id": 1401
+              },
+              {
+                "word": "in",
+                "start": 19.095001,
+                "end": 19.735,
+                "confidence": 0.95703125,
+                "punctuated_word": "in",
+                "word_id": 1402
+              },
+              {
+                "word": "my",
+                "start": 19.735,
+                "end": 20.375,
+                "confidence": 1,
+                "punctuated_word": "my",
+                "word_id": 1403
+              },
+              {
+                "word": "when",
+                "start": 20.775,
+                "end": 21.015,
+                "confidence": 0.99316406,
+                "punctuated_word": "when",
+                "word_id": 1404
+              },
+              {
+                "word": "i",
+                "start": 21.015,
+                "end": 21.255001,
+                "confidence": 1,
+                "punctuated_word": "I",
+                "word_id": 1405
+              },
+              {
+                "word": "have",
+                "start": 21.255001,
+                "end": 21.895,
+                "confidence": 1,
+                "punctuated_word": "have",
+                "word_id": 1406
+              },
+              {
+                "word": "both",
+                "start": 22.615,
+                "end": 23.015,
+                "confidence": 0.9448242,
+                "punctuated_word": "both",
+                "word_id": 1407
+              },
+              {
+                "word": "spare",
+                "start": 23.015,
+                "end": 23.494999,
+                "confidence": 0.9580078,
+                "punctuated_word": "spare",
+                "word_id": 1408
+              },
+              {
+                "word": "time",
+                "start": 23.494999,
+                "end": 23.895,
+                "confidence": 1,
+                "punctuated_word": "time",
+                "word_id": 1409
+              },
+              {
+                "word": "and",
+                "start": 23.895,
+                "end": 24.375,
+                "confidence": 0.9892578,
+                "punctuated_word": "and",
+                "word_id": 1410
+              },
+              {
+                "word": "the",
+                "start": 24.375,
+                "end": 25.015,
+                "confidence": 0.9838867,
+                "punctuated_word": "the",
+                "word_id": 1411
+              },
+              {
+                "word": "time",
+                "start": 25.015,
+                "end": 25.335,
+                "confidence": 0.7211914,
+                "punctuated_word": "time",
+                "word_id": 1412
+              },
+              {
+                "word": "in",
+                "start": 25.335,
+                "end": 25.575,
+                "confidence": 0.9980469,
+                "punctuated_word": "in",
+                "word_id": 1413
+              },
+              {
+                "word": "which",
+                "start": 25.575,
+                "end": 25.814999,
+                "confidence": 1,
+                "punctuated_word": "which",
+                "word_id": 1414
+              },
+              {
+                "word": "i",
+                "start": 25.814999,
+                "end": 26.055,
+                "confidence": 1,
+                "punctuated_word": "I",
+                "word_id": 1415
+              },
+              {
+                "word": "need",
+                "start": 26.055,
+                "end": 26.295,
+                "confidence": 1,
+                "punctuated_word": "need",
+                "word_id": 1416
+              },
+              {
+                "word": "to",
+                "start": 26.295,
+                "end": 26.455,
+                "confidence": 0.99902344,
+                "punctuated_word": "to",
+                "word_id": 1417
+              },
+              {
+                "word": "work",
+                "start": 26.455,
+                "end": 26.935001,
+                "confidence": 0.91967773,
+                "punctuated_word": "work.",
+                "word_id": 1418
+              },
+              {
+                "word": "so",
+                "start": 26.935001,
+                "end": 27.175,
+                "confidence": 1,
+                "punctuated_word": "So",
+                "word_id": 1419
+              },
+              {
+                "word": "it",
+                "start": 27.175,
+                "end": 27.494999,
+                "confidence": 0.99902344,
+                "punctuated_word": "it",
+                "word_id": 1420
+              },
+              {
+                "word": "depends",
+                "start": 27.494999,
+                "end": 27.814999,
+                "confidence": 1,
+                "punctuated_word": "depends",
+                "word_id": 1421
+              },
+              {
+                "word": "on",
+                "start": 27.814999,
+                "end": 27.975,
+                "confidence": 1,
+                "punctuated_word": "on",
+                "word_id": 1422
+              },
+              {
+                "word": "the",
+                "start": 27.975,
+                "end": 28.135,
+                "confidence": 1,
+                "punctuated_word": "the",
+                "word_id": 1423
+              },
+              {
+                "word": "situation",
+                "start": 28.135,
+                "end": 28.695,
+                "confidence": 0.9995117,
+                "punctuated_word": "situation.",
+                "word_id": 1424
+              },
+              {
+                "word": "it",
+                "start": 28.695,
+                "end": 29.095001,
+                "confidence": 1,
+                "punctuated_word": "It",
+                "word_id": 1425
+              },
+              {
+                "word": "it",
+                "start": 29.539999,
+                "end": 29.859999,
+                "confidence": 0.82910156,
+                "punctuated_word": "it",
+                "word_id": 1426
+              },
+              {
+                "word": "doesn't",
+                "start": 29.859999,
+                "end": 30.339998,
+                "confidence": 0.99658203,
+                "punctuated_word": "doesn't",
+                "word_id": 1427
+              },
+              {
+                "word": "depend",
+                "start": 30.339998,
+                "end": 31.06,
+                "confidence": 0.9506836,
+                "punctuated_word": "depend",
+                "word_id": 1428
+              },
+              {
+                "word": "only",
+                "start": 31.06,
+                "end": 32.02,
+                "confidence": 0.98828125,
+                "punctuated_word": "only",
+                "word_id": 1429
+              },
+              {
+                "word": "on",
+                "start": 32.82,
+                "end": 33.14,
+                "confidence": 0.99902344,
+                "punctuated_word": "on",
+                "word_id": 1430
+              },
+              {
+                "word": "my",
+                "start": 33.14,
+                "end": 33.54,
+                "confidence": 1,
+                "punctuated_word": "my",
+                "word_id": 1431
+              },
+              {
+                "word": "planifications",
+                "start": 33.54,
+                "end": 34.66,
+                "confidence": 0.5845947,
+                "punctuated_word": "planifications,",
+                "word_id": 1432
+              },
+              {
+                "word": "but",
+                "start": 34.66,
+                "end": 35.379997,
+                "confidence": 1,
+                "punctuated_word": "but",
+                "word_id": 1433
+              },
+              {
+                "word": "but",
+                "start": 35.86,
+                "end": 36.26,
+                "confidence": 0.99609375,
+                "punctuated_word": "but",
+                "word_id": 1434
+              },
+              {
+                "word": "i",
+                "start": 36.26,
+                "end": 37.059998,
+                "confidence": 0.99121094,
+                "punctuated_word": "I",
+                "word_id": 1435
+              },
+              {
+                "word": "try",
+                "start": 37.059998,
+                "end": 37.379997,
+                "confidence": 0.88183594,
+                "punctuated_word": "try",
+                "word_id": 1436
+              },
+              {
+                "word": "to",
+                "start": 37.379997,
+                "end": 37.54,
+                "confidence": 1,
+                "punctuated_word": "to",
+                "word_id": 1437
+              },
+              {
+                "word": "be",
+                "start": 37.54,
+                "end": 37.86,
+                "confidence": 1,
+                "punctuated_word": "be",
+                "word_id": 1438
+              },
+              {
+                "word": "concentrated",
+                "start": 37.86,
+                "end": 38.42,
+                "confidence": 0.99316406,
+                "punctuated_word": "concentrated",
+                "word_id": 1439
+              },
+              {
+                "word": "when",
+                "start": 38.42,
+                "end": 38.82,
+                "confidence": 1,
+                "punctuated_word": "when",
+                "word_id": 1440
+              },
+              {
+                "word": "i",
+                "start": 38.82,
+                "end": 39.46,
+                "confidence": 1,
+                "punctuated_word": "I",
+                "word_id": 1441
+              },
+              {
+                "word": "need",
+                "start": 39.699997,
+                "end": 40.1,
+                "confidence": 0.9980469,
+                "punctuated_word": "need",
+                "word_id": 1442
+              },
+              {
+                "word": "need",
+                "start": 40.1,
+                "end": 40.82,
+                "confidence": 0.6640625,
+                "punctuated_word": "need",
+                "word_id": 1443
+              },
+              {
+                "word": "to",
+                "start": 40.82,
+                "end": 41.059998,
+                "confidence": 0.99902344,
+                "punctuated_word": "to",
+                "word_id": 1444
+              },
+              {
+                "word": "work",
+                "start": 41.059998,
+                "end": 41.3,
+                "confidence": 0.97143555,
+                "punctuated_word": "work.",
+                "word_id": 1445
+              },
+              {
+                "word": "and",
+                "start": 42.465,
+                "end": 43.105,
+                "confidence": 0.9760742,
+                "punctuated_word": "And",
+                "word_id": 1446
+              },
+              {
+                "word": "if",
+                "start": 43.425,
+                "end": 43.824997,
+                "confidence": 0.7871094,
+                "punctuated_word": "if",
+                "word_id": 1447
+              },
+              {
+                "word": "i",
+                "start": 43.824997,
+                "end": 44.465,
+                "confidence": 0.99902344,
+                "punctuated_word": "I",
+                "word_id": 1448
+              },
+              {
+                "word": "have",
+                "start": 45.585,
+                "end": 46.305,
+                "confidence": 0.7636719,
+                "punctuated_word": "have",
+                "word_id": 1449
+              },
+              {
+                "word": "a",
+                "start": 46.864998,
+                "end": 46.945,
+                "confidence": 0.7998047,
+                "punctuated_word": "a",
+                "word_id": 1450
+              },
+              {
+                "word": "spare",
+                "start": 46.945,
+                "end": 47.184998,
+                "confidence": 0.8730469,
+                "punctuated_word": "spare",
+                "word_id": 1451
+              },
+              {
+                "word": "time",
+                "start": 47.184998,
+                "end": 47.585,
+                "confidence": 1,
+                "punctuated_word": "time",
+                "word_id": 1452
+              },
+              {
+                "word": "to",
+                "start": 47.585,
+                "end": 48.385,
+                "confidence": 1,
+                "punctuated_word": "to",
+                "word_id": 1453
+              },
+              {
+                "word": "to",
+                "start": 49.184998,
+                "end": 49.504997,
+                "confidence": 0.98291016,
+                "punctuated_word": "to",
+                "word_id": 1454
+              },
+              {
+                "word": "do",
+                "start": 49.504997,
+                "end": 49.664997,
+                "confidence": 0.99902344,
+                "punctuated_word": "do",
+                "word_id": 1455
+              },
+              {
+                "word": "something",
+                "start": 49.664997,
+                "end": 50.065,
+                "confidence": 1,
+                "punctuated_word": "something",
+                "word_id": 1456
+              },
+              {
+                "word": "different",
+                "start": 50.065,
+                "end": 50.704998,
+                "confidence": 0.98950195,
+                "punctuated_word": "different,",
+                "word_id": 1457
+              },
+              {
+                "word": "i",
+                "start": 50.704998,
+                "end": 51.585,
+                "confidence": 0.99316406,
+                "punctuated_word": "I",
+                "word_id": 1458
+              },
+              {
+                "word": "i",
+                "start": 52.144997,
+                "end": 52.464996,
+                "confidence": 0.9863281,
+                "punctuated_word": "I",
+                "word_id": 1459
+              },
+              {
+                "word": "used",
+                "start": 52.464996,
+                "end": 52.785,
+                "confidence": 0.99121094,
+                "punctuated_word": "used",
+                "word_id": 1460
+              },
+              {
+                "word": "to",
+                "start": 52.785,
+                "end": 53.344997,
+                "confidence": 0.99902344,
+                "punctuated_word": "to",
+                "word_id": 1461
+              },
+              {
+                "word": "not",
+                "start": 53.824997,
+                "end": 54.545,
+                "confidence": 0.99609375,
+                "punctuated_word": "not",
+                "word_id": 1462
+              },
+              {
+                "word": "not",
+                "start": 55.64,
+                "end": 56.12,
+                "confidence": 0.99902344,
+                "punctuated_word": "not",
+                "word_id": 1463
+              },
+              {
+                "word": "use",
+                "start": 56.12,
+                "end": 57.16,
+                "confidence": 0.9980469,
+                "punctuated_word": "use",
+                "word_id": 1464
+              },
+              {
+                "word": "a",
+                "start": 57.32,
+                "end": 57.48,
+                "confidence": 0.9970703,
+                "punctuated_word": "a",
+                "word_id": 1465
+              },
+              {
+                "word": "lot",
+                "start": 57.48,
+                "end": 57.64,
+                "confidence": 0.9970703,
+                "punctuated_word": "lot",
+                "word_id": 1466
+              },
+              {
+                "word": "of",
+                "start": 57.64,
+                "end": 57.8,
+                "confidence": 1,
+                "punctuated_word": "of",
+                "word_id": 1467
+              },
+              {
+                "word": "applications",
+                "start": 57.8,
+                "end": 58.68,
+                "confidence": 0.9790039,
+                "punctuated_word": "applications",
+                "word_id": 1468
+              },
+              {
+                "word": "to",
+                "start": 58.68,
+                "end": 59.399998,
+                "confidence": 0.9951172,
+                "punctuated_word": "to",
+                "word_id": 1469
+              },
+              {
+                "word": "to",
+                "start": 59.399998,
+                "end": 59.719997,
+                "confidence": 0.9970703,
+                "punctuated_word": "to",
+                "word_id": 1470
+              },
+              {
+                "word": "waste",
+                "start": 59.719997,
+                "end": 60.039997,
+                "confidence": 0.99902344,
+                "punctuated_word": "waste",
+                "word_id": 1471
+              },
+              {
+                "word": "time",
+                "start": 60.039997,
+                "end": 60.44,
+                "confidence": 0.9562988,
+                "punctuated_word": "time.",
+                "word_id": 1472
+              },
+              {
+                "word": "yeah",
+                "start": 60.44,
+                "end": 60.76,
+                "confidence": 0.81762695,
+                "punctuated_word": "Yeah.",
+                "word_id": 1473
+              },
+              {
+                "word": "you",
+                "start": 60.76,
+                "end": 60.92,
+                "confidence": 0.9902344,
+                "punctuated_word": "You",
+                "word_id": 1474
+              },
+              {
+                "word": "know",
+                "start": 60.92,
+                "end": 61.079998,
+                "confidence": 0.8535156,
+                "punctuated_word": "know?",
+                "word_id": 1475
+              },
+              {
+                "word": "for",
+                "start": 71.745,
+                "end": 72.225,
+                "confidence": 0.80615234,
+                "punctuated_word": "For",
+                "word_id": 1476
+              },
+              {
+                "word": "me",
+                "start": 72.225,
+                "end": 72.865,
+                "confidence": 0.9951172,
+                "punctuated_word": "me,",
+                "word_id": 1477
+              },
+              {
+                "word": "sometimes",
+                "start": 72.945,
+                "end": 73.665,
+                "confidence": 0.7138672,
+                "punctuated_word": "sometimes",
+                "word_id": 1478
+              },
+              {
+                "word": "it's",
+                "start": 74.785,
+                "end": 75.105,
+                "confidence": 0.81347656,
+                "punctuated_word": "it's",
+                "word_id": 1479
+              },
+              {
+                "word": "hard",
+                "start": 75.105,
+                "end": 75.425,
+                "confidence": 0.61816406,
+                "punctuated_word": "hard",
+                "word_id": 1480
+              },
+              {
+                "word": "and",
+                "start": 75.425,
+                "end": 75.665,
+                "confidence": 0.51416016,
+                "punctuated_word": "and",
+                "word_id": 1481
+              },
+              {
+                "word": "sometimes",
+                "start": 75.665,
+                "end": 76.385,
+                "confidence": 0.984375,
+                "punctuated_word": "sometimes",
+                "word_id": 1482
+              },
+              {
+                "word": "doesn't",
+                "start": 77.665,
+                "end": 78.945,
+                "confidence": 0.94921875,
+                "punctuated_word": "doesn't",
+                "word_id": 1483
+              },
+              {
+                "word": "in",
+                "start": 78.945,
+                "end": 79.185,
+                "confidence": 0.68652344,
+                "punctuated_word": "in",
+                "word_id": 1484
+              },
+              {
+                "word": "sense",
+                "start": 79.185,
+                "end": 79.425,
+                "confidence": 0.7998047,
+                "punctuated_word": "sense",
+                "word_id": 1485
+              },
+              {
+                "word": "that",
+                "start": 79.425,
+                "end": 79.985,
+                "confidence": 0.9892578,
+                "punctuated_word": "that",
+                "word_id": 1486
+              },
+              {
+                "word": "it",
+                "start": 80.465,
+                "end": 80.945,
+                "confidence": 0.5839844,
+                "punctuated_word": "it",
+                "word_id": 1487
+              },
+              {
+                "word": "isn't",
+                "start": 80.53001,
+                "end": 81.01,
+                "confidence": 0.8411458,
+                "punctuated_word": "isn't.",
+                "word_id": 1488
+              },
+              {
+                "word": "it",
+                "start": 81.01,
+                "end": 81.170006,
+                "confidence": 0.99902344,
+                "punctuated_word": "It",
+                "word_id": 1489
+              },
+              {
+                "word": "isn't",
+                "start": 81.170006,
+                "end": 81.490005,
+                "confidence": 0.9926758,
+                "punctuated_word": "isn't.",
+                "word_id": 1490
+              },
+              {
+                "word": "it",
+                "start": 81.490005,
+                "end": 81.65,
+                "confidence": 0.9902344,
+                "punctuated_word": "It",
+                "word_id": 1491
+              },
+              {
+                "word": "isn't",
+                "start": 81.65,
+                "end": 82.130005,
+                "confidence": 0.97998047,
+                "punctuated_word": "isn't.",
+                "word_id": 1492
+              },
+              {
+                "word": "it's",
+                "start": 82.130005,
+                "end": 82.29,
+                "confidence": 0.94433594,
+                "punctuated_word": "It's",
+                "word_id": 1493
+              },
+              {
+                "word": "and",
+                "start": 82.37,
+                "end": 82.450005,
+                "confidence": 0.9951172,
+                "punctuated_word": "and",
+                "word_id": 1494
+              },
+              {
+                "word": "sometimes",
+                "start": 82.450005,
+                "end": 82.850006,
+                "confidence": 0.97509766,
+                "punctuated_word": "sometimes",
+                "word_id": 1495
+              },
+              {
+                "word": "it",
+                "start": 82.850006,
+                "end": 83.090004,
+                "confidence": 0.6010742,
+                "punctuated_word": "it",
+                "word_id": 1496
+              },
+              {
+                "word": "isn't",
+                "start": 83.090004,
+                "end": 83.65,
+                "confidence": 0.9995117,
+                "punctuated_word": "isn't",
+                "word_id": 1497
+              },
+              {
+                "word": "in",
+                "start": 83.65,
+                "end": 83.97,
+                "confidence": 0.6713867,
+                "punctuated_word": "in",
+                "word_id": 1498
+              },
+              {
+                "word": "sense",
+                "start": 83.97,
+                "end": 84.21,
+                "confidence": 0.9370117,
+                "punctuated_word": "sense",
+                "word_id": 1499
+              },
+              {
+                "word": "that",
+                "start": 84.21,
+                "end": 84.450005,
+                "confidence": 0.9921875,
+                "punctuated_word": "that",
+                "word_id": 1500
+              },
+              {
+                "word": "when",
+                "start": 84.450005,
+                "end": 84.770004,
+                "confidence": 0.9921875,
+                "punctuated_word": "when",
+                "word_id": 1501
+              },
+              {
+                "word": "i",
+                "start": 84.770004,
+                "end": 85.41,
+                "confidence": 0.99316406,
+                "punctuated_word": "I",
+                "word_id": 1502
+              },
+              {
+                "word": "sometimes",
+                "start": 87.01,
+                "end": 87.810005,
+                "confidence": 0.99902344,
+                "punctuated_word": "sometimes",
+                "word_id": 1503
+              },
+              {
+                "word": "i",
+                "start": 87.97,
+                "end": 89.01,
+                "confidence": 0.7973633,
+                "punctuated_word": "I",
+                "word_id": 1504
+              },
+              {
+                "word": "need",
+                "start": 89.01,
+                "end": 89.33,
+                "confidence": 0.9951172,
+                "punctuated_word": "need",
+                "word_id": 1505
+              },
+              {
+                "word": "to",
+                "start": 89.33,
+                "end": 89.89,
+                "confidence": 0.99902344,
+                "punctuated_word": "to",
+                "word_id": 1506
+              },
+              {
+                "word": "i",
+                "start": 92.770004,
+                "end": 93.090004,
+                "confidence": 0.9658203,
+                "punctuated_word": "I",
+                "word_id": 1507
+              },
+              {
+                "word": "need",
+                "start": 93.090004,
+                "end": 93.33,
+                "confidence": 1,
+                "punctuated_word": "need",
+                "word_id": 1508
+              },
+              {
+                "word": "to",
+                "start": 93.33,
+                "end": 93.57,
+                "confidence": 1,
+                "punctuated_word": "to",
+                "word_id": 1509
+              },
+              {
+                "word": "use",
+                "start": 93.57,
+                "end": 94.37,
+                "confidence": 1,
+                "punctuated_word": "use",
+                "word_id": 1510
+              },
+              {
+                "word": "excel",
+                "start": 95.33,
+                "end": 95.97,
+                "confidence": 0.8010254,
+                "punctuated_word": "Excel,",
+                "word_id": 1511
+              },
+              {
+                "word": "yeah",
+                "start": 95.97,
+                "end": 96.29,
+                "confidence": 0.99902344,
+                "punctuated_word": "yeah,",
+                "word_id": 1512
+              },
+              {
+                "word": "as",
+                "start": 96.29,
+                "end": 97.33,
+                "confidence": 0.9951172,
+                "punctuated_word": "as",
+                "word_id": 1513
+              },
+              {
+                "word": "a",
+                "start": 96.475006,
+                "end": 96.715004,
+                "confidence": 0.87841797,
+                "punctuated_word": "a",
+                "word_id": 1514
+              },
+              {
+                "word": "as",
+                "start": 96.715004,
+                "end": 96.955,
+                "confidence": 0.9707031,
+                "punctuated_word": "as",
+                "word_id": 1515
+              },
+              {
+                "word": "a",
+                "start": 96.955,
+                "end": 97.115005,
+                "confidence": 0.9980469,
+                "punctuated_word": "a",
+                "word_id": 1516
+              },
+              {
+                "word": "program",
+                "start": 97.115005,
+                "end": 97.515,
+                "confidence": 0.9970703,
+                "punctuated_word": "program",
+                "word_id": 1517
+              },
+              {
+                "word": "when",
+                "start": 97.515,
+                "end": 98.155,
+                "confidence": 0.9394531,
+                "punctuated_word": "when",
+                "word_id": 1518
+              },
+              {
+                "word": "it's",
+                "start": 98.315,
+                "end": 99.035,
+                "confidence": 0.93652344,
+                "punctuated_word": "it's",
+                "word_id": 1519
+              },
+              {
+                "word": "it's",
+                "start": 99.035,
+                "end": 99.435005,
+                "confidence": 0.99902344,
+                "punctuated_word": "it's",
+                "word_id": 1520
+              },
+              {
+                "word": "very",
+                "start": 99.435005,
+                "end": 100.075005,
+                "confidence": 1,
+                "punctuated_word": "very",
+                "word_id": 1521
+              },
+              {
+                "word": "it's",
+                "start": 100.875,
+                "end": 101.115005,
+                "confidence": 0.9655762,
+                "punctuated_word": "it's",
+                "word_id": 1522
+              },
+              {
+                "word": "not",
+                "start": 101.115005,
+                "end": 101.195,
+                "confidence": 0.9819336,
+                "punctuated_word": "not",
+                "word_id": 1523
+              },
+              {
+                "word": "very",
+                "start": 101.195,
+                "end": 101.435005,
+                "confidence": 0.95947266,
+                "punctuated_word": "very",
+                "word_id": 1524
+              },
+              {
+                "word": "demanding",
+                "start": 101.435005,
+                "end": 102.155,
+                "confidence": 0.8935547,
+                "punctuated_word": "demanding,",
+                "word_id": 1525
+              },
+              {
+                "word": "but",
+                "start": 102.155,
+                "end": 102.315,
+                "confidence": 1,
+                "punctuated_word": "but",
+                "word_id": 1526
+              },
+              {
+                "word": "and",
+                "start": 102.795006,
+                "end": 103.035,
+                "confidence": 0.97998047,
+                "punctuated_word": "and",
+                "word_id": 1527
+              },
+              {
+                "word": "it's",
+                "start": 103.035,
+                "end": 103.355,
+                "confidence": 0.9941406,
+                "punctuated_word": "it's",
+                "word_id": 1528
+              },
+              {
+                "word": "not",
+                "start": 103.355,
+                "end": 103.515,
+                "confidence": 0.9873047,
+                "punctuated_word": "not",
+                "word_id": 1529
+              },
+              {
+                "word": "very",
+                "start": 103.515,
+                "end": 103.755005,
+                "confidence": 0.9980469,
+                "punctuated_word": "very",
+                "word_id": 1530
+              },
+              {
+                "word": "complicated",
+                "start": 103.755005,
+                "end": 104.475006,
+                "confidence": 0.85058594,
+                "punctuated_word": "complicated,",
+                "word_id": 1531
+              },
+              {
+                "word": "but",
+                "start": 104.475006,
+                "end": 104.555,
+                "confidence": 1,
+                "punctuated_word": "but",
+                "word_id": 1532
+              },
+              {
+                "word": "you",
+                "start": 104.555,
+                "end": 104.795,
+                "confidence": 1,
+                "punctuated_word": "you",
+                "word_id": 1533
+              },
+              {
+                "word": "need",
+                "start": 104.795,
+                "end": 104.955,
+                "confidence": 1,
+                "punctuated_word": "need",
+                "word_id": 1534
+              },
+              {
+                "word": "to",
+                "start": 104.955,
+                "end": 105.195,
+                "confidence": 0.99902344,
+                "punctuated_word": "to",
+                "word_id": 1535
+              },
+              {
+                "word": "be",
+                "start": 105.195,
+                "end": 105.355,
+                "confidence": 1,
+                "punctuated_word": "be",
+                "word_id": 1536
+              },
+              {
+                "word": "concentrated",
+                "start": 105.355,
+                "end": 106.155,
+                "confidence": 0.7420654,
+                "punctuated_word": "concentrated,",
+                "word_id": 1537
+              },
+              {
+                "word": "be",
+                "start": 106.155,
+                "end": 106.315,
+                "confidence": 0.9980469,
+                "punctuated_word": "be",
+                "word_id": 1538
+              },
+              {
+                "word": "focused",
+                "start": 106.315,
+                "end": 106.635,
+                "confidence": 0.9580078,
+                "punctuated_word": "focused",
+                "word_id": 1539
+              },
+              {
+                "word": "on",
+                "start": 106.635,
+                "end": 106.875,
+                "confidence": 0.99902344,
+                "punctuated_word": "on",
+                "word_id": 1540
+              },
+              {
+                "word": "what",
+                "start": 106.875,
+                "end": 107.435005,
+                "confidence": 0.90527344,
+                "punctuated_word": "what",
+                "word_id": 1541
+              },
+              {
+                "word": "you",
+                "start": 107.435005,
+                "end": 107.675,
+                "confidence": 0.9902344,
+                "punctuated_word": "you",
+                "word_id": 1542
+              },
+              {
+                "word": "what",
+                "start": 107.675,
+                "end": 108.475,
+                "confidence": 0.97509766,
+                "punctuated_word": "what",
+                "word_id": 1543
+              },
+              {
+                "word": "you",
+                "start": 108.955,
+                "end": 109.595,
+                "confidence": 0.9980469,
+                "punctuated_word": "you",
+                "word_id": 1544
+              },
+              {
+                "word": "what",
+                "start": 109.8,
+                "end": 110.200005,
+                "confidence": 0.9921875,
+                "punctuated_word": "what",
+                "word_id": 1545
+              },
+              {
+                "word": "you",
+                "start": 110.200005,
+                "end": 110.36,
+                "confidence": 0.99609375,
+                "punctuated_word": "you",
+                "word_id": 1546
+              },
+              {
+                "word": "write",
+                "start": 110.36,
+                "end": 110.920006,
+                "confidence": 0.7858887,
+                "punctuated_word": "write,",
+                "word_id": 1547
+              },
+              {
+                "word": "yeah",
+                "start": 110.920006,
+                "end": 111.16,
+                "confidence": 0.9824219,
+                "punctuated_word": "yeah,",
+                "word_id": 1548
+              },
+              {
+                "word": "what",
+                "start": 111.16,
+                "end": 111.32,
+                "confidence": 0.99609375,
+                "punctuated_word": "what",
+                "word_id": 1549
+              },
+              {
+                "word": "you",
+                "start": 111.32,
+                "end": 111.8,
+                "confidence": 1,
+                "punctuated_word": "you",
+                "word_id": 1550
+              },
+              {
+                "word": "put",
+                "start": 111.8,
+                "end": 112.44,
+                "confidence": 0.9863281,
+                "punctuated_word": "put",
+                "word_id": 1551
+              },
+              {
+                "word": "generally",
+                "start": 113.8,
+                "end": 114.600006,
+                "confidence": 0.6348877,
+                "punctuated_word": "generally.",
+                "word_id": 1552
+              },
+              {
+                "word": "and",
+                "start": 114.600006,
+                "end": 114.920006,
+                "confidence": 1,
+                "punctuated_word": "And",
+                "word_id": 1553
+              },
+              {
+                "word": "if",
+                "start": 114.920006,
+                "end": 115.240005,
+                "confidence": 0.9980469,
+                "punctuated_word": "if",
+                "word_id": 1554
+              },
+              {
+                "word": "i'm",
+                "start": 115.240005,
+                "end": 116.04,
+                "confidence": 0.9995117,
+                "punctuated_word": "I'm",
+                "word_id": 1555
+              },
+              {
+                "word": "disrupted",
+                "start": 116.520004,
+                "end": 117.4,
+                "confidence": 0.875,
+                "punctuated_word": "disrupted",
+                "word_id": 1556
+              },
+              {
+                "word": "by",
+                "start": 117.4,
+                "end": 117.96,
+                "confidence": 0.9951172,
+                "punctuated_word": "by",
+                "word_id": 1557
+              },
+              {
+                "word": "not",
+                "start": 118.68,
+                "end": 119,
+                "confidence": 1,
+                "punctuated_word": "not",
+                "word_id": 1558
+              },
+              {
+                "word": "only",
+                "start": 119,
+                "end": 119.240005,
+                "confidence": 0.9921875,
+                "punctuated_word": "only",
+                "word_id": 1559
+              },
+              {
+                "word": "by",
+                "start": 119.240005,
+                "end": 119.4,
+                "confidence": 0.99609375,
+                "punctuated_word": "by",
+                "word_id": 1560
+              },
+              {
+                "word": "notifications",
+                "start": 119.4,
+                "end": 120.44,
+                "confidence": 0.8688965,
+                "punctuated_word": "notifications,",
+                "word_id": 1561
+              },
+              {
+                "word": "but",
+                "start": 120.44,
+                "end": 120.520004,
+                "confidence": 0.99902344,
+                "punctuated_word": "but",
+                "word_id": 1562
+              },
+              {
+                "word": "by",
+                "start": 120.520004,
+                "end": 121.64,
+                "confidence": 0.9951172,
+                "punctuated_word": "by",
+                "word_id": 1563
+              },
+              {
+                "word": "every",
+                "start": 121.64,
+                "end": 121.96001,
+                "confidence": 1,
+                "punctuated_word": "every",
+                "word_id": 1564
+              },
+              {
+                "word": "situation",
+                "start": 121.96001,
+                "end": 122.68,
+                "confidence": 0.9638672,
+                "punctuated_word": "situation,",
+                "word_id": 1565
+              },
+              {
+                "word": "i",
+                "start": 123.08,
+                "end": 123.64,
+                "confidence": 1,
+                "punctuated_word": "I",
+                "word_id": 1566
+              },
+              {
+                "word": "need",
+                "start": 123.64,
+                "end": 124.68,
+                "confidence": 0.99121094,
+                "punctuated_word": "need",
+                "word_id": 1567
+              },
+              {
+                "word": "i",
+                "start": 126.01501,
+                "end": 126.255005,
+                "confidence": 0.96435547,
+                "punctuated_word": "I",
+                "word_id": 1568
+              },
+              {
+                "word": "need",
+                "start": 126.255005,
+                "end": 126.65501,
+                "confidence": 0.98950195,
+                "punctuated_word": "need,",
+                "word_id": 1569
+              },
+              {
+                "word": "like",
+                "start": 126.65501,
+                "end": 127.455,
+                "confidence": 0.9667969,
+                "punctuated_word": "like,",
+                "word_id": 1570
+              },
+              {
+                "word": "four",
+                "start": 128.815,
+                "end": 129.295,
+                "confidence": 0.7561035,
+                "punctuated_word": "four,",
+                "word_id": 1571
+              },
+              {
+                "word": "five",
+                "start": 129.295,
+                "end": 129.455,
+                "confidence": 0.99902344,
+                "punctuated_word": "five",
+                "word_id": 1572
+              },
+              {
+                "word": "minutes",
+                "start": 129.455,
+                "end": 129.85501,
+                "confidence": 1,
+                "punctuated_word": "minutes",
+                "word_id": 1573
+              },
+              {
+                "word": "to",
+                "start": 129.85501,
+                "end": 130.175,
+                "confidence": 1,
+                "punctuated_word": "to",
+                "word_id": 1574
+              },
+              {
+                "word": "to",
+                "start": 130.175,
+                "end": 130.41501,
+                "confidence": 0.9980469,
+                "punctuated_word": "to",
+                "word_id": 1575
+              },
+              {
+                "word": "get",
+                "start": 130.41501,
+                "end": 130.655,
+                "confidence": 1,
+                "punctuated_word": "get",
+                "word_id": 1576
+              },
+              {
+                "word": "back",
+                "start": 130.655,
+                "end": 130.975,
+                "confidence": 0.9980469,
+                "punctuated_word": "back",
+                "word_id": 1577
+              },
+              {
+                "word": "and",
+                "start": 130.975,
+                "end": 131.295,
+                "confidence": 0.98291016,
+                "punctuated_word": "and",
+                "word_id": 1578
+              },
+              {
+                "word": "be",
+                "start": 131.295,
+                "end": 131.85501,
+                "confidence": 0.99609375,
+                "punctuated_word": "be",
+                "word_id": 1579
+              },
+              {
+                "word": "really",
+                "start": 131.85501,
+                "end": 132.255,
+                "confidence": 0.99609375,
+                "punctuated_word": "really",
+                "word_id": 1580
+              },
+              {
+                "word": "concentrated",
+                "start": 132.255,
+                "end": 132.975,
+                "confidence": 0.984375,
+                "punctuated_word": "concentrated",
+                "word_id": 1581
+              },
+              {
+                "word": "as",
+                "start": 132.975,
+                "end": 133.85501,
+                "confidence": 0.9790039,
+                "punctuated_word": "as",
+                "word_id": 1582
+              },
+              {
+                "word": "as",
+                "start": 133.85501,
+                "end": 134.255,
+                "confidence": 0.9951172,
+                "punctuated_word": "as",
+                "word_id": 1583
+              },
+              {
+                "word": "if",
+                "start": 134.255,
+                "end": 134.895,
+                "confidence": 0.9875488,
+                "punctuated_word": "if,",
+                "word_id": 1584
+              },
+              {
+                "word": "you",
+                "start": 136.015,
+                "end": 136.255,
+                "confidence": 0.8364258,
+                "punctuated_word": "you",
+                "word_id": 1585
+              },
+              {
+                "word": "know",
+                "start": 136.255,
+                "end": 136.575,
+                "confidence": 0.9941406,
+                "punctuated_word": "know,",
+                "word_id": 1586
+              },
+              {
+                "word": "as",
+                "start": 136.575,
+                "end": 136.735,
+                "confidence": 0.99902344,
+                "punctuated_word": "as",
+                "word_id": 1587
+              },
+              {
+                "word": "if",
+                "start": 136.735,
+                "end": 136.975,
+                "confidence": 1,
+                "punctuated_word": "if",
+                "word_id": 1588
+              },
+              {
+                "word": "i",
+                "start": 136.975,
+                "end": 137.615,
+                "confidence": 0.9526367,
+                "punctuated_word": "I",
+                "word_id": 1589
+              },
+              {
+                "word": "wasn't",
+                "start": 137.615,
+                "end": 138.095,
+                "confidence": 0.9890137,
+                "punctuated_word": "wasn't",
+                "word_id": 1590
+              },
+              {
+                "word": "disrupted",
+                "start": 138.095,
+                "end": 138.735,
+                "confidence": 0.7182617,
+                "punctuated_word": "disrupted",
+                "word_id": 1591
+              },
+              {
+                "word": "completely",
+                "start": 138.735,
+                "end": 139.295,
+                "confidence": 0.99658203,
+                "punctuated_word": "completely.",
+                "word_id": 1592
+              },
+              {
+                "word": "mhmm",
+                "start": 162.80501,
+                "end": 163.205,
+                "confidence": 0.8215332,
+                "punctuated_word": "Mhmm.",
+                "word_id": 1593
+              },
+              {
+                "word": "yeah",
+                "start": 178.15001,
+                "end": 178.55,
+                "confidence": 0.7807617,
+                "punctuated_word": "Yeah.",
+                "word_id": 1594
+              },
+              {
+                "word": "because",
+                "start": 178.55,
+                "end": 178.71,
+                "confidence": 0.9863281,
+                "punctuated_word": "Because",
+                "word_id": 1595
+              },
+              {
+                "word": "if",
+                "start": 178.71,
+                "end": 179.03001,
+                "confidence": 0.9980469,
+                "punctuated_word": "if",
+                "word_id": 1596
+              },
+              {
+                "word": "you",
+                "start": 179.03001,
+                "end": 179.19,
+                "confidence": 1,
+                "punctuated_word": "you",
+                "word_id": 1597
+              },
+              {
+                "word": "if",
+                "start": 179.19,
+                "end": 179.59001,
+                "confidence": 0.9970703,
+                "punctuated_word": "if",
+                "word_id": 1598
+              },
+              {
+                "word": "you",
+                "start": 179.59001,
+                "end": 179.83,
+                "confidence": 1,
+                "punctuated_word": "you",
+                "word_id": 1599
+              },
+              {
+                "word": "see",
+                "start": 179.83,
+                "end": 180.31001,
+                "confidence": 0.99316406,
+                "punctuated_word": "see",
+                "word_id": 1600
+              },
+              {
+                "word": "i",
+                "start": 180.71,
+                "end": 181.03001,
+                "confidence": 0.99902344,
+                "punctuated_word": "I",
+                "word_id": 1601
+              },
+              {
+                "word": "i",
+                "start": 181.03001,
+                "end": 181.27,
+                "confidence": 0.98828125,
+                "punctuated_word": "I",
+                "word_id": 1602
+              },
+              {
+                "word": "guess",
+                "start": 181.27,
+                "end": 181.51001,
+                "confidence": 0.9970703,
+                "punctuated_word": "guess",
+                "word_id": 1603
+              },
+              {
+                "word": "that",
+                "start": 181.51001,
+                "end": 181.67001,
+                "confidence": 0.8457031,
+                "punctuated_word": "that",
+                "word_id": 1604
+              },
+              {
+                "word": "if",
+                "start": 181.67001,
+                "end": 181.91,
+                "confidence": 0.95947266,
+                "punctuated_word": "if",
+                "word_id": 1605
+              },
+              {
+                "word": "you",
+                "start": 181.91,
+                "end": 182.07,
+                "confidence": 1,
+                "punctuated_word": "you",
+                "word_id": 1606
+              },
+              {
+                "word": "see",
+                "start": 182.07,
+                "end": 182.23001,
+                "confidence": 0.99902344,
+                "punctuated_word": "see",
+                "word_id": 1607
+              },
+              {
+                "word": "that",
+                "start": 182.23001,
+                "end": 182.55,
+                "confidence": 0.9980469,
+                "punctuated_word": "that",
+                "word_id": 1608
+              },
+              {
+                "word": "it's",
+                "start": 182.55,
+                "end": 182.87001,
+                "confidence": 0.7015381,
+                "punctuated_word": "it's",
+                "word_id": 1609
+              },
+              {
+                "word": "that",
+                "start": 183.03001,
+                "end": 183.35,
+                "confidence": 0.9970703,
+                "punctuated_word": "that",
+                "word_id": 1610
+              },
+              {
+                "word": "someone",
+                "start": 183.35,
+                "end": 184.07,
+                "confidence": 1,
+                "punctuated_word": "someone",
+                "word_id": 1611
+              },
+              {
+                "word": "called",
+                "start": 185.015,
+                "end": 185.33499,
+                "confidence": 0.8881836,
+                "punctuated_word": "called",
+                "word_id": 1612
+              },
+              {
+                "word": "you",
+                "start": 185.33499,
+                "end": 185.815,
+                "confidence": 0.9301758,
+                "punctuated_word": "you",
+                "word_id": 1613
+              },
+              {
+                "word": "during",
+                "start": 185.815,
+                "end": 186.615,
+                "confidence": 0.99902344,
+                "punctuated_word": "during",
+                "word_id": 1614
+              },
+              {
+                "word": "the",
+                "start": 187.015,
+                "end": 187.175,
+                "confidence": 0.9921875,
+                "punctuated_word": "the",
+                "word_id": 1615
+              },
+              {
+                "word": "class",
+                "start": 187.175,
+                "end": 187.655,
+                "confidence": 0.8911133,
+                "punctuated_word": "class,",
+                "word_id": 1616
+              },
+              {
+                "word": "you",
+                "start": 187.655,
+                "end": 188.295,
+                "confidence": 0.9951172,
+                "punctuated_word": "you",
+                "word_id": 1617
+              },
+              {
+                "word": "you",
+                "start": 188.295,
+                "end": 188.855,
+                "confidence": 0.9013672,
+                "punctuated_word": "you",
+                "word_id": 1618
+              },
+              {
+                "word": "notice",
+                "start": 188.855,
+                "end": 189.495,
+                "confidence": 0.59277344,
+                "punctuated_word": "notice",
+                "word_id": 1619
+              },
+              {
+                "word": "it",
+                "start": 189.495,
+                "end": 189.815,
+                "confidence": 0.9970703,
+                "punctuated_word": "it",
+                "word_id": 1620
+              },
+              {
+                "word": "and",
+                "start": 189.815,
+                "end": 190.055,
+                "confidence": 0.39013672,
+                "punctuated_word": "and",
+                "word_id": 1621
+              },
+              {
+                "word": "you",
+                "start": 190.055,
+                "end": 191.015,
+                "confidence": 0.94140625,
+                "punctuated_word": "you",
+                "word_id": 1622
+              },
+              {
+                "word": "thinking",
+                "start": 191.175,
+                "end": 191.575,
+                "confidence": 0.8613281,
+                "punctuated_word": "thinking",
+                "word_id": 1623
+              },
+              {
+                "word": "about",
+                "start": 191.575,
+                "end": 191.89499,
+                "confidence": 0.97998047,
+                "punctuated_word": "about",
+                "word_id": 1624
+              },
+              {
+                "word": "you",
+                "start": 192.055,
+                "end": 192.135,
+                "confidence": 1,
+                "punctuated_word": "you",
+                "word_id": 1625
+              },
+              {
+                "word": "are",
+                "start": 192.135,
+                "end": 192.375,
+                "confidence": 1,
+                "punctuated_word": "are",
+                "word_id": 1626
+              },
+              {
+                "word": "thinking",
+                "start": 192.375,
+                "end": 192.775,
+                "confidence": 1,
+                "punctuated_word": "thinking",
+                "word_id": 1627
+              },
+              {
+                "word": "about",
+                "start": 192.775,
+                "end": 193.095,
+                "confidence": 0.99902344,
+                "punctuated_word": "about",
+                "word_id": 1628
+              },
+              {
+                "word": "it",
+                "start": 193.095,
+                "end": 193.495,
+                "confidence": 0.95410156,
+                "punctuated_word": "it",
+                "word_id": 1629
+              },
+              {
+                "word": "during",
+                "start": 193.495,
+                "end": 194.295,
+                "confidence": 0.99121094,
+                "punctuated_word": "during",
+                "word_id": 1630
+              },
+              {
+                "word": "having",
+                "start": 194.295,
+                "end": 194.775,
+                "confidence": 0.71728516,
+                "punctuated_word": "having",
+                "word_id": 1631
+              },
+              {
+                "word": "a",
+                "start": 194.775,
+                "end": 195.015,
+                "confidence": 0.9941406,
+                "punctuated_word": "a",
+                "word_id": 1632
+              },
+              {
+                "word": "class",
+                "start": 195.015,
+                "end": 195.415,
+                "confidence": 0.8586426,
+                "punctuated_word": "class,",
+                "word_id": 1633
+              },
+              {
+                "word": "having",
+                "start": 195.415,
+                "end": 195.815,
+                "confidence": 0.99902344,
+                "punctuated_word": "having",
+                "word_id": 1634
+              },
+              {
+                "word": "a",
+                "start": 195.89499,
+                "end": 196.055,
+                "confidence": 0.99902344,
+                "punctuated_word": "a",
+                "word_id": 1635
+              },
+              {
+                "word": "lesson",
+                "start": 196.055,
+                "end": 196.455,
+                "confidence": 0.99194336,
+                "punctuated_word": "lesson.",
+                "word_id": 1636
+              },
+              {
+                "word": "yeah",
+                "start": 196.455,
+                "end": 196.69499,
+                "confidence": 0.8803711,
+                "punctuated_word": "Yeah?",
+                "word_id": 1637
+              },
+              {
+                "word": "and",
+                "start": 196.69499,
+                "end": 196.935,
+                "confidence": 0.98828125,
+                "punctuated_word": "And",
+                "word_id": 1638
+              },
+              {
+                "word": "it",
+                "start": 196.935,
+                "end": 197.49501,
+                "confidence": 0.50634766,
+                "punctuated_word": "it",
+                "word_id": 1639
+              },
+              {
+                "word": "even",
+                "start": 197.75,
+                "end": 197.98999,
+                "confidence": 0.99902344,
+                "punctuated_word": "even",
+                "word_id": 1640
+              },
+              {
+                "word": "if",
+                "start": 197.98999,
+                "end": 198.23,
+                "confidence": 0.99902344,
+                "punctuated_word": "if",
+                "word_id": 1641
+              },
+              {
+                "word": "you",
+                "start": 198.23,
+                "end": 198.87,
+                "confidence": 1,
+                "punctuated_word": "you",
+                "word_id": 1642
+              },
+              {
+                "word": "you",
+                "start": 199.26999,
+                "end": 199.59,
+                "confidence": 0.47094727,
+                "punctuated_word": "you",
+                "word_id": 1643
+              },
+              {
+                "word": "you",
+                "start": 199.59,
+                "end": 200.39,
+                "confidence": 0.5288086,
+                "punctuated_word": "you",
+                "word_id": 1644
+              },
+              {
+                "word": "don't",
+                "start": 200.39,
+                "end": 200.70999,
+                "confidence": 0.99316406,
+                "punctuated_word": "don't",
+                "word_id": 1645
+              },
+              {
+                "word": "want",
+                "start": 200.70999,
+                "end": 201.10999,
+                "confidence": 0.8820801,
+                "punctuated_word": "want,",
+                "word_id": 1646
+              },
+              {
+                "word": "it",
+                "start": 201.10999,
+                "end": 201.59,
+                "confidence": 0.97998047,
+                "punctuated_word": "it",
+                "word_id": 1647
+              },
+              {
+                "word": "can",
+                "start": 201.59,
+                "end": 202.15,
+                "confidence": 0.83203125,
+                "punctuated_word": "can",
+                "word_id": 1648
+              },
+              {
+                "word": "disrupt",
+                "start": 202.15,
+                "end": 202.95,
+                "confidence": 0.80029297,
+                "punctuated_word": "disrupt.",
+                "word_id": 1649
+              },
+              {
+                "word": "happens",
+                "start": 204.70999,
+                "end": 205.10999,
+                "confidence": 0.94628906,
+                "punctuated_word": "Happens",
+                "word_id": 1650
+              },
+              {
+                "word": "automatically",
+                "start": 205.10999,
+                "end": 205.82999,
+                "confidence": 0.9946289,
+                "punctuated_word": "automatically.",
+                "word_id": 1651
+              },
+              {
+                "word": "yeah",
+                "start": 205.82999,
+                "end": 206.06999,
+                "confidence": 0.97216797,
+                "punctuated_word": "Yeah.",
+                "word_id": 1652
+              },
+              {
+                "word": "yeah",
+                "start": 227.75,
+                "end": 228.39,
+                "confidence": 0.9785156,
+                "punctuated_word": "Yeah.",
+                "word_id": 1653
+              },
+              {
+                "word": "yes",
+                "start": 238.39,
+                "end": 238.79,
+                "confidence": 0.9824219,
+                "punctuated_word": "Yes.",
+                "word_id": 1654
+              },
+              {
+                "word": "i",
+                "start": 238.875,
+                "end": 239.755,
+                "confidence": 0.9902344,
+                "punctuated_word": "I",
+                "word_id": 1655
+              },
+              {
+                "word": "have",
+                "start": 239.755,
+                "end": 240.475,
+                "confidence": 0.68518066,
+                "punctuated_word": "have.",
+                "word_id": 1656
+              },
+              {
+                "word": "for",
+                "start": 241.195,
+                "end": 241.435,
+                "confidence": 0.8491211,
+                "punctuated_word": "For",
+                "word_id": 1657
+              },
+              {
+                "word": "example",
+                "start": 241.435,
+                "end": 241.755,
+                "confidence": 0.9147949,
+                "punctuated_word": "example,",
+                "word_id": 1658
+              },
+              {
+                "word": "i",
+                "start": 241.755,
+                "end": 241.915,
+                "confidence": 1,
+                "punctuated_word": "I",
+                "word_id": 1659
+              },
+              {
+                "word": "remember",
+                "start": 241.915,
+                "end": 242.395,
+                "confidence": 0.8964844,
+                "punctuated_word": "remember",
+                "word_id": 1660
+              },
+              {
+                "word": "that",
+                "start": 242.395,
+                "end": 242.635,
+                "confidence": 0.99902344,
+                "punctuated_word": "that",
+                "word_id": 1661
+              },
+              {
+                "word": "when",
+                "start": 242.635,
+                "end": 243.035,
+                "confidence": 0.98291016,
+                "punctuated_word": "when",
+                "word_id": 1662
+              },
+              {
+                "word": "i",
+                "start": 243.035,
+                "end": 243.275,
+                "confidence": 1,
+                "punctuated_word": "I",
+                "word_id": 1663
+              },
+              {
+                "word": "was",
+                "start": 243.275,
+                "end": 243.835,
+                "confidence": 1,
+                "punctuated_word": "was",
+                "word_id": 1664
+              },
+              {
+                "word": "at",
+                "start": 243.835,
+                "end": 244.075,
+                "confidence": 0.9770508,
+                "punctuated_word": "at",
+                "word_id": 1665
+              },
+              {
+                "word": "school",
+                "start": 244.075,
+                "end": 244.395,
+                "confidence": 0.9892578,
+                "punctuated_word": "school",
+                "word_id": 1666
+              },
+              {
+                "word": "and",
+                "start": 244.395,
+                "end": 244.635,
+                "confidence": 0.62060547,
+                "punctuated_word": "and",
+                "word_id": 1667
+              },
+              {
+                "word": "i",
+                "start": 244.635,
+                "end": 245.51501,
+                "confidence": 0.9013672,
+                "punctuated_word": "I",
+                "word_id": 1668
+              },
+              {
+                "word": "was",
+                "start": 245.915,
+                "end": 246.155,
+                "confidence": 0.8457031,
+                "punctuated_word": "was",
+                "word_id": 1669
+              },
+              {
+                "word": "supposed",
+                "start": 246.155,
+                "end": 246.555,
+                "confidence": 0.99609375,
+                "punctuated_word": "supposed",
+                "word_id": 1670
+              },
+              {
+                "word": "to",
+                "start": 246.555,
+                "end": 247.195,
+                "confidence": 1,
+                "punctuated_word": "to",
+                "word_id": 1671
+              },
+              {
+                "word": "to",
+                "start": 248.315,
+                "end": 248.635,
+                "confidence": 0.99121094,
+                "punctuated_word": "to",
+                "word_id": 1672
+              },
+              {
+                "word": "pass",
+                "start": 248.635,
+                "end": 249.35501,
+                "confidence": 0.9980469,
+                "punctuated_word": "pass",
+                "word_id": 1673
+              },
+              {
+                "word": "an",
+                "start": 250.475,
+                "end": 250.715,
+                "confidence": 0.9921875,
+                "punctuated_word": "an",
+                "word_id": 1674
+              },
+              {
+                "word": "exam",
+                "start": 250.715,
+                "end": 251.355,
+                "confidence": 0.97265625,
+                "punctuated_word": "exam,",
+                "word_id": 1675
+              },
+              {
+                "word": "for",
+                "start": 251.355,
+                "end": 251.515,
+                "confidence": 1,
+                "punctuated_word": "for",
+                "word_id": 1676
+              },
+              {
+                "word": "example",
+                "start": 251.515,
+                "end": 252.15501,
+                "confidence": 0.77490234,
+                "punctuated_word": "example,",
+                "word_id": 1677
+              },
+              {
+                "word": "i",
+                "start": 253.195,
+                "end": 253.995,
+                "confidence": 0.8613281,
+                "punctuated_word": "I",
+                "word_id": 1678
+              },
+              {
+                "word": "i",
+                "start": 254.48001,
+                "end": 254.88,
+                "confidence": 0.99902344,
+                "punctuated_word": "I",
+                "word_id": 1679
+              },
+              {
+                "word": "remember",
+                "start": 254.88,
+                "end": 255.44,
+                "confidence": 0.9892578,
+                "punctuated_word": "remember",
+                "word_id": 1680
+              },
+              {
+                "word": "that",
+                "start": 255.44,
+                "end": 255.76001,
+                "confidence": 1,
+                "punctuated_word": "that",
+                "word_id": 1681
+              },
+              {
+                "word": "i",
+                "start": 255.76001,
+                "end": 256.64,
+                "confidence": 0.9165039,
+                "punctuated_word": "I",
+                "word_id": 1682
+              },
+              {
+                "word": "that",
+                "start": 258.48,
+                "end": 258.88,
+                "confidence": 0.9716797,
+                "punctuated_word": "that",
+                "word_id": 1683
+              },
+              {
+                "word": "i",
+                "start": 258.88,
+                "end": 259.52,
+                "confidence": 0.99902344,
+                "punctuated_word": "I",
+                "word_id": 1684
+              },
+              {
+                "word": "felt",
+                "start": 259.52,
+                "end": 259.92,
+                "confidence": 0.9453125,
+                "punctuated_word": "felt",
+                "word_id": 1685
+              },
+              {
+                "word": "that",
+                "start": 259.92,
+                "end": 260.16,
+                "confidence": 0.9941406,
+                "punctuated_word": "that",
+                "word_id": 1686
+              },
+              {
+                "word": "in",
+                "start": 260.16,
+                "end": 260.56,
+                "confidence": 0.89990234,
+                "punctuated_word": "in",
+                "word_id": 1687
+              },
+              {
+                "word": "my",
+                "start": 260.56,
+                "end": 260.80002,
+                "confidence": 1,
+                "punctuated_word": "my",
+                "word_id": 1688
+              },
+              {
+                "word": "pocket",
+                "start": 260.80002,
+                "end": 261.2,
+                "confidence": 0.89038086,
+                "punctuated_word": "pocket,",
+                "word_id": 1689
+              },
+              {
+                "word": "my",
+                "start": 261.2,
+                "end": 261.6,
+                "confidence": 0.9892578,
+                "punctuated_word": "my",
+                "word_id": 1690
+              },
+              {
+                "word": "phone",
+                "start": 261.6,
+                "end": 262,
+                "confidence": 1,
+                "punctuated_word": "phone",
+                "word_id": 1691
+              },
+              {
+                "word": "was",
+                "start": 262,
+                "end": 262.64,
+                "confidence": 0.99316406,
+                "punctuated_word": "was",
+                "word_id": 1692
+              },
+              {
+                "word": "was",
+                "start": 262.8,
+                "end": 263.6,
+                "confidence": 0.96313477,
+                "punctuated_word": "was,",
+                "word_id": 1693
+              },
+              {
+                "word": "you",
+                "start": 264.08002,
+                "end": 264.32,
+                "confidence": 0.9892578,
+                "punctuated_word": "you",
+                "word_id": 1694
+              },
+              {
+                "word": "know",
+                "start": 264.32,
+                "end": 264.56,
+                "confidence": 0.99609375,
+                "punctuated_word": "know,",
+                "word_id": 1695
+              },
+              {
+                "word": "was",
+                "start": 264.56,
+                "end": 265.2,
+                "confidence": 0.9951172,
+                "punctuated_word": "was",
+                "word_id": 1696
+              },
+              {
+                "word": "vibrating",
+                "start": 265.52,
+                "end": 266.16,
+                "confidence": 0.7784017,
+                "punctuated_word": "vibrating.",
+                "word_id": 1697
+              },
+              {
+                "word": "was",
+                "start": 266.16,
+                "end": 266.32,
+                "confidence": 0.57958984,
+                "punctuated_word": "Was",
+                "word_id": 1698
+              },
+              {
+                "word": "vibrating",
+                "start": 268.015,
+                "end": 268.73502,
+                "confidence": 0.9720052,
+                "punctuated_word": "vibrating.",
+                "word_id": 1699
+              },
+              {
+                "word": "and",
+                "start": 268.73502,
+                "end": 268.89502,
+                "confidence": 0.9951172,
+                "punctuated_word": "And",
+                "word_id": 1700
+              },
+              {
+                "word": "even",
+                "start": 268.89502,
+                "end": 269.855,
+                "confidence": 0.9707031,
+                "punctuated_word": "even",
+                "word_id": 1701
+              },
+              {
+                "word": "this",
+                "start": 269.855,
+                "end": 270.655,
+                "confidence": 0.96435547,
+                "punctuated_word": "this",
+                "word_id": 1702
+              },
+              {
+                "word": "sensation",
+                "start": 270.655,
+                "end": 271.45502,
+                "confidence": 0.74279785,
+                "punctuated_word": "sensation,",
+                "word_id": 1703
+              },
+              {
+                "word": "it",
+                "start": 271.45502,
+                "end": 271.695,
+                "confidence": 0.6010742,
+                "punctuated_word": "it",
+                "word_id": 1704
+              },
+              {
+                "word": "cows",
+                "start": 271.695,
+                "end": 272.015,
+                "confidence": 0.85595703,
+                "punctuated_word": "cows",
+                "word_id": 1705
+              },
+              {
+                "word": "that",
+                "start": 272.015,
+                "end": 272.33502,
+                "confidence": 0.9633789,
+                "punctuated_word": "that",
+                "word_id": 1706
+              },
+              {
+                "word": "i",
+                "start": 272.33502,
+                "end": 273.05502,
+                "confidence": 0.9589844,
+                "punctuated_word": "I",
+                "word_id": 1707
+              },
+              {
+                "word": "was",
+                "start": 273.61502,
+                "end": 273.935,
+                "confidence": 0.9970703,
+                "punctuated_word": "was",
+                "word_id": 1708
+              },
+              {
+                "word": "thinking",
+                "start": 273.935,
+                "end": 274.415,
+                "confidence": 0.9980469,
+                "punctuated_word": "thinking",
+                "word_id": 1709
+              },
+              {
+                "word": "about",
+                "start": 274.415,
+                "end": 274.655,
+                "confidence": 1,
+                "punctuated_word": "about",
+                "word_id": 1710
+              },
+              {
+                "word": "it",
+                "start": 274.655,
+                "end": 274.89502,
+                "confidence": 0.99902344,
+                "punctuated_word": "it",
+                "word_id": 1711
+              },
+              {
+                "word": "because",
+                "start": 274.89502,
+                "end": 275.295,
+                "confidence": 0.87890625,
+                "punctuated_word": "because",
+                "word_id": 1712
+              },
+              {
+                "word": "i",
+                "start": 275.295,
+                "end": 275.855,
+                "confidence": 1,
+                "punctuated_word": "I",
+                "word_id": 1713
+              },
+              {
+                "word": "i",
+                "start": 276.17502,
+                "end": 276.415,
+                "confidence": 0.9980469,
+                "punctuated_word": "I",
+                "word_id": 1714
+              },
+              {
+                "word": "couldn't",
+                "start": 276.415,
+                "end": 276.975,
+                "confidence": 0.9995117,
+                "punctuated_word": "couldn't",
+                "word_id": 1715
+              },
+              {
+                "word": "check",
+                "start": 276.975,
+                "end": 277.695,
+                "confidence": 1,
+                "punctuated_word": "check",
+                "word_id": 1716
+              },
+              {
+                "word": "check",
+                "start": 279.135,
+                "end": 279.535,
+                "confidence": 0.97802734,
+                "punctuated_word": "check",
+                "word_id": 1717
+              },
+              {
+                "word": "out",
+                "start": 279.535,
+                "end": 280.33502,
+                "confidence": 1,
+                "punctuated_word": "out",
+                "word_id": 1718
+              },
+              {
+                "word": "who",
+                "start": 281.61502,
+                "end": 282.095,
+                "confidence": 0.9951172,
+                "punctuated_word": "who",
+                "word_id": 1719
+              },
+              {
+                "word": "who",
+                "start": 282.33,
+                "end": 282.65,
+                "confidence": 0.9951172,
+                "punctuated_word": "who",
+                "word_id": 1720
+              },
+              {
+                "word": "was",
+                "start": 282.65,
+                "end": 282.97,
+                "confidence": 0.99902344,
+                "punctuated_word": "was",
+                "word_id": 1721
+              },
+              {
+                "word": "who",
+                "start": 282.97,
+                "end": 283.61,
+                "confidence": 0.9741211,
+                "punctuated_word": "who",
+                "word_id": 1722
+              },
+              {
+                "word": "was",
+                "start": 283.61,
+                "end": 283.77,
+                "confidence": 0.99902344,
+                "punctuated_word": "was",
+                "word_id": 1723
+              },
+              {
+                "word": "calling",
+                "start": 283.77,
+                "end": 284.25,
+                "confidence": 0.9770508,
+                "punctuated_word": "calling",
+                "word_id": 1724
+              },
+              {
+                "word": "to",
+                "start": 284.25,
+                "end": 284.56998,
+                "confidence": 0.99902344,
+                "punctuated_word": "to",
+                "word_id": 1725
+              },
+              {
+                "word": "me",
+                "start": 284.56998,
+                "end": 284.88998,
+                "confidence": 0.8769531,
+                "punctuated_word": "me.",
+                "word_id": 1726
+              },
+              {
+                "word": "so",
+                "start": 284.88998,
+                "end": 285.21,
+                "confidence": 1,
+                "punctuated_word": "So",
+                "word_id": 1727
+              },
+              {
+                "word": "i",
+                "start": 285.21,
+                "end": 285.53,
+                "confidence": 1,
+                "punctuated_word": "I",
+                "word_id": 1728
+              },
+              {
+                "word": "was",
+                "start": 285.53,
+                "end": 286.09,
+                "confidence": 1,
+                "punctuated_word": "was",
+                "word_id": 1729
+              },
+              {
+                "word": "disruptive",
+                "start": 286.97,
+                "end": 287.68997,
+                "confidence": 0.66259766,
+                "punctuated_word": "disruptive",
+                "word_id": 1730
+              },
+              {
+                "word": "disruptive",
+                "start": 287.68997,
+                "end": 288.88998,
+                "confidence": 0.3408203,
+                "punctuated_word": "disruptive",
+                "word_id": 1731
+              },
+              {
+                "word": "disruptive",
+                "start": 288.88998,
+                "end": 290.00998,
+                "confidence": 0.7626953,
+                "punctuated_word": "disruptive.",
+                "word_id": 1732
+              },
+              {
+                "word": "and",
+                "start": 290.25,
+                "end": 291.12997,
+                "confidence": 0.9970703,
+                "punctuated_word": "And",
+                "word_id": 1733
+              },
+              {
+                "word": "in",
+                "start": 291.615,
+                "end": 292.175,
+                "confidence": 0.75683594,
+                "punctuated_word": "in",
+                "word_id": 1734
+              },
+              {
+                "word": "this",
+                "start": 292.175,
+                "end": 292.41498,
+                "confidence": 0.96777344,
+                "punctuated_word": "this",
+                "word_id": 1735
+              },
+              {
+                "word": "moment",
+                "start": 292.41498,
+                "end": 292.895,
+                "confidence": 0.984375,
+                "punctuated_word": "moment,",
+                "word_id": 1736
+              },
+              {
+                "word": "i",
+                "start": 292.895,
+                "end": 293.215,
+                "confidence": 0.984375,
+                "punctuated_word": "I",
+                "word_id": 1737
+              },
+              {
+                "word": "need",
+                "start": 293.215,
+                "end": 293.455,
+                "confidence": 0.97802734,
+                "punctuated_word": "need",
+                "word_id": 1738
+              },
+              {
+                "word": "to",
+                "start": 293.455,
+                "end": 293.69498,
+                "confidence": 0.9970703,
+                "punctuated_word": "to",
+                "word_id": 1739
+              },
+              {
+                "word": "be",
+                "start": 293.69498,
+                "end": 293.85498,
+                "confidence": 1,
+                "punctuated_word": "be",
+                "word_id": 1740
+              },
+              {
+                "word": "concentrated",
+                "start": 293.85498,
+                "end": 294.495,
+                "confidence": 0.9970703,
+                "punctuated_word": "concentrated",
+                "word_id": 1741
+              },
+              {
+                "word": "because",
+                "start": 294.495,
+                "end": 295.215,
+                "confidence": 0.89453125,
+                "punctuated_word": "because",
+                "word_id": 1742
+              },
+              {
+                "word": "it",
+                "start": 295.615,
+                "end": 295.935,
+                "confidence": 0.96435547,
+                "punctuated_word": "it",
+                "word_id": 1743
+              },
+              {
+                "word": "was",
+                "start": 295.935,
+                "end": 296.575,
+                "confidence": 0.99902344,
+                "punctuated_word": "was",
+                "word_id": 1744
+              },
+              {
+                "word": "a",
+                "start": 296.97498,
+                "end": 297.13498,
+                "confidence": 0.6225586,
+                "punctuated_word": "a",
+                "word_id": 1745
+              },
+              {
+                "word": "very",
+                "start": 297.13498,
+                "end": 297.29498,
+                "confidence": 0.96875,
+                "punctuated_word": "very",
+                "word_id": 1746
+              },
+              {
+                "word": "complicated",
+                "start": 297.29498,
+                "end": 297.775,
+                "confidence": 0.99902344,
+                "punctuated_word": "complicated",
+                "word_id": 1747
+              },
+              {
+                "word": "exam",
+                "start": 297.775,
+                "end": 298.41498,
+                "confidence": 0.7807617,
+                "punctuated_word": "exam,",
+                "word_id": 1748
+              },
+              {
+                "word": "and",
+                "start": 298.41498,
+                "end": 298.57498,
+                "confidence": 1,
+                "punctuated_word": "and",
+                "word_id": 1749
+              },
+              {
+                "word": "i",
+                "start": 298.57498,
+                "end": 299.215,
+                "confidence": 1,
+                "punctuated_word": "I",
+                "word_id": 1750
+              },
+              {
+                "word": "lost",
+                "start": 299.29498,
+                "end": 299.85498,
+                "confidence": 0.7458496,
+                "punctuated_word": "lost,",
+                "word_id": 1751
+              },
+              {
+                "word": "like",
+                "start": 299.85498,
+                "end": 300.095,
+                "confidence": 0.9941406,
+                "punctuated_word": "like",
+                "word_id": 1752
+              }
+            ],
+            "paragraphs": {
+              "transcript": "\nThen I don't I don't because when I working now I'm working from home. So I have a lot of frames in my when I have both spare time and the time in which I need to work. So it depends on the situation. It it doesn't depend only on my planifications, but but I try to be concentrated when I need need to work. And if I have a spare time to to do something different, I I used to not not use a lot of applications to to waste time.\n\nYeah. You know? For me, sometimes it's hard and sometimes doesn't in sense that it isn't. It isn't. It isn't.\n\nIt's and sometimes it isn't in sense that when I sometimes I need to I need to use Excel, yeah, as a as a program when it's it's very it's not very demanding, but and it's not very complicated, but you need to be concentrated, be focused on what you what you what you write, yeah, what you put generally. And if I'm disrupted by not only by notifications, but by every situation, I need I need, like, four, five minutes to to get back and be really concentrated as as if, you know, as if I wasn't disrupted completely. Mhmm. Yeah. Because if you if you see I I guess that if you see that it's that someone called you during the class, you you notice it and you thinking about you are thinking about it during having a class, having a lesson.\n\nYeah? And it even if you you you don't want, it can disrupt. Happens automatically. Yeah. Yeah.\n\nYes. I have. For example, I remember that when I was at school and I was supposed to to pass an exam, for example, I I remember that I that I felt that in my pocket, my phone was was, you know, was vibrating. Was vibrating. And even this sensation, it cows that I was thinking about it because I I couldn't check check out who who was who was calling to me.\n\nSo I was disruptive disruptive disruptive. And in this moment, I need to be concentrated because it was a very complicated exam, and I lost, like",
+              "paragraphs": [
+                {
+                  "sentences": [
+                    {
+                      "text": "Then I don't I don't because when I working now I'm working from home.",
+                      "start": 4.96,
+                      "end": 12.719999
+                    },
+                    {
+                      "text": "So I have a lot of frames in my when I have both spare time and the time in which I need to work.",
+                      "start": 14.135,
+                      "end": 26.935001
+                    },
+                    {
+                      "text": "So it depends on the situation.",
+                      "start": 26.935001,
+                      "end": 28.695
+                    },
+                    {
+                      "text": "It it doesn't depend only on my planifications, but but I try to be concentrated when I need need to work.",
+                      "start": 28.695,
+                      "end": 41.3
+                    },
+                    {
+                      "text": "And if I have a spare time to to do something different, I I used to not not use a lot of applications to to waste time.",
+                      "start": 42.465,
+                      "end": 60.44
+                    }
+                  ],
+                  "num_words": 92,
+                  "start": 4.96,
+                  "end": 60.44
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "Yeah.",
+                      "start": 60.44,
+                      "end": 60.76
+                    },
+                    {
+                      "text": "You know?",
+                      "start": 60.76,
+                      "end": 61.079998
+                    },
+                    {
+                      "text": "For me, sometimes it's hard and sometimes doesn't in sense that it isn't.",
+                      "start": 71.745,
+                      "end": 81.01
+                    },
+                    {
+                      "text": "It isn't.",
+                      "start": 81.01,
+                      "end": 81.490005
+                    },
+                    {
+                      "text": "It isn't.",
+                      "start": 81.490005,
+                      "end": 82.130005
+                    }
+                  ],
+                  "num_words": 20,
+                  "start": 60.44,
+                  "end": 82.130005
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "It's and sometimes it isn't in sense that when I sometimes I need to I need to use Excel, yeah, as a as a program when it's it's very it's not very demanding, but and it's not very complicated, but you need to be concentrated, be focused on what you what you what you write, yeah, what you put generally.",
+                      "start": 82.130005,
+                      "end": 114.600006
+                    },
+                    {
+                      "text": "And if I'm disrupted by not only by notifications, but by every situation, I need I need, like, four, five minutes to to get back and be really concentrated as as if, you know, as if I wasn't disrupted completely.",
+                      "start": 114.600006,
+                      "end": 139.295
+                    },
+                    {
+                      "text": "Mhmm.",
+                      "start": 162.80501,
+                      "end": 163.205
+                    },
+                    {
+                      "text": "Yeah.",
+                      "start": 178.15001,
+                      "end": 178.55
+                    },
+                    {
+                      "text": "Because if you if you see I I guess that if you see that it's that someone called you during the class, you you notice it and you thinking about you are thinking about it during having a class, having a lesson.",
+                      "start": 178.55,
+                      "end": 196.455
+                    }
+                  ],
+                  "num_words": 144,
+                  "start": 82.130005,
+                  "end": 196.455
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "Yeah?",
+                      "start": 196.455,
+                      "end": 196.69499
+                    },
+                    {
+                      "text": "And it even if you you you don't want, it can disrupt.",
+                      "start": 196.69499,
+                      "end": 202.95
+                    },
+                    {
+                      "text": "Happens automatically.",
+                      "start": 204.70999,
+                      "end": 205.82999
+                    },
+                    {
+                      "text": "Yeah.",
+                      "start": 205.82999,
+                      "end": 206.06999
+                    },
+                    {
+                      "text": "Yeah.",
+                      "start": 227.75,
+                      "end": 228.39
+                    }
+                  ],
+                  "num_words": 17,
+                  "start": 196.455,
+                  "end": 228.39
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "Yes.",
+                      "start": 238.39,
+                      "end": 238.79
+                    },
+                    {
+                      "text": "I have.",
+                      "start": 238.875,
+                      "end": 240.475
+                    },
+                    {
+                      "text": "For example, I remember that when I was at school and I was supposed to to pass an exam, for example, I I remember that I that I felt that in my pocket, my phone was was, you know, was vibrating.",
+                      "start": 241.195,
+                      "end": 266.16
+                    },
+                    {
+                      "text": "Was vibrating.",
+                      "start": 266.16,
+                      "end": 268.73502
+                    },
+                    {
+                      "text": "And even this sensation, it cows that I was thinking about it because I I couldn't check check out who who was who was calling to me.",
+                      "start": 268.73502,
+                      "end": 284.88998
+                    }
+                  ],
+                  "num_words": 73,
+                  "start": 238.39,
+                  "end": 284.88998
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "So I was disruptive disruptive disruptive.",
+                      "start": 284.88998,
+                      "end": 290.00998
+                    },
+                    {
+                      "text": "And in this moment, I need to be concentrated because it was a very complicated exam, and I lost, like",
+                      "start": 290.25,
+                      "end": 300.095
+                    }
+                  ],
+                  "num_words": 26,
+                  "start": 284.88998,
+                  "end": 300.095
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "alternatives": [
+          {
+            "transcript": "You try to create destruction free time when you're working? Mhmm. Yes. Yes. Do you have oh, that's a good question too. Do you have any work tasks that you find particularly hard to concentrate on? Mhmm. Mhmm. Yes. Yeah. The the thing is, me, I can get distracted pretty much often because sometimes I don't I forget to turn off my notifications, but I realized that it takes way too much time for me to fully come back. Now you can hear no sound, nothing because I turned off completely. Even the the calls cannot come through. So I I have a lesson, basically, fifty minute lesson, and then I have ten minutes and then turn it off. I then I turn off the regime and see if someone has called me. I will call them back. If not, it's no problem. It happens it happens automatically We're humans. Even even though we should we should know we we shouldn't worry, but we're humans. Next one I want to ask is also about concentration and so on. Okay. Have you ever lost your focus because of a message? What exactly happened? And have you ever have you ever lost your focus and this led to negative, really negative consequences? Vibrating? Mhmm.",
+            "confidence": 0.99902344,
+            "words": [
+              {
+                "word": "you",
+                "start": 0,
+                "end": 0.16,
+                "confidence": 0.39697266,
+                "punctuated_word": "You"
+              },
+              {
+                "word": "try",
+                "start": 0.16,
+                "end": 0.48,
+                "confidence": 0.99121094,
+                "punctuated_word": "try"
+              },
+              {
+                "word": "to",
+                "start": 0.48,
+                "end": 0.64,
+                "confidence": 1,
+                "punctuated_word": "to"
+              },
+              {
+                "word": "create",
+                "start": 0.64,
+                "end": 1.04,
+                "confidence": 1,
+                "punctuated_word": "create"
+              },
+              {
+                "word": "destruction",
+                "start": 1.04,
+                "end": 1.76,
+                "confidence": 0.6591797,
+                "punctuated_word": "destruction"
+              },
+              {
+                "word": "free",
+                "start": 1.76,
+                "end": 2.1599998,
+                "confidence": 0.9970703,
+                "punctuated_word": "free"
+              },
+              {
+                "word": "time",
+                "start": 2.1599998,
+                "end": 2.48,
+                "confidence": 1,
+                "punctuated_word": "time"
+              },
+              {
+                "word": "when",
+                "start": 2.48,
+                "end": 2.8,
+                "confidence": 1,
+                "punctuated_word": "when"
+              },
+              {
+                "word": "you're",
+                "start": 2.8,
+                "end": 3.12,
+                "confidence": 0.99194336,
+                "punctuated_word": "you're"
+              },
+              {
+                "word": "working",
+                "start": 3.12,
+                "end": 3.52,
+                "confidence": 0.87109375,
+                "punctuated_word": "working?"
+              },
+              {
+                "word": "mhmm",
+                "start": 35.05,
+                "end": 35.53,
+                "confidence": 0.7861328,
+                "punctuated_word": "Mhmm."
+              },
+              {
+                "word": "yes",
+                "start": 60.920002,
+                "end": 61.56,
+                "confidence": 0.98291016,
+                "punctuated_word": "Yes."
+              },
+              {
+                "word": "yes",
+                "start": 61.56,
+                "end": 62.2,
+                "confidence": 1,
+                "punctuated_word": "Yes."
+              },
+              {
+                "word": "do",
+                "start": 62.36,
+                "end": 62.68,
+                "confidence": 0.9951172,
+                "punctuated_word": "Do"
+              },
+              {
+                "word": "you",
+                "start": 62.68,
+                "end": 62.84,
+                "confidence": 0.9980469,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "have",
+                "start": 62.84,
+                "end": 63,
+                "confidence": 1,
+                "punctuated_word": "have"
+              },
+              {
+                "word": "oh",
+                "start": 63.16,
+                "end": 63.48,
+                "confidence": 0.99853516,
+                "punctuated_word": "oh,"
+              },
+              {
+                "word": "that's",
+                "start": 63.48,
+                "end": 63.800003,
+                "confidence": 1,
+                "punctuated_word": "that's"
+              },
+              {
+                "word": "a",
+                "start": 63.800003,
+                "end": 63.88,
+                "confidence": 1,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "good",
+                "start": 63.88,
+                "end": 64.04,
+                "confidence": 1,
+                "punctuated_word": "good"
+              },
+              {
+                "word": "question",
+                "start": 64.04,
+                "end": 64.28,
+                "confidence": 1,
+                "punctuated_word": "question"
+              },
+              {
+                "word": "too",
+                "start": 64.28,
+                "end": 64.840004,
+                "confidence": 0.9995117,
+                "punctuated_word": "too."
+              },
+              {
+                "word": "do",
+                "start": 64.840004,
+                "end": 65.08,
+                "confidence": 1,
+                "punctuated_word": "Do"
+              },
+              {
+                "word": "you",
+                "start": 65.08,
+                "end": 65.16,
+                "confidence": 1,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "have",
+                "start": 65.16,
+                "end": 65.32,
+                "confidence": 1,
+                "punctuated_word": "have"
+              },
+              {
+                "word": "any",
+                "start": 65.32,
+                "end": 65.56,
+                "confidence": 1,
+                "punctuated_word": "any"
+              },
+              {
+                "word": "work",
+                "start": 65.56,
+                "end": 65.880005,
+                "confidence": 1,
+                "punctuated_word": "work"
+              },
+              {
+                "word": "tasks",
+                "start": 65.880005,
+                "end": 66.36,
+                "confidence": 1,
+                "punctuated_word": "tasks"
+              },
+              {
+                "word": "that",
+                "start": 66.36,
+                "end": 66.68,
+                "confidence": 1,
+                "punctuated_word": "that"
+              },
+              {
+                "word": "you",
+                "start": 66.68,
+                "end": 66.92,
+                "confidence": 1,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "find",
+                "start": 66.92,
+                "end": 67.24,
+                "confidence": 1,
+                "punctuated_word": "find"
+              },
+              {
+                "word": "particularly",
+                "start": 67.24,
+                "end": 68.44,
+                "confidence": 0.9970703,
+                "punctuated_word": "particularly"
+              },
+              {
+                "word": "hard",
+                "start": 68.44,
+                "end": 68.92,
+                "confidence": 1,
+                "punctuated_word": "hard"
+              },
+              {
+                "word": "to",
+                "start": 68.92,
+                "end": 69.16,
+                "confidence": 1,
+                "punctuated_word": "to"
+              },
+              {
+                "word": "concentrate",
+                "start": 69.16,
+                "end": 69.8,
+                "confidence": 1,
+                "punctuated_word": "concentrate"
+              },
+              {
+                "word": "on",
+                "start": 69.8,
+                "end": 70.12,
+                "confidence": 0.96362305,
+                "punctuated_word": "on?"
+              },
+              {
+                "word": "mhmm",
+                "start": 96.479996,
+                "end": 96.88,
+                "confidence": 0.82958984,
+                "punctuated_word": "Mhmm."
+              },
+              {
+                "word": "mhmm",
+                "start": 112.335,
+                "end": 112.814995,
+                "confidence": 0.9645996,
+                "punctuated_word": "Mhmm."
+              },
+              {
+                "word": "yes",
+                "start": 139.37,
+                "end": 140.09,
+                "confidence": 0.9680176,
+                "punctuated_word": "Yes."
+              },
+              {
+                "word": "yeah",
+                "start": 140.09,
+                "end": 140.65,
+                "confidence": 0.9880371,
+                "punctuated_word": "Yeah."
+              },
+              {
+                "word": "the",
+                "start": 140.65,
+                "end": 140.89,
+                "confidence": 0.9536133,
+                "punctuated_word": "The"
+              },
+              {
+                "word": "the",
+                "start": 140.89,
+                "end": 141.29,
+                "confidence": 0.77441406,
+                "punctuated_word": "the"
+              },
+              {
+                "word": "thing",
+                "start": 141.29,
+                "end": 141.53,
+                "confidence": 0.9980469,
+                "punctuated_word": "thing"
+              },
+              {
+                "word": "is",
+                "start": 141.53,
+                "end": 142.09,
+                "confidence": 0.76171875,
+                "punctuated_word": "is,"
+              },
+              {
+                "word": "me",
+                "start": 142.25,
+                "end": 142.97,
+                "confidence": 0.98950195,
+                "punctuated_word": "me,"
+              },
+              {
+                "word": "i",
+                "start": 143.20999,
+                "end": 143.37,
+                "confidence": 0.89208984,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "can",
+                "start": 143.37,
+                "end": 143.61,
+                "confidence": 1,
+                "punctuated_word": "can"
+              },
+              {
+                "word": "get",
+                "start": 143.61,
+                "end": 144.17,
+                "confidence": 1,
+                "punctuated_word": "get"
+              },
+              {
+                "word": "distracted",
+                "start": 144.25,
+                "end": 145.12999,
+                "confidence": 1,
+                "punctuated_word": "distracted"
+              },
+              {
+                "word": "pretty",
+                "start": 145.12999,
+                "end": 145.45,
+                "confidence": 0.99902344,
+                "punctuated_word": "pretty"
+              },
+              {
+                "word": "much",
+                "start": 145.45,
+                "end": 145.69,
+                "confidence": 1,
+                "punctuated_word": "much"
+              },
+              {
+                "word": "often",
+                "start": 145.69,
+                "end": 146.01,
+                "confidence": 0.99902344,
+                "punctuated_word": "often"
+              },
+              {
+                "word": "because",
+                "start": 146.01,
+                "end": 146.65,
+                "confidence": 0.91015625,
+                "punctuated_word": "because"
+              },
+              {
+                "word": "sometimes",
+                "start": 146.65,
+                "end": 147.20999,
+                "confidence": 0.9902344,
+                "punctuated_word": "sometimes"
+              },
+              {
+                "word": "i",
+                "start": 147.20999,
+                "end": 147.53,
+                "confidence": 0.9506836,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "don't",
+                "start": 147.53,
+                "end": 147.76999,
+                "confidence": 1,
+                "punctuated_word": "don't"
+              },
+              {
+                "word": "i",
+                "start": 147.84999,
+                "end": 148.01,
+                "confidence": 1,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "forget",
+                "start": 148.01,
+                "end": 148.33,
+                "confidence": 0.99902344,
+                "punctuated_word": "forget"
+              },
+              {
+                "word": "to",
+                "start": 148.33,
+                "end": 148.56999,
+                "confidence": 1,
+                "punctuated_word": "to"
+              },
+              {
+                "word": "turn",
+                "start": 148.56999,
+                "end": 148.81,
+                "confidence": 1,
+                "punctuated_word": "turn"
+              },
+              {
+                "word": "off",
+                "start": 148.81,
+                "end": 149.05,
+                "confidence": 1,
+                "punctuated_word": "off"
+              },
+              {
+                "word": "my",
+                "start": 149.05,
+                "end": 149.20999,
+                "confidence": 1,
+                "punctuated_word": "my"
+              },
+              {
+                "word": "notifications",
+                "start": 149.20999,
+                "end": 149.93,
+                "confidence": 0.95581055,
+                "punctuated_word": "notifications,"
+              },
+              {
+                "word": "but",
+                "start": 149.93,
+                "end": 150.09,
+                "confidence": 1,
+                "punctuated_word": "but"
+              },
+              {
+                "word": "i",
+                "start": 150.09,
+                "end": 150.17,
+                "confidence": 1,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "realized",
+                "start": 150.17,
+                "end": 150.56999,
+                "confidence": 0.65722656,
+                "punctuated_word": "realized"
+              },
+              {
+                "word": "that",
+                "start": 150.56999,
+                "end": 152.33,
+                "confidence": 1,
+                "punctuated_word": "that"
+              },
+              {
+                "word": "it",
+                "start": 151.115,
+                "end": 151.35501,
+                "confidence": 0.99902344,
+                "punctuated_word": "it"
+              },
+              {
+                "word": "takes",
+                "start": 151.35501,
+                "end": 151.755,
+                "confidence": 1,
+                "punctuated_word": "takes"
+              },
+              {
+                "word": "way",
+                "start": 151.755,
+                "end": 151.99501,
+                "confidence": 1,
+                "punctuated_word": "way"
+              },
+              {
+                "word": "too",
+                "start": 151.99501,
+                "end": 152.235,
+                "confidence": 1,
+                "punctuated_word": "too"
+              },
+              {
+                "word": "much",
+                "start": 152.235,
+                "end": 152.395,
+                "confidence": 1,
+                "punctuated_word": "much"
+              },
+              {
+                "word": "time",
+                "start": 152.395,
+                "end": 152.715,
+                "confidence": 1,
+                "punctuated_word": "time"
+              },
+              {
+                "word": "for",
+                "start": 152.715,
+                "end": 152.875,
+                "confidence": 1,
+                "punctuated_word": "for"
+              },
+              {
+                "word": "me",
+                "start": 152.875,
+                "end": 153.115,
+                "confidence": 1,
+                "punctuated_word": "me"
+              },
+              {
+                "word": "to",
+                "start": 153.115,
+                "end": 153.515,
+                "confidence": 1,
+                "punctuated_word": "to"
+              },
+              {
+                "word": "fully",
+                "start": 153.515,
+                "end": 153.99501,
+                "confidence": 1,
+                "punctuated_word": "fully"
+              },
+              {
+                "word": "come",
+                "start": 153.99501,
+                "end": 154.235,
+                "confidence": 0.9970703,
+                "punctuated_word": "come"
+              },
+              {
+                "word": "back",
+                "start": 154.235,
+                "end": 154.55501,
+                "confidence": 0.9975586,
+                "punctuated_word": "back."
+              },
+              {
+                "word": "now",
+                "start": 154.55501,
+                "end": 155.195,
+                "confidence": 0.9970703,
+                "punctuated_word": "Now"
+              },
+              {
+                "word": "you",
+                "start": 155.195,
+                "end": 155.515,
+                "confidence": 0.54589844,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "can",
+                "start": 155.515,
+                "end": 155.675,
+                "confidence": 1,
+                "punctuated_word": "can"
+              },
+              {
+                "word": "hear",
+                "start": 155.675,
+                "end": 155.91501,
+                "confidence": 1,
+                "punctuated_word": "hear"
+              },
+              {
+                "word": "no",
+                "start": 155.91501,
+                "end": 156.235,
+                "confidence": 0.9970703,
+                "punctuated_word": "no"
+              },
+              {
+                "word": "sound",
+                "start": 156.235,
+                "end": 156.795,
+                "confidence": 0.9152832,
+                "punctuated_word": "sound,"
+              },
+              {
+                "word": "nothing",
+                "start": 156.795,
+                "end": 157.035,
+                "confidence": 1,
+                "punctuated_word": "nothing"
+              },
+              {
+                "word": "because",
+                "start": 157.035,
+                "end": 157.435,
+                "confidence": 0.6333008,
+                "punctuated_word": "because"
+              },
+              {
+                "word": "i",
+                "start": 157.435,
+                "end": 157.595,
+                "confidence": 1,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "turned",
+                "start": 157.595,
+                "end": 157.91501,
+                "confidence": 0.9951172,
+                "punctuated_word": "turned"
+              },
+              {
+                "word": "off",
+                "start": 157.91501,
+                "end": 158.395,
+                "confidence": 1,
+                "punctuated_word": "off"
+              },
+              {
+                "word": "completely",
+                "start": 158.395,
+                "end": 159.35501,
+                "confidence": 0.7154541,
+                "punctuated_word": "completely."
+              },
+              {
+                "word": "even",
+                "start": 159.35501,
+                "end": 159.755,
+                "confidence": 1,
+                "punctuated_word": "Even"
+              },
+              {
+                "word": "the",
+                "start": 159.755,
+                "end": 160.395,
+                "confidence": 0.9941406,
+                "punctuated_word": "the"
+              },
+              {
+                "word": "the",
+                "start": 160.715,
+                "end": 161.035,
+                "confidence": 0.9707031,
+                "punctuated_word": "the"
+              },
+              {
+                "word": "calls",
+                "start": 161.035,
+                "end": 161.515,
+                "confidence": 0.9658203,
+                "punctuated_word": "calls"
+              },
+              {
+                "word": "cannot",
+                "start": 161.515,
+                "end": 161.99501,
+                "confidence": 1,
+                "punctuated_word": "cannot"
+              },
+              {
+                "word": "come",
+                "start": 161.99501,
+                "end": 162.63501,
+                "confidence": 0.9980469,
+                "punctuated_word": "come"
+              },
+              {
+                "word": "through",
+                "start": 162.63501,
+                "end": 163.035,
+                "confidence": 0.98291016,
+                "punctuated_word": "through."
+              },
+              {
+                "word": "so",
+                "start": 163.57,
+                "end": 163.97,
+                "confidence": 1,
+                "punctuated_word": "So"
+              },
+              {
+                "word": "i",
+                "start": 163.97,
+                "end": 164.29001,
+                "confidence": 1,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "i",
+                "start": 164.29001,
+                "end": 164.61,
+                "confidence": 0.9980469,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "have",
+                "start": 164.61,
+                "end": 164.85,
+                "confidence": 1,
+                "punctuated_word": "have"
+              },
+              {
+                "word": "a",
+                "start": 164.85,
+                "end": 165.09,
+                "confidence": 0.9277344,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "lesson",
+                "start": 165.09,
+                "end": 165.65001,
+                "confidence": 0.9025879,
+                "punctuated_word": "lesson,"
+              },
+              {
+                "word": "basically",
+                "start": 165.73001,
+                "end": 166.29001,
+                "confidence": 0.8574219,
+                "punctuated_word": "basically,"
+              },
+              {
+                "word": "fifty",
+                "start": 166.29001,
+                "end": 166.53,
+                "confidence": 0.49902344,
+                "punctuated_word": "fifty"
+              },
+              {
+                "word": "minute",
+                "start": 166.53,
+                "end": 166.77,
+                "confidence": 0.99902344,
+                "punctuated_word": "minute"
+              },
+              {
+                "word": "lesson",
+                "start": 166.77,
+                "end": 167.17,
+                "confidence": 0.96240234,
+                "punctuated_word": "lesson,"
+              },
+              {
+                "word": "and",
+                "start": 167.17,
+                "end": 167.25,
+                "confidence": 1,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "then",
+                "start": 167.25,
+                "end": 167.41,
+                "confidence": 1,
+                "punctuated_word": "then"
+              },
+              {
+                "word": "i",
+                "start": 167.41,
+                "end": 167.57,
+                "confidence": 1,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "have",
+                "start": 167.57,
+                "end": 167.89,
+                "confidence": 1,
+                "punctuated_word": "have"
+              },
+              {
+                "word": "ten",
+                "start": 167.89,
+                "end": 168.13,
+                "confidence": 1,
+                "punctuated_word": "ten"
+              },
+              {
+                "word": "minutes",
+                "start": 168.13,
+                "end": 168.45,
+                "confidence": 1,
+                "punctuated_word": "minutes"
+              },
+              {
+                "word": "and",
+                "start": 168.45,
+                "end": 168.69,
+                "confidence": 0.81933594,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "then",
+                "start": 168.69,
+                "end": 169.01001,
+                "confidence": 0.98535156,
+                "punctuated_word": "then"
+              },
+              {
+                "word": "turn",
+                "start": 169.01001,
+                "end": 169.49,
+                "confidence": 0.8881836,
+                "punctuated_word": "turn"
+              },
+              {
+                "word": "it",
+                "start": 169.49,
+                "end": 169.65001,
+                "confidence": 1,
+                "punctuated_word": "it"
+              },
+              {
+                "word": "off",
+                "start": 169.65001,
+                "end": 170.05,
+                "confidence": 0.9838867,
+                "punctuated_word": "off."
+              },
+              {
+                "word": "i",
+                "start": 170.05,
+                "end": 170.21,
+                "confidence": 0.93359375,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "then",
+                "start": 170.37001,
+                "end": 170.45,
+                "confidence": 0.9980469,
+                "punctuated_word": "then"
+              },
+              {
+                "word": "i",
+                "start": 170.45,
+                "end": 170.61,
+                "confidence": 1,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "turn",
+                "start": 170.61,
+                "end": 170.93001,
+                "confidence": 0.9838867,
+                "punctuated_word": "turn"
+              },
+              {
+                "word": "off",
+                "start": 170.93001,
+                "end": 171.17,
+                "confidence": 1,
+                "punctuated_word": "off"
+              },
+              {
+                "word": "the",
+                "start": 171.17,
+                "end": 171.89001,
+                "confidence": 1,
+                "punctuated_word": "the"
+              },
+              {
+                "word": "regime",
+                "start": 172.13,
+                "end": 172.69,
+                "confidence": 0.9658203,
+                "punctuated_word": "regime"
+              },
+              {
+                "word": "and",
+                "start": 172.69,
+                "end": 172.93001,
+                "confidence": 0.98828125,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "see",
+                "start": 172.93001,
+                "end": 173.17,
+                "confidence": 1,
+                "punctuated_word": "see"
+              },
+              {
+                "word": "if",
+                "start": 173.17,
+                "end": 173.41,
+                "confidence": 0.9707031,
+                "punctuated_word": "if"
+              },
+              {
+                "word": "someone",
+                "start": 173.41,
+                "end": 173.89,
+                "confidence": 1,
+                "punctuated_word": "someone"
+              },
+              {
+                "word": "has",
+                "start": 173.89,
+                "end": 174.13,
+                "confidence": 1,
+                "punctuated_word": "has"
+              },
+              {
+                "word": "called",
+                "start": 174.13,
+                "end": 174.45,
+                "confidence": 1,
+                "punctuated_word": "called"
+              },
+              {
+                "word": "me",
+                "start": 174.45,
+                "end": 174.69,
+                "confidence": 0.91967773,
+                "punctuated_word": "me."
+              },
+              {
+                "word": "i",
+                "start": 174.69,
+                "end": 174.85,
+                "confidence": 1,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "will",
+                "start": 174.85,
+                "end": 175.01001,
+                "confidence": 1,
+                "punctuated_word": "will"
+              },
+              {
+                "word": "call",
+                "start": 175.01001,
+                "end": 175.25,
+                "confidence": 1,
+                "punctuated_word": "call"
+              },
+              {
+                "word": "them",
+                "start": 175.25,
+                "end": 175.49,
+                "confidence": 1,
+                "punctuated_word": "them"
+              },
+              {
+                "word": "back",
+                "start": 175.49,
+                "end": 175.97002,
+                "confidence": 0.9980469,
+                "punctuated_word": "back."
+              },
+              {
+                "word": "if",
+                "start": 176.13,
+                "end": 176.37001,
+                "confidence": 0.9970703,
+                "punctuated_word": "If"
+              },
+              {
+                "word": "not",
+                "start": 176.37001,
+                "end": 176.77,
+                "confidence": 0.9995117,
+                "punctuated_word": "not,"
+              },
+              {
+                "word": "it's",
+                "start": 176.77,
+                "end": 177.17,
+                "confidence": 0.9724121,
+                "punctuated_word": "it's"
+              },
+              {
+                "word": "no",
+                "start": 177.17,
+                "end": 177.41,
+                "confidence": 0.98291016,
+                "punctuated_word": "no"
+              },
+              {
+                "word": "problem",
+                "start": 177.41,
+                "end": 177.73001,
+                "confidence": 0.9995117,
+                "punctuated_word": "problem."
+              },
+              {
+                "word": "it",
+                "start": 194.65001,
+                "end": 195.29001,
+                "confidence": 0.65966797,
+                "punctuated_word": "It"
+              },
+              {
+                "word": "happens",
+                "start": 202.49,
+                "end": 203.05,
+                "confidence": 0.99609375,
+                "punctuated_word": "happens"
+              },
+              {
+                "word": "it",
+                "start": 203.05,
+                "end": 203.45001,
+                "confidence": 0.9453125,
+                "punctuated_word": "it"
+              },
+              {
+                "word": "happens",
+                "start": 203.45001,
+                "end": 203.85,
+                "confidence": 1,
+                "punctuated_word": "happens"
+              },
+              {
+                "word": "automatically",
+                "start": 203.85,
+                "end": 206.81001,
+                "confidence": 1,
+                "punctuated_word": "automatically"
+              },
+              {
+                "word": "we're",
+                "start": 205.905,
+                "end": 206.305,
+                "confidence": 0.9921875,
+                "punctuated_word": "We're"
+              },
+              {
+                "word": "humans",
+                "start": 206.305,
+                "end": 206.86499,
+                "confidence": 0.87353516,
+                "punctuated_word": "humans."
+              },
+              {
+                "word": "even",
+                "start": 206.86499,
+                "end": 206.94499,
+                "confidence": 1,
+                "punctuated_word": "Even"
+              },
+              {
+                "word": "even",
+                "start": 206.94499,
+                "end": 207.34499,
+                "confidence": 0.99902344,
+                "punctuated_word": "even"
+              },
+              {
+                "word": "though",
+                "start": 207.34499,
+                "end": 207.50499,
+                "confidence": 0.99902344,
+                "punctuated_word": "though"
+              },
+              {
+                "word": "we",
+                "start": 207.50499,
+                "end": 207.825,
+                "confidence": 0.9980469,
+                "punctuated_word": "we"
+              },
+              {
+                "word": "should",
+                "start": 207.825,
+                "end": 208.06499,
+                "confidence": 0.4880371,
+                "punctuated_word": "should"
+              },
+              {
+                "word": "we",
+                "start": 208.06499,
+                "end": 208.545,
+                "confidence": 0.98095703,
+                "punctuated_word": "we"
+              },
+              {
+                "word": "should",
+                "start": 208.545,
+                "end": 208.86499,
+                "confidence": 0.9970703,
+                "punctuated_word": "should"
+              },
+              {
+                "word": "know",
+                "start": 208.86499,
+                "end": 209.105,
+                "confidence": 0.99121094,
+                "punctuated_word": "know"
+              },
+              {
+                "word": "we",
+                "start": 209.265,
+                "end": 209.42499,
+                "confidence": 0.99121094,
+                "punctuated_word": "we"
+              },
+              {
+                "word": "we",
+                "start": 209.42499,
+                "end": 209.825,
+                "confidence": 0.9790039,
+                "punctuated_word": "we"
+              },
+              {
+                "word": "shouldn't",
+                "start": 209.825,
+                "end": 210.625,
+                "confidence": 0.9995117,
+                "punctuated_word": "shouldn't"
+              },
+              {
+                "word": "worry",
+                "start": 210.70499,
+                "end": 211.58499,
+                "confidence": 0.73291016,
+                "punctuated_word": "worry,"
+              },
+              {
+                "word": "but",
+                "start": 211.58499,
+                "end": 211.825,
+                "confidence": 1,
+                "punctuated_word": "but"
+              },
+              {
+                "word": "we're",
+                "start": 211.825,
+                "end": 212.22499,
+                "confidence": 0.99365234,
+                "punctuated_word": "we're"
+              },
+              {
+                "word": "humans",
+                "start": 212.22499,
+                "end": 212.94499,
+                "confidence": 0.99853516,
+                "punctuated_word": "humans."
+              },
+              {
+                "word": "next",
+                "start": 212.94499,
+                "end": 213.185,
+                "confidence": 1,
+                "punctuated_word": "Next"
+              },
+              {
+                "word": "one",
+                "start": 213.185,
+                "end": 213.42499,
+                "confidence": 0.99902344,
+                "punctuated_word": "one"
+              },
+              {
+                "word": "i",
+                "start": 213.42499,
+                "end": 213.58499,
+                "confidence": 0.9941406,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "want",
+                "start": 213.58499,
+                "end": 213.745,
+                "confidence": 0.99902344,
+                "punctuated_word": "want"
+              },
+              {
+                "word": "to",
+                "start": 213.745,
+                "end": 213.905,
+                "confidence": 0.99902344,
+                "punctuated_word": "to"
+              },
+              {
+                "word": "ask",
+                "start": 213.905,
+                "end": 214.14499,
+                "confidence": 1,
+                "punctuated_word": "ask"
+              },
+              {
+                "word": "is",
+                "start": 214.14499,
+                "end": 214.545,
+                "confidence": 0.9980469,
+                "punctuated_word": "is"
+              },
+              {
+                "word": "also",
+                "start": 214.545,
+                "end": 214.94499,
+                "confidence": 0.99121094,
+                "punctuated_word": "also"
+              },
+              {
+                "word": "about",
+                "start": 214.94499,
+                "end": 215.42499,
+                "confidence": 0.9970703,
+                "punctuated_word": "about"
+              },
+              {
+                "word": "concentration",
+                "start": 215.42499,
+                "end": 216.14499,
+                "confidence": 1,
+                "punctuated_word": "concentration"
+              },
+              {
+                "word": "and",
+                "start": 216.14499,
+                "end": 216.465,
+                "confidence": 0.9980469,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "so",
+                "start": 216.465,
+                "end": 216.625,
+                "confidence": 0.99609375,
+                "punctuated_word": "so"
+              },
+              {
+                "word": "on",
+                "start": 216.625,
+                "end": 216.78499,
+                "confidence": 0.99902344,
+                "punctuated_word": "on."
+              },
+              {
+                "word": "okay",
+                "start": 222.46,
+                "end": 223.1,
+                "confidence": 0.8527832,
+                "punctuated_word": "Okay."
+              },
+              {
+                "word": "have",
+                "start": 223.58,
+                "end": 223.9,
+                "confidence": 0.9970703,
+                "punctuated_word": "Have"
+              },
+              {
+                "word": "you",
+                "start": 223.9,
+                "end": 223.98,
+                "confidence": 1,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "ever",
+                "start": 223.98,
+                "end": 224.22,
+                "confidence": 1,
+                "punctuated_word": "ever"
+              },
+              {
+                "word": "lost",
+                "start": 224.22,
+                "end": 224.62,
+                "confidence": 1,
+                "punctuated_word": "lost"
+              },
+              {
+                "word": "your",
+                "start": 224.62,
+                "end": 224.86,
+                "confidence": 1,
+                "punctuated_word": "your"
+              },
+              {
+                "word": "focus",
+                "start": 224.86,
+                "end": 225.26,
+                "confidence": 1,
+                "punctuated_word": "focus"
+              },
+              {
+                "word": "because",
+                "start": 225.26,
+                "end": 225.58,
+                "confidence": 0.99902344,
+                "punctuated_word": "because"
+              },
+              {
+                "word": "of",
+                "start": 225.58,
+                "end": 225.74,
+                "confidence": 1,
+                "punctuated_word": "of"
+              },
+              {
+                "word": "a",
+                "start": 225.74,
+                "end": 225.98,
+                "confidence": 0.99316406,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "message",
+                "start": 225.98,
+                "end": 226.70001,
+                "confidence": 0.984375,
+                "punctuated_word": "message?"
+              },
+              {
+                "word": "what",
+                "start": 227.66,
+                "end": 227.98,
+                "confidence": 0.71728516,
+                "punctuated_word": "What"
+              },
+              {
+                "word": "exactly",
+                "start": 227.98,
+                "end": 228.45999,
+                "confidence": 0.99609375,
+                "punctuated_word": "exactly"
+              },
+              {
+                "word": "happened",
+                "start": 228.45999,
+                "end": 229.1,
+                "confidence": 0.9650879,
+                "punctuated_word": "happened?"
+              },
+              {
+                "word": "and",
+                "start": 229.1,
+                "end": 229.42,
+                "confidence": 0.99902344,
+                "punctuated_word": "And"
+              },
+              {
+                "word": "have",
+                "start": 229.42,
+                "end": 229.66,
+                "confidence": 1,
+                "punctuated_word": "have"
+              },
+              {
+                "word": "you",
+                "start": 229.66,
+                "end": 229.81999,
+                "confidence": 1,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "ever",
+                "start": 229.81999,
+                "end": 230.06,
+                "confidence": 1,
+                "punctuated_word": "ever"
+              },
+              {
+                "word": "have",
+                "start": 230.06,
+                "end": 230.7,
+                "confidence": 0.6386719,
+                "punctuated_word": "have"
+              },
+              {
+                "word": "you",
+                "start": 230.7,
+                "end": 230.86,
+                "confidence": 0.99902344,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "ever",
+                "start": 230.86,
+                "end": 231.34,
+                "confidence": 1,
+                "punctuated_word": "ever"
+              },
+              {
+                "word": "lost",
+                "start": 231.34,
+                "end": 231.74,
+                "confidence": 0.99902344,
+                "punctuated_word": "lost"
+              },
+              {
+                "word": "your",
+                "start": 231.74,
+                "end": 231.98,
+                "confidence": 1,
+                "punctuated_word": "your"
+              },
+              {
+                "word": "focus",
+                "start": 231.98,
+                "end": 232.54,
+                "confidence": 1,
+                "punctuated_word": "focus"
+              },
+              {
+                "word": "and",
+                "start": 232.54,
+                "end": 233.1,
+                "confidence": 0.78125,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "this",
+                "start": 233.1,
+                "end": 233.42,
+                "confidence": 1,
+                "punctuated_word": "this"
+              },
+              {
+                "word": "led",
+                "start": 233.42,
+                "end": 233.81999,
+                "confidence": 0.9970703,
+                "punctuated_word": "led"
+              },
+              {
+                "word": "to",
+                "start": 233.81999,
+                "end": 234.06,
+                "confidence": 1,
+                "punctuated_word": "to"
+              },
+              {
+                "word": "negative",
+                "start": 234.06,
+                "end": 234.78,
+                "confidence": 0.7885742,
+                "punctuated_word": "negative,"
+              },
+              {
+                "word": "really",
+                "start": 234.78,
+                "end": 235.1,
+                "confidence": 1,
+                "punctuated_word": "really"
+              },
+              {
+                "word": "negative",
+                "start": 235.1,
+                "end": 235.5,
+                "confidence": 0.99902344,
+                "punctuated_word": "negative"
+              },
+              {
+                "word": "consequences",
+                "start": 235.575,
+                "end": 236.215,
+                "confidence": 0.91308594,
+                "punctuated_word": "consequences?"
+              },
+              {
+                "word": "vibrating",
+                "start": 266.39502,
+                "end": 267.83502,
+                "confidence": 0.82788086,
+                "punctuated_word": "Vibrating?"
+              },
+              {
+                "word": "mhmm",
+                "start": 289.09,
+                "end": 289.49,
+                "confidence": 0.8161621,
+                "punctuated_word": "Mhmm."
+              }
+            ],
+            "paragraphs": {
+              "transcript": "\nYou try to create destruction free time when you're working? Mhmm. Yes. Yes. Do you have oh, that's a good question too.\n\nDo you have any work tasks that you find particularly hard to concentrate on? Mhmm. Mhmm. Yes. Yeah.\n\nThe the thing is, me, I can get distracted pretty much often because sometimes I don't I forget to turn off my notifications, but I realized that it takes way too much time for me to fully come back. Now you can hear no sound, nothing because I turned off completely. Even the the calls cannot come through. So I I have a lesson, basically, fifty minute lesson, and then I have ten minutes and then turn it off. I then I turn off the regime and see if someone has called me.\n\nI will call them back. If not, it's no problem. It happens it happens automatically We're humans. Even even though we should we should know we we shouldn't worry, but we're humans. Next one I want to ask is also about concentration and so on.\n\nOkay. Have you ever lost your focus because of a message? What exactly happened? And have you ever have you ever lost your focus and this led to negative, really negative consequences? Vibrating?\n\nMhmm.",
+              "paragraphs": [
+                {
+                  "sentences": [
+                    {
+                      "text": "You try to create destruction free time when you're working?",
+                      "start": 0,
+                      "end": 3.52
+                    },
+                    {
+                      "text": "Mhmm.",
+                      "start": 35.05,
+                      "end": 35.53
+                    },
+                    {
+                      "text": "Yes.",
+                      "start": 60.920002,
+                      "end": 61.56
+                    },
+                    {
+                      "text": "Yes.",
+                      "start": 61.56,
+                      "end": 62.2
+                    },
+                    {
+                      "text": "Do you have oh, that's a good question too.",
+                      "start": 62.36,
+                      "end": 64.840004
+                    }
+                  ],
+                  "num_words": 22,
+                  "start": 0,
+                  "end": 64.840004
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "Do you have any work tasks that you find particularly hard to concentrate on?",
+                      "start": 64.840004,
+                      "end": 70.12
+                    },
+                    {
+                      "text": "Mhmm.",
+                      "start": 96.479996,
+                      "end": 96.88
+                    },
+                    {
+                      "text": "Mhmm.",
+                      "start": 112.335,
+                      "end": 112.814995
+                    },
+                    {
+                      "text": "Yes.",
+                      "start": 139.37,
+                      "end": 140.09
+                    },
+                    {
+                      "text": "Yeah.",
+                      "start": 140.09,
+                      "end": 140.65
+                    }
+                  ],
+                  "num_words": 18,
+                  "start": 64.840004,
+                  "end": 140.65
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "The the thing is, me, I can get distracted pretty much often because sometimes I don't I forget to turn off my notifications, but I realized that it takes way too much time for me to fully come back.",
+                      "start": 140.65,
+                      "end": 154.55501
+                    },
+                    {
+                      "text": "Now you can hear no sound, nothing because I turned off completely.",
+                      "start": 154.55501,
+                      "end": 159.35501
+                    },
+                    {
+                      "text": "Even the the calls cannot come through.",
+                      "start": 159.35501,
+                      "end": 163.035
+                    },
+                    {
+                      "text": "So I I have a lesson, basically, fifty minute lesson, and then I have ten minutes and then turn it off.",
+                      "start": 163.57,
+                      "end": 170.05
+                    },
+                    {
+                      "text": "I then I turn off the regime and see if someone has called me.",
+                      "start": 170.05,
+                      "end": 174.69
+                    }
+                  ],
+                  "num_words": 93,
+                  "start": 140.65,
+                  "end": 174.69
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "I will call them back.",
+                      "start": 174.69,
+                      "end": 175.97002
+                    },
+                    {
+                      "text": "If not, it's no problem.",
+                      "start": 176.13,
+                      "end": 177.73001
+                    },
+                    {
+                      "text": "It happens it happens automatically We're humans.",
+                      "start": 194.65001,
+                      "end": 206.86499
+                    },
+                    {
+                      "text": "Even even though we should we should know we we shouldn't worry, but we're humans.",
+                      "start": 206.86499,
+                      "end": 212.94499
+                    },
+                    {
+                      "text": "Next one I want to ask is also about concentration and so on.",
+                      "start": 212.94499,
+                      "end": 216.78499
+                    }
+                  ],
+                  "num_words": 45,
+                  "start": 174.69,
+                  "end": 216.78499
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "Okay.",
+                      "start": 222.46,
+                      "end": 223.1
+                    },
+                    {
+                      "text": "Have you ever lost your focus because of a message?",
+                      "start": 223.58,
+                      "end": 226.70001
+                    },
+                    {
+                      "text": "What exactly happened?",
+                      "start": 227.66,
+                      "end": 229.1
+                    },
+                    {
+                      "text": "And have you ever have you ever lost your focus and this led to negative, really negative consequences?",
+                      "start": 229.1,
+                      "end": 236.215
+                    },
+                    {
+                      "text": "Vibrating?",
+                      "start": 266.39502,
+                      "end": 267.83502
+                    }
+                  ],
+                  "num_words": 33,
+                  "start": 222.46,
+                  "end": 267.83502
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "Mhmm.",
+                      "start": 289.09,
+                      "end": 289.49
+                    }
+                  ],
+                  "num_words": 1,
+                  "start": 289.09,
+                  "end": 289.49
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "paragraphs": {
+      "transcript": "\nChannel 1: You try to create destruction free time when you're working?\n\nChannel 0: Then I don't I don't because when I working now I'm working from home. So I have a lot of frames in my when I have both spare time and the time in which I need to work. So it depends on the situation. It it doesn't depend only on my planifications, but\n\nChannel 1: Mhmm.\n\nChannel 0: but I try to be concentrated when I need need to work. And if I have a spare time to to do something different, I I used to not not use a lot of applications to to waste time. Yeah. You know?\n\nChannel 1: Yes. Yes. Do you have oh, that's a good question too. Do you have any work tasks that you find particularly hard to concentrate on?\n\nChannel 0: For me, sometimes it's hard and sometimes doesn't in sense that it isn't. It isn't. It isn't. It's and sometimes it isn't in sense that when I sometimes I need to I need to use Excel, yeah, as a\n\nChannel 1: Mhmm.\n\nChannel 0: as a program when it's it's very it's not very demanding, but and it's not very complicated, but you need to be concentrated, be focused on what you what you what you write, yeah, what you put\n\nChannel 1: Mhmm.\n\nChannel 0: generally. And if I'm disrupted by not only by notifications, but by every situation, I need I need, like, four, five minutes to to get back and be really concentrated as as if, you know, as if I wasn't disrupted completely.\n\nChannel 1: Yes. Yeah. The the thing is, me, I can get distracted pretty much often because sometimes I don't I forget to turn off my notifications, but I realized that it takes way too much time for me to fully come back. Now you can hear no sound, nothing because I turned off completely. Even the the calls cannot come through.\n\nChannel 0: Mhmm.\n\nChannel 1: So I I have a lesson, basically, fifty minute lesson, and then I have ten minutes and then turn it off. I then I turn off the regime and see if someone has called me. I will call them back. If not, it's no problem.\n\nChannel 0: Yeah. Because if you if you see I I guess that if you see that it's that someone called you during the class, you you notice it and you thinking about you are thinking about it during having\n\nChannel 1: It\n\nChannel 0: a class, having a lesson. Yeah? And it even if you you you don't want, it can disrupt.\n\nChannel 1: happens it happens automatically\n\nChannel 0: Happens automatically. Yeah.\n\nChannel 1: We're humans. Even even though we should we should know we we shouldn't worry, but we're humans. Next one I want to ask is also about concentration and so on. Okay. Have you ever lost your focus because of a message?\n\nWhat\n\nChannel 0: Yeah.\n\nChannel 1: exactly happened? And have you ever have you ever lost your focus and this led to negative, really negative consequences?\n\nChannel 0: Yes. I have. For example, I remember that when I was at school and I was supposed to to pass an exam, for example, I I remember that I that I felt that in my pocket, my phone was was, you know, was vibrating. Was\n\nChannel 1: Vibrating?\n\nChannel 0: vibrating. And even this sensation, it cows that I was thinking about it because I I couldn't check check out who who was who was calling to me. So I was disruptive disruptive disruptive.\n\nChannel 1: Mhmm.\n\nChannel 0: And in this moment, I need to be concentrated because it was a very complicated exam, and I lost, like",
+      "paragraphs": [
+        {
+          "sentences": [
+            {
+              "text": "You try to create destruction free time when you're working?",
+              "start": 0,
+              "end": 3.52
+            }
+          ],
+          "channel": 1,
+          "num_words": 10,
+          "start": 0,
+          "end": 3.52
+        },
+        {
+          "sentences": [
+            {
+              "text": "Then I don't I don't because when I working now I'm working from home.",
+              "start": 4.96,
+              "end": 12.719999
+            },
+            {
+              "text": "So I have a lot of frames in my when I have both spare time and the time in which I need to work.",
+              "start": 14.135,
+              "end": 26.935001
+            },
+            {
+              "text": "So it depends on the situation.",
+              "start": 26.935001,
+              "end": 28.695
+            },
+            {
+              "text": "It it doesn't depend only on my planifications, but",
+              "start": 28.695,
+              "end": 35.379997
+            }
+          ],
+          "channel": 0,
+          "num_words": 53,
+          "start": 4.96,
+          "end": 35.379997
+        },
+        {
+          "sentences": [
+            {
+              "text": "Mhmm.",
+              "start": 35.05,
+              "end": 35.53
+            }
+          ],
+          "channel": 1,
+          "num_words": 1,
+          "start": 35.05,
+          "end": 35.53
+        },
+        {
+          "sentences": [
+            {
+              "text": "but I try to be concentrated when I need need to work.",
+              "start": 35.86,
+              "end": 41.3
+            },
+            {
+              "text": "And if I have a spare time to to do something different, I I used to not not use a lot of applications to to waste time.",
+              "start": 42.465,
+              "end": 60.44
+            },
+            {
+              "text": "Yeah.",
+              "start": 60.44,
+              "end": 60.76
+            },
+            {
+              "text": "You know?",
+              "start": 60.76,
+              "end": 61.079998
+            }
+          ],
+          "channel": 0,
+          "num_words": 42,
+          "start": 35.86,
+          "end": 61.079998
+        },
+        {
+          "sentences": [
+            {
+              "text": "Yes.",
+              "start": 60.920002,
+              "end": 61.56
+            },
+            {
+              "text": "Yes.",
+              "start": 61.56,
+              "end": 62.2
+            },
+            {
+              "text": "Do you have oh, that's a good question too.",
+              "start": 62.36,
+              "end": 64.840004
+            },
+            {
+              "text": "Do you have any work tasks that you find particularly hard to concentrate on?",
+              "start": 64.840004,
+              "end": 70.12
+            }
+          ],
+          "channel": 1,
+          "num_words": 25,
+          "start": 60.920002,
+          "end": 70.12
+        },
+        {
+          "sentences": [
+            {
+              "text": "For me, sometimes it's hard and sometimes doesn't in sense that it isn't.",
+              "start": 71.745,
+              "end": 81.01
+            },
+            {
+              "text": "It isn't.",
+              "start": 81.01,
+              "end": 81.490005
+            },
+            {
+              "text": "It isn't.",
+              "start": 81.490005,
+              "end": 82.130005
+            },
+            {
+              "text": "It's and sometimes it isn't in sense that when I sometimes I need to I need to use Excel, yeah, as a",
+              "start": 82.130005,
+              "end": 96.715004
+            }
+          ],
+          "channel": 0,
+          "num_words": 39,
+          "start": 71.745,
+          "end": 96.715004
+        },
+        {
+          "sentences": [
+            {
+              "text": "Mhmm.",
+              "start": 96.479996,
+              "end": 96.88
+            }
+          ],
+          "channel": 1,
+          "num_words": 1,
+          "start": 96.479996,
+          "end": 96.88
+        },
+        {
+          "sentences": [
+            {
+              "text": "as a program when it's it's very it's not very demanding, but and it's not very complicated, but you need to be concentrated, be focused on what you what you what you write, yeah, what you put",
+              "start": 96.715004,
+              "end": 112.44
+            }
+          ],
+          "channel": 0,
+          "num_words": 37,
+          "start": 96.715004,
+          "end": 112.44
+        },
+        {
+          "sentences": [
+            {
+              "text": "Mhmm.",
+              "start": 112.335,
+              "end": 112.814995
+            }
+          ],
+          "channel": 1,
+          "num_words": 1,
+          "start": 112.335,
+          "end": 112.814995
+        },
+        {
+          "sentences": [
+            {
+              "text": "generally.",
+              "start": 113.8,
+              "end": 114.600006
+            },
+            {
+              "text": "And if I'm disrupted by not only by notifications, but by every situation, I need I need, like, four, five minutes to to get back and be really concentrated as as if, you know, as if I wasn't disrupted completely.",
+              "start": 114.600006,
+              "end": 139.295
+            }
+          ],
+          "channel": 0,
+          "num_words": 41,
+          "start": 113.8,
+          "end": 139.295
+        },
+        {
+          "sentences": [
+            {
+              "text": "Yes.",
+              "start": 139.37,
+              "end": 140.09
+            },
+            {
+              "text": "Yeah.",
+              "start": 140.09,
+              "end": 140.65
+            },
+            {
+              "text": "The the thing is, me, I can get distracted pretty much often because sometimes I don't I forget to turn off my notifications, but I realized that it takes way too much time for me to fully come back.",
+              "start": 140.65,
+              "end": 154.55501
+            },
+            {
+              "text": "Now you can hear no sound, nothing because I turned off completely.",
+              "start": 154.55501,
+              "end": 159.35501
+            },
+            {
+              "text": "Even the the calls cannot come through.",
+              "start": 159.35501,
+              "end": 163.035
+            }
+          ],
+          "channel": 1,
+          "num_words": 60,
+          "start": 139.37,
+          "end": 163.035
+        },
+        {
+          "sentences": [
+            {
+              "text": "Mhmm.",
+              "start": 162.80501,
+              "end": 163.205
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 162.80501,
+          "end": 163.205
+        },
+        {
+          "sentences": [
+            {
+              "text": "So I I have a lesson, basically, fifty minute lesson, and then I have ten minutes and then turn it off.",
+              "start": 163.57,
+              "end": 170.05
+            },
+            {
+              "text": "I then I turn off the regime and see if someone has called me.",
+              "start": 170.05,
+              "end": 174.69
+            },
+            {
+              "text": "I will call them back.",
+              "start": 174.69,
+              "end": 175.97002
+            },
+            {
+              "text": "If not, it's no problem.",
+              "start": 176.13,
+              "end": 177.73001
+            }
+          ],
+          "channel": 1,
+          "num_words": 45,
+          "start": 163.57,
+          "end": 177.73001
+        },
+        {
+          "sentences": [
+            {
+              "text": "Yeah.",
+              "start": 178.15001,
+              "end": 178.55
+            },
+            {
+              "text": "Because if you if you see I I guess that if you see that it's that someone called you during the class, you you notice it and you thinking about you are thinking about it during having",
+              "start": 178.55,
+              "end": 194.775
+            }
+          ],
+          "channel": 0,
+          "num_words": 38,
+          "start": 178.15001,
+          "end": 194.775
+        },
+        {
+          "sentences": [
+            {
+              "text": "It",
+              "start": 194.65001,
+              "end": 195.29001
+            }
+          ],
+          "channel": 1,
+          "num_words": 1,
+          "start": 194.65001,
+          "end": 195.29001
+        },
+        {
+          "sentences": [
+            {
+              "text": "a class, having a lesson.",
+              "start": 194.775,
+              "end": 196.455
+            },
+            {
+              "text": "Yeah?",
+              "start": 196.455,
+              "end": 196.69499
+            },
+            {
+              "text": "And it even if you you you don't want, it can disrupt.",
+              "start": 196.69499,
+              "end": 202.95
+            }
+          ],
+          "channel": 0,
+          "num_words": 18,
+          "start": 194.775,
+          "end": 202.95
+        },
+        {
+          "sentences": [
+            {
+              "text": "happens it happens automatically",
+              "start": 202.49,
+              "end": 206.81001
+            }
+          ],
+          "channel": 1,
+          "num_words": 4,
+          "start": 202.49,
+          "end": 206.81001
+        },
+        {
+          "sentences": [
+            {
+              "text": "Happens automatically.",
+              "start": 204.70999,
+              "end": 205.82999
+            },
+            {
+              "text": "Yeah.",
+              "start": 205.82999,
+              "end": 206.06999
+            }
+          ],
+          "channel": 0,
+          "num_words": 3,
+          "start": 204.70999,
+          "end": 206.06999
+        },
+        {
+          "sentences": [
+            {
+              "text": "We're humans.",
+              "start": 205.905,
+              "end": 206.86499
+            },
+            {
+              "text": "Even even though we should we should know we we shouldn't worry, but we're humans.",
+              "start": 206.86499,
+              "end": 212.94499
+            },
+            {
+              "text": "Next one I want to ask is also about concentration and so on.",
+              "start": 212.94499,
+              "end": 216.78499
+            },
+            {
+              "text": "Okay.",
+              "start": 222.46,
+              "end": 223.1
+            },
+            {
+              "text": "Have you ever lost your focus because of a message?",
+              "start": 223.58,
+              "end": 226.70001
+            }
+          ],
+          "channel": 1,
+          "num_words": 41,
+          "start": 205.905,
+          "end": 226.70001
+        },
+        {
+          "sentences": [
+            {
+              "text": "What",
+              "start": 227.66,
+              "end": 227.98
+            }
+          ],
+          "channel": 1,
+          "num_words": 1,
+          "start": 227.66,
+          "end": 227.98
+        },
+        {
+          "sentences": [
+            {
+              "text": "Yeah.",
+              "start": 227.75,
+              "end": 228.39
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 227.75,
+          "end": 228.39
+        },
+        {
+          "sentences": [
+            {
+              "text": "exactly happened?",
+              "start": 227.98,
+              "end": 229.1
+            },
+            {
+              "text": "And have you ever have you ever lost your focus and this led to negative, really negative consequences?",
+              "start": 229.1,
+              "end": 236.215
+            }
+          ],
+          "channel": 1,
+          "num_words": 20,
+          "start": 227.98,
+          "end": 236.215
+        },
+        {
+          "sentences": [
+            {
+              "text": "Yes.",
+              "start": 238.39,
+              "end": 238.79
+            },
+            {
+              "text": "I have.",
+              "start": 238.875,
+              "end": 240.475
+            },
+            {
+              "text": "For example, I remember that when I was at school and I was supposed to to pass an exam, for example, I I remember that I that I felt that in my pocket, my phone was was, you know, was vibrating.",
+              "start": 241.195,
+              "end": 266.16
+            },
+            {
+              "text": "Was",
+              "start": 266.16,
+              "end": 266.32
+            }
+          ],
+          "channel": 0,
+          "num_words": 45,
+          "start": 238.39,
+          "end": 266.32
+        },
+        {
+          "sentences": [
+            {
+              "text": "Vibrating?",
+              "start": 266.39502,
+              "end": 267.83502
+            }
+          ],
+          "channel": 1,
+          "num_words": 1,
+          "start": 266.39502,
+          "end": 267.83502
+        },
+        {
+          "sentences": [
+            {
+              "text": "vibrating.",
+              "start": 268.015,
+              "end": 268.73502
+            },
+            {
+              "text": "And even this sensation, it cows that I was thinking about it because I I couldn't check check out who who was who was calling to me.",
+              "start": 268.73502,
+              "end": 284.88998
+            },
+            {
+              "text": "So I was disruptive disruptive disruptive.",
+              "start": 284.88998,
+              "end": 290.00998
+            }
+          ],
+          "channel": 0,
+          "num_words": 34,
+          "start": 268.015,
+          "end": 290.00998
+        },
+        {
+          "sentences": [
+            {
+              "text": "Mhmm.",
+              "start": 289.09,
+              "end": 289.49
+            }
+          ],
+          "channel": 1,
+          "num_words": 1,
+          "start": 289.09,
+          "end": 289.49
+        },
+        {
+          "sentences": [
+            {
+              "text": "And in this moment, I need to be concentrated because it was a very complicated exam, and I lost, like",
+              "start": 290.25,
+              "end": 300.095
+            }
+          ],
+          "channel": 0,
+          "num_words": 20,
+          "start": 290.25,
+          "end": 300.095
+        }
+      ]
+    }
+  }
+}

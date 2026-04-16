@@ -1,0 +1,6108 @@
+{
+  "results": {
+    "channels": [
+      {
+        "alternatives": [
+          {
+            "transcript": "Mhmm. Yeah. Yeah. Yeah. It's changed. It's changed. So so I will try to check it. Check it. Mhmm. Yeah. Yeah. Yeah. Yeah. Mhmm. Yeah. Mhmm. Yeah. Yeah. Yeah. Yeah. No problem. For me, it's not a problem. Oh, okay. No problem for me. Yeah. I understand. And you okay. But 1 voice note or more? Okay. Okay. Okay. Okay. Okay. I understand. I under Okay. I understand. Mhmm. Yeah. Yeah. Mhmm. Yeah. Yeah. Yeah. I understand. So thank you for for our class, and we will see we will see next week. Yeah? Bye bye. Thank you.",
+            "confidence": 0.98339844,
+            "words": [
+              {
+                "word": "mhmm",
+                "start": 5.44,
+                "end": 5.8399997,
+                "confidence": 0.88305664,
+                "punctuated_word": "Mhmm.",
+                "word_id": 1995
+              },
+              {
+                "word": "yeah",
+                "start": 5.8399997,
+                "end": 6.24,
+                "confidence": 0.99853516,
+                "punctuated_word": "Yeah.",
+                "word_id": 1996
+              },
+              {
+                "word": "yeah",
+                "start": 6.24,
+                "end": 6.48,
+                "confidence": 0.99902344,
+                "punctuated_word": "Yeah.",
+                "word_id": 1997
+              },
+              {
+                "word": "yeah",
+                "start": 12.095,
+                "end": 12.735,
+                "confidence": 0.9289551,
+                "punctuated_word": "Yeah.",
+                "word_id": 1998
+              },
+              {
+                "word": "it's",
+                "start": 12.735001,
+                "end": 13.055,
+                "confidence": 0.9160156,
+                "punctuated_word": "It's",
+                "word_id": 1999
+              },
+              {
+                "word": "changed",
+                "start": 13.055,
+                "end": 13.615,
+                "confidence": 0.7480469,
+                "punctuated_word": "changed.",
+                "word_id": 2000
+              },
+              {
+                "word": "it's",
+                "start": 13.615,
+                "end": 14.095,
+                "confidence": 0.81933594,
+                "punctuated_word": "It's",
+                "word_id": 2001
+              },
+              {
+                "word": "changed",
+                "start": 14.095,
+                "end": 14.495,
+                "confidence": 0.90063477,
+                "punctuated_word": "changed.",
+                "word_id": 2002
+              },
+              {
+                "word": "so",
+                "start": 14.495001,
+                "end": 14.975,
+                "confidence": 0.81591797,
+                "punctuated_word": "So",
+                "word_id": 2003
+              },
+              {
+                "word": "so",
+                "start": 14.975,
+                "end": 15.455,
+                "confidence": 0.99316406,
+                "punctuated_word": "so",
+                "word_id": 2004
+              },
+              {
+                "word": "i",
+                "start": 15.455,
+                "end": 15.8550005,
+                "confidence": 0.9873047,
+                "punctuated_word": "I",
+                "word_id": 2005
+              },
+              {
+                "word": "will",
+                "start": 15.8550005,
+                "end": 16.175,
+                "confidence": 0.9921875,
+                "punctuated_word": "will",
+                "word_id": 2006
+              },
+              {
+                "word": "try",
+                "start": 16.175,
+                "end": 16.575,
+                "confidence": 1,
+                "punctuated_word": "try",
+                "word_id": 2007
+              },
+              {
+                "word": "to",
+                "start": 16.575,
+                "end": 17.215,
+                "confidence": 1,
+                "punctuated_word": "to",
+                "word_id": 2008
+              },
+              {
+                "word": "check",
+                "start": 18.655,
+                "end": 18.895,
+                "confidence": 0.59814453,
+                "punctuated_word": "check",
+                "word_id": 2009
+              },
+              {
+                "word": "it",
+                "start": 18.895,
+                "end": 19.295,
+                "confidence": 0.60632324,
+                "punctuated_word": "it.",
+                "word_id": 2010
+              },
+              {
+                "word": "check",
+                "start": 19.295,
+                "end": 19.615,
+                "confidence": 0.2788086,
+                "punctuated_word": "Check",
+                "word_id": 2011
+              },
+              {
+                "word": "it",
+                "start": 19.615,
+                "end": 20.015,
+                "confidence": 0.8730469,
+                "punctuated_word": "it.",
+                "word_id": 2012
+              },
+              {
+                "word": "mhmm",
+                "start": 20.015,
+                "end": 20.735,
+                "confidence": 0.9848633,
+                "punctuated_word": "Mhmm.",
+                "word_id": 2013
+              },
+              {
+                "word": "yeah",
+                "start": 22.015,
+                "end": 22.335,
+                "confidence": 0.9951172,
+                "punctuated_word": "Yeah.",
+                "word_id": 2014
+              },
+              {
+                "word": "yeah",
+                "start": 22.335,
+                "end": 22.575,
+                "confidence": 0.9707031,
+                "punctuated_word": "Yeah.",
+                "word_id": 2015
+              },
+              {
+                "word": "yeah",
+                "start": 41.035,
+                "end": 41.355,
+                "confidence": 0.9926758,
+                "punctuated_word": "Yeah.",
+                "word_id": 2016
+              },
+              {
+                "word": "yeah",
+                "start": 41.355,
+                "end": 41.915,
+                "confidence": 0.97680664,
+                "punctuated_word": "Yeah.",
+                "word_id": 2017
+              },
+              {
+                "word": "mhmm",
+                "start": 46.715,
+                "end": 47.115,
+                "confidence": 0.7832031,
+                "punctuated_word": "Mhmm.",
+                "word_id": 2018
+              },
+              {
+                "word": "yeah",
+                "start": 56,
+                "end": 56.56,
+                "confidence": 0.90625,
+                "punctuated_word": "Yeah.",
+                "word_id": 2019
+              },
+              {
+                "word": "mhmm",
+                "start": 59.440002,
+                "end": 60.16,
+                "confidence": 0.7636719,
+                "punctuated_word": "Mhmm.",
+                "word_id": 2020
+              },
+              {
+                "word": "yeah",
+                "start": 60.88,
+                "end": 61.28,
+                "confidence": 0.9760742,
+                "punctuated_word": "Yeah.",
+                "word_id": 2021
+              },
+              {
+                "word": "yeah",
+                "start": 61.28,
+                "end": 61.440002,
+                "confidence": 0.9116211,
+                "punctuated_word": "Yeah.",
+                "word_id": 2022
+              },
+              {
+                "word": "yeah",
+                "start": 72.825,
+                "end": 73.545,
+                "confidence": 0.94189453,
+                "punctuated_word": "Yeah.",
+                "word_id": 2023
+              },
+              {
+                "word": "yeah",
+                "start": 73.545,
+                "end": 73.865,
+                "confidence": 0.98950195,
+                "punctuated_word": "Yeah.",
+                "word_id": 2024
+              },
+              {
+                "word": "no",
+                "start": 73.865,
+                "end": 74.185,
+                "confidence": 0.63623047,
+                "punctuated_word": "No",
+                "word_id": 2025
+              },
+              {
+                "word": "problem",
+                "start": 74.185,
+                "end": 74.825,
+                "confidence": 0.9875488,
+                "punctuated_word": "problem.",
+                "word_id": 2026
+              },
+              {
+                "word": "for",
+                "start": 75.064995,
+                "end": 75.305,
+                "confidence": 0.8496094,
+                "punctuated_word": "For",
+                "word_id": 2027
+              },
+              {
+                "word": "me",
+                "start": 75.305,
+                "end": 75.545,
+                "confidence": 0.92285156,
+                "punctuated_word": "me,",
+                "word_id": 2028
+              },
+              {
+                "word": "it's",
+                "start": 75.545,
+                "end": 75.784996,
+                "confidence": 0.9916992,
+                "punctuated_word": "it's",
+                "word_id": 2029
+              },
+              {
+                "word": "not",
+                "start": 75.784996,
+                "end": 75.945,
+                "confidence": 0.55810547,
+                "punctuated_word": "not",
+                "word_id": 2030
+              },
+              {
+                "word": "a",
+                "start": 75.945,
+                "end": 76.185,
+                "confidence": 0.30932617,
+                "punctuated_word": "a",
+                "word_id": 2031
+              },
+              {
+                "word": "problem",
+                "start": 76.185,
+                "end": 76.585,
+                "confidence": 0.9926758,
+                "punctuated_word": "problem.",
+                "word_id": 2032
+              },
+              {
+                "word": "oh",
+                "start": 77.145,
+                "end": 77.384995,
+                "confidence": 0.7922363,
+                "punctuated_word": "Oh,",
+                "word_id": 2033
+              },
+              {
+                "word": "okay",
+                "start": 77.384995,
+                "end": 77.704994,
+                "confidence": 0.99902344,
+                "punctuated_word": "okay.",
+                "word_id": 2034
+              },
+              {
+                "word": "no",
+                "start": 77.704994,
+                "end": 77.945,
+                "confidence": 0.99902344,
+                "punctuated_word": "No",
+                "word_id": 2035
+              },
+              {
+                "word": "problem",
+                "start": 77.945,
+                "end": 78.265,
+                "confidence": 0.99902344,
+                "punctuated_word": "problem",
+                "word_id": 2036
+              },
+              {
+                "word": "for",
+                "start": 78.265,
+                "end": 78.585,
+                "confidence": 0.9941406,
+                "punctuated_word": "for",
+                "word_id": 2037
+              },
+              {
+                "word": "me",
+                "start": 78.585,
+                "end": 78.825,
+                "confidence": 0.9995117,
+                "punctuated_word": "me.",
+                "word_id": 2038
+              },
+              {
+                "word": "yeah",
+                "start": 119.009995,
+                "end": 119.409996,
+                "confidence": 0.9855957,
+                "punctuated_word": "Yeah.",
+                "word_id": 2039
+              },
+              {
+                "word": "i",
+                "start": 119.409996,
+                "end": 119.56999,
+                "confidence": 0.9951172,
+                "punctuated_word": "I",
+                "word_id": 2040
+              },
+              {
+                "word": "understand",
+                "start": 119.56999,
+                "end": 120.28999,
+                "confidence": 0.96850586,
+                "punctuated_word": "understand.",
+                "word_id": 2041
+              },
+              {
+                "word": "and",
+                "start": 120.28999,
+                "end": 120.60999,
+                "confidence": 0.92822266,
+                "punctuated_word": "And",
+                "word_id": 2042
+              },
+              {
+                "word": "you",
+                "start": 120.60999,
+                "end": 121.49,
+                "confidence": 0.9980469,
+                "punctuated_word": "you",
+                "word_id": 2043
+              },
+              {
+                "word": "okay",
+                "start": 123.185005,
+                "end": 123.745,
+                "confidence": 0.9970703,
+                "punctuated_word": "okay.",
+                "word_id": 2044
+              },
+              {
+                "word": "but",
+                "start": 123.745,
+                "end": 124.625,
+                "confidence": 0.8232422,
+                "punctuated_word": "But",
+                "word_id": 2045
+              },
+              {
+                "word": "1",
+                "start": 124.705,
+                "end": 125.425,
+                "confidence": 0.99121094,
+                "punctuated_word": "1",
+                "word_id": 2046
+              },
+              {
+                "word": "voice",
+                "start": 125.745,
+                "end": 126.065,
+                "confidence": 0.8671875,
+                "punctuated_word": "voice",
+                "word_id": 2047
+              },
+              {
+                "word": "note",
+                "start": 126.065,
+                "end": 126.465004,
+                "confidence": 0.99121094,
+                "punctuated_word": "note",
+                "word_id": 2048
+              },
+              {
+                "word": "or",
+                "start": 126.465004,
+                "end": 127.585,
+                "confidence": 0.9716797,
+                "punctuated_word": "or",
+                "word_id": 2049
+              },
+              {
+                "word": "more",
+                "start": 127.665,
+                "end": 128.30501,
+                "confidence": 0.9577637,
+                "punctuated_word": "more?",
+                "word_id": 2050
+              },
+              {
+                "word": "okay",
+                "start": 131.02501,
+                "end": 131.505,
+                "confidence": 0.9980469,
+                "punctuated_word": "Okay.",
+                "word_id": 2051
+              },
+              {
+                "word": "okay",
+                "start": 135.95999,
+                "end": 136.59999,
+                "confidence": 0.91967773,
+                "punctuated_word": "Okay.",
+                "word_id": 2052
+              },
+              {
+                "word": "okay",
+                "start": 136.59999,
+                "end": 137.32,
+                "confidence": 0.8063965,
+                "punctuated_word": "Okay.",
+                "word_id": 2053
+              },
+              {
+                "word": "okay",
+                "start": 141.31999,
+                "end": 141.88,
+                "confidence": 0.9543457,
+                "punctuated_word": "Okay.",
+                "word_id": 2054
+              },
+              {
+                "word": "okay",
+                "start": 144.68,
+                "end": 145.23999,
+                "confidence": 0.8144531,
+                "punctuated_word": "Okay.",
+                "word_id": 2055
+              },
+              {
+                "word": "i",
+                "start": 145.23999,
+                "end": 145.48,
+                "confidence": 0.94921875,
+                "punctuated_word": "I",
+                "word_id": 2056
+              },
+              {
+                "word": "understand",
+                "start": 145.48,
+                "end": 146.04,
+                "confidence": 0.9897461,
+                "punctuated_word": "understand.",
+                "word_id": 2057
+              },
+              {
+                "word": "i",
+                "start": 146.04,
+                "end": 146.2,
+                "confidence": 0.9941406,
+                "punctuated_word": "I",
+                "word_id": 2058
+              },
+              {
+                "word": "under",
+                "start": 146.2,
+                "end": 146.44,
+                "confidence": 0.8984375,
+                "punctuated_word": "under",
+                "word_id": 2059
+              },
+              {
+                "word": "okay",
+                "start": 150.92499,
+                "end": 151.48499,
+                "confidence": 0.6513672,
+                "punctuated_word": "Okay.",
+                "word_id": 2060
+              },
+              {
+                "word": "i",
+                "start": 151.48499,
+                "end": 151.805,
+                "confidence": 0.9921875,
+                "punctuated_word": "I",
+                "word_id": 2061
+              },
+              {
+                "word": "understand",
+                "start": 151.805,
+                "end": 152.605,
+                "confidence": 0.9748535,
+                "punctuated_word": "understand.",
+                "word_id": 2062
+              },
+              {
+                "word": "mhmm",
+                "start": 158.045,
+                "end": 158.44499,
+                "confidence": 0.92529297,
+                "punctuated_word": "Mhmm.",
+                "word_id": 2063
+              },
+              {
+                "word": "yeah",
+                "start": 158.44499,
+                "end": 158.84499,
+                "confidence": 0.98339844,
+                "punctuated_word": "Yeah.",
+                "word_id": 2064
+              },
+              {
+                "word": "yeah",
+                "start": 158.84499,
+                "end": 159.08499,
+                "confidence": 0.8972168,
+                "punctuated_word": "Yeah.",
+                "word_id": 2065
+              },
+              {
+                "word": "mhmm",
+                "start": 168.85,
+                "end": 169.57,
+                "confidence": 0.85009766,
+                "punctuated_word": "Mhmm.",
+                "word_id": 2066
+              },
+              {
+                "word": "yeah",
+                "start": 171.41,
+                "end": 171.73001,
+                "confidence": 0.9975586,
+                "punctuated_word": "Yeah.",
+                "word_id": 2067
+              },
+              {
+                "word": "yeah",
+                "start": 171.73001,
+                "end": 172.05,
+                "confidence": 0.99194336,
+                "punctuated_word": "Yeah.",
+                "word_id": 2068
+              },
+              {
+                "word": "yeah",
+                "start": 172.05,
+                "end": 172.21,
+                "confidence": 0.8857422,
+                "punctuated_word": "Yeah.",
+                "word_id": 2069
+              },
+              {
+                "word": "i",
+                "start": 172.21,
+                "end": 172.53,
+                "confidence": 0.9580078,
+                "punctuated_word": "I",
+                "word_id": 2070
+              },
+              {
+                "word": "understand",
+                "start": 172.53,
+                "end": 173.25,
+                "confidence": 0.99902344,
+                "punctuated_word": "understand.",
+                "word_id": 2071
+              },
+              {
+                "word": "so",
+                "start": 173.25,
+                "end": 174.21,
+                "confidence": 0.8256836,
+                "punctuated_word": "So",
+                "word_id": 2072
+              },
+              {
+                "word": "thank",
+                "start": 174.21,
+                "end": 174.53,
+                "confidence": 0.9980469,
+                "punctuated_word": "thank",
+                "word_id": 2073
+              },
+              {
+                "word": "you",
+                "start": 174.53,
+                "end": 174.69,
+                "confidence": 1,
+                "punctuated_word": "you",
+                "word_id": 2074
+              },
+              {
+                "word": "for",
+                "start": 174.69,
+                "end": 175.17001,
+                "confidence": 1,
+                "punctuated_word": "for",
+                "word_id": 2075
+              },
+              {
+                "word": "for",
+                "start": 175.17001,
+                "end": 175.49,
+                "confidence": 0.9980469,
+                "punctuated_word": "for",
+                "word_id": 2076
+              },
+              {
+                "word": "our",
+                "start": 175.49,
+                "end": 175.73001,
+                "confidence": 0.99121094,
+                "punctuated_word": "our",
+                "word_id": 2077
+              },
+              {
+                "word": "class",
+                "start": 175.73001,
+                "end": 176.21,
+                "confidence": 0.86572266,
+                "punctuated_word": "class,",
+                "word_id": 2078
+              },
+              {
+                "word": "and",
+                "start": 176.21,
+                "end": 176.37001,
+                "confidence": 1,
+                "punctuated_word": "and",
+                "word_id": 2079
+              },
+              {
+                "word": "we",
+                "start": 176.37001,
+                "end": 177.57,
+                "confidence": 0.97509766,
+                "punctuated_word": "we",
+                "word_id": 2080
+              },
+              {
+                "word": "will",
+                "start": 177.57,
+                "end": 177.81001,
+                "confidence": 0.9873047,
+                "punctuated_word": "will",
+                "word_id": 2081
+              },
+              {
+                "word": "see",
+                "start": 177.81001,
+                "end": 178.37001,
+                "confidence": 0.9980469,
+                "punctuated_word": "see",
+                "word_id": 2082
+              },
+              {
+                "word": "we",
+                "start": 178.45001,
+                "end": 178.85,
+                "confidence": 0.9970703,
+                "punctuated_word": "we",
+                "word_id": 2083
+              },
+              {
+                "word": "will",
+                "start": 178.85,
+                "end": 179.09001,
+                "confidence": 0.99902344,
+                "punctuated_word": "will",
+                "word_id": 2084
+              },
+              {
+                "word": "see",
+                "start": 179.09001,
+                "end": 179.73001,
+                "confidence": 1,
+                "punctuated_word": "see",
+                "word_id": 2085
+              },
+              {
+                "word": "next",
+                "start": 179.81001,
+                "end": 180.13,
+                "confidence": 0.99902344,
+                "punctuated_word": "next",
+                "word_id": 2086
+              },
+              {
+                "word": "week",
+                "start": 180.13,
+                "end": 180.53,
+                "confidence": 0.99902344,
+                "punctuated_word": "week.",
+                "word_id": 2087
+              },
+              {
+                "word": "yeah",
+                "start": 180.53,
+                "end": 180.77,
+                "confidence": 0.9645996,
+                "punctuated_word": "Yeah?",
+                "word_id": 2088
+              },
+              {
+                "word": "bye",
+                "start": 183.06232,
+                "end": 183.3023,
+                "confidence": 0.9980469,
+                "punctuated_word": "Bye",
+                "word_id": 2089
+              },
+              {
+                "word": "bye",
+                "start": 183.3023,
+                "end": 183.78232,
+                "confidence": 0.9433594,
+                "punctuated_word": "bye.",
+                "word_id": 2090
+              },
+              {
+                "word": "thank",
+                "start": 183.78232,
+                "end": 183.9423,
+                "confidence": 0.9980469,
+                "punctuated_word": "Thank",
+                "word_id": 2091
+              },
+              {
+                "word": "you",
+                "start": 183.9423,
+                "end": 184.10231,
+                "confidence": 1,
+                "punctuated_word": "you.",
+                "word_id": 2092
+              }
+            ],
+            "paragraphs": {
+              "transcript": "\nMhmm. Yeah. Yeah. Yeah. It's changed.\n\nIt's changed. So so I will try to check it. Check it. Mhmm. Yeah.\n\nYeah. Yeah. Yeah. Mhmm. Yeah.\n\nMhmm. Yeah. Yeah. Yeah. Yeah.\n\nNo problem. For me, it's not a problem. Oh, okay. No problem for me. Yeah.\n\nI understand. And you okay. But 1 voice note or more? Okay. Okay.\n\nOkay. Okay. Okay. I understand. I under Okay.\n\nI understand. Mhmm. Yeah. Yeah. Mhmm.\n\nYeah. Yeah. Yeah. I understand. So thank you for for our class, and we will see we will see next week.\n\nYeah? Bye bye. Thank you.",
+              "paragraphs": [
+                {
+                  "sentences": [
+                    {
+                      "text": "Mhmm.",
+                      "start": 5.44,
+                      "end": 5.8399997
+                    },
+                    {
+                      "text": "Yeah.",
+                      "start": 5.8399997,
+                      "end": 6.24
+                    },
+                    {
+                      "text": "Yeah.",
+                      "start": 6.24,
+                      "end": 6.48
+                    },
+                    {
+                      "text": "Yeah.",
+                      "start": 12.095,
+                      "end": 12.735
+                    },
+                    {
+                      "text": "It's changed.",
+                      "start": 12.735001,
+                      "end": 13.615
+                    }
+                  ],
+                  "num_words": 6,
+                  "start": 5.44,
+                  "end": 13.615
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "It's changed.",
+                      "start": 13.615,
+                      "end": 14.495
+                    },
+                    {
+                      "text": "So so I will try to check it.",
+                      "start": 14.495001,
+                      "end": 19.295
+                    },
+                    {
+                      "text": "Check it.",
+                      "start": 19.295,
+                      "end": 20.015
+                    },
+                    {
+                      "text": "Mhmm.",
+                      "start": 20.015,
+                      "end": 20.735
+                    },
+                    {
+                      "text": "Yeah.",
+                      "start": 22.015,
+                      "end": 22.335
+                    }
+                  ],
+                  "num_words": 14,
+                  "start": 13.615,
+                  "end": 22.335
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "Yeah.",
+                      "start": 22.335,
+                      "end": 22.575
+                    },
+                    {
+                      "text": "Yeah.",
+                      "start": 41.035,
+                      "end": 41.355
+                    },
+                    {
+                      "text": "Yeah.",
+                      "start": 41.355,
+                      "end": 41.915
+                    },
+                    {
+                      "text": "Mhmm.",
+                      "start": 46.715,
+                      "end": 47.115
+                    },
+                    {
+                      "text": "Yeah.",
+                      "start": 56,
+                      "end": 56.56
+                    }
+                  ],
+                  "num_words": 5,
+                  "start": 22.335,
+                  "end": 56.56
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "Mhmm.",
+                      "start": 59.440002,
+                      "end": 60.16
+                    },
+                    {
+                      "text": "Yeah.",
+                      "start": 60.88,
+                      "end": 61.28
+                    },
+                    {
+                      "text": "Yeah.",
+                      "start": 61.28,
+                      "end": 61.440002
+                    },
+                    {
+                      "text": "Yeah.",
+                      "start": 72.825,
+                      "end": 73.545
+                    },
+                    {
+                      "text": "Yeah.",
+                      "start": 73.545,
+                      "end": 73.865
+                    }
+                  ],
+                  "num_words": 5,
+                  "start": 59.440002,
+                  "end": 73.865
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "No problem.",
+                      "start": 73.865,
+                      "end": 74.825
+                    },
+                    {
+                      "text": "For me, it's not a problem.",
+                      "start": 75.064995,
+                      "end": 76.585
+                    },
+                    {
+                      "text": "Oh, okay.",
+                      "start": 77.145,
+                      "end": 77.704994
+                    },
+                    {
+                      "text": "No problem for me.",
+                      "start": 77.704994,
+                      "end": 78.825
+                    },
+                    {
+                      "text": "Yeah.",
+                      "start": 119.009995,
+                      "end": 119.409996
+                    }
+                  ],
+                  "num_words": 15,
+                  "start": 73.865,
+                  "end": 119.409996
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "I understand.",
+                      "start": 119.409996,
+                      "end": 120.28999
+                    },
+                    {
+                      "text": "And you okay.",
+                      "start": 120.28999,
+                      "end": 123.745
+                    },
+                    {
+                      "text": "But 1 voice note or more?",
+                      "start": 123.745,
+                      "end": 128.30501
+                    },
+                    {
+                      "text": "Okay.",
+                      "start": 131.02501,
+                      "end": 131.505
+                    },
+                    {
+                      "text": "Okay.",
+                      "start": 135.95999,
+                      "end": 136.59999
+                    }
+                  ],
+                  "num_words": 13,
+                  "start": 119.409996,
+                  "end": 136.59999
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "Okay.",
+                      "start": 136.59999,
+                      "end": 137.32
+                    },
+                    {
+                      "text": "Okay.",
+                      "start": 141.31999,
+                      "end": 141.88
+                    },
+                    {
+                      "text": "Okay.",
+                      "start": 144.68,
+                      "end": 145.23999
+                    },
+                    {
+                      "text": "I understand.",
+                      "start": 145.23999,
+                      "end": 146.04
+                    },
+                    {
+                      "text": "I under Okay.",
+                      "start": 146.04,
+                      "end": 151.48499
+                    }
+                  ],
+                  "num_words": 8,
+                  "start": 136.59999,
+                  "end": 151.48499
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "I understand.",
+                      "start": 151.48499,
+                      "end": 152.605
+                    },
+                    {
+                      "text": "Mhmm.",
+                      "start": 158.045,
+                      "end": 158.44499
+                    },
+                    {
+                      "text": "Yeah.",
+                      "start": 158.44499,
+                      "end": 158.84499
+                    },
+                    {
+                      "text": "Yeah.",
+                      "start": 158.84499,
+                      "end": 159.08499
+                    },
+                    {
+                      "text": "Mhmm.",
+                      "start": 168.85,
+                      "end": 169.57
+                    }
+                  ],
+                  "num_words": 6,
+                  "start": 151.48499,
+                  "end": 169.57
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "Yeah.",
+                      "start": 171.41,
+                      "end": 171.73001
+                    },
+                    {
+                      "text": "Yeah.",
+                      "start": 171.73001,
+                      "end": 172.05
+                    },
+                    {
+                      "text": "Yeah.",
+                      "start": 172.05,
+                      "end": 172.21
+                    },
+                    {
+                      "text": "I understand.",
+                      "start": 172.21,
+                      "end": 173.25
+                    },
+                    {
+                      "text": "So thank you for for our class, and we will see we will see next week.",
+                      "start": 173.25,
+                      "end": 180.53
+                    }
+                  ],
+                  "num_words": 21,
+                  "start": 171.41,
+                  "end": 180.53
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "Yeah?",
+                      "start": 180.53,
+                      "end": 180.77
+                    },
+                    {
+                      "text": "Bye bye.",
+                      "start": 183.06232,
+                      "end": 183.78232
+                    },
+                    {
+                      "text": "Thank you.",
+                      "start": 183.78232,
+                      "end": 184.10231
+                    }
+                  ],
+                  "num_words": 5,
+                  "start": 180.53,
+                  "end": 184.10231
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "alternatives": [
+          {
+            "transcript": "I can tell there's a whole lot of difference with the way you're communicating with me. You're more confident. There's not much filler words. Yeah. For, yeah, for you know? Yeah. It it's practice makes perfect. So I can I can I can give you something to to work on, like, on yourself? This is not about recording. You can probably if you have a standing mirror, you can or you can place your phone and just record yourself with some answers or some with some questions and try to record yourself without the filler words. Try to do it, like, 5 times and play it again and watch yourself. You will understand you you will see the difference of when there's filler words and no filler words. You you you'll be able to appreciate it more, and it gives you more confidence. Okay? So now at the end at the end of this session and 1 more thing 1 more thing. I would appreciate if you have the time. You can probably leave, like, a review on my profile just if yeah. So, see, I'll I'll really appreciate that. So now at the end of this session, I want you to send a voice note. A voice note. Like, 212, or 3. Don't rush. Just take your time. You can just take a cup of coffee, and you send a very calm voice note, like a confident speaker, like the boss, you know, like the relaxed numbers I know, and just talk about your session today. Today, I'm so happy to learn about the filler words, and I can now speak more without adding much of the filler words. So you just give me that voice note. Any amount. Any. Any. You can you can give me 5. You can give me 4. Send them. Send as much as I want to hear them. Send as much as possible. Okay? You can send 1. Don't worry about it. If if you send 1, don't delete. Send again. Send again. When you feel when you feel you're you got it right, then you leave it for me. Yes. Then wait for my reply. And just just there's no limit. You can send as much as possible. I want to listen. I want to be happy. I want to be happy. It's being effective in your communication. Okay? So that when you speak amongst anyone, I want them to feel that presence, that confidence. Because when you when you take your time, that is no rush. That is power. That is confidence. And that's what I wanna see more in you. Yes. Alright. Bye. Yeah.",
+            "confidence": 0.99902344,
+            "words": [
+              {
+                "word": "i",
+                "start": 0,
+                "end": 0.64,
+                "confidence": 0.9003906,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "can",
+                "start": 0.64,
+                "end": 0.88,
+                "confidence": 0.9980469,
+                "punctuated_word": "can"
+              },
+              {
+                "word": "tell",
+                "start": 0.88,
+                "end": 1.28,
+                "confidence": 0.9970703,
+                "punctuated_word": "tell"
+              },
+              {
+                "word": "there's",
+                "start": 1.28,
+                "end": 1.5999999,
+                "confidence": 0.9970703,
+                "punctuated_word": "there's"
+              },
+              {
+                "word": "a",
+                "start": 1.5999999,
+                "end": 1.76,
+                "confidence": 1,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "whole",
+                "start": 1.76,
+                "end": 2,
+                "confidence": 1,
+                "punctuated_word": "whole"
+              },
+              {
+                "word": "lot",
+                "start": 2,
+                "end": 2.32,
+                "confidence": 0.99902344,
+                "punctuated_word": "lot"
+              },
+              {
+                "word": "of",
+                "start": 2.32,
+                "end": 2.48,
+                "confidence": 1,
+                "punctuated_word": "of"
+              },
+              {
+                "word": "difference",
+                "start": 2.48,
+                "end": 2.8,
+                "confidence": 1,
+                "punctuated_word": "difference"
+              },
+              {
+                "word": "with",
+                "start": 2.8,
+                "end": 3.12,
+                "confidence": 0.99902344,
+                "punctuated_word": "with"
+              },
+              {
+                "word": "the",
+                "start": 3.12,
+                "end": 3.1999998,
+                "confidence": 0.99902344,
+                "punctuated_word": "the"
+              },
+              {
+                "word": "way",
+                "start": 3.1999998,
+                "end": 3.36,
+                "confidence": 1,
+                "punctuated_word": "way"
+              },
+              {
+                "word": "you're",
+                "start": 3.36,
+                "end": 3.52,
+                "confidence": 0.9946289,
+                "punctuated_word": "you're"
+              },
+              {
+                "word": "communicating",
+                "start": 3.52,
+                "end": 3.9199998,
+                "confidence": 0.9941406,
+                "punctuated_word": "communicating"
+              },
+              {
+                "word": "with",
+                "start": 3.9199998,
+                "end": 4.24,
+                "confidence": 1,
+                "punctuated_word": "with"
+              },
+              {
+                "word": "me",
+                "start": 4.24,
+                "end": 4.8,
+                "confidence": 0.9995117,
+                "punctuated_word": "me."
+              },
+              {
+                "word": "you're",
+                "start": 4.88,
+                "end": 5.12,
+                "confidence": 0.9995117,
+                "punctuated_word": "You're"
+              },
+              {
+                "word": "more",
+                "start": 5.12,
+                "end": 5.3599997,
+                "confidence": 1,
+                "punctuated_word": "more"
+              },
+              {
+                "word": "confident",
+                "start": 5.3599997,
+                "end": 6.08,
+                "confidence": 0.9921875,
+                "punctuated_word": "confident."
+              },
+              {
+                "word": "there's",
+                "start": 6.08,
+                "end": 6.8799996,
+                "confidence": 0.99609375,
+                "punctuated_word": "There's"
+              },
+              {
+                "word": "not",
+                "start": 6.8799996,
+                "end": 7.12,
+                "confidence": 0.74902344,
+                "punctuated_word": "not"
+              },
+              {
+                "word": "much",
+                "start": 7.12,
+                "end": 7.76,
+                "confidence": 1,
+                "punctuated_word": "much"
+              },
+              {
+                "word": "filler",
+                "start": 7.9199996,
+                "end": 8.32,
+                "confidence": 0.7319336,
+                "punctuated_word": "filler"
+              },
+              {
+                "word": "words",
+                "start": 8.32,
+                "end": 8.959999,
+                "confidence": 0.9560547,
+                "punctuated_word": "words."
+              },
+              {
+                "word": "yeah",
+                "start": 9.36,
+                "end": 10.08,
+                "confidence": 0.99658203,
+                "punctuated_word": "Yeah."
+              },
+              {
+                "word": "for",
+                "start": 10.32,
+                "end": 10.959999,
+                "confidence": 0.78027344,
+                "punctuated_word": "For,"
+              },
+              {
+                "word": "yeah",
+                "start": 11.04,
+                "end": 11.679999,
+                "confidence": 0.99609375,
+                "punctuated_word": "yeah,"
+              },
+              {
+                "word": "for",
+                "start": 11.679999,
+                "end": 11.92,
+                "confidence": 0.9970703,
+                "punctuated_word": "for"
+              },
+              {
+                "word": "you",
+                "start": 12.08,
+                "end": 12.32,
+                "confidence": 0.9970703,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "know",
+                "start": 12.32,
+                "end": 12.4,
+                "confidence": 0.85253906,
+                "punctuated_word": "know?"
+              },
+              {
+                "word": "yeah",
+                "start": 17.185,
+                "end": 17.585,
+                "confidence": 1,
+                "punctuated_word": "Yeah."
+              },
+              {
+                "word": "it",
+                "start": 17.585,
+                "end": 17.744999,
+                "confidence": 0.99902344,
+                "punctuated_word": "It"
+              },
+              {
+                "word": "it's",
+                "start": 17.825,
+                "end": 18.065,
+                "confidence": 0.9995117,
+                "punctuated_word": "it's"
+              },
+              {
+                "word": "practice",
+                "start": 19.345001,
+                "end": 19.825,
+                "confidence": 0.9951172,
+                "punctuated_word": "practice"
+              },
+              {
+                "word": "makes",
+                "start": 19.825,
+                "end": 20.465,
+                "confidence": 0.99902344,
+                "punctuated_word": "makes"
+              },
+              {
+                "word": "perfect",
+                "start": 20.465,
+                "end": 21.345,
+                "confidence": 0.98168945,
+                "punctuated_word": "perfect."
+              },
+              {
+                "word": "so",
+                "start": 21.744999,
+                "end": 22.305,
+                "confidence": 1,
+                "punctuated_word": "So"
+              },
+              {
+                "word": "i",
+                "start": 22.705,
+                "end": 22.945,
+                "confidence": 0.9980469,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "can",
+                "start": 22.945,
+                "end": 23.185001,
+                "confidence": 0.9970703,
+                "punctuated_word": "can"
+              },
+              {
+                "word": "i",
+                "start": 23.185001,
+                "end": 23.345001,
+                "confidence": 0.93359375,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "can",
+                "start": 23.345001,
+                "end": 23.505001,
+                "confidence": 0.96533203,
+                "punctuated_word": "can"
+              },
+              {
+                "word": "i",
+                "start": 23.505001,
+                "end": 23.665,
+                "confidence": 0.9838867,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "can",
+                "start": 23.665,
+                "end": 23.825,
+                "confidence": 1,
+                "punctuated_word": "can"
+              },
+              {
+                "word": "give",
+                "start": 23.825,
+                "end": 24.064999,
+                "confidence": 1,
+                "punctuated_word": "give"
+              },
+              {
+                "word": "you",
+                "start": 24.064999,
+                "end": 24.225,
+                "confidence": 1,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "something",
+                "start": 24.225,
+                "end": 26.145,
+                "confidence": 0.80566406,
+                "punctuated_word": "something"
+              },
+              {
+                "word": "to",
+                "start": 26.145,
+                "end": 26.545,
+                "confidence": 1,
+                "punctuated_word": "to"
+              },
+              {
+                "word": "to",
+                "start": 26.545,
+                "end": 26.945,
+                "confidence": 0.9970703,
+                "punctuated_word": "to"
+              },
+              {
+                "word": "work",
+                "start": 26.945,
+                "end": 27.185,
+                "confidence": 0.984375,
+                "punctuated_word": "work"
+              },
+              {
+                "word": "on",
+                "start": 27.185,
+                "end": 27.665,
+                "confidence": 0.9970703,
+                "punctuated_word": "on,"
+              },
+              {
+                "word": "like",
+                "start": 27.665,
+                "end": 27.904999,
+                "confidence": 0.9980469,
+                "punctuated_word": "like,"
+              },
+              {
+                "word": "on",
+                "start": 28.039999,
+                "end": 28.279999,
+                "confidence": 1,
+                "punctuated_word": "on"
+              },
+              {
+                "word": "yourself",
+                "start": 28.279999,
+                "end": 28.759998,
+                "confidence": 0.92089844,
+                "punctuated_word": "yourself?"
+              },
+              {
+                "word": "this",
+                "start": 28.759998,
+                "end": 28.919998,
+                "confidence": 1,
+                "punctuated_word": "This"
+              },
+              {
+                "word": "is",
+                "start": 28.919998,
+                "end": 29.08,
+                "confidence": 1,
+                "punctuated_word": "is"
+              },
+              {
+                "word": "not",
+                "start": 29.08,
+                "end": 29.24,
+                "confidence": 1,
+                "punctuated_word": "not"
+              },
+              {
+                "word": "about",
+                "start": 29.24,
+                "end": 29.48,
+                "confidence": 1,
+                "punctuated_word": "about"
+              },
+              {
+                "word": "recording",
+                "start": 29.48,
+                "end": 30.199999,
+                "confidence": 0.9995117,
+                "punctuated_word": "recording."
+              },
+              {
+                "word": "you",
+                "start": 30.439999,
+                "end": 30.599998,
+                "confidence": 1,
+                "punctuated_word": "You"
+              },
+              {
+                "word": "can",
+                "start": 30.599998,
+                "end": 30.839998,
+                "confidence": 1,
+                "punctuated_word": "can"
+              },
+              {
+                "word": "probably",
+                "start": 30.839998,
+                "end": 31.16,
+                "confidence": 0.984375,
+                "punctuated_word": "probably"
+              },
+              {
+                "word": "if",
+                "start": 31.32,
+                "end": 31.48,
+                "confidence": 0.99902344,
+                "punctuated_word": "if"
+              },
+              {
+                "word": "you",
+                "start": 31.48,
+                "end": 31.56,
+                "confidence": 1,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "have",
+                "start": 31.56,
+                "end": 31.72,
+                "confidence": 1,
+                "punctuated_word": "have"
+              },
+              {
+                "word": "a",
+                "start": 31.72,
+                "end": 31.96,
+                "confidence": 0.9980469,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "standing",
+                "start": 31.96,
+                "end": 32.28,
+                "confidence": 0.99902344,
+                "punctuated_word": "standing"
+              },
+              {
+                "word": "mirror",
+                "start": 32.28,
+                "end": 33,
+                "confidence": 0.99902344,
+                "punctuated_word": "mirror,"
+              },
+              {
+                "word": "you",
+                "start": 33.8,
+                "end": 34.04,
+                "confidence": 0.99902344,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "can",
+                "start": 34.04,
+                "end": 34.199997,
+                "confidence": 1,
+                "punctuated_word": "can"
+              },
+              {
+                "word": "or",
+                "start": 34.44,
+                "end": 34.76,
+                "confidence": 0.9428711,
+                "punctuated_word": "or"
+              },
+              {
+                "word": "you",
+                "start": 34.76,
+                "end": 34.92,
+                "confidence": 0.98291016,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "can",
+                "start": 34.92,
+                "end": 35.079998,
+                "confidence": 0.99902344,
+                "punctuated_word": "can"
+              },
+              {
+                "word": "place",
+                "start": 35.079998,
+                "end": 35.32,
+                "confidence": 1,
+                "punctuated_word": "place"
+              },
+              {
+                "word": "your",
+                "start": 35.32,
+                "end": 35.559998,
+                "confidence": 1,
+                "punctuated_word": "your"
+              },
+              {
+                "word": "phone",
+                "start": 35.559998,
+                "end": 36.12,
+                "confidence": 1,
+                "punctuated_word": "phone"
+              },
+              {
+                "word": "and",
+                "start": 36.76,
+                "end": 37.079998,
+                "confidence": 0.9560547,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "just",
+                "start": 37.079998,
+                "end": 37.399998,
+                "confidence": 1,
+                "punctuated_word": "just"
+              },
+              {
+                "word": "record",
+                "start": 37.399998,
+                "end": 37.8,
+                "confidence": 1,
+                "punctuated_word": "record"
+              },
+              {
+                "word": "yourself",
+                "start": 37.8,
+                "end": 38.28,
+                "confidence": 1,
+                "punctuated_word": "yourself"
+              },
+              {
+                "word": "with",
+                "start": 38.28,
+                "end": 38.6,
+                "confidence": 1,
+                "punctuated_word": "with"
+              },
+              {
+                "word": "some",
+                "start": 38.6,
+                "end": 38.84,
+                "confidence": 1,
+                "punctuated_word": "some"
+              },
+              {
+                "word": "answers",
+                "start": 38.84,
+                "end": 39.32,
+                "confidence": 0.9667969,
+                "punctuated_word": "answers"
+              },
+              {
+                "word": "or",
+                "start": 39.32,
+                "end": 39.559998,
+                "confidence": 0.90283203,
+                "punctuated_word": "or"
+              },
+              {
+                "word": "some",
+                "start": 39.559998,
+                "end": 39.719997,
+                "confidence": 0.9448242,
+                "punctuated_word": "some"
+              },
+              {
+                "word": "with",
+                "start": 39.8,
+                "end": 39.96,
+                "confidence": 0.97314453,
+                "punctuated_word": "with"
+              },
+              {
+                "word": "some",
+                "start": 39.96,
+                "end": 40.199997,
+                "confidence": 0.8852539,
+                "punctuated_word": "some"
+              },
+              {
+                "word": "questions",
+                "start": 40.199997,
+                "end": 40.84,
+                "confidence": 0.99902344,
+                "punctuated_word": "questions"
+              },
+              {
+                "word": "and",
+                "start": 40.84,
+                "end": 41.16,
+                "confidence": 0.66064453,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "try",
+                "start": 41.16,
+                "end": 41.399998,
+                "confidence": 0.9970703,
+                "punctuated_word": "try"
+              },
+              {
+                "word": "to",
+                "start": 41.399998,
+                "end": 41.559998,
+                "confidence": 1,
+                "punctuated_word": "to"
+              },
+              {
+                "word": "record",
+                "start": 41.559998,
+                "end": 41.879997,
+                "confidence": 0.9980469,
+                "punctuated_word": "record"
+              },
+              {
+                "word": "yourself",
+                "start": 41.879997,
+                "end": 42.199997,
+                "confidence": 1,
+                "punctuated_word": "yourself"
+              },
+              {
+                "word": "without",
+                "start": 42.199997,
+                "end": 42.6,
+                "confidence": 1,
+                "punctuated_word": "without"
+              },
+              {
+                "word": "the",
+                "start": 42.6,
+                "end": 42.84,
+                "confidence": 1,
+                "punctuated_word": "the"
+              },
+              {
+                "word": "filler",
+                "start": 42.84,
+                "end": 43.16,
+                "confidence": 0.99316406,
+                "punctuated_word": "filler"
+              },
+              {
+                "word": "words",
+                "start": 43.16,
+                "end": 43.559998,
+                "confidence": 0.99194336,
+                "punctuated_word": "words."
+              },
+              {
+                "word": "try",
+                "start": 44.265,
+                "end": 44.505,
+                "confidence": 0.99609375,
+                "punctuated_word": "Try"
+              },
+              {
+                "word": "to",
+                "start": 44.505,
+                "end": 44.665,
+                "confidence": 0.99609375,
+                "punctuated_word": "to"
+              },
+              {
+                "word": "do",
+                "start": 44.665,
+                "end": 44.745,
+                "confidence": 0.9243164,
+                "punctuated_word": "do"
+              },
+              {
+                "word": "it",
+                "start": 44.745,
+                "end": 44.985,
+                "confidence": 0.9453125,
+                "punctuated_word": "it,"
+              },
+              {
+                "word": "like",
+                "start": 44.985,
+                "end": 45.145,
+                "confidence": 0.99902344,
+                "punctuated_word": "like,"
+              },
+              {
+                "word": "5",
+                "start": 45.145,
+                "end": 45.385,
+                "confidence": 1,
+                "punctuated_word": "5"
+              },
+              {
+                "word": "times",
+                "start": 45.385,
+                "end": 45.785,
+                "confidence": 1,
+                "punctuated_word": "times"
+              },
+              {
+                "word": "and",
+                "start": 45.785,
+                "end": 46.505,
+                "confidence": 0.80908203,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "play",
+                "start": 46.505,
+                "end": 46.745,
+                "confidence": 1,
+                "punctuated_word": "play"
+              },
+              {
+                "word": "it",
+                "start": 46.745,
+                "end": 46.985,
+                "confidence": 1,
+                "punctuated_word": "it"
+              },
+              {
+                "word": "again",
+                "start": 46.985,
+                "end": 47.305,
+                "confidence": 0.99902344,
+                "punctuated_word": "again"
+              },
+              {
+                "word": "and",
+                "start": 47.305,
+                "end": 47.625,
+                "confidence": 0.9482422,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "watch",
+                "start": 47.625,
+                "end": 48.025,
+                "confidence": 0.99902344,
+                "punctuated_word": "watch"
+              },
+              {
+                "word": "yourself",
+                "start": 48.025,
+                "end": 48.745,
+                "confidence": 0.97802734,
+                "punctuated_word": "yourself."
+              },
+              {
+                "word": "you",
+                "start": 49.065,
+                "end": 49.225,
+                "confidence": 1,
+                "punctuated_word": "You"
+              },
+              {
+                "word": "will",
+                "start": 49.225,
+                "end": 49.465,
+                "confidence": 0.47583008,
+                "punctuated_word": "will"
+              },
+              {
+                "word": "understand",
+                "start": 49.465,
+                "end": 49.785,
+                "confidence": 0.99902344,
+                "punctuated_word": "understand"
+              },
+              {
+                "word": "you",
+                "start": 50.025,
+                "end": 50.184998,
+                "confidence": 1,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "you",
+                "start": 50.184998,
+                "end": 50.425,
+                "confidence": 0.9506836,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "will",
+                "start": 50.425,
+                "end": 50.585,
+                "confidence": 0.98828125,
+                "punctuated_word": "will"
+              },
+              {
+                "word": "see",
+                "start": 50.585,
+                "end": 50.745,
+                "confidence": 0.99902344,
+                "punctuated_word": "see"
+              },
+              {
+                "word": "the",
+                "start": 50.745,
+                "end": 50.905,
+                "confidence": 0.9970703,
+                "punctuated_word": "the"
+              },
+              {
+                "word": "difference",
+                "start": 50.905,
+                "end": 51.305,
+                "confidence": 1,
+                "punctuated_word": "difference"
+              },
+              {
+                "word": "of",
+                "start": 51.305,
+                "end": 51.864998,
+                "confidence": 1,
+                "punctuated_word": "of"
+              },
+              {
+                "word": "when",
+                "start": 51.864998,
+                "end": 52.105,
+                "confidence": 0.95947266,
+                "punctuated_word": "when"
+              },
+              {
+                "word": "there's",
+                "start": 52.105,
+                "end": 52.345,
+                "confidence": 0.9975586,
+                "punctuated_word": "there's"
+              },
+              {
+                "word": "filler",
+                "start": 52.345,
+                "end": 52.665,
+                "confidence": 1,
+                "punctuated_word": "filler"
+              },
+              {
+                "word": "words",
+                "start": 52.665,
+                "end": 53.385,
+                "confidence": 1,
+                "punctuated_word": "words"
+              },
+              {
+                "word": "and",
+                "start": 53.625,
+                "end": 53.945,
+                "confidence": 0.99609375,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "no",
+                "start": 53.945,
+                "end": 54.184998,
+                "confidence": 0.99902344,
+                "punctuated_word": "no"
+              },
+              {
+                "word": "filler",
+                "start": 54.184998,
+                "end": 54.504997,
+                "confidence": 1,
+                "punctuated_word": "filler"
+              },
+              {
+                "word": "words",
+                "start": 54.504997,
+                "end": 54.825,
+                "confidence": 0.9970703,
+                "punctuated_word": "words."
+              },
+              {
+                "word": "you",
+                "start": 54.825,
+                "end": 54.985,
+                "confidence": 0.99902344,
+                "punctuated_word": "You"
+              },
+              {
+                "word": "you",
+                "start": 54.985,
+                "end": 55.305,
+                "confidence": 0.546875,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "you'll",
+                "start": 55.465,
+                "end": 55.705,
+                "confidence": 0.99609375,
+                "punctuated_word": "you'll"
+              },
+              {
+                "word": "be",
+                "start": 55.705,
+                "end": 55.785,
+                "confidence": 0.99902344,
+                "punctuated_word": "be"
+              },
+              {
+                "word": "able",
+                "start": 55.785,
+                "end": 55.945,
+                "confidence": 1,
+                "punctuated_word": "able"
+              },
+              {
+                "word": "to",
+                "start": 55.945,
+                "end": 56.105,
+                "confidence": 1,
+                "punctuated_word": "to"
+              },
+              {
+                "word": "appreciate",
+                "start": 56.105,
+                "end": 56.504997,
+                "confidence": 1,
+                "punctuated_word": "appreciate"
+              },
+              {
+                "word": "it",
+                "start": 56.504997,
+                "end": 56.665,
+                "confidence": 1,
+                "punctuated_word": "it"
+              },
+              {
+                "word": "more",
+                "start": 56.665,
+                "end": 57.065,
+                "confidence": 0.9785156,
+                "punctuated_word": "more,"
+              },
+              {
+                "word": "and",
+                "start": 57.065,
+                "end": 57.864998,
+                "confidence": 1,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "it",
+                "start": 57.48,
+                "end": 57.8,
+                "confidence": 0.99902344,
+                "punctuated_word": "it"
+              },
+              {
+                "word": "gives",
+                "start": 57.8,
+                "end": 58.04,
+                "confidence": 1,
+                "punctuated_word": "gives"
+              },
+              {
+                "word": "you",
+                "start": 58.04,
+                "end": 58.2,
+                "confidence": 0.99902344,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "more",
+                "start": 58.2,
+                "end": 58.44,
+                "confidence": 1,
+                "punctuated_word": "more"
+              },
+              {
+                "word": "confidence",
+                "start": 58.44,
+                "end": 59.079998,
+                "confidence": 1,
+                "punctuated_word": "confidence."
+              },
+              {
+                "word": "okay",
+                "start": 59.079998,
+                "end": 59.719997,
+                "confidence": 0.9995117,
+                "punctuated_word": "Okay?"
+              },
+              {
+                "word": "so",
+                "start": 59.72,
+                "end": 60.12,
+                "confidence": 0.9951172,
+                "punctuated_word": "So"
+              },
+              {
+                "word": "now",
+                "start": 60.68,
+                "end": 60.92,
+                "confidence": 0.99902344,
+                "punctuated_word": "now"
+              },
+              {
+                "word": "at",
+                "start": 60.92,
+                "end": 61.16,
+                "confidence": 0.99316406,
+                "punctuated_word": "at"
+              },
+              {
+                "word": "the",
+                "start": 61.16,
+                "end": 61.239998,
+                "confidence": 0.99902344,
+                "punctuated_word": "the"
+              },
+              {
+                "word": "end",
+                "start": 61.239998,
+                "end": 61.399998,
+                "confidence": 0.7084961,
+                "punctuated_word": "end"
+              },
+              {
+                "word": "at",
+                "start": 61.399998,
+                "end": 61.64,
+                "confidence": 0.99316406,
+                "punctuated_word": "at"
+              },
+              {
+                "word": "the",
+                "start": 61.64,
+                "end": 61.72,
+                "confidence": 1,
+                "punctuated_word": "the"
+              },
+              {
+                "word": "end",
+                "start": 61.72,
+                "end": 61.88,
+                "confidence": 1,
+                "punctuated_word": "end"
+              },
+              {
+                "word": "of",
+                "start": 61.88,
+                "end": 61.96,
+                "confidence": 1,
+                "punctuated_word": "of"
+              },
+              {
+                "word": "this",
+                "start": 61.96,
+                "end": 62.2,
+                "confidence": 0.99609375,
+                "punctuated_word": "this"
+              },
+              {
+                "word": "session",
+                "start": 62.2,
+                "end": 62.52,
+                "confidence": 0.99902344,
+                "punctuated_word": "session"
+              },
+              {
+                "word": "and",
+                "start": 62.84,
+                "end": 63.079998,
+                "confidence": 0.9951172,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "1",
+                "start": 63.079998,
+                "end": 63.32,
+                "confidence": 1,
+                "punctuated_word": "1"
+              },
+              {
+                "word": "more",
+                "start": 63.32,
+                "end": 63.48,
+                "confidence": 1,
+                "punctuated_word": "more"
+              },
+              {
+                "word": "thing",
+                "start": 63.48,
+                "end": 63.64,
+                "confidence": 1,
+                "punctuated_word": "thing"
+              },
+              {
+                "word": "1",
+                "start": 63.64,
+                "end": 63.96,
+                "confidence": 0.5673828,
+                "punctuated_word": "1"
+              },
+              {
+                "word": "more",
+                "start": 63.96,
+                "end": 64.12,
+                "confidence": 1,
+                "punctuated_word": "more"
+              },
+              {
+                "word": "thing",
+                "start": 64.12,
+                "end": 64.68,
+                "confidence": 0.8737793,
+                "punctuated_word": "thing."
+              },
+              {
+                "word": "i",
+                "start": 65.24,
+                "end": 65.4,
+                "confidence": 1,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "would",
+                "start": 65.4,
+                "end": 65.56,
+                "confidence": 0.7138672,
+                "punctuated_word": "would"
+              },
+              {
+                "word": "appreciate",
+                "start": 65.56,
+                "end": 66.119995,
+                "confidence": 1,
+                "punctuated_word": "appreciate"
+              },
+              {
+                "word": "if",
+                "start": 66.119995,
+                "end": 66.52,
+                "confidence": 0.9560547,
+                "punctuated_word": "if"
+              },
+              {
+                "word": "you",
+                "start": 66.52,
+                "end": 66.76,
+                "confidence": 1,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "have",
+                "start": 66.76,
+                "end": 67,
+                "confidence": 1,
+                "punctuated_word": "have"
+              },
+              {
+                "word": "the",
+                "start": 67,
+                "end": 67.159996,
+                "confidence": 0.99902344,
+                "punctuated_word": "the"
+              },
+              {
+                "word": "time",
+                "start": 67.159996,
+                "end": 67.72,
+                "confidence": 0.7758789,
+                "punctuated_word": "time."
+              },
+              {
+                "word": "you",
+                "start": 68.119995,
+                "end": 68.28,
+                "confidence": 0.99902344,
+                "punctuated_word": "You"
+              },
+              {
+                "word": "can",
+                "start": 68.28,
+                "end": 68.6,
+                "confidence": 0.9902344,
+                "punctuated_word": "can"
+              },
+              {
+                "word": "probably",
+                "start": 68.6,
+                "end": 69,
+                "confidence": 0.99609375,
+                "punctuated_word": "probably"
+              },
+              {
+                "word": "leave",
+                "start": 69,
+                "end": 69.4,
+                "confidence": 0.9951172,
+                "punctuated_word": "leave,"
+              },
+              {
+                "word": "like",
+                "start": 69.4,
+                "end": 70.04,
+                "confidence": 0.7976074,
+                "punctuated_word": "like,"
+              },
+              {
+                "word": "a",
+                "start": 70.04,
+                "end": 70.2,
+                "confidence": 1,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "review",
+                "start": 70.2,
+                "end": 70.84,
+                "confidence": 1,
+                "punctuated_word": "review"
+              },
+              {
+                "word": "on",
+                "start": 70.84,
+                "end": 71.08,
+                "confidence": 1,
+                "punctuated_word": "on"
+              },
+              {
+                "word": "my",
+                "start": 71.08,
+                "end": 71.64,
+                "confidence": 1,
+                "punctuated_word": "my"
+              },
+              {
+                "word": "profile",
+                "start": 71.64,
+                "end": 72.36,
+                "confidence": 1,
+                "punctuated_word": "profile"
+              },
+              {
+                "word": "just",
+                "start": 72.36,
+                "end": 72.76,
+                "confidence": 0.7182617,
+                "punctuated_word": "just"
+              },
+              {
+                "word": "if",
+                "start": 72.76,
+                "end": 73.56,
+                "confidence": 0.9453125,
+                "punctuated_word": "if"
+              },
+              {
+                "word": "yeah",
+                "start": 73.935005,
+                "end": 74.255005,
+                "confidence": 0.9650879,
+                "punctuated_word": "yeah."
+              },
+              {
+                "word": "so",
+                "start": 74.255005,
+                "end": 74.735,
+                "confidence": 0.71533203,
+                "punctuated_word": "So,"
+              },
+              {
+                "word": "see",
+                "start": 74.735,
+                "end": 75.055,
+                "confidence": 0.96728516,
+                "punctuated_word": "see,"
+              },
+              {
+                "word": "i'll",
+                "start": 75.055,
+                "end": 75.295,
+                "confidence": 0.9609375,
+                "punctuated_word": "I'll"
+              },
+              {
+                "word": "i'll",
+                "start": 75.295,
+                "end": 75.535,
+                "confidence": 0.99853516,
+                "punctuated_word": "I'll"
+              },
+              {
+                "word": "really",
+                "start": 75.535,
+                "end": 75.775,
+                "confidence": 0.9970703,
+                "punctuated_word": "really"
+              },
+              {
+                "word": "appreciate",
+                "start": 75.775,
+                "end": 76.255005,
+                "confidence": 1,
+                "punctuated_word": "appreciate"
+              },
+              {
+                "word": "that",
+                "start": 76.255005,
+                "end": 76.735,
+                "confidence": 1,
+                "punctuated_word": "that."
+              },
+              {
+                "word": "so",
+                "start": 77.295,
+                "end": 77.855,
+                "confidence": 0.77734375,
+                "punctuated_word": "So"
+              },
+              {
+                "word": "now",
+                "start": 79.135,
+                "end": 79.455,
+                "confidence": 0.9921875,
+                "punctuated_word": "now"
+              },
+              {
+                "word": "at",
+                "start": 79.455,
+                "end": 79.695,
+                "confidence": 0.984375,
+                "punctuated_word": "at"
+              },
+              {
+                "word": "the",
+                "start": 79.695,
+                "end": 79.775,
+                "confidence": 0.9741211,
+                "punctuated_word": "the"
+              },
+              {
+                "word": "end",
+                "start": 79.775,
+                "end": 79.855,
+                "confidence": 1,
+                "punctuated_word": "end"
+              },
+              {
+                "word": "of",
+                "start": 79.855,
+                "end": 80.015,
+                "confidence": 1,
+                "punctuated_word": "of"
+              },
+              {
+                "word": "this",
+                "start": 80.015,
+                "end": 80.175,
+                "confidence": 0.8432617,
+                "punctuated_word": "this"
+              },
+              {
+                "word": "session",
+                "start": 80.175,
+                "end": 80.815,
+                "confidence": 0.99902344,
+                "punctuated_word": "session,"
+              },
+              {
+                "word": "i",
+                "start": 81.455,
+                "end": 81.615005,
+                "confidence": 1,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "want",
+                "start": 81.615005,
+                "end": 81.775,
+                "confidence": 0.9980469,
+                "punctuated_word": "want"
+              },
+              {
+                "word": "you",
+                "start": 81.775,
+                "end": 81.935,
+                "confidence": 1,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "to",
+                "start": 81.935,
+                "end": 82.015,
+                "confidence": 0.99902344,
+                "punctuated_word": "to"
+              },
+              {
+                "word": "send",
+                "start": 82.015,
+                "end": 82.495,
+                "confidence": 1,
+                "punctuated_word": "send"
+              },
+              {
+                "word": "a",
+                "start": 82.495,
+                "end": 82.735,
+                "confidence": 1,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "voice",
+                "start": 82.735,
+                "end": 83.055,
+                "confidence": 0.99902344,
+                "punctuated_word": "voice"
+              },
+              {
+                "word": "note",
+                "start": 83.055,
+                "end": 83.775,
+                "confidence": 0.8395996,
+                "punctuated_word": "note."
+              },
+              {
+                "word": "a",
+                "start": 84.655,
+                "end": 84.895004,
+                "confidence": 1,
+                "punctuated_word": "A"
+              },
+              {
+                "word": "voice",
+                "start": 84.895004,
+                "end": 85.135,
+                "confidence": 1,
+                "punctuated_word": "voice"
+              },
+              {
+                "word": "note",
+                "start": 85.135,
+                "end": 85.775,
+                "confidence": 0.8640137,
+                "punctuated_word": "note."
+              },
+              {
+                "word": "like",
+                "start": 85.775,
+                "end": 86.255,
+                "confidence": 0.8515625,
+                "punctuated_word": "Like,"
+              },
+              {
+                "word": "212",
+                "start": 86.415,
+                "end": 87.695,
+                "confidence": 0.953125,
+                "punctuated_word": "212,"
+              },
+              {
+                "word": "or",
+                "start": 87.695,
+                "end": 87.775,
+                "confidence": 0.99902344,
+                "punctuated_word": "or"
+              },
+              {
+                "word": "3",
+                "start": 87.775,
+                "end": 88.015,
+                "confidence": 0.99658203,
+                "punctuated_word": "3."
+              },
+              {
+                "word": "don't",
+                "start": 88.25,
+                "end": 88.65,
+                "confidence": 1,
+                "punctuated_word": "Don't"
+              },
+              {
+                "word": "rush",
+                "start": 88.65,
+                "end": 89.13,
+                "confidence": 0.98583984,
+                "punctuated_word": "rush."
+              },
+              {
+                "word": "just",
+                "start": 89.13,
+                "end": 89.29,
+                "confidence": 1,
+                "punctuated_word": "Just"
+              },
+              {
+                "word": "take",
+                "start": 89.29,
+                "end": 89.45,
+                "confidence": 1,
+                "punctuated_word": "take"
+              },
+              {
+                "word": "your",
+                "start": 89.45,
+                "end": 89.61,
+                "confidence": 1,
+                "punctuated_word": "your"
+              },
+              {
+                "word": "time",
+                "start": 89.61,
+                "end": 89.85,
+                "confidence": 1,
+                "punctuated_word": "time."
+              },
+              {
+                "word": "you",
+                "start": 89.85,
+                "end": 89.93,
+                "confidence": 1,
+                "punctuated_word": "You"
+              },
+              {
+                "word": "can",
+                "start": 89.93,
+                "end": 90.09,
+                "confidence": 1,
+                "punctuated_word": "can"
+              },
+              {
+                "word": "just",
+                "start": 90.09,
+                "end": 90.33,
+                "confidence": 1,
+                "punctuated_word": "just"
+              },
+              {
+                "word": "take",
+                "start": 90.33,
+                "end": 90.65,
+                "confidence": 1,
+                "punctuated_word": "take"
+              },
+              {
+                "word": "a",
+                "start": 90.65,
+                "end": 90.729996,
+                "confidence": 0.6425781,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "cup",
+                "start": 90.729996,
+                "end": 90.97,
+                "confidence": 1,
+                "punctuated_word": "cup"
+              },
+              {
+                "word": "of",
+                "start": 90.97,
+                "end": 91.13,
+                "confidence": 1,
+                "punctuated_word": "of"
+              },
+              {
+                "word": "coffee",
+                "start": 91.13,
+                "end": 91.689995,
+                "confidence": 0.8881836,
+                "punctuated_word": "coffee,"
+              },
+              {
+                "word": "and",
+                "start": 92.25,
+                "end": 92.409996,
+                "confidence": 0.99902344,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "you",
+                "start": 92.409996,
+                "end": 92.65,
+                "confidence": 0.99902344,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "send",
+                "start": 92.65,
+                "end": 92.89,
+                "confidence": 0.88964844,
+                "punctuated_word": "send"
+              },
+              {
+                "word": "a",
+                "start": 92.89,
+                "end": 93.13,
+                "confidence": 0.56152344,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "very",
+                "start": 93.13,
+                "end": 93.689995,
+                "confidence": 0.8041992,
+                "punctuated_word": "very"
+              },
+              {
+                "word": "calm",
+                "start": 93.689995,
+                "end": 94.329994,
+                "confidence": 0.9980469,
+                "punctuated_word": "calm"
+              },
+              {
+                "word": "voice",
+                "start": 94.65,
+                "end": 94.97,
+                "confidence": 0.9980469,
+                "punctuated_word": "voice"
+              },
+              {
+                "word": "note",
+                "start": 94.97,
+                "end": 95.77,
+                "confidence": 0.70996094,
+                "punctuated_word": "note,"
+              },
+              {
+                "word": "like",
+                "start": 96.409996,
+                "end": 96.57,
+                "confidence": 0.99902344,
+                "punctuated_word": "like"
+              },
+              {
+                "word": "a",
+                "start": 96.57,
+                "end": 96.81,
+                "confidence": 0.8442383,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "confident",
+                "start": 96.81,
+                "end": 97.21,
+                "confidence": 0.9970703,
+                "punctuated_word": "confident"
+              },
+              {
+                "word": "speaker",
+                "start": 97.21,
+                "end": 98.009995,
+                "confidence": 0.92285156,
+                "punctuated_word": "speaker,"
+              },
+              {
+                "word": "like",
+                "start": 98.009995,
+                "end": 98.09,
+                "confidence": 1,
+                "punctuated_word": "like"
+              },
+              {
+                "word": "the",
+                "start": 98.09,
+                "end": 98.33,
+                "confidence": 0.91259766,
+                "punctuated_word": "the"
+              },
+              {
+                "word": "boss",
+                "start": 98.33,
+                "end": 98.96999,
+                "confidence": 0.8684082,
+                "punctuated_word": "boss,"
+              },
+              {
+                "word": "you",
+                "start": 99.29,
+                "end": 99.53,
+                "confidence": 1,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "know",
+                "start": 99.53,
+                "end": 99.689995,
+                "confidence": 0.98291016,
+                "punctuated_word": "know,"
+              },
+              {
+                "word": "like",
+                "start": 100.385,
+                "end": 100.705,
+                "confidence": 1,
+                "punctuated_word": "like"
+              },
+              {
+                "word": "the",
+                "start": 100.705,
+                "end": 100.865,
+                "confidence": 0.59033203,
+                "punctuated_word": "the"
+              },
+              {
+                "word": "relaxed",
+                "start": 100.865,
+                "end": 101.265,
+                "confidence": 0.9941406,
+                "punctuated_word": "relaxed"
+              },
+              {
+                "word": "numbers",
+                "start": 101.265,
+                "end": 101.745,
+                "confidence": 0.29492188,
+                "punctuated_word": "numbers"
+              },
+              {
+                "word": "i",
+                "start": 101.745,
+                "end": 101.985,
+                "confidence": 0.9838867,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "know",
+                "start": 101.985,
+                "end": 102.545,
+                "confidence": 0.82836914,
+                "punctuated_word": "know,"
+              },
+              {
+                "word": "and",
+                "start": 102.545,
+                "end": 102.705,
+                "confidence": 0.9941406,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "just",
+                "start": 102.705,
+                "end": 103.025,
+                "confidence": 0.84716797,
+                "punctuated_word": "just"
+              },
+              {
+                "word": "talk",
+                "start": 103.025,
+                "end": 103.265,
+                "confidence": 0.9941406,
+                "punctuated_word": "talk"
+              },
+              {
+                "word": "about",
+                "start": 103.265,
+                "end": 103.825,
+                "confidence": 1,
+                "punctuated_word": "about"
+              },
+              {
+                "word": "your",
+                "start": 103.985,
+                "end": 104.225,
+                "confidence": 0.90625,
+                "punctuated_word": "your"
+              },
+              {
+                "word": "session",
+                "start": 104.225,
+                "end": 104.545,
+                "confidence": 0.9277344,
+                "punctuated_word": "session"
+              },
+              {
+                "word": "today",
+                "start": 104.545,
+                "end": 105.345,
+                "confidence": 0.98999023,
+                "punctuated_word": "today."
+              },
+              {
+                "word": "today",
+                "start": 105.585,
+                "end": 106.385,
+                "confidence": 0.9921875,
+                "punctuated_word": "Today,"
+              },
+              {
+                "word": "i'm",
+                "start": 107.105,
+                "end": 107.425,
+                "confidence": 0.99902344,
+                "punctuated_word": "I'm"
+              },
+              {
+                "word": "so",
+                "start": 107.425,
+                "end": 107.585,
+                "confidence": 0.99902344,
+                "punctuated_word": "so"
+              },
+              {
+                "word": "happy",
+                "start": 107.585,
+                "end": 107.985,
+                "confidence": 1,
+                "punctuated_word": "happy"
+              },
+              {
+                "word": "to",
+                "start": 107.985,
+                "end": 108.545,
+                "confidence": 1,
+                "punctuated_word": "to"
+              },
+              {
+                "word": "learn",
+                "start": 108.865,
+                "end": 109.345,
+                "confidence": 1,
+                "punctuated_word": "learn"
+              },
+              {
+                "word": "about",
+                "start": 109.345,
+                "end": 109.905,
+                "confidence": 1,
+                "punctuated_word": "about"
+              },
+              {
+                "word": "the",
+                "start": 111.185,
+                "end": 111.425,
+                "confidence": 0.9970703,
+                "punctuated_word": "the"
+              },
+              {
+                "word": "filler",
+                "start": 111.425,
+                "end": 111.825,
+                "confidence": 0.9951172,
+                "punctuated_word": "filler"
+              },
+              {
+                "word": "words",
+                "start": 111.825,
+                "end": 112.225,
+                "confidence": 0.9328613,
+                "punctuated_word": "words,"
+              },
+              {
+                "word": "and",
+                "start": 112.920006,
+                "end": 113.16,
+                "confidence": 1,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "i",
+                "start": 113.16,
+                "end": 113.48,
+                "confidence": 1,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "can",
+                "start": 113.48,
+                "end": 113.72,
+                "confidence": 1,
+                "punctuated_word": "can"
+              },
+              {
+                "word": "now",
+                "start": 113.72,
+                "end": 114.36,
+                "confidence": 1,
+                "punctuated_word": "now"
+              },
+              {
+                "word": "speak",
+                "start": 114.44,
+                "end": 114.920006,
+                "confidence": 1,
+                "punctuated_word": "speak"
+              },
+              {
+                "word": "more",
+                "start": 114.920006,
+                "end": 115.64,
+                "confidence": 1,
+                "punctuated_word": "more"
+              },
+              {
+                "word": "without",
+                "start": 115.8,
+                "end": 116.520004,
+                "confidence": 1,
+                "punctuated_word": "without"
+              },
+              {
+                "word": "adding",
+                "start": 116.520004,
+                "end": 117.16,
+                "confidence": 1,
+                "punctuated_word": "adding"
+              },
+              {
+                "word": "much",
+                "start": 117.16,
+                "end": 117.8,
+                "confidence": 1,
+                "punctuated_word": "much"
+              },
+              {
+                "word": "of",
+                "start": 117.8,
+                "end": 118.520004,
+                "confidence": 1,
+                "punctuated_word": "of"
+              },
+              {
+                "word": "the",
+                "start": 118.520004,
+                "end": 118.840004,
+                "confidence": 0.99902344,
+                "punctuated_word": "the"
+              },
+              {
+                "word": "filler",
+                "start": 118.840004,
+                "end": 119.240005,
+                "confidence": 1,
+                "punctuated_word": "filler"
+              },
+              {
+                "word": "words",
+                "start": 119.240005,
+                "end": 120.12,
+                "confidence": 0.9980469,
+                "punctuated_word": "words."
+              },
+              {
+                "word": "so",
+                "start": 120.36,
+                "end": 120.600006,
+                "confidence": 0.9941406,
+                "punctuated_word": "So"
+              },
+              {
+                "word": "you",
+                "start": 120.600006,
+                "end": 120.840004,
+                "confidence": 1,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "just",
+                "start": 120.840004,
+                "end": 121,
+                "confidence": 1,
+                "punctuated_word": "just"
+              },
+              {
+                "word": "give",
+                "start": 121,
+                "end": 121.240005,
+                "confidence": 1,
+                "punctuated_word": "give"
+              },
+              {
+                "word": "me",
+                "start": 121.240005,
+                "end": 121.32,
+                "confidence": 1,
+                "punctuated_word": "me"
+              },
+              {
+                "word": "that",
+                "start": 121.32,
+                "end": 121.560005,
+                "confidence": 1,
+                "punctuated_word": "that"
+              },
+              {
+                "word": "voice",
+                "start": 121.560005,
+                "end": 121.880005,
+                "confidence": 0.9970703,
+                "punctuated_word": "voice"
+              },
+              {
+                "word": "note",
+                "start": 121.880005,
+                "end": 122.200005,
+                "confidence": 0.9321289,
+                "punctuated_word": "note."
+              },
+              {
+                "word": "any",
+                "start": 126.895004,
+                "end": 127.215004,
+                "confidence": 0.59375,
+                "punctuated_word": "Any"
+              },
+              {
+                "word": "amount",
+                "start": 127.215004,
+                "end": 127.935005,
+                "confidence": 0.9699707,
+                "punctuated_word": "amount."
+              },
+              {
+                "word": "any",
+                "start": 127.935005,
+                "end": 128.335,
+                "confidence": 0.80249023,
+                "punctuated_word": "Any."
+              },
+              {
+                "word": "any",
+                "start": 128.335,
+                "end": 128.815,
+                "confidence": 0.9995117,
+                "punctuated_word": "Any."
+              },
+              {
+                "word": "you",
+                "start": 128.815,
+                "end": 129.05501,
+                "confidence": 0.9453125,
+                "punctuated_word": "You"
+              },
+              {
+                "word": "can",
+                "start": 129.05501,
+                "end": 129.13501,
+                "confidence": 0.99902344,
+                "punctuated_word": "can"
+              },
+              {
+                "word": "you",
+                "start": 129.13501,
+                "end": 129.375,
+                "confidence": 0.97314453,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "can",
+                "start": 129.375,
+                "end": 129.455,
+                "confidence": 1,
+                "punctuated_word": "can"
+              },
+              {
+                "word": "give",
+                "start": 129.455,
+                "end": 129.615,
+                "confidence": 0.9951172,
+                "punctuated_word": "give"
+              },
+              {
+                "word": "me",
+                "start": 129.615,
+                "end": 129.77501,
+                "confidence": 1,
+                "punctuated_word": "me"
+              },
+              {
+                "word": "5",
+                "start": 129.77501,
+                "end": 130.015,
+                "confidence": 0.99658203,
+                "punctuated_word": "5."
+              },
+              {
+                "word": "you",
+                "start": 130.015,
+                "end": 130.175,
+                "confidence": 1,
+                "punctuated_word": "You"
+              },
+              {
+                "word": "can",
+                "start": 130.175,
+                "end": 130.255,
+                "confidence": 1,
+                "punctuated_word": "can"
+              },
+              {
+                "word": "give",
+                "start": 130.255,
+                "end": 130.495,
+                "confidence": 1,
+                "punctuated_word": "give"
+              },
+              {
+                "word": "me",
+                "start": 130.495,
+                "end": 130.575,
+                "confidence": 1,
+                "punctuated_word": "me"
+              },
+              {
+                "word": "4",
+                "start": 130.575,
+                "end": 131.13501,
+                "confidence": 1,
+                "punctuated_word": "4."
+              },
+              {
+                "word": "send",
+                "start": 131.375,
+                "end": 131.695,
+                "confidence": 0.9980469,
+                "punctuated_word": "Send"
+              },
+              {
+                "word": "them",
+                "start": 131.695,
+                "end": 132.095,
+                "confidence": 0.94921875,
+                "punctuated_word": "them."
+              },
+              {
+                "word": "send",
+                "start": 132.095,
+                "end": 132.255,
+                "confidence": 1,
+                "punctuated_word": "Send"
+              },
+              {
+                "word": "as",
+                "start": 132.255,
+                "end": 132.495,
+                "confidence": 0.9941406,
+                "punctuated_word": "as"
+              },
+              {
+                "word": "much",
+                "start": 132.495,
+                "end": 132.655,
+                "confidence": 1,
+                "punctuated_word": "much"
+              },
+              {
+                "word": "as",
+                "start": 132.655,
+                "end": 132.815,
+                "confidence": 0.9970703,
+                "punctuated_word": "as"
+              },
+              {
+                "word": "i",
+                "start": 133.05501,
+                "end": 133.215,
+                "confidence": 0.9970703,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "want",
+                "start": 133.215,
+                "end": 133.375,
+                "confidence": 1,
+                "punctuated_word": "want"
+              },
+              {
+                "word": "to",
+                "start": 133.375,
+                "end": 133.535,
+                "confidence": 0.9921875,
+                "punctuated_word": "to"
+              },
+              {
+                "word": "hear",
+                "start": 133.535,
+                "end": 133.855,
+                "confidence": 1,
+                "punctuated_word": "hear"
+              },
+              {
+                "word": "them",
+                "start": 133.855,
+                "end": 134.175,
+                "confidence": 0.98583984,
+                "punctuated_word": "them."
+              },
+              {
+                "word": "send",
+                "start": 134.175,
+                "end": 134.495,
+                "confidence": 0.99902344,
+                "punctuated_word": "Send"
+              },
+              {
+                "word": "as",
+                "start": 134.495,
+                "end": 134.735,
+                "confidence": 1,
+                "punctuated_word": "as"
+              },
+              {
+                "word": "much",
+                "start": 134.735,
+                "end": 134.895,
+                "confidence": 1,
+                "punctuated_word": "much"
+              },
+              {
+                "word": "as",
+                "start": 134.895,
+                "end": 135.05501,
+                "confidence": 0.99902344,
+                "punctuated_word": "as"
+              },
+              {
+                "word": "possible",
+                "start": 135.05501,
+                "end": 135.535,
+                "confidence": 1,
+                "punctuated_word": "possible."
+              },
+              {
+                "word": "okay",
+                "start": 135.535,
+                "end": 135.855,
+                "confidence": 0.92163086,
+                "punctuated_word": "Okay?"
+              },
+              {
+                "word": "you",
+                "start": 135.855,
+                "end": 135.935,
+                "confidence": 1,
+                "punctuated_word": "You"
+              },
+              {
+                "word": "can",
+                "start": 135.935,
+                "end": 136.095,
+                "confidence": 0.9970703,
+                "punctuated_word": "can"
+              },
+              {
+                "word": "send",
+                "start": 136.095,
+                "end": 136.335,
+                "confidence": 0.9863281,
+                "punctuated_word": "send"
+              },
+              {
+                "word": "1",
+                "start": 136.335,
+                "end": 136.815,
+                "confidence": 0.9975586,
+                "punctuated_word": "1."
+              },
+              {
+                "word": "don't",
+                "start": 136.815,
+                "end": 137.13501,
+                "confidence": 1,
+                "punctuated_word": "Don't"
+              },
+              {
+                "word": "worry",
+                "start": 137.13501,
+                "end": 137.375,
+                "confidence": 1,
+                "punctuated_word": "worry"
+              },
+              {
+                "word": "about",
+                "start": 137.375,
+                "end": 137.535,
+                "confidence": 1,
+                "punctuated_word": "about"
+              },
+              {
+                "word": "it",
+                "start": 137.535,
+                "end": 137.695,
+                "confidence": 0.98168945,
+                "punctuated_word": "it."
+              },
+              {
+                "word": "if",
+                "start": 137.695,
+                "end": 137.77501,
+                "confidence": 1,
+                "punctuated_word": "If"
+              },
+              {
+                "word": "if",
+                "start": 137.77501,
+                "end": 137.935,
+                "confidence": 0.72558594,
+                "punctuated_word": "if"
+              },
+              {
+                "word": "you",
+                "start": 137.935,
+                "end": 138.015,
+                "confidence": 0.99902344,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "send",
+                "start": 138.015,
+                "end": 138.175,
+                "confidence": 0.9980469,
+                "punctuated_word": "send"
+              },
+              {
+                "word": "1",
+                "start": 138.175,
+                "end": 138.495,
+                "confidence": 0.99658203,
+                "punctuated_word": "1,"
+              },
+              {
+                "word": "don't",
+                "start": 138.495,
+                "end": 138.655,
+                "confidence": 0.9995117,
+                "punctuated_word": "don't"
+              },
+              {
+                "word": "delete",
+                "start": 138.655,
+                "end": 138.895,
+                "confidence": 0.9980469,
+                "punctuated_word": "delete."
+              },
+              {
+                "word": "send",
+                "start": 139.37001,
+                "end": 139.69,
+                "confidence": 1,
+                "punctuated_word": "Send"
+              },
+              {
+                "word": "again",
+                "start": 139.69,
+                "end": 140.25,
+                "confidence": 0.9736328,
+                "punctuated_word": "again."
+              },
+              {
+                "word": "send",
+                "start": 140.25,
+                "end": 140.57,
+                "confidence": 0.9980469,
+                "punctuated_word": "Send"
+              },
+              {
+                "word": "again",
+                "start": 140.57,
+                "end": 140.89,
+                "confidence": 0.99902344,
+                "punctuated_word": "again."
+              },
+              {
+                "word": "when",
+                "start": 140.89,
+                "end": 141.05,
+                "confidence": 1,
+                "punctuated_word": "When"
+              },
+              {
+                "word": "you",
+                "start": 141.05,
+                "end": 141.13,
+                "confidence": 1,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "feel",
+                "start": 141.13,
+                "end": 141.29001,
+                "confidence": 0.9970703,
+                "punctuated_word": "feel"
+              },
+              {
+                "word": "when",
+                "start": 141.29001,
+                "end": 141.69,
+                "confidence": 0.9604492,
+                "punctuated_word": "when"
+              },
+              {
+                "word": "you",
+                "start": 141.69,
+                "end": 141.77,
+                "confidence": 1,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "feel",
+                "start": 141.77,
+                "end": 141.93001,
+                "confidence": 1,
+                "punctuated_word": "feel"
+              },
+              {
+                "word": "you're",
+                "start": 141.93001,
+                "end": 142.25,
+                "confidence": 0.7910156,
+                "punctuated_word": "you're"
+              },
+              {
+                "word": "you",
+                "start": 142.33,
+                "end": 142.49,
+                "confidence": 1,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "got",
+                "start": 142.49,
+                "end": 142.73,
+                "confidence": 0.98828125,
+                "punctuated_word": "got"
+              },
+              {
+                "word": "it",
+                "start": 142.73,
+                "end": 142.89,
+                "confidence": 1,
+                "punctuated_word": "it"
+              },
+              {
+                "word": "right",
+                "start": 142.89,
+                "end": 143.45001,
+                "confidence": 0.9875488,
+                "punctuated_word": "right,"
+              },
+              {
+                "word": "then",
+                "start": 143.61,
+                "end": 143.85,
+                "confidence": 0.9560547,
+                "punctuated_word": "then"
+              },
+              {
+                "word": "you",
+                "start": 143.85,
+                "end": 144.09,
+                "confidence": 0.8310547,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "leave",
+                "start": 144.09,
+                "end": 144.25,
+                "confidence": 0.97998047,
+                "punctuated_word": "leave"
+              },
+              {
+                "word": "it",
+                "start": 144.25,
+                "end": 144.41,
+                "confidence": 1,
+                "punctuated_word": "it"
+              },
+              {
+                "word": "for",
+                "start": 144.41,
+                "end": 144.57,
+                "confidence": 0.99609375,
+                "punctuated_word": "for"
+              },
+              {
+                "word": "me",
+                "start": 144.57,
+                "end": 145.13,
+                "confidence": 0.9970703,
+                "punctuated_word": "me."
+              },
+              {
+                "word": "yes",
+                "start": 145.53,
+                "end": 145.93001,
+                "confidence": 0.96875,
+                "punctuated_word": "Yes."
+              },
+              {
+                "word": "then",
+                "start": 145.93001,
+                "end": 146.17,
+                "confidence": 0.9980469,
+                "punctuated_word": "Then"
+              },
+              {
+                "word": "wait",
+                "start": 146.17,
+                "end": 146.49,
+                "confidence": 1,
+                "punctuated_word": "wait"
+              },
+              {
+                "word": "for",
+                "start": 146.49,
+                "end": 146.65001,
+                "confidence": 1,
+                "punctuated_word": "for"
+              },
+              {
+                "word": "my",
+                "start": 146.65001,
+                "end": 146.81,
+                "confidence": 1,
+                "punctuated_word": "my"
+              },
+              {
+                "word": "reply",
+                "start": 146.81,
+                "end": 147.37,
+                "confidence": 0.8417969,
+                "punctuated_word": "reply."
+              },
+              {
+                "word": "and",
+                "start": 147.37,
+                "end": 147.61,
+                "confidence": 0.99902344,
+                "punctuated_word": "And"
+              },
+              {
+                "word": "just",
+                "start": 147.61,
+                "end": 148.09,
+                "confidence": 0.98828125,
+                "punctuated_word": "just"
+              },
+              {
+                "word": "just",
+                "start": 148.09,
+                "end": 148.49,
+                "confidence": 1,
+                "punctuated_word": "just"
+              },
+              {
+                "word": "there's",
+                "start": 149.05,
+                "end": 149.37,
+                "confidence": 1,
+                "punctuated_word": "there's"
+              },
+              {
+                "word": "no",
+                "start": 149.37,
+                "end": 149.61,
+                "confidence": 1,
+                "punctuated_word": "no"
+              },
+              {
+                "word": "limit",
+                "start": 149.61,
+                "end": 150.09,
+                "confidence": 0.93530273,
+                "punctuated_word": "limit."
+              },
+              {
+                "word": "you",
+                "start": 150.09,
+                "end": 150.25,
+                "confidence": 1,
+                "punctuated_word": "You"
+              },
+              {
+                "word": "can",
+                "start": 150.25,
+                "end": 150.41,
+                "confidence": 1,
+                "punctuated_word": "can"
+              },
+              {
+                "word": "send",
+                "start": 150.41,
+                "end": 150.65001,
+                "confidence": 1,
+                "punctuated_word": "send"
+              },
+              {
+                "word": "as",
+                "start": 150.65001,
+                "end": 150.81,
+                "confidence": 0.99609375,
+                "punctuated_word": "as"
+              },
+              {
+                "word": "much",
+                "start": 150.81,
+                "end": 151.05,
+                "confidence": 1,
+                "punctuated_word": "much"
+              },
+              {
+                "word": "as",
+                "start": 151.05,
+                "end": 151.21,
+                "confidence": 1,
+                "punctuated_word": "as"
+              },
+              {
+                "word": "possible",
+                "start": 151.21,
+                "end": 151.45,
+                "confidence": 0.923584,
+                "punctuated_word": "possible."
+              },
+              {
+                "word": "i",
+                "start": 151.45,
+                "end": 151.61,
+                "confidence": 1,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "want",
+                "start": 151.61,
+                "end": 151.69,
+                "confidence": 1,
+                "punctuated_word": "want"
+              },
+              {
+                "word": "to",
+                "start": 151.69,
+                "end": 151.85,
+                "confidence": 0.9970703,
+                "punctuated_word": "to"
+              },
+              {
+                "word": "listen",
+                "start": 151.85,
+                "end": 152.49,
+                "confidence": 0.99316406,
+                "punctuated_word": "listen."
+              },
+              {
+                "word": "i",
+                "start": 152.49,
+                "end": 152.73,
+                "confidence": 1,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "want",
+                "start": 152.73,
+                "end": 152.81,
+                "confidence": 1,
+                "punctuated_word": "want"
+              },
+              {
+                "word": "to",
+                "start": 152.81,
+                "end": 152.97,
+                "confidence": 1,
+                "punctuated_word": "to"
+              },
+              {
+                "word": "be",
+                "start": 152.97,
+                "end": 153.05,
+                "confidence": 1,
+                "punctuated_word": "be"
+              },
+              {
+                "word": "happy",
+                "start": 153.05,
+                "end": 153.61,
+                "confidence": 0.9421387,
+                "punctuated_word": "happy."
+              },
+              {
+                "word": "i",
+                "start": 153.61,
+                "end": 153.69,
+                "confidence": 1,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "want",
+                "start": 153.69,
+                "end": 153.85,
+                "confidence": 1,
+                "punctuated_word": "want"
+              },
+              {
+                "word": "to",
+                "start": 153.85,
+                "end": 153.93001,
+                "confidence": 0.99902344,
+                "punctuated_word": "to"
+              },
+              {
+                "word": "be",
+                "start": 153.93001,
+                "end": 154.09,
+                "confidence": 0.99902344,
+                "punctuated_word": "be"
+              },
+              {
+                "word": "happy",
+                "start": 154.09,
+                "end": 154.33,
+                "confidence": 0.91552734,
+                "punctuated_word": "happy."
+              },
+              {
+                "word": "it's",
+                "start": 155.115,
+                "end": 155.91501,
+                "confidence": 0.9995117,
+                "punctuated_word": "It's"
+              },
+              {
+                "word": "being",
+                "start": 155.995,
+                "end": 156.315,
+                "confidence": 0.66308594,
+                "punctuated_word": "being"
+              },
+              {
+                "word": "effective",
+                "start": 156.315,
+                "end": 156.795,
+                "confidence": 1,
+                "punctuated_word": "effective"
+              },
+              {
+                "word": "in",
+                "start": 156.795,
+                "end": 156.955,
+                "confidence": 1,
+                "punctuated_word": "in"
+              },
+              {
+                "word": "your",
+                "start": 156.955,
+                "end": 157.195,
+                "confidence": 1,
+                "punctuated_word": "your"
+              },
+              {
+                "word": "communication",
+                "start": 157.195,
+                "end": 157.91501,
+                "confidence": 0.9875488,
+                "punctuated_word": "communication."
+              },
+              {
+                "word": "okay",
+                "start": 158.155,
+                "end": 158.555,
+                "confidence": 0.98583984,
+                "punctuated_word": "Okay?"
+              },
+              {
+                "word": "so",
+                "start": 158.555,
+                "end": 158.715,
+                "confidence": 0.9970703,
+                "punctuated_word": "So"
+              },
+              {
+                "word": "that",
+                "start": 158.715,
+                "end": 158.875,
+                "confidence": 0.9003906,
+                "punctuated_word": "that"
+              },
+              {
+                "word": "when",
+                "start": 158.875,
+                "end": 159.195,
+                "confidence": 0.8701172,
+                "punctuated_word": "when"
+              },
+              {
+                "word": "you",
+                "start": 159.195,
+                "end": 159.275,
+                "confidence": 1,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "speak",
+                "start": 159.275,
+                "end": 159.515,
+                "confidence": 1,
+                "punctuated_word": "speak"
+              },
+              {
+                "word": "amongst",
+                "start": 159.515,
+                "end": 159.915,
+                "confidence": 0.99609375,
+                "punctuated_word": "amongst"
+              },
+              {
+                "word": "anyone",
+                "start": 159.915,
+                "end": 160.63501,
+                "confidence": 0.99902344,
+                "punctuated_word": "anyone,"
+              },
+              {
+                "word": "i",
+                "start": 160.875,
+                "end": 161.035,
+                "confidence": 1,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "want",
+                "start": 161.035,
+                "end": 161.195,
+                "confidence": 1,
+                "punctuated_word": "want"
+              },
+              {
+                "word": "them",
+                "start": 161.195,
+                "end": 161.355,
+                "confidence": 0.99902344,
+                "punctuated_word": "them"
+              },
+              {
+                "word": "to",
+                "start": 161.355,
+                "end": 161.515,
+                "confidence": 0.99902344,
+                "punctuated_word": "to"
+              },
+              {
+                "word": "feel",
+                "start": 161.515,
+                "end": 161.755,
+                "confidence": 0.99902344,
+                "punctuated_word": "feel"
+              },
+              {
+                "word": "that",
+                "start": 161.755,
+                "end": 161.915,
+                "confidence": 0.9951172,
+                "punctuated_word": "that"
+              },
+              {
+                "word": "presence",
+                "start": 161.915,
+                "end": 162.475,
+                "confidence": 0.9458008,
+                "punctuated_word": "presence,"
+              },
+              {
+                "word": "that",
+                "start": 162.475,
+                "end": 162.555,
+                "confidence": 1,
+                "punctuated_word": "that"
+              },
+              {
+                "word": "confidence",
+                "start": 162.555,
+                "end": 163.43501,
+                "confidence": 0.82055664,
+                "punctuated_word": "confidence."
+              },
+              {
+                "word": "because",
+                "start": 163.595,
+                "end": 163.915,
+                "confidence": 0.99902344,
+                "punctuated_word": "Because"
+              },
+              {
+                "word": "when",
+                "start": 163.915,
+                "end": 164.555,
+                "confidence": 0.9604492,
+                "punctuated_word": "when"
+              },
+              {
+                "word": "you",
+                "start": 164.555,
+                "end": 164.635,
+                "confidence": 0.99902344,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "when",
+                "start": 164.635,
+                "end": 164.955,
+                "confidence": 0.94970703,
+                "punctuated_word": "when"
+              },
+              {
+                "word": "you",
+                "start": 164.955,
+                "end": 165.035,
+                "confidence": 1,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "take",
+                "start": 165.035,
+                "end": 165.275,
+                "confidence": 0.94384766,
+                "punctuated_word": "take"
+              },
+              {
+                "word": "your",
+                "start": 165.275,
+                "end": 165.515,
+                "confidence": 1,
+                "punctuated_word": "your"
+              },
+              {
+                "word": "time",
+                "start": 165.515,
+                "end": 166.075,
+                "confidence": 0.9995117,
+                "punctuated_word": "time,"
+              },
+              {
+                "word": "that",
+                "start": 166.075,
+                "end": 166.235,
+                "confidence": 1,
+                "punctuated_word": "that"
+              },
+              {
+                "word": "is",
+                "start": 166.235,
+                "end": 166.395,
+                "confidence": 1,
+                "punctuated_word": "is"
+              },
+              {
+                "word": "no",
+                "start": 166.395,
+                "end": 166.635,
+                "confidence": 0.9970703,
+                "punctuated_word": "no"
+              },
+              {
+                "word": "rush",
+                "start": 166.635,
+                "end": 166.955,
+                "confidence": 0.9941406,
+                "punctuated_word": "rush."
+              },
+              {
+                "word": "that",
+                "start": 166.955,
+                "end": 167.035,
+                "confidence": 1,
+                "punctuated_word": "That"
+              },
+              {
+                "word": "is",
+                "start": 167.035,
+                "end": 167.195,
+                "confidence": 0.99609375,
+                "punctuated_word": "is"
+              },
+              {
+                "word": "power",
+                "start": 167.195,
+                "end": 167.515,
+                "confidence": 0.9995117,
+                "punctuated_word": "power."
+              },
+              {
+                "word": "that",
+                "start": 167.515,
+                "end": 167.675,
+                "confidence": 1,
+                "punctuated_word": "That"
+              },
+              {
+                "word": "is",
+                "start": 167.675,
+                "end": 167.755,
+                "confidence": 0.6333008,
+                "punctuated_word": "is"
+              },
+              {
+                "word": "confidence",
+                "start": 167.755,
+                "end": 168.635,
+                "confidence": 0.9460449,
+                "punctuated_word": "confidence."
+              },
+              {
+                "word": "and",
+                "start": 168.635,
+                "end": 168.795,
+                "confidence": 0.99902344,
+                "punctuated_word": "And"
+              },
+              {
+                "word": "that's",
+                "start": 168.795,
+                "end": 168.955,
+                "confidence": 0.9995117,
+                "punctuated_word": "that's"
+              },
+              {
+                "word": "what",
+                "start": 168.955,
+                "end": 169.115,
+                "confidence": 0.91845703,
+                "punctuated_word": "what"
+              },
+              {
+                "word": "i",
+                "start": 169.115,
+                "end": 169.195,
+                "confidence": 0.9980469,
+                "punctuated_word": "I"
+              },
+              {
+                "word": "wanna",
+                "start": 169.195,
+                "end": 169.355,
+                "confidence": 0.8461914,
+                "punctuated_word": "wanna"
+              },
+              {
+                "word": "see",
+                "start": 169.355,
+                "end": 169.595,
+                "confidence": 0.9970703,
+                "punctuated_word": "see"
+              },
+              {
+                "word": "more",
+                "start": 169.595,
+                "end": 169.835,
+                "confidence": 0.99902344,
+                "punctuated_word": "more"
+              },
+              {
+                "word": "in",
+                "start": 169.835,
+                "end": 170.075,
+                "confidence": 0.9091797,
+                "punctuated_word": "in"
+              },
+              {
+                "word": "you",
+                "start": 170.075,
+                "end": 170.315,
+                "confidence": 0.99316406,
+                "punctuated_word": "you."
+              },
+              {
+                "word": "yes",
+                "start": 176.48999,
+                "end": 177.21,
+                "confidence": 0.9086914,
+                "punctuated_word": "Yes."
+              },
+              {
+                "word": "alright",
+                "start": 180.81,
+                "end": 181.53,
+                "confidence": 0.99658203,
+                "punctuated_word": "Alright."
+              },
+              {
+                "word": "bye",
+                "start": 181.53,
+                "end": 182.33,
+                "confidence": 1,
+                "punctuated_word": "Bye."
+              },
+              {
+                "word": "yeah",
+                "start": 184.25,
+                "end": 184.65,
+                "confidence": 0.99658203,
+                "punctuated_word": "Yeah."
+              }
+            ],
+            "paragraphs": {
+              "transcript": "\nI can tell there's a whole lot of difference with the way you're communicating with me. You're more confident. There's not much filler words. Yeah. For, yeah, for you know?\n\nYeah. It it's practice makes perfect. So I can I can I can give you something to to work on, like, on yourself? This is not about recording. You can probably if you have a standing mirror, you can or you can place your phone and just record yourself with some answers or some with some questions and try to record yourself without the filler words.\n\nTry to do it, like, 5 times and play it again and watch yourself. You will understand you you will see the difference of when there's filler words and no filler words. You you you'll be able to appreciate it more, and it gives you more confidence. Okay? So now at the end at the end of this session and 1 more thing 1 more thing.\n\nI would appreciate if you have the time. You can probably leave, like, a review on my profile just if yeah. So, see, I'll I'll really appreciate that. So now at the end of this session, I want you to send a voice note. A voice note.\n\nLike, 212, or 3. Don't rush. Just take your time. You can just take a cup of coffee, and you send a very calm voice note, like a confident speaker, like the boss, you know, like the relaxed numbers I know, and just talk about your session today. Today, I'm so happy to learn about the filler words, and I can now speak more without adding much of the filler words.\n\nSo you just give me that voice note. Any amount. Any. Any. You can you can give me 5.\n\nYou can give me 4. Send them. Send as much as I want to hear them. Send as much as possible. Okay?\n\nYou can send 1. Don't worry about it. If if you send 1, don't delete. Send again. Send again.\n\nWhen you feel when you feel you're you got it right, then you leave it for me. Yes. Then wait for my reply. And just just there's no limit. You can send as much as possible.\n\nI want to listen. I want to be happy. I want to be happy. It's being effective in your communication. Okay?\n\nSo that when you speak amongst anyone, I want them to feel that presence, that confidence. Because when you when you take your time, that is no rush. That is power. That is confidence. And that's what I wanna see more in you.\n\nYes. Alright. Bye. Yeah.",
+              "paragraphs": [
+                {
+                  "sentences": [
+                    {
+                      "text": "I can tell there's a whole lot of difference with the way you're communicating with me.",
+                      "start": 0,
+                      "end": 4.8
+                    },
+                    {
+                      "text": "You're more confident.",
+                      "start": 4.88,
+                      "end": 6.08
+                    },
+                    {
+                      "text": "There's not much filler words.",
+                      "start": 6.08,
+                      "end": 8.959999
+                    },
+                    {
+                      "text": "Yeah.",
+                      "start": 9.36,
+                      "end": 10.08
+                    },
+                    {
+                      "text": "For, yeah, for you know?",
+                      "start": 10.32,
+                      "end": 12.4
+                    }
+                  ],
+                  "num_words": 30,
+                  "start": 0,
+                  "end": 12.4
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "Yeah.",
+                      "start": 17.185,
+                      "end": 17.585
+                    },
+                    {
+                      "text": "It it's practice makes perfect.",
+                      "start": 17.585,
+                      "end": 21.345
+                    },
+                    {
+                      "text": "So I can I can I can give you something to to work on, like, on yourself?",
+                      "start": 21.744999,
+                      "end": 28.759998
+                    },
+                    {
+                      "text": "This is not about recording.",
+                      "start": 28.759998,
+                      "end": 30.199999
+                    },
+                    {
+                      "text": "You can probably if you have a standing mirror, you can or you can place your phone and just record yourself with some answers or some with some questions and try to record yourself without the filler words.",
+                      "start": 30.439999,
+                      "end": 43.559998
+                    }
+                  ],
+                  "num_words": 66,
+                  "start": 17.185,
+                  "end": 43.559998
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "Try to do it, like, 5 times and play it again and watch yourself.",
+                      "start": 44.265,
+                      "end": 48.745
+                    },
+                    {
+                      "text": "You will understand you you will see the difference of when there's filler words and no filler words.",
+                      "start": 49.065,
+                      "end": 54.825
+                    },
+                    {
+                      "text": "You you you'll be able to appreciate it more, and it gives you more confidence.",
+                      "start": 54.825,
+                      "end": 59.079998
+                    },
+                    {
+                      "text": "Okay?",
+                      "start": 59.079998,
+                      "end": 59.719997
+                    },
+                    {
+                      "text": "So now at the end at the end of this session and 1 more thing 1 more thing.",
+                      "start": 59.72,
+                      "end": 64.68
+                    }
+                  ],
+                  "num_words": 66,
+                  "start": 44.265,
+                  "end": 64.68
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "I would appreciate if you have the time.",
+                      "start": 65.24,
+                      "end": 67.72
+                    },
+                    {
+                      "text": "You can probably leave, like, a review on my profile just if yeah.",
+                      "start": 68.119995,
+                      "end": 74.255005
+                    },
+                    {
+                      "text": "So, see, I'll I'll really appreciate that.",
+                      "start": 74.255005,
+                      "end": 76.735
+                    },
+                    {
+                      "text": "So now at the end of this session, I want you to send a voice note.",
+                      "start": 77.295,
+                      "end": 83.775
+                    },
+                    {
+                      "text": "A voice note.",
+                      "start": 84.655,
+                      "end": 85.775
+                    }
+                  ],
+                  "num_words": 47,
+                  "start": 65.24,
+                  "end": 85.775
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "Like, 212, or 3.",
+                      "start": 85.775,
+                      "end": 88.015
+                    },
+                    {
+                      "text": "Don't rush.",
+                      "start": 88.25,
+                      "end": 89.13
+                    },
+                    {
+                      "text": "Just take your time.",
+                      "start": 89.13,
+                      "end": 89.85
+                    },
+                    {
+                      "text": "You can just take a cup of coffee, and you send a very calm voice note, like a confident speaker, like the boss, you know, like the relaxed numbers I know, and just talk about your session today.",
+                      "start": 89.85,
+                      "end": 105.345
+                    },
+                    {
+                      "text": "Today, I'm so happy to learn about the filler words, and I can now speak more without adding much of the filler words.",
+                      "start": 105.585,
+                      "end": 120.12
+                    }
+                  ],
+                  "num_words": 71,
+                  "start": 85.775,
+                  "end": 120.12
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "So you just give me that voice note.",
+                      "start": 120.36,
+                      "end": 122.200005
+                    },
+                    {
+                      "text": "Any amount.",
+                      "start": 126.895004,
+                      "end": 127.935005
+                    },
+                    {
+                      "text": "Any.",
+                      "start": 127.935005,
+                      "end": 128.335
+                    },
+                    {
+                      "text": "Any.",
+                      "start": 128.335,
+                      "end": 128.815
+                    },
+                    {
+                      "text": "You can you can give me 5.",
+                      "start": 128.815,
+                      "end": 130.015
+                    }
+                  ],
+                  "num_words": 19,
+                  "start": 120.36,
+                  "end": 130.015
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "You can give me 4.",
+                      "start": 130.015,
+                      "end": 131.13501
+                    },
+                    {
+                      "text": "Send them.",
+                      "start": 131.375,
+                      "end": 132.095
+                    },
+                    {
+                      "text": "Send as much as I want to hear them.",
+                      "start": 132.095,
+                      "end": 134.175
+                    },
+                    {
+                      "text": "Send as much as possible.",
+                      "start": 134.175,
+                      "end": 135.535
+                    },
+                    {
+                      "text": "Okay?",
+                      "start": 135.535,
+                      "end": 135.855
+                    }
+                  ],
+                  "num_words": 22,
+                  "start": 130.015,
+                  "end": 135.855
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "You can send 1.",
+                      "start": 135.855,
+                      "end": 136.815
+                    },
+                    {
+                      "text": "Don't worry about it.",
+                      "start": 136.815,
+                      "end": 137.695
+                    },
+                    {
+                      "text": "If if you send 1, don't delete.",
+                      "start": 137.695,
+                      "end": 138.895
+                    },
+                    {
+                      "text": "Send again.",
+                      "start": 139.37001,
+                      "end": 140.25
+                    },
+                    {
+                      "text": "Send again.",
+                      "start": 140.25,
+                      "end": 140.89
+                    }
+                  ],
+                  "num_words": 19,
+                  "start": 135.855,
+                  "end": 140.89
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "When you feel when you feel you're you got it right, then you leave it for me.",
+                      "start": 140.89,
+                      "end": 145.13
+                    },
+                    {
+                      "text": "Yes.",
+                      "start": 145.53,
+                      "end": 145.93001
+                    },
+                    {
+                      "text": "Then wait for my reply.",
+                      "start": 145.93001,
+                      "end": 147.37
+                    },
+                    {
+                      "text": "And just just there's no limit.",
+                      "start": 147.37,
+                      "end": 150.09
+                    },
+                    {
+                      "text": "You can send as much as possible.",
+                      "start": 150.09,
+                      "end": 151.45
+                    }
+                  ],
+                  "num_words": 36,
+                  "start": 140.89,
+                  "end": 151.45
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "I want to listen.",
+                      "start": 151.45,
+                      "end": 152.49
+                    },
+                    {
+                      "text": "I want to be happy.",
+                      "start": 152.49,
+                      "end": 153.61
+                    },
+                    {
+                      "text": "I want to be happy.",
+                      "start": 153.61,
+                      "end": 154.33
+                    },
+                    {
+                      "text": "It's being effective in your communication.",
+                      "start": 155.115,
+                      "end": 157.91501
+                    },
+                    {
+                      "text": "Okay?",
+                      "start": 158.155,
+                      "end": 158.555
+                    }
+                  ],
+                  "num_words": 21,
+                  "start": 151.45,
+                  "end": 158.555
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "So that when you speak amongst anyone, I want them to feel that presence, that confidence.",
+                      "start": 158.555,
+                      "end": 163.43501
+                    },
+                    {
+                      "text": "Because when you when you take your time, that is no rush.",
+                      "start": 163.595,
+                      "end": 166.955
+                    },
+                    {
+                      "text": "That is power.",
+                      "start": 166.955,
+                      "end": 167.515
+                    },
+                    {
+                      "text": "That is confidence.",
+                      "start": 167.515,
+                      "end": 168.635
+                    },
+                    {
+                      "text": "And that's what I wanna see more in you.",
+                      "start": 168.635,
+                      "end": 170.315
+                    }
+                  ],
+                  "num_words": 43,
+                  "start": 158.555,
+                  "end": 170.315
+                },
+                {
+                  "sentences": [
+                    {
+                      "text": "Yes.",
+                      "start": 176.48999,
+                      "end": 177.21
+                    },
+                    {
+                      "text": "Alright.",
+                      "start": 180.81,
+                      "end": 181.53
+                    },
+                    {
+                      "text": "Bye.",
+                      "start": 181.53,
+                      "end": 182.33
+                    },
+                    {
+                      "text": "Yeah.",
+                      "start": 184.25,
+                      "end": 184.65
+                    }
+                  ],
+                  "num_words": 4,
+                  "start": 176.48999,
+                  "end": 184.65
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "paragraphs": {
+      "transcript": "\nChannel 1: I can tell there's a whole lot of difference with the way you're communicating with me. You're more confident.\n\nChannel 0: Mhmm. Yeah.\n\nChannel 1: There's\n\nChannel 0: Yeah.\n\nChannel 1: not much filler words. Yeah. For, yeah, for you\n\nChannel 0: Yeah.\n\nChannel 1: know?\n\nChannel 0: It's changed. It's changed. So so I will try to\n\nChannel 1: Yeah. It it's\n\nChannel 0: check it. Check\n\nChannel 1: practice\n\nChannel 0: it.\n\nChannel 1: makes\n\nChannel 0: Mhmm.\n\nChannel 1: perfect. So\n\nChannel 0: Yeah. Yeah.\n\nChannel 1: I can I can I can give you something to to work on, like, on yourself? This is not about recording. You can probably if you have a standing mirror, you can or you can place your phone and just record yourself with some answers or some with some questions and\n\nChannel 0: Yeah.\n\nChannel 1: try\n\nChannel 0: Yeah.\n\nChannel 1: to record yourself without the filler words. Try to do it, like, 5 times and play\n\nChannel 0: Mhmm.\n\nChannel 1: it again and watch yourself. You will understand you you will see the difference of when there's filler words and no filler words. You you you'll be able to\n\nChannel 0: Yeah.\n\nChannel 1: appreciate it more, and it gives you more confidence. Okay?\n\nChannel 0: Mhmm.\n\nChannel 1: So now\n\nChannel 0: Yeah.\n\nChannel 1: at the end\n\nChannel 0: Yeah.\n\nChannel 1: at the end of this session and 1 more thing 1 more thing. I would appreciate if you have the time. You can probably leave, like, a review on my profile just if\n\nChannel 0: Yeah. Yeah. No\n\nChannel 1: yeah.\n\nChannel 0: problem.\n\nChannel 1: So, see, I'll\n\nChannel 0: For\n\nChannel 1: I'll\n\nChannel 0: me,\n\nChannel 1: really\n\nChannel 0: it's\n\nChannel 1: appreciate\n\nChannel 0: not a problem.\n\nChannel 1: that.\n\nChannel 0: Oh,\n\nChannel 1: So\n\nChannel 0: okay. No problem for me.\n\nChannel 1: now at the end of this session, I want you to send a voice note. A voice note. Like, 212, or 3. Don't rush. Just take your time.\n\nYou can just take a cup of coffee, and you send a very calm voice note, like a confident speaker, like the boss, you know, like the relaxed numbers I know, and just talk about your session today. Today, I'm so happy to learn about the filler words, and I can now speak more without adding much of the filler\n\nChannel 0: Yeah.\n\nChannel 1: words.\n\nChannel 0: I understand. And\n\nChannel 1: So you\n\nChannel 0: you\n\nChannel 1: just give me that voice note.\n\nChannel 0: okay. But 1 voice note or\n\nChannel 1: Any amount.\n\nChannel 0: more?\n\nChannel 1: Any. Any. You can you can give me 5. You can give me 4.\n\nChannel 0: Okay.\n\nChannel 1: Send them. Send as much as I want to hear them. Send as much as possible. Okay? You can\n\nChannel 0: Okay.\n\nChannel 1: send 1.\n\nChannel 0: Okay.\n\nChannel 1: Don't worry about it. If if you send 1, don't delete. Send again. Send again. When you feel when\n\nChannel 0: Okay.\n\nChannel 1: you feel you're you got it right, then you leave it for me.\n\nChannel 0: Okay. I understand.\n\nChannel 1: Yes. Then\n\nChannel 0: I\n\nChannel 1: wait\n\nChannel 0: under\n\nChannel 1: for my reply. And just just there's no limit. You can send as much\n\nChannel 0: Okay.\n\nChannel 1: as possible. I\n\nChannel 0: I\n\nChannel 1: want to\n\nChannel 0: understand.\n\nChannel 1: listen. I want to be happy. I want to be happy. It's being effective in your communication.\n\nChannel 0: Mhmm.\n\nChannel 1: Okay?\n\nChannel 0: Yeah.\n\nChannel 1: So that\n\nChannel 0: Yeah.\n\nChannel 1: when you speak amongst anyone, I want them to feel that presence, that confidence. Because when you when you take your time, that is no rush. That is power. That is confidence. And that's\n\nChannel 0: Mhmm.\n\nChannel 1: what I wanna see more in you.\n\nChannel 0: Yeah. Yeah. Yeah. I understand. So thank you for for our class, and we\n\nChannel 1: Yes.\n\nChannel 0: will see we will see next week. Yeah?\n\nChannel 1: Alright. Bye.\n\nChannel 0: Bye bye. Thank you.\n\nChannel 1: Yeah.",
+      "paragraphs": [
+        {
+          "sentences": [
+            {
+              "text": "I can tell there's a whole lot of difference with the way you're communicating with me.",
+              "start": 0,
+              "end": 4.8
+            },
+            {
+              "text": "You're more confident.",
+              "start": 4.88,
+              "end": 6.08
+            }
+          ],
+          "channel": 1,
+          "num_words": 19,
+          "start": 0,
+          "end": 6.08
+        },
+        {
+          "sentences": [
+            {
+              "text": "Mhmm.",
+              "start": 5.44,
+              "end": 5.8399997
+            },
+            {
+              "text": "Yeah.",
+              "start": 5.8399997,
+              "end": 6.24
+            }
+          ],
+          "channel": 0,
+          "num_words": 2,
+          "start": 5.44,
+          "end": 6.24
+        },
+        {
+          "sentences": [
+            {
+              "text": "There's",
+              "start": 6.08,
+              "end": 6.8799996
+            }
+          ],
+          "channel": 1,
+          "num_words": 1,
+          "start": 6.08,
+          "end": 6.8799996
+        },
+        {
+          "sentences": [
+            {
+              "text": "Yeah.",
+              "start": 6.24,
+              "end": 6.48
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 6.24,
+          "end": 6.48
+        },
+        {
+          "sentences": [
+            {
+              "text": "not much filler words.",
+              "start": 6.8799996,
+              "end": 8.959999
+            },
+            {
+              "text": "Yeah.",
+              "start": 9.36,
+              "end": 10.08
+            },
+            {
+              "text": "For, yeah, for you",
+              "start": 10.32,
+              "end": 12.32
+            }
+          ],
+          "channel": 1,
+          "num_words": 9,
+          "start": 6.8799996,
+          "end": 12.32
+        },
+        {
+          "sentences": [
+            {
+              "text": "Yeah.",
+              "start": 12.095,
+              "end": 12.735
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 12.095,
+          "end": 12.735
+        },
+        {
+          "sentences": [
+            {
+              "text": "know?",
+              "start": 12.32,
+              "end": 12.4
+            }
+          ],
+          "channel": 1,
+          "num_words": 1,
+          "start": 12.32,
+          "end": 12.4
+        },
+        {
+          "sentences": [
+            {
+              "text": "It's changed.",
+              "start": 12.735001,
+              "end": 13.615
+            },
+            {
+              "text": "It's changed.",
+              "start": 13.615,
+              "end": 14.495
+            },
+            {
+              "text": "So so I will try to",
+              "start": 14.495001,
+              "end": 17.215
+            }
+          ],
+          "channel": 0,
+          "num_words": 10,
+          "start": 12.735001,
+          "end": 17.215
+        },
+        {
+          "sentences": [
+            {
+              "text": "Yeah.",
+              "start": 17.185,
+              "end": 17.585
+            },
+            {
+              "text": "It it's",
+              "start": 17.585,
+              "end": 18.065
+            }
+          ],
+          "channel": 1,
+          "num_words": 3,
+          "start": 17.185,
+          "end": 18.065
+        },
+        {
+          "sentences": [
+            {
+              "text": "check it.",
+              "start": 18.655,
+              "end": 19.295
+            },
+            {
+              "text": "Check",
+              "start": 19.295,
+              "end": 19.615
+            }
+          ],
+          "channel": 0,
+          "num_words": 3,
+          "start": 18.655,
+          "end": 19.615
+        },
+        {
+          "sentences": [
+            {
+              "text": "practice",
+              "start": 19.345001,
+              "end": 19.825
+            }
+          ],
+          "channel": 1,
+          "num_words": 1,
+          "start": 19.345001,
+          "end": 19.825
+        },
+        {
+          "sentences": [
+            {
+              "text": "it.",
+              "start": 19.615,
+              "end": 20.015
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 19.615,
+          "end": 20.015
+        },
+        {
+          "sentences": [
+            {
+              "text": "makes",
+              "start": 19.825,
+              "end": 20.465
+            }
+          ],
+          "channel": 1,
+          "num_words": 1,
+          "start": 19.825,
+          "end": 20.465
+        },
+        {
+          "sentences": [
+            {
+              "text": "Mhmm.",
+              "start": 20.015,
+              "end": 20.735
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 20.015,
+          "end": 20.735
+        },
+        {
+          "sentences": [
+            {
+              "text": "perfect.",
+              "start": 20.465,
+              "end": 21.345
+            },
+            {
+              "text": "So",
+              "start": 21.744999,
+              "end": 22.305
+            }
+          ],
+          "channel": 1,
+          "num_words": 2,
+          "start": 20.465,
+          "end": 22.305
+        },
+        {
+          "sentences": [
+            {
+              "text": "Yeah.",
+              "start": 22.015,
+              "end": 22.335
+            },
+            {
+              "text": "Yeah.",
+              "start": 22.335,
+              "end": 22.575
+            }
+          ],
+          "channel": 0,
+          "num_words": 2,
+          "start": 22.015,
+          "end": 22.575
+        },
+        {
+          "sentences": [
+            {
+              "text": "I can I can I can give you something to to work on, like, on yourself?",
+              "start": 22.705,
+              "end": 28.759998
+            },
+            {
+              "text": "This is not about recording.",
+              "start": 28.759998,
+              "end": 30.199999
+            },
+            {
+              "text": "You can probably if you have a standing mirror, you can or you can place your phone and just record yourself with some answers or some with some questions and",
+              "start": 30.439999,
+              "end": 41.16
+            }
+          ],
+          "channel": 1,
+          "num_words": 51,
+          "start": 22.705,
+          "end": 41.16
+        },
+        {
+          "sentences": [
+            {
+              "text": "Yeah.",
+              "start": 41.035,
+              "end": 41.355
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 41.035,
+          "end": 41.355
+        },
+        {
+          "sentences": [
+            {
+              "text": "try",
+              "start": 41.16,
+              "end": 41.399998
+            }
+          ],
+          "channel": 1,
+          "num_words": 1,
+          "start": 41.16,
+          "end": 41.399998
+        },
+        {
+          "sentences": [
+            {
+              "text": "Yeah.",
+              "start": 41.355,
+              "end": 41.915
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 41.355,
+          "end": 41.915
+        },
+        {
+          "sentences": [
+            {
+              "text": "to record yourself without the filler words.",
+              "start": 41.399998,
+              "end": 43.559998
+            },
+            {
+              "text": "Try to do it, like, 5 times and play",
+              "start": 44.265,
+              "end": 46.745
+            }
+          ],
+          "channel": 1,
+          "num_words": 16,
+          "start": 41.399998,
+          "end": 46.745
+        },
+        {
+          "sentences": [
+            {
+              "text": "Mhmm.",
+              "start": 46.715,
+              "end": 47.115
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 46.715,
+          "end": 47.115
+        },
+        {
+          "sentences": [
+            {
+              "text": "it again and watch yourself.",
+              "start": 46.745,
+              "end": 48.745
+            },
+            {
+              "text": "You will understand you you will see the difference of when there's filler words and no filler words.",
+              "start": 49.065,
+              "end": 54.825
+            },
+            {
+              "text": "You you you'll be able to",
+              "start": 54.825,
+              "end": 56.105
+            }
+          ],
+          "channel": 1,
+          "num_words": 29,
+          "start": 46.745,
+          "end": 56.105
+        },
+        {
+          "sentences": [
+            {
+              "text": "Yeah.",
+              "start": 56,
+              "end": 56.56
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 56,
+          "end": 56.56
+        },
+        {
+          "sentences": [
+            {
+              "text": "appreciate it more, and it gives you more confidence.",
+              "start": 56.105,
+              "end": 59.079998
+            },
+            {
+              "text": "Okay?",
+              "start": 59.079998,
+              "end": 59.719997
+            }
+          ],
+          "channel": 1,
+          "num_words": 10,
+          "start": 56.105,
+          "end": 59.719997
+        },
+        {
+          "sentences": [
+            {
+              "text": "Mhmm.",
+              "start": 59.440002,
+              "end": 60.16
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 59.440002,
+          "end": 60.16
+        },
+        {
+          "sentences": [
+            {
+              "text": "So now",
+              "start": 59.72,
+              "end": 60.92
+            }
+          ],
+          "channel": 1,
+          "num_words": 2,
+          "start": 59.72,
+          "end": 60.92
+        },
+        {
+          "sentences": [
+            {
+              "text": "Yeah.",
+              "start": 60.88,
+              "end": 61.28
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 60.88,
+          "end": 61.28
+        },
+        {
+          "sentences": [
+            {
+              "text": "at the end",
+              "start": 60.92,
+              "end": 61.399998
+            }
+          ],
+          "channel": 1,
+          "num_words": 3,
+          "start": 60.92,
+          "end": 61.399998
+        },
+        {
+          "sentences": [
+            {
+              "text": "Yeah.",
+              "start": 61.28,
+              "end": 61.440002
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 61.28,
+          "end": 61.440002
+        },
+        {
+          "sentences": [
+            {
+              "text": "at the end of this session and 1 more thing 1 more thing.",
+              "start": 61.399998,
+              "end": 64.68
+            },
+            {
+              "text": "I would appreciate if you have the time.",
+              "start": 65.24,
+              "end": 67.72
+            },
+            {
+              "text": "You can probably leave, like, a review on my profile just if",
+              "start": 68.119995,
+              "end": 73.56
+            }
+          ],
+          "channel": 1,
+          "num_words": 33,
+          "start": 61.399998,
+          "end": 73.56
+        },
+        {
+          "sentences": [
+            {
+              "text": "Yeah.",
+              "start": 72.825,
+              "end": 73.545
+            },
+            {
+              "text": "Yeah.",
+              "start": 73.545,
+              "end": 73.865
+            },
+            {
+              "text": "No",
+              "start": 73.865,
+              "end": 74.185
+            }
+          ],
+          "channel": 0,
+          "num_words": 3,
+          "start": 72.825,
+          "end": 74.185
+        },
+        {
+          "sentences": [
+            {
+              "text": "yeah.",
+              "start": 73.935005,
+              "end": 74.255005
+            }
+          ],
+          "channel": 1,
+          "num_words": 1,
+          "start": 73.935005,
+          "end": 74.255005
+        },
+        {
+          "sentences": [
+            {
+              "text": "problem.",
+              "start": 74.185,
+              "end": 74.825
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 74.185,
+          "end": 74.825
+        },
+        {
+          "sentences": [
+            {
+              "text": "So, see, I'll",
+              "start": 74.255005,
+              "end": 75.295
+            }
+          ],
+          "channel": 1,
+          "num_words": 3,
+          "start": 74.255005,
+          "end": 75.295
+        },
+        {
+          "sentences": [
+            {
+              "text": "For",
+              "start": 75.064995,
+              "end": 75.305
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 75.064995,
+          "end": 75.305
+        },
+        {
+          "sentences": [
+            {
+              "text": "I'll",
+              "start": 75.295,
+              "end": 75.535
+            }
+          ],
+          "channel": 1,
+          "num_words": 1,
+          "start": 75.295,
+          "end": 75.535
+        },
+        {
+          "sentences": [
+            {
+              "text": "me,",
+              "start": 75.305,
+              "end": 75.545
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 75.305,
+          "end": 75.545
+        },
+        {
+          "sentences": [
+            {
+              "text": "really",
+              "start": 75.535,
+              "end": 75.775
+            }
+          ],
+          "channel": 1,
+          "num_words": 1,
+          "start": 75.535,
+          "end": 75.775
+        },
+        {
+          "sentences": [
+            {
+              "text": "it's",
+              "start": 75.545,
+              "end": 75.784996
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 75.545,
+          "end": 75.784996
+        },
+        {
+          "sentences": [
+            {
+              "text": "appreciate",
+              "start": 75.775,
+              "end": 76.255005
+            }
+          ],
+          "channel": 1,
+          "num_words": 1,
+          "start": 75.775,
+          "end": 76.255005
+        },
+        {
+          "sentences": [
+            {
+              "text": "not a problem.",
+              "start": 75.784996,
+              "end": 76.585
+            }
+          ],
+          "channel": 0,
+          "num_words": 3,
+          "start": 75.784996,
+          "end": 76.585
+        },
+        {
+          "sentences": [
+            {
+              "text": "that.",
+              "start": 76.255005,
+              "end": 76.735
+            }
+          ],
+          "channel": 1,
+          "num_words": 1,
+          "start": 76.255005,
+          "end": 76.735
+        },
+        {
+          "sentences": [
+            {
+              "text": "Oh,",
+              "start": 77.145,
+              "end": 77.384995
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 77.145,
+          "end": 77.384995
+        },
+        {
+          "sentences": [
+            {
+              "text": "So",
+              "start": 77.295,
+              "end": 77.855
+            }
+          ],
+          "channel": 1,
+          "num_words": 1,
+          "start": 77.295,
+          "end": 77.855
+        },
+        {
+          "sentences": [
+            {
+              "text": "okay.",
+              "start": 77.384995,
+              "end": 77.704994
+            },
+            {
+              "text": "No problem for me.",
+              "start": 77.704994,
+              "end": 78.825
+            }
+          ],
+          "channel": 0,
+          "num_words": 5,
+          "start": 77.384995,
+          "end": 78.825
+        },
+        {
+          "sentences": [
+            {
+              "text": "now at the end of this session, I want you to send a voice note.",
+              "start": 79.135,
+              "end": 83.775
+            },
+            {
+              "text": "A voice note.",
+              "start": 84.655,
+              "end": 85.775
+            },
+            {
+              "text": "Like, 212, or 3.",
+              "start": 85.775,
+              "end": 88.015
+            },
+            {
+              "text": "Don't rush.",
+              "start": 88.25,
+              "end": 89.13
+            },
+            {
+              "text": "Just take your time.",
+              "start": 89.13,
+              "end": 89.85
+            }
+          ],
+          "channel": 1,
+          "num_words": 28,
+          "start": 79.135,
+          "end": 89.85
+        },
+        {
+          "sentences": [
+            {
+              "text": "You can just take a cup of coffee, and you send a very calm voice note, like a confident speaker, like the boss, you know, like the relaxed numbers I know, and just talk about your session today.",
+              "start": 89.85,
+              "end": 105.345
+            },
+            {
+              "text": "Today, I'm so happy to learn about the filler words, and I can now speak more without adding much of the filler",
+              "start": 105.585,
+              "end": 119.240005
+            }
+          ],
+          "channel": 1,
+          "num_words": 60,
+          "start": 89.85,
+          "end": 119.240005
+        },
+        {
+          "sentences": [
+            {
+              "text": "Yeah.",
+              "start": 119.009995,
+              "end": 119.409996
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 119.009995,
+          "end": 119.409996
+        },
+        {
+          "sentences": [
+            {
+              "text": "words.",
+              "start": 119.240005,
+              "end": 120.12
+            }
+          ],
+          "channel": 1,
+          "num_words": 1,
+          "start": 119.240005,
+          "end": 120.12
+        },
+        {
+          "sentences": [
+            {
+              "text": "I understand.",
+              "start": 119.409996,
+              "end": 120.28999
+            },
+            {
+              "text": "And",
+              "start": 120.28999,
+              "end": 120.60999
+            }
+          ],
+          "channel": 0,
+          "num_words": 3,
+          "start": 119.409996,
+          "end": 120.60999
+        },
+        {
+          "sentences": [
+            {
+              "text": "So you",
+              "start": 120.36,
+              "end": 120.840004
+            }
+          ],
+          "channel": 1,
+          "num_words": 2,
+          "start": 120.36,
+          "end": 120.840004
+        },
+        {
+          "sentences": [
+            {
+              "text": "you",
+              "start": 120.60999,
+              "end": 121.49
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 120.60999,
+          "end": 121.49
+        },
+        {
+          "sentences": [
+            {
+              "text": "just give me that voice note.",
+              "start": 120.840004,
+              "end": 122.200005
+            }
+          ],
+          "channel": 1,
+          "num_words": 6,
+          "start": 120.840004,
+          "end": 122.200005
+        },
+        {
+          "sentences": [
+            {
+              "text": "okay.",
+              "start": 123.185005,
+              "end": 123.745
+            },
+            {
+              "text": "But 1 voice note or",
+              "start": 123.745,
+              "end": 127.585
+            }
+          ],
+          "channel": 0,
+          "num_words": 6,
+          "start": 123.185005,
+          "end": 127.585
+        },
+        {
+          "sentences": [
+            {
+              "text": "Any amount.",
+              "start": 126.895004,
+              "end": 127.935005
+            }
+          ],
+          "channel": 1,
+          "num_words": 2,
+          "start": 126.895004,
+          "end": 127.935005
+        },
+        {
+          "sentences": [
+            {
+              "text": "more?",
+              "start": 127.665,
+              "end": 128.30501
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 127.665,
+          "end": 128.30501
+        },
+        {
+          "sentences": [
+            {
+              "text": "Any.",
+              "start": 127.935005,
+              "end": 128.335
+            },
+            {
+              "text": "Any.",
+              "start": 128.335,
+              "end": 128.815
+            },
+            {
+              "text": "You can you can give me 5.",
+              "start": 128.815,
+              "end": 130.015
+            },
+            {
+              "text": "You can give me 4.",
+              "start": 130.015,
+              "end": 131.13501
+            }
+          ],
+          "channel": 1,
+          "num_words": 14,
+          "start": 127.935005,
+          "end": 131.13501
+        },
+        {
+          "sentences": [
+            {
+              "text": "Okay.",
+              "start": 131.02501,
+              "end": 131.505
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 131.02501,
+          "end": 131.505
+        },
+        {
+          "sentences": [
+            {
+              "text": "Send them.",
+              "start": 131.375,
+              "end": 132.095
+            },
+            {
+              "text": "Send as much as I want to hear them.",
+              "start": 132.095,
+              "end": 134.175
+            },
+            {
+              "text": "Send as much as possible.",
+              "start": 134.175,
+              "end": 135.535
+            },
+            {
+              "text": "Okay?",
+              "start": 135.535,
+              "end": 135.855
+            },
+            {
+              "text": "You can",
+              "start": 135.855,
+              "end": 136.095
+            }
+          ],
+          "channel": 1,
+          "num_words": 19,
+          "start": 131.375,
+          "end": 136.095
+        },
+        {
+          "sentences": [
+            {
+              "text": "Okay.",
+              "start": 135.95999,
+              "end": 136.59999
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 135.95999,
+          "end": 136.59999
+        },
+        {
+          "sentences": [
+            {
+              "text": "send 1.",
+              "start": 136.095,
+              "end": 136.815
+            }
+          ],
+          "channel": 1,
+          "num_words": 2,
+          "start": 136.095,
+          "end": 136.815
+        },
+        {
+          "sentences": [
+            {
+              "text": "Okay.",
+              "start": 136.59999,
+              "end": 137.32
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 136.59999,
+          "end": 137.32
+        },
+        {
+          "sentences": [
+            {
+              "text": "Don't worry about it.",
+              "start": 136.815,
+              "end": 137.695
+            },
+            {
+              "text": "If if you send 1, don't delete.",
+              "start": 137.695,
+              "end": 138.895
+            },
+            {
+              "text": "Send again.",
+              "start": 139.37001,
+              "end": 140.25
+            },
+            {
+              "text": "Send again.",
+              "start": 140.25,
+              "end": 140.89
+            },
+            {
+              "text": "When you feel when",
+              "start": 140.89,
+              "end": 141.69
+            }
+          ],
+          "channel": 1,
+          "num_words": 19,
+          "start": 136.815,
+          "end": 141.69
+        },
+        {
+          "sentences": [
+            {
+              "text": "Okay.",
+              "start": 141.31999,
+              "end": 141.88
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 141.31999,
+          "end": 141.88
+        },
+        {
+          "sentences": [
+            {
+              "text": "you feel you're you got it right, then you leave it for me.",
+              "start": 141.69,
+              "end": 145.13
+            }
+          ],
+          "channel": 1,
+          "num_words": 13,
+          "start": 141.69,
+          "end": 145.13
+        },
+        {
+          "sentences": [
+            {
+              "text": "Okay.",
+              "start": 144.68,
+              "end": 145.23999
+            },
+            {
+              "text": "I understand.",
+              "start": 145.23999,
+              "end": 146.04
+            }
+          ],
+          "channel": 0,
+          "num_words": 3,
+          "start": 144.68,
+          "end": 146.04
+        },
+        {
+          "sentences": [
+            {
+              "text": "Yes.",
+              "start": 145.53,
+              "end": 145.93001
+            },
+            {
+              "text": "Then",
+              "start": 145.93001,
+              "end": 146.17
+            }
+          ],
+          "channel": 1,
+          "num_words": 2,
+          "start": 145.53,
+          "end": 146.17
+        },
+        {
+          "sentences": [
+            {
+              "text": "I",
+              "start": 146.04,
+              "end": 146.2
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 146.04,
+          "end": 146.2
+        },
+        {
+          "sentences": [
+            {
+              "text": "wait",
+              "start": 146.17,
+              "end": 146.49
+            }
+          ],
+          "channel": 1,
+          "num_words": 1,
+          "start": 146.17,
+          "end": 146.49
+        },
+        {
+          "sentences": [
+            {
+              "text": "under",
+              "start": 146.2,
+              "end": 146.44
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 146.2,
+          "end": 146.44
+        },
+        {
+          "sentences": [
+            {
+              "text": "for my reply.",
+              "start": 146.49,
+              "end": 147.37
+            },
+            {
+              "text": "And just just there's no limit.",
+              "start": 147.37,
+              "end": 150.09
+            },
+            {
+              "text": "You can send as much",
+              "start": 150.09,
+              "end": 151.05
+            }
+          ],
+          "channel": 1,
+          "num_words": 14,
+          "start": 146.49,
+          "end": 151.05
+        },
+        {
+          "sentences": [
+            {
+              "text": "Okay.",
+              "start": 150.92499,
+              "end": 151.48499
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 150.92499,
+          "end": 151.48499
+        },
+        {
+          "sentences": [
+            {
+              "text": "as possible.",
+              "start": 151.05,
+              "end": 151.45
+            },
+            {
+              "text": "I",
+              "start": 151.45,
+              "end": 151.61
+            }
+          ],
+          "channel": 1,
+          "num_words": 3,
+          "start": 151.05,
+          "end": 151.61
+        },
+        {
+          "sentences": [
+            {
+              "text": "I",
+              "start": 151.48499,
+              "end": 151.805
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 151.48499,
+          "end": 151.805
+        },
+        {
+          "sentences": [
+            {
+              "text": "want to",
+              "start": 151.61,
+              "end": 151.85
+            }
+          ],
+          "channel": 1,
+          "num_words": 2,
+          "start": 151.61,
+          "end": 151.85
+        },
+        {
+          "sentences": [
+            {
+              "text": "understand.",
+              "start": 151.805,
+              "end": 152.605
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 151.805,
+          "end": 152.605
+        },
+        {
+          "sentences": [
+            {
+              "text": "listen.",
+              "start": 151.85,
+              "end": 152.49
+            },
+            {
+              "text": "I want to be happy.",
+              "start": 152.49,
+              "end": 153.61
+            },
+            {
+              "text": "I want to be happy.",
+              "start": 153.61,
+              "end": 154.33
+            },
+            {
+              "text": "It's being effective in your communication.",
+              "start": 155.115,
+              "end": 157.91501
+            }
+          ],
+          "channel": 1,
+          "num_words": 17,
+          "start": 151.85,
+          "end": 157.91501
+        },
+        {
+          "sentences": [
+            {
+              "text": "Mhmm.",
+              "start": 158.045,
+              "end": 158.44499
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 158.045,
+          "end": 158.44499
+        },
+        {
+          "sentences": [
+            {
+              "text": "Okay?",
+              "start": 158.155,
+              "end": 158.555
+            }
+          ],
+          "channel": 1,
+          "num_words": 1,
+          "start": 158.155,
+          "end": 158.555
+        },
+        {
+          "sentences": [
+            {
+              "text": "Yeah.",
+              "start": 158.44499,
+              "end": 158.84499
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 158.44499,
+          "end": 158.84499
+        },
+        {
+          "sentences": [
+            {
+              "text": "So that",
+              "start": 158.555,
+              "end": 158.875
+            }
+          ],
+          "channel": 1,
+          "num_words": 2,
+          "start": 158.555,
+          "end": 158.875
+        },
+        {
+          "sentences": [
+            {
+              "text": "Yeah.",
+              "start": 158.84499,
+              "end": 159.08499
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 158.84499,
+          "end": 159.08499
+        },
+        {
+          "sentences": [
+            {
+              "text": "when you speak amongst anyone, I want them to feel that presence, that confidence.",
+              "start": 158.875,
+              "end": 163.43501
+            },
+            {
+              "text": "Because when you when you take your time, that is no rush.",
+              "start": 163.595,
+              "end": 166.955
+            },
+            {
+              "text": "That is power.",
+              "start": 166.955,
+              "end": 167.515
+            },
+            {
+              "text": "That is confidence.",
+              "start": 167.515,
+              "end": 168.635
+            },
+            {
+              "text": "And that's",
+              "start": 168.635,
+              "end": 168.955
+            }
+          ],
+          "channel": 1,
+          "num_words": 34,
+          "start": 158.875,
+          "end": 168.955
+        },
+        {
+          "sentences": [
+            {
+              "text": "Mhmm.",
+              "start": 168.85,
+              "end": 169.57
+            }
+          ],
+          "channel": 0,
+          "num_words": 1,
+          "start": 168.85,
+          "end": 169.57
+        },
+        {
+          "sentences": [
+            {
+              "text": "what I wanna see more in you.",
+              "start": 168.955,
+              "end": 170.315
+            }
+          ],
+          "channel": 1,
+          "num_words": 7,
+          "start": 168.955,
+          "end": 170.315
+        },
+        {
+          "sentences": [
+            {
+              "text": "Yeah.",
+              "start": 171.41,
+              "end": 171.73001
+            },
+            {
+              "text": "Yeah.",
+              "start": 171.73001,
+              "end": 172.05
+            },
+            {
+              "text": "Yeah.",
+              "start": 172.05,
+              "end": 172.21
+            },
+            {
+              "text": "I understand.",
+              "start": 172.21,
+              "end": 173.25
+            },
+            {
+              "text": "So thank you for for our class, and we",
+              "start": 173.25,
+              "end": 177.57
+            }
+          ],
+          "channel": 0,
+          "num_words": 14,
+          "start": 171.41,
+          "end": 177.57
+        },
+        {
+          "sentences": [
+            {
+              "text": "Yes.",
+              "start": 176.48999,
+              "end": 177.21
+            }
+          ],
+          "channel": 1,
+          "num_words": 1,
+          "start": 176.48999,
+          "end": 177.21
+        },
+        {
+          "sentences": [
+            {
+              "text": "will see we will see next week.",
+              "start": 177.57,
+              "end": 180.53
+            },
+            {
+              "text": "Yeah?",
+              "start": 180.53,
+              "end": 180.77
+            }
+          ],
+          "channel": 0,
+          "num_words": 8,
+          "start": 177.57,
+          "end": 180.77
+        },
+        {
+          "sentences": [
+            {
+              "text": "Alright.",
+              "start": 180.81,
+              "end": 181.53
+            },
+            {
+              "text": "Bye.",
+              "start": 181.53,
+              "end": 182.33
+            }
+          ],
+          "channel": 1,
+          "num_words": 2,
+          "start": 180.81,
+          "end": 182.33
+        },
+        {
+          "sentences": [
+            {
+              "text": "Bye bye.",
+              "start": 183.06232,
+              "end": 183.78232
+            },
+            {
+              "text": "Thank you.",
+              "start": 183.78232,
+              "end": 184.10231
+            }
+          ],
+          "channel": 0,
+          "num_words": 4,
+          "start": 183.06232,
+          "end": 184.10231
+        },
+        {
+          "sentences": [
+            {
+              "text": "Yeah.",
+              "start": 184.25,
+              "end": 184.65
+            }
+          ],
+          "channel": 1,
+          "num_words": 1,
+          "start": 184.25,
+          "end": 184.65
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,3662 @@
+{
+  "results": {
+    "channels": [
+      {
+        "alternatives": [
+          {
+            "words": [
+              {
+                "end": 0.64,
+                "word": "ryan",
+                "start": 0.24,
+                "confidence": 0.6821289,
+                "punctuated_word": "Ryan",
+                "word_id": 1502
+              },
+              {
+                "end": 1.04,
+                "word": "doesn't",
+                "start": 0.64,
+                "confidence": 0.9980469,
+                "punctuated_word": "doesn't",
+                "word_id": 1503
+              },
+              {
+                "end": 1.54,
+                "word": "have",
+                "start": 1.04,
+                "confidence": 0.9941406,
+                "punctuated_word": "have",
+                "word_id": 1504
+              },
+              {
+                "end": 2.34,
+                "word": "always",
+                "start": 1.8399999,
+                "confidence": 0.9404297,
+                "punctuated_word": "always",
+                "word_id": 1505
+              },
+              {
+                "end": 5.3599997,
+                "word": "doesn't",
+                "start": 4.96,
+                "confidence": 0.98999023,
+                "punctuated_word": "doesn't",
+                "word_id": 1506
+              },
+              {
+                "end": 5.7599998,
+                "word": "always",
+                "start": 5.3599997,
+                "confidence": 1,
+                "punctuated_word": "always",
+                "word_id": 1507
+              },
+              {
+                "end": 6.08,
+                "word": "have",
+                "start": 5.7599998,
+                "confidence": 0.9790039,
+                "punctuated_word": "have.",
+                "word_id": 1508
+              },
+              {
+                "end": 6.3999996,
+                "word": "right",
+                "start": 6.08,
+                "confidence": 0.953125,
+                "punctuated_word": "Right?",
+                "word_id": 1509
+              },
+              {
+                "end": 6.7999997,
+                "word": "doesn't",
+                "start": 6.3999996,
+                "confidence": 0.97631836,
+                "punctuated_word": "Doesn't",
+                "word_id": 1510
+              },
+              {
+                "end": 7.2799997,
+                "word": "always",
+                "start": 6.7999997,
+                "confidence": 1,
+                "punctuated_word": "always",
+                "word_id": 1511
+              },
+              {
+                "end": 7.6,
+                "word": "have",
+                "start": 7.2799997,
+                "confidence": 0.99316406,
+                "punctuated_word": "have.",
+                "word_id": 1512
+              },
+              {
+                "end": 8.1,
+                "word": "okay",
+                "start": 7.6,
+                "confidence": 0.98950195,
+                "punctuated_word": "Okay.",
+                "word_id": 1513
+              },
+              {
+                "end": 11.985,
+                "word": "mhmm",
+                "start": 11.745,
+                "confidence": 0.986084,
+                "punctuated_word": "Mhmm.",
+                "word_id": 1514
+              },
+              {
+                "end": 12.485,
+                "word": "okay",
+                "start": 11.985,
+                "confidence": 0.9995117,
+                "punctuated_word": "Okay.",
+                "word_id": 1515
+              },
+              {
+                "end": 13.184999,
+                "word": "ryan",
+                "start": 12.865,
+                "confidence": 0.91259766,
+                "punctuated_word": "Ryan",
+                "word_id": 1516
+              },
+              {
+                "end": 13.504999,
+                "word": "doesn't",
+                "start": 13.184999,
+                "confidence": 0.9995117,
+                "punctuated_word": "doesn't",
+                "word_id": 1517
+              },
+              {
+                "end": 13.985,
+                "word": "always",
+                "start": 13.504999,
+                "confidence": 1,
+                "punctuated_word": "always",
+                "word_id": 1518
+              },
+              {
+                "end": 14.304999,
+                "word": "have",
+                "start": 13.985,
+                "confidence": 1,
+                "punctuated_word": "have",
+                "word_id": 1519
+              },
+              {
+                "end": 14.804999,
+                "word": "breakfast",
+                "start": 14.304999,
+                "confidence": 0.9838867,
+                "punctuated_word": "breakfast.",
+                "word_id": 1520
+              },
+              {
+                "end": 17.445,
+                "word": "sometimes",
+                "start": 16.945,
+                "confidence": 0.9694824,
+                "punctuated_word": "Sometimes,",
+                "word_id": 1521
+              },
+              {
+                "end": 18.544998,
+                "word": "he",
+                "start": 18.145,
+                "confidence": 0.99902344,
+                "punctuated_word": "he",
+                "word_id": 1522
+              },
+              {
+                "end": 18.945,
+                "word": "only",
+                "start": 18.544998,
+                "confidence": 1,
+                "punctuated_word": "only",
+                "word_id": 1523
+              },
+              {
+                "end": 19.425,
+                "word": "drinks",
+                "start": 18.945,
+                "confidence": 1,
+                "punctuated_word": "drinks",
+                "word_id": 1524
+              },
+              {
+                "end": 19.88,
+                "word": "coffee",
+                "start": 19.425,
+                "confidence": 0.81103516,
+                "punctuated_word": "coffee,",
+                "word_id": 1525
+              },
+              {
+                "end": 22.439999,
+                "word": "which",
+                "start": 22.199999,
+                "confidence": 0.66064453,
+                "punctuated_word": "Which",
+                "word_id": 1526
+              },
+              {
+                "end": 22.939999,
+                "word": "had",
+                "start": 22.439999,
+                "confidence": 0.41064453,
+                "punctuated_word": "had",
+                "word_id": 1527
+              },
+              {
+                "end": 24.22,
+                "word": "lisa",
+                "start": 23.72,
+                "confidence": 0.7109375,
+                "punctuated_word": "Lisa",
+                "word_id": 1528
+              },
+              {
+                "end": 25.099998,
+                "word": "sometimes",
+                "start": 24.599998,
+                "confidence": 0.9614258,
+                "punctuated_word": "sometimes",
+                "word_id": 1529
+              },
+              {
+                "end": 26.06,
+                "word": "goes",
+                "start": 25.56,
+                "confidence": 0.9980469,
+                "punctuated_word": "goes",
+                "word_id": 1530
+              },
+              {
+                "end": 26.599998,
+                "word": "out",
+                "start": 26.279999,
+                "confidence": 1,
+                "punctuated_word": "out",
+                "word_id": 1531
+              },
+              {
+                "end": 26.919998,
+                "word": "with",
+                "start": 26.599998,
+                "confidence": 1,
+                "punctuated_word": "with",
+                "word_id": 1532
+              },
+              {
+                "end": 27.419998,
+                "word": "friends",
+                "start": 26.919998,
+                "confidence": 0.9248047,
+                "punctuated_word": "friends.",
+                "word_id": 1533
+              },
+              {
+                "end": 27.72,
+                "word": "she",
+                "start": 27.48,
+                "confidence": 0.99902344,
+                "punctuated_word": "She",
+                "word_id": 1534
+              },
+              {
+                "end": 28.119999,
+                "word": "never",
+                "start": 27.72,
+                "confidence": 1,
+                "punctuated_word": "never",
+                "word_id": 1535
+              },
+              {
+                "end": 28.439999,
+                "word": "goes",
+                "start": 28.119999,
+                "confidence": 0.99902344,
+                "punctuated_word": "goes",
+                "word_id": 1536
+              },
+              {
+                "end": 28.84,
+                "word": "out",
+                "start": 28.439999,
+                "confidence": 1,
+                "punctuated_word": "out",
+                "word_id": 1537
+              },
+              {
+                "end": 29.34,
+                "word": "alone",
+                "start": 28.84,
+                "confidence": 0.9692383,
+                "punctuated_word": "alone.",
+                "word_id": 1538
+              },
+              {
+                "end": 30.535,
+                "word": "lisa",
+                "start": 30.035,
+                "confidence": 0.9326172,
+                "punctuated_word": "Lisa",
+                "word_id": 1539
+              },
+              {
+                "end": 32.375,
+                "word": "lisa",
+                "start": 31.875,
+                "confidence": 0.71875,
+                "punctuated_word": "Lisa?",
+                "word_id": 1540
+              },
+              {
+                "end": 35.415,
+                "word": "okay",
+                "start": 34.915,
+                "confidence": 0.82250977,
+                "punctuated_word": "Okay.",
+                "word_id": 1541
+              },
+              {
+                "end": 37.575,
+                "word": "i",
+                "start": 37.075,
+                "confidence": 0.82470703,
+                "punctuated_word": "I",
+                "word_id": 1542
+              },
+              {
+                "end": 40.449997,
+                "word": "i",
+                "start": 40.289997,
+                "confidence": 0.9350586,
+                "punctuated_word": "I",
+                "word_id": 1543
+              },
+              {
+                "end": 40.949997,
+                "word": "always",
+                "start": 40.449997,
+                "confidence": 0.984375,
+                "punctuated_word": "always",
+                "word_id": 1544
+              },
+              {
+                "end": 41.41,
+                "word": "have",
+                "start": 41.09,
+                "confidence": 1,
+                "punctuated_word": "have",
+                "word_id": 1545
+              },
+              {
+                "end": 41.73,
+                "word": "lunch",
+                "start": 41.41,
+                "confidence": 1,
+                "punctuated_word": "lunch",
+                "word_id": 1546
+              },
+              {
+                "end": 41.969997,
+                "word": "in",
+                "start": 41.73,
+                "confidence": 1,
+                "punctuated_word": "in",
+                "word_id": 1547
+              },
+              {
+                "end": 42.21,
+                "word": "the",
+                "start": 41.969997,
+                "confidence": 0.9614258,
+                "punctuated_word": "the",
+                "word_id": 1548
+              },
+              {
+                "end": 42.69,
+                "word": "office",
+                "start": 42.21,
+                "confidence": 0.99194336,
+                "punctuated_word": "office.",
+                "word_id": 1549
+              },
+              {
+                "end": 42.85,
+                "word": "i",
+                "start": 42.69,
+                "confidence": 1,
+                "punctuated_word": "I",
+                "word_id": 1550
+              },
+              {
+                "end": 43.25,
+                "word": "never",
+                "start": 42.85,
+                "confidence": 0.9980469,
+                "punctuated_word": "never",
+                "word_id": 1551
+              },
+              {
+                "end": 43.57,
+                "word": "eat",
+                "start": 43.25,
+                "confidence": 0.9951172,
+                "punctuated_word": "eat",
+                "word_id": 1552
+              },
+              {
+                "end": 43.73,
+                "word": "at",
+                "start": 43.57,
+                "confidence": 0.9980469,
+                "punctuated_word": "at",
+                "word_id": 1553
+              },
+              {
+                "end": 44.23,
+                "word": "home",
+                "start": 43.73,
+                "confidence": 0.99365234,
+                "punctuated_word": "home.",
+                "word_id": 1554
+              },
+              {
+                "end": 92.439995,
+                "word": "do",
+                "start": 92.35999,
+                "confidence": 0.75439453,
+                "punctuated_word": "Do",
+                "word_id": 1555
+              },
+              {
+                "end": 92.6,
+                "word": "you",
+                "start": 92.439995,
+                "confidence": 1,
+                "punctuated_word": "you",
+                "word_id": 1556
+              },
+              {
+                "end": 92.759995,
+                "word": "know",
+                "start": 92.6,
+                "confidence": 1,
+                "punctuated_word": "know",
+                "word_id": 1557
+              },
+              {
+                "end": 93,
+                "word": "my",
+                "start": 92.759995,
+                "confidence": 0.9604492,
+                "punctuated_word": "my",
+                "word_id": 1558
+              },
+              {
+                "end": 93.5,
+                "word": "friends",
+                "start": 93,
+                "confidence": 0.6064453,
+                "punctuated_word": "friends",
+                "word_id": 1559
+              },
+              {
+                "end": 94.119995,
+                "word": "do",
+                "start": 94.03999,
+                "confidence": 0.48168945,
+                "punctuated_word": "do",
+                "word_id": 1560
+              },
+              {
+                "end": 94.2,
+                "word": "you",
+                "start": 94.119995,
+                "confidence": 0.9921875,
+                "punctuated_word": "you",
+                "word_id": 1561
+              },
+              {
+                "end": 94.52,
+                "word": "know",
+                "start": 94.2,
+                "confidence": 0.99902344,
+                "punctuated_word": "know",
+                "word_id": 1562
+              },
+              {
+                "end": 94.759995,
+                "word": "my",
+                "start": 94.52,
+                "confidence": 0.9941406,
+                "punctuated_word": "my",
+                "word_id": 1563
+              },
+              {
+                "end": 95.259995,
+                "word": "friend",
+                "start": 94.759995,
+                "confidence": 0.6541748,
+                "punctuated_word": "friend,",
+                "word_id": 1564
+              },
+              {
+                "end": 95.82,
+                "word": "donna",
+                "start": 95.32,
+                "confidence": 0.92871094,
+                "punctuated_word": "Donna?",
+                "word_id": 1565
+              },
+              {
+                "end": 96.35999,
+                "word": "no",
+                "start": 95.88,
+                "confidence": 0.9916992,
+                "punctuated_word": "No.",
+                "word_id": 1566
+              },
+              {
+                "end": 96.85999,
+                "word": "i",
+                "start": 96.35999,
+                "confidence": 0.9560547,
+                "punctuated_word": "I",
+                "word_id": 1567
+              },
+              {
+                "end": 97.925,
+                "word": "i",
+                "start": 97.845,
+                "confidence": 1,
+                "punctuated_word": "I",
+                "word_id": 1568
+              },
+              {
+                "end": 98.425,
+                "word": "don't",
+                "start": 97.925,
+                "confidence": 0.9983724,
+                "punctuated_word": "don't.",
+                "word_id": 1569
+              },
+              {
+                "end": 104.49,
+                "word": "does",
+                "start": 104.085,
+                "confidence": 0.54125977,
+                "punctuated_word": "Does,",
+                "word_id": 1570
+              },
+              {
+                "end": 104.99,
+                "word": "does",
+                "start": 104.49,
+                "confidence": 0.9921875,
+                "punctuated_word": "does",
+                "word_id": 1571
+              },
+              {
+                "end": 105.77,
+                "word": "donna",
+                "start": 105.369995,
+                "confidence": 0.83740234,
+                "punctuated_word": "Donna",
+                "word_id": 1572
+              },
+              {
+                "end": 106.09,
+                "word": "like",
+                "start": 105.77,
+                "confidence": 0.98535156,
+                "punctuated_word": "like",
+                "word_id": 1573
+              },
+              {
+                "end": 106.59,
+                "word": "watching",
+                "start": 106.09,
+                "confidence": 0.99902344,
+                "punctuated_word": "watching",
+                "word_id": 1574
+              },
+              {
+                "end": 107.229996,
+                "word": "movies",
+                "start": 106.729996,
+                "confidence": 0.96899414,
+                "punctuated_word": "movies?",
+                "word_id": 1575
+              },
+              {
+                "end": 108.49,
+                "word": "yes",
+                "start": 108.09,
+                "confidence": 0.86938477,
+                "punctuated_word": "Yes.",
+                "word_id": 1576
+              },
+              {
+                "end": 108.99,
+                "word": "she",
+                "start": 108.49,
+                "confidence": 0.9941406,
+                "punctuated_word": "She",
+                "word_id": 1577
+              },
+              {
+                "end": 109.29,
+                "word": "she",
+                "start": 109.049995,
+                "confidence": 0.99609375,
+                "punctuated_word": "she",
+                "word_id": 1578
+              },
+              {
+                "end": 109.79,
+                "word": "does",
+                "start": 109.29,
+                "confidence": 0.99902344,
+                "punctuated_word": "does.",
+                "word_id": 1579
+              },
+              {
+                "end": 113.615,
+                "word": "do",
+                "start": 113.455,
+                "confidence": 0.75341797,
+                "punctuated_word": "Do",
+                "word_id": 1580
+              },
+              {
+                "end": 113.775,
+                "word": "the",
+                "start": 113.615,
+                "confidence": 0.9921875,
+                "punctuated_word": "the",
+                "word_id": 1581
+              },
+              {
+                "end": 114.275,
+                "word": "children",
+                "start": 113.775,
+                "confidence": 1,
+                "punctuated_word": "children",
+                "word_id": 1582
+              },
+              {
+                "end": 115.055,
+                "word": "enjoy",
+                "start": 114.575,
+                "confidence": 0.98535156,
+                "punctuated_word": "enjoy",
+                "word_id": 1583
+              },
+              {
+                "end": 115.375,
+                "word": "their",
+                "start": 115.055,
+                "confidence": 0.81591797,
+                "punctuated_word": "their",
+                "word_id": 1584
+              },
+              {
+                "end": 115.875,
+                "word": "food",
+                "start": 115.375,
+                "confidence": 0.9765625,
+                "punctuated_word": "food?",
+                "word_id": 1585
+              },
+              {
+                "end": 118.115,
+                "word": "swetta",
+                "start": 117.615,
+                "confidence": 0.4441732,
+                "punctuated_word": "Swetta,",
+                "word_id": 1586
+              },
+              {
+                "end": 119.955,
+                "word": "swetta",
+                "start": 119.455,
+                "confidence": 0.9914551,
+                "punctuated_word": "Swetta",
+                "word_id": 1587
+              },
+              {
+                "end": 120.335,
+                "word": "does",
+                "start": 120.015,
+                "confidence": 0.9104004,
+                "punctuated_word": "does,",
+                "word_id": 1588
+              },
+              {
+                "end": 120.655,
+                "word": "but",
+                "start": 120.335,
+                "confidence": 0.99902344,
+                "punctuated_word": "but",
+                "word_id": 1589
+              },
+              {
+                "end": 121.155,
+                "word": "hillary",
+                "start": 120.655,
+                "confidence": 0.7836914,
+                "punctuated_word": "Hillary",
+                "word_id": 1590
+              },
+              {
+                "end": 121.875,
+                "word": "doesn't",
+                "start": 121.375,
+                "confidence": 0.929362,
+                "punctuated_word": "doesn't.",
+                "word_id": 1591
+              },
+              {
+                "end": 125.65,
+                "word": "do",
+                "start": 125.41,
+                "confidence": 0.9970703,
+                "punctuated_word": "Do",
+                "word_id": 1592
+              },
+              {
+                "end": 125.89,
+                "word": "you",
+                "start": 125.65,
+                "confidence": 1,
+                "punctuated_word": "you",
+                "word_id": 1593
+              },
+              {
+                "end": 126.130005,
+                "word": "do",
+                "start": 125.89,
+                "confidence": 0.9941406,
+                "punctuated_word": "do",
+                "word_id": 1594
+              },
+              {
+                "end": 126.61,
+                "word": "you",
+                "start": 126.130005,
+                "confidence": 1,
+                "punctuated_word": "you",
+                "word_id": 1595
+              },
+              {
+                "end": 127.11,
+                "word": "do",
+                "start": 126.61,
+                "confidence": 0.9404297,
+                "punctuated_word": "do",
+                "word_id": 1596
+              },
+              {
+                "end": 127.25,
+                "word": "you",
+                "start": 127.17,
+                "confidence": 0.97509766,
+                "punctuated_word": "you",
+                "word_id": 1597
+              },
+              {
+                "end": 127.73,
+                "word": "have",
+                "start": 127.25,
+                "confidence": 0.76123047,
+                "punctuated_word": "have,",
+                "word_id": 1598
+              },
+              {
+                "end": 128.29001,
+                "word": "do",
+                "start": 128.05,
+                "confidence": 0.98828125,
+                "punctuated_word": "do",
+                "word_id": 1599
+              },
+              {
+                "end": 128.45,
+                "word": "you",
+                "start": 128.29001,
+                "confidence": 0.99609375,
+                "punctuated_word": "you",
+                "word_id": 1600
+              },
+              {
+                "end": 128.93001,
+                "word": "have",
+                "start": 128.45,
+                "confidence": 0.99902344,
+                "punctuated_word": "have",
+                "word_id": 1601
+              },
+              {
+                "end": 129.43001,
+                "word": "english",
+                "start": 128.93001,
+                "confidence": 0.9980469,
+                "punctuated_word": "English",
+                "word_id": 1602
+              },
+              {
+                "end": 129.81,
+                "word": "class",
+                "start": 129.49,
+                "confidence": 0.99902344,
+                "punctuated_word": "class",
+                "word_id": 1603
+              },
+              {
+                "end": 130.31,
+                "word": "today",
+                "start": 129.81,
+                "confidence": 0.99902344,
+                "punctuated_word": "today?",
+                "word_id": 1604
+              },
+              {
+                "end": 131.27501,
+                "word": "no",
+                "start": 130.77501,
+                "confidence": 0.96875,
+                "punctuated_word": "No.",
+                "word_id": 1605
+              },
+              {
+                "end": 132.05501,
+                "word": "we",
+                "start": 131.735,
+                "confidence": 0.9921875,
+                "punctuated_word": "We",
+                "word_id": 1606
+              },
+              {
+                "end": 132.295,
+                "word": "we",
+                "start": 132.05501,
+                "confidence": 0.9760742,
+                "punctuated_word": "we",
+                "word_id": 1607
+              },
+              {
+                "end": 132.795,
+                "word": "don't",
+                "start": 132.295,
+                "confidence": 0.99039716,
+                "punctuated_word": "don't.",
+                "word_id": 1608
+              },
+              {
+                "end": 139.42,
+                "word": "does",
+                "start": 138.92,
+                "confidence": 0.36328125,
+                "punctuated_word": "Does",
+                "word_id": 1609
+              },
+              {
+                "end": 140.73999,
+                "word": "does",
+                "start": 140.23999,
+                "confidence": 0.7385254,
+                "punctuated_word": "does,",
+                "word_id": 1610
+              },
+              {
+                "end": 142.2,
+                "word": "does",
+                "start": 142.04001,
+                "confidence": 0.99609375,
+                "punctuated_word": "does",
+                "word_id": 1611
+              },
+              {
+                "end": 142.44,
+                "word": "he",
+                "start": 142.2,
+                "confidence": 0.99316406,
+                "punctuated_word": "he",
+                "word_id": 1612
+              },
+              {
+                "end": 142.94,
+                "word": "go",
+                "start": 142.44,
+                "confidence": 0.99121094,
+                "punctuated_word": "go",
+                "word_id": 1613
+              },
+              {
+                "end": 143.24,
+                "word": "to",
+                "start": 143.08,
+                "confidence": 0.98535156,
+                "punctuated_word": "to",
+                "word_id": 1614
+              },
+              {
+                "end": 143.74,
+                "word": "football",
+                "start": 143.24,
+                "confidence": 0.9741211,
+                "punctuated_word": "football",
+                "word_id": 1615
+              },
+              {
+                "end": 145.565,
+                "word": "does",
+                "start": 145.24501,
+                "confidence": 0.99316406,
+                "punctuated_word": "does",
+                "word_id": 1616
+              },
+              {
+                "end": 145.88501,
+                "word": "he",
+                "start": 145.565,
+                "confidence": 0.99902344,
+                "punctuated_word": "he",
+                "word_id": 1617
+              },
+              {
+                "end": 146.125,
+                "word": "go",
+                "start": 145.88501,
+                "confidence": 0.99902344,
+                "punctuated_word": "go",
+                "word_id": 1618
+              },
+              {
+                "end": 146.285,
+                "word": "to",
+                "start": 146.125,
+                "confidence": 0.9951172,
+                "punctuated_word": "to",
+                "word_id": 1619
+              },
+              {
+                "end": 146.68501,
+                "word": "football",
+                "start": 146.285,
+                "confidence": 0.99609375,
+                "punctuated_word": "football",
+                "word_id": 1620
+              },
+              {
+                "end": 147.085,
+                "word": "practice",
+                "start": 146.68501,
+                "confidence": 1,
+                "punctuated_word": "practice",
+                "word_id": 1621
+              },
+              {
+                "end": 147.40501,
+                "word": "every",
+                "start": 147.085,
+                "confidence": 0.7763672,
+                "punctuated_word": "every",
+                "word_id": 1622
+              },
+              {
+                "end": 147.90501,
+                "word": "day",
+                "start": 147.40501,
+                "confidence": 0.99658203,
+                "punctuated_word": "day?",
+                "word_id": 1623
+              },
+              {
+                "end": 148.445,
+                "word": "no",
+                "start": 148.125,
+                "confidence": 0.9848633,
+                "punctuated_word": "No.",
+                "word_id": 1624
+              },
+              {
+                "end": 148.945,
+                "word": "he",
+                "start": 148.445,
+                "confidence": 0.9970703,
+                "punctuated_word": "He",
+                "word_id": 1625
+              },
+              {
+                "end": 149.74501,
+                "word": "doesn't",
+                "start": 149.24501,
+                "confidence": 0.89908856,
+                "punctuated_word": "doesn't.",
+                "word_id": 1626
+              },
+              {
+                "end": 150.68501,
+                "word": "the",
+                "start": 150.52501,
+                "confidence": 0.30810547,
+                "punctuated_word": "The",
+                "word_id": 1627
+              },
+              {
+                "end": 151.43501,
+                "word": "doesn't",
+                "start": 150.93501,
+                "confidence": 0.9243164,
+                "punctuated_word": "doesn't.",
+                "word_id": 1628
+              },
+              {
+                "end": 155.93999,
+                "word": "dot",
+                "start": 155.43999,
+                "confidence": 0.7138672,
+                "punctuated_word": "Dot",
+                "word_id": 1629
+              },
+              {
+                "end": 160.18,
+                "word": "dot",
+                "start": 159.68,
+                "confidence": 0.47680664,
+                "punctuated_word": "dot",
+                "word_id": 1630
+              },
+              {
+                "end": 161.29999,
+                "word": "dot",
+                "start": 160.79999,
+                "confidence": 0.48657227,
+                "punctuated_word": "dot",
+                "word_id": 1631
+              },
+              {
+                "end": 162.5,
+                "word": "dot",
+                "start": 162,
+                "confidence": 0.44970703,
+                "punctuated_word": "dot.",
+                "word_id": 1632
+              },
+              {
+                "end": 189.15,
+                "word": "what's",
+                "start": 188.65,
+                "confidence": 0.7910156,
+                "punctuated_word": "What's,",
+                "word_id": 1633
+              },
+              {
+                "end": 190.25,
+                "word": "the",
+                "start": 190.01,
+                "confidence": 0.9980469,
+                "punctuated_word": "the",
+                "word_id": 1634
+              },
+              {
+                "end": 190.73,
+                "word": "weather",
+                "start": 190.25,
+                "confidence": 0.9873047,
+                "punctuated_word": "weather",
+                "word_id": 1635
+              },
+              {
+                "end": 190.97,
+                "word": "like",
+                "start": 190.73,
+                "confidence": 0.8798828,
+                "punctuated_word": "like",
+                "word_id": 1636
+              },
+              {
+                "end": 191.47,
+                "word": "today",
+                "start": 190.97,
+                "confidence": 0.99365234,
+                "punctuated_word": "today?",
+                "word_id": 1637
+              },
+              {
+                "end": 192.89,
+                "word": "it's",
+                "start": 192.41,
+                "confidence": 0.9941406,
+                "punctuated_word": "It's",
+                "word_id": 1638
+              },
+              {
+                "end": 193.39,
+                "word": "training",
+                "start": 192.89,
+                "confidence": 0.8562012,
+                "punctuated_word": "training.",
+                "word_id": 1639
+              },
+              {
+                "end": 218.7,
+                "word": "okay",
+                "start": 218.2,
+                "confidence": 0.97387695,
+                "punctuated_word": "Okay.",
+                "word_id": 1640
+              },
+              {
+                "end": 224.04001,
+                "word": "it's",
+                "start": 223.72,
+                "confidence": 0.9770508,
+                "punctuated_word": "It's",
+                "word_id": 1641
+              },
+              {
+                "end": 224.52,
+                "word": "raining",
+                "start": 224.04001,
+                "confidence": 0.86987305,
+                "punctuated_word": "raining.",
+                "word_id": 1642
+              },
+              {
+                "end": 224.68001,
+                "word": "are",
+                "start": 224.52,
+                "confidence": 0.9448242,
+                "punctuated_word": "Are",
+                "word_id": 1643
+              },
+              {
+                "end": 224.76001,
+                "word": "you",
+                "start": 224.68001,
+                "confidence": 0.99609375,
+                "punctuated_word": "you",
+                "word_id": 1644
+              },
+              {
+                "end": 225.26001,
+                "word": "angry",
+                "start": 224.76001,
+                "confidence": 0.7927246,
+                "punctuated_word": "angry?",
+                "word_id": 1645
+              },
+              {
+                "end": 227.91501,
+                "word": "it's",
+                "start": 227.41501,
+                "confidence": 0.9807129,
+                "punctuated_word": "It's",
+                "word_id": 1646
+              },
+              {
+                "end": 228.615,
+                "word": "dinner",
+                "start": 228.29501,
+                "confidence": 0.98095703,
+                "punctuated_word": "dinner",
+                "word_id": 1647
+              },
+              {
+                "end": 229.095,
+                "word": "time",
+                "start": 228.615,
+                "confidence": 0.99902344,
+                "punctuated_word": "time.",
+                "word_id": 1648
+              },
+              {
+                "end": 229.255,
+                "word": "are",
+                "start": 229.095,
+                "confidence": 0.99902344,
+                "punctuated_word": "Are",
+                "word_id": 1649
+              },
+              {
+                "end": 229.41501,
+                "word": "you",
+                "start": 229.255,
+                "confidence": 1,
+                "punctuated_word": "you",
+                "word_id": 1650
+              },
+              {
+                "end": 229.91501,
+                "word": "hungry",
+                "start": 229.41501,
+                "confidence": 0.9501953,
+                "punctuated_word": "hungry?",
+                "word_id": 1651
+              },
+              {
+                "end": 232.77501,
+                "word": "let's",
+                "start": 232.455,
+                "confidence": 0.86035156,
+                "punctuated_word": "Let's",
+                "word_id": 1652
+              },
+              {
+                "end": 233.015,
+                "word": "go",
+                "start": 232.77501,
+                "confidence": 1,
+                "punctuated_word": "go",
+                "word_id": 1653
+              },
+              {
+                "end": 233.255,
+                "word": "for",
+                "start": 233.015,
+                "confidence": 1,
+                "punctuated_word": "for",
+                "word_id": 1654
+              },
+              {
+                "end": 233.41501,
+                "word": "a",
+                "start": 233.255,
+                "confidence": 0.9980469,
+                "punctuated_word": "a",
+                "word_id": 1655
+              },
+              {
+                "end": 233.91501,
+                "word": "walk",
+                "start": 233.41501,
+                "confidence": 0.99365234,
+                "punctuated_word": "walk.",
+                "word_id": 1656
+              },
+              {
+                "end": 237.34,
+                "word": "it",
+                "start": 237.02,
+                "confidence": 0.9165039,
+                "punctuated_word": "It",
+                "word_id": 1657
+              },
+              {
+                "end": 237.73999,
+                "word": "isn't",
+                "start": 237.34,
+                "confidence": 0.99853516,
+                "punctuated_word": "isn't",
+                "word_id": 1658
+              },
+              {
+                "end": 238.23999,
+                "word": "late",
+                "start": 237.73999,
+                "confidence": 0.8239746,
+                "punctuated_word": "late.",
+                "word_id": 1659
+              },
+              {
+                "end": 239.66,
+                "word": "let's",
+                "start": 239.42,
+                "confidence": 0.9926758,
+                "punctuated_word": "Let's",
+                "word_id": 1660
+              },
+              {
+                "end": 240.14,
+                "word": "go",
+                "start": 239.66,
+                "confidence": 1,
+                "punctuated_word": "go",
+                "word_id": 1661
+              },
+              {
+                "end": 240.37999,
+                "word": "for",
+                "start": 240.14,
+                "confidence": 1,
+                "punctuated_word": "for",
+                "word_id": 1662
+              },
+              {
+                "end": 240.54,
+                "word": "a",
+                "start": 240.37999,
+                "confidence": 0.99902344,
+                "punctuated_word": "a",
+                "word_id": 1663
+              },
+              {
+                "end": 241.04,
+                "word": "walk",
+                "start": 240.54,
+                "confidence": 0.9980469,
+                "punctuated_word": "walk.",
+                "word_id": 1664
+              },
+              {
+                "end": 241.58,
+                "word": "i",
+                "start": 241.34,
+                "confidence": 0.99902344,
+                "punctuated_word": "I",
+                "word_id": 1665
+              },
+              {
+                "end": 241.9,
+                "word": "can't",
+                "start": 241.58,
+                "confidence": 0.9995117,
+                "punctuated_word": "can't",
+                "word_id": 1666
+              },
+              {
+                "end": 242.3,
+                "word": "wait",
+                "start": 241.9,
+                "confidence": 1,
+                "punctuated_word": "wait",
+                "word_id": 1667
+              },
+              {
+                "end": 242.54,
+                "word": "to",
+                "start": 242.3,
+                "confidence": 1,
+                "punctuated_word": "to",
+                "word_id": 1668
+              },
+              {
+                "end": 242.78,
+                "word": "see",
+                "start": 242.54,
+                "confidence": 1,
+                "punctuated_word": "see",
+                "word_id": 1669
+              },
+              {
+                "end": 243.01999,
+                "word": "the",
+                "start": 242.78,
+                "confidence": 0.99902344,
+                "punctuated_word": "the",
+                "word_id": 1670
+              },
+              {
+                "end": 243.51999,
+                "word": "movie",
+                "start": 243.01999,
+                "confidence": 0.9663086,
+                "punctuated_word": "movie.",
+                "word_id": 1671
+              },
+              {
+                "end": 251.785,
+                "word": "it",
+                "start": 251.285,
+                "confidence": 0.8457031,
+                "punctuated_word": "It",
+                "word_id": 1672
+              },
+              {
+                "end": 252.42,
+                "word": "is",
+                "start": 252.1,
+                "confidence": 0.96435547,
+                "punctuated_word": "is",
+                "word_id": 1673
+              },
+              {
+                "end": 252.66,
+                "word": "a",
+                "start": 252.42,
+                "confidence": 0.6459961,
+                "punctuated_word": "a",
+                "word_id": 1674
+              },
+              {
+                "end": 252.98,
+                "word": "is",
+                "start": 252.82,
+                "confidence": 0.8071289,
+                "punctuated_word": "is",
+                "word_id": 1675
+              },
+              {
+                "end": 253.48,
+                "word": "it",
+                "start": 252.98,
+                "confidence": 0.79541016,
+                "punctuated_word": "it?",
+                "word_id": 1676
+              },
+              {
+                "end": 254.6,
+                "word": "okay",
+                "start": 254.1,
+                "confidence": 0.9916992,
+                "punctuated_word": "Okay.",
+                "word_id": 1677
+              },
+              {
+                "end": 257.86002,
+                "word": "your",
+                "start": 257.62,
+                "confidence": 0.67871094,
+                "punctuated_word": "Your",
+                "word_id": 1678
+              },
+              {
+                "end": 258.36002,
+                "word": "birthday",
+                "start": 257.86002,
+                "confidence": 0.8269043,
+                "punctuated_word": "birthday,",
+                "word_id": 1679
+              },
+              {
+                "end": 259.24,
+                "word": "you",
+                "start": 258.74,
+                "confidence": 0.9970703,
+                "punctuated_word": "you",
+                "word_id": 1680
+              },
+              {
+                "end": 259.7,
+                "word": "can't",
+                "start": 259.38,
+                "confidence": 0.9995117,
+                "punctuated_word": "can't",
+                "word_id": 1681
+              },
+              {
+                "end": 260.1,
+                "word": "eat",
+                "start": 259.7,
+                "confidence": 0.99902344,
+                "punctuated_word": "eat",
+                "word_id": 1682
+              },
+              {
+                "end": 260.42,
+                "word": "cook",
+                "start": 260.1,
+                "confidence": 0.2932129,
+                "punctuated_word": "cook",
+                "word_id": 1683
+              },
+              {
+                "end": 260.92,
+                "word": "today",
+                "start": 260.42,
+                "confidence": 0.91381836,
+                "punctuated_word": "today.",
+                "word_id": 1684
+              },
+              {
+                "end": 263.845,
+                "word": "it's",
+                "start": 263.525,
+                "confidence": 0.892334,
+                "punctuated_word": "It's",
+                "word_id": 1685
+              },
+              {
+                "end": 264.245,
+                "word": "not",
+                "start": 263.845,
+                "confidence": 0.99902344,
+                "punctuated_word": "not",
+                "word_id": 1686
+              },
+              {
+                "end": 264.565,
+                "word": "your",
+                "start": 264.245,
+                "confidence": 0.99609375,
+                "punctuated_word": "your",
+                "word_id": 1687
+              },
+              {
+                "end": 265.065,
+                "word": "birthday",
+                "start": 264.565,
+                "confidence": 0.9921875,
+                "punctuated_word": "birthday.",
+                "word_id": 1688
+              },
+              {
+                "end": 269.87,
+                "word": "okay",
+                "start": 269.37,
+                "confidence": 0.82055664,
+                "punctuated_word": "Okay.",
+                "word_id": 1689
+              },
+              {
+                "end": 297.165,
+                "word": "mhmm",
+                "start": 296.665,
+                "confidence": 0.9259033,
+                "punctuated_word": "Mhmm.",
+                "word_id": 1690
+              },
+              {
+                "end": 298.185,
+                "word": "you",
+                "start": 297.865,
+                "confidence": 0.57421875,
+                "punctuated_word": "You",
+                "word_id": 1691
+              },
+              {
+                "end": 298.425,
+                "word": "only",
+                "start": 298.185,
+                "confidence": 0.47192383,
+                "punctuated_word": "only",
+                "word_id": 1692
+              },
+              {
+                "end": 298.745,
+                "word": "need",
+                "start": 298.425,
+                "confidence": 0.42871094,
+                "punctuated_word": "need",
+                "word_id": 1693
+              },
+              {
+                "end": 299.245,
+                "word": "this",
+                "start": 298.745,
+                "confidence": 0.63500977,
+                "punctuated_word": "this.",
+                "word_id": 1694
+              }
+            ],
+            "confidence": 0.986084,
+            "paragraphs": {
+              "paragraphs": [
+                {
+                  "end": 11.985,
+                  "start": 0.24,
+                  "num_words": 13,
+                  "sentences": [
+                    {
+                      "end": 6.08,
+                      "text": "Ryan doesn't have always doesn't always have.",
+                      "start": 0.24
+                    },
+                    {
+                      "end": 6.3999996,
+                      "text": "Right?",
+                      "start": 6.08
+                    },
+                    {
+                      "end": 7.6,
+                      "text": "Doesn't always have.",
+                      "start": 6.3999996
+                    },
+                    {
+                      "end": 8.1,
+                      "text": "Okay.",
+                      "start": 7.6
+                    },
+                    {
+                      "end": 11.985,
+                      "text": "Mhmm.",
+                      "start": 11.745
+                    }
+                  ]
+                },
+                {
+                  "end": 32.375,
+                  "start": 11.985,
+                  "num_words": 26,
+                  "sentences": [
+                    {
+                      "end": 12.485,
+                      "text": "Okay.",
+                      "start": 11.985
+                    },
+                    {
+                      "end": 14.804999,
+                      "text": "Ryan doesn't always have breakfast.",
+                      "start": 12.865
+                    },
+                    {
+                      "end": 27.419998,
+                      "text": "Sometimes, he only drinks coffee, Which had Lisa sometimes goes out with friends.",
+                      "start": 16.945
+                    },
+                    {
+                      "end": 29.34,
+                      "text": "She never goes out alone.",
+                      "start": 27.48
+                    },
+                    {
+                      "end": 32.375,
+                      "text": "Lisa Lisa?",
+                      "start": 30.035
+                    }
+                  ]
+                },
+                {
+                  "end": 96.35999,
+                  "start": 34.915,
+                  "num_words": 26,
+                  "sentences": [
+                    {
+                      "end": 35.415,
+                      "text": "Okay.",
+                      "start": 34.915
+                    },
+                    {
+                      "end": 42.69,
+                      "text": "I I always have lunch in the office.",
+                      "start": 37.075
+                    },
+                    {
+                      "end": 44.23,
+                      "text": "I never eat at home.",
+                      "start": 42.69
+                    },
+                    {
+                      "end": 95.82,
+                      "text": "Do you know my friends do you know my friend, Donna?",
+                      "start": 92.35999
+                    },
+                    {
+                      "end": 96.35999,
+                      "text": "No.",
+                      "start": 95.88
+                    }
+                  ]
+                },
+                {
+                  "end": 115.875,
+                  "start": 96.35999,
+                  "num_words": 19,
+                  "sentences": [
+                    {
+                      "end": 98.425,
+                      "text": "I I don't.",
+                      "start": 96.35999
+                    },
+                    {
+                      "end": 107.229996,
+                      "text": "Does, does Donna like watching movies?",
+                      "start": 104.085
+                    },
+                    {
+                      "end": 108.49,
+                      "text": "Yes.",
+                      "start": 108.09
+                    },
+                    {
+                      "end": 109.79,
+                      "text": "She she does.",
+                      "start": 108.49
+                    },
+                    {
+                      "end": 115.875,
+                      "text": "Do the children enjoy their food?",
+                      "start": 113.455
+                    }
+                  ]
+                },
+                {
+                  "end": 147.90501,
+                  "start": 117.615,
+                  "num_words": 38,
+                  "sentences": [
+                    {
+                      "end": 121.875,
+                      "text": "Swetta, Swetta does, but Hillary doesn't.",
+                      "start": 117.615
+                    },
+                    {
+                      "end": 130.31,
+                      "text": "Do you do you do you have, do you have English class today?",
+                      "start": 125.41
+                    },
+                    {
+                      "end": 131.27501,
+                      "text": "No.",
+                      "start": 130.77501
+                    },
+                    {
+                      "end": 132.795,
+                      "text": "We we don't.",
+                      "start": 131.735
+                    },
+                    {
+                      "end": 147.90501,
+                      "text": "Does does, does he go to football does he go to football practice every day?",
+                      "start": 138.92
+                    }
+                  ]
+                },
+                {
+                  "end": 191.47,
+                  "start": 148.125,
+                  "num_words": 14,
+                  "sentences": [
+                    {
+                      "end": 148.445,
+                      "text": "No.",
+                      "start": 148.125
+                    },
+                    {
+                      "end": 149.74501,
+                      "text": "He doesn't.",
+                      "start": 148.445
+                    },
+                    {
+                      "end": 151.43501,
+                      "text": "The doesn't.",
+                      "start": 150.52501
+                    },
+                    {
+                      "end": 162.5,
+                      "text": "Dot dot dot dot.",
+                      "start": 155.43999
+                    },
+                    {
+                      "end": 191.47,
+                      "text": "What's, the weather like today?",
+                      "start": 188.65
+                    }
+                  ]
+                },
+                {
+                  "end": 229.095,
+                  "start": 192.41,
+                  "num_words": 11,
+                  "sentences": [
+                    {
+                      "end": 193.39,
+                      "text": "It's training.",
+                      "start": 192.41
+                    },
+                    {
+                      "end": 218.7,
+                      "text": "Okay.",
+                      "start": 218.2
+                    },
+                    {
+                      "end": 224.52,
+                      "text": "It's raining.",
+                      "start": 223.72
+                    },
+                    {
+                      "end": 225.26001,
+                      "text": "Are you angry?",
+                      "start": 224.52
+                    },
+                    {
+                      "end": 229.095,
+                      "text": "It's dinner time.",
+                      "start": 227.41501
+                    }
+                  ]
+                },
+                {
+                  "end": 243.51999,
+                  "start": 229.095,
+                  "num_words": 23,
+                  "sentences": [
+                    {
+                      "end": 229.91501,
+                      "text": "Are you hungry?",
+                      "start": 229.095
+                    },
+                    {
+                      "end": 233.91501,
+                      "text": "Let's go for a walk.",
+                      "start": 232.455
+                    },
+                    {
+                      "end": 238.23999,
+                      "text": "It isn't late.",
+                      "start": 237.02
+                    },
+                    {
+                      "end": 241.04,
+                      "text": "Let's go for a walk.",
+                      "start": 239.42
+                    },
+                    {
+                      "end": 243.51999,
+                      "text": "I can't wait to see the movie.",
+                      "start": 241.34
+                    }
+                  ]
+                },
+                {
+                  "end": 269.87,
+                  "start": 251.285,
+                  "num_words": 18,
+                  "sentences": [
+                    {
+                      "end": 253.48,
+                      "text": "It is a is it?",
+                      "start": 251.285
+                    },
+                    {
+                      "end": 254.6,
+                      "text": "Okay.",
+                      "start": 254.1
+                    },
+                    {
+                      "end": 260.92,
+                      "text": "Your birthday, you can't eat cook today.",
+                      "start": 257.62
+                    },
+                    {
+                      "end": 265.065,
+                      "text": "It's not your birthday.",
+                      "start": 263.525
+                    },
+                    {
+                      "end": 269.87,
+                      "text": "Okay.",
+                      "start": 269.37
+                    }
+                  ]
+                },
+                {
+                  "end": 299.245,
+                  "start": 296.665,
+                  "num_words": 5,
+                  "sentences": [
+                    {
+                      "end": 297.165,
+                      "text": "Mhmm.",
+                      "start": 296.665
+                    },
+                    {
+                      "end": 299.245,
+                      "text": "You only need this.",
+                      "start": 297.865
+                    }
+                  ]
+                }
+              ],
+              "transcript": "\nRyan doesn't have always doesn't always have. Right? Doesn't always have. Okay. Mhmm.\n\nOkay. Ryan doesn't always have breakfast. Sometimes, he only drinks coffee, Which had Lisa sometimes goes out with friends. She never goes out alone. Lisa Lisa?\n\nOkay. I I always have lunch in the office. I never eat at home. Do you know my friends do you know my friend, Donna? No.\n\nI I don't. Does, does Donna like watching movies? Yes. She she does. Do the children enjoy their food?\n\nSwetta, Swetta does, but Hillary doesn't. Do you do you do you have, do you have English class today? No. We we don't. Does does, does he go to football does he go to football practice every day?\n\nNo. He doesn't. The doesn't. Dot dot dot dot. What's, the weather like today?\n\nIt's training. Okay. It's raining. Are you angry? It's dinner time.\n\nAre you hungry? Let's go for a walk. It isn't late. Let's go for a walk. I can't wait to see the movie.\n\nIt is a is it? Okay. Your birthday, you can't eat cook today. It's not your birthday. Okay.\n\nMhmm. You only need this."
+            },
+            "transcript": "Ryan doesn't have always doesn't always have. Right? Doesn't always have. Okay. Mhmm. Okay. Ryan doesn't always have breakfast. Sometimes, he only drinks coffee, Which had Lisa sometimes goes out with friends. She never goes out alone. Lisa Lisa? Okay. I I always have lunch in the office. I never eat at home. Do you know my friends do you know my friend, Donna? No. I I don't. Does, does Donna like watching movies? Yes. She she does. Do the children enjoy their food? Swetta, Swetta does, but Hillary doesn't. Do you do you do you have, do you have English class today? No. We we don't. Does does, does he go to football does he go to football practice every day? No. He doesn't. The doesn't. Dot dot dot dot. What's, the weather like today? It's training. Okay. It's raining. Are you angry? It's dinner time. Are you hungry? Let's go for a walk. It isn't late. Let's go for a walk. I can't wait to see the movie. It is a is it? Okay. Your birthday, you can't eat cook today. It's not your birthday. Okay. Mhmm. You only need this."
+          }
+        ]
+      },
+      {
+        "alternatives": [
+          {
+            "words": [
+              {
+                "end": 8.285,
+                "word": "zapsha",
+                "start": 7.965,
+                "confidence": 0.25264487,
+                "punctuated_word": "Zapsha"
+              },
+              {
+                "end": 8.605,
+                "word": "is",
+                "start": 8.285,
+                "confidence": 0.9536133,
+                "punctuated_word": "is"
+              },
+              {
+                "end": 9.325,
+                "word": "does",
+                "start": 9.085,
+                "confidence": 0.6118164,
+                "punctuated_word": "does"
+              },
+              {
+                "end": 9.485,
+                "word": "in",
+                "start": 9.325,
+                "confidence": 0.9291992,
+                "punctuated_word": "in"
+              },
+              {
+                "end": 9.805,
+                "word": "this",
+                "start": 9.485,
+                "confidence": 0.81933594,
+                "punctuated_word": "this"
+              },
+              {
+                "end": 10.125,
+                "word": "spreadsheet",
+                "start": 9.805,
+                "confidence": 0.6057129,
+                "punctuated_word": "spreadsheet,"
+              },
+              {
+                "end": 11.025,
+                "word": "always",
+                "start": 10.525,
+                "confidence": 0.99560547,
+                "punctuated_word": "always."
+              },
+              {
+                "end": 21.02,
+                "word": "mhmm",
+                "start": 20.52,
+                "confidence": 0.9613037,
+                "punctuated_word": "Mhmm."
+              },
+              {
+                "end": 22.699999,
+                "word": "mhmm",
+                "start": 22.199999,
+                "confidence": 0.94763184,
+                "punctuated_word": "Mhmm."
+              },
+              {
+                "end": 33.485,
+                "word": "lisa",
+                "start": 32.985,
+                "confidence": 0.98657227,
+                "punctuated_word": "Lisa."
+              },
+              {
+                "end": 33.864998,
+                "word": "yeah",
+                "start": 33.545,
+                "confidence": 0.9453125,
+                "punctuated_word": "Yeah."
+              },
+              {
+                "end": 34.364998,
+                "word": "lisa",
+                "start": 33.864998,
+                "confidence": 0.99853516,
+                "punctuated_word": "Lisa."
+              },
+              {
+                "end": 71.520004,
+                "word": "mhmm",
+                "start": 71.020004,
+                "confidence": 0.98083496,
+                "punctuated_word": "Mhmm."
+              },
+              {
+                "end": 73.1,
+                "word": "very",
+                "start": 72.62,
+                "confidence": 0.53564453,
+                "punctuated_word": "Very"
+              },
+              {
+                "end": 73.6,
+                "word": "good",
+                "start": 73.1,
+                "confidence": 0.99072266,
+                "punctuated_word": "good."
+              },
+              {
+                "end": 73.9,
+                "word": "very",
+                "start": 73.66,
+                "confidence": 1,
+                "punctuated_word": "Very"
+              },
+              {
+                "end": 74.4,
+                "word": "good",
+                "start": 73.9,
+                "confidence": 0.9980469,
+                "punctuated_word": "good."
+              },
+              {
+                "end": 75.020004,
+                "word": "not",
+                "start": 74.78,
+                "confidence": 0.6796875,
+                "punctuated_word": "Not"
+              },
+              {
+                "end": 75.26,
+                "word": "that",
+                "start": 75.020004,
+                "confidence": 0.92578125,
+                "punctuated_word": "that"
+              },
+              {
+                "end": 75.74,
+                "word": "i'm",
+                "start": 75.26,
+                "confidence": 0.9494629,
+                "punctuated_word": "I'm"
+              },
+              {
+                "end": 75.82,
+                "word": "i'm",
+                "start": 75.74,
+                "confidence": 0.98291016,
+                "punctuated_word": "I'm"
+              },
+              {
+                "end": 76.32,
+                "word": "really",
+                "start": 75.82,
+                "confidence": 0.9941406,
+                "punctuated_word": "really"
+              },
+              {
+                "end": 77.145,
+                "word": "i'm",
+                "start": 76.905,
+                "confidence": 0.9675293,
+                "punctuated_word": "I'm"
+              },
+              {
+                "end": 77.385,
+                "word": "really",
+                "start": 77.145,
+                "confidence": 0.88427734,
+                "punctuated_word": "really"
+              },
+              {
+                "end": 77.865,
+                "word": "content",
+                "start": 77.385,
+                "confidence": 1,
+                "punctuated_word": "content"
+              },
+              {
+                "end": 78.104996,
+                "word": "with",
+                "start": 77.865,
+                "confidence": 0.99194336,
+                "punctuated_word": "with,"
+              },
+              {
+                "end": 78.665,
+                "word": "what",
+                "start": 78.424995,
+                "confidence": 1,
+                "punctuated_word": "what"
+              },
+              {
+                "end": 78.905,
+                "word": "you're",
+                "start": 78.665,
+                "confidence": 0.9951172,
+                "punctuated_word": "you're"
+              },
+              {
+                "end": 79.405,
+                "word": "doing",
+                "start": 78.905,
+                "confidence": 0.9995117,
+                "punctuated_word": "doing."
+              },
+              {
+                "end": 79.965,
+                "word": "mhmm",
+                "start": 79.465,
+                "confidence": 0.99609375,
+                "punctuated_word": "Mhmm."
+              },
+              {
+                "end": 80.905,
+                "word": "and",
+                "start": 80.585,
+                "confidence": 0.9819336,
+                "punctuated_word": "And"
+              },
+              {
+                "end": 81.385,
+                "word": "do",
+                "start": 80.905,
+                "confidence": 0.8071289,
+                "punctuated_word": "do."
+              },
+              {
+                "end": 81.865,
+                "word": "questions",
+                "start": 81.385,
+                "confidence": 0.9980469,
+                "punctuated_word": "Questions"
+              },
+              {
+                "end": 82.104996,
+                "word": "with",
+                "start": 81.865,
+                "confidence": 0.9716797,
+                "punctuated_word": "with"
+              },
+              {
+                "end": 82.604996,
+                "word": "do",
+                "start": 82.104996,
+                "confidence": 0.9926758,
+                "punctuated_word": "do."
+              },
+              {
+                "end": 83.145,
+                "word": "do",
+                "start": 82.905,
+                "confidence": 0.9980469,
+                "punctuated_word": "Do"
+              },
+              {
+                "end": 83.545,
+                "word": "you",
+                "start": 83.145,
+                "confidence": 0.9116211,
+                "punctuated_word": "you?"
+              },
+              {
+                "end": 83.865,
+                "word": "yes",
+                "start": 83.545,
+                "confidence": 0.9719238,
+                "punctuated_word": "Yes."
+              },
+              {
+                "end": 84.104996,
+                "word": "i",
+                "start": 83.865,
+                "confidence": 1,
+                "punctuated_word": "I"
+              },
+              {
+                "end": 84.604996,
+                "word": "do",
+                "start": 84.104996,
+                "confidence": 0.9995117,
+                "punctuated_word": "do."
+              },
+              {
+                "end": 85.19,
+                "word": "do",
+                "start": 85.03,
+                "confidence": 1,
+                "punctuated_word": "Do"
+              },
+              {
+                "end": 85.66,
+                "word": "you",
+                "start": 85.19,
+                "confidence": 0.9980469,
+                "punctuated_word": "you?"
+              },
+              {
+                "end": 85.91,
+                "word": "no",
+                "start": 85.66,
+                "confidence": 0.99560547,
+                "punctuated_word": "No."
+              },
+              {
+                "end": 86.07,
+                "word": "i",
+                "start": 85.91,
+                "confidence": 1,
+                "punctuated_word": "I"
+              },
+              {
+                "end": 86.57,
+                "word": "don't",
+                "start": 86.07,
+                "confidence": 0.99869794,
+                "punctuated_word": "don't."
+              },
+              {
+                "end": 110.715,
+                "word": "mhmm",
+                "start": 110.395,
+                "confidence": 0.9423828,
+                "punctuated_word": "Mhmm."
+              },
+              {
+                "end": 111.115,
+                "word": "very",
+                "start": 110.715,
+                "confidence": 0.98828125,
+                "punctuated_word": "Very"
+              },
+              {
+                "end": 111.615,
+                "word": "good",
+                "start": 111.115,
+                "confidence": 0.9980469,
+                "punctuated_word": "good."
+              },
+              {
+                "end": 111.994995,
+                "word": "very",
+                "start": 111.674995,
+                "confidence": 0.99902344,
+                "punctuated_word": "Very"
+              },
+              {
+                "end": 112.494995,
+                "word": "good",
+                "start": 111.994995,
+                "confidence": 1,
+                "punctuated_word": "good."
+              },
+              {
+                "end": 113.05499,
+                "word": "mhmm",
+                "start": 112.55499,
+                "confidence": 0.9935303,
+                "punctuated_word": "Mhmm."
+              },
+              {
+                "end": 123.34,
+                "word": "mhmm",
+                "start": 122.84,
+                "confidence": 0.9810791,
+                "punctuated_word": "Mhmm."
+              },
+              {
+                "end": 124.03999,
+                "word": "very",
+                "start": 123.71999,
+                "confidence": 0.9707031,
+                "punctuated_word": "Very"
+              },
+              {
+                "end": 124.53999,
+                "word": "good",
+                "start": 124.03999,
+                "confidence": 0.99902344,
+                "punctuated_word": "good."
+              },
+              {
+                "end": 125.399994,
+                "word": "very",
+                "start": 125.079994,
+                "confidence": 0.9970703,
+                "punctuated_word": "Very"
+              },
+              {
+                "end": 125.899994,
+                "word": "good",
+                "start": 125.399994,
+                "confidence": 0.9995117,
+                "punctuated_word": "good."
+              },
+              {
+                "end": 136.025,
+                "word": "brilliant",
+                "start": 135.525,
+                "confidence": 0.8251953,
+                "punctuated_word": "Brilliant."
+              },
+              {
+                "end": 136.77,
+                "word": "very",
+                "start": 136.27,
+                "confidence": 1,
+                "punctuated_word": "Very"
+              },
+              {
+                "end": 141.1325,
+                "word": "good",
+                "start": 140.6325,
+                "confidence": 0.9995117,
+                "punctuated_word": "good."
+              },
+              {
+                "end": 149.17499,
+                "word": "mhmm",
+                "start": 148.67499,
+                "confidence": 0.9094238,
+                "punctuated_word": "Mhmm."
+              },
+              {
+                "end": 154.81,
+                "word": "mhmm",
+                "start": 154.31,
+                "confidence": 0.9761963,
+                "punctuated_word": "Mhmm."
+              },
+              {
+                "end": 158.33,
+                "word": "mhmm",
+                "start": 157.83,
+                "confidence": 0.8909912,
+                "punctuated_word": "Mhmm."
+              },
+              {
+                "end": 162.405,
+                "word": "very",
+                "start": 162.085,
+                "confidence": 0.99121094,
+                "punctuated_word": "Very"
+              },
+              {
+                "end": 162.905,
+                "word": "good",
+                "start": 162.405,
+                "confidence": 0.9995117,
+                "punctuated_word": "good."
+              },
+              {
+                "end": 164.005,
+                "word": "very",
+                "start": 163.685,
+                "confidence": 0.9980469,
+                "punctuated_word": "Very"
+              },
+              {
+                "end": 164.505,
+                "word": "good",
+                "start": 164.005,
+                "confidence": 0.9995117,
+                "punctuated_word": "good."
+              },
+              {
+                "end": 166.425,
+                "word": "yeah",
+                "start": 165.925,
+                "confidence": 0.8803711,
+                "punctuated_word": "Yeah."
+              },
+              {
+                "end": 180.19499,
+                "word": "do",
+                "start": 179.95499,
+                "confidence": 0.17297363,
+                "punctuated_word": "Do"
+              },
+              {
+                "end": 180.69499,
+                "word": "do",
+                "start": 180.19499,
+                "confidence": 0.5546875,
+                "punctuated_word": "do"
+              },
+              {
+                "end": 181.33499,
+                "word": "not",
+                "start": 180.83499,
+                "confidence": 0.47851562,
+                "punctuated_word": "not"
+              },
+              {
+                "end": 181.95499,
+                "word": "does",
+                "start": 181.635,
+                "confidence": 0.5058594,
+                "punctuated_word": "does"
+              },
+              {
+                "end": 182.45499,
+                "word": "not",
+                "start": 181.95499,
+                "confidence": 0.9716797,
+                "punctuated_word": "not."
+              },
+              {
+                "end": 183.015,
+                "word": "mhmm",
+                "start": 182.515,
+                "confidence": 0.9678955,
+                "punctuated_word": "Mhmm."
+              },
+              {
+                "end": 183.555,
+                "word": "tell",
+                "start": 183.31499,
+                "confidence": 0.3791504,
+                "punctuated_word": "Tell"
+              },
+              {
+                "end": 183.635,
+                "word": "us",
+                "start": 183.555,
+                "confidence": 0.9589844,
+                "punctuated_word": "us"
+              },
+              {
+                "end": 184.135,
+                "word": "benjie's",
+                "start": 183.635,
+                "confidence": 0.6958008,
+                "punctuated_word": "Benjie's"
+              },
+              {
+                "end": 184.67499,
+                "word": "subject",
+                "start": 184.19499,
+                "confidence": 0.9892578,
+                "punctuated_word": "subject"
+              },
+              {
+                "end": 185.17499,
+                "word": "pronoun",
+                "start": 184.67499,
+                "confidence": 0.92333984,
+                "punctuated_word": "pronoun"
+              },
+              {
+                "end": 213.41501,
+                "word": "okay",
+                "start": 212.91501,
+                "confidence": 0.8781738,
+                "punctuated_word": "Okay."
+              },
+              {
+                "end": 214.295,
+                "word": "mhmm",
+                "start": 213.795,
+                "confidence": 0.95751953,
+                "punctuated_word": "Mhmm."
+              },
+              {
+                "end": 218.99501,
+                "word": "some",
+                "start": 218.835,
+                "confidence": 0.62646484,
+                "punctuated_word": "Some"
+              },
+              {
+                "end": 219.49501,
+                "word": "some",
+                "start": 218.99501,
+                "confidence": 0.5395508,
+                "punctuated_word": "some"
+              },
+              {
+                "end": 229.995,
+                "word": "right",
+                "start": 229.495,
+                "confidence": 0.7687988,
+                "punctuated_word": "Right."
+              },
+              {
+                "end": 230.635,
+                "word": "mhmm",
+                "start": 230.135,
+                "confidence": 0.96276855,
+                "punctuated_word": "Mhmm."
+              },
+              {
+                "end": 265.885,
+                "word": "yes",
+                "start": 265.48502,
+                "confidence": 0.93896484,
+                "punctuated_word": "Yes."
+              },
+              {
+                "end": 266.20502,
+                "word": "it's",
+                "start": 265.885,
+                "confidence": 0.99853516,
+                "punctuated_word": "It's"
+              },
+              {
+                "end": 266.605,
+                "word": "not",
+                "start": 266.20502,
+                "confidence": 1,
+                "punctuated_word": "not"
+              },
+              {
+                "end": 266.845,
+                "word": "your",
+                "start": 266.605,
+                "confidence": 0.99902344,
+                "punctuated_word": "your"
+              },
+              {
+                "end": 267.345,
+                "word": "birthday",
+                "start": 266.845,
+                "confidence": 0.98999023,
+                "punctuated_word": "birthday."
+              },
+              {
+                "end": 267.64502,
+                "word": "it's",
+                "start": 267.48502,
+                "confidence": 0.99902344,
+                "punctuated_word": "It's"
+              },
+              {
+                "end": 267.96503,
+                "word": "not",
+                "start": 267.64502,
+                "confidence": 1,
+                "punctuated_word": "not"
+              },
+              {
+                "end": 268.125,
+                "word": "your",
+                "start": 267.96503,
+                "confidence": 0.99902344,
+                "punctuated_word": "your"
+              },
+              {
+                "end": 268.605,
+                "word": "birthday",
+                "start": 268.125,
+                "confidence": 0.9211426,
+                "punctuated_word": "birthday,"
+              },
+              {
+                "end": 269.105,
+                "word": "actually",
+                "start": 268.605,
+                "confidence": 0.8491211,
+                "punctuated_word": "actually."
+              },
+              {
+                "end": 284.285,
+                "word": "in",
+                "start": 283.785,
+                "confidence": 0.44140625,
+                "punctuated_word": "In"
+              },
+              {
+                "end": 285.085,
+                "word": "at",
+                "start": 284.585,
+                "confidence": 0.61279297,
+                "punctuated_word": "at"
+              },
+              {
+                "end": 285.805,
+                "word": "in",
+                "start": 285.305,
+                "confidence": 0.25897217,
+                "punctuated_word": "in."
+              }
+            ],
+            "confidence": 0.9810791,
+            "paragraphs": {
+              "paragraphs": [
+                {
+                  "end": 33.864998,
+                  "start": 7.965,
+                  "num_words": 11,
+                  "sentences": [
+                    {
+                      "end": 11.025,
+                      "text": "Zapsha is does in this spreadsheet, always.",
+                      "start": 7.965
+                    },
+                    {
+                      "end": 21.02,
+                      "text": "Mhmm.",
+                      "start": 20.52
+                    },
+                    {
+                      "end": 22.699999,
+                      "text": "Mhmm.",
+                      "start": 22.199999
+                    },
+                    {
+                      "end": 33.485,
+                      "text": "Lisa.",
+                      "start": 32.985
+                    },
+                    {
+                      "end": 33.864998,
+                      "text": "Yeah.",
+                      "start": 33.545
+                    }
+                  ]
+                },
+                {
+                  "end": 79.405,
+                  "start": 33.864998,
+                  "num_words": 18,
+                  "sentences": [
+                    {
+                      "end": 34.364998,
+                      "text": "Lisa.",
+                      "start": 33.864998
+                    },
+                    {
+                      "end": 71.520004,
+                      "text": "Mhmm.",
+                      "start": 71.020004
+                    },
+                    {
+                      "end": 73.6,
+                      "text": "Very good.",
+                      "start": 72.62
+                    },
+                    {
+                      "end": 74.4,
+                      "text": "Very good.",
+                      "start": 73.66
+                    },
+                    {
+                      "end": 79.405,
+                      "text": "Not that I'm I'm really I'm really content with, what you're doing.",
+                      "start": 74.78
+                    }
+                  ]
+                },
+                {
+                  "end": 83.865,
+                  "start": 79.465,
+                  "num_words": 9,
+                  "sentences": [
+                    {
+                      "end": 79.965,
+                      "text": "Mhmm.",
+                      "start": 79.465
+                    },
+                    {
+                      "end": 81.385,
+                      "text": "And do.",
+                      "start": 80.585
+                    },
+                    {
+                      "end": 82.604996,
+                      "text": "Questions with do.",
+                      "start": 81.385
+                    },
+                    {
+                      "end": 83.545,
+                      "text": "Do you?",
+                      "start": 82.905
+                    },
+                    {
+                      "end": 83.865,
+                      "text": "Yes.",
+                      "start": 83.545
+                    }
+                  ]
+                },
+                {
+                  "end": 110.715,
+                  "start": 83.865,
+                  "num_words": 8,
+                  "sentences": [
+                    {
+                      "end": 84.604996,
+                      "text": "I do.",
+                      "start": 83.865
+                    },
+                    {
+                      "end": 85.66,
+                      "text": "Do you?",
+                      "start": 85.03
+                    },
+                    {
+                      "end": 85.91,
+                      "text": "No.",
+                      "start": 85.66
+                    },
+                    {
+                      "end": 86.57,
+                      "text": "I don't.",
+                      "start": 85.91
+                    },
+                    {
+                      "end": 110.715,
+                      "text": "Mhmm.",
+                      "start": 110.395
+                    }
+                  ]
+                },
+                {
+                  "end": 124.53999,
+                  "start": 110.715,
+                  "num_words": 8,
+                  "sentences": [
+                    {
+                      "end": 111.615,
+                      "text": "Very good.",
+                      "start": 110.715
+                    },
+                    {
+                      "end": 112.494995,
+                      "text": "Very good.",
+                      "start": 111.674995
+                    },
+                    {
+                      "end": 113.05499,
+                      "text": "Mhmm.",
+                      "start": 112.55499
+                    },
+                    {
+                      "end": 123.34,
+                      "text": "Mhmm.",
+                      "start": 122.84
+                    },
+                    {
+                      "end": 124.53999,
+                      "text": "Very good.",
+                      "start": 123.71999
+                    }
+                  ]
+                },
+                {
+                  "end": 154.81,
+                  "start": 125.079994,
+                  "num_words": 7,
+                  "sentences": [
+                    {
+                      "end": 125.899994,
+                      "text": "Very good.",
+                      "start": 125.079994
+                    },
+                    {
+                      "end": 136.025,
+                      "text": "Brilliant.",
+                      "start": 135.525
+                    },
+                    {
+                      "end": 141.1325,
+                      "text": "Very good.",
+                      "start": 136.27
+                    },
+                    {
+                      "end": 149.17499,
+                      "text": "Mhmm.",
+                      "start": 148.67499
+                    },
+                    {
+                      "end": 154.81,
+                      "text": "Mhmm.",
+                      "start": 154.31
+                    }
+                  ]
+                },
+                {
+                  "end": 182.45499,
+                  "start": 157.83,
+                  "num_words": 11,
+                  "sentences": [
+                    {
+                      "end": 158.33,
+                      "text": "Mhmm.",
+                      "start": 157.83
+                    },
+                    {
+                      "end": 162.905,
+                      "text": "Very good.",
+                      "start": 162.085
+                    },
+                    {
+                      "end": 164.505,
+                      "text": "Very good.",
+                      "start": 163.685
+                    },
+                    {
+                      "end": 166.425,
+                      "text": "Yeah.",
+                      "start": 165.925
+                    },
+                    {
+                      "end": 182.45499,
+                      "text": "Do do not does not.",
+                      "start": 179.95499
+                    }
+                  ]
+                },
+                {
+                  "end": 230.635,
+                  "start": 182.515,
+                  "num_words": 12,
+                  "sentences": [
+                    {
+                      "end": 183.015,
+                      "text": "Mhmm.",
+                      "start": 182.515
+                    },
+                    {
+                      "end": 213.41501,
+                      "text": "Tell us Benjie's subject pronoun Okay.",
+                      "start": 183.31499
+                    },
+                    {
+                      "end": 214.295,
+                      "text": "Mhmm.",
+                      "start": 213.795
+                    },
+                    {
+                      "end": 229.995,
+                      "text": "Some some Right.",
+                      "start": 218.835
+                    },
+                    {
+                      "end": 230.635,
+                      "text": "Mhmm.",
+                      "start": 230.135
+                    }
+                  ]
+                },
+                {
+                  "end": 285.805,
+                  "start": 265.48502,
+                  "num_words": 13,
+                  "sentences": [
+                    {
+                      "end": 265.885,
+                      "text": "Yes.",
+                      "start": 265.48502
+                    },
+                    {
+                      "end": 267.345,
+                      "text": "It's not your birthday.",
+                      "start": 265.885
+                    },
+                    {
+                      "end": 269.105,
+                      "text": "It's not your birthday, actually.",
+                      "start": 267.48502
+                    },
+                    {
+                      "end": 285.805,
+                      "text": "In at in.",
+                      "start": 283.785
+                    }
+                  ]
+                }
+              ],
+              "transcript": "\nZapsha is does in this spreadsheet, always. Mhmm. Mhmm. Lisa. Yeah.\n\nLisa. Mhmm. Very good. Very good. Not that I'm I'm really I'm really content with, what you're doing.\n\nMhmm. And do. Questions with do. Do you? Yes.\n\nI do. Do you? No. I don't. Mhmm.\n\nVery good. Very good. Mhmm. Mhmm. Very good.\n\nVery good. Brilliant. Very good. Mhmm. Mhmm.\n\nMhmm. Very good. Very good. Yeah. Do do not does not.\n\nMhmm. Tell us Benjie's subject pronoun Okay. Mhmm. Some some Right. Mhmm.\n\nYes. It's not your birthday. It's not your birthday, actually. In at in."
+            },
+            "transcript": "Zapsha is does in this spreadsheet, always. Mhmm. Mhmm. Lisa. Yeah. Lisa. Mhmm. Very good. Very good. Not that I'm I'm really I'm really content with, what you're doing. Mhmm. And do. Questions with do. Do you? Yes. I do. Do you? No. I don't. Mhmm. Very good. Very good. Mhmm. Mhmm. Very good. Very good. Brilliant. Very good. Mhmm. Mhmm. Mhmm. Very good. Very good. Yeah. Do do not does not. Mhmm. Tell us Benjie's subject pronoun Okay. Mhmm. Some some Right. Mhmm. Yes. It's not your birthday. It's not your birthday, actually. In at in."
+          }
+        ]
+      }
+    ],
+    "paragraphs": {
+      "paragraphs": [
+        {
+          "end": 8.1,
+          "start": 0.24,
+          "channel": 0,
+          "num_words": 12,
+          "sentences": [
+            {
+              "end": 6.08,
+              "text": "Ryan doesn't have always doesn't always have.",
+              "start": 0.24
+            },
+            {
+              "end": 6.3999996,
+              "text": "Right?",
+              "start": 6.08
+            },
+            {
+              "end": 7.6,
+              "text": "Doesn't always have.",
+              "start": 6.3999996
+            },
+            {
+              "end": 8.1,
+              "text": "Okay.",
+              "start": 7.6
+            }
+          ]
+        },
+        {
+          "end": 11.025,
+          "start": 7.965,
+          "channel": 1,
+          "num_words": 7,
+          "sentences": [
+            {
+              "end": 11.025,
+              "text": "Zapsha is does in this spreadsheet, always.",
+              "start": 7.965
+            }
+          ]
+        },
+        {
+          "end": 19.88,
+          "start": 11.745,
+          "channel": 0,
+          "num_words": 12,
+          "sentences": [
+            {
+              "end": 11.985,
+              "text": "Mhmm.",
+              "start": 11.745
+            },
+            {
+              "end": 12.485,
+              "text": "Okay.",
+              "start": 11.985
+            },
+            {
+              "end": 14.804999,
+              "text": "Ryan doesn't always have breakfast.",
+              "start": 12.865
+            },
+            {
+              "end": 19.88,
+              "text": "Sometimes, he only drinks coffee,",
+              "start": 16.945
+            }
+          ]
+        },
+        {
+          "end": 22.699999,
+          "start": 20.52,
+          "channel": 1,
+          "num_words": 2,
+          "sentences": [
+            {
+              "end": 21.02,
+              "text": "Mhmm.",
+              "start": 20.52
+            },
+            {
+              "end": 22.699999,
+              "text": "Mhmm.",
+              "start": 22.199999
+            }
+          ]
+        },
+        {
+          "end": 32.375,
+          "start": 22.199999,
+          "channel": 0,
+          "num_words": 15,
+          "sentences": [
+            {
+              "end": 27.419998,
+              "text": "Which had Lisa sometimes goes out with friends.",
+              "start": 22.199999
+            },
+            {
+              "end": 29.34,
+              "text": "She never goes out alone.",
+              "start": 27.48
+            },
+            {
+              "end": 32.375,
+              "text": "Lisa Lisa?",
+              "start": 30.035
+            }
+          ]
+        },
+        {
+          "end": 34.364998,
+          "start": 32.985,
+          "channel": 1,
+          "num_words": 3,
+          "sentences": [
+            {
+              "end": 33.485,
+              "text": "Lisa.",
+              "start": 32.985
+            },
+            {
+              "end": 33.864998,
+              "text": "Yeah.",
+              "start": 33.545
+            },
+            {
+              "end": 34.364998,
+              "text": "Lisa.",
+              "start": 33.864998
+            }
+          ]
+        },
+        {
+          "end": 44.23,
+          "start": 34.915,
+          "channel": 0,
+          "num_words": 14,
+          "sentences": [
+            {
+              "end": 35.415,
+              "text": "Okay.",
+              "start": 34.915
+            },
+            {
+              "end": 42.69,
+              "text": "I I always have lunch in the office.",
+              "start": 37.075
+            },
+            {
+              "end": 44.23,
+              "text": "I never eat at home.",
+              "start": 42.69
+            }
+          ]
+        },
+        {
+          "end": 79.965,
+          "start": 71.020004,
+          "channel": 1,
+          "num_words": 18,
+          "sentences": [
+            {
+              "end": 71.520004,
+              "text": "Mhmm.",
+              "start": 71.020004
+            },
+            {
+              "end": 73.6,
+              "text": "Very good.",
+              "start": 72.62
+            },
+            {
+              "end": 74.4,
+              "text": "Very good.",
+              "start": 73.66
+            },
+            {
+              "end": 79.405,
+              "text": "Not that I'm I'm really I'm really content with, what you're doing.",
+              "start": 74.78
+            },
+            {
+              "end": 79.965,
+              "text": "Mhmm.",
+              "start": 79.465
+            }
+          ]
+        },
+        {
+          "end": 84.604996,
+          "start": 80.585,
+          "channel": 1,
+          "num_words": 10,
+          "sentences": [
+            {
+              "end": 81.385,
+              "text": "And do.",
+              "start": 80.585
+            },
+            {
+              "end": 82.604996,
+              "text": "Questions with do.",
+              "start": 81.385
+            },
+            {
+              "end": 83.545,
+              "text": "Do you?",
+              "start": 82.905
+            },
+            {
+              "end": 83.865,
+              "text": "Yes.",
+              "start": 83.545
+            },
+            {
+              "end": 84.604996,
+              "text": "I do.",
+              "start": 83.865
+            }
+          ]
+        },
+        {
+          "end": 86.57,
+          "start": 85.03,
+          "channel": 1,
+          "num_words": 5,
+          "sentences": [
+            {
+              "end": 85.66,
+              "text": "Do you?",
+              "start": 85.03
+            },
+            {
+              "end": 85.91,
+              "text": "No.",
+              "start": 85.66
+            },
+            {
+              "end": 86.57,
+              "text": "I don't.",
+              "start": 85.91
+            }
+          ]
+        },
+        {
+          "end": 108.49,
+          "start": 92.35999,
+          "channel": 0,
+          "num_words": 22,
+          "sentences": [
+            {
+              "end": 95.82,
+              "text": "Do you know my friends do you know my friend, Donna?",
+              "start": 92.35999
+            },
+            {
+              "end": 96.35999,
+              "text": "No.",
+              "start": 95.88
+            },
+            {
+              "end": 98.425,
+              "text": "I I don't.",
+              "start": 96.35999
+            },
+            {
+              "end": 107.229996,
+              "text": "Does, does Donna like watching movies?",
+              "start": 104.085
+            },
+            {
+              "end": 108.49,
+              "text": "Yes.",
+              "start": 108.09
+            }
+          ]
+        },
+        {
+          "end": 109.79,
+          "start": 108.49,
+          "channel": 0,
+          "num_words": 3,
+          "sentences": [
+            {
+              "end": 109.79,
+              "text": "She she does.",
+              "start": 108.49
+            }
+          ]
+        },
+        {
+          "end": 113.05499,
+          "start": 110.395,
+          "channel": 1,
+          "num_words": 6,
+          "sentences": [
+            {
+              "end": 110.715,
+              "text": "Mhmm.",
+              "start": 110.395
+            },
+            {
+              "end": 111.615,
+              "text": "Very good.",
+              "start": 110.715
+            },
+            {
+              "end": 112.494995,
+              "text": "Very good.",
+              "start": 111.674995
+            },
+            {
+              "end": 113.05499,
+              "text": "Mhmm.",
+              "start": 112.55499
+            }
+          ]
+        },
+        {
+          "end": 121.875,
+          "start": 113.455,
+          "channel": 0,
+          "num_words": 12,
+          "sentences": [
+            {
+              "end": 115.875,
+              "text": "Do the children enjoy their food?",
+              "start": 113.455
+            },
+            {
+              "end": 121.875,
+              "text": "Swetta, Swetta does, but Hillary doesn't.",
+              "start": 117.615
+            }
+          ]
+        },
+        {
+          "end": 125.899994,
+          "start": 122.84,
+          "channel": 1,
+          "num_words": 5,
+          "sentences": [
+            {
+              "end": 123.34,
+              "text": "Mhmm.",
+              "start": 122.84
+            },
+            {
+              "end": 124.53999,
+              "text": "Very good.",
+              "start": 123.71999
+            },
+            {
+              "end": 125.899994,
+              "text": "Very good.",
+              "start": 125.079994
+            }
+          ]
+        },
+        {
+          "end": 132.795,
+          "start": 125.41,
+          "channel": 0,
+          "num_words": 17,
+          "sentences": [
+            {
+              "end": 130.31,
+              "text": "Do you do you do you have, do you have English class today?",
+              "start": 125.41
+            },
+            {
+              "end": 131.27501,
+              "text": "No.",
+              "start": 130.77501
+            },
+            {
+              "end": 132.795,
+              "text": "We we don't.",
+              "start": 131.735
+            }
+          ]
+        },
+        {
+          "end": 136.77,
+          "start": 135.525,
+          "channel": 1,
+          "num_words": 2,
+          "sentences": [
+            {
+              "end": 136.025,
+              "text": "Brilliant.",
+              "start": 135.525
+            },
+            {
+              "end": 136.77,
+              "text": "Very",
+              "start": 136.27
+            }
+          ]
+        },
+        {
+          "end": 140.73999,
+          "start": 138.92,
+          "channel": 0,
+          "num_words": 2,
+          "sentences": [
+            {
+              "end": 140.73999,
+              "text": "Does does,",
+              "start": 138.92
+            }
+          ]
+        },
+        {
+          "end": 141.1325,
+          "start": 140.6325,
+          "channel": 1,
+          "num_words": 1,
+          "sentences": [
+            {
+              "end": 141.1325,
+              "text": "good.",
+              "start": 140.6325
+            }
+          ]
+        },
+        {
+          "end": 148.945,
+          "start": 142.04001,
+          "channel": 0,
+          "num_words": 15,
+          "sentences": [
+            {
+              "end": 147.90501,
+              "text": "does he go to football does he go to football practice every day?",
+              "start": 142.04001
+            },
+            {
+              "end": 148.445,
+              "text": "No.",
+              "start": 148.125
+            },
+            {
+              "end": 148.945,
+              "text": "He",
+              "start": 148.445
+            }
+          ]
+        },
+        {
+          "end": 149.17499,
+          "start": 148.67499,
+          "channel": 1,
+          "num_words": 1,
+          "sentences": [
+            {
+              "end": 149.17499,
+              "text": "Mhmm.",
+              "start": 148.67499
+            }
+          ]
+        },
+        {
+          "end": 151.43501,
+          "start": 149.24501,
+          "channel": 0,
+          "num_words": 3,
+          "sentences": [
+            {
+              "end": 149.74501,
+              "text": "doesn't.",
+              "start": 149.24501
+            },
+            {
+              "end": 151.43501,
+              "text": "The doesn't.",
+              "start": 150.52501
+            }
+          ]
+        },
+        {
+          "end": 154.81,
+          "start": 154.31,
+          "channel": 1,
+          "num_words": 1,
+          "sentences": [
+            {
+              "end": 154.81,
+              "text": "Mhmm.",
+              "start": 154.31
+            }
+          ]
+        },
+        {
+          "end": 155.93999,
+          "start": 155.43999,
+          "channel": 0,
+          "num_words": 1,
+          "sentences": [
+            {
+              "end": 155.93999,
+              "text": "Dot",
+              "start": 155.43999
+            }
+          ]
+        },
+        {
+          "end": 158.33,
+          "start": 157.83,
+          "channel": 1,
+          "num_words": 1,
+          "sentences": [
+            {
+              "end": 158.33,
+              "text": "Mhmm.",
+              "start": 157.83
+            }
+          ]
+        },
+        {
+          "end": 162.5,
+          "start": 159.68,
+          "channel": 0,
+          "num_words": 3,
+          "sentences": [
+            {
+              "end": 162.5,
+              "text": "dot dot dot.",
+              "start": 159.68
+            }
+          ]
+        },
+        {
+          "end": 183.015,
+          "start": 162.085,
+          "channel": 1,
+          "num_words": 11,
+          "sentences": [
+            {
+              "end": 162.905,
+              "text": "Very good.",
+              "start": 162.085
+            },
+            {
+              "end": 164.505,
+              "text": "Very good.",
+              "start": 163.685
+            },
+            {
+              "end": 166.425,
+              "text": "Yeah.",
+              "start": 165.925
+            },
+            {
+              "end": 182.45499,
+              "text": "Do do not does not.",
+              "start": 179.95499
+            },
+            {
+              "end": 183.015,
+              "text": "Mhmm.",
+              "start": 182.515
+            }
+          ]
+        },
+        {
+          "end": 185.17499,
+          "start": 183.31499,
+          "channel": 1,
+          "num_words": 5,
+          "sentences": [
+            {
+              "end": 185.17499,
+              "text": "Tell us Benjie's subject pronoun",
+              "start": 183.31499
+            }
+          ]
+        },
+        {
+          "end": 193.39,
+          "start": 188.65,
+          "channel": 0,
+          "num_words": 7,
+          "sentences": [
+            {
+              "end": 191.47,
+              "text": "What's, the weather like today?",
+              "start": 188.65
+            },
+            {
+              "end": 193.39,
+              "text": "It's training.",
+              "start": 192.41
+            }
+          ]
+        },
+        {
+          "end": 214.295,
+          "start": 212.91501,
+          "channel": 1,
+          "num_words": 2,
+          "sentences": [
+            {
+              "end": 213.41501,
+              "text": "Okay.",
+              "start": 212.91501
+            },
+            {
+              "end": 214.295,
+              "text": "Mhmm.",
+              "start": 213.795
+            }
+          ]
+        },
+        {
+          "end": 218.7,
+          "start": 218.2,
+          "channel": 0,
+          "num_words": 1,
+          "sentences": [
+            {
+              "end": 218.7,
+              "text": "Okay.",
+              "start": 218.2
+            }
+          ]
+        },
+        {
+          "end": 219.49501,
+          "start": 218.835,
+          "channel": 1,
+          "num_words": 2,
+          "sentences": [
+            {
+              "end": 219.49501,
+              "text": "Some some",
+              "start": 218.835
+            }
+          ]
+        },
+        {
+          "end": 229.91501,
+          "start": 223.72,
+          "channel": 0,
+          "num_words": 11,
+          "sentences": [
+            {
+              "end": 224.52,
+              "text": "It's raining.",
+              "start": 223.72
+            },
+            {
+              "end": 225.26001,
+              "text": "Are you angry?",
+              "start": 224.52
+            },
+            {
+              "end": 229.095,
+              "text": "It's dinner time.",
+              "start": 227.41501
+            },
+            {
+              "end": 229.91501,
+              "text": "Are you hungry?",
+              "start": 229.095
+            }
+          ]
+        },
+        {
+          "end": 230.635,
+          "start": 229.495,
+          "channel": 1,
+          "num_words": 2,
+          "sentences": [
+            {
+              "end": 229.995,
+              "text": "Right.",
+              "start": 229.495
+            },
+            {
+              "end": 230.635,
+              "text": "Mhmm.",
+              "start": 230.135
+            }
+          ]
+        },
+        {
+          "end": 253.48,
+          "start": 232.455,
+          "channel": 0,
+          "num_words": 25,
+          "sentences": [
+            {
+              "end": 233.91501,
+              "text": "Let's go for a walk.",
+              "start": 232.455
+            },
+            {
+              "end": 238.23999,
+              "text": "It isn't late.",
+              "start": 237.02
+            },
+            {
+              "end": 241.04,
+              "text": "Let's go for a walk.",
+              "start": 239.42
+            },
+            {
+              "end": 243.51999,
+              "text": "I can't wait to see the movie.",
+              "start": 241.34
+            },
+            {
+              "end": 253.48,
+              "text": "It is a is it?",
+              "start": 251.285
+            }
+          ]
+        },
+        {
+          "end": 265.065,
+          "start": 254.1,
+          "channel": 0,
+          "num_words": 12,
+          "sentences": [
+            {
+              "end": 254.6,
+              "text": "Okay.",
+              "start": 254.1
+            },
+            {
+              "end": 260.92,
+              "text": "Your birthday, you can't eat cook today.",
+              "start": 257.62
+            },
+            {
+              "end": 265.065,
+              "text": "It's not your birthday.",
+              "start": 263.525
+            }
+          ]
+        },
+        {
+          "end": 269.105,
+          "start": 265.48502,
+          "channel": 1,
+          "num_words": 10,
+          "sentences": [
+            {
+              "end": 265.885,
+              "text": "Yes.",
+              "start": 265.48502
+            },
+            {
+              "end": 267.345,
+              "text": "It's not your birthday.",
+              "start": 265.885
+            },
+            {
+              "end": 269.105,
+              "text": "It's not your birthday, actually.",
+              "start": 267.48502
+            }
+          ]
+        },
+        {
+          "end": 269.87,
+          "start": 269.37,
+          "channel": 0,
+          "num_words": 1,
+          "sentences": [
+            {
+              "end": 269.87,
+              "text": "Okay.",
+              "start": 269.37
+            }
+          ]
+        },
+        {
+          "end": 285.805,
+          "start": 283.785,
+          "channel": 1,
+          "num_words": 3,
+          "sentences": [
+            {
+              "end": 285.805,
+              "text": "In at in.",
+              "start": 283.785
+            }
+          ]
+        },
+        {
+          "end": 299.245,
+          "start": 296.665,
+          "channel": 0,
+          "num_words": 5,
+          "sentences": [
+            {
+              "end": 297.165,
+              "text": "Mhmm.",
+              "start": 296.665
+            },
+            {
+              "end": 299.245,
+              "text": "You only need this.",
+              "start": 297.865
+            }
+          ]
+        }
+      ],
+      "transcript": "\nChannel 0: Ryan doesn't have always doesn't always have. Right? Doesn't always have. Okay.\n\nChannel 1: Zapsha is does in this spreadsheet, always.\n\nChannel 0: Mhmm. Okay. Ryan doesn't always have breakfast. Sometimes, he only drinks coffee,\n\nChannel 1: Mhmm. Mhmm.\n\nChannel 0: Which had Lisa sometimes goes out with friends. She never goes out alone. Lisa Lisa?\n\nChannel 1: Lisa. Yeah. Lisa.\n\nChannel 0: Okay. I I always have lunch in the office. I never eat at home.\n\nChannel 1: Mhmm. Very good. Very good. Not that I'm I'm really I'm really content with, what you're doing. Mhmm.\n\nAnd do. Questions with do. Do you? Yes. I do.\n\nDo you? No. I don't.\n\nChannel 0: Do you know my friends do you know my friend, Donna? No. I I don't. Does, does Donna like watching movies? Yes.\n\nShe she does.\n\nChannel 1: Mhmm. Very good. Very good. Mhmm.\n\nChannel 0: Do the children enjoy their food? Swetta, Swetta does, but Hillary doesn't.\n\nChannel 1: Mhmm. Very good. Very good.\n\nChannel 0: Do you do you do you have, do you have English class today? No. We we don't.\n\nChannel 1: Brilliant. Very\n\nChannel 0: Does does,\n\nChannel 1: good.\n\nChannel 0: does he go to football does he go to football practice every day? No. He\n\nChannel 1: Mhmm.\n\nChannel 0: doesn't. The doesn't.\n\nChannel 1: Mhmm.\n\nChannel 0: Dot\n\nChannel 1: Mhmm.\n\nChannel 0: dot dot dot.\n\nChannel 1: Very good. Very good. Yeah. Do do not does not. Mhmm.\n\nTell us Benjie's subject pronoun\n\nChannel 0: What's, the weather like today? It's training.\n\nChannel 1: Okay. Mhmm.\n\nChannel 0: Okay.\n\nChannel 1: Some some\n\nChannel 0: It's raining. Are you angry? It's dinner time. Are you hungry?\n\nChannel 1: Right. Mhmm.\n\nChannel 0: Let's go for a walk. It isn't late. Let's go for a walk. I can't wait to see the movie. It is a is it?\n\nOkay. Your birthday, you can't eat cook today. It's not your birthday.\n\nChannel 1: Yes. It's not your birthday. It's not your birthday, actually.\n\nChannel 0: Okay.\n\nChannel 1: In at in.\n\nChannel 0: Mhmm. You only need this."
+    }
+  }
+}

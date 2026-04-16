@@ -1,0 +1,2783 @@
+{
+  "source": "data/preprocessed/Student-1/lesson-3/",
+  "student": "Student-1",
+  "lesson": "lesson-3",
+  "partition_method": "ai_context_chunker_v14",
+  "paragraphs": [
+    {
+      "paragraph_id": 1,
+      "label": "Weather improvement and choosing a topic to discuss",
+      "conversation_boolean": true,
+      "word_start_id": 1,
+      "word_end_id": 201,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 1,
+          "word_end_id": 1,
+          "text": "Hi."
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 2,
+          "word_end_id": 2,
+          "text": "Hello?"
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 3,
+          "word_end_id": 3,
+          "text": "Hey."
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 4,
+          "word_end_id": 4,
+          "text": "Great."
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 5,
+          "word_end_id": 5,
+          "text": "Great."
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 6,
+          "word_end_id": 8,
+          "text": "I'm doing great."
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 9,
+          "word_end_id": 10,
+          "text": "And you?"
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 11,
+          "word_end_id": 13,
+          "text": "How are you?"
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 14,
+          "word_end_id": 14,
+          "text": "Okay."
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 15,
+          "word_end_id": 17,
+          "text": "Could you repeat?"
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 18,
+          "word_end_id": 26,
+          "text": "Because I the weather the the weather is great."
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 27,
+          "word_end_id": 44,
+          "text": "It has it has improved because in the during the winter, it was it was was very cold."
+        },
+        {
+          "sentence_index": 13,
+          "word_start_id": 45,
+          "word_end_id": 45,
+          "text": "Yeah?"
+        },
+        {
+          "sentence_index": 14,
+          "word_start_id": 46,
+          "word_end_id": 47,
+          "text": "Very cold."
+        },
+        {
+          "sentence_index": 15,
+          "word_start_id": 48,
+          "word_end_id": 51,
+          "text": "Now it it improved."
+        },
+        {
+          "sentence_index": 16,
+          "word_start_id": 52,
+          "word_end_id": 61,
+          "text": "So so I'm happy because we have a sunny day."
+        },
+        {
+          "sentence_index": 17,
+          "word_start_id": 62,
+          "word_end_id": 62,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 18,
+          "word_start_id": 63,
+          "word_end_id": 66,
+          "text": "I choose this one."
+        },
+        {
+          "sentence_index": 19,
+          "word_start_id": 67,
+          "word_end_id": 67,
+          "text": "Mhmm."
+        },
+        {
+          "sentence_index": 20,
+          "word_start_id": 68,
+          "word_end_id": 79,
+          "text": "I thought that it would be very interesting to to to speak."
+        },
+        {
+          "sentence_index": 21,
+          "word_start_id": 80,
+          "word_end_id": 80,
+          "text": "Okay."
+        },
+        {
+          "sentence_index": 22,
+          "word_start_id": 81,
+          "word_end_id": 83,
+          "text": "One moment, please."
+        },
+        {
+          "sentence_index": 23,
+          "word_start_id": 84,
+          "word_end_id": 88,
+          "text": "How notifications hurt your concentration?"
+        },
+        {
+          "sentence_index": 24,
+          "word_start_id": 89,
+          "word_end_id": 118,
+          "text": "Constant digital constant constant digital notifications, emails, news outlets, and text messages from friends are a come are are a common distraction when we are trying to work or study."
+        },
+        {
+          "sentence_index": 25,
+          "word_start_id": 119,
+          "word_end_id": 133,
+          "text": "In fact, getting a single smartphone notification could disrupt your concentration for around seven seconds."
+        },
+        {
+          "sentence_index": 26,
+          "word_start_id": 134,
+          "word_end_id": 168,
+          "text": "That's according to a recent study published in computers in human behavior in which behavior behavior in which 118 university students were split into three groups to take part in Stroop takes tasks tasks tasks."
+        },
+        {
+          "sentence_index": 27,
+          "word_start_id": 169,
+          "word_end_id": 188,
+          "text": "During Stroop tasks, participations are shown the word for a color, but the font will be in a different color."
+        },
+        {
+          "sentence_index": 28,
+          "word_start_id": 189,
+          "word_end_id": 201,
+          "text": "For example, they will see the word green but written in red letters."
+        }
+      ]
+    },
+    {
+      "paragraph_id": 2,
+      "label": "None",
+      "conversation_boolean": false,
+      "word_start_id": 202,
+      "word_end_id": 440,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 202,
+          "word_end_id": 213,
+          "text": "But written but written in red letters but written in red letters."
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 214,
+          "word_end_id": 241,
+          "text": "Participate participants have to name the color of the letters while ignoring the word they spell, which takes mental effort and becomes more difficult if they lose focus."
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 242,
+          "word_end_id": 251,
+          "text": "Becomes becomes and becomes more difficult if they lose focus."
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 252,
+          "word_end_id": 277,
+          "text": "For the for this experiment for this experiment, the researchers set up these true tasks, on a computer with an interface that, looked like an iPhone."
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 278,
+          "word_end_id": 292,
+          "text": "As they did the tasks, participate participants would occasionally see notifications from their occasionally occasionally."
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 293,
+          "word_end_id": 309,
+          "text": "They would occasionally see notifications from their most used phones phone apps appear on their computer screen."
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 310,
+          "word_end_id": 323,
+          "text": "One group was told that their smartphones were actually signed signed signed the computer."
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 324,
+          "word_end_id": 324,
+          "text": "How?"
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 325,
+          "word_end_id": 326,
+          "text": "Is it?"
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 327,
+          "word_end_id": 327,
+          "text": "Synced."
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 328,
+          "word_end_id": 328,
+          "text": "Synced."
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 329,
+          "word_end_id": 329,
+          "text": "Okay."
+        },
+        {
+          "sentence_index": 13,
+          "word_start_id": 330,
+          "word_end_id": 333,
+          "text": "Synced to the computer."
+        },
+        {
+          "sentence_index": 14,
+          "word_start_id": 334,
+          "word_end_id": 346,
+          "text": "One group was told that their smartphones were actually synced to the computer."
+        },
+        {
+          "sentence_index": 15,
+          "word_start_id": 347,
+          "word_end_id": 361,
+          "text": "So they believed that the notifications they got on the computer were real and personal."
+        },
+        {
+          "sentence_index": 16,
+          "word_start_id": 362,
+          "word_end_id": 375,
+          "text": "The next group was told that any notification they saw were for someone else."
+        },
+        {
+          "sentence_index": 17,
+          "word_start_id": 376,
+          "word_end_id": 396,
+          "text": "And the last group's notifications were blurred, so they would see a pop out pop up, but couldn't read any information."
+        },
+        {
+          "sentence_index": 18,
+          "word_start_id": 397,
+          "word_end_id": 425,
+          "text": "The researchers found that just one notification of any type could slow down a participant's cognitive processing for around seven seconds, slowing the action time on the stroke tasks."
+        },
+        {
+          "sentence_index": 19,
+          "word_start_id": 426,
+          "word_end_id": 436,
+          "text": "But the effect was particularly strong among those who fought fought."
+        },
+        {
+          "sentence_index": 20,
+          "word_start_id": 437,
+          "word_end_id": 440,
+          "text": "They were they were"
+        }
+      ]
+    },
+    {
+      "paragraph_id": 3,
+      "label": "Discussing how notifications hurt concentration and personal habits",
+      "conversation_boolean": true,
+      "word_start_id": 441,
+      "word_end_id": 641,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 441,
+          "word_end_id": 443,
+          "text": "seeing fought fought."
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 444,
+          "word_end_id": 455,
+          "text": "Who those who fought, they were seeing notifications from their own phone."
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 456,
+          "word_end_id": 479,
+          "text": "And the more they wanted to check a notification and the stronger the emotional response, the more, the more, their reaction time was delayed."
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 480,
+          "word_end_id": 487,
+          "text": "Seven sec might not seem like a lot."
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 488,
+          "word_end_id": 514,
+          "text": "However, Hippologt Fournier, one of the study authors told CPOST, Even short disruption when repeated dose dozens or hundreds of time per day may meaningfully affect concentration"
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 515,
+          "word_end_id": 515,
+          "text": "and"
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 516,
+          "word_end_id": 516,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 517,
+          "word_end_id": 517,
+          "text": "Mhmm."
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 518,
+          "word_end_id": 518,
+          "text": "Activity."
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 519,
+          "word_end_id": 520,
+          "text": "Good activity."
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 521,
+          "word_end_id": 545,
+          "text": "I I thought that it would be great to discuss because in the world that we are living now, there are a lot of notifications."
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 546,
+          "word_end_id": 594,
+          "text": "There are a lot of disruptions that we can encounter, and and it would be great if we were more conscious about it because because it can cause a lot of it can it can cause it can cause a lot of issues when it comes to being present,"
+        },
+        {
+          "sentence_index": 13,
+          "word_start_id": 595,
+          "word_end_id": 600,
+          "text": "yeah, in in in our lives."
+        },
+        {
+          "sentence_index": 14,
+          "word_start_id": 601,
+          "word_end_id": 622,
+          "text": "I would say that I don't get interrupted by notifications because a few years ago, I turned out turned off my notifications."
+        },
+        {
+          "sentence_index": 15,
+          "word_start_id": 623,
+          "word_end_id": 641,
+          "text": "So I I saw when I was younger that it was causing a lot of problems when it comes"
+        }
+      ]
+    },
+    {
+      "paragraph_id": 4,
+      "label": "Turning off phone notifications to improve focus",
+      "conversation_boolean": true,
+      "word_start_id": 642,
+      "word_end_id": 889,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 642,
+          "word_end_id": 659,
+          "text": "causing when it was causing a lot of problems when it comes to being focused on my tasks."
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 660,
+          "word_end_id": 672,
+          "text": "And I decided to to to turn off every notification from my phone."
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 673,
+          "word_end_id": 678,
+          "text": "So I don't get any notification."
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 679,
+          "word_end_id": 691,
+          "text": "I my phone, when I I'm receiving a call, my phone can zip."
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 692,
+          "word_end_id": 692,
+          "text": "No."
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 693,
+          "word_end_id": 699,
+          "text": "It can, yeah, sort out sort out."
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 700,
+          "word_end_id": 716,
+          "text": "So I I will notice it, but I consider that when I get called Vibrate or vibrate."
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 717,
+          "word_end_id": 717,
+          "text": "Vibrate."
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 718,
+          "word_end_id": 718,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 719,
+          "word_end_id": 719,
+          "text": "Vibrate."
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 720,
+          "word_end_id": 720,
+          "text": "So"
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 721,
+          "word_end_id": 721,
+          "text": "but"
+        },
+        {
+          "sentence_index": 13,
+          "word_start_id": 722,
+          "word_end_id": 750,
+          "text": "but but I I find it great because I consider that when I get a call, it's probably something more important that any notification from Facebook, from from Instagram."
+        },
+        {
+          "sentence_index": 14,
+          "word_start_id": 751,
+          "word_end_id": 772,
+          "text": "So so I I did it, and I if I if I could get back in time, I I didn't check anything."
+        },
+        {
+          "sentence_index": 15,
+          "word_start_id": 773,
+          "word_end_id": 795,
+          "text": "I think it helped me a lot when it comes to being concentrated, but it's not that now I'm concentrated what in 100%."
+        },
+        {
+          "sentence_index": 16,
+          "word_start_id": 796,
+          "word_end_id": 808,
+          "text": "I'm struggling with it sometimes, but it helped me a lot, I think."
+        },
+        {
+          "sentence_index": 17,
+          "word_start_id": 809,
+          "word_end_id": 844,
+          "text": "In sense that sometimes, for example, when I know that that I will get informations about about import situations that are important in my life, and I and I'm looking forward I'm looking forward to it."
+        },
+        {
+          "sentence_index": 18,
+          "word_start_id": 845,
+          "word_end_id": 854,
+          "text": "I I used to I used to scroll my phone."
+        },
+        {
+          "sentence_index": 19,
+          "word_start_id": 855,
+          "word_end_id": 859,
+          "text": "So, like, searching notifications sometimes."
+        },
+        {
+          "sentence_index": 20,
+          "word_start_id": 860,
+          "word_end_id": 872,
+          "text": "So I it's it has shown me that I still need to improve."
+        },
+        {
+          "sentence_index": 21,
+          "word_start_id": 873,
+          "word_end_id": 889,
+          "text": "But as I told you, this situation helped me a lot that I turn off my notifications."
+        }
+      ]
+    },
+    {
+      "paragraph_id": 5,
+      "label": "Benefits of turning off phone notifications for concentration",
+      "conversation_boolean": true,
+      "word_start_id": 890,
+      "word_end_id": 1102,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 890,
+          "word_end_id": 904,
+          "text": "It's one step to to achieve my goal, let's say, if it is a goal."
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 905,
+          "word_end_id": 905,
+          "text": "Yeah?"
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 906,
+          "word_end_id": 926,
+          "text": "When I started to to get off my notifications, I felt this this sensation this sensation of of of losing something."
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 927,
+          "word_end_id": 948,
+          "text": "But I but now I consider that if something is really important something is really important, someone will will get to me."
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 949,
+          "word_end_id": 949,
+          "text": "Yeah?"
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 950,
+          "word_end_id": 952,
+          "text": "But we'll contact"
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 953,
+          "word_end_id": 953,
+          "text": "yeah."
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 954,
+          "word_end_id": 975,
+          "text": "But but when what we nowadays, we have a lot of notifications about Use or situations that's that are not so important."
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 976,
+          "word_end_id": 976,
+          "text": "Yes?"
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 977,
+          "word_end_id": 996,
+          "text": "So the world creates a lot of informations that that are that are that are unnecessary to to our lives."
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 997,
+          "word_end_id": 1023,
+          "text": "So if I if I could eliminate if I could get off, let's say, 40% of this type of information, I think it was a great choice."
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 1024,
+          "word_end_id": 1024,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 13,
+          "word_start_id": 1025,
+          "word_end_id": 1046,
+          "text": "It's difficult to to to say, but one hour, two hours, it depends on day because because I've never thought about it."
+        },
+        {
+          "sentence_index": 14,
+          "word_start_id": 1047,
+          "word_end_id": 1063,
+          "text": "But now I use my phone, first of all, to to get more informations about language learning."
+        },
+        {
+          "sentence_index": 15,
+          "word_start_id": 1064,
+          "word_end_id": 1067,
+          "text": "For example, I Information."
+        },
+        {
+          "sentence_index": 16,
+          "word_start_id": 1068,
+          "word_end_id": 1071,
+          "text": "To get more information."
+        },
+        {
+          "sentence_index": 17,
+          "word_start_id": 1072,
+          "word_end_id": 1100,
+          "text": "To get more information about what I really need, and I think I because of that I I don't lose time that I would lose if I reinstall notifications."
+        },
+        {
+          "sentence_index": 18,
+          "word_start_id": 1101,
+          "word_end_id": 1102,
+          "text": "You know?"
+        }
+      ]
+    },
+    {
+      "paragraph_id": 6,
+      "label": "Not using phone notifications and Twitter usage habits",
+      "conversation_boolean": true,
+      "word_start_id": 1103,
+      "word_end_id": 1302,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 1103,
+          "word_end_id": 1105,
+          "text": "I don't know."
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 1106,
+          "word_end_id": 1124,
+          "text": "I turned out my notifications, like, five or six years ago, and I've never thought about about coming back."
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 1125,
+          "word_end_id": 1125,
+          "text": "Yeah?"
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 1126,
+          "word_end_id": 1135,
+          "text": "So so if it's not necessary, I don't consider it."
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 1136,
+          "word_end_id": 1148,
+          "text": "If in the future, it is necessary, I will turn on my notifications."
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 1149,
+          "word_end_id": 1163,
+          "text": "But in this moment, I I have not encountered any reason to to to return."
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 1164,
+          "word_end_id": 1164,
+          "text": "Yeah?"
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 1165,
+          "word_end_id": 1181,
+          "text": "So I've been using it or I've been not using it for, like, say, six six years."
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 1182,
+          "word_end_id": 1191,
+          "text": "And and I wish it could it could go ahead."
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 1192,
+          "word_end_id": 1192,
+          "text": "Yeah?"
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 1193,
+          "word_end_id": 1200,
+          "text": "I use first of all, I use Twitter."
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 1201,
+          "word_end_id": 1212,
+          "text": "It is named, like, now how can we do not x x."
+        },
+        {
+          "sentence_index": 13,
+          "word_start_id": 1213,
+          "word_end_id": 1237,
+          "text": "So if I try to I try I try to I try to be conscious about it and don't use a lot of of Twitter."
+        },
+        {
+          "sentence_index": 14,
+          "word_start_id": 1238,
+          "word_end_id": 1253,
+          "text": "But I know I noticed that if I have a free time and I don't have"
+        },
+        {
+          "sentence_index": 15,
+          "word_start_id": 1254,
+          "word_end_id": 1270,
+          "text": "and I I do have not nothing to do, I I something start to to use Twitter."
+        },
+        {
+          "sentence_index": 16,
+          "word_start_id": 1271,
+          "word_end_id": 1300,
+          "text": "And if you are you can you can get lost in this, you know, using it, reading for forty minutes, one hour, and it don't help you at the end."
+        },
+        {
+          "sentence_index": 17,
+          "word_start_id": 1301,
+          "word_end_id": 1301,
+          "text": "Yeah?"
+        },
+        {
+          "sentence_index": 18,
+          "word_start_id": 1302,
+          "word_end_id": 1302,
+          "text": "It"
+        }
+      ]
+    },
+    {
+      "paragraph_id": 7,
+      "label": "Social media habits, focus times, and working from home",
+      "conversation_boolean": true,
+      "word_start_id": 1303,
+      "word_end_id": 1514,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 1303,
+          "word_end_id": 1309,
+          "text": "does it doesn't it doesn't help you."
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 1310,
+          "word_end_id": 1316,
+          "text": "It doesn't help you at the end."
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 1317,
+          "word_end_id": 1326,
+          "text": "I think I can focus the best after waking up."
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 1327,
+          "word_end_id": 1327,
+          "text": "Yeah?"
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 1328,
+          "word_end_id": 1331,
+          "text": "I'm more focused mhmm."
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 1332,
+          "word_end_id": 1356,
+          "text": "Because in the night, for example, I can focus because I noticed that sometimes I I learn languages, for example, and I can be concentrated."
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 1357,
+          "word_end_id": 1367,
+          "text": "But but for me, it's it's more easy to do it."
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 1368,
+          "word_end_id": 1369,
+          "text": "It's easy."
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 1370,
+          "word_end_id": 1371,
+          "text": "It's easier."
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 1372,
+          "word_end_id": 1372,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 1373,
+          "word_end_id": 1379,
+          "text": "Easier to do it during the morning."
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 1380,
+          "word_end_id": 1380,
+          "text": "K?"
+        },
+        {
+          "sentence_index": 13,
+          "word_start_id": 1381,
+          "word_end_id": 1394,
+          "text": "Then I don't I don't because when I working now I'm working from home."
+        },
+        {
+          "sentence_index": 14,
+          "word_start_id": 1395,
+          "word_end_id": 1418,
+          "text": "So I have a lot of frames in my when I have both spare time and the time in which I need to work."
+        },
+        {
+          "sentence_index": 15,
+          "word_start_id": 1419,
+          "word_end_id": 1424,
+          "text": "So it depends on the situation."
+        },
+        {
+          "sentence_index": 16,
+          "word_start_id": 1425,
+          "word_end_id": 1445,
+          "text": "It it doesn't depend only on my planifications, but but I try to be concentrated when I need need to work."
+        },
+        {
+          "sentence_index": 17,
+          "word_start_id": 1446,
+          "word_end_id": 1472,
+          "text": "And if I have a spare time to to do something different, I I used to not not use a lot of applications to to waste time."
+        },
+        {
+          "sentence_index": 18,
+          "word_start_id": 1473,
+          "word_end_id": 1473,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 19,
+          "word_start_id": 1474,
+          "word_end_id": 1475,
+          "text": "You know?"
+        },
+        {
+          "sentence_index": 20,
+          "word_start_id": 1476,
+          "word_end_id": 1488,
+          "text": "For me, sometimes it's hard and sometimes doesn't in sense that it isn't."
+        },
+        {
+          "sentence_index": 21,
+          "word_start_id": 1489,
+          "word_end_id": 1490,
+          "text": "It isn't."
+        },
+        {
+          "sentence_index": 22,
+          "word_start_id": 1491,
+          "word_end_id": 1492,
+          "text": "It isn't."
+        },
+        {
+          "sentence_index": 23,
+          "word_start_id": 1493,
+          "word_end_id": 1511,
+          "text": "It's and sometimes it isn't in sense that when I sometimes I need to I need to use Excel,"
+        },
+        {
+          "sentence_index": 24,
+          "word_start_id": 1512,
+          "word_end_id": 1514,
+          "text": "yeah, as a"
+        }
+      ]
+    },
+    {
+      "paragraph_id": 8,
+      "label": "How distractions affect concentration during work and exams",
+      "conversation_boolean": true,
+      "word_start_id": 1515,
+      "word_end_id": 1732,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 1515,
+          "word_end_id": 1521,
+          "text": "as a program when it's it's very"
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 1522,
+          "word_end_id": 1547,
+          "text": "it's not very demanding, but and it's not very complicated, but you need to be concentrated, be focused on what you what you what you write,"
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 1548,
+          "word_end_id": 1552,
+          "text": "yeah, what you put generally."
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 1553,
+          "word_end_id": 1592,
+          "text": "And if I'm disrupted by not only by notifications, but by every situation, I need I need, like, four, five minutes to to get back and be really concentrated as as if, you know, as if I wasn't disrupted completely."
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 1593,
+          "word_end_id": 1593,
+          "text": "Mhmm."
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 1594,
+          "word_end_id": 1594,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 1595,
+          "word_end_id": 1601,
+          "text": "Because if you if you see I"
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 1602,
+          "word_end_id": 1636,
+          "text": "I guess that if you see that it's that someone called you during the class, you you notice it and you thinking about you are thinking about it during having a class, having a lesson."
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 1637,
+          "word_end_id": 1637,
+          "text": "Yeah?"
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 1638,
+          "word_end_id": 1649,
+          "text": "And it even if you you you don't want, it can disrupt."
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 1650,
+          "word_end_id": 1651,
+          "text": "Happens automatically."
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 1652,
+          "word_end_id": 1652,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 13,
+          "word_start_id": 1653,
+          "word_end_id": 1653,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 14,
+          "word_start_id": 1654,
+          "word_end_id": 1654,
+          "text": "Yes."
+        },
+        {
+          "sentence_index": 15,
+          "word_start_id": 1655,
+          "word_end_id": 1656,
+          "text": "I have."
+        },
+        {
+          "sentence_index": 16,
+          "word_start_id": 1657,
+          "word_end_id": 1697,
+          "text": "For example, I remember that when I was at school and I was supposed to to pass an exam, for example, I I remember that I that I felt that in my pocket, my phone was was, you know, was vibrating."
+        },
+        {
+          "sentence_index": 17,
+          "word_start_id": 1698,
+          "word_end_id": 1699,
+          "text": "Was vibrating."
+        },
+        {
+          "sentence_index": 18,
+          "word_start_id": 1700,
+          "word_end_id": 1726,
+          "text": "And even this sensation, it cows that I was thinking about it because I I couldn't check check out who who was who was calling to me."
+        },
+        {
+          "sentence_index": 19,
+          "word_start_id": 1727,
+          "word_end_id": 1732,
+          "text": "So I was disruptive disruptive disruptive."
+        }
+      ]
+    },
+    {
+      "paragraph_id": 9,
+      "label": "Phone distractions during school exams and scam calls",
+      "conversation_boolean": true,
+      "word_start_id": 1733,
+      "word_end_id": 1943,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 1733,
+          "word_end_id": 1767,
+          "text": "And in this moment, I need to be concentrated because it was a very complicated exam, and I lost, like I I lost, like, five or ten minutes and it max, if I'm not wrong."
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 1768,
+          "word_end_id": 1775,
+          "text": "So I've never been good at at yeah."
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 1776,
+          "word_end_id": 1798,
+          "text": "So to to pass every maths exam, I needed to be very concentrated, very prepared, and with every disruption that's that's occurs occurs."
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 1799,
+          "word_end_id": 1817,
+          "text": "At the end of the day, it was impossible to pass this exam because of a lot of distractions."
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 1818,
+          "word_end_id": 1841,
+          "text": "So it's a it has showed me that that that you need to be that even a small signal can can straight things down."
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 1842,
+          "word_end_id": 1842,
+          "text": "Yeah?"
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 1843,
+          "word_end_id": 1846,
+          "text": "Or or can no."
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 1847,
+          "word_end_id": 1848,
+          "text": "Can yeah."
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 1849,
+          "word_end_id": 1850,
+          "text": "Can no."
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 1851,
+          "word_end_id": 1854,
+          "text": "Can can cause problems."
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 1855,
+          "word_end_id": 1855,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 1856,
+          "word_end_id": 1856,
+          "text": "Mhmm."
+        },
+        {
+          "sentence_index": 13,
+          "word_start_id": 1857,
+          "word_end_id": 1860,
+          "text": "Oh, mixed everything up."
+        },
+        {
+          "sentence_index": 14,
+          "word_start_id": 1861,
+          "word_end_id": 1861,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 15,
+          "word_start_id": 1862,
+          "word_end_id": 1862,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 16,
+          "word_start_id": 1863,
+          "word_end_id": 1863,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 17,
+          "word_start_id": 1864,
+          "word_end_id": 1864,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 18,
+          "word_start_id": 1865,
+          "word_end_id": 1883,
+          "text": "And in in Poland, in this now we received a lot of calls from from not not thieves, but"
+        },
+        {
+          "sentence_index": 19,
+          "word_start_id": 1884,
+          "word_end_id": 1899,
+          "text": "but, you know, people who who has received your number and try to scammer oh, scammers."
+        },
+        {
+          "sentence_index": 20,
+          "word_start_id": 1900,
+          "word_end_id": 1900,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 21,
+          "word_start_id": 1901,
+          "word_end_id": 1926,
+          "text": "Scammers from from banks that that they they say that they they are working in in a in a bank and your account has lost everything."
+        },
+        {
+          "sentence_index": 22,
+          "word_start_id": 1927,
+          "word_end_id": 1942,
+          "text": "You need to you need to help them to giving giving them your password and everything."
+        },
+        {
+          "sentence_index": 23,
+          "word_start_id": 1943,
+          "word_end_id": 1943,
+          "text": "Yeah?"
+        }
+      ]
+    },
+    {
+      "paragraph_id": 10,
+      "label": "Scam calls in Poland and messaging app preferences",
+      "conversation_boolean": true,
+      "word_start_id": 1944,
+      "word_end_id": 2145,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 1944,
+          "word_end_id": 1955,
+          "text": "And so so we received a lot of a lot of calls."
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 1956,
+          "word_end_id": 1976,
+          "text": "So now if I see a call from from a number that I I don't know, I I don't I don't."
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 1977,
+          "word_end_id": 2000,
+          "text": "Because I consider that if someone wants to contact with me, he will probably give me a message if I don't respond, you know."
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 2001,
+          "word_end_id": 2008,
+          "text": "And if it's a scam, they they don't."
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 2009,
+          "word_end_id": 2009,
+          "text": "Yeah?"
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 2010,
+          "word_end_id": 2011,
+          "text": "You know."
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 2012,
+          "word_end_id": 2024,
+          "text": "Messages from from from my phone, like, not from Facebook, for example, but"
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 2025,
+          "word_end_id": 2025,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 2026,
+          "word_end_id": 2041,
+          "text": "I use in Poland, we use we tend to use more messenger from Facebook than WhatsApp."
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 2042,
+          "word_end_id": 2048,
+          "text": "WhatsApp exists, but it's not as popular."
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 2049,
+          "word_end_id": 2053,
+          "text": "I don't know the reason."
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 2054,
+          "word_end_id": 2072,
+          "text": "I don't we we started, like, ten or fifteen years ago with Facebook, and people was get used to."
+        },
+        {
+          "sentence_index": 13,
+          "word_start_id": 2073,
+          "word_end_id": 2073,
+          "text": "Yeah?"
+        },
+        {
+          "sentence_index": 14,
+          "word_start_id": 2074,
+          "word_end_id": 2079,
+          "text": "People people how can I say?"
+        },
+        {
+          "sentence_index": 15,
+          "word_start_id": 2080,
+          "word_end_id": 2083,
+          "text": "I got used to."
+        },
+        {
+          "sentence_index": 16,
+          "word_start_id": 2084,
+          "word_end_id": 2084,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 17,
+          "word_start_id": 2085,
+          "word_end_id": 2109,
+          "text": "People got used to, and and now I I noticed that, for example, in Spain or Italy, people use, primarily, WhatsApp in Ukraine or Russia."
+        },
+        {
+          "sentence_index": 18,
+          "word_start_id": 2110,
+          "word_end_id": 2110,
+          "text": "Primarily."
+        },
+        {
+          "sentence_index": 19,
+          "word_start_id": 2111,
+          "word_end_id": 2111,
+          "text": "Primary."
+        },
+        {
+          "sentence_index": 20,
+          "word_start_id": 2112,
+          "word_end_id": 2116,
+          "text": "In Ukraine or Russia Diagram."
+        },
+        {
+          "sentence_index": 21,
+          "word_start_id": 2117,
+          "word_end_id": 2117,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 22,
+          "word_start_id": 2118,
+          "word_end_id": 2144,
+          "text": "They use in Poland, people use messenger from Facebook and and say, I have both WhatsApp and Telegram, but but I converse with five, six people regularly."
+        },
+        {
+          "sentence_index": 23,
+          "word_start_id": 2145,
+          "word_end_id": 2145,
+          "text": "Yes?"
+        }
+      ]
+    },
+    {
+      "paragraph_id": 11,
+      "label": "Messaging apps usage, education on digital notifications, learning vocabulary",
+      "conversation_boolean": true,
+      "word_start_id": 2146,
+      "word_end_id": 2380,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 2146,
+          "word_end_id": 2146,
+          "text": "Regularly."
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 2147,
+          "word_end_id": 2147,
+          "text": "Regularly."
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 2148,
+          "word_end_id": 2148,
+          "text": "Regularly."
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 2149,
+          "word_end_id": 2188,
+          "text": "And in your in your country, what peep do people do people use messenger or what's I don't see I'm not I don't know because when I was at school, I didn't receive a lot of lessons about this problem."
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 2189,
+          "word_end_id": 2195,
+          "text": "I don't know if it has changed."
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 2196,
+          "word_end_id": 2196,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 2197,
+          "word_end_id": 2197,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 2198,
+          "word_end_id": 2207,
+          "text": "At the time, people didn't think it's it's a problem."
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 2208,
+          "word_end_id": 2216,
+          "text": "Now it should it should have changed, I guess."
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 2217,
+          "word_end_id": 2270,
+          "text": "But but it depends on the education because if education is is aware of this, I think they will they will teach people how to be to be more more more aware, yeah, of it because it's not only about all their people that's that's that's don't get used to this type of app."
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 2271,
+          "word_end_id": 2274,
+          "text": "I I'm not sure."
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 2275,
+          "word_end_id": 2277,
+          "text": "I'm not sure."
+        },
+        {
+          "sentence_index": 13,
+          "word_start_id": 2278,
+          "word_end_id": 2278,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 14,
+          "word_start_id": 2279,
+          "word_end_id": 2279,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 15,
+          "word_start_id": 2280,
+          "word_end_id": 2282,
+          "text": "I have it."
+        },
+        {
+          "sentence_index": 16,
+          "word_start_id": 2283,
+          "word_end_id": 2283,
+          "text": "Mhmm."
+        },
+        {
+          "sentence_index": 17,
+          "word_start_id": 2284,
+          "word_end_id": 2284,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 18,
+          "word_start_id": 2285,
+          "word_end_id": 2292,
+          "text": "I have it in our in our chat."
+        },
+        {
+          "sentence_index": 19,
+          "word_start_id": 2293,
+          "word_end_id": 2293,
+          "text": "Adjust."
+        },
+        {
+          "sentence_index": 20,
+          "word_start_id": 2294,
+          "word_end_id": 2294,
+          "text": "Okay."
+        },
+        {
+          "sentence_index": 21,
+          "word_start_id": 2295,
+          "word_end_id": 2295,
+          "text": "Adjust."
+        },
+        {
+          "sentence_index": 22,
+          "word_start_id": 2296,
+          "word_end_id": 2299,
+          "text": "Now I I know."
+        },
+        {
+          "sentence_index": 23,
+          "word_start_id": 2300,
+          "word_end_id": 2310,
+          "text": "Adjust is like adjust to to a new to a new"
+        },
+        {
+          "sentence_index": 24,
+          "word_start_id": 2311,
+          "word_end_id": 2311,
+          "text": "yeah."
+        },
+        {
+          "sentence_index": 25,
+          "word_start_id": 2312,
+          "word_end_id": 2312,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 26,
+          "word_start_id": 2313,
+          "word_end_id": 2313,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 27,
+          "word_start_id": 2314,
+          "word_end_id": 2314,
+          "text": "Adjust."
+        },
+        {
+          "sentence_index": 28,
+          "word_start_id": 2315,
+          "word_end_id": 2315,
+          "text": "Okay."
+        },
+        {
+          "sentence_index": 29,
+          "word_start_id": 2316,
+          "word_end_id": 2316,
+          "text": "Adjustment."
+        },
+        {
+          "sentence_index": 30,
+          "word_start_id": 2317,
+          "word_end_id": 2317,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 31,
+          "word_start_id": 2318,
+          "word_end_id": 2318,
+          "text": "Adjust."
+        },
+        {
+          "sentence_index": 32,
+          "word_start_id": 2319,
+          "word_end_id": 2319,
+          "text": "Adjustment."
+        },
+        {
+          "sentence_index": 33,
+          "word_start_id": 2320,
+          "word_end_id": 2320,
+          "text": "Okay."
+        },
+        {
+          "sentence_index": 34,
+          "word_start_id": 2321,
+          "word_end_id": 2324,
+          "text": "I know it now."
+        },
+        {
+          "sentence_index": 35,
+          "word_start_id": 2325,
+          "word_end_id": 2325,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 36,
+          "word_start_id": 2326,
+          "word_end_id": 2327,
+          "text": "It's Yeah."
+        },
+        {
+          "sentence_index": 37,
+          "word_start_id": 2328,
+          "word_end_id": 2346,
+          "text": "As I told you, the notifications now are not with me, so they they couldn't disrupt any important meeting."
+        },
+        {
+          "sentence_index": 38,
+          "word_start_id": 2347,
+          "word_end_id": 2380,
+          "text": "But as I as I told you about my school journey journey school exam when I when I was supposed to to pass it to being concentrated, and I couldn't because of the disruption."
+        }
+      ]
+    },
+    {
+      "paragraph_id": 12,
+      "label": "Impact of notifications on focus and device usage habits",
+      "conversation_boolean": true,
+      "word_start_id": 2381,
+      "word_end_id": 2590,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 2381,
+          "word_end_id": 2386,
+          "text": "It caused a lot of problems."
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 2387,
+          "word_end_id": 2417,
+          "text": "But if I if I used notifications now, it would be it would be possible to to disrupt me because I I saw it in the future, but I was younger."
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 2418,
+          "word_end_id": 2421,
+          "text": "I was at school."
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 2422,
+          "word_end_id": 2424,
+          "text": "I didn't work."
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 2425,
+          "word_end_id": 2440,
+          "text": "So so let's say that I didn't have any oblique any important meetings, obligations, you know."
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 2441,
+          "word_end_id": 2456,
+          "text": "So even if it had happened, it would it wouldn't have this cost problems, you know."
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 2457,
+          "word_end_id": 2457,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 2458,
+          "word_end_id": 2477,
+          "text": "The premier First of all, it would be my phone because I get a lot of informations via my phone."
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 2478,
+          "word_end_id": 2492,
+          "text": "I don't use my laptop out of my work and out of my language learning."
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 2493,
+          "word_end_id": 2509,
+          "text": "Right now, I use laptop, but I'm not a person who who like, for example, playing games."
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 2510,
+          "word_end_id": 2522,
+          "text": "So I don't I don't use my laptop out of my my obligations."
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 2523,
+          "word_end_id": 2524,
+          "text": "So so,"
+        },
+        {
+          "sentence_index": 13,
+          "word_start_id": 2525,
+          "word_end_id": 2525,
+          "text": "yeah,"
+        },
+        {
+          "sentence_index": 14,
+          "word_start_id": 2526,
+          "word_end_id": 2535,
+          "text": "it's I don't have I have my personal lap laptop."
+        },
+        {
+          "sentence_index": 15,
+          "word_start_id": 2536,
+          "word_end_id": 2548,
+          "text": "Now I'm using it, and I'm laptop from my job to to work."
+        },
+        {
+          "sentence_index": 16,
+          "word_start_id": 2549,
+          "word_end_id": 2549,
+          "text": "Yeah?"
+        },
+        {
+          "sentence_index": 17,
+          "word_start_id": 2550,
+          "word_end_id": 2569,
+          "text": "So I have two laptops, but my personal laptop is used practically only to to Preply, yeah, in this moment."
+        },
+        {
+          "sentence_index": 18,
+          "word_start_id": 2570,
+          "word_end_id": 2571,
+          "text": "For Preply."
+        },
+        {
+          "sentence_index": 19,
+          "word_start_id": 2572,
+          "word_end_id": 2573,
+          "text": "For Preply."
+        },
+        {
+          "sentence_index": 20,
+          "word_start_id": 2574,
+          "word_end_id": 2574,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 21,
+          "word_start_id": 2575,
+          "word_end_id": 2577,
+          "text": "In this moment."
+        },
+        {
+          "sentence_index": 22,
+          "word_start_id": 2578,
+          "word_end_id": 2589,
+          "text": "Because as I told you, I don't play a lot of games."
+        },
+        {
+          "sentence_index": 23,
+          "word_start_id": 2590,
+          "word_end_id": 2590,
+          "text": "So"
+        }
+      ]
+    },
+    {
+      "paragraph_id": 13,
+      "label": "Laptop usage, gaming opinions, and digital disruption effects",
+      "conversation_boolean": true,
+      "word_start_id": 2591,
+      "word_end_id": 2824,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 2591,
+          "word_end_id": 2592,
+          "text": "it no."
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 2593,
+          "word_end_id": 2603,
+          "text": "I don't think it's a a waste of time at all."
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 2604,
+          "word_end_id": 2617,
+          "text": "If someone like, likes it, it likes it, it can it can be funny."
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 2618,
+          "word_end_id": 2627,
+          "text": "Like, for me, let learning playing with this is funny."
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 2628,
+          "word_end_id": 2640,
+          "text": "But I've never I've never been a person who who liked playing games."
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 2641,
+          "word_end_id": 2646,
+          "text": "It's was not my my passion."
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 2647,
+          "word_end_id": 2647,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 2648,
+          "word_end_id": 2673,
+          "text": "But but I don't think it's a waste of time if someone need if someone needs one or two hours per day to to to relax."
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 2674,
+          "word_end_id": 2674,
+          "text": "Yeah?"
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 2675,
+          "word_end_id": 2675,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 2676,
+          "word_end_id": 2680,
+          "text": "Because it can it can"
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 2681,
+          "word_end_id": 2681,
+          "text": "yeah."
+        },
+        {
+          "sentence_index": 13,
+          "word_start_id": 2682,
+          "word_end_id": 2687,
+          "text": "It can back up become become."
+        },
+        {
+          "sentence_index": 14,
+          "word_start_id": 2688,
+          "word_end_id": 2688,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 15,
+          "word_start_id": 2689,
+          "word_end_id": 2723,
+          "text": "It can become it can be it becomes very problematic if you play during the night and you you don't sleep and you it cow it can cause more problem in your in your life."
+        },
+        {
+          "sentence_index": 16,
+          "word_start_id": 2724,
+          "word_end_id": 2757,
+          "text": "I think so because because I have read a lot of investigations when investigate when investigators burst out this this opinion because it was it was shown, I think, that we are more disrupted."
+        },
+        {
+          "sentence_index": 17,
+          "word_start_id": 2758,
+          "word_end_id": 2788,
+          "text": "And even, for example, if we read a book if you read a book via your laptop or your smartphone, it's not the same if we if you use a book."
+        },
+        {
+          "sentence_index": 18,
+          "word_start_id": 2789,
+          "word_end_id": 2789,
+          "text": "Yeah?"
+        },
+        {
+          "sentence_index": 19,
+          "word_start_id": 2790,
+          "word_end_id": 2823,
+          "text": "A book like so it's it shows that that that our disruptions, whether do we use application, whether or not, has caused a lot of a lot of changes in in the recent years."
+        },
+        {
+          "sentence_index": 20,
+          "word_start_id": 2824,
+          "word_end_id": 2824,
+          "text": "Yeah?"
+        }
+      ]
+    },
+    {
+      "paragraph_id": 14,
+      "label": "TikTok vs YouTube, attention spans, and digital distractions",
+      "conversation_boolean": true,
+      "word_start_id": 2825,
+      "word_end_id": 3026,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 2825,
+          "word_end_id": 2837,
+          "text": "We've been we've been living with with with It's not in short area."
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 2838,
+          "word_end_id": 2857,
+          "text": "TikTok TikTok, you know, I saw one investigation or I had one opinion about TikTok that's comparing it to YouTube."
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 2858,
+          "word_end_id": 2864,
+          "text": "In YouTube, you have you On YouTube."
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 2865,
+          "word_end_id": 2878,
+          "text": "On you on YouTube, you have both videos one hours videos, one minute videos."
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 2879,
+          "word_end_id": 2879,
+          "text": "Yeah?"
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 2880,
+          "word_end_id": 2887,
+          "text": "But in YouTube, you you are on YouTube."
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 2888,
+          "word_end_id": 2889,
+          "text": "On YouTube."
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 2890,
+          "word_end_id": 2890,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 2891,
+          "word_end_id": 2892,
+          "text": "On YouTube."
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 2893,
+          "word_end_id": 2904,
+          "text": "On YouTube, you are supposed to choose what you want to watch."
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 2905,
+          "word_end_id": 2905,
+          "text": "Yeah?"
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 2906,
+          "word_end_id": 2910,
+          "text": "And on tick on TikTok."
+        },
+        {
+          "sentence_index": 13,
+          "word_start_id": 2911,
+          "word_end_id": 2911,
+          "text": "Yeah?"
+        },
+        {
+          "sentence_index": 14,
+          "word_start_id": 2912,
+          "word_end_id": 2916,
+          "text": "On TikTok, the algorithm decides."
+        },
+        {
+          "sentence_index": 15,
+          "word_start_id": 2917,
+          "word_end_id": 2928,
+          "text": "So you are more lazy, let's say, when it comes to choose."
+        },
+        {
+          "sentence_index": 16,
+          "word_start_id": 2929,
+          "word_end_id": 2940,
+          "text": "So it it cause more problems when it comes to your attention."
+        },
+        {
+          "sentence_index": 17,
+          "word_start_id": 2941,
+          "word_end_id": 2956,
+          "text": "And I don't like this type of videos that's that's It is too short for me."
+        },
+        {
+          "sentence_index": 18,
+          "word_start_id": 2957,
+          "word_end_id": 2974,
+          "text": "Like like, you know, not and they put a lot of information because they need to speak faster."
+        },
+        {
+          "sentence_index": 19,
+          "word_start_id": 2975,
+          "word_end_id": 2984,
+          "text": "It's a lot of a lot of noise for me."
+        },
+        {
+          "sentence_index": 20,
+          "word_start_id": 2985,
+          "word_end_id": 2993,
+          "text": "I've never been a fan of of of TikTok."
+        },
+        {
+          "sentence_index": 21,
+          "word_start_id": 2994,
+          "word_end_id": 2994,
+          "text": "Yeah?"
+        },
+        {
+          "sentence_index": 22,
+          "word_start_id": 2995,
+          "word_end_id": 3010,
+          "text": "Algorithm the the algorithm give you more information that that you would like to receive, not"
+        },
+        {
+          "sentence_index": 23,
+          "word_start_id": 3011,
+          "word_end_id": 3015,
+          "text": "so it's it is adjusted."
+        },
+        {
+          "sentence_index": 24,
+          "word_start_id": 3016,
+          "word_end_id": 3016,
+          "text": "Yeah?"
+        },
+        {
+          "sentence_index": 25,
+          "word_start_id": 3017,
+          "word_end_id": 3025,
+          "text": "It is adjusted to to your to your life."
+        },
+        {
+          "sentence_index": 26,
+          "word_start_id": 3026,
+          "word_end_id": 3026,
+          "text": "Yeah?"
+        }
+      ]
+    },
+    {
+      "paragraph_id": 15,
+      "label": "Personal discipline, sports habits, and having idols",
+      "conversation_boolean": true,
+      "word_start_id": 3027,
+      "word_end_id": 3234,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 3027,
+          "word_end_id": 3040,
+          "text": "It it don't it doesn't help when it comes to to to sync wider."
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 3041,
+          "word_end_id": 3041,
+          "text": "No."
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 3042,
+          "word_end_id": 3044,
+          "text": "Sync wider wider."
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 3045,
+          "word_end_id": 3046,
+          "text": "Sync wider."
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 3047,
+          "word_end_id": 3047,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 3048,
+          "word_end_id": 3048,
+          "text": "Yes."
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 3049,
+          "word_end_id": 3068,
+          "text": "I would say that that I'm a very disciplined person when it comes to things that really matter for me."
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 3069,
+          "word_end_id": 3076,
+          "text": "For example, I for example I don't know."
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 3077,
+          "word_end_id": 3083,
+          "text": "I I like I like doing sport."
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 3084,
+          "word_end_id": 3084,
+          "text": "No."
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 3085,
+          "word_end_id": 3106,
+          "text": "I like I like doing sport, and I try to do it every day to maintain my level of of of consistence."
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 3107,
+          "word_end_id": 3123,
+          "text": "When it comes to learning languages, I try to do it every day, and it's about discipline."
+        },
+        {
+          "sentence_index": 13,
+          "word_start_id": 3124,
+          "word_end_id": 3133,
+          "text": "But if I don't like and I don't like something"
+        },
+        {
+          "sentence_index": 14,
+          "word_start_id": 3134,
+          "word_end_id": 3142,
+          "text": "and I I must to do it, it depends."
+        },
+        {
+          "sentence_index": 15,
+          "word_start_id": 3143,
+          "word_end_id": 3145,
+          "text": "Must do it."
+        },
+        {
+          "sentence_index": 16,
+          "word_start_id": 3146,
+          "word_end_id": 3148,
+          "text": "Must do it."
+        },
+        {
+          "sentence_index": 17,
+          "word_start_id": 3149,
+          "word_end_id": 3152,
+          "text": "I must do it."
+        },
+        {
+          "sentence_index": 18,
+          "word_start_id": 3153,
+          "word_end_id": 3157,
+          "text": "And I must do it."
+        },
+        {
+          "sentence_index": 19,
+          "word_start_id": 3158,
+          "word_end_id": 3165,
+          "text": "It depends of importance of this this stuff."
+        },
+        {
+          "sentence_index": 20,
+          "word_start_id": 3166,
+          "word_end_id": 3166,
+          "text": "Yeah?"
+        },
+        {
+          "sentence_index": 21,
+          "word_start_id": 3167,
+          "word_end_id": 3179,
+          "text": "But I would consider myself as a small discipline person than but not."
+        },
+        {
+          "sentence_index": 22,
+          "word_start_id": 3180,
+          "word_end_id": 3180,
+          "text": "Mhmm."
+        },
+        {
+          "sentence_index": 23,
+          "word_start_id": 3181,
+          "word_end_id": 3192,
+          "text": "I've when I was younger when I was younger, I had more."
+        },
+        {
+          "sentence_index": 24,
+          "word_start_id": 3193,
+          "word_end_id": 3212,
+          "text": "Now I have people that I like to upset, but I I wouldn't say that I have an I idols."
+        },
+        {
+          "sentence_index": 25,
+          "word_start_id": 3213,
+          "word_end_id": 3213,
+          "text": "Yeah?"
+        },
+        {
+          "sentence_index": 26,
+          "word_start_id": 3214,
+          "word_end_id": 3214,
+          "text": "Idols."
+        },
+        {
+          "sentence_index": 27,
+          "word_start_id": 3215,
+          "word_end_id": 3215,
+          "text": "Idol."
+        },
+        {
+          "sentence_index": 28,
+          "word_start_id": 3216,
+          "word_end_id": 3233,
+          "text": "Because I like watching a lot of people, for example, or seeing, but it's not about being fascinated."
+        },
+        {
+          "sentence_index": 29,
+          "word_start_id": 3234,
+          "word_end_id": 3234,
+          "text": "Fascinate."
+        }
+      ]
+    },
+    {
+      "paragraph_id": 16,
+      "label": "Idols, discipline changes during teenage years",
+      "conversation_boolean": true,
+      "word_start_id": 3235,
+      "word_end_id": 3445,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 3235,
+          "word_end_id": 3235,
+          "text": "Fascinating."
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 3236,
+          "word_end_id": 3237,
+          "text": "Being fascinated."
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 3238,
+          "word_end_id": 3253,
+          "text": "So and to in your case, do you have anyone who who really who really like?"
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 3254,
+          "word_end_id": 3254,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 3255,
+          "word_end_id": 3257,
+          "text": "It's it's true."
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 3258,
+          "word_end_id": 3259,
+          "text": "It's true."
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 3260,
+          "word_end_id": 3260,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 3261,
+          "word_end_id": 3263,
+          "text": "It's it's true."
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 3264,
+          "word_end_id": 3289,
+          "text": "I would I would agree that that we have we have an image of of our idols that's that's that's it's only what they can show."
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 3290,
+          "word_end_id": 3290,
+          "text": "Yeah?"
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 3291,
+          "word_end_id": 3303,
+          "text": "So it's not about that as as a human beings, they they both."
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 3304,
+          "word_end_id": 3305,
+          "text": "They they"
+        },
+        {
+          "sentence_index": 13,
+          "word_start_id": 3306,
+          "word_end_id": 3307,
+          "text": "oh, okay."
+        },
+        {
+          "sentence_index": 14,
+          "word_start_id": 3308,
+          "word_end_id": 3309,
+          "text": "So so"
+        },
+        {
+          "sentence_index": 15,
+          "word_start_id": 3310,
+          "word_end_id": 3318,
+          "text": "so I would agree with you in this point."
+        },
+        {
+          "sentence_index": 16,
+          "word_start_id": 3319,
+          "word_end_id": 3334,
+          "text": "I remember that when I was, like, 14, 15, I wasn't as disciplined as I'm now."
+        },
+        {
+          "sentence_index": 17,
+          "word_start_id": 3335,
+          "word_end_id": 3347,
+          "text": "It's it was because of of of of of being teenager, I think."
+        },
+        {
+          "sentence_index": 18,
+          "word_start_id": 3348,
+          "word_end_id": 3371,
+          "text": "Because when we are teenagers, we we tend to have a lot of changes in a in a in a short terms of time."
+        },
+        {
+          "sentence_index": 19,
+          "word_start_id": 3372,
+          "word_end_id": 3373,
+          "text": "You know?"
+        },
+        {
+          "sentence_index": 20,
+          "word_start_id": 3374,
+          "word_end_id": 3380,
+          "text": "It's it's more disrupted, I would say."
+        },
+        {
+          "sentence_index": 21,
+          "word_start_id": 3381,
+          "word_end_id": 3382,
+          "text": "It's so"
+        },
+        {
+          "sentence_index": 22,
+          "word_start_id": 3383,
+          "word_end_id": 3401,
+          "text": "so it's not natural, I I think, but I had moments in which I was more disciplined and less."
+        },
+        {
+          "sentence_index": 23,
+          "word_start_id": 3402,
+          "word_end_id": 3408,
+          "text": "So it it was in constantly changing."
+        },
+        {
+          "sentence_index": 24,
+          "word_start_id": 3409,
+          "word_end_id": 3409,
+          "text": "Yeah?"
+        },
+        {
+          "sentence_index": 25,
+          "word_start_id": 3410,
+          "word_end_id": 3411,
+          "text": "It was."
+        },
+        {
+          "sentence_index": 26,
+          "word_start_id": 3412,
+          "word_end_id": 3413,
+          "text": "Constant change."
+        },
+        {
+          "sentence_index": 27,
+          "word_start_id": 3414,
+          "word_end_id": 3417,
+          "text": "It was in okay."
+        },
+        {
+          "sentence_index": 28,
+          "word_start_id": 3418,
+          "word_end_id": 3418,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 29,
+          "word_start_id": 3419,
+          "word_end_id": 3419,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 30,
+          "word_start_id": 3420,
+          "word_end_id": 3420,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 31,
+          "word_start_id": 3421,
+          "word_end_id": 3424,
+          "text": "I will tell you."
+        },
+        {
+          "sentence_index": 32,
+          "word_start_id": 3425,
+          "word_end_id": 3429,
+          "text": "So so after you mhmm."
+        },
+        {
+          "sentence_index": 33,
+          "word_start_id": 3430,
+          "word_end_id": 3430,
+          "text": "Okay."
+        },
+        {
+          "sentence_index": 34,
+          "word_start_id": 3431,
+          "word_end_id": 3443,
+          "text": "It's it's very curious because we we even don't notice this this change"
+        },
+        {
+          "sentence_index": 35,
+          "word_start_id": 3444,
+          "word_end_id": 3445,
+          "text": "and it's"
+        }
+      ]
+    },
+    {
+      "paragraph_id": 17,
+      "label": "Changes in behavior and discipline from childhood to adulthood",
+      "conversation_boolean": true,
+      "word_start_id": 3446,
+      "word_end_id": 3655,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 3446,
+          "word_end_id": 3464,
+          "text": "I think I think so because it it is natural that you you don't you don't think about it."
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 3465,
+          "word_end_id": 3502,
+          "text": "And overnight, you you change your your your ideas even, you know when you are, yeah, when you are older, it's not the same style because we we tend to think about every decision that we we make."
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 3503,
+          "word_end_id": 3503,
+          "text": "Yeah?"
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 3504,
+          "word_end_id": 3533,
+          "text": "So when we are tried, we it's not we when we're it's not that we we don't think, but we we don't consider any consequences, I would say, and see."
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 3534,
+          "word_end_id": 3535,
+          "text": "Got it."
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 3536,
+          "word_end_id": 3536,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 3537,
+          "word_end_id": 3537,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 3538,
+          "word_end_id": 3551,
+          "text": "Well, I was the I was the active one when I was very young."
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 3552,
+          "word_end_id": 3560,
+          "text": "I was playing a lot with my friends, so"
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 3561,
+          "word_end_id": 3579,
+          "text": "I I spend I was spending a lot of time out of of my house with my friends playing."
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 3580,
+          "word_end_id": 3602,
+          "text": "So so, you know, in my village, in my small village when I live, so I have where I live where I live."
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 3603,
+          "word_end_id": 3617,
+          "text": "So I have, like, five, six friends, and we and we we were playing them."
+        },
+        {
+          "sentence_index": 13,
+          "word_start_id": 3618,
+          "word_end_id": 3631,
+          "text": "But I don't remember exactly how old how old I was, but was I?"
+        },
+        {
+          "sentence_index": 14,
+          "word_start_id": 3632,
+          "word_end_id": 3634,
+          "text": "But I was."
+        },
+        {
+          "sentence_index": 15,
+          "word_start_id": 3635,
+          "word_end_id": 3636,
+          "text": "I was."
+        },
+        {
+          "sentence_index": 16,
+          "word_start_id": 3637,
+          "word_end_id": 3655,
+          "text": "I also as as you started to to put more efforts on education or on learning something, but I"
+        }
+      ]
+    },
+    {
+      "paragraph_id": 18,
+      "label": "Growing up, discipline, family dependence, and focusing on strengths",
+      "conversation_boolean": true,
+      "word_start_id": 3656,
+      "word_end_id": 3876,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 3656,
+          "word_end_id": 3668,
+          "text": "was I don't remember exactly, but I would say 16 15 or 16."
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 3669,
+          "word_end_id": 3671,
+          "text": "I was older."
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 3672,
+          "word_end_id": 3679,
+          "text": "I was not a child, like, ten years."
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 3680,
+          "word_end_id": 3680,
+          "text": "Yeah?"
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 3681,
+          "word_end_id": 3700,
+          "text": "So but it it was it happened it happened without thinking about it as we as we as we told."
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 3701,
+          "word_end_id": 3701,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 3702,
+          "word_end_id": 3721,
+          "text": "It's it's it was a slow process, but but but a little bit more but natural, I I would say."
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 3722,
+          "word_end_id": 3722,
+          "text": "Mhmm."
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 3723,
+          "word_end_id": 3724,
+          "text": "It's true."
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 3725,
+          "word_end_id": 3726,
+          "text": "It's true."
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 3727,
+          "word_end_id": 3765,
+          "text": "It depends on every family, but it's not for example, that you you are 18, like and you are free because there are a lot of people who lives with with their parents, for example, it creates deep dependence."
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 3766,
+          "word_end_id": 3766,
+          "text": "Yeah?"
+        },
+        {
+          "sentence_index": 13,
+          "word_start_id": 3767,
+          "word_end_id": 3781,
+          "text": "Dependence even if your parents are not as obsessive of of being of control you."
+        },
+        {
+          "sentence_index": 14,
+          "word_start_id": 3782,
+          "word_end_id": 3782,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 15,
+          "word_start_id": 3783,
+          "word_end_id": 3786,
+          "text": "So so I mhmm."
+        },
+        {
+          "sentence_index": 16,
+          "word_start_id": 3787,
+          "word_end_id": 3787,
+          "text": "No."
+        },
+        {
+          "sentence_index": 17,
+          "word_start_id": 3788,
+          "word_end_id": 3788,
+          "text": "No."
+        },
+        {
+          "sentence_index": 18,
+          "word_start_id": 3789,
+          "word_end_id": 3789,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 19,
+          "word_start_id": 3790,
+          "word_end_id": 3790,
+          "text": "Me"
+        },
+        {
+          "sentence_index": 20,
+          "word_start_id": 3791,
+          "word_end_id": 3791,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 21,
+          "word_start_id": 3792,
+          "word_end_id": 3793,
+          "text": "Me too."
+        },
+        {
+          "sentence_index": 22,
+          "word_start_id": 3794,
+          "word_end_id": 3816,
+          "text": "And I think it's it's a very good a very good way of thinking because you don't you can't be good at everything."
+        },
+        {
+          "sentence_index": 23,
+          "word_start_id": 3817,
+          "word_end_id": 3839,
+          "text": "And if you choose two or three topics and you're really good at it, it can give you more benefits in the future."
+        },
+        {
+          "sentence_index": 24,
+          "word_start_id": 3840,
+          "word_end_id": 3856,
+          "text": "Because if you are trying to learn everything, impossible to be to be good at at everything."
+        },
+        {
+          "sentence_index": 25,
+          "word_start_id": 3857,
+          "word_end_id": 3875,
+          "text": "You can lose one topic that you would be that you would be stronger if you focus on it."
+        },
+        {
+          "sentence_index": 26,
+          "word_start_id": 3876,
+          "word_end_id": 3876,
+          "text": "Yeah?"
+        }
+      ]
+    },
+    {
+      "paragraph_id": 19,
+      "label": "Focusing on few topics for better results and farewell",
+      "conversation_boolean": true,
+      "word_start_id": 3877,
+      "word_end_id": 3929,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 3877,
+          "word_end_id": 3877,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 3878,
+          "word_end_id": 3887,
+          "text": "After this, have to end my job because I yeah."
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 3888,
+          "word_end_id": 3888,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 3889,
+          "word_end_id": 3889,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 3890,
+          "word_end_id": 3892,
+          "text": "But one hour"
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 3893,
+          "word_end_id": 3904,
+          "text": "and I will finish everything, and I will I will do sports."
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 3905,
+          "word_end_id": 3910,
+          "text": "So I will go go out"
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 3911,
+          "word_end_id": 3916,
+          "text": "and and we'll see what's that?"
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 3917,
+          "word_end_id": 3918,
+          "text": "Thank you."
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 3919,
+          "word_end_id": 3922,
+          "text": "Have a good day."
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 3923,
+          "word_end_id": 3926,
+          "text": "Have a good day."
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 3927,
+          "word_end_id": 3929,
+          "text": "See you soon."
+        }
+      ]
+    }
+  ]
+}

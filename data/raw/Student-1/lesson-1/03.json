@@ -1,0 +1,5105 @@
+{
+  "results": {
+    "channels": [
+      {
+        "alternatives": [
+          {
+            "words": [
+              {
+                "end": 7.945,
+                "word": "what",
+                "start": 7.7850003,
+                "confidence": 0.46240234,
+                "punctuated_word": "What",
+                "word_id": 393
+              },
+              {
+                "end": 8.185,
+                "word": "is",
+                "start": 7.945,
+                "confidence": 0.99609375,
+                "punctuated_word": "is",
+                "word_id": 394
+              },
+              {
+                "end": 8.665,
+                "word": "mary",
+                "start": 8.185,
+                "confidence": 0.76123047,
+                "punctuated_word": "Mary?",
+                "word_id": 395
+              },
+              {
+                "end": 8.985001,
+                "word": "she",
+                "start": 8.665,
+                "confidence": 0.6142578,
+                "punctuated_word": "She",
+                "word_id": 396
+              },
+              {
+                "end": 9.225,
+                "word": "is",
+                "start": 8.985001,
+                "confidence": 0.6933594,
+                "punctuated_word": "is",
+                "word_id": 397
+              },
+              {
+                "end": 9.545,
+                "word": "from",
+                "start": 9.225,
+                "confidence": 0.9941406,
+                "punctuated_word": "from",
+                "word_id": 398
+              },
+              {
+                "end": 10.045,
+                "word": "france",
+                "start": 9.545,
+                "confidence": 0.9921875,
+                "punctuated_word": "France.",
+                "word_id": 399
+              },
+              {
+                "end": 10.505,
+                "word": "she",
+                "start": 10.185,
+                "confidence": 0.99902344,
+                "punctuated_word": "She",
+                "word_id": 400
+              },
+              {
+                "end": 10.825,
+                "word": "is",
+                "start": 10.505,
+                "confidence": 0.7519531,
+                "punctuated_word": "is,",
+                "word_id": 401
+              },
+              {
+                "end": 12.105,
+                "word": "she",
+                "start": 11.945,
+                "confidence": 0.9951172,
+                "punctuated_word": "she",
+                "word_id": 402
+              },
+              {
+                "end": 12.264999,
+                "word": "is",
+                "start": 12.105,
+                "confidence": 0.80322266,
+                "punctuated_word": "is,",
+                "word_id": 403
+              },
+              {
+                "end": 16.205,
+                "word": "from",
+                "start": 15.705,
+                "confidence": 0.6010742,
+                "punctuated_word": "from",
+                "word_id": 404
+              },
+              {
+                "end": 17.38,
+                "word": "france",
+                "start": 16.88,
+                "confidence": 0.93359375,
+                "punctuated_word": "France",
+                "word_id": 405
+              },
+              {
+                "end": 18.66,
+                "word": "because",
+                "start": 18.16,
+                "confidence": 0.5029297,
+                "punctuated_word": "because",
+                "word_id": 406
+              },
+              {
+                "end": 19.939999,
+                "word": "she's",
+                "start": 19.439999,
+                "confidence": 0.83251953,
+                "punctuated_word": "she's",
+                "word_id": 407
+              },
+              {
+                "end": 21.699999,
+                "word": "french",
+                "start": 21.199999,
+                "confidence": 0.9543457,
+                "punctuated_word": "French.",
+                "word_id": 408
+              },
+              {
+                "end": 22.48,
+                "word": "she's",
+                "start": 22.16,
+                "confidence": 0.8947754,
+                "punctuated_word": "She's",
+                "word_id": 409
+              },
+              {
+                "end": 22.98,
+                "word": "french",
+                "start": 22.48,
+                "confidence": 0.99853516,
+                "punctuated_word": "French.",
+                "word_id": 410
+              },
+              {
+                "end": 23.415,
+                "word": "mhmm",
+                "start": 23.039999,
+                "confidence": 0.9482422,
+                "punctuated_word": "Mhmm.",
+                "word_id": 411
+              },
+              {
+                "end": 24.375,
+                "word": "my",
+                "start": 24.135,
+                "confidence": 0.99902344,
+                "punctuated_word": "My",
+                "word_id": 412
+              },
+              {
+                "end": 24.875,
+                "word": "grandparents",
+                "start": 24.375,
+                "confidence": 0.9741211,
+                "punctuated_word": "grandparents",
+                "word_id": 413
+              },
+              {
+                "end": 25.495,
+                "word": "love",
+                "start": 25.255001,
+                "confidence": 0.99121094,
+                "punctuated_word": "love",
+                "word_id": 414
+              },
+              {
+                "end": 25.735,
+                "word": "my",
+                "start": 25.495,
+                "confidence": 0.99902344,
+                "punctuated_word": "my",
+                "word_id": 415
+              },
+              {
+                "end": 26.055,
+                "word": "baby",
+                "start": 25.735,
+                "confidence": 0.99609375,
+                "punctuated_word": "baby",
+                "word_id": 416
+              },
+              {
+                "end": 26.535,
+                "word": "sister",
+                "start": 26.055,
+                "confidence": 0.99902344,
+                "punctuated_word": "sister.",
+                "word_id": 417
+              },
+              {
+                "end": 26.695002,
+                "word": "my",
+                "start": 26.535,
+                "confidence": 1,
+                "punctuated_word": "My",
+                "word_id": 418
+              },
+              {
+                "end": 27.195002,
+                "word": "sister",
+                "start": 26.695002,
+                "confidence": 1,
+                "punctuated_word": "sister",
+                "word_id": 419
+              },
+              {
+                "end": 27.835001,
+                "word": "is",
+                "start": 27.335001,
+                "confidence": 0.8173828,
+                "punctuated_word": "is,",
+                "word_id": 420
+              },
+              {
+                "end": 29.895,
+                "word": "is",
+                "start": 29.495,
+                "confidence": 0.984375,
+                "punctuated_word": "is",
+                "word_id": 421
+              },
+              {
+                "end": 30.375,
+                "word": "young",
+                "start": 29.895,
+                "confidence": 0.99902344,
+                "punctuated_word": "young.",
+                "word_id": 422
+              },
+              {
+                "end": 30.615002,
+                "word": "my",
+                "start": 30.375,
+                "confidence": 0.99902344,
+                "punctuated_word": "My",
+                "word_id": 423
+              },
+              {
+                "end": 31.115002,
+                "word": "grandparent",
+                "start": 30.615002,
+                "confidence": 0.7922363,
+                "punctuated_word": "grandparent",
+                "word_id": 424
+              },
+              {
+                "end": 31.575,
+                "word": "my",
+                "start": 31.415,
+                "confidence": 0.7890625,
+                "punctuated_word": "my",
+                "word_id": 425
+              },
+              {
+                "end": 32.075,
+                "word": "grandparents",
+                "start": 31.575,
+                "confidence": 0.7788086,
+                "punctuated_word": "grandparents",
+                "word_id": 426
+              },
+              {
+                "end": 33.275,
+                "word": "are",
+                "start": 32.775,
+                "confidence": 0.9790039,
+                "punctuated_word": "are",
+                "word_id": 427
+              },
+              {
+                "end": 34.86,
+                "word": "old",
+                "start": 34.36,
+                "confidence": 0.9980469,
+                "punctuated_word": "old.",
+                "word_id": 428
+              },
+              {
+                "end": 37.08,
+                "word": "tim",
+                "start": 36.68,
+                "confidence": 0.9580078,
+                "punctuated_word": "Tim",
+                "word_id": 429
+              },
+              {
+                "end": 37.32,
+                "word": "has",
+                "start": 37.08,
+                "confidence": 0.99902344,
+                "punctuated_word": "has",
+                "word_id": 430
+              },
+              {
+                "end": 37.4,
+                "word": "a",
+                "start": 37.32,
+                "confidence": 0.99902344,
+                "punctuated_word": "a",
+                "word_id": 431
+              },
+              {
+                "end": 37.72,
+                "word": "great",
+                "start": 37.4,
+                "confidence": 1,
+                "punctuated_word": "great",
+                "word_id": 432
+              },
+              {
+                "end": 38.2,
+                "word": "family",
+                "start": 37.72,
+                "confidence": 0.9951172,
+                "punctuated_word": "family.",
+                "word_id": 433
+              },
+              {
+                "end": 38.440002,
+                "word": "his",
+                "start": 38.2,
+                "confidence": 0.99609375,
+                "punctuated_word": "His",
+                "word_id": 434
+              },
+              {
+                "end": 38.940002,
+                "word": "parents",
+                "start": 38.440002,
+                "confidence": 0.9633789,
+                "punctuated_word": "parents,",
+                "word_id": 435
+              },
+              {
+                "end": 40.52,
+                "word": "his",
+                "start": 40.280003,
+                "confidence": 0.9970703,
+                "punctuated_word": "his",
+                "word_id": 436
+              },
+              {
+                "end": 41.02,
+                "word": "parents",
+                "start": 40.52,
+                "confidence": 1,
+                "punctuated_word": "parents",
+                "word_id": 437
+              },
+              {
+                "end": 41.4,
+                "word": "are",
+                "start": 41.16,
+                "confidence": 0.99902344,
+                "punctuated_word": "are",
+                "word_id": 438
+              },
+              {
+                "end": 41.9,
+                "word": "nice",
+                "start": 41.4,
+                "confidence": 0.99316406,
+                "punctuated_word": "nice.",
+                "word_id": 439
+              },
+              {
+                "end": 43.535,
+                "word": "his",
+                "start": 43.135002,
+                "confidence": 0.5395508,
+                "punctuated_word": "His",
+                "word_id": 440
+              },
+              {
+                "end": 44.035,
+                "word": "brother",
+                "start": 43.535,
+                "confidence": 1,
+                "punctuated_word": "brother",
+                "word_id": 441
+              },
+              {
+                "end": 44.415,
+                "word": "is",
+                "start": 44.095,
+                "confidence": 0.99902344,
+                "punctuated_word": "is",
+                "word_id": 442
+              },
+              {
+                "end": 44.895,
+                "word": "funny",
+                "start": 44.415,
+                "confidence": 0.88720703,
+                "punctuated_word": "funny.",
+                "word_id": 443
+              },
+              {
+                "end": 45.135002,
+                "word": "his",
+                "start": 44.895,
+                "confidence": 0.99902344,
+                "punctuated_word": "His",
+                "word_id": 444
+              },
+              {
+                "end": 45.635002,
+                "word": "sister",
+                "start": 45.135002,
+                "confidence": 1,
+                "punctuated_word": "sister",
+                "word_id": 445
+              },
+              {
+                "end": 46.355,
+                "word": "is",
+                "start": 45.855,
+                "confidence": 0.95947266,
+                "punctuated_word": "is,",
+                "word_id": 446
+              },
+              {
+                "end": 47.555,
+                "word": "kind",
+                "start": 47.055,
+                "confidence": 0.9970703,
+                "punctuated_word": "kind.",
+                "word_id": 447
+              },
+              {
+                "end": 48.495003,
+                "word": "look",
+                "start": 48.175,
+                "confidence": 0.99902344,
+                "punctuated_word": "Look",
+                "word_id": 448
+              },
+              {
+                "end": 48.655,
+                "word": "at",
+                "start": 48.495003,
+                "confidence": 0.99902344,
+                "punctuated_word": "at",
+                "word_id": 449
+              },
+              {
+                "end": 48.815002,
+                "word": "the",
+                "start": 48.655,
+                "confidence": 0.9838867,
+                "punctuated_word": "the",
+                "word_id": 450
+              },
+              {
+                "end": 49.315002,
+                "word": "sheets",
+                "start": 48.815002,
+                "confidence": 0.8161621,
+                "punctuated_word": "sheets.",
+                "word_id": 451
+              },
+              {
+                "end": 51.05,
+                "word": "direct",
+                "start": 50.55,
+                "confidence": 0.90625,
+                "punctuated_word": "Direct",
+                "word_id": 452
+              },
+              {
+                "end": 51.69,
+                "word": "sheets",
+                "start": 51.19,
+                "confidence": 0.81640625,
+                "punctuated_word": "sheets",
+                "word_id": 453
+              },
+              {
+                "end": 53.75,
+                "word": "is",
+                "start": 53.51,
+                "confidence": 0.8203125,
+                "punctuated_word": "is,",
+                "word_id": 454
+              },
+              {
+                "end": 54.41,
+                "word": "shirts",
+                "start": 53.91,
+                "confidence": 0.86083984,
+                "punctuated_word": "shirts.",
+                "word_id": 455
+              },
+              {
+                "end": 55.19,
+                "word": "look",
+                "start": 54.87,
+                "confidence": 0.8232422,
+                "punctuated_word": "Look",
+                "word_id": 456
+              },
+              {
+                "end": 55.43,
+                "word": "at",
+                "start": 55.19,
+                "confidence": 0.9980469,
+                "punctuated_word": "at",
+                "word_id": 457
+              },
+              {
+                "end": 55.93,
+                "word": "the",
+                "start": 55.43,
+                "confidence": 0.62158203,
+                "punctuated_word": "the",
+                "word_id": 458
+              },
+              {
+                "end": 57.085,
+                "word": "look",
+                "start": 56.845,
+                "confidence": 0.9970703,
+                "punctuated_word": "look",
+                "word_id": 459
+              },
+              {
+                "end": 57.405,
+                "word": "at",
+                "start": 57.085,
+                "confidence": 1,
+                "punctuated_word": "at",
+                "word_id": 460
+              },
+              {
+                "end": 57.565,
+                "word": "the",
+                "start": 57.405,
+                "confidence": 1,
+                "punctuated_word": "the",
+                "word_id": 461
+              },
+              {
+                "end": 58.065,
+                "word": "shirts",
+                "start": 57.565,
+                "confidence": 0.99365234,
+                "punctuated_word": "shirts.",
+                "word_id": 462
+              },
+              {
+                "end": 58.524998,
+                "word": "the",
+                "start": 58.364998,
+                "confidence": 0.7680664,
+                "punctuated_word": "The",
+                "word_id": 463
+              },
+              {
+                "end": 58.845,
+                "word": "red",
+                "start": 58.524998,
+                "confidence": 0.98095703,
+                "punctuated_word": "red",
+                "word_id": 464
+              },
+              {
+                "end": 59.345,
+                "word": "shirts",
+                "start": 58.845,
+                "confidence": 0.97802734,
+                "punctuated_word": "shirts",
+                "word_id": 465
+              },
+              {
+                "end": 59.805,
+                "word": "is",
+                "start": 59.725,
+                "confidence": 0.91845703,
+                "punctuated_word": "is,",
+                "word_id": 466
+              },
+              {
+                "end": 60.845,
+                "word": "is",
+                "start": 60.684998,
+                "confidence": 0.515625,
+                "punctuated_word": "is",
+                "word_id": 467
+              },
+              {
+                "end": 61.345,
+                "word": "small",
+                "start": 60.845,
+                "confidence": 0.9309082,
+                "punctuated_word": "small.",
+                "word_id": 468
+              },
+              {
+                "end": 62.204998,
+                "word": "the",
+                "start": 61.965,
+                "confidence": 0.7836914,
+                "punctuated_word": "The",
+                "word_id": 469
+              },
+              {
+                "end": 62.525,
+                "word": "blue",
+                "start": 62.204998,
+                "confidence": 0.99902344,
+                "punctuated_word": "blue",
+                "word_id": 470
+              },
+              {
+                "end": 63.025,
+                "word": "shirts",
+                "start": 62.525,
+                "confidence": 0.9951172,
+                "punctuated_word": "shirts",
+                "word_id": 471
+              },
+              {
+                "end": 63.645,
+                "word": "is",
+                "start": 63.165,
+                "confidence": 0.9189453,
+                "punctuated_word": "is,",
+                "word_id": 472
+              },
+              {
+                "end": 64.625,
+                "word": "is",
+                "start": 64.125,
+                "confidence": 0.8388672,
+                "punctuated_word": "is",
+                "word_id": 473
+              },
+              {
+                "end": 95.825005,
+                "word": "okay",
+                "start": 95.325005,
+                "confidence": 0.6900635,
+                "punctuated_word": "Okay.",
+                "word_id": 474
+              },
+              {
+                "end": 96.205,
+                "word": "okay",
+                "start": 95.965004,
+                "confidence": 0.72839355,
+                "punctuated_word": "Okay.",
+                "word_id": 475
+              },
+              {
+                "end": 96.705,
+                "word": "correct",
+                "start": 96.205,
+                "confidence": 0.60302734,
+                "punctuated_word": "Correct.",
+                "word_id": 476
+              },
+              {
+                "end": 97.245,
+                "word": "that's",
+                "start": 96.845,
+                "confidence": 0.38659668,
+                "punctuated_word": "That's",
+                "word_id": 477
+              },
+              {
+                "end": 97.725006,
+                "word": "right",
+                "start": 97.245,
+                "confidence": 0.6911621,
+                "punctuated_word": "right.",
+                "word_id": 478
+              },
+              {
+                "end": 98.225006,
+                "word": "right",
+                "start": 97.725006,
+                "confidence": 0.6105957,
+                "punctuated_word": "Right.",
+                "word_id": 479
+              },
+              {
+                "end": 117.59,
+                "word": "right",
+                "start": 117.11,
+                "confidence": 0.7841797,
+                "punctuated_word": "Right.",
+                "word_id": 480
+              },
+              {
+                "end": 118.09,
+                "word": "right",
+                "start": 117.59,
+                "confidence": 0.98535156,
+                "punctuated_word": "Right.",
+                "word_id": 481
+              },
+              {
+                "end": 119.35,
+                "word": "right",
+                "start": 119.27,
+                "confidence": 0.9277344,
+                "punctuated_word": "Right.",
+                "word_id": 482
+              },
+              {
+                "end": 119.51,
+                "word": "right",
+                "start": 119.35,
+                "confidence": 0.9584961,
+                "punctuated_word": "Right.",
+                "word_id": 483
+              },
+              {
+                "end": 120.01,
+                "word": "right",
+                "start": 119.51,
+                "confidence": 0.9812012,
+                "punctuated_word": "Right.",
+                "word_id": 484
+              },
+              {
+                "end": 121.21,
+                "word": "mhmm",
+                "start": 120.71,
+                "confidence": 0.8905029,
+                "punctuated_word": "Mhmm.",
+                "word_id": 485
+              },
+              {
+                "end": 135.35,
+                "word": "right",
+                "start": 134.85,
+                "confidence": 0.6611328,
+                "punctuated_word": "Right.",
+                "word_id": 486
+              },
+              {
+                "end": 139.25,
+                "word": "right",
+                "start": 138.85,
+                "confidence": 0.80859375,
+                "punctuated_word": "Right.",
+                "word_id": 487
+              },
+              {
+                "end": 139.75,
+                "word": "mhmm",
+                "start": 139.25,
+                "confidence": 0.8833008,
+                "punctuated_word": "Mhmm.",
+                "word_id": 488
+              },
+              {
+                "end": 143.365,
+                "word": "okay",
+                "start": 142.865,
+                "confidence": 0.87231445,
+                "punctuated_word": "Okay.",
+                "word_id": 489
+              },
+              {
+                "end": 147.285,
+                "word": "okay",
+                "start": 146.785,
+                "confidence": 0.8066406,
+                "punctuated_word": "Okay.",
+                "word_id": 490
+              },
+              {
+                "end": 151.26,
+                "word": "okay",
+                "start": 150.76,
+                "confidence": 0.98168945,
+                "punctuated_word": "Okay.",
+                "word_id": 491
+              },
+              {
+                "end": 154.14,
+                "word": "today",
+                "start": 153.64,
+                "confidence": 0.73706055,
+                "punctuated_word": "Today,",
+                "word_id": 492
+              },
+              {
+                "end": 154.78,
+                "word": "i",
+                "start": 154.28,
+                "confidence": 0.9921875,
+                "punctuated_word": "I",
+                "word_id": 493
+              },
+              {
+                "end": 157.02501,
+                "word": "today",
+                "start": 156.52501,
+                "confidence": 0.89331055,
+                "punctuated_word": "today,",
+                "word_id": 494
+              },
+              {
+                "end": 157.66501,
+                "word": "i'm",
+                "start": 157.16501,
+                "confidence": 0.9802246,
+                "punctuated_word": "I'm",
+                "word_id": 495
+              },
+              {
+                "end": 158.385,
+                "word": "tired",
+                "start": 157.885,
+                "confidence": 0.9995117,
+                "punctuated_word": "tired.",
+                "word_id": 496
+              },
+              {
+                "end": 159.405,
+                "word": "i",
+                "start": 159.245,
+                "confidence": 1,
+                "punctuated_word": "I",
+                "word_id": 497
+              },
+              {
+                "end": 159.725,
+                "word": "want",
+                "start": 159.405,
+                "confidence": 0.98828125,
+                "punctuated_word": "want",
+                "word_id": 498
+              },
+              {
+                "end": 159.885,
+                "word": "to",
+                "start": 159.725,
+                "confidence": 1,
+                "punctuated_word": "to",
+                "word_id": 499
+              },
+              {
+                "end": 160.285,
+                "word": "sleep",
+                "start": 159.885,
+                "confidence": 0.9951172,
+                "punctuated_word": "sleep.",
+                "word_id": 500
+              },
+              {
+                "end": 160.525,
+                "word": "my",
+                "start": 160.285,
+                "confidence": 0.99902344,
+                "punctuated_word": "My",
+                "word_id": 501
+              },
+              {
+                "end": 161.025,
+                "word": "bed",
+                "start": 160.525,
+                "confidence": 0.96875,
+                "punctuated_word": "bed",
+                "word_id": 502
+              },
+              {
+                "end": 161.80501,
+                "word": "my",
+                "start": 161.565,
+                "confidence": 0.6791992,
+                "punctuated_word": "my",
+                "word_id": 503
+              },
+              {
+                "end": 162.205,
+                "word": "bed",
+                "start": 161.80501,
+                "confidence": 0.99609375,
+                "punctuated_word": "bed",
+                "word_id": 504
+              },
+              {
+                "end": 162.525,
+                "word": "is",
+                "start": 162.205,
+                "confidence": 0.9980469,
+                "punctuated_word": "is",
+                "word_id": 505
+              },
+              {
+                "end": 163.025,
+                "word": "nice",
+                "start": 162.525,
+                "confidence": 1,
+                "punctuated_word": "nice",
+                "word_id": 506
+              },
+              {
+                "end": 163.745,
+                "word": "and",
+                "start": 163.245,
+                "confidence": 0.7067871,
+                "punctuated_word": "and,",
+                "word_id": 507
+              },
+              {
+                "end": 167.91,
+                "word": "my",
+                "start": 167.59001,
+                "confidence": 0.86865234,
+                "punctuated_word": "my",
+                "word_id": 508
+              },
+              {
+                "end": 168.23001,
+                "word": "bed",
+                "start": 167.91,
+                "confidence": 0.9589844,
+                "punctuated_word": "bed",
+                "word_id": 509
+              },
+              {
+                "end": 168.39001,
+                "word": "is",
+                "start": 168.23001,
+                "confidence": 1,
+                "punctuated_word": "is",
+                "word_id": 510
+              },
+              {
+                "end": 168.79001,
+                "word": "nice",
+                "start": 168.39001,
+                "confidence": 1,
+                "punctuated_word": "nice",
+                "word_id": 511
+              },
+              {
+                "end": 169.27,
+                "word": "and",
+                "start": 168.79001,
+                "confidence": 0.8779297,
+                "punctuated_word": "and,",
+                "word_id": 512
+              },
+              {
+                "end": 170.71,
+                "word": "and",
+                "start": 170.46,
+                "confidence": 0.9284668,
+                "punctuated_word": "and,",
+                "word_id": 513
+              },
+              {
+                "end": 171.77,
+                "word": "warm",
+                "start": 171.27,
+                "confidence": 0.9921875,
+                "punctuated_word": "warm.",
+                "word_id": 514
+              },
+              {
+                "end": 191.665,
+                "word": "i'm",
+                "start": 191.345,
+                "confidence": 0.9086914,
+                "punctuated_word": "I'm",
+                "word_id": 515
+              },
+              {
+                "end": 192.065,
+                "word": "not",
+                "start": 191.665,
+                "confidence": 0.95996094,
+                "punctuated_word": "not,",
+                "word_id": 516
+              },
+              {
+                "end": 192.705,
+                "word": "i'm",
+                "start": 192.545,
+                "confidence": 0.9995117,
+                "punctuated_word": "I'm",
+                "word_id": 517
+              },
+              {
+                "end": 193.025,
+                "word": "not",
+                "start": 192.705,
+                "confidence": 1,
+                "punctuated_word": "not",
+                "word_id": 518
+              },
+              {
+                "end": 193.185,
+                "word": "a",
+                "start": 193.025,
+                "confidence": 0.96533203,
+                "punctuated_word": "a",
+                "word_id": 519
+              },
+              {
+                "end": 193.685,
+                "word": "student",
+                "start": 193.185,
+                "confidence": 0.9926758,
+                "punctuated_word": "student.",
+                "word_id": 520
+              },
+              {
+                "end": 197.73999,
+                "word": "i",
+                "start": 197.23999,
+                "confidence": 0.7602539,
+                "punctuated_word": "I",
+                "word_id": 521
+              },
+              {
+                "end": 203.4,
+                "word": "i'm",
+                "start": 203.08,
+                "confidence": 0.9770508,
+                "punctuated_word": "I'm",
+                "word_id": 522
+              },
+              {
+                "end": 203.9,
+                "word": "not",
+                "start": 203.4,
+                "confidence": 0.9946289,
+                "punctuated_word": "not.",
+                "word_id": 523
+              },
+              {
+                "end": 207.305,
+                "word": "yeah",
+                "start": 207.065,
+                "confidence": 0.85253906,
+                "punctuated_word": "Yeah.",
+                "word_id": 524
+              },
+              {
+                "end": 207.385,
+                "word": "i",
+                "start": 207.305,
+                "confidence": 0.9472656,
+                "punctuated_word": "I",
+                "word_id": 525
+              },
+              {
+                "end": 209.08499,
+                "word": "okay",
+                "start": 208.58499,
+                "confidence": 0.72998047,
+                "punctuated_word": "okay.",
+                "word_id": 526
+              },
+              {
+                "end": 210.745,
+                "word": "okay",
+                "start": 210.58499,
+                "confidence": 0.94384766,
+                "punctuated_word": "Okay.",
+                "word_id": 527
+              },
+              {
+                "end": 211.245,
+                "word": "okay",
+                "start": 210.745,
+                "confidence": 0.95996094,
+                "punctuated_word": "Okay.",
+                "word_id": 528
+              },
+              {
+                "end": 213.065,
+                "word": "i'm",
+                "start": 212.825,
+                "confidence": 0.94262695,
+                "punctuated_word": "I'm",
+                "word_id": 529
+              },
+              {
+                "end": 213.22499,
+                "word": "a",
+                "start": 213.065,
+                "confidence": 0.9941406,
+                "punctuated_word": "a",
+                "word_id": 530
+              },
+              {
+                "end": 213.72499,
+                "word": "student",
+                "start": 213.22499,
+                "confidence": 0.99194336,
+                "punctuated_word": "student.",
+                "word_id": 531
+              },
+              {
+                "end": 217.36,
+                "word": "i'm",
+                "start": 217.04,
+                "confidence": 0.9875488,
+                "punctuated_word": "I'm",
+                "word_id": 532
+              },
+              {
+                "end": 217.51999,
+                "word": "a",
+                "start": 217.36,
+                "confidence": 0.99902344,
+                "punctuated_word": "a",
+                "word_id": 533
+              },
+              {
+                "end": 218.01999,
+                "word": "student",
+                "start": 217.51999,
+                "confidence": 0.98950195,
+                "punctuated_word": "student.",
+                "word_id": 534
+              },
+              {
+                "end": 219.59999,
+                "word": "i'm",
+                "start": 219.2,
+                "confidence": 0.9904785,
+                "punctuated_word": "I'm",
+                "word_id": 535
+              },
+              {
+                "end": 220.08,
+                "word": "not",
+                "start": 219.59999,
+                "confidence": 0.8718262,
+                "punctuated_word": "not,",
+                "word_id": 536
+              },
+              {
+                "end": 221.36,
+                "word": "i'm",
+                "start": 221.12,
+                "confidence": 0.9526367,
+                "punctuated_word": "I'm",
+                "word_id": 537
+              },
+              {
+                "end": 221.59999,
+                "word": "not",
+                "start": 221.36,
+                "confidence": 0.99902344,
+                "punctuated_word": "not",
+                "word_id": 538
+              },
+              {
+                "end": 221.76,
+                "word": "a",
+                "start": 221.59999,
+                "confidence": 0.98828125,
+                "punctuated_word": "a",
+                "word_id": 539
+              },
+              {
+                "end": 222.26,
+                "word": "teacher",
+                "start": 221.76,
+                "confidence": 0.9724121,
+                "punctuated_word": "teacher.",
+                "word_id": 540
+              },
+              {
+                "end": 222.64,
+                "word": "oh",
+                "start": 222.4,
+                "confidence": 0.7873535,
+                "punctuated_word": "Oh,",
+                "word_id": 541
+              },
+              {
+                "end": 223.14,
+                "word": "i",
+                "start": 222.64,
+                "confidence": 0.9921875,
+                "punctuated_word": "I",
+                "word_id": 542
+              },
+              {
+                "end": 223.815,
+                "word": "i'm",
+                "start": 223.57501,
+                "confidence": 0.68652344,
+                "punctuated_word": "I'm",
+                "word_id": 543
+              },
+              {
+                "end": 224.05501,
+                "word": "not",
+                "start": 223.815,
+                "confidence": 0.99902344,
+                "punctuated_word": "not",
+                "word_id": 544
+              },
+              {
+                "end": 224.21501,
+                "word": "a",
+                "start": 224.05501,
+                "confidence": 0.99121094,
+                "punctuated_word": "a",
+                "word_id": 545
+              },
+              {
+                "end": 224.71501,
+                "word": "teacher",
+                "start": 224.21501,
+                "confidence": 0.73791504,
+                "punctuated_word": "teacher.",
+                "word_id": 546
+              },
+              {
+                "end": 225.255,
+                "word": "oh",
+                "start": 224.77501,
+                "confidence": 0.87768555,
+                "punctuated_word": "Oh,",
+                "word_id": 547
+              },
+              {
+                "end": 225.49501,
+                "word": "such",
+                "start": 225.255,
+                "confidence": 0.25073242,
+                "punctuated_word": "such",
+                "word_id": 548
+              },
+              {
+                "end": 225.57501,
+                "word": "a",
+                "start": 225.49501,
+                "confidence": 0.39379883,
+                "punctuated_word": "a",
+                "word_id": 549
+              },
+              {
+                "end": 226.07501,
+                "word": "teacher",
+                "start": 225.57501,
+                "confidence": 0.64904785,
+                "punctuated_word": "teacher.",
+                "word_id": 550
+              },
+              {
+                "end": 226.535,
+                "word": "i'm",
+                "start": 226.13501,
+                "confidence": 0.88061523,
+                "punctuated_word": "I'm",
+                "word_id": 551
+              },
+              {
+                "end": 226.85501,
+                "word": "not",
+                "start": 226.535,
+                "confidence": 0.98291016,
+                "punctuated_word": "not",
+                "word_id": 552
+              },
+              {
+                "end": 227.015,
+                "word": "a",
+                "start": 226.85501,
+                "confidence": 0.98291016,
+                "punctuated_word": "a",
+                "word_id": 553
+              },
+              {
+                "end": 227.515,
+                "word": "teacher",
+                "start": 227.015,
+                "confidence": 0.95947266,
+                "punctuated_word": "teacher.",
+                "word_id": 554
+              },
+              {
+                "end": 228.55501,
+                "word": "oh",
+                "start": 228.05501,
+                "confidence": 0.7006836,
+                "punctuated_word": "Oh,",
+                "word_id": 555
+              },
+              {
+                "end": 229.255,
+                "word": "i'm",
+                "start": 228.93501,
+                "confidence": 0.99658203,
+                "punctuated_word": "I'm",
+                "word_id": 556
+              },
+              {
+                "end": 229.41501,
+                "word": "not",
+                "start": 229.255,
+                "confidence": 0.99902344,
+                "punctuated_word": "not",
+                "word_id": 557
+              },
+              {
+                "end": 229.49501,
+                "word": "a",
+                "start": 229.41501,
+                "confidence": 0.98535156,
+                "punctuated_word": "a",
+                "word_id": 558
+              },
+              {
+                "end": 229.99501,
+                "word": "teacher",
+                "start": 229.49501,
+                "confidence": 1,
+                "punctuated_word": "teacher.",
+                "word_id": 559
+              },
+              {
+                "end": 230.29501,
+                "word": "this",
+                "start": 230.05501,
+                "confidence": 0.9970703,
+                "punctuated_word": "This",
+                "word_id": 560
+              },
+              {
+                "end": 230.455,
+                "word": "is",
+                "start": 230.29501,
+                "confidence": 1,
+                "punctuated_word": "is",
+                "word_id": 561
+              },
+              {
+                "end": 230.85501,
+                "word": "sarah",
+                "start": 230.455,
+                "confidence": 0.9194336,
+                "punctuated_word": "Sarah.",
+                "word_id": 562
+              },
+              {
+                "end": 231.175,
+                "word": "we",
+                "start": 230.85501,
+                "confidence": 0.99609375,
+                "punctuated_word": "We",
+                "word_id": 563
+              },
+              {
+                "end": 231.675,
+                "word": "aren't",
+                "start": 231.175,
+                "confidence": 0.9970703,
+                "punctuated_word": "aren't",
+                "word_id": 564
+              },
+              {
+                "end": 233.83,
+                "word": "we",
+                "start": 233.51,
+                "confidence": 0.9941406,
+                "punctuated_word": "we",
+                "word_id": 565
+              },
+              {
+                "end": 234.33,
+                "word": "aren't",
+                "start": 233.83,
+                "confidence": 0.93359375,
+                "punctuated_word": "aren't",
+                "word_id": 566
+              },
+              {
+                "end": 236.62999,
+                "word": "we",
+                "start": 236.23,
+                "confidence": 0.91015625,
+                "punctuated_word": "we",
+                "word_id": 567
+              },
+              {
+                "end": 237.12999,
+                "word": "aren't",
+                "start": 236.62999,
+                "confidence": 0.9975586,
+                "punctuated_word": "aren't",
+                "word_id": 568
+              },
+              {
+                "end": 239.53,
+                "word": "sisters",
+                "start": 239.03,
+                "confidence": 0.88842773,
+                "punctuated_word": "sisters.",
+                "word_id": 569
+              },
+              {
+                "end": 240.48999,
+                "word": "we",
+                "start": 239.98999,
+                "confidence": 0.9038086,
+                "punctuated_word": "We",
+                "word_id": 570
+              },
+              {
+                "end": 241.86499,
+                "word": "we",
+                "start": 241.465,
+                "confidence": 1,
+                "punctuated_word": "we",
+                "word_id": 571
+              },
+              {
+                "end": 242.36499,
+                "word": "are",
+                "start": 241.86499,
+                "confidence": 0.9863281,
+                "punctuated_word": "are",
+                "word_id": 572
+              },
+              {
+                "end": 244.20499,
+                "word": "friends",
+                "start": 243.70499,
+                "confidence": 0.99853516,
+                "punctuated_word": "friends.",
+                "word_id": 573
+              },
+              {
+                "end": 246.025,
+                "word": "hi",
+                "start": 245.545,
+                "confidence": 0.9663086,
+                "punctuated_word": "Hi.",
+                "word_id": 574
+              },
+              {
+                "end": 246.265,
+                "word": "my",
+                "start": 246.025,
+                "confidence": 1,
+                "punctuated_word": "My",
+                "word_id": 575
+              },
+              {
+                "end": 246.765,
+                "word": "name",
+                "start": 246.265,
+                "confidence": 1,
+                "punctuated_word": "name",
+                "word_id": 576
+              },
+              {
+                "end": 247.305,
+                "word": "my",
+                "start": 247.14499,
+                "confidence": 0.86865234,
+                "punctuated_word": "my",
+                "word_id": 577
+              },
+              {
+                "end": 247.78499,
+                "word": "name's",
+                "start": 247.305,
+                "confidence": 0.82788086,
+                "punctuated_word": "name's",
+                "word_id": 578
+              },
+              {
+                "end": 248.28499,
+                "word": "jack",
+                "start": 247.78499,
+                "confidence": 0.95214844,
+                "punctuated_word": "Jack.",
+                "word_id": 579
+              },
+              {
+                "end": 250.19,
+                "word": "i'm",
+                "start": 249.95001,
+                "confidence": 0.9121094,
+                "punctuated_word": "I'm",
+                "word_id": 580
+              },
+              {
+                "end": 250.67,
+                "word": "from",
+                "start": 250.19,
+                "confidence": 1,
+                "punctuated_word": "from",
+                "word_id": 581
+              },
+              {
+                "end": 251.07,
+                "word": "new",
+                "start": 250.67,
+                "confidence": 0.54003906,
+                "punctuated_word": "new",
+                "word_id": 582
+              },
+              {
+                "end": 251.73001,
+                "word": "new",
+                "start": 251.23001,
+                "confidence": 0.99121094,
+                "punctuated_word": "New",
+                "word_id": 583
+              },
+              {
+                "end": 252.53,
+                "word": "zealand",
+                "start": 252.03,
+                "confidence": 0.99194336,
+                "punctuated_word": "Zealand.",
+                "word_id": 584
+              },
+              {
+                "end": 254.05,
+                "word": "australia",
+                "start": 253.55,
+                "confidence": 1,
+                "punctuated_word": "Australia",
+                "word_id": 585
+              },
+              {
+                "end": 254.93001,
+                "word": "is",
+                "start": 254.43001,
+                "confidence": 0.9970703,
+                "punctuated_word": "is",
+                "word_id": 586
+              },
+              {
+                "end": 255.97,
+                "word": "isn't",
+                "start": 255.47,
+                "confidence": 0.883138,
+                "punctuated_word": "isn't,",
+                "word_id": 587
+              },
+              {
+                "end": 256.91,
+                "word": "my",
+                "start": 256.51,
+                "confidence": 1,
+                "punctuated_word": "my",
+                "word_id": 588
+              },
+              {
+                "end": 257.41,
+                "word": "country",
+                "start": 256.91,
+                "confidence": 0.98950195,
+                "punctuated_word": "country.",
+                "word_id": 589
+              },
+              {
+                "end": 261.045,
+                "word": "oh",
+                "start": 260.885,
+                "confidence": 0.96533203,
+                "punctuated_word": "Oh,",
+                "word_id": 590
+              },
+              {
+                "end": 261.545,
+                "word": "no",
+                "start": 261.045,
+                "confidence": 0.84716797,
+                "punctuated_word": "no?",
+                "word_id": 591
+              },
+              {
+                "end": 263.545,
+                "word": "australia",
+                "start": 263.045,
+                "confidence": 0.98291016,
+                "punctuated_word": "Australia",
+                "word_id": 592
+              },
+              {
+                "end": 263.685,
+                "word": "is",
+                "start": 263.605,
+                "confidence": 0.984375,
+                "punctuated_word": "is",
+                "word_id": 593
+              },
+              {
+                "end": 264.08502,
+                "word": "ah",
+                "start": 264.005,
+                "confidence": 0.6783447,
+                "punctuated_word": "ah,",
+                "word_id": 594
+              },
+              {
+                "end": 264.48502,
+                "word": "australia",
+                "start": 264.08502,
+                "confidence": 0.96435547,
+                "punctuated_word": "Australia",
+                "word_id": 595
+              },
+              {
+                "end": 264.64502,
+                "word": "is",
+                "start": 264.48502,
+                "confidence": 0.98828125,
+                "punctuated_word": "is",
+                "word_id": 596
+              },
+              {
+                "end": 264.885,
+                "word": "not",
+                "start": 264.64502,
+                "confidence": 1,
+                "punctuated_word": "not",
+                "word_id": 597
+              },
+              {
+                "end": 265.125,
+                "word": "my",
+                "start": 264.885,
+                "confidence": 0.9980469,
+                "punctuated_word": "my",
+                "word_id": 598
+              },
+              {
+                "end": 265.625,
+                "word": "country",
+                "start": 265.125,
+                "confidence": 0.9980469,
+                "punctuated_word": "country.",
+                "word_id": 599
+              },
+              {
+                "end": 272.41,
+                "word": "australia",
+                "start": 271.91,
+                "confidence": 0.9790039,
+                "punctuated_word": "Australia",
+                "word_id": 600
+              },
+              {
+                "end": 272.97,
+                "word": "is",
+                "start": 272.47,
+                "confidence": 0.87158203,
+                "punctuated_word": "is",
+                "word_id": 601
+              },
+              {
+                "end": 282.35,
+                "word": "so",
+                "start": 282.19,
+                "confidence": 0.34179688,
+                "punctuated_word": "So",
+                "word_id": 602
+              },
+              {
+                "end": 282.93,
+                "word": "yeah",
+                "start": 282.43,
+                "confidence": 0.99609375,
+                "punctuated_word": "yeah.",
+                "word_id": 603
+              },
+              {
+                "end": 284.67,
+                "word": "it's",
+                "start": 284.35,
+                "confidence": 0.9526367,
+                "punctuated_word": "It's",
+                "word_id": 604
+              },
+              {
+                "end": 284.91,
+                "word": "not",
+                "start": 284.67,
+                "confidence": 0.9980469,
+                "punctuated_word": "not",
+                "word_id": 605
+              },
+              {
+                "end": 285.15,
+                "word": "my",
+                "start": 284.91,
+                "confidence": 0.99902344,
+                "punctuated_word": "my",
+                "word_id": 606
+              },
+              {
+                "end": 285.65,
+                "word": "country",
+                "start": 285.15,
+                "confidence": 0.9941406,
+                "punctuated_word": "country.",
+                "word_id": 607
+              },
+              {
+                "end": 286.35,
+                "word": "it",
+                "start": 286.27,
+                "confidence": 0.8720703,
+                "punctuated_word": "It",
+                "word_id": 608
+              },
+              {
+                "end": 286.85,
+                "word": "is",
+                "start": 286.35,
+                "confidence": 0.8852539,
+                "punctuated_word": "is",
+                "word_id": 609
+              },
+              {
+                "end": 293.985,
+                "word": "okay",
+                "start": 293.585,
+                "confidence": 0.6842041,
+                "punctuated_word": "Okay.",
+                "word_id": 610
+              },
+              {
+                "end": 294.485,
+                "word": "isn't",
+                "start": 293.985,
+                "confidence": 0.907959,
+                "punctuated_word": "Isn't",
+                "word_id": 611
+              },
+              {
+                "end": 294.865,
+                "word": "my",
+                "start": 294.625,
+                "confidence": 0.96240234,
+                "punctuated_word": "my",
+                "word_id": 612
+              },
+              {
+                "end": 295.345,
+                "word": "country",
+                "start": 294.865,
+                "confidence": 0.6567383,
+                "punctuated_word": "country?",
+                "word_id": 613
+              },
+              {
+                "end": 295.845,
+                "word": "okay",
+                "start": 295.345,
+                "confidence": 0.99560547,
+                "punctuated_word": "Okay.",
+                "word_id": 614
+              },
+              {
+                "end": 297.82498,
+                "word": "max",
+                "start": 297.50497,
+                "confidence": 0.9941406,
+                "punctuated_word": "Max",
+                "word_id": 615
+              },
+              {
+                "end": 297.985,
+                "word": "is",
+                "start": 297.82498,
+                "confidence": 0.98828125,
+                "punctuated_word": "is",
+                "word_id": 616
+              },
+              {
+                "end": 298.22498,
+                "word": "a",
+                "start": 297.985,
+                "confidence": 0.99902344,
+                "punctuated_word": "a",
+                "word_id": 617
+              },
+              {
+                "end": 298.465,
+                "word": "good",
+                "start": 298.22498,
+                "confidence": 1,
+                "punctuated_word": "good",
+                "word_id": 618
+              },
+              {
+                "end": 298.965,
+                "word": "doc",
+                "start": 298.465,
+                "confidence": 0.8947754,
+                "punctuated_word": "doc.",
+                "word_id": 619
+              },
+              {
+                "end": 299.50497,
+                "word": "he",
+                "start": 299.185,
+                "confidence": 0.515625,
+                "punctuated_word": "He",
+                "word_id": 620
+              },
+              {
+                "end": 299.94,
+                "word": "is",
+                "start": 299.50497,
+                "confidence": 0.67333984,
+                "punctuated_word": "is",
+                "word_id": 621
+              }
+            ],
+            "confidence": 0.9790039,
+            "paragraphs": {
+              "paragraphs": [
+                {
+                  "end": 23.415,
+                  "start": 7.7850003,
+                  "num_words": 19,
+                  "sentences": [
+                    {
+                      "end": 8.665,
+                      "text": "What is Mary?",
+                      "start": 7.7850003
+                    },
+                    {
+                      "end": 10.045,
+                      "text": "She is from France.",
+                      "start": 8.665
+                    },
+                    {
+                      "end": 21.699999,
+                      "text": "She is, she is, from France because she's French.",
+                      "start": 10.185
+                    },
+                    {
+                      "end": 22.98,
+                      "text": "She's French.",
+                      "start": 22.16
+                    },
+                    {
+                      "end": 23.415,
+                      "text": "Mhmm.",
+                      "start": 23.039999
+                    }
+                  ]
+                },
+                {
+                  "end": 41.9,
+                  "start": 24.135,
+                  "num_words": 28,
+                  "sentences": [
+                    {
+                      "end": 26.535,
+                      "text": "My grandparents love my baby sister.",
+                      "start": 24.135
+                    },
+                    {
+                      "end": 30.375,
+                      "text": "My sister is, is young.",
+                      "start": 26.535
+                    },
+                    {
+                      "end": 34.86,
+                      "text": "My grandparent my grandparents are old.",
+                      "start": 30.375
+                    },
+                    {
+                      "end": 38.2,
+                      "text": "Tim has a great family.",
+                      "start": 36.68
+                    },
+                    {
+                      "end": 41.9,
+                      "text": "His parents, his parents are nice.",
+                      "start": 38.2
+                    }
+                  ]
+                },
+                {
+                  "end": 58.065,
+                  "start": 43.135002,
+                  "num_words": 23,
+                  "sentences": [
+                    {
+                      "end": 44.895,
+                      "text": "His brother is funny.",
+                      "start": 43.135002
+                    },
+                    {
+                      "end": 47.555,
+                      "text": "His sister is, kind.",
+                      "start": 44.895
+                    },
+                    {
+                      "end": 49.315002,
+                      "text": "Look at the sheets.",
+                      "start": 48.175
+                    },
+                    {
+                      "end": 54.41,
+                      "text": "Direct sheets is, shirts.",
+                      "start": 50.55
+                    },
+                    {
+                      "end": 58.065,
+                      "text": "Look at the look at the shirts.",
+                      "start": 54.87
+                    }
+                  ]
+                },
+                {
+                  "end": 97.725006,
+                  "start": 58.364998,
+                  "num_words": 16,
+                  "sentences": [
+                    {
+                      "end": 61.345,
+                      "text": "The red shirts is, is small.",
+                      "start": 58.364998
+                    },
+                    {
+                      "end": 95.825005,
+                      "text": "The blue shirts is, is Okay.",
+                      "start": 61.965
+                    },
+                    {
+                      "end": 96.205,
+                      "text": "Okay.",
+                      "start": 95.965004
+                    },
+                    {
+                      "end": 96.705,
+                      "text": "Correct.",
+                      "start": 96.205
+                    },
+                    {
+                      "end": 97.725006,
+                      "text": "That's right.",
+                      "start": 96.845
+                    }
+                  ]
+                },
+                {
+                  "end": 119.51,
+                  "start": 97.725006,
+                  "num_words": 5,
+                  "sentences": [
+                    {
+                      "end": 98.225006,
+                      "text": "Right.",
+                      "start": 97.725006
+                    },
+                    {
+                      "end": 117.59,
+                      "text": "Right.",
+                      "start": 117.11
+                    },
+                    {
+                      "end": 118.09,
+                      "text": "Right.",
+                      "start": 117.59
+                    },
+                    {
+                      "end": 119.35,
+                      "text": "Right.",
+                      "start": 119.27
+                    },
+                    {
+                      "end": 119.51,
+                      "text": "Right.",
+                      "start": 119.35
+                    }
+                  ]
+                },
+                {
+                  "end": 139.75,
+                  "start": 119.51,
+                  "num_words": 5,
+                  "sentences": [
+                    {
+                      "end": 120.01,
+                      "text": "Right.",
+                      "start": 119.51
+                    },
+                    {
+                      "end": 121.21,
+                      "text": "Mhmm.",
+                      "start": 120.71
+                    },
+                    {
+                      "end": 135.35,
+                      "text": "Right.",
+                      "start": 134.85
+                    },
+                    {
+                      "end": 139.25,
+                      "text": "Right.",
+                      "start": 138.85
+                    },
+                    {
+                      "end": 139.75,
+                      "text": "Mhmm.",
+                      "start": 139.25
+                    }
+                  ]
+                },
+                {
+                  "end": 160.285,
+                  "start": 142.865,
+                  "num_words": 12,
+                  "sentences": [
+                    {
+                      "end": 143.365,
+                      "text": "Okay.",
+                      "start": 142.865
+                    },
+                    {
+                      "end": 147.285,
+                      "text": "Okay.",
+                      "start": 146.785
+                    },
+                    {
+                      "end": 151.26,
+                      "text": "Okay.",
+                      "start": 150.76
+                    },
+                    {
+                      "end": 158.385,
+                      "text": "Today, I today, I'm tired.",
+                      "start": 153.64
+                    },
+                    {
+                      "end": 160.285,
+                      "text": "I want to sleep.",
+                      "start": 159.245
+                    }
+                  ]
+                },
+                {
+                  "end": 209.08499,
+                  "start": 160.285,
+                  "num_words": 26,
+                  "sentences": [
+                    {
+                      "end": 171.77,
+                      "text": "My bed my bed is nice and, my bed is nice and, and, warm.",
+                      "start": 160.285
+                    },
+                    {
+                      "end": 193.685,
+                      "text": "I'm not, I'm not a student.",
+                      "start": 191.345
+                    },
+                    {
+                      "end": 203.9,
+                      "text": "I I'm not.",
+                      "start": 197.23999
+                    },
+                    {
+                      "end": 207.305,
+                      "text": "Yeah.",
+                      "start": 207.065
+                    },
+                    {
+                      "end": 209.08499,
+                      "text": "I okay.",
+                      "start": 207.305
+                    }
+                  ]
+                },
+                {
+                  "end": 222.26,
+                  "start": 210.58499,
+                  "num_words": 14,
+                  "sentences": [
+                    {
+                      "end": 210.745,
+                      "text": "Okay.",
+                      "start": 210.58499
+                    },
+                    {
+                      "end": 211.245,
+                      "text": "Okay.",
+                      "start": 210.745
+                    },
+                    {
+                      "end": 213.72499,
+                      "text": "I'm a student.",
+                      "start": 212.825
+                    },
+                    {
+                      "end": 218.01999,
+                      "text": "I'm a student.",
+                      "start": 217.04
+                    },
+                    {
+                      "end": 222.26,
+                      "text": "I'm not, I'm not a teacher.",
+                      "start": 219.2
+                    }
+                  ]
+                },
+                {
+                  "end": 230.85501,
+                  "start": 222.4,
+                  "num_words": 22,
+                  "sentences": [
+                    {
+                      "end": 224.71501,
+                      "text": "Oh, I I'm not a teacher.",
+                      "start": 222.4
+                    },
+                    {
+                      "end": 226.07501,
+                      "text": "Oh, such a teacher.",
+                      "start": 224.77501
+                    },
+                    {
+                      "end": 227.515,
+                      "text": "I'm not a teacher.",
+                      "start": 226.13501
+                    },
+                    {
+                      "end": 229.99501,
+                      "text": "Oh, I'm not a teacher.",
+                      "start": 228.05501
+                    },
+                    {
+                      "end": 230.85501,
+                      "text": "This is Sarah.",
+                      "start": 230.05501
+                    }
+                  ]
+                },
+                {
+                  "end": 252.53,
+                  "start": 230.85501,
+                  "num_words": 22,
+                  "sentences": [
+                    {
+                      "end": 239.53,
+                      "text": "We aren't we aren't we aren't sisters.",
+                      "start": 230.85501
+                    },
+                    {
+                      "end": 244.20499,
+                      "text": "We we are friends.",
+                      "start": 239.98999
+                    },
+                    {
+                      "end": 246.025,
+                      "text": "Hi.",
+                      "start": 245.545
+                    },
+                    {
+                      "end": 248.28499,
+                      "text": "My name my name's Jack.",
+                      "start": 246.025
+                    },
+                    {
+                      "end": 252.53,
+                      "text": "I'm from new New Zealand.",
+                      "start": 249.95001
+                    }
+                  ]
+                },
+                {
+                  "end": 285.65,
+                  "start": 253.55,
+                  "num_words": 23,
+                  "sentences": [
+                    {
+                      "end": 257.41,
+                      "text": "Australia is isn't, my country.",
+                      "start": 253.55
+                    },
+                    {
+                      "end": 261.545,
+                      "text": "Oh, no?",
+                      "start": 260.885
+                    },
+                    {
+                      "end": 265.625,
+                      "text": "Australia is ah, Australia is not my country.",
+                      "start": 263.045
+                    },
+                    {
+                      "end": 282.93,
+                      "text": "Australia is So yeah.",
+                      "start": 271.91
+                    },
+                    {
+                      "end": 285.65,
+                      "text": "It's not my country.",
+                      "start": 284.35
+                    }
+                  ]
+                },
+                {
+                  "end": 299.94,
+                  "start": 286.27,
+                  "num_words": 14,
+                  "sentences": [
+                    {
+                      "end": 293.985,
+                      "text": "It is Okay.",
+                      "start": 286.27
+                    },
+                    {
+                      "end": 295.345,
+                      "text": "Isn't my country?",
+                      "start": 293.985
+                    },
+                    {
+                      "end": 295.845,
+                      "text": "Okay.",
+                      "start": 295.345
+                    },
+                    {
+                      "end": 298.965,
+                      "text": "Max is a good doc.",
+                      "start": 297.50497
+                    },
+                    {
+                      "end": 299.94,
+                      "text": "He is",
+                      "start": 299.185
+                    }
+                  ]
+                }
+              ],
+              "transcript": "\nWhat is Mary? She is from France. She is, she is, from France because she's French. She's French. Mhmm.\n\nMy grandparents love my baby sister. My sister is, is young. My grandparent my grandparents are old. Tim has a great family. His parents, his parents are nice.\n\nHis brother is funny. His sister is, kind. Look at the sheets. Direct sheets is, shirts. Look at the look at the shirts.\n\nThe red shirts is, is small. The blue shirts is, is Okay. Okay. Correct. That's right.\n\nRight. Right. Right. Right. Right.\n\nRight. Mhmm. Right. Right. Mhmm.\n\nOkay. Okay. Okay. Today, I today, I'm tired. I want to sleep.\n\nMy bed my bed is nice and, my bed is nice and, and, warm. I'm not, I'm not a student. I I'm not. Yeah. I okay.\n\nOkay. Okay. I'm a student. I'm a student. I'm not, I'm not a teacher.\n\nOh, I I'm not a teacher. Oh, such a teacher. I'm not a teacher. Oh, I'm not a teacher. This is Sarah.\n\nWe aren't we aren't we aren't sisters. We we are friends. Hi. My name my name's Jack. I'm from new New Zealand.\n\nAustralia is isn't, my country. Oh, no? Australia is ah, Australia is not my country. Australia is So yeah. It's not my country.\n\nIt is Okay. Isn't my country? Okay. Max is a good doc. He is"
+            },
+            "transcript": "What is Mary? She is from France. She is, she is, from France because she's French. She's French. Mhmm. My grandparents love my baby sister. My sister is, is young. My grandparent my grandparents are old. Tim has a great family. His parents, his parents are nice. His brother is funny. His sister is, kind. Look at the sheets. Direct sheets is, shirts. Look at the look at the shirts. The red shirts is, is small. The blue shirts is, is Okay. Okay. Correct. That's right. Right. Right. Right. Right. Right. Right. Mhmm. Right. Right. Mhmm. Okay. Okay. Okay. Today, I today, I'm tired. I want to sleep. My bed my bed is nice and, my bed is nice and, and, warm. I'm not, I'm not a student. I I'm not. Yeah. I okay. Okay. Okay. I'm a student. I'm a student. I'm not, I'm not a teacher. Oh, I I'm not a teacher. Oh, such a teacher. I'm not a teacher. Oh, I'm not a teacher. This is Sarah. We aren't we aren't we aren't sisters. We we are friends. Hi. My name my name's Jack. I'm from new New Zealand. Australia is isn't, my country. Oh, no? Australia is ah, Australia is not my country. Australia is So yeah. It's not my country. It is Okay. Isn't my country? Okay. Max is a good doc. He is"
+          }
+        ]
+      },
+      {
+        "alternatives": [
+          {
+            "words": [
+              {
+                "end": 1.06,
+                "word": "beautiful",
+                "start": 0.56,
+                "confidence": 0.4437256,
+                "punctuated_word": "Beautiful."
+              },
+              {
+                "end": 1.86,
+                "word": "and",
+                "start": 1.36,
+                "confidence": 0.4567871,
+                "punctuated_word": "And"
+              },
+              {
+                "end": 2.8999999,
+                "word": "spanish",
+                "start": 2.3999999,
+                "confidence": 0.9980469,
+                "punctuated_word": "Spanish"
+              },
+              {
+                "end": 3.9399998,
+                "word": "adjectives",
+                "start": 3.4399998,
+                "confidence": 0.82958984,
+                "punctuated_word": "adjectives."
+              },
+              {
+                "end": 4.74,
+                "word": "okay",
+                "start": 4.24,
+                "confidence": 0.84399414,
+                "punctuated_word": "Okay?"
+              },
+              {
+                "end": 5.44,
+                "word": "that",
+                "start": 5.2,
+                "confidence": 1,
+                "punctuated_word": "That"
+              },
+              {
+                "end": 5.68,
+                "word": "is",
+                "start": 5.44,
+                "confidence": 1,
+                "punctuated_word": "is"
+              },
+              {
+                "end": 6.16,
+                "word": "mary",
+                "start": 5.68,
+                "confidence": 0.73010254,
+                "punctuated_word": "Mary."
+              },
+              {
+                "end": 6.48,
+                "word": "yeah",
+                "start": 6.16,
+                "confidence": 0.7692871,
+                "punctuated_word": "Yeah."
+              },
+              {
+                "end": 6.8799996,
+                "word": "please",
+                "start": 6.48,
+                "confidence": 0.9980469,
+                "punctuated_word": "Please"
+              },
+              {
+                "end": 7.04,
+                "word": "read",
+                "start": 6.8799996,
+                "confidence": 0.9614258,
+                "punctuated_word": "read"
+              },
+              {
+                "end": 7.52,
+                "word": "it",
+                "start": 7.04,
+                "confidence": 0.99853516,
+                "punctuated_word": "it."
+              },
+              {
+                "end": 8.02,
+                "word": "mhmm",
+                "start": 7.52,
+                "confidence": 0.9736328,
+                "punctuated_word": "Mhmm."
+              },
+              {
+                "end": 48.26,
+                "word": "mhmm",
+                "start": 47.76,
+                "confidence": 0.9812012,
+                "punctuated_word": "Mhmm."
+              },
+              {
+                "end": 53.38,
+                "word": "shirts",
+                "start": 52.88,
+                "confidence": 0.9376628,
+                "punctuated_word": "Shirts."
+              },
+              {
+                "end": 54.305,
+                "word": "shirts",
+                "start": 53.805,
+                "confidence": 0.97249347,
+                "punctuated_word": "Shirts."
+              },
+              {
+                "end": 55.165,
+                "word": "not",
+                "start": 55.005,
+                "confidence": 0.87060547,
+                "punctuated_word": "Not"
+              },
+              {
+                "end": 55.665,
+                "word": "shirts",
+                "start": 55.165,
+                "confidence": 0.638916,
+                "punctuated_word": "shirts."
+              },
+              {
+                "end": 56.225002,
+                "word": "shirts",
+                "start": 55.725002,
+                "confidence": 0.9763997,
+                "punctuated_word": "Shirts."
+              },
+              {
+                "end": 66.02,
+                "word": "no",
+                "start": 65.619995,
+                "confidence": 0.91186523,
+                "punctuated_word": "No."
+              },
+              {
+                "end": 66.1,
+                "word": "no",
+                "start": 66.02,
+                "confidence": 0.9926758,
+                "punctuated_word": "No."
+              },
+              {
+                "end": 66.18,
+                "word": "no",
+                "start": 66.1,
+                "confidence": 0.99609375,
+                "punctuated_word": "No."
+              },
+              {
+                "end": 66.659996,
+                "word": "no",
+                "start": 66.18,
+                "confidence": 0.9975586,
+                "punctuated_word": "No."
+              },
+              {
+                "end": 66.74,
+                "word": "no",
+                "start": 66.659996,
+                "confidence": 0.9980469,
+                "punctuated_word": "No."
+              },
+              {
+                "end": 66.82,
+                "word": "no",
+                "start": 66.74,
+                "confidence": 0.9980469,
+                "punctuated_word": "No."
+              },
+              {
+                "end": 66.979996,
+                "word": "no",
+                "start": 66.82,
+                "confidence": 0.9975586,
+                "punctuated_word": "No."
+              },
+              {
+                "end": 67.06,
+                "word": "no",
+                "start": 66.979996,
+                "confidence": 0.99658203,
+                "punctuated_word": "No."
+              },
+              {
+                "end": 67.159996,
+                "word": "no",
+                "start": 67.06,
+                "confidence": 0.99560547,
+                "punctuated_word": "No."
+              },
+              {
+                "end": 67.259995,
+                "word": "no",
+                "start": 67.159996,
+                "confidence": 0.9941406,
+                "punctuated_word": "No."
+              },
+              {
+                "end": 67.36,
+                "word": "no",
+                "start": 67.259995,
+                "confidence": 0.98999023,
+                "punctuated_word": "No."
+              },
+              {
+                "end": 67.46,
+                "word": "no",
+                "start": 67.36,
+                "confidence": 0.9812012,
+                "punctuated_word": "No."
+              },
+              {
+                "end": 67.7,
+                "word": "no",
+                "start": 67.46,
+                "confidence": 0.95532227,
+                "punctuated_word": "No."
+              },
+              {
+                "end": 68.2,
+                "word": "no",
+                "start": 67.7,
+                "confidence": 0.8479004,
+                "punctuated_word": "No."
+              },
+              {
+                "end": 70.285,
+                "word": "where",
+                "start": 69.965004,
+                "confidence": 0.8461914,
+                "punctuated_word": "Where"
+              },
+              {
+                "end": 70.445,
+                "word": "is",
+                "start": 70.285,
+                "confidence": 0.94970703,
+                "punctuated_word": "is"
+              },
+              {
+                "end": 70.605,
+                "word": "the",
+                "start": 70.445,
+                "confidence": 0.93603516,
+                "punctuated_word": "the"
+              },
+              {
+                "end": 71.08501,
+                "word": "shirt",
+                "start": 70.605,
+                "confidence": 0.8095703,
+                "punctuated_word": "shirt?"
+              },
+              {
+                "end": 71.325005,
+                "word": "my",
+                "start": 71.08501,
+                "confidence": 1,
+                "punctuated_word": "My"
+              },
+              {
+                "end": 71.725006,
+                "word": "parents",
+                "start": 71.325005,
+                "confidence": 0.9980469,
+                "punctuated_word": "parents"
+              },
+              {
+                "end": 71.885,
+                "word": "are",
+                "start": 71.725006,
+                "confidence": 0.99902344,
+                "punctuated_word": "are"
+              },
+              {
+                "end": 72.205,
+                "word": "nice",
+                "start": 71.885,
+                "confidence": 0.920166,
+                "punctuated_word": "nice."
+              },
+              {
+                "end": 72.365005,
+                "word": "my",
+                "start": 72.205,
+                "confidence": 1,
+                "punctuated_word": "My"
+              },
+              {
+                "end": 72.765,
+                "word": "brother",
+                "start": 72.365005,
+                "confidence": 0.99902344,
+                "punctuated_word": "brother"
+              },
+              {
+                "end": 72.925,
+                "word": "is",
+                "start": 72.765,
+                "confidence": 0.9819336,
+                "punctuated_word": "is"
+              },
+              {
+                "end": 73.425,
+                "word": "funny",
+                "start": 72.925,
+                "confidence": 0.9980469,
+                "punctuated_word": "funny."
+              },
+              {
+                "end": 75.665,
+                "word": "okay",
+                "start": 75.165,
+                "confidence": 0.9267578,
+                "punctuated_word": "Okay."
+              },
+              {
+                "end": 76.365005,
+                "word": "and",
+                "start": 75.965004,
+                "confidence": 0.96606445,
+                "punctuated_word": "And,"
+              },
+              {
+                "end": 77.325005,
+                "word": "look",
+                "start": 76.925,
+                "confidence": 0.9980469,
+                "punctuated_word": "look"
+              },
+              {
+                "end": 77.565,
+                "word": "at",
+                "start": 77.325005,
+                "confidence": 1,
+                "punctuated_word": "at"
+              },
+              {
+                "end": 77.725006,
+                "word": "the",
+                "start": 77.565,
+                "confidence": 0.9941406,
+                "punctuated_word": "the"
+              },
+              {
+                "end": 78.225006,
+                "word": "shirts",
+                "start": 77.725006,
+                "confidence": 0.85375977,
+                "punctuated_word": "shirts."
+              },
+              {
+                "end": 78.91,
+                "word": "the",
+                "start": 78.75,
+                "confidence": 0.9980469,
+                "punctuated_word": "The"
+              },
+              {
+                "end": 79.39,
+                "word": "red",
+                "start": 78.91,
+                "confidence": 1,
+                "punctuated_word": "red"
+              },
+              {
+                "end": 79.59,
+                "word": "shirt",
+                "start": 79.39,
+                "confidence": 0.99902344,
+                "punctuated_word": "shirt"
+              },
+              {
+                "end": 80.03,
+                "word": "and",
+                "start": 79.79,
+                "confidence": 0.99902344,
+                "punctuated_word": "and"
+              },
+              {
+                "end": 80.27,
+                "word": "you",
+                "start": 80.03,
+                "confidence": 0.99902344,
+                "punctuated_word": "you"
+              },
+              {
+                "end": 80.51,
+                "word": "were",
+                "start": 80.27,
+                "confidence": 0.5986328,
+                "punctuated_word": "were"
+              },
+              {
+                "end": 80.83,
+                "word": "keep",
+                "start": 80.59,
+                "confidence": 0.99609375,
+                "punctuated_word": "keep"
+              },
+              {
+                "end": 80.99,
+                "word": "on",
+                "start": 80.83,
+                "confidence": 1,
+                "punctuated_word": "on"
+              },
+              {
+                "end": 81.47,
+                "word": "saying",
+                "start": 80.99,
+                "confidence": 0.99902344,
+                "punctuated_word": "saying"
+              },
+              {
+                "end": 81.97,
+                "word": "shirts",
+                "start": 81.47,
+                "confidence": 0.99316406,
+                "punctuated_word": "shirts."
+              },
+              {
+                "end": 82.67,
+                "word": "you",
+                "start": 82.51,
+                "confidence": 0.9902344,
+                "punctuated_word": "You"
+              },
+              {
+                "end": 83.17,
+                "word": "see",
+                "start": 82.67,
+                "confidence": 0.81274414,
+                "punctuated_word": "see,"
+              },
+              {
+                "end": 83.55,
+                "word": "in",
+                "start": 83.31,
+                "confidence": 0.99902344,
+                "punctuated_word": "in"
+              },
+              {
+                "end": 83.79,
+                "word": "1",
+                "start": 83.55,
+                "confidence": 0.99316406,
+                "punctuated_word": "1"
+              },
+              {
+                "end": 84.19,
+                "word": "in",
+                "start": 84.03,
+                "confidence": 0.9970703,
+                "punctuated_word": "in"
+              },
+              {
+                "end": 84.43,
+                "word": "the",
+                "start": 84.19,
+                "confidence": 1,
+                "punctuated_word": "the"
+              },
+              {
+                "end": 84.67,
+                "word": "first",
+                "start": 84.43,
+                "confidence": 1,
+                "punctuated_word": "first"
+              },
+              {
+                "end": 85.15,
+                "word": "sentence",
+                "start": 84.67,
+                "confidence": 0.95458984,
+                "punctuated_word": "sentence,"
+              },
+              {
+                "end": 85.47,
+                "word": "you",
+                "start": 85.15,
+                "confidence": 1,
+                "punctuated_word": "you"
+              },
+              {
+                "end": 85.79,
+                "word": "have",
+                "start": 85.47,
+                "confidence": 0.9980469,
+                "punctuated_word": "have"
+              },
+              {
+                "end": 86.29,
+                "word": "shirts",
+                "start": 85.79,
+                "confidence": 0.99902344,
+                "punctuated_word": "shirts"
+              },
+              {
+                "end": 86.59,
+                "word": "as",
+                "start": 86.35,
+                "confidence": 0.99902344,
+                "punctuated_word": "as"
+              },
+              {
+                "end": 86.75,
+                "word": "a",
+                "start": 86.59,
+                "confidence": 0.9770508,
+                "punctuated_word": "a"
+              },
+              {
+                "end": 87.25,
+                "word": "plural",
+                "start": 86.75,
+                "confidence": 0.814209,
+                "punctuated_word": "plural."
+              },
+              {
+                "end": 87.835,
+                "word": "but",
+                "start": 87.595,
+                "confidence": 0.9970703,
+                "punctuated_word": "But"
+              },
+              {
+                "end": 87.995,
+                "word": "in",
+                "start": 87.835,
+                "confidence": 0.99316406,
+                "punctuated_word": "in"
+              },
+              {
+                "end": 88.495,
+                "word": "the",
+                "start": 87.995,
+                "confidence": 1,
+                "punctuated_word": "the"
+              },
+              {
+                "end": 89.034996,
+                "word": "next",
+                "start": 88.635,
+                "confidence": 0.9902344,
+                "punctuated_word": "next"
+              },
+              {
+                "end": 89.435,
+                "word": "2",
+                "start": 89.034996,
+                "confidence": 0.9980469,
+                "punctuated_word": "2"
+              },
+              {
+                "end": 89.935,
+                "word": "sentences",
+                "start": 89.435,
+                "confidence": 1,
+                "punctuated_word": "sentences"
+              },
+              {
+                "end": 90.315,
+                "word": "you",
+                "start": 90.155,
+                "confidence": 0.91259766,
+                "punctuated_word": "you"
+              },
+              {
+                "end": 90.635,
+                "word": "still",
+                "start": 90.315,
+                "confidence": 0.96435547,
+                "punctuated_word": "still"
+              },
+              {
+                "end": 90.875,
+                "word": "were",
+                "start": 90.635,
+                "confidence": 0.99121094,
+                "punctuated_word": "were"
+              },
+              {
+                "end": 91.275,
+                "word": "using",
+                "start": 90.875,
+                "confidence": 1,
+                "punctuated_word": "using"
+              },
+              {
+                "end": 91.675,
+                "word": "plural",
+                "start": 91.275,
+                "confidence": 0.98095703,
+                "punctuated_word": "plural"
+              },
+              {
+                "end": 91.995,
+                "word": "while",
+                "start": 91.675,
+                "confidence": 0.83447266,
+                "punctuated_word": "while"
+              },
+              {
+                "end": 92.155,
+                "word": "it",
+                "start": 91.995,
+                "confidence": 0.99609375,
+                "punctuated_word": "it"
+              },
+              {
+                "end": 92.395,
+                "word": "was",
+                "start": 92.155,
+                "confidence": 0.99902344,
+                "punctuated_word": "was"
+              },
+              {
+                "end": 92.895,
+                "word": "singular",
+                "start": 92.395,
+                "confidence": 0.93530273,
+                "punctuated_word": "singular."
+              },
+              {
+                "end": 93.835,
+                "word": "you",
+                "start": 93.595,
+                "confidence": 0.98535156,
+                "punctuated_word": "You"
+              },
+              {
+                "end": 94.075,
+                "word": "don't",
+                "start": 93.835,
+                "confidence": 0.9995117,
+                "punctuated_word": "don't"
+              },
+              {
+                "end": 94.395,
+                "word": "see",
+                "start": 94.075,
+                "confidence": 0.99902344,
+                "punctuated_word": "see"
+              },
+              {
+                "end": 94.895,
+                "word": "s",
+                "start": 94.395,
+                "confidence": 0.81933594,
+                "punctuated_word": "s."
+              },
+              {
+                "end": 95.61,
+                "word": "the",
+                "start": 95.369995,
+                "confidence": 0.89990234,
+                "punctuated_word": "The"
+              },
+              {
+                "end": 96.09,
+                "word": "red",
+                "start": 95.61,
+                "confidence": 0.9741211,
+                "punctuated_word": "red"
+              },
+              {
+                "end": 96.59,
+                "word": "shirt",
+                "start": 96.09,
+                "confidence": 0.6939697,
+                "punctuated_word": "shirt."
+              },
+              {
+                "end": 97.229996,
+                "word": "look",
+                "start": 96.729996,
+                "confidence": 0.92822266,
+                "punctuated_word": "Look"
+              },
+              {
+                "end": 101.049995,
+                "word": "at",
+                "start": 100.89,
+                "confidence": 0.984375,
+                "punctuated_word": "at"
+              },
+              {
+                "end": 101.13,
+                "word": "the",
+                "start": 101.049995,
+                "confidence": 0.890625,
+                "punctuated_word": "the"
+              },
+              {
+                "end": 101.63,
+                "word": "shirts",
+                "start": 101.13,
+                "confidence": 0.736084,
+                "punctuated_word": "shirts."
+              },
+              {
+                "end": 103.945,
+                "word": "the",
+                "start": 103.704994,
+                "confidence": 0.9160156,
+                "punctuated_word": "The"
+              },
+              {
+                "end": 104.265,
+                "word": "red",
+                "start": 103.945,
+                "confidence": 0.99902344,
+                "punctuated_word": "red"
+              },
+              {
+                "end": 104.66499,
+                "word": "shirt",
+                "start": 104.265,
+                "confidence": 0.9980469,
+                "punctuated_word": "shirt"
+              },
+              {
+                "end": 104.825,
+                "word": "is",
+                "start": 104.66499,
+                "confidence": 0.9941406,
+                "punctuated_word": "is"
+              },
+              {
+                "end": 105.325,
+                "word": "small",
+                "start": 104.825,
+                "confidence": 0.9108887,
+                "punctuated_word": "small."
+              },
+              {
+                "end": 106.825,
+                "word": "is",
+                "start": 106.66499,
+                "confidence": 0.61865234,
+                "punctuated_word": "Is"
+              },
+              {
+                "end": 107.325,
+                "word": "mawa",
+                "start": 106.825,
+                "confidence": 0.8771159,
+                "punctuated_word": "mawa."
+              },
+              {
+                "end": 107.784996,
+                "word": "the",
+                "start": 107.625,
+                "confidence": 0.98828125,
+                "punctuated_word": "The"
+              },
+              {
+                "end": 108.024994,
+                "word": "blue",
+                "start": 107.784996,
+                "confidence": 0.9980469,
+                "punctuated_word": "blue"
+              },
+              {
+                "end": 108.524994,
+                "word": "shirt",
+                "start": 108.024994,
+                "confidence": 0.97265625,
+                "punctuated_word": "shirt"
+              },
+              {
+                "end": 118.76,
+                "word": "large",
+                "start": 118.26,
+                "confidence": 0.65844727,
+                "punctuated_word": "large."
+              },
+              {
+                "end": 151.04999,
+                "word": "okay",
+                "start": 150.54999,
+                "confidence": 0.7602539,
+                "punctuated_word": "Okay?"
+              },
+              {
+                "end": 171.215,
+                "word": "mhmm",
+                "start": 170.715,
+                "confidence": 0.97509766,
+                "punctuated_word": "Mhmm."
+              },
+              {
+                "end": 172.715,
+                "word": "very",
+                "start": 172.39499,
+                "confidence": 0.99121094,
+                "punctuated_word": "Very"
+              },
+              {
+                "end": 173.035,
+                "word": "good",
+                "start": 172.715,
+                "confidence": 0.9946289,
+                "punctuated_word": "good."
+              },
+              {
+                "end": 173.275,
+                "word": "very",
+                "start": 173.035,
+                "confidence": 1,
+                "punctuated_word": "Very"
+              },
+              {
+                "end": 173.75499,
+                "word": "good",
+                "start": 173.275,
+                "confidence": 0.9970703,
+                "punctuated_word": "good."
+              },
+              {
+                "end": 173.995,
+                "word": "not",
+                "start": 173.75499,
+                "confidence": 0.88720703,
+                "punctuated_word": "Not"
+              },
+              {
+                "end": 174.235,
+                "word": "bad",
+                "start": 173.995,
+                "confidence": 0.9848633,
+                "punctuated_word": "bad."
+              },
+              {
+                "end": 174.47499,
+                "word": "very",
+                "start": 174.235,
+                "confidence": 0.9951172,
+                "punctuated_word": "Very"
+              },
+              {
+                "end": 174.97499,
+                "word": "good",
+                "start": 174.47499,
+                "confidence": 1,
+                "punctuated_word": "good."
+              },
+              {
+                "end": 176.815,
+                "word": "mhmm",
+                "start": 176.315,
+                "confidence": 0.9942627,
+                "punctuated_word": "Mhmm."
+              },
+              {
+                "end": 179.2,
+                "word": "yes",
+                "start": 178.72,
+                "confidence": 0.99902344,
+                "punctuated_word": "Yes."
+              },
+              {
+                "end": 179.36,
+                "word": "we",
+                "start": 179.2,
+                "confidence": 0.6191406,
+                "punctuated_word": "We"
+              },
+              {
+                "end": 179.43999,
+                "word": "are",
+                "start": 179.36,
+                "confidence": 0.9892578,
+                "punctuated_word": "are"
+              },
+              {
+                "end": 179.93999,
+                "word": "moving",
+                "start": 179.43999,
+                "confidence": 1,
+                "punctuated_word": "moving"
+              },
+              {
+                "end": 181.36,
+                "word": "to",
+                "start": 181.2,
+                "confidence": 0.99609375,
+                "punctuated_word": "to"
+              },
+              {
+                "end": 181.51999,
+                "word": "the",
+                "start": 181.36,
+                "confidence": 1,
+                "punctuated_word": "the"
+              },
+              {
+                "end": 182.01999,
+                "word": "next",
+                "start": 181.51999,
+                "confidence": 1,
+                "punctuated_word": "next"
+              },
+              {
+                "end": 182.9,
+                "word": "phase",
+                "start": 182.4,
+                "confidence": 0.98339844,
+                "punctuated_word": "phase."
+              },
+              {
+                "end": 183.68,
+                "word": "i",
+                "start": 183.51999,
+                "confidence": 0.99902344,
+                "punctuated_word": "I"
+              },
+              {
+                "end": 183.92,
+                "word": "am",
+                "start": 183.68,
+                "confidence": 0.99902344,
+                "punctuated_word": "am"
+              },
+              {
+                "end": 184.23999,
+                "word": "not",
+                "start": 183.92,
+                "confidence": 0.98828125,
+                "punctuated_word": "not"
+              },
+              {
+                "end": 184.56,
+                "word": "you",
+                "start": 184.23999,
+                "confidence": 0.5493164,
+                "punctuated_word": "you"
+              },
+              {
+                "end": 184.95999,
+                "word": "are",
+                "start": 184.56,
+                "confidence": 0.9370117,
+                "punctuated_word": "are"
+              },
+              {
+                "end": 185.28,
+                "word": "you",
+                "start": 184.95999,
+                "confidence": 0.8203125,
+                "punctuated_word": "you"
+              },
+              {
+                "end": 185.43999,
+                "word": "are",
+                "start": 185.28,
+                "confidence": 0.6152344,
+                "punctuated_word": "are"
+              },
+              {
+                "end": 185.93999,
+                "word": "actually",
+                "start": 185.43999,
+                "confidence": 0.6029053,
+                "punctuated_word": "actually."
+              },
+              {
+                "end": 187.83499,
+                "word": "present",
+                "start": 187.595,
+                "confidence": 0.5678711,
+                "punctuated_word": "Present"
+              },
+              {
+                "end": 188.33499,
+                "word": "simple",
+                "start": 187.83499,
+                "confidence": 0.6425781,
+                "punctuated_word": "simple"
+              },
+              {
+                "end": 188.89499,
+                "word": "time",
+                "start": 188.39499,
+                "confidence": 0.7932129,
+                "punctuated_word": "time."
+              },
+              {
+                "end": 190.015,
+                "word": "mhmm",
+                "start": 189.515,
+                "confidence": 0.98986816,
+                "punctuated_word": "Mhmm."
+              },
+              {
+                "end": 205.545,
+                "word": "no",
+                "start": 205.30501,
+                "confidence": 0.82299805,
+                "punctuated_word": "No."
+              },
+              {
+                "end": 205.785,
+                "word": "i'm",
+                "start": 205.545,
+                "confidence": 0.9916992,
+                "punctuated_word": "I'm"
+              },
+              {
+                "end": 205.945,
+                "word": "a",
+                "start": 205.785,
+                "confidence": 0.9970703,
+                "punctuated_word": "a"
+              },
+              {
+                "end": 206.445,
+                "word": "student",
+                "start": 205.945,
+                "confidence": 0.99365234,
+                "punctuated_word": "student."
+              },
+              {
+                "end": 207.225,
+                "word": "i'm",
+                "start": 207.065,
+                "confidence": 0.99609375,
+                "punctuated_word": "I'm"
+              },
+              {
+                "end": 207.46501,
+                "word": "not",
+                "start": 207.225,
+                "confidence": 0.99609375,
+                "punctuated_word": "not"
+              },
+              {
+                "end": 207.545,
+                "word": "a",
+                "start": 207.46501,
+                "confidence": 0.9741211,
+                "punctuated_word": "a"
+              },
+              {
+                "end": 208.045,
+                "word": "teacher",
+                "start": 207.545,
+                "confidence": 0.986084,
+                "punctuated_word": "teacher."
+              },
+              {
+                "end": 222.705,
+                "word": "very",
+                "start": 222.38501,
+                "confidence": 0.7705078,
+                "punctuated_word": "Very"
+              },
+              {
+                "end": 222.945,
+                "word": "good",
+                "start": 222.705,
+                "confidence": 0.98657227,
+                "punctuated_word": "good."
+              },
+              {
+                "end": 223.265,
+                "word": "very",
+                "start": 222.945,
+                "confidence": 0.9980469,
+                "punctuated_word": "Very"
+              },
+              {
+                "end": 223.765,
+                "word": "good",
+                "start": 223.265,
+                "confidence": 0.9995117,
+                "punctuated_word": "good."
+              },
+              {
+                "end": 227.205,
+                "word": "mhmm",
+                "start": 226.705,
+                "confidence": 0.94506836,
+                "punctuated_word": "Mhmm."
+              },
+              {
+                "end": 229.125,
+                "word": "mhmm",
+                "start": 228.625,
+                "confidence": 0.8880615,
+                "punctuated_word": "Mhmm."
+              },
+              {
+                "end": 277.815,
+                "word": "yeah",
+                "start": 277.495,
+                "confidence": 0.96069336,
+                "punctuated_word": "Yeah."
+              },
+              {
+                "end": 278.315,
+                "word": "australia",
+                "start": 277.815,
+                "confidence": 0.99609375,
+                "punctuated_word": "Australia"
+              },
+              {
+                "end": 279.035,
+                "word": "is",
+                "start": 278.535,
+                "confidence": 0.99609375,
+                "punctuated_word": "is"
+              },
+              {
+                "end": 279.835,
+                "word": "isn't",
+                "start": 279.335,
+                "confidence": 0.99902344,
+                "punctuated_word": "isn't"
+              },
+              {
+                "end": 280.455,
+                "word": "my",
+                "start": 280.215,
+                "confidence": 0.98828125,
+                "punctuated_word": "my"
+              },
+              {
+                "end": 280.955,
+                "word": "country",
+                "start": 280.455,
+                "confidence": 0.9975586,
+                "punctuated_word": "country."
+              },
+              {
+                "end": 288.21,
+                "word": "yeah",
+                "start": 287.88998,
+                "confidence": 0.99609375,
+                "punctuated_word": "Yeah."
+              },
+              {
+                "end": 288.71,
+                "word": "yeah",
+                "start": 288.21,
+                "confidence": 0.9897461,
+                "punctuated_word": "Yeah."
+              },
+              {
+                "end": 289.65,
+                "word": "there's",
+                "start": 289.33,
+                "confidence": 0.6242676,
+                "punctuated_word": "There's"
+              },
+              {
+                "end": 291.16998,
+                "word": "eesn",
+                "start": 289.65,
+                "confidence": 0.9108887,
+                "punctuated_word": "EESN"
+              },
+              {
+                "end": 291.66998,
+                "word": "apostrophe",
+                "start": 291.16998,
+                "confidence": 0.7993164,
+                "punctuated_word": "apostrophe"
+              },
+              {
+                "end": 291.81,
+                "word": "of",
+                "start": 291.72998,
+                "confidence": 0.81152344,
+                "punctuated_word": "of"
+              },
+              {
+                "end": 292.31,
+                "word": "10",
+                "start": 291.81,
+                "confidence": 0.91381836,
+                "punctuated_word": "10."
+              }
+            ],
+            "confidence": 0.98986816,
+            "paragraphs": {
+              "paragraphs": [
+                {
+                  "end": 6.48,
+                  "start": 0.56,
+                  "num_words": 9,
+                  "sentences": [
+                    {
+                      "end": 1.06,
+                      "text": "Beautiful.",
+                      "start": 0.56
+                    },
+                    {
+                      "end": 3.9399998,
+                      "text": "And Spanish adjectives.",
+                      "start": 1.36
+                    },
+                    {
+                      "end": 4.74,
+                      "text": "Okay?",
+                      "start": 4.24
+                    },
+                    {
+                      "end": 6.16,
+                      "text": "That is Mary.",
+                      "start": 5.2
+                    },
+                    {
+                      "end": 6.48,
+                      "text": "Yeah.",
+                      "start": 6.16
+                    }
+                  ]
+                },
+                {
+                  "end": 54.305,
+                  "start": 6.48,
+                  "num_words": 7,
+                  "sentences": [
+                    {
+                      "end": 7.52,
+                      "text": "Please read it.",
+                      "start": 6.48
+                    },
+                    {
+                      "end": 8.02,
+                      "text": "Mhmm.",
+                      "start": 7.52
+                    },
+                    {
+                      "end": 48.26,
+                      "text": "Mhmm.",
+                      "start": 47.76
+                    },
+                    {
+                      "end": 53.38,
+                      "text": "Shirts.",
+                      "start": 52.88
+                    },
+                    {
+                      "end": 54.305,
+                      "text": "Shirts.",
+                      "start": 53.805
+                    }
+                  ]
+                },
+                {
+                  "end": 66.18,
+                  "start": 55.005,
+                  "num_words": 6,
+                  "sentences": [
+                    {
+                      "end": 55.665,
+                      "text": "Not shirts.",
+                      "start": 55.005
+                    },
+                    {
+                      "end": 56.225002,
+                      "text": "Shirts.",
+                      "start": 55.725002
+                    },
+                    {
+                      "end": 66.02,
+                      "text": "No.",
+                      "start": 65.619995
+                    },
+                    {
+                      "end": 66.1,
+                      "text": "No.",
+                      "start": 66.02
+                    },
+                    {
+                      "end": 66.18,
+                      "text": "No.",
+                      "start": 66.1
+                    }
+                  ]
+                },
+                {
+                  "end": 67.06,
+                  "start": 66.18,
+                  "num_words": 5,
+                  "sentences": [
+                    {
+                      "end": 66.659996,
+                      "text": "No.",
+                      "start": 66.18
+                    },
+                    {
+                      "end": 66.74,
+                      "text": "No.",
+                      "start": 66.659996
+                    },
+                    {
+                      "end": 66.82,
+                      "text": "No.",
+                      "start": 66.74
+                    },
+                    {
+                      "end": 66.979996,
+                      "text": "No.",
+                      "start": 66.82
+                    },
+                    {
+                      "end": 67.06,
+                      "text": "No.",
+                      "start": 66.979996
+                    }
+                  ]
+                },
+                {
+                  "end": 67.7,
+                  "start": 67.06,
+                  "num_words": 5,
+                  "sentences": [
+                    {
+                      "end": 67.159996,
+                      "text": "No.",
+                      "start": 67.06
+                    },
+                    {
+                      "end": 67.259995,
+                      "text": "No.",
+                      "start": 67.159996
+                    },
+                    {
+                      "end": 67.36,
+                      "text": "No.",
+                      "start": 67.259995
+                    },
+                    {
+                      "end": 67.46,
+                      "text": "No.",
+                      "start": 67.36
+                    },
+                    {
+                      "end": 67.7,
+                      "text": "No.",
+                      "start": 67.46
+                    }
+                  ]
+                },
+                {
+                  "end": 75.665,
+                  "start": 67.7,
+                  "num_words": 14,
+                  "sentences": [
+                    {
+                      "end": 68.2,
+                      "text": "No.",
+                      "start": 67.7
+                    },
+                    {
+                      "end": 71.08501,
+                      "text": "Where is the shirt?",
+                      "start": 69.965004
+                    },
+                    {
+                      "end": 72.205,
+                      "text": "My parents are nice.",
+                      "start": 71.08501
+                    },
+                    {
+                      "end": 73.425,
+                      "text": "My brother is funny.",
+                      "start": 72.205
+                    },
+                    {
+                      "end": 75.665,
+                      "text": "Okay.",
+                      "start": 75.165
+                    }
+                  ]
+                },
+                {
+                  "end": 94.895,
+                  "start": 75.965004,
+                  "num_words": 48,
+                  "sentences": [
+                    {
+                      "end": 78.225006,
+                      "text": "And, look at the shirts.",
+                      "start": 75.965004
+                    },
+                    {
+                      "end": 81.97,
+                      "text": "The red shirt and you were keep on saying shirts.",
+                      "start": 78.75
+                    },
+                    {
+                      "end": 87.25,
+                      "text": "You see, in 1 in the first sentence, you have shirts as a plural.",
+                      "start": 82.51
+                    },
+                    {
+                      "end": 92.895,
+                      "text": "But in the next 2 sentences you still were using plural while it was singular.",
+                      "start": 87.595
+                    },
+                    {
+                      "end": 94.895,
+                      "text": "You don't see s.",
+                      "start": 93.595
+                    }
+                  ]
+                },
+                {
+                  "end": 118.76,
+                  "start": 95.369995,
+                  "num_words": 18,
+                  "sentences": [
+                    {
+                      "end": 96.59,
+                      "text": "The red shirt.",
+                      "start": 95.369995
+                    },
+                    {
+                      "end": 101.63,
+                      "text": "Look at the shirts.",
+                      "start": 96.729996
+                    },
+                    {
+                      "end": 105.325,
+                      "text": "The red shirt is small.",
+                      "start": 103.704994
+                    },
+                    {
+                      "end": 107.325,
+                      "text": "Is mawa.",
+                      "start": 106.66499
+                    },
+                    {
+                      "end": 118.76,
+                      "text": "The blue shirt large.",
+                      "start": 107.625
+                    }
+                  ]
+                },
+                {
+                  "end": 174.235,
+                  "start": 150.54999,
+                  "num_words": 8,
+                  "sentences": [
+                    {
+                      "end": 151.04999,
+                      "text": "Okay?",
+                      "start": 150.54999
+                    },
+                    {
+                      "end": 171.215,
+                      "text": "Mhmm.",
+                      "start": 170.715
+                    },
+                    {
+                      "end": 173.035,
+                      "text": "Very good.",
+                      "start": 172.39499
+                    },
+                    {
+                      "end": 173.75499,
+                      "text": "Very good.",
+                      "start": 173.035
+                    },
+                    {
+                      "end": 174.235,
+                      "text": "Not bad.",
+                      "start": 173.75499
+                    }
+                  ]
+                },
+                {
+                  "end": 185.93999,
+                  "start": 174.235,
+                  "num_words": 19,
+                  "sentences": [
+                    {
+                      "end": 174.97499,
+                      "text": "Very good.",
+                      "start": 174.235
+                    },
+                    {
+                      "end": 176.815,
+                      "text": "Mhmm.",
+                      "start": 176.315
+                    },
+                    {
+                      "end": 179.2,
+                      "text": "Yes.",
+                      "start": 178.72
+                    },
+                    {
+                      "end": 182.9,
+                      "text": "We are moving to the next phase.",
+                      "start": 179.2
+                    },
+                    {
+                      "end": 185.93999,
+                      "text": "I am not you are you are actually.",
+                      "start": 183.51999
+                    }
+                  ]
+                },
+                {
+                  "end": 208.045,
+                  "start": 187.595,
+                  "num_words": 12,
+                  "sentences": [
+                    {
+                      "end": 188.89499,
+                      "text": "Present simple time.",
+                      "start": 187.595
+                    },
+                    {
+                      "end": 190.015,
+                      "text": "Mhmm.",
+                      "start": 189.515
+                    },
+                    {
+                      "end": 205.545,
+                      "text": "No.",
+                      "start": 205.30501
+                    },
+                    {
+                      "end": 206.445,
+                      "text": "I'm a student.",
+                      "start": 205.545
+                    },
+                    {
+                      "end": 208.045,
+                      "text": "I'm not a teacher.",
+                      "start": 207.065
+                    }
+                  ]
+                },
+                {
+                  "end": 277.815,
+                  "start": 222.38501,
+                  "num_words": 7,
+                  "sentences": [
+                    {
+                      "end": 222.945,
+                      "text": "Very good.",
+                      "start": 222.38501
+                    },
+                    {
+                      "end": 223.765,
+                      "text": "Very good.",
+                      "start": 222.945
+                    },
+                    {
+                      "end": 227.205,
+                      "text": "Mhmm.",
+                      "start": 226.705
+                    },
+                    {
+                      "end": 229.125,
+                      "text": "Mhmm.",
+                      "start": 228.625
+                    },
+                    {
+                      "end": 277.815,
+                      "text": "Yeah.",
+                      "start": 277.495
+                    }
+                  ]
+                },
+                {
+                  "end": 292.31,
+                  "start": 277.815,
+                  "num_words": 12,
+                  "sentences": [
+                    {
+                      "end": 280.955,
+                      "text": "Australia is isn't my country.",
+                      "start": 277.815
+                    },
+                    {
+                      "end": 288.21,
+                      "text": "Yeah.",
+                      "start": 287.88998
+                    },
+                    {
+                      "end": 288.71,
+                      "text": "Yeah.",
+                      "start": 288.21
+                    },
+                    {
+                      "end": 292.31,
+                      "text": "There's EESN apostrophe of 10.",
+                      "start": 289.33
+                    }
+                  ]
+                }
+              ],
+              "transcript": "\nBeautiful. And Spanish adjectives. Okay? That is Mary. Yeah.\n\nPlease read it. Mhmm. Mhmm. Shirts. Shirts.\n\nNot shirts. Shirts. No. No. No.\n\nNo. No. No. No. No.\n\nNo. No. No. No. No.\n\nNo. Where is the shirt? My parents are nice. My brother is funny. Okay.\n\nAnd, look at the shirts. The red shirt and you were keep on saying shirts. You see, in 1 in the first sentence, you have shirts as a plural. But in the next 2 sentences you still were using plural while it was singular. You don't see s.\n\nThe red shirt. Look at the shirts. The red shirt is small. Is mawa. The blue shirt large.\n\nOkay? Mhmm. Very good. Very good. Not bad.\n\nVery good. Mhmm. Yes. We are moving to the next phase. I am not you are you are actually.\n\nPresent simple time. Mhmm. No. I'm a student. I'm not a teacher.\n\nVery good. Very good. Mhmm. Mhmm. Yeah.\n\nAustralia is isn't my country. Yeah. Yeah. There's EESN apostrophe of 10."
+            },
+            "transcript": "Beautiful. And Spanish adjectives. Okay? That is Mary. Yeah. Please read it. Mhmm. Mhmm. Shirts. Shirts. Not shirts. Shirts. No. No. No. No. No. No. No. No. No. No. No. No. No. No. Where is the shirt? My parents are nice. My brother is funny. Okay. And, look at the shirts. The red shirt and you were keep on saying shirts. You see, in 1 in the first sentence, you have shirts as a plural. But in the next 2 sentences you still were using plural while it was singular. You don't see s. The red shirt. Look at the shirts. The red shirt is small. Is mawa. The blue shirt large. Okay? Mhmm. Very good. Very good. Not bad. Very good. Mhmm. Yes. We are moving to the next phase. I am not you are you are actually. Present simple time. Mhmm. No. I'm a student. I'm not a teacher. Very good. Very good. Mhmm. Mhmm. Yeah. Australia is isn't my country. Yeah. Yeah. There's EESN apostrophe of 10."
+          }
+        ]
+      }
+    ],
+    "paragraphs": {
+      "paragraphs": [
+        {
+          "end": 6.48,
+          "start": 0.56,
+          "channel": 1,
+          "num_words": 9,
+          "sentences": [
+            {
+              "end": 1.06,
+              "text": "Beautiful.",
+              "start": 0.56
+            },
+            {
+              "end": 3.9399998,
+              "text": "And Spanish adjectives.",
+              "start": 1.36
+            },
+            {
+              "end": 4.74,
+              "text": "Okay?",
+              "start": 4.24
+            },
+            {
+              "end": 6.16,
+              "text": "That is Mary.",
+              "start": 5.2
+            },
+            {
+              "end": 6.48,
+              "text": "Yeah.",
+              "start": 6.16
+            }
+          ]
+        },
+        {
+          "end": 8.02,
+          "start": 6.48,
+          "channel": 1,
+          "num_words": 4,
+          "sentences": [
+            {
+              "end": 7.52,
+              "text": "Please read it.",
+              "start": 6.48
+            },
+            {
+              "end": 8.02,
+              "text": "Mhmm.",
+              "start": 7.52
+            }
+          ]
+        },
+        {
+          "end": 23.415,
+          "start": 7.7850003,
+          "channel": 0,
+          "num_words": 19,
+          "sentences": [
+            {
+              "end": 8.665,
+              "text": "What is Mary?",
+              "start": 7.7850003
+            },
+            {
+              "end": 10.045,
+              "text": "She is from France.",
+              "start": 8.665
+            },
+            {
+              "end": 21.699999,
+              "text": "She is, she is, from France because she's French.",
+              "start": 10.185
+            },
+            {
+              "end": 22.98,
+              "text": "She's French.",
+              "start": 22.16
+            },
+            {
+              "end": 23.415,
+              "text": "Mhmm.",
+              "start": 23.039999
+            }
+          ]
+        },
+        {
+          "end": 41.9,
+          "start": 24.135,
+          "channel": 0,
+          "num_words": 28,
+          "sentences": [
+            {
+              "end": 26.535,
+              "text": "My grandparents love my baby sister.",
+              "start": 24.135
+            },
+            {
+              "end": 30.375,
+              "text": "My sister is, is young.",
+              "start": 26.535
+            },
+            {
+              "end": 34.86,
+              "text": "My grandparent my grandparents are old.",
+              "start": 30.375
+            },
+            {
+              "end": 38.2,
+              "text": "Tim has a great family.",
+              "start": 36.68
+            },
+            {
+              "end": 41.9,
+              "text": "His parents, his parents are nice.",
+              "start": 38.2
+            }
+          ]
+        },
+        {
+          "end": 47.555,
+          "start": 43.135002,
+          "channel": 0,
+          "num_words": 8,
+          "sentences": [
+            {
+              "end": 44.895,
+              "text": "His brother is funny.",
+              "start": 43.135002
+            },
+            {
+              "end": 47.555,
+              "text": "His sister is, kind.",
+              "start": 44.895
+            }
+          ]
+        },
+        {
+          "end": 48.26,
+          "start": 47.76,
+          "channel": 1,
+          "num_words": 1,
+          "sentences": [
+            {
+              "end": 48.26,
+              "text": "Mhmm.",
+              "start": 47.76
+            }
+          ]
+        },
+        {
+          "end": 51.69,
+          "start": 48.175,
+          "channel": 0,
+          "num_words": 6,
+          "sentences": [
+            {
+              "end": 49.315002,
+              "text": "Look at the sheets.",
+              "start": 48.175
+            },
+            {
+              "end": 51.69,
+              "text": "Direct sheets",
+              "start": 50.55
+            }
+          ]
+        },
+        {
+          "end": 53.38,
+          "start": 52.88,
+          "channel": 1,
+          "num_words": 1,
+          "sentences": [
+            {
+              "end": 53.38,
+              "text": "Shirts.",
+              "start": 52.88
+            }
+          ]
+        },
+        {
+          "end": 53.75,
+          "start": 53.51,
+          "channel": 0,
+          "num_words": 1,
+          "sentences": [
+            {
+              "end": 53.75,
+              "text": "is,",
+              "start": 53.51
+            }
+          ]
+        },
+        {
+          "end": 54.305,
+          "start": 53.805,
+          "channel": 1,
+          "num_words": 1,
+          "sentences": [
+            {
+              "end": 54.305,
+              "text": "Shirts.",
+              "start": 53.805
+            }
+          ]
+        },
+        {
+          "end": 55.19,
+          "start": 53.91,
+          "channel": 0,
+          "num_words": 2,
+          "sentences": [
+            {
+              "end": 54.41,
+              "text": "shirts.",
+              "start": 53.91
+            },
+            {
+              "end": 55.19,
+              "text": "Look",
+              "start": 54.87
+            }
+          ]
+        },
+        {
+          "end": 55.665,
+          "start": 55.005,
+          "channel": 1,
+          "num_words": 2,
+          "sentences": [
+            {
+              "end": 55.665,
+              "text": "Not shirts.",
+              "start": 55.005
+            }
+          ]
+        },
+        {
+          "end": 55.93,
+          "start": 55.19,
+          "channel": 0,
+          "num_words": 2,
+          "sentences": [
+            {
+              "end": 55.93,
+              "text": "at the",
+              "start": 55.19
+            }
+          ]
+        },
+        {
+          "end": 56.225002,
+          "start": 55.725002,
+          "channel": 1,
+          "num_words": 1,
+          "sentences": [
+            {
+              "end": 56.225002,
+              "text": "Shirts.",
+              "start": 55.725002
+            }
+          ]
+        },
+        {
+          "end": 64.625,
+          "start": 56.845,
+          "channel": 0,
+          "num_words": 15,
+          "sentences": [
+            {
+              "end": 58.065,
+              "text": "look at the shirts.",
+              "start": 56.845
+            },
+            {
+              "end": 61.345,
+              "text": "The red shirts is, is small.",
+              "start": 58.364998
+            },
+            {
+              "end": 64.625,
+              "text": "The blue shirts is, is",
+              "start": 61.965
+            }
+          ]
+        },
+        {
+          "end": 66.74,
+          "start": 65.619995,
+          "channel": 1,
+          "num_words": 5,
+          "sentences": [
+            {
+              "end": 66.02,
+              "text": "No.",
+              "start": 65.619995
+            },
+            {
+              "end": 66.1,
+              "text": "No.",
+              "start": 66.02
+            },
+            {
+              "end": 66.18,
+              "text": "No.",
+              "start": 66.1
+            },
+            {
+              "end": 66.659996,
+              "text": "No.",
+              "start": 66.18
+            },
+            {
+              "end": 66.74,
+              "text": "No.",
+              "start": 66.659996
+            }
+          ]
+        },
+        {
+          "end": 67.259995,
+          "start": 66.74,
+          "channel": 1,
+          "num_words": 5,
+          "sentences": [
+            {
+              "end": 66.82,
+              "text": "No.",
+              "start": 66.74
+            },
+            {
+              "end": 66.979996,
+              "text": "No.",
+              "start": 66.82
+            },
+            {
+              "end": 67.06,
+              "text": "No.",
+              "start": 66.979996
+            },
+            {
+              "end": 67.159996,
+              "text": "No.",
+              "start": 67.06
+            },
+            {
+              "end": 67.259995,
+              "text": "No.",
+              "start": 67.159996
+            }
+          ]
+        },
+        {
+          "end": 71.08501,
+          "start": 67.259995,
+          "channel": 1,
+          "num_words": 8,
+          "sentences": [
+            {
+              "end": 67.36,
+              "text": "No.",
+              "start": 67.259995
+            },
+            {
+              "end": 67.46,
+              "text": "No.",
+              "start": 67.36
+            },
+            {
+              "end": 67.7,
+              "text": "No.",
+              "start": 67.46
+            },
+            {
+              "end": 68.2,
+              "text": "No.",
+              "start": 67.7
+            },
+            {
+              "end": 71.08501,
+              "text": "Where is the shirt?",
+              "start": 69.965004
+            }
+          ]
+        },
+        {
+          "end": 81.97,
+          "start": 71.08501,
+          "channel": 1,
+          "num_words": 24,
+          "sentences": [
+            {
+              "end": 72.205,
+              "text": "My parents are nice.",
+              "start": 71.08501
+            },
+            {
+              "end": 73.425,
+              "text": "My brother is funny.",
+              "start": 72.205
+            },
+            {
+              "end": 75.665,
+              "text": "Okay.",
+              "start": 75.165
+            },
+            {
+              "end": 78.225006,
+              "text": "And, look at the shirts.",
+              "start": 75.965004
+            },
+            {
+              "end": 81.97,
+              "text": "The red shirt and you were keep on saying shirts.",
+              "start": 78.75
+            }
+          ]
+        },
+        {
+          "end": 94.895,
+          "start": 82.51,
+          "channel": 1,
+          "num_words": 33,
+          "sentences": [
+            {
+              "end": 87.25,
+              "text": "You see, in 1 in the first sentence, you have shirts as a plural.",
+              "start": 82.51
+            },
+            {
+              "end": 92.895,
+              "text": "But in the next 2 sentences you still were using plural while it was singular.",
+              "start": 87.595
+            },
+            {
+              "end": 94.895,
+              "text": "You don't see s.",
+              "start": 93.595
+            }
+          ]
+        },
+        {
+          "end": 95.825005,
+          "start": 95.325005,
+          "channel": 0,
+          "num_words": 1,
+          "sentences": [
+            {
+              "end": 95.825005,
+              "text": "Okay.",
+              "start": 95.325005
+            }
+          ]
+        },
+        {
+          "end": 96.09,
+          "start": 95.369995,
+          "channel": 1,
+          "num_words": 2,
+          "sentences": [
+            {
+              "end": 96.09,
+              "text": "The red",
+              "start": 95.369995
+            }
+          ]
+        },
+        {
+          "end": 96.205,
+          "start": 95.965004,
+          "channel": 0,
+          "num_words": 1,
+          "sentences": [
+            {
+              "end": 96.205,
+              "text": "Okay.",
+              "start": 95.965004
+            }
+          ]
+        },
+        {
+          "end": 96.59,
+          "start": 96.09,
+          "channel": 1,
+          "num_words": 1,
+          "sentences": [
+            {
+              "end": 96.59,
+              "text": "shirt.",
+              "start": 96.09
+            }
+          ]
+        },
+        {
+          "end": 96.705,
+          "start": 96.205,
+          "channel": 0,
+          "num_words": 1,
+          "sentences": [
+            {
+              "end": 96.705,
+              "text": "Correct.",
+              "start": 96.205
+            }
+          ]
+        },
+        {
+          "end": 97.229996,
+          "start": 96.729996,
+          "channel": 1,
+          "num_words": 1,
+          "sentences": [
+            {
+              "end": 97.229996,
+              "text": "Look",
+              "start": 96.729996
+            }
+          ]
+        },
+        {
+          "end": 98.225006,
+          "start": 96.845,
+          "channel": 0,
+          "num_words": 3,
+          "sentences": [
+            {
+              "end": 97.725006,
+              "text": "That's right.",
+              "start": 96.845
+            },
+            {
+              "end": 98.225006,
+              "text": "Right.",
+              "start": 97.725006
+            }
+          ]
+        },
+        {
+          "end": 108.524994,
+          "start": 100.89,
+          "channel": 1,
+          "num_words": 13,
+          "sentences": [
+            {
+              "end": 101.63,
+              "text": "at the shirts.",
+              "start": 100.89
+            },
+            {
+              "end": 105.325,
+              "text": "The red shirt is small.",
+              "start": 103.704994
+            },
+            {
+              "end": 107.325,
+              "text": "Is mawa.",
+              "start": 106.66499
+            },
+            {
+              "end": 108.524994,
+              "text": "The blue shirt",
+              "start": 107.625
+            }
+          ]
+        },
+        {
+          "end": 118.09,
+          "start": 117.11,
+          "channel": 0,
+          "num_words": 2,
+          "sentences": [
+            {
+              "end": 117.59,
+              "text": "Right.",
+              "start": 117.11
+            },
+            {
+              "end": 118.09,
+              "text": "Right.",
+              "start": 117.59
+            }
+          ]
+        },
+        {
+          "end": 118.76,
+          "start": 118.26,
+          "channel": 1,
+          "num_words": 1,
+          "sentences": [
+            {
+              "end": 118.76,
+              "text": "large.",
+              "start": 118.26
+            }
+          ]
+        },
+        {
+          "end": 135.35,
+          "start": 119.27,
+          "channel": 0,
+          "num_words": 5,
+          "sentences": [
+            {
+              "end": 119.35,
+              "text": "Right.",
+              "start": 119.27
+            },
+            {
+              "end": 119.51,
+              "text": "Right.",
+              "start": 119.35
+            },
+            {
+              "end": 120.01,
+              "text": "Right.",
+              "start": 119.51
+            },
+            {
+              "end": 121.21,
+              "text": "Mhmm.",
+              "start": 120.71
+            },
+            {
+              "end": 135.35,
+              "text": "Right.",
+              "start": 134.85
+            }
+          ]
+        },
+        {
+          "end": 147.285,
+          "start": 138.85,
+          "channel": 0,
+          "num_words": 4,
+          "sentences": [
+            {
+              "end": 139.25,
+              "text": "Right.",
+              "start": 138.85
+            },
+            {
+              "end": 139.75,
+              "text": "Mhmm.",
+              "start": 139.25
+            },
+            {
+              "end": 143.365,
+              "text": "Okay.",
+              "start": 142.865
+            },
+            {
+              "end": 147.285,
+              "text": "Okay.",
+              "start": 146.785
+            }
+          ]
+        },
+        {
+          "end": 151.04999,
+          "start": 150.54999,
+          "channel": 1,
+          "num_words": 1,
+          "sentences": [
+            {
+              "end": 151.04999,
+              "text": "Okay?",
+              "start": 150.54999
+            }
+          ]
+        },
+        {
+          "end": 170.71,
+          "start": 150.76,
+          "channel": 0,
+          "num_words": 23,
+          "sentences": [
+            {
+              "end": 151.26,
+              "text": "Okay.",
+              "start": 150.76
+            },
+            {
+              "end": 158.385,
+              "text": "Today, I today, I'm tired.",
+              "start": 153.64
+            },
+            {
+              "end": 160.285,
+              "text": "I want to sleep.",
+              "start": 159.245
+            },
+            {
+              "end": 170.71,
+              "text": "My bed my bed is nice and, my bed is nice and, and,",
+              "start": 160.285
+            }
+          ]
+        },
+        {
+          "end": 171.215,
+          "start": 170.715,
+          "channel": 1,
+          "num_words": 1,
+          "sentences": [
+            {
+              "end": 171.215,
+              "text": "Mhmm.",
+              "start": 170.715
+            }
+          ]
+        },
+        {
+          "end": 171.77,
+          "start": 171.27,
+          "channel": 0,
+          "num_words": 1,
+          "sentences": [
+            {
+              "end": 171.77,
+              "text": "warm.",
+              "start": 171.27
+            }
+          ]
+        },
+        {
+          "end": 176.815,
+          "start": 172.39499,
+          "channel": 1,
+          "num_words": 9,
+          "sentences": [
+            {
+              "end": 173.035,
+              "text": "Very good.",
+              "start": 172.39499
+            },
+            {
+              "end": 173.75499,
+              "text": "Very good.",
+              "start": 173.035
+            },
+            {
+              "end": 174.235,
+              "text": "Not bad.",
+              "start": 173.75499
+            },
+            {
+              "end": 174.97499,
+              "text": "Very good.",
+              "start": 174.235
+            },
+            {
+              "end": 176.815,
+              "text": "Mhmm.",
+              "start": 176.315
+            }
+          ]
+        },
+        {
+          "end": 190.015,
+          "start": 178.72,
+          "channel": 1,
+          "num_words": 20,
+          "sentences": [
+            {
+              "end": 179.2,
+              "text": "Yes.",
+              "start": 178.72
+            },
+            {
+              "end": 182.9,
+              "text": "We are moving to the next phase.",
+              "start": 179.2
+            },
+            {
+              "end": 185.93999,
+              "text": "I am not you are you are actually.",
+              "start": 183.51999
+            },
+            {
+              "end": 188.89499,
+              "text": "Present simple time.",
+              "start": 187.595
+            },
+            {
+              "end": 190.015,
+              "text": "Mhmm.",
+              "start": 189.515
+            }
+          ]
+        },
+        {
+          "end": 203.9,
+          "start": 191.345,
+          "channel": 0,
+          "num_words": 9,
+          "sentences": [
+            {
+              "end": 193.685,
+              "text": "I'm not, I'm not a student.",
+              "start": 191.345
+            },
+            {
+              "end": 203.9,
+              "text": "I I'm not.",
+              "start": 197.23999
+            }
+          ]
+        },
+        {
+          "end": 207.225,
+          "start": 205.30501,
+          "channel": 1,
+          "num_words": 5,
+          "sentences": [
+            {
+              "end": 205.545,
+              "text": "No.",
+              "start": 205.30501
+            },
+            {
+              "end": 206.445,
+              "text": "I'm a student.",
+              "start": 205.545
+            },
+            {
+              "end": 207.225,
+              "text": "I'm",
+              "start": 207.065
+            }
+          ]
+        },
+        {
+          "end": 207.305,
+          "start": 207.065,
+          "channel": 0,
+          "num_words": 1,
+          "sentences": [
+            {
+              "end": 207.305,
+              "text": "Yeah.",
+              "start": 207.065
+            }
+          ]
+        },
+        {
+          "end": 207.46501,
+          "start": 207.225,
+          "channel": 1,
+          "num_words": 1,
+          "sentences": [
+            {
+              "end": 207.46501,
+              "text": "not",
+              "start": 207.225
+            }
+          ]
+        },
+        {
+          "end": 207.385,
+          "start": 207.305,
+          "channel": 0,
+          "num_words": 1,
+          "sentences": [
+            {
+              "end": 207.385,
+              "text": "I",
+              "start": 207.305
+            }
+          ]
+        },
+        {
+          "end": 208.045,
+          "start": 207.46501,
+          "channel": 1,
+          "num_words": 2,
+          "sentences": [
+            {
+              "end": 208.045,
+              "text": "a teacher.",
+              "start": 207.46501
+            }
+          ]
+        },
+        {
+          "end": 218.01999,
+          "start": 208.58499,
+          "channel": 0,
+          "num_words": 9,
+          "sentences": [
+            {
+              "end": 209.08499,
+              "text": "okay.",
+              "start": 208.58499
+            },
+            {
+              "end": 210.745,
+              "text": "Okay.",
+              "start": 210.58499
+            },
+            {
+              "end": 211.245,
+              "text": "Okay.",
+              "start": 210.745
+            },
+            {
+              "end": 213.72499,
+              "text": "I'm a student.",
+              "start": 212.825
+            },
+            {
+              "end": 218.01999,
+              "text": "I'm a student.",
+              "start": 217.04
+            }
+          ]
+        },
+        {
+          "end": 222.26,
+          "start": 219.2,
+          "channel": 0,
+          "num_words": 6,
+          "sentences": [
+            {
+              "end": 222.26,
+              "text": "I'm not, I'm not a teacher.",
+              "start": 219.2
+            }
+          ]
+        },
+        {
+          "end": 222.705,
+          "start": 222.38501,
+          "channel": 1,
+          "num_words": 1,
+          "sentences": [
+            {
+              "end": 222.705,
+              "text": "Very",
+              "start": 222.38501
+            }
+          ]
+        },
+        {
+          "end": 223.14,
+          "start": 222.4,
+          "channel": 0,
+          "num_words": 2,
+          "sentences": [
+            {
+              "end": 223.14,
+              "text": "Oh, I",
+              "start": 222.4
+            }
+          ]
+        },
+        {
+          "end": 223.765,
+          "start": 222.705,
+          "channel": 1,
+          "num_words": 3,
+          "sentences": [
+            {
+              "end": 222.945,
+              "text": "good.",
+              "start": 222.705
+            },
+            {
+              "end": 223.765,
+              "text": "Very good.",
+              "start": 222.945
+            }
+          ]
+        },
+        {
+          "end": 226.85501,
+          "start": 223.57501,
+          "channel": 0,
+          "num_words": 10,
+          "sentences": [
+            {
+              "end": 224.71501,
+              "text": "I'm not a teacher.",
+              "start": 223.57501
+            },
+            {
+              "end": 226.07501,
+              "text": "Oh, such a teacher.",
+              "start": 224.77501
+            },
+            {
+              "end": 226.85501,
+              "text": "I'm not",
+              "start": 226.13501
+            }
+          ]
+        },
+        {
+          "end": 227.205,
+          "start": 226.705,
+          "channel": 1,
+          "num_words": 1,
+          "sentences": [
+            {
+              "end": 227.205,
+              "text": "Mhmm.",
+              "start": 226.705
+            }
+          ]
+        },
+        {
+          "end": 228.55501,
+          "start": 226.85501,
+          "channel": 0,
+          "num_words": 3,
+          "sentences": [
+            {
+              "end": 227.515,
+              "text": "a teacher.",
+              "start": 226.85501
+            },
+            {
+              "end": 228.55501,
+              "text": "Oh,",
+              "start": 228.05501
+            }
+          ]
+        },
+        {
+          "end": 229.125,
+          "start": 228.625,
+          "channel": 1,
+          "num_words": 1,
+          "sentences": [
+            {
+              "end": 229.125,
+              "text": "Mhmm.",
+              "start": 228.625
+            }
+          ]
+        },
+        {
+          "end": 246.025,
+          "start": 228.93501,
+          "channel": 0,
+          "num_words": 19,
+          "sentences": [
+            {
+              "end": 229.99501,
+              "text": "I'm not a teacher.",
+              "start": 228.93501
+            },
+            {
+              "end": 230.85501,
+              "text": "This is Sarah.",
+              "start": 230.05501
+            },
+            {
+              "end": 239.53,
+              "text": "We aren't we aren't we aren't sisters.",
+              "start": 230.85501
+            },
+            {
+              "end": 244.20499,
+              "text": "We we are friends.",
+              "start": 239.98999
+            },
+            {
+              "end": 246.025,
+              "text": "Hi.",
+              "start": 245.545
+            }
+          ]
+        },
+        {
+          "end": 265.625,
+          "start": 246.025,
+          "channel": 0,
+          "num_words": 25,
+          "sentences": [
+            {
+              "end": 248.28499,
+              "text": "My name my name's Jack.",
+              "start": 246.025
+            },
+            {
+              "end": 252.53,
+              "text": "I'm from new New Zealand.",
+              "start": 249.95001
+            },
+            {
+              "end": 257.41,
+              "text": "Australia is isn't, my country.",
+              "start": 253.55
+            },
+            {
+              "end": 261.545,
+              "text": "Oh, no?",
+              "start": 260.885
+            },
+            {
+              "end": 265.625,
+              "text": "Australia is ah, Australia is not my country.",
+              "start": 263.045
+            }
+          ]
+        },
+        {
+          "end": 272.97,
+          "start": 271.91,
+          "channel": 0,
+          "num_words": 2,
+          "sentences": [
+            {
+              "end": 272.97,
+              "text": "Australia is",
+              "start": 271.91
+            }
+          ]
+        },
+        {
+          "end": 280.955,
+          "start": 277.495,
+          "channel": 1,
+          "num_words": 6,
+          "sentences": [
+            {
+              "end": 277.815,
+              "text": "Yeah.",
+              "start": 277.495
+            },
+            {
+              "end": 280.955,
+              "text": "Australia is isn't my country.",
+              "start": 277.815
+            }
+          ]
+        },
+        {
+          "end": 286.85,
+          "start": 282.19,
+          "channel": 0,
+          "num_words": 8,
+          "sentences": [
+            {
+              "end": 282.93,
+              "text": "So yeah.",
+              "start": 282.19
+            },
+            {
+              "end": 285.65,
+              "text": "It's not my country.",
+              "start": 284.35
+            },
+            {
+              "end": 286.85,
+              "text": "It is",
+              "start": 286.27
+            }
+          ]
+        },
+        {
+          "end": 292.31,
+          "start": 287.88998,
+          "channel": 1,
+          "num_words": 7,
+          "sentences": [
+            {
+              "end": 288.21,
+              "text": "Yeah.",
+              "start": 287.88998
+            },
+            {
+              "end": 288.71,
+              "text": "Yeah.",
+              "start": 288.21
+            },
+            {
+              "end": 292.31,
+              "text": "There's EESN apostrophe of 10.",
+              "start": 289.33
+            }
+          ]
+        },
+        {
+          "end": 299.94,
+          "start": 293.585,
+          "channel": 0,
+          "num_words": 12,
+          "sentences": [
+            {
+              "end": 293.985,
+              "text": "Okay.",
+              "start": 293.585
+            },
+            {
+              "end": 295.345,
+              "text": "Isn't my country?",
+              "start": 293.985
+            },
+            {
+              "end": 295.845,
+              "text": "Okay.",
+              "start": 295.345
+            },
+            {
+              "end": 298.965,
+              "text": "Max is a good doc.",
+              "start": 297.50497
+            },
+            {
+              "end": 299.94,
+              "text": "He is",
+              "start": 299.185
+            }
+          ]
+        }
+      ],
+      "transcript": "\nChannel 1: Beautiful. And Spanish adjectives. Okay? That is Mary. Yeah.\n\nPlease read it. Mhmm.\n\nChannel 0: What is Mary? She is from France. She is, she is, from France because she's French. She's French. Mhmm.\n\nMy grandparents love my baby sister. My sister is, is young. My grandparent my grandparents are old. Tim has a great family. His parents, his parents are nice.\n\nHis brother is funny. His sister is, kind.\n\nChannel 1: Mhmm.\n\nChannel 0: Look at the sheets. Direct sheets\n\nChannel 1: Shirts.\n\nChannel 0: is,\n\nChannel 1: Shirts.\n\nChannel 0: shirts. Look\n\nChannel 1: Not shirts.\n\nChannel 0: at the\n\nChannel 1: Shirts.\n\nChannel 0: look at the shirts. The red shirts is, is small. The blue shirts is, is\n\nChannel 1: No. No. No. No. No.\n\nNo. No. No. No. No.\n\nNo. No. No. No. Where is the shirt?\n\nMy parents are nice. My brother is funny. Okay. And, look at the shirts. The red shirt and you were keep on saying shirts.\n\nYou see, in 1 in the first sentence, you have shirts as a plural. But in the next 2 sentences you still were using plural while it was singular. You don't see s.\n\nChannel 0: Okay.\n\nChannel 1: The red\n\nChannel 0: Okay.\n\nChannel 1: shirt.\n\nChannel 0: Correct.\n\nChannel 1: Look\n\nChannel 0: That's right. Right.\n\nChannel 1: at the shirts. The red shirt is small. Is mawa. The blue shirt\n\nChannel 0: Right. Right.\n\nChannel 1: large.\n\nChannel 0: Right. Right. Right. Mhmm. Right.\n\nRight. Mhmm. Okay. Okay.\n\nChannel 1: Okay?\n\nChannel 0: Okay. Today, I today, I'm tired. I want to sleep. My bed my bed is nice and, my bed is nice and, and,\n\nChannel 1: Mhmm.\n\nChannel 0: warm.\n\nChannel 1: Very good. Very good. Not bad. Very good. Mhmm.\n\nYes. We are moving to the next phase. I am not you are you are actually. Present simple time. Mhmm.\n\nChannel 0: I'm not, I'm not a student. I I'm not.\n\nChannel 1: No. I'm a student. I'm\n\nChannel 0: Yeah.\n\nChannel 1: not\n\nChannel 0: I\n\nChannel 1: a teacher.\n\nChannel 0: okay. Okay. Okay. I'm a student. I'm a student.\n\nI'm not, I'm not a teacher.\n\nChannel 1: Very\n\nChannel 0: Oh, I\n\nChannel 1: good. Very good.\n\nChannel 0: I'm not a teacher. Oh, such a teacher. I'm not\n\nChannel 1: Mhmm.\n\nChannel 0: a teacher. Oh,\n\nChannel 1: Mhmm.\n\nChannel 0: I'm not a teacher. This is Sarah. We aren't we aren't we aren't sisters. We we are friends. Hi.\n\nMy name my name's Jack. I'm from new New Zealand. Australia is isn't, my country. Oh, no? Australia is ah, Australia is not my country.\n\nAustralia is\n\nChannel 1: Yeah. Australia is isn't my country.\n\nChannel 0: So yeah. It's not my country. It is\n\nChannel 1: Yeah. Yeah. There's EESN apostrophe of 10.\n\nChannel 0: Okay. Isn't my country? Okay. Max is a good doc. He is"
+    }
+  }
+}

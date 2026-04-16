@@ -1,0 +1,3209 @@
+{
+  "source": "data/preprocessed/Student-2/lesson-1/",
+  "student": "Student-2",
+  "lesson": "lesson-1",
+  "partition_method": "ai_context_chunker_v14",
+  "paragraphs": [
+    {
+      "paragraph_id": 1,
+      "label": "Apologizing for being late and oversleeping, weekend skiing",
+      "conversation_boolean": true,
+      "word_start_id": 1,
+      "word_end_id": 202,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 1,
+          "word_end_id": 1,
+          "text": "Hi."
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 2,
+          "word_end_id": 3,
+          "text": "Hi, Marissa."
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 4,
+          "word_end_id": 10,
+          "text": "III will join you in a second."
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 11,
+          "word_end_id": 15,
+          "text": "Just give me 2 minutes."
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 16,
+          "word_end_id": 16,
+          "text": "Okay?"
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 17,
+          "word_end_id": 18,
+          "text": "Hi, Marissa."
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 19,
+          "word_end_id": 29,
+          "text": "I'm back, but I'm I'm trying to to open my camera."
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 30,
+          "word_end_id": 30,
+          "text": "So"
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 31,
+          "word_end_id": 31,
+          "text": "yeah."
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 32,
+          "word_end_id": 38,
+          "text": "I will leave and and, 1 second."
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 39,
+          "word_end_id": 42,
+          "text": "Then I Oh, okay."
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 43,
+          "word_end_id": 44,
+          "text": "I'm back."
+        },
+        {
+          "sentence_index": 13,
+          "word_start_id": 45,
+          "word_end_id": 58,
+          "text": "I'm very sorry for being late, but what happened, I I missed the bus."
+        },
+        {
+          "sentence_index": 14,
+          "word_start_id": 59,
+          "word_end_id": 68,
+          "text": "I had my, you know, an accident on my way."
+        },
+        {
+          "sentence_index": 15,
+          "word_start_id": 69,
+          "word_end_id": 73,
+          "text": "You know, someone was killed."
+        },
+        {
+          "sentence_index": 16,
+          "word_start_id": 74,
+          "word_end_id": 82,
+          "text": "I have to I had to call to rescue."
+        },
+        {
+          "sentence_index": 17,
+          "word_start_id": 83,
+          "word_end_id": 83,
+          "text": "No."
+        },
+        {
+          "sentence_index": 18,
+          "word_start_id": 84,
+          "word_end_id": 84,
+          "text": "No."
+        },
+        {
+          "sentence_index": 19,
+          "word_start_id": 85,
+          "word_end_id": 85,
+          "text": "No."
+        },
+        {
+          "sentence_index": 20,
+          "word_start_id": 86,
+          "word_end_id": 86,
+          "text": "No."
+        },
+        {
+          "sentence_index": 21,
+          "word_start_id": 87,
+          "word_end_id": 89,
+          "text": "It's a joke."
+        },
+        {
+          "sentence_index": 22,
+          "word_start_id": 90,
+          "word_end_id": 92,
+          "text": "It's a joke."
+        },
+        {
+          "sentence_index": 23,
+          "word_start_id": 93,
+          "word_end_id": 101,
+          "text": "You know, you you know what what people saying?"
+        },
+        {
+          "sentence_index": 24,
+          "word_start_id": 102,
+          "word_end_id": 108,
+          "text": "You know, when they miss the class."
+        },
+        {
+          "sentence_index": 25,
+          "word_start_id": 109,
+          "word_end_id": 109,
+          "text": "No."
+        },
+        {
+          "sentence_index": 26,
+          "word_start_id": 110,
+          "word_end_id": 110,
+          "text": "No."
+        },
+        {
+          "sentence_index": 27,
+          "word_start_id": 111,
+          "word_end_id": 111,
+          "text": "Sorry."
+        },
+        {
+          "sentence_index": 28,
+          "word_start_id": 112,
+          "word_end_id": 139,
+          "text": "This is what what happens, you know, sometimes when you when you have, you know, something out of schedule, which is, you're changing you're changing the regular time."
+        },
+        {
+          "sentence_index": 29,
+          "word_start_id": 140,
+          "word_end_id": 146,
+          "text": "And then, you know, I slept over."
+        },
+        {
+          "sentence_index": 30,
+          "word_start_id": 147,
+          "word_end_id": 149,
+          "text": "That's that's something"
+        },
+        {
+          "sentence_index": 31,
+          "word_start_id": 150,
+          "word_end_id": 150,
+          "text": "yeah."
+        },
+        {
+          "sentence_index": 32,
+          "word_start_id": 151,
+          "word_end_id": 152,
+          "text": "I overslept."
+        },
+        {
+          "sentence_index": 33,
+          "word_start_id": 153,
+          "word_end_id": 185,
+          "text": "So so, you know, it happens, you know, maybe few times a year, but it it always happens when you have, you know, something, you know, in something something early, but not regular."
+        },
+        {
+          "sentence_index": 34,
+          "word_start_id": 186,
+          "word_end_id": 191,
+          "text": "Beautiful weekend in the mountains, skiing."
+        },
+        {
+          "sentence_index": 35,
+          "word_start_id": 192,
+          "word_end_id": 202,
+          "text": "You know, that that's, you know, cross country again and the"
+        }
+      ]
+    },
+    {
+      "paragraph_id": 2,
+      "label": "Cross-country skiing weekends and snow conditions this winter",
+      "conversation_boolean": true,
+      "word_start_id": 203,
+      "word_end_id": 438,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 203,
+          "word_end_id": 205,
+          "text": "the same place."
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 206,
+          "word_end_id": 218,
+          "text": "Not not exactly every weekend, but, this was my first time this winter."
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 219,
+          "word_end_id": 223,
+          "text": "So, so every second weekend."
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 224,
+          "word_end_id": 248,
+          "text": "And, yeah, the the the this is why I'm going there because because this is kind of unique, year that, we can follow the shoulder."
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 249,
+          "word_end_id": 250,
+          "text": "Last year."
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 251,
+          "word_end_id": 251,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 252,
+          "word_end_id": 267,
+          "text": "Last year, there was no snow at all, and I I never been skiing, last year."
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 268,
+          "word_end_id": 294,
+          "text": "So that that was you know, I missed the first the the first, window in December, And there was only 1 weekend with the snow, early December."
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 295,
+          "word_end_id": 300,
+          "text": "And then there was no snow."
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 301,
+          "word_end_id": 302,
+          "text": "No snow."
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 303,
+          "word_end_id": 312,
+          "text": "It it's I think I don't remember, it happening earlier."
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 313,
+          "word_end_id": 318,
+          "text": "So they do a safe time."
+        },
+        {
+          "sentence_index": 13,
+          "word_start_id": 319,
+          "word_end_id": 325,
+          "text": "There was no snow in the winter."
+        },
+        {
+          "sentence_index": 14,
+          "word_start_id": 326,
+          "word_end_id": 340,
+          "text": "But this time is is much better, and it was snowing every day, all time."
+        },
+        {
+          "sentence_index": 15,
+          "word_start_id": 341,
+          "word_end_id": 342,
+          "text": "So No."
+        },
+        {
+          "sentence_index": 16,
+          "word_start_id": 343,
+          "word_end_id": 343,
+          "text": "No."
+        },
+        {
+          "sentence_index": 17,
+          "word_start_id": 344,
+          "word_end_id": 347,
+          "text": "It's it's pretty close."
+        },
+        {
+          "sentence_index": 18,
+          "word_start_id": 348,
+          "word_end_id": 353,
+          "text": "NICE, it's just on the Seacoast."
+        },
+        {
+          "sentence_index": 19,
+          "word_start_id": 354,
+          "word_end_id": 356,
+          "text": "So it it"
+        },
+        {
+          "sentence_index": 20,
+          "word_start_id": 357,
+          "word_end_id": 358,
+          "text": "it it"
+        },
+        {
+          "sentence_index": 21,
+          "word_start_id": 359,
+          "word_end_id": 371,
+          "text": "it always, that they have different climate and then, most of the products."
+        },
+        {
+          "sentence_index": 22,
+          "word_start_id": 372,
+          "word_end_id": 379,
+          "text": "So so because because c is, moderated climate."
+        },
+        {
+          "sentence_index": 23,
+          "word_start_id": 380,
+          "word_end_id": 399,
+          "text": "So it's always less, harsh than than, the continental 1, which we have, in east part of of of Poland."
+        },
+        {
+          "sentence_index": 24,
+          "word_start_id": 400,
+          "word_end_id": 413,
+          "text": "So they have, more lanes and, sometimes, at least, there there is a legend."
+        },
+        {
+          "sentence_index": 25,
+          "word_start_id": 414,
+          "word_end_id": 425,
+          "text": "And, it probably happened that there you you you might be remember."
+        },
+        {
+          "sentence_index": 26,
+          "word_start_id": 426,
+          "word_end_id": 438,
+          "text": "III think III told, told you about the Swedish flood of a Poland."
+        }
+      ]
+    },
+    {
+      "paragraph_id": 3,
+      "label": "Swedish invasion of Poland and Baltic Sea history",
+      "conversation_boolean": true,
+      "word_start_id": 439,
+      "word_end_id": 647,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 439,
+          "word_end_id": 453,
+          "text": "It was it was in the in, in the in the 16, I think, 48."
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 454,
+          "word_end_id": 458,
+          "text": "So far back, long ago."
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 459,
+          "word_end_id": 468,
+          "text": "And there was invasions of Swedish army to to Poland."
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 469,
+          "word_end_id": 485,
+          "text": "And actually, this was very unfortunate because Poland was engaged, in Turkish war Turkish war far east."
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 486,
+          "word_end_id": 488,
+          "text": "It's say again?"
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 489,
+          "word_end_id": 505,
+          "text": "In the in the Turkish world, far far far far east, on the Ukraine at the moment."
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 506,
+          "word_end_id": 525,
+          "text": "And, actually and we we we we were not not beaten, but it was very, very, very demanding demanding work."
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 526,
+          "word_end_id": 547,
+          "text": "It would this was the the this was like, you know, the the Turkish Osman army was very strong at that moment."
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 548,
+          "word_end_id": 554,
+          "text": "Also, Russian army, was against Poland, etcetera."
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 555,
+          "word_end_id": 565,
+          "text": "So so this was, like, very demanding for for the country."
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 566,
+          "word_end_id": 575,
+          "text": "And, sweet, sweets, use it because they use the moment."
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 576,
+          "word_end_id": 576,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 13,
+          "word_start_id": 577,
+          "word_end_id": 590,
+          "text": "And they and they invaded, to to Poland and, you know, how sweet Sweden."
+        },
+        {
+          "sentence_index": 14,
+          "word_start_id": 591,
+          "word_end_id": 598,
+          "text": "Sweden is across the the the Baltic Sea."
+        },
+        {
+          "sentence_index": 15,
+          "word_start_id": 599,
+          "word_end_id": 608,
+          "text": "So it is not I mean, it is not far,"
+        },
+        {
+          "sentence_index": 16,
+          "word_start_id": 609,
+          "word_end_id": 629,
+          "text": "because but it's a small 1, but still, you you need, you know, possibility to to move the the big army."
+        },
+        {
+          "sentence_index": 17,
+          "word_start_id": 630,
+          "word_end_id": 647,
+          "text": "And they they they they had they had that that at that time, they had some ships, but,"
+        }
+      ]
+    },
+    {
+      "paragraph_id": 4,
+      "label": "Little Ice Age, Baltic Sea freezing, and climate change",
+      "conversation_boolean": true,
+      "word_start_id": 648,
+      "word_end_id": 847,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 648,
+          "word_end_id": 650,
+          "text": "they did votes."
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 651,
+          "word_end_id": 660,
+          "text": "But, but also, they invited through the ice, icy Baltic."
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 661,
+          "word_end_id": 695,
+          "text": "So and that at that time, the the the the this was called, I I think, some something something that the the the sixteens, sixteens hundred, it was so called, small IC, period, in Europe."
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 696,
+          "word_end_id": 706,
+          "text": "So it was more colder than than, it used to be."
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 707,
+          "word_end_id": 727,
+          "text": "And, that that's why Baltic see, sometimes, at least at least the east part of Baltic Sea was covered by ice."
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 728,
+          "word_end_id": 735,
+          "text": "So so, you know, now it's very different."
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 736,
+          "word_end_id": 783,
+          "text": "And I I remember even from my childhood that, certain, that that that that, you know, on on the far east of Baltic, there are certain gulfs, like, Finns gulfs or like, Finnish gulf and, and this Finnish Gulf thing always, iced, practically fully iced, in the winter."
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 784,
+          "word_end_id": 796,
+          "text": "IIII don't think it is iced at the moment because of climate change."
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 797,
+          "word_end_id": 821,
+          "text": "So so and that that's why the ice has some difficulty with snow because because, there there might be a snowfall, but it is short."
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 822,
+          "word_end_id": 830,
+          "text": "The the snow is usually is not, staying long."
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 831,
+          "word_end_id": 840,
+          "text": "So Actually actually, it's moving at the moment in Warsaw."
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 841,
+          "word_end_id": 847,
+          "text": "The snow is not very big 1."
+        }
+      ]
+    },
+    {
+      "paragraph_id": 5,
+      "label": "Ukraine situation, Trump's politics, and Yalta Treaty comparison",
+      "conversation_boolean": true,
+      "word_start_id": 848,
+      "word_end_id": 1118,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 848,
+          "word_end_id": 858,
+          "text": "You know, the the the the snow is not very big."
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 859,
+          "word_end_id": 863,
+          "text": "It's, very lightly white outside."
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 864,
+          "word_end_id": 868,
+          "text": "So so and and but"
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 869,
+          "word_end_id": 875,
+          "text": "but but it is snowing it it"
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 876,
+          "word_end_id": 881,
+          "text": "it was snowing, like, whole week."
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 882,
+          "word_end_id": 888,
+          "text": "So but but very very very likely."
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 889,
+          "word_end_id": 939,
+          "text": "So You know, I'm at ease at the moment about Ukraine because because the the the this is, you know, what what what what's going on, in media because in in the media I mean, how you can judge having, you know, some gossips, guesses, and, not not not confirmed information."
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 940,
+          "word_end_id": 941,
+          "text": "I mean,"
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 942,
+          "word_end_id": 949,
+          "text": "what what what are these people talking about?"
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 950,
+          "word_end_id": 962,
+          "text": "III think, you know, the the Trump is playing very very dangerous game."
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 963,
+          "word_end_id": 976,
+          "text": "And, I would say he will lose in in in in final global decision."
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 977,
+          "word_end_id": 989,
+          "text": "Because he will lose because, it it will end up, on another Yalta."
+        },
+        {
+          "sentence_index": 13,
+          "word_start_id": 990,
+          "word_end_id": 992,
+          "text": "You remember Yalta?"
+        },
+        {
+          "sentence_index": 14,
+          "word_start_id": 993,
+          "word_end_id": 997,
+          "text": "Yalta Yalta Treaty Yalta Treaty?"
+        },
+        {
+          "sentence_index": 15,
+          "word_start_id": 998,
+          "word_end_id": 1008,
+          "text": "Yalta Treaty, it was on the end of, Second World War."
+        },
+        {
+          "sentence_index": 16,
+          "word_start_id": 1009,
+          "word_end_id": 1032,
+          "text": "Yalta is is actually Russian town, And there there was, like, treaty between Soviet Union at that time and, the US and, the UK."
+        },
+        {
+          "sentence_index": 17,
+          "word_start_id": 1033,
+          "word_end_id": 1045,
+          "text": "And, this was the vision of the world, The vision of everyone's areas."
+        },
+        {
+          "sentence_index": 18,
+          "word_start_id": 1046,
+          "word_end_id": 1046,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 19,
+          "word_start_id": 1047,
+          "word_end_id": 1066,
+          "text": "And it end up with this cold war and it adapt, with, kind of so socialistic communism, idea, including Poland."
+        },
+        {
+          "sentence_index": 20,
+          "word_start_id": 1067,
+          "word_end_id": 1078,
+          "text": "And nobody asked us whether we want to be, there or not."
+        },
+        {
+          "sentence_index": 21,
+          "word_start_id": 1079,
+          "word_end_id": 1118,
+          "text": "This was just, you know, like, I believe it was based on what what whether we whether the US and UK the UK, want war with Russia to, gain Poland, Czech Republic, Czechoslovakia at that time, or not, or maybe"
+        }
+      ]
+    },
+    {
+      "paragraph_id": 6,
+      "label": "Yalta Treaty parallels with Trump's Ukraine policy",
+      "conversation_boolean": true,
+      "word_start_id": 1119,
+      "word_end_id": 1318,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 1119,
+          "word_end_id": 1133,
+          "text": "Baltic countries and take it over to and, like, rejoin them to the Western Europe."
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 1134,
+          "word_end_id": 1152,
+          "text": "And I I mean, they they they had clear picture that they they will not be dying for Poland."
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 1153,
+          "word_end_id": 1153,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 1154,
+          "word_end_id": 1160,
+          "text": "And this is exactly the same situation."
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 1161,
+          "word_end_id": 1172,
+          "text": "Now now Trump is saying, I will not be dying for Ukraine."
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 1173,
+          "word_end_id": 1173,
+          "text": "Okay."
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 1174,
+          "word_end_id": 1186,
+          "text": "If they will give us all the resources, maybe I will consider this."
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 1187,
+          "word_end_id": 1187,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 1188,
+          "word_end_id": 1194,
+          "text": "And this is just colonialistic colonialistic policy."
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 1195,
+          "word_end_id": 1195,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 1196,
+          "word_end_id": 1203,
+          "text": "I mean We we we already tested it."
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 1204,
+          "word_end_id": 1223,
+          "text": "And, I mean, I'm I'm hundred percent I mean, if I would be Ukraine, I would say, fuck off, Trump."
+        },
+        {
+          "sentence_index": 13,
+          "word_start_id": 1224,
+          "word_end_id": 1224,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 14,
+          "word_start_id": 1225,
+          "word_end_id": 1225,
+          "text": "Okay."
+        },
+        {
+          "sentence_index": 15,
+          "word_start_id": 1226,
+          "word_end_id": 1232,
+          "text": "You you you don't want help us?"
+        },
+        {
+          "sentence_index": 16,
+          "word_start_id": 1233,
+          "word_end_id": 1235,
+          "text": "We'll rejoin Russia."
+        },
+        {
+          "sentence_index": 17,
+          "word_start_id": 1236,
+          "word_end_id": 1240,
+          "text": "This will be my answer."
+        },
+        {
+          "sentence_index": 18,
+          "word_start_id": 1241,
+          "word_end_id": 1271,
+          "text": "This will be my ans because because it would be even worse for for Ukraine, to to have such friend, quote, unquote friend, colonial colonialistic friend rather than than rejoining Russia."
+        },
+        {
+          "sentence_index": 19,
+          "word_start_id": 1272,
+          "word_end_id": 1300,
+          "text": "Because whatever we're saying and whatever whatever is the the building of nationality, you know, as far the culture thing, it's much closer to Russia than than stupid Trump."
+        },
+        {
+          "sentence_index": 20,
+          "word_start_id": 1301,
+          "word_end_id": 1301,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 21,
+          "word_start_id": 1302,
+          "word_end_id": 1318,
+          "text": "They may have some dreams to join democratic, community, but they are far away from democratic community"
+        }
+      ]
+    },
+    {
+      "paragraph_id": 7,
+      "label": "Ukraine's challenges building democracy and Western support",
+      "conversation_boolean": true,
+      "word_start_id": 1319,
+      "word_end_id": 1538,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 1319,
+          "word_end_id": 1329,
+          "text": "In their in their laws, in their policy, in their habits."
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 1330,
+          "word_end_id": 1360,
+          "text": "They they are you know, I'm I'm I'm not saying anything bad because because, you know, every every country, every nationality, have their own habits, their own tradition, I don't know."
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 1361,
+          "word_end_id": 1361,
+          "text": "Yes."
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 1362,
+          "word_end_id": 1362,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 1363,
+          "word_end_id": 1369,
+          "text": "Has their own, habits, tradition, experiences, etcetera."
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 1370,
+          "word_end_id": 1370,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 1371,
+          "word_end_id": 1394,
+          "text": "But but, you know, this is the you know, there is huge work ahead Ukraine to do to really build build a stable democracy."
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 1395,
+          "word_end_id": 1400,
+          "text": "I'm saying it because because I"
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 1401,
+          "word_end_id": 1409,
+          "text": "I we we tested it in Poland every day."
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 1410,
+          "word_end_id": 1425,
+          "text": "You know, we had maybe 1 third of these difficulties at the beginning in the nineties."
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 1426,
+          "word_end_id": 1426,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 1427,
+          "word_end_id": 1447,
+          "text": "And I know how difficult it is to reestablish or build new democracy, you know, to to to make it stable."
+        },
+        {
+          "sentence_index": 13,
+          "word_start_id": 1448,
+          "word_end_id": 1448,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 14,
+          "word_start_id": 1449,
+          "word_end_id": 1464,
+          "text": "And, I mean, you you have to be very focused to not to lose the democracy."
+        },
+        {
+          "sentence_index": 15,
+          "word_start_id": 1465,
+          "word_end_id": 1474,
+          "text": "And, so so so, you know, I'm I'm very happy."
+        },
+        {
+          "sentence_index": 16,
+          "word_start_id": 1475,
+          "word_end_id": 1484,
+          "text": "I'm very gracious to to to Ukraine to Ukraine people."
+        },
+        {
+          "sentence_index": 17,
+          "word_start_id": 1485,
+          "word_end_id": 1512,
+          "text": "Very grateful that that they they they the majority of them at least have this dream to join the the Western Europe, to to to join, you know."
+        },
+        {
+          "sentence_index": 18,
+          "word_start_id": 1513,
+          "word_end_id": 1538,
+          "text": "But but if Western Europe is giving him them, the big fuck, And if Trump is giving them big fuck, they will change their mind instantly."
+        }
+      ]
+    },
+    {
+      "paragraph_id": 8,
+      "label": "Ukraine situation, Trump's comments on Zelensky, wartime elections",
+      "conversation_boolean": true,
+      "word_start_id": 1539,
+      "word_end_id": 1740,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 1539,
+          "word_end_id": 1541,
+          "text": "You will see."
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 1542,
+          "word_end_id": 1544,
+          "text": "You will see."
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 1545,
+          "word_end_id": 1556,
+          "text": "There will be Russia in in in in 1 or 2 years."
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 1557,
+          "word_end_id": 1560,
+          "text": "Because they say, okay."
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 1561,
+          "word_end_id": 1577,
+          "text": "If we have no support, if nobody care about us, right, I mean, why we should die?"
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 1578,
+          "word_end_id": 1579,
+          "text": "I mean,"
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 1580,
+          "word_end_id": 1586,
+          "text": "what what what what is the reason?"
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 1587,
+          "word_end_id": 1598,
+          "text": "I mean, they they simply don't want us, right, in their community."
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 1599,
+          "word_end_id": 1625,
+          "text": "I think that his last chance is, and I I don't know whether you heard what, what Trump, told about Zelensky, I I think somewhere in Florida."
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 1626,
+          "word_end_id": 1626,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 1627,
+          "word_end_id": 1647,
+          "text": "She it said that Zelensky is dicta dictator without any ground in, election and actually nobody supports him, in in Ukraine."
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 1648,
+          "word_end_id": 1652,
+          "text": "This is just Russian propaganda."
+        },
+        {
+          "sentence_index": 13,
+          "word_start_id": 1653,
+          "word_end_id": 1665,
+          "text": "He he's so stupid that it is even, you know, out of comment."
+        },
+        {
+          "sentence_index": 14,
+          "word_start_id": 1666,
+          "word_end_id": 1666,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 15,
+          "word_start_id": 1667,
+          "word_end_id": 1669,
+          "text": "I mean, so"
+        },
+        {
+          "sentence_index": 16,
+          "word_start_id": 1670,
+          "word_end_id": 1673,
+          "text": "so, you know, okay."
+        },
+        {
+          "sentence_index": 17,
+          "word_start_id": 1674,
+          "word_end_id": 1688,
+          "text": "I mean, I mean, first of all, in no country, you have election, during War."
+        },
+        {
+          "sentence_index": 18,
+          "word_start_id": 1689,
+          "word_end_id": 1689,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 19,
+          "word_start_id": 1690,
+          "word_end_id": 1692,
+          "text": "Regular hot war."
+        },
+        {
+          "sentence_index": 20,
+          "word_start_id": 1693,
+          "word_end_id": 1693,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 21,
+          "word_start_id": 1694,
+          "word_end_id": 1734,
+          "text": "Even in Poland, we had this big problem because because of pandemia, and this was, this was under regulations of, limited freedom And, at at the the the the the the the at that time, the supposed to be presidential election."
+        },
+        {
+          "sentence_index": 22,
+          "word_start_id": 1735,
+          "word_end_id": 1740,
+          "text": "And there was a big problem,"
+        }
+      ]
+    },
+    {
+      "paragraph_id": 9,
+      "label": "Poland's pandemic election issues and Ukraine's election impossibility",
+      "conversation_boolean": true,
+      "word_start_id": 1741,
+      "word_end_id": 1943,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 1741,
+          "word_end_id": 1752,
+          "text": "big, big problem, you know, how to do it, in democratic way."
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 1753,
+          "word_end_id": 1774,
+          "text": "And, it it was, by law forbidden to do it during the any freedom, you know, any under regulation of freedom, limitations."
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 1775,
+          "word_end_id": 1775,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 1776,
+          "word_end_id": 1810,
+          "text": "So now by the way, now there is a a big big political affair because because, the government at that time decided that there will be, like, elections through the, correspondence, through the mails mail."
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 1811,
+          "word_end_id": 1811,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 1812,
+          "word_end_id": 1812,
+          "text": "And,"
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 1813,
+          "word_end_id": 1842,
+          "text": "but but it is forbidden important that that this this cannot be done, especially in the way they they propose that they the post offices will be the election offices."
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 1843,
+          "word_end_id": 1848,
+          "text": "So so it was forbidden now."
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 1849,
+          "word_end_id": 1856,
+          "text": "This is a fear, of bigger political affair."
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 1857,
+          "word_end_id": 1870,
+          "text": "But but, but, yes, I mean, the the elections was moved for few months."
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 1871,
+          "word_end_id": 1886,
+          "text": "Well, the election was was moved for few months, after the window of of pandemic pandemic."
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 1887,
+          "word_end_id": 1911,
+          "text": "So so so, you know, III mean, how we can say that, you know, that that that there was no that there is election missing."
+        },
+        {
+          "sentence_index": 13,
+          "word_start_id": 1912,
+          "word_end_id": 1920,
+          "text": "I mean and what happen if there is election?"
+        },
+        {
+          "sentence_index": 14,
+          "word_start_id": 1921,
+          "word_end_id": 1942,
+          "text": "I mean, first of all, 1 third or 1 fourth part of Ukraine cannot vote because it is under control of Russia."
+        },
+        {
+          "sentence_index": 15,
+          "word_start_id": 1943,
+          "word_end_id": 1943,
+          "text": "Right?"
+        }
+      ]
+    },
+    {
+      "paragraph_id": 10,
+      "label": "Ukraine elections, Trump's dangerous policies, European military weakness",
+      "conversation_boolean": true,
+      "word_start_id": 1944,
+      "word_end_id": 2144,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 1944,
+          "word_end_id": 1961,
+          "text": "And it is not stabilized and, and how how we can I mean, how we can do it?"
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 1962,
+          "word_end_id": 1979,
+          "text": "How we can do it in a, like, big cities like Kharkov on a on a front line?"
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 1980,
+          "word_end_id": 1980,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 1981,
+          "word_end_id": 1986,
+          "text": "I mean, I it's so stupid."
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 1987,
+          "word_end_id": 1991,
+          "text": "I mean, he's he's popular"
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 1992,
+          "word_end_id": 1994,
+          "text": "he's simply insane."
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 1995,
+          "word_end_id": 1995,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 1996,
+          "word_end_id": 1999,
+          "text": "It's more dangerous man."
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 2000,
+          "word_end_id": 2000,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 2001,
+          "word_end_id": 2010,
+          "text": "On other hand, he can he can stop war immediately."
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 2011,
+          "word_end_id": 2022,
+          "text": "Just stop sending military equipment to Ukraine and and that that's it."
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 2023,
+          "word_end_id": 2028,
+          "text": "Because Europe is so spread over."
+        },
+        {
+          "sentence_index": 13,
+          "word_start_id": 2029,
+          "word_end_id": 2038,
+          "text": "It's I mean, these people are insane in different way."
+        },
+        {
+          "sentence_index": 14,
+          "word_start_id": 2039,
+          "word_end_id": 2048,
+          "text": "I mean, they they maybe have some good intentions, but"
+        },
+        {
+          "sentence_index": 15,
+          "word_start_id": 2049,
+          "word_end_id": 2054,
+          "text": "but but they are like children."
+        },
+        {
+          "sentence_index": 16,
+          "word_start_id": 2055,
+          "word_end_id": 2062,
+          "text": "I mean, they they they cannot decide anything."
+        },
+        {
+          "sentence_index": 17,
+          "word_start_id": 2063,
+          "word_end_id": 2076,
+          "text": "I mean, why, oh, we will send our our boys and they will die."
+        },
+        {
+          "sentence_index": 18,
+          "word_start_id": 2077,
+          "word_end_id": 2082,
+          "text": "I mean, it could not happen."
+        },
+        {
+          "sentence_index": 19,
+          "word_start_id": 2083,
+          "word_end_id": 2083,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 20,
+          "word_start_id": 2084,
+          "word_end_id": 2089,
+          "text": "I mean, what we we have"
+        },
+        {
+          "sentence_index": 21,
+          "word_start_id": 2090,
+          "word_end_id": 2101,
+          "text": "no I mean, like, what what what what is with, Reinhold, Reinhold?"
+        },
+        {
+          "sentence_index": 22,
+          "word_start_id": 2102,
+          "word_end_id": 2104,
+          "text": "Is it Reinhold?"
+        },
+        {
+          "sentence_index": 23,
+          "word_start_id": 2105,
+          "word_end_id": 2124,
+          "text": "It's what whatever whatever the big film in in, the big concern in in, in in Germany, the military program."
+        },
+        {
+          "sentence_index": 24,
+          "word_start_id": 2125,
+          "word_end_id": 2135,
+          "text": "They they they do the tanks and other heavy military equipment."
+        },
+        {
+          "sentence_index": 25,
+          "word_start_id": 2136,
+          "word_end_id": 2144,
+          "text": "The the production is, like, few times a year."
+        }
+      ]
+    },
+    {
+      "paragraph_id": 11,
+      "label": "Russian military production advantage over European defense industry",
+      "conversation_boolean": true,
+      "word_start_id": 2145,
+      "word_end_id": 2350,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 2145,
+          "word_end_id": 2145,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 2146,
+          "word_end_id": 2181,
+          "text": "If you compare if you compare to Russia, they they just moved they they they always had this policy that, you know, the backup production is in Siberia far, far away from from the potential frontline."
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 2182,
+          "word_end_id": 2182,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 2183,
+          "word_end_id": 2192,
+          "text": "And and they're doing it in hundreds at the moment."
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 2193,
+          "word_end_id": 2194,
+          "text": "Of course."
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 2195,
+          "word_end_id": 2208,
+          "text": "It is a wall of steel, and this thing, you know, steel is winning."
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 2209,
+          "word_end_id": 2241,
+          "text": "I mean, I mean, you you may have, you know, simple simple, the I'm not the I'm not sure how what what is the English word, the the the the the big gun."
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 2242,
+          "word_end_id": 2242,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 2243,
+          "word_end_id": 2247,
+          "text": "The the I I right?"
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 2248,
+          "word_end_id": 2255,
+          "text": "The the simple artillery is because pick second."
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 2256,
+          "word_end_id": 2256,
+          "text": "No."
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 2257,
+          "word_end_id": 2257,
+          "text": "No."
+        },
+        {
+          "sentence_index": 13,
+          "word_start_id": 2258,
+          "word_end_id": 2265,
+          "text": "I'm saying about this this, you know, artillery."
+        },
+        {
+          "sentence_index": 14,
+          "word_start_id": 2266,
+          "word_end_id": 2266,
+          "text": "GANS."
+        },
+        {
+          "sentence_index": 15,
+          "word_start_id": 2267,
+          "word_end_id": 2267,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 16,
+          "word_start_id": 2268,
+          "word_end_id": 2271,
+          "text": "The the big 1."
+        },
+        {
+          "sentence_index": 17,
+          "word_start_id": 2272,
+          "word_end_id": 2275,
+          "text": "The the big 1."
+        },
+        {
+          "sentence_index": 18,
+          "word_start_id": 2276,
+          "word_end_id": 2283,
+          "text": "If you get what what what I mean?"
+        },
+        {
+          "sentence_index": 19,
+          "word_start_id": 2284,
+          "word_end_id": 2305,
+          "text": "The the this is but but the the the use it the the the Russian use the artillery from second World War."
+        },
+        {
+          "sentence_index": 20,
+          "word_start_id": 2306,
+          "word_end_id": 2313,
+          "text": "It is still operational, and it's killing people."
+        },
+        {
+          "sentence_index": 21,
+          "word_start_id": 2314,
+          "word_end_id": 2316,
+          "text": "It's killing people."
+        },
+        {
+          "sentence_index": 22,
+          "word_start_id": 2317,
+          "word_end_id": 2317,
+          "text": "It"
+        },
+        {
+          "sentence_index": 23,
+          "word_start_id": 2318,
+          "word_end_id": 2318,
+          "text": "it"
+        },
+        {
+          "sentence_index": 24,
+          "word_start_id": 2319,
+          "word_end_id": 2330,
+          "text": "I mean, you really don't need very sophisticated, very expensive, and not"
+        },
+        {
+          "sentence_index": 25,
+          "word_start_id": 2331,
+          "word_end_id": 2349,
+          "text": "and, you know, and you have to train people for for this new planes for years to use it."
+        },
+        {
+          "sentence_index": 26,
+          "word_start_id": 2350,
+          "word_end_id": 2350,
+          "text": "Right?"
+        }
+      ]
+    },
+    {
+      "paragraph_id": 12,
+      "label": "Modern warfare, mass production vs sophisticated military equipment",
+      "conversation_boolean": true,
+      "word_start_id": 2351,
+      "word_end_id": 2559,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 2351,
+          "word_end_id": 2370,
+          "text": "I mean, it's it's insane because you you you need you need simple planes, you know, in thousands, in hundreds."
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 2371,
+          "word_end_id": 2374,
+          "text": "Just just then okay."
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 2375,
+          "word_end_id": 2377,
+          "text": "You're losing people."
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 2378,
+          "word_end_id": 2380,
+          "text": "You're losing equipment."
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 2381,
+          "word_end_id": 2386,
+          "text": "But on the end, you're winning."
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 2387,
+          "word_end_id": 2396,
+          "text": "If you don't have it, at the end, you're winning."
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 2397,
+          "word_end_id": 2397,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 2398,
+          "word_end_id": 2458,
+          "text": "If you don't have this mass because, you know, nobody's, for for for for, you know, like, Nobody in Europe and nobody in, actually, in in, in in the US is focusing on that that that if you have massive war, like, in Ukraine at the moment this is the first 1, first massive war after the second World War, actually."
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 2459,
+          "word_end_id": 2493,
+          "text": "Because all the other words like Afghanistan, whether this was Russia, whether this was, the the US, whether this was Syria, whether this was Libya, whether this was Mali or whatever what are African countries."
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 2494,
+          "word_end_id": 2494,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 2495,
+          "word_end_id": 2500,
+          "text": "This, just, you know, partisan world."
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 2501,
+          "word_end_id": 2533,
+          "text": "Most of these, rebel or whatever whatever, partisans, they have only light equipment, like, just manic they have no heavy equipment in in, in in frontline, in stake, and in on the frontline."
+        },
+        {
+          "sentence_index": 13,
+          "word_start_id": 2534,
+          "word_end_id": 2553,
+          "text": "In in Russia, you have massive heavy equipment and no military NATO plans or whatever how how we call it."
+        },
+        {
+          "sentence_index": 14,
+          "word_start_id": 2554,
+          "word_end_id": 2559,
+          "text": "Like, the the the tactics is,"
+        }
+      ]
+    },
+    {
+      "paragraph_id": 13,
+      "label": "Modern warfare vs NATO tactics in Ukraine conflict",
+      "conversation_boolean": true,
+      "word_start_id": 2560,
+      "word_end_id": 2781,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 2560,
+          "word_end_id": 2575,
+          "text": "yeah, is really focused and prepared to massive war to to war like it was, Yeah."
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 2576,
+          "word_end_id": 2590,
+          "text": "For massive war, like like it was in sec during the the second World War."
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 2591,
+          "word_end_id": 2591,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 2592,
+          "word_end_id": 2593,
+          "text": "That's right."
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 2594,
+          "word_end_id": 2602,
+          "text": "There'd been millions of people fighting, against each other."
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 2603,
+          "word_end_id": 2603,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 2604,
+          "word_end_id": 2610,
+          "text": "This is, like, you know, huge change."
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 2611,
+          "word_end_id": 2616,
+          "text": "The the this it's changing everything."
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 2617,
+          "word_end_id": 2617,
+          "text": "Everything."
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 2618,
+          "word_end_id": 2618,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 2619,
+          "word_end_id": 2653,
+          "text": "Because because you you you can, you know, you can say, oh, I'm big guy because I have this technology, and I can kill hundreds of these partisans and look, we we we lose nobody."
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 2654,
+          "word_end_id": 2656,
+          "text": "We lost nobody."
+        },
+        {
+          "sentence_index": 13,
+          "word_start_id": 2657,
+          "word_end_id": 2657,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 14,
+          "word_start_id": 2658,
+          "word_end_id": 2658,
+          "text": "No."
+        },
+        {
+          "sentence_index": 15,
+          "word_start_id": 2659,
+          "word_end_id": 2664,
+          "text": "We we we lost no 1."
+        },
+        {
+          "sentence_index": 16,
+          "word_start_id": 2665,
+          "word_end_id": 2665,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 17,
+          "word_start_id": 2666,
+          "word_end_id": 2669,
+          "text": "Oh, we are heroes."
+        },
+        {
+          "sentence_index": 18,
+          "word_start_id": 2670,
+          "word_end_id": 2679,
+          "text": "We how big we are, we we beat these partisans."
+        },
+        {
+          "sentence_index": 19,
+          "word_start_id": 2680,
+          "word_end_id": 2704,
+          "text": "You know, they they have only machine guns and and we have, you know, f 16 or f 35 or whatever whatever f we have."
+        },
+        {
+          "sentence_index": 20,
+          "word_start_id": 2705,
+          "word_end_id": 2714,
+          "text": "And we have all the this how big we are."
+        },
+        {
+          "sentence_index": 21,
+          "word_start_id": 2715,
+          "word_end_id": 2722,
+          "text": "We have this, Hamway, heavy whatever whatever car."
+        },
+        {
+          "sentence_index": 22,
+          "word_start_id": 2723,
+          "word_end_id": 2727,
+          "text": "Oh, we we got it."
+        },
+        {
+          "sentence_index": 23,
+          "word_start_id": 2728,
+          "word_end_id": 2733,
+          "text": "I I saw this stupid film."
+        },
+        {
+          "sentence_index": 24,
+          "word_start_id": 2734,
+          "word_end_id": 2735,
+          "text": "Not stupid."
+        },
+        {
+          "sentence_index": 25,
+          "word_start_id": 2736,
+          "word_end_id": 2741,
+          "text": "It's not stupid because it's tragic."
+        },
+        {
+          "sentence_index": 26,
+          "word_start_id": 2742,
+          "word_end_id": 2750,
+          "text": "But but, just recently, I opened on on Netflix."
+        },
+        {
+          "sentence_index": 27,
+          "word_start_id": 2751,
+          "word_end_id": 2757,
+          "text": "It was, like, 13 hours or something."
+        },
+        {
+          "sentence_index": 28,
+          "word_start_id": 2758,
+          "word_end_id": 2774,
+          "text": "To, you know, this propaganda you you the the US propaganda film, like, about heroes in Libya."
+        },
+        {
+          "sentence_index": 29,
+          "word_start_id": 2775,
+          "word_end_id": 2781,
+          "text": "They they've been fighting against Libyan, partisans"
+        }
+      ]
+    },
+    {
+      "paragraph_id": 14,
+      "label": "US propaganda film about Libya and military defense tactics",
+      "conversation_boolean": true,
+      "word_start_id": 2782,
+      "word_end_id": 3011,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 2782,
+          "word_end_id": 2792,
+          "text": "at the wall, and they've been protecting, protecting, the the yeah."
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 2793,
+          "word_end_id": 2797,
+          "text": "It's based on or something."
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 2798,
+          "word_end_id": 2799,
+          "text": "You know?"
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 2800,
+          "word_end_id": 2827,
+          "text": "And there was, like, 6 6 guys, you know, heavy armed, and they've been, you know, big big, you know, big big guys, with with with a gun."
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 2828,
+          "word_end_id": 2828,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 2829,
+          "word_end_id": 2829,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 2830,
+          "word_end_id": 2836,
+          "text": "I mean, all this all this fine."
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 2837,
+          "word_end_id": 2841,
+          "text": "Maybe maybe even they survived."
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 2842,
+          "word_end_id": 2858,
+          "text": "Maybe they killed maybe 30 or 50 people, and only 2 of them died, or been killed."
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 2859,
+          "word_end_id": 2859,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 2860,
+          "word_end_id": 2866,
+          "text": "But but, I mean, they've been fighting."
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 2867,
+          "word_end_id": 2886,
+          "text": "The the trained soldiers been tried fighting, protecting themselves, which, means, you are on on, on a much better position."
+        },
+        {
+          "sentence_index": 13,
+          "word_start_id": 2887,
+          "word_end_id": 2887,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 14,
+          "word_start_id": 2888,
+          "word_end_id": 2904,
+          "text": "If if you're protecting, if you defend, if you are, in defense, you you are much stronger."
+        },
+        {
+          "sentence_index": 15,
+          "word_start_id": 2905,
+          "word_end_id": 2916,
+          "text": "You you need less manpower, right, than than if you act out."
+        },
+        {
+          "sentence_index": 16,
+          "word_start_id": 2917,
+          "word_end_id": 2925,
+          "text": "So so maybe there was, like, they they they"
+        },
+        {
+          "sentence_index": 17,
+          "word_start_id": 2926,
+          "word_end_id": 2944,
+          "text": "they they lost 2 men, and this rebel lost maybe 50 or hundred men, right, lying on the ground."
+        },
+        {
+          "sentence_index": 18,
+          "word_start_id": 2945,
+          "word_end_id": 2945,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 19,
+          "word_start_id": 2946,
+          "word_end_id": 2956,
+          "text": "But but, I mean, oh, how how big heroes they are."
+        },
+        {
+          "sentence_index": 20,
+          "word_start_id": 2957,
+          "word_end_id": 2957,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 21,
+          "word_start_id": 2958,
+          "word_end_id": 2961,
+          "text": "I I tell you"
+        },
+        {
+          "sentence_index": 22,
+          "word_start_id": 2962,
+          "word_end_id": 3000,
+          "text": "I I tell you about this, you know, this difference because I I actually, I read, some book about management, and, it happens that this book was, written by I don't remember whether what what ranch was it was,"
+        },
+        {
+          "sentence_index": 23,
+          "word_start_id": 3001,
+          "word_end_id": 3010,
+          "text": "but but, the the the US soldier, the the marines."
+        },
+        {
+          "sentence_index": 24,
+          "word_start_id": 3011,
+          "word_end_id": 3011,
+          "text": "Right?"
+        }
+      ]
+    },
+    {
+      "paragraph_id": 15,
+      "label": "Management book by marines vs. reality of frontline combat",
+      "conversation_boolean": true,
+      "word_start_id": 3012,
+      "word_end_id": 3211,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 3012,
+          "word_end_id": 3023,
+          "text": "But it was generally about how to manage, a group of people."
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 3024,
+          "word_end_id": 3024,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 3025,
+          "word_end_id": 3053,
+          "text": "You know, all they're saying is is really interesting and probably fun because they they they converting their experiences from, leading the troops, to to, right, to the business."
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 3054,
+          "word_end_id": 3071,
+          "text": "How how how they, you know, how they experience in leading troops, can help in in leading, employees."
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 3072,
+          "word_end_id": 3072,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 3073,
+          "word_end_id": 3096,
+          "text": "And it was interesting, you know, how well organized, you know, marine's groups, how they communicate, how they cooperate, how they do certain thing."
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 3097,
+          "word_end_id": 3099,
+          "text": "All this fine."
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 3100,
+          "word_end_id": 3105,
+          "text": "All all this is really interesting."
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 3106,
+          "word_end_id": 3118,
+          "text": "It's it it it, you know, it's it's a category it might be."
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 3119,
+          "word_end_id": 3119,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 3120,
+          "word_end_id": 3148,
+          "text": "Because if if you're under the fire the really, gunfire, the heavy gunfire, massive gunfire, all these very sophisticated, tricks are useless are useless because you are the rat."
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 3149,
+          "word_end_id": 3165,
+          "text": "You are you are digging in the in the deep in the ground, and you covering yourself."
+        },
+        {
+          "sentence_index": 13,
+          "word_start_id": 3166,
+          "word_end_id": 3174,
+          "text": "You're trying to move out from the should line."
+        },
+        {
+          "sentence_index": 14,
+          "word_start_id": 3175,
+          "word_end_id": 3177,
+          "text": "What's the story?"
+        },
+        {
+          "sentence_index": 15,
+          "word_start_id": 3178,
+          "word_end_id": 3180,
+          "text": "End of story."
+        },
+        {
+          "sentence_index": 16,
+          "word_start_id": 3181,
+          "word_end_id": 3186,
+          "text": "This is end of the world."
+        },
+        {
+          "sentence_index": 17,
+          "word_start_id": 3187,
+          "word_end_id": 3198,
+          "text": "This is this is everything what you do on the phone line."
+        },
+        {
+          "sentence_index": 18,
+          "word_start_id": 3199,
+          "word_end_id": 3199,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 19,
+          "word_start_id": 3200,
+          "word_end_id": 3200,
+          "text": "Exactly."
+        },
+        {
+          "sentence_index": 20,
+          "word_start_id": 3201,
+          "word_end_id": 3201,
+          "text": "Exactly."
+        },
+        {
+          "sentence_index": 21,
+          "word_start_id": 3202,
+          "word_end_id": 3206,
+          "text": "And all these stupid things."
+        },
+        {
+          "sentence_index": 22,
+          "word_start_id": 3207,
+          "word_end_id": 3211,
+          "text": "So how well we organize."
+        }
+      ]
+    },
+    {
+      "paragraph_id": 16,
+      "label": "NATO training inadequacy for modern frontline warfare in Ukraine",
+      "conversation_boolean": true,
+      "word_start_id": 3212,
+      "word_end_id": 3417,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 3212,
+          "word_end_id": 3212,
+          "text": "Look."
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 3213,
+          "word_end_id": 3217,
+          "text": "We've been under shot fire."
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 3218,
+          "word_end_id": 3225,
+          "text": "There was like 10:10 partisans shooting to us."
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 3226,
+          "word_end_id": 3226,
+          "text": "Okay."
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 3227,
+          "word_end_id": 3227,
+          "text": "Yes."
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 3228,
+          "word_end_id": 3229,
+          "text": "That's alright."
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 3230,
+          "word_end_id": 3235,
+          "text": "I mean, that's that's very brave."
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 3236,
+          "word_end_id": 3248,
+          "text": "This is what what people are doing, but this is only police methods."
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 3249,
+          "word_end_id": 3254,
+          "text": "It it not the the military."
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 3255,
+          "word_end_id": 3259,
+          "text": "It's not the frontline methods."
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 3260,
+          "word_end_id": 3260,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 3261,
+          "word_end_id": 3271,
+          "text": "It it was III heard some reports from from, Ukrainian guys."
+        },
+        {
+          "sentence_index": 13,
+          "word_start_id": 3272,
+          "word_end_id": 3272,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 14,
+          "word_start_id": 3273,
+          "word_end_id": 3277,
+          "text": "They say they'd say, okay."
+        },
+        {
+          "sentence_index": 15,
+          "word_start_id": 3278,
+          "word_end_id": 3284,
+          "text": "We we we did the NATO training."
+        },
+        {
+          "sentence_index": 16,
+          "word_start_id": 3285,
+          "word_end_id": 3286,
+          "text": "It's useless."
+        },
+        {
+          "sentence_index": 17,
+          "word_start_id": 3287,
+          "word_end_id": 3288,
+          "text": "It's useless."
+        },
+        {
+          "sentence_index": 18,
+          "word_start_id": 3289,
+          "word_end_id": 3307,
+          "text": "Because how we can you know, the the this is first of all, it based on the superpower, intelligence."
+        },
+        {
+          "sentence_index": 19,
+          "word_start_id": 3308,
+          "word_end_id": 3308,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 20,
+          "word_start_id": 3309,
+          "word_end_id": 3309,
+          "text": "No."
+        },
+        {
+          "sentence_index": 21,
+          "word_start_id": 3310,
+          "word_end_id": 3326,
+          "text": "The AWACS, AWACS, planes, having control over over the over the all, you know, the enemy equipment."
+        },
+        {
+          "sentence_index": 22,
+          "word_start_id": 3327,
+          "word_end_id": 3352,
+          "text": "You you have control in a in a in a air, like, having a lot of planes flying and supporting the the troops on the ground."
+        },
+        {
+          "sentence_index": 23,
+          "word_start_id": 3353,
+          "word_end_id": 3372,
+          "text": "You you have, you know, very distance, artillery, shooting shooting, the the the the the the the, the enemy equipment."
+        },
+        {
+          "sentence_index": 24,
+          "word_start_id": 3373,
+          "word_end_id": 3376,
+          "text": "And they're just watching."
+        },
+        {
+          "sentence_index": 25,
+          "word_start_id": 3377,
+          "word_end_id": 3383,
+          "text": "And they have on the front line."
+        },
+        {
+          "sentence_index": 26,
+          "word_start_id": 3384,
+          "word_end_id": 3384,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 27,
+          "word_start_id": 3385,
+          "word_end_id": 3399,
+          "text": "They they have all these helicopters flying cover you know, they they can fly over."
+        },
+        {
+          "sentence_index": 28,
+          "word_start_id": 3400,
+          "word_end_id": 3417,
+          "text": "You know, why why this is this is funny because, I'm sometimes I'm I'm looking for statistics with"
+        }
+      ]
+    },
+    {
+      "paragraph_id": 17,
+      "label": "Military helicopters and NATO methods obsolete in modern warfare",
+      "conversation_boolean": true,
+      "word_start_id": 3418,
+      "word_end_id": 3633,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 3418,
+          "word_end_id": 3428,
+          "text": "what equipment was, destroyed in in, on a on a frontline."
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 3429,
+          "word_end_id": 3433,
+          "text": "Practically, no helicopter was destroyed."
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 3434,
+          "word_end_id": 3434,
+          "text": "Why?"
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 3435,
+          "word_end_id": 3439,
+          "text": "Because no helicopter is flying."
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 3440,
+          "word_end_id": 3482,
+          "text": "If you have no cover by by all this intelligence, by all this, you know, air control, by by by all this, you know, f 16 or whatever, you you cannot fly with with helicopters because you will be shot in a minute."
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 3483,
+          "word_end_id": 3495,
+          "text": "You got you you know, all these helicopters would cost millions, are useless."
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 3496,
+          "word_end_id": 3523,
+          "text": "Like, all this all all all this experience from, from Vietnam is useless because now you have the, handy shot fire, which can kill helicopter in a second."
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 3524,
+          "word_end_id": 3524,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 3525,
+          "word_end_id": 3529,
+          "text": "I mean, you know, it"
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 3530,
+          "word_end_id": 3545,
+          "text": "it's you you have drones which can call which can call kill helicopters in a second."
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 3546,
+          "word_end_id": 3563,
+          "text": "You know, all these all these methods, all these NATO methods are based on far far history, experience."
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 3564,
+          "word_end_id": 3579,
+          "text": "All the all, you know, at all, useless on the on any current from all data."
+        },
+        {
+          "sentence_index": 13,
+          "word_start_id": 3580,
+          "word_end_id": 3580,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 14,
+          "word_start_id": 3581,
+          "word_end_id": 3607,
+          "text": "So so, you know, how you can say and, you know, Europe is missing the big opportunity to train their their troops in the modern, modern frontline."
+        },
+        {
+          "sentence_index": 15,
+          "word_start_id": 3608,
+          "word_end_id": 3612,
+          "text": "They they they learned anything."
+        },
+        {
+          "sentence_index": 16,
+          "word_start_id": 3613,
+          "word_end_id": 3617,
+          "text": "They they really learned nothing."
+        },
+        {
+          "sentence_index": 17,
+          "word_start_id": 3618,
+          "word_end_id": 3618,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 18,
+          "word_start_id": 3619,
+          "word_end_id": 3619,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 19,
+          "word_start_id": 3620,
+          "word_end_id": 3633,
+          "text": "Like France, like, Great Britain is maybe, you know, a little more active, but,"
+        }
+      ]
+    },
+    {
+      "paragraph_id": 18,
+      "label": "European military training gaps and North Korean troops in Ukraine",
+      "conversation_boolean": true,
+      "word_start_id": 3634,
+      "word_end_id": 3849,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 3634,
+          "word_end_id": 3642,
+          "text": "but still far, far away from, from the needs."
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 3643,
+          "word_end_id": 3643,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 3644,
+          "word_end_id": 3667,
+          "text": "Like, Denmark, for example, which is kind of the, star, you know, sending a lot of equipment, compared to to the, to the possibilities."
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 3668,
+          "word_end_id": 3668,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 3669,
+          "word_end_id": 3684,
+          "text": "But, again, I mean, this is this is all about all about training, all about experience."
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 3685,
+          "word_end_id": 3694,
+          "text": "How you can get experience if you have no troops?"
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 3695,
+          "word_end_id": 3705,
+          "text": "No I mean, nobody who is really on the front line."
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 3706,
+          "word_end_id": 3706,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 3707,
+          "word_end_id": 3721,
+          "text": "Not even not not not even observers who can train, further train the the troop."
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 3722,
+          "word_end_id": 3722,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 3723,
+          "word_end_id": 3733,
+          "text": "Well, you probably heard what happened with, with, North Korean troops."
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 3734,
+          "word_end_id": 3734,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 13,
+          "word_start_id": 3735,
+          "word_end_id": 3735,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 14,
+          "word_start_id": 3736,
+          "word_end_id": 3758,
+          "text": "But but but they've been killed in the first week almost to 90 percent Because they because they've been trained to different world."
+        },
+        {
+          "sentence_index": 15,
+          "word_start_id": 3759,
+          "word_end_id": 3764,
+          "text": "They've been trained to different way."
+        },
+        {
+          "sentence_index": 16,
+          "word_start_id": 3765,
+          "word_end_id": 3777,
+          "text": "They they be, you know, they they they been trained to front attack."
+        },
+        {
+          "sentence_index": 17,
+          "word_start_id": 3778,
+          "word_end_id": 3803,
+          "text": "So they they they've been, like, you know, like, during the second world war, they've been like, running with the with the frontline on open field."
+        },
+        {
+          "sentence_index": 18,
+          "word_start_id": 3804,
+          "word_end_id": 3804,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 19,
+          "word_start_id": 3805,
+          "word_end_id": 3817,
+          "text": "It's simply, you know, they they they really don't care about, people's lives."
+        },
+        {
+          "sentence_index": 20,
+          "word_start_id": 3818,
+          "word_end_id": 3840,
+          "text": "But, you know, if you're sending troops without any training, they they already knew that, that the North Korean training is is, outdated."
+        },
+        {
+          "sentence_index": 21,
+          "word_start_id": 3841,
+          "word_end_id": 3841,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 22,
+          "word_start_id": 3842,
+          "word_end_id": 3849,
+          "text": "But nobody even tries to train them before"
+        }
+      ]
+    },
+    {
+      "paragraph_id": 19,
+      "label": "North Korean troops, Polish president's visit to Trump",
+      "conversation_boolean": true,
+      "word_start_id": 3850,
+      "word_end_id": 4090,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 3850,
+          "word_end_id": 3859,
+          "text": "they they they they they come to the front line."
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 3860,
+          "word_end_id": 3860,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 3861,
+          "word_end_id": 3867,
+          "text": "So, and this this was only propaganda."
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 3868,
+          "word_end_id": 3889,
+          "text": "And and, you know, in in North Korea, if you lose 10000 people, nothing happen even better because the anger is less."
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 3890,
+          "word_end_id": 3890,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 3891,
+          "word_end_id": 3891,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 3892,
+          "word_end_id": 3894,
+          "text": "I mean, it's"
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 3895,
+          "word_end_id": 3895,
+          "text": "it's"
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 3896,
+          "word_end_id": 3898,
+          "text": "it's like this."
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 3899,
+          "word_end_id": 3901,
+          "text": "I mean, it"
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 3902,
+          "word_end_id": 3909,
+          "text": "I I can I have no other explanation?"
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 3910,
+          "word_end_id": 3910,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 13,
+          "word_start_id": 3911,
+          "word_end_id": 3911,
+          "text": "Absolutely."
+        },
+        {
+          "sentence_index": 14,
+          "word_start_id": 3912,
+          "word_end_id": 3918,
+          "text": "These people don't care about people's life."
+        },
+        {
+          "sentence_index": 15,
+          "word_start_id": 3919,
+          "word_end_id": 3919,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 16,
+          "word_start_id": 3920,
+          "word_end_id": 3920,
+          "text": "Right."
+        },
+        {
+          "sentence_index": 17,
+          "word_start_id": 3921,
+          "word_end_id": 3942,
+          "text": "There was a picture, some, the I think, our president, was in, in Washington, during the first first cadence currency of Trump."
+        },
+        {
+          "sentence_index": 18,
+          "word_start_id": 3943,
+          "word_end_id": 3945,
+          "text": "Is that cadence?"
+        },
+        {
+          "sentence_index": 19,
+          "word_start_id": 3946,
+          "word_end_id": 3946,
+          "text": "Candid"
+        },
+        {
+          "sentence_index": 20,
+          "word_start_id": 3947,
+          "word_end_id": 3963,
+          "text": "so so, you know, when when when Trump was first, the the president and there was Tom."
+        },
+        {
+          "sentence_index": 21,
+          "word_start_id": 3964,
+          "word_end_id": 3964,
+          "text": "Tom."
+        },
+        {
+          "sentence_index": 22,
+          "word_start_id": 3965,
+          "word_end_id": 3965,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 23,
+          "word_start_id": 3966,
+          "word_end_id": 3966,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 24,
+          "word_start_id": 3967,
+          "word_end_id": 3967,
+          "text": "Tom."
+        },
+        {
+          "sentence_index": 25,
+          "word_start_id": 3968,
+          "word_end_id": 3968,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 26,
+          "word_start_id": 3969,
+          "word_end_id": 3969,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 27,
+          "word_start_id": 3970,
+          "word_end_id": 3970,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 28,
+          "word_start_id": 3971,
+          "word_end_id": 3993,
+          "text": "So so, and that that, it is only only, in in the oval room, oval oval office, and Tammy sitting by the desk."
+        },
+        {
+          "sentence_index": 29,
+          "word_start_id": 3994,
+          "word_end_id": 4005,
+          "text": "And our president standing just, close to him and signing something standing."
+        },
+        {
+          "sentence_index": 30,
+          "word_start_id": 4006,
+          "word_end_id": 4042,
+          "text": "This was very, very heavily criticized that, I mean, on 1 hand, okay, it first time happened that somebody, some foreign president, is invited to our, office because because, you know, the official meetings are somewhere else."
+        },
+        {
+          "sentence_index": 31,
+          "word_start_id": 4043,
+          "word_end_id": 4046,
+          "text": "I don't know where."
+        },
+        {
+          "sentence_index": 32,
+          "word_start_id": 4047,
+          "word_end_id": 4067,
+          "text": "But so all this was like, oh, I'm in heaven, like, you know, being a president, friend best friend of Trump."
+        },
+        {
+          "sentence_index": 33,
+          "word_start_id": 4068,
+          "word_end_id": 4089,
+          "text": "On other hand, it was criticizing Poland because this is disrespect for other president that 1 is sitting, the other is standing."
+        },
+        {
+          "sentence_index": 34,
+          "word_start_id": 4090,
+          "word_end_id": 4090,
+          "text": "Right?"
+        }
+      ]
+    },
+    {
+      "paragraph_id": 20,
+      "label": "Polish president's diplomatic disrespect during Trump meeting and elections",
+      "conversation_boolean": true,
+      "word_start_id": 4091,
+      "word_end_id": 4307,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 4091,
+          "word_end_id": 4091,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 4092,
+          "word_end_id": 4106,
+          "text": "The the the the in in diplomat, it it it cannot it can never happen."
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 4107,
+          "word_end_id": 4107,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 4108,
+          "word_end_id": 4123,
+          "text": "It might be might be if you have close friend, at home, you can do whatever."
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 4124,
+          "word_end_id": 4124,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 4125,
+          "word_end_id": 4129,
+          "text": "But but it's it's disrespect."
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 4130,
+          "word_end_id": 4132,
+          "text": "It it's it's"
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 4133,
+          "word_end_id": 4141,
+          "text": "it's disrespect for for for 1 who is standing."
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 4142,
+          "word_end_id": 4142,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 4143,
+          "word_end_id": 4144,
+          "text": "Just imagine."
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 4145,
+          "word_end_id": 4162,
+          "text": "I mean, even even if if you're at work, you know, you're sitting and your boss is standing."
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 4163,
+          "word_end_id": 4163,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 13,
+          "word_start_id": 4164,
+          "word_end_id": 4168,
+          "text": "You you always stand up."
+        },
+        {
+          "sentence_index": 14,
+          "word_start_id": 4169,
+          "word_end_id": 4169,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 15,
+          "word_start_id": 4170,
+          "word_end_id": 4172,
+          "text": "Trump was sitting."
+        },
+        {
+          "sentence_index": 16,
+          "word_start_id": 4173,
+          "word_end_id": 4176,
+          "text": "Other president was standing."
+        },
+        {
+          "sentence_index": 17,
+          "word_start_id": 4177,
+          "word_end_id": 4177,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 18,
+          "word_start_id": 4178,
+          "word_end_id": 4184,
+          "text": "But but by by by his desk."
+        },
+        {
+          "sentence_index": 19,
+          "word_start_id": 4185,
+          "word_end_id": 4186,
+          "text": "So so"
+        },
+        {
+          "sentence_index": 20,
+          "word_start_id": 4187,
+          "word_end_id": 4187,
+          "text": "yeah."
+        },
+        {
+          "sentence_index": 21,
+          "word_start_id": 4188,
+          "word_end_id": 4194,
+          "text": "I mean, our president is saying, yes."
+        },
+        {
+          "sentence_index": 22,
+          "word_start_id": 4195,
+          "word_end_id": 4200,
+          "text": "We are best friends with Trump."
+        },
+        {
+          "sentence_index": 23,
+          "word_start_id": 4201,
+          "word_end_id": 4208,
+          "text": "I don't think Trump recognized him at all."
+        },
+        {
+          "sentence_index": 24,
+          "word_start_id": 4209,
+          "word_end_id": 4211,
+          "text": "He understands that."
+        },
+        {
+          "sentence_index": 25,
+          "word_start_id": 4212,
+          "word_end_id": 4212,
+          "text": "Okay."
+        },
+        {
+          "sentence_index": 26,
+          "word_start_id": 4213,
+          "word_end_id": 4218,
+          "text": "Oh, maybe there was some guy."
+        },
+        {
+          "sentence_index": 27,
+          "word_start_id": 4219,
+          "word_end_id": 4225,
+          "text": "I I don't he was good guy."
+        },
+        {
+          "sentence_index": 28,
+          "word_start_id": 4226,
+          "word_end_id": 4227,
+          "text": "Good guy."
+        },
+        {
+          "sentence_index": 29,
+          "word_start_id": 4228,
+          "word_end_id": 4229,
+          "text": "Good guy."
+        },
+        {
+          "sentence_index": 30,
+          "word_start_id": 4230,
+          "word_end_id": 4231,
+          "text": "Oh, no."
+        },
+        {
+          "sentence_index": 31,
+          "word_start_id": 4232,
+          "word_end_id": 4241,
+          "text": "He he's he's on the second time, at the moment,"
+        },
+        {
+          "sentence_index": 32,
+          "word_start_id": 4242,
+          "word_end_id": 4247,
+          "text": "so so he he cannot candidate."
+        },
+        {
+          "sentence_index": 33,
+          "word_start_id": 4248,
+          "word_end_id": 4248,
+          "text": "No."
+        },
+        {
+          "sentence_index": 34,
+          "word_start_id": 4249,
+          "word_end_id": 4249,
+          "text": "No."
+        },
+        {
+          "sentence_index": 35,
+          "word_start_id": 4250,
+          "word_end_id": 4291,
+          "text": "I I think, you know, the this is Very interesting political situation because they as always, we have this called democratic coalition, and they they have a very strong candidate who is, the president of, a mayor of Warsaw at the moment."
+        },
+        {
+          "sentence_index": 36,
+          "word_start_id": 4292,
+          "word_end_id": 4307,
+          "text": "And he's he's a very nice guy, and probably, he he he could be good president."
+        }
+      ]
+    },
+    {
+      "paragraph_id": 21,
+      "label": "Polish presidential election candidates and political situation",
+      "conversation_boolean": true,
+      "word_start_id": 4308,
+      "word_end_id": 4555,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 4308,
+          "word_end_id": 4310,
+          "text": "I will vote."
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 4311,
+          "word_end_id": 4316,
+          "text": "I will vote for him anyway."
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 4317,
+          "word_end_id": 4339,
+          "text": "But, you know, on the PIS, they they they did a trick that they didn't that they don't have the their own candidate."
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 4340,
+          "word_end_id": 4350,
+          "text": "And instead, they support, someone who is called the citizens candidate."
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 4351,
+          "word_end_id": 4366,
+          "text": "So he he was formally promoted by by just, you know, small organization of of people."
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 4367,
+          "word_end_id": 4367,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 4368,
+          "word_end_id": 4374,
+          "text": "But it is, you know, heavily supported."
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 4375,
+          "word_end_id": 4379,
+          "text": "He's heavily supported by PIS."
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 4380,
+          "word_end_id": 4415,
+          "text": "He is not very well, known guy, but he is leading kind of, national national memorial, institute institute, which is kind of historical and fighting for or or maybe protecting the good, good name of Poland."
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 4416,
+          "word_end_id": 4419,
+          "text": "But he's very he"
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 4420,
+          "word_end_id": 4435,
+          "text": "he's very right, right wing guy, very conservative, very nationalistic, or chauvinistic even, I would say."
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 4436,
+          "word_end_id": 4447,
+          "text": "So, I mean, he is not very nice for me, at least."
+        },
+        {
+          "sentence_index": 13,
+          "word_start_id": 4448,
+          "word_end_id": 4452,
+          "text": "There is a third guy."
+        },
+        {
+          "sentence_index": 14,
+          "word_start_id": 4453,
+          "word_end_id": 4496,
+          "text": "The the the the the the the the the there is, conservative party in Poland and the new new body, I would say, which was, the the they they supposed to be the the rising star during, last election, which was 2 years ago."
+        },
+        {
+          "sentence_index": 15,
+          "word_start_id": 4497,
+          "word_end_id": 4516,
+          "text": "They even reached, like, maybe 15, maybe 17 percent, but they collapsed and, end up with 5 percent of support."
+        },
+        {
+          "sentence_index": 16,
+          "word_start_id": 4517,
+          "word_end_id": 4525,
+          "text": "Now they have they they have, a young guy."
+        },
+        {
+          "sentence_index": 17,
+          "word_start_id": 4526,
+          "word_end_id": 4529,
+          "text": "This is conservative party."
+        },
+        {
+          "sentence_index": 18,
+          "word_start_id": 4530,
+          "word_end_id": 4555,
+          "text": "They they have young guy who is who is really doing good job, in this presidential election, because he is reaching, 15 percent at the moment."
+        }
+      ]
+    },
+    {
+      "paragraph_id": 22,
+      "label": "Polish presidential election candidates and political dynamics",
+      "conversation_boolean": true,
+      "word_start_id": 4556,
+      "word_end_id": 4770,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 4556,
+          "word_end_id": 4560,
+          "text": "So so he's actually very"
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 4561,
+          "word_end_id": 4573,
+          "text": "I mean, he's getting closer and closer to to to this PIS guy."
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 4574,
+          "word_end_id": 4588,
+          "text": "And, actually, this is kind of the, do do do you call it, white horse?"
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 4589,
+          "word_end_id": 4592,
+          "text": "Is it Black horse."
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 4593,
+          "word_end_id": 4595,
+          "text": "No. Black horse."
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 4596,
+          "word_end_id": 4598,
+          "text": "That that horse."
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 4599,
+          "word_end_id": 4599,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 4600,
+          "word_end_id": 4601,
+          "text": "Of elections."
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 4602,
+          "word_end_id": 4641,
+          "text": "So he he may change a lot in the election because because, you know, if if the the the the support for for democratic, candidate is strong, but it is not sufficient to win in the first turn, first round."
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 4642,
+          "word_end_id": 4671,
+          "text": "And, there will be second round, and, it it is it is almost hundred percent sure that in second round, he's winning with, with PIS guy, but and very significantly."
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 4672,
+          "word_end_id": 4696,
+          "text": "However, if in second round, there will be this guy, the conservative guy, it is not as clear whether, you know, who will be winning."
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 4697,
+          "word_end_id": 4718,
+          "text": "Even even he's he has much less at the moment in the in the in the first round than the PIS guy."
+        },
+        {
+          "sentence_index": 13,
+          "word_start_id": 4719,
+          "word_end_id": 4750,
+          "text": "So this might be, you know, this might be interesting, but the the bad bad thing is that, if this, if this, conservative guy win, it will be bad news for Paul."
+        },
+        {
+          "sentence_index": 14,
+          "word_start_id": 4751,
+          "word_end_id": 4770,
+          "text": "It will be I mean, actually, everyone who everyone else than the democratic candidate, is a very bad news for"
+        }
+      ]
+    },
+    {
+      "paragraph_id": 23,
+      "label": "Polish presidential election candidates and potential outcomes",
+      "conversation_boolean": true,
+      "word_start_id": 4771,
+      "word_end_id": 4771,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 4771,
+          "word_end_id": 4771,
+          "text": "Paul."
+        }
+      ]
+    }
+  ]
+}

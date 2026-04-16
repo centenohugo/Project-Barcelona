@@ -1,0 +1,2636 @@
+{
+  "source": "data/preprocessed/Student-1/lesson-2/",
+  "student": "Student-1",
+  "lesson": "lesson-2",
+  "partition_method": "ai_context_chunker_v14",
+  "paragraphs": [
+    {
+      "paragraph_id": 1,
+      "label": "Preparing for class and studying languages including Spanish",
+      "conversation_boolean": true,
+      "word_start_id": 1,
+      "word_end_id": 222,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 1,
+          "word_end_id": 1,
+          "text": "Hi."
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 2,
+          "word_end_id": 2,
+          "text": "Hi."
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 3,
+          "word_end_id": 3,
+          "text": "Hi."
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 4,
+          "word_end_id": 4,
+          "text": "Hi."
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 5,
+          "word_end_id": 5,
+          "text": "Okay."
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 6,
+          "word_end_id": 6,
+          "text": "Okay."
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 7,
+          "word_end_id": 7,
+          "text": "No."
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 8,
+          "word_end_id": 9,
+          "text": "No problem."
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 10,
+          "word_end_id": 12,
+          "text": "How are you?"
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 13,
+          "word_end_id": 13,
+          "text": "Good."
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 14,
+          "word_end_id": 14,
+          "text": "Good."
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 15,
+          "word_end_id": 15,
+          "text": "Good."
+        },
+        {
+          "sentence_index": 13,
+          "word_start_id": 16,
+          "word_end_id": 17,
+          "text": "I'm good."
+        },
+        {
+          "sentence_index": 14,
+          "word_start_id": 18,
+          "word_end_id": 41,
+          "text": "I was I was listening to about about English after our class, so I wanted to to to to prepare prepare some of it."
+        },
+        {
+          "sentence_index": 15,
+          "word_start_id": 42,
+          "word_end_id": 42,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 16,
+          "word_start_id": 43,
+          "word_end_id": 43,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 17,
+          "word_start_id": 44,
+          "word_end_id": 44,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 18,
+          "word_start_id": 45,
+          "word_end_id": 45,
+          "text": "Great."
+        },
+        {
+          "sentence_index": 19,
+          "word_start_id": 46,
+          "word_end_id": 46,
+          "text": "Great."
+        },
+        {
+          "sentence_index": 20,
+          "word_start_id": 47,
+          "word_end_id": 53,
+          "text": "Today today, I was learning a lot."
+        },
+        {
+          "sentence_index": 21,
+          "word_start_id": 54,
+          "word_end_id": 80,
+          "text": "I was learning Spanish because, as I told you, I didn't I didn't I didn't know if I told you, but but I learn I learn Spanish."
+        },
+        {
+          "sentence_index": 22,
+          "word_start_id": 81,
+          "word_end_id": 83,
+          "text": "I learn Italy."
+        },
+        {
+          "sentence_index": 23,
+          "word_start_id": 84,
+          "word_end_id": 89,
+          "text": "So I try to learn it."
+        },
+        {
+          "sentence_index": 24,
+          "word_start_id": 90,
+          "word_end_id": 97,
+          "text": "So I was I was studying a lot."
+        },
+        {
+          "sentence_index": 25,
+          "word_start_id": 98,
+          "word_end_id": 119,
+          "text": "Then I was listening an English podcast to to have to have to have to have my ability, let's say, the best."
+        },
+        {
+          "sentence_index": 26,
+          "word_start_id": 120,
+          "word_end_id": 141,
+          "text": "And and now I would like to to to to start, to to to to to practice it, to practice to speak."
+        },
+        {
+          "sentence_index": 27,
+          "word_start_id": 142,
+          "word_end_id": 154,
+          "text": "So so it's I wish it's it were it were it were good."
+        },
+        {
+          "sentence_index": 28,
+          "word_start_id": 155,
+          "word_end_id": 155,
+          "text": "Yeah?"
+        },
+        {
+          "sentence_index": 29,
+          "word_start_id": 156,
+          "word_end_id": 156,
+          "text": "Mhmm."
+        },
+        {
+          "sentence_index": 30,
+          "word_start_id": 157,
+          "word_end_id": 157,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 31,
+          "word_start_id": 158,
+          "word_end_id": 183,
+          "text": "Because because, you know, it was my first time when I had to had to tell you these these things, and I didn't prepare it, but"
+        },
+        {
+          "sentence_index": 32,
+          "word_start_id": 184,
+          "word_end_id": 184,
+          "text": "cons"
+        },
+        {
+          "sentence_index": 33,
+          "word_start_id": 185,
+          "word_end_id": 192,
+          "text": "but I I didn't want to prepare it."
+        },
+        {
+          "sentence_index": 34,
+          "word_start_id": 193,
+          "word_end_id": 204,
+          "text": "So I started and and I was thinking when I was speaking."
+        },
+        {
+          "sentence_index": 35,
+          "word_start_id": 205,
+          "word_end_id": 207,
+          "text": "You you know?"
+        },
+        {
+          "sentence_index": 36,
+          "word_start_id": 208,
+          "word_end_id": 211,
+          "text": "So it was not"
+        },
+        {
+          "sentence_index": 37,
+          "word_start_id": 212,
+          "word_end_id": 222,
+          "text": "I know that it was not perfect, but I tried to"
+        }
+      ]
+    },
+    {
+      "paragraph_id": 2,
+      "label": "Explaining decision to speak spontaneously without preparation",
+      "conversation_boolean": true,
+      "word_start_id": 223,
+      "word_end_id": 433,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 223,
+          "word_end_id": 228,
+          "text": "to tell you tell you something."
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 229,
+          "word_end_id": 231,
+          "text": "So you know?"
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 232,
+          "word_end_id": 232,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 233,
+          "word_end_id": 255,
+          "text": "I think I think it's I think it wouldn't be okay if I I had read, for for example, after after telling you."
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 256,
+          "word_end_id": 272,
+          "text": "So I tried I decided I decided to to to don't prepare it to didn't prepare it."
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 273,
+          "word_end_id": 273,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 274,
+          "word_end_id": 275,
+          "text": "You know?"
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 276,
+          "word_end_id": 291,
+          "text": "So so I was saying what what I was what I had in my mind only."
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 292,
+          "word_end_id": 292,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 293,
+          "word_end_id": 294,
+          "text": "You know?"
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 295,
+          "word_end_id": 295,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 296,
+          "word_end_id": 296,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 13,
+          "word_start_id": 297,
+          "word_end_id": 297,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 14,
+          "word_start_id": 298,
+          "word_end_id": 298,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 15,
+          "word_start_id": 299,
+          "word_end_id": 299,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 16,
+          "word_start_id": 300,
+          "word_end_id": 303,
+          "text": "I try you know,"
+        },
+        {
+          "sentence_index": 17,
+          "word_start_id": 304,
+          "word_end_id": 314,
+          "text": "I I think that I'm confident when I try to speak."
+        },
+        {
+          "sentence_index": 18,
+          "word_start_id": 315,
+          "word_end_id": 324,
+          "text": "I know that I don't already, I don't know anything."
+        },
+        {
+          "sentence_index": 19,
+          "word_start_id": 325,
+          "word_end_id": 343,
+          "text": "I I'm lack of a lot of things, but but I try to to to to to to speak."
+        },
+        {
+          "sentence_index": 20,
+          "word_start_id": 344,
+          "word_end_id": 344,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 21,
+          "word_start_id": 345,
+          "word_end_id": 345,
+          "text": "Mhmm."
+        },
+        {
+          "sentence_index": 22,
+          "word_start_id": 346,
+          "word_end_id": 346,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 23,
+          "word_start_id": 347,
+          "word_end_id": 347,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 24,
+          "word_start_id": 348,
+          "word_end_id": 348,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 25,
+          "word_start_id": 349,
+          "word_end_id": 349,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 26,
+          "word_start_id": 350,
+          "word_end_id": 351,
+          "text": "I understand."
+        },
+        {
+          "sentence_index": 27,
+          "word_start_id": 352,
+          "word_end_id": 352,
+          "text": "Mhmm."
+        },
+        {
+          "sentence_index": 28,
+          "word_start_id": 353,
+          "word_end_id": 353,
+          "text": "Mhmm."
+        },
+        {
+          "sentence_index": 29,
+          "word_start_id": 354,
+          "word_end_id": 354,
+          "text": "Okay."
+        },
+        {
+          "sentence_index": 30,
+          "word_start_id": 355,
+          "word_end_id": 365,
+          "text": "So so I don't I don't know if I understand you."
+        },
+        {
+          "sentence_index": 31,
+          "word_start_id": 366,
+          "word_end_id": 400,
+          "text": "You want to to say that it's, for me now, most important to to to speak, for example, slowly, but to but don't speak don't speak fast, for example, to to communicate to communicate good."
+        },
+        {
+          "sentence_index": 32,
+          "word_start_id": 401,
+          "word_end_id": 401,
+          "text": "Yeah?"
+        },
+        {
+          "sentence_index": 33,
+          "word_start_id": 402,
+          "word_end_id": 402,
+          "text": "Okay."
+        },
+        {
+          "sentence_index": 34,
+          "word_start_id": 403,
+          "word_end_id": 403,
+          "text": "Okay."
+        },
+        {
+          "sentence_index": 35,
+          "word_start_id": 404,
+          "word_end_id": 404,
+          "text": "Okay."
+        },
+        {
+          "sentence_index": 36,
+          "word_start_id": 405,
+          "word_end_id": 405,
+          "text": "Okay."
+        },
+        {
+          "sentence_index": 37,
+          "word_start_id": 406,
+          "word_end_id": 417,
+          "text": "So when when I'm thinking, I I could I could I couldn't"
+        },
+        {
+          "sentence_index": 38,
+          "word_start_id": 418,
+          "word_end_id": 433,
+          "text": "I couldn't I couldn't speak, but I I could think, but think in my mind, yeah,"
+        }
+      ]
+    },
+    {
+      "paragraph_id": 3,
+      "label": "Practicing speaking slowly and describing daily activities",
+      "conversation_boolean": true,
+      "word_start_id": 434,
+      "word_end_id": 637,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 434,
+          "word_end_id": 445,
+          "text": "without without without for example, now I want to tell you something."
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 446,
+          "word_end_id": 456,
+          "text": "I don't know what I tell you, and I I'm thinking."
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 457,
+          "word_end_id": 457,
+          "text": "Yeah?"
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 458,
+          "word_end_id": 459,
+          "text": "Without yeah."
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 460,
+          "word_end_id": 460,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 461,
+          "word_end_id": 461,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 462,
+          "word_end_id": 463,
+          "text": "I understand."
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 464,
+          "word_end_id": 464,
+          "text": "Mhmm."
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 465,
+          "word_end_id": 465,
+          "text": "Okay."
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 466,
+          "word_end_id": 466,
+          "text": "Okay."
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 467,
+          "word_end_id": 468,
+          "text": "So so"
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 469,
+          "word_end_id": 496,
+          "text": "so I should do what what what I've done, but more slowly but about about this topic about this topic, about football, about what what you answered me."
+        },
+        {
+          "sentence_index": 13,
+          "word_start_id": 497,
+          "word_end_id": 497,
+          "text": "Yeah?"
+        },
+        {
+          "sentence_index": 14,
+          "word_start_id": 498,
+          "word_end_id": 500,
+          "text": "Could you repeat?"
+        },
+        {
+          "sentence_index": 15,
+          "word_start_id": 501,
+          "word_end_id": 503,
+          "text": "Could you repeat?"
+        },
+        {
+          "sentence_index": 16,
+          "word_start_id": 504,
+          "word_end_id": 506,
+          "text": "Because ah, okay."
+        },
+        {
+          "sentence_index": 17,
+          "word_start_id": 507,
+          "word_end_id": 507,
+          "text": "Okay."
+        },
+        {
+          "sentence_index": 18,
+          "word_start_id": 508,
+          "word_end_id": 512,
+          "text": "Today, it's 01:00 in Poland."
+        },
+        {
+          "sentence_index": 19,
+          "word_start_id": 513,
+          "word_end_id": 518,
+          "text": "Right now, it's 01:00 in Poland."
+        },
+        {
+          "sentence_index": 20,
+          "word_start_id": 519,
+          "word_end_id": 519,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 21,
+          "word_start_id": 520,
+          "word_end_id": 524,
+          "text": "Today, it's 1 in Poland."
+        },
+        {
+          "sentence_index": 22,
+          "word_start_id": 525,
+          "word_end_id": 525,
+          "text": "Yeah?"
+        },
+        {
+          "sentence_index": 23,
+          "word_start_id": 526,
+          "word_end_id": 527,
+          "text": "So I"
+        },
+        {
+          "sentence_index": 24,
+          "word_start_id": 528,
+          "word_end_id": 533,
+          "text": "I was I I saw it."
+        },
+        {
+          "sentence_index": 25,
+          "word_start_id": 534,
+          "word_end_id": 534,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 26,
+          "word_start_id": 535,
+          "word_end_id": 537,
+          "text": "I hacked it."
+        },
+        {
+          "sentence_index": 27,
+          "word_start_id": 538,
+          "word_end_id": 542,
+          "text": "Today, right now, is 01:00."
+        },
+        {
+          "sentence_index": 28,
+          "word_start_id": 543,
+          "word_end_id": 543,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 29,
+          "word_start_id": 544,
+          "word_end_id": 544,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 30,
+          "word_start_id": 545,
+          "word_end_id": 546,
+          "text": "I try."
+        },
+        {
+          "sentence_index": 31,
+          "word_start_id": 547,
+          "word_end_id": 562,
+          "text": "I try to to to to I try to do it without without any any thinking."
+        },
+        {
+          "sentence_index": 32,
+          "word_start_id": 563,
+          "word_end_id": 563,
+          "text": "Yeah?"
+        },
+        {
+          "sentence_index": 33,
+          "word_start_id": 564,
+          "word_end_id": 575,
+          "text": "Without I'm thinking I'm thinking, but I try to I try to"
+        },
+        {
+          "sentence_index": 34,
+          "word_start_id": 576,
+          "word_end_id": 586,
+          "text": "I try to think without without pause or without without stop."
+        },
+        {
+          "sentence_index": 35,
+          "word_start_id": 587,
+          "word_end_id": 591,
+          "text": "You you know, you understand."
+        },
+        {
+          "sentence_index": 36,
+          "word_start_id": 592,
+          "word_end_id": 599,
+          "text": "I am I have I have ate lunch."
+        },
+        {
+          "sentence_index": 37,
+          "word_start_id": 600,
+          "word_end_id": 608,
+          "text": "I ate I ate lunch when I was okay."
+        },
+        {
+          "sentence_index": 38,
+          "word_start_id": 609,
+          "word_end_id": 610,
+          "text": "Right now."
+        },
+        {
+          "sentence_index": 39,
+          "word_start_id": 611,
+          "word_end_id": 615,
+          "text": "I ate I ate lunch."
+        },
+        {
+          "sentence_index": 40,
+          "word_start_id": 616,
+          "word_end_id": 617,
+          "text": "I ate"
+        },
+        {
+          "sentence_index": 41,
+          "word_start_id": 618,
+          "word_end_id": 621,
+          "text": "but I don't know."
+        },
+        {
+          "sentence_index": 42,
+          "word_start_id": 622,
+          "word_end_id": 627,
+          "text": "I don't remember what I ate."
+        },
+        {
+          "sentence_index": 43,
+          "word_start_id": 628,
+          "word_end_id": 636,
+          "text": "I ate I ate I ate I ate x."
+        },
+        {
+          "sentence_index": 44,
+          "word_start_id": 637,
+          "word_end_id": 637,
+          "text": "Yeah?"
+        }
+      ]
+    },
+    {
+      "paragraph_id": 4,
+      "label": "Discussing lunch, healthy eating habits, and daily activities",
+      "conversation_boolean": true,
+      "word_start_id": 638,
+      "word_end_id": 844,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 638,
+          "word_end_id": 640,
+          "text": "I ate x."
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 641,
+          "word_end_id": 649,
+          "text": "I ate x on the lunch On a lunch."
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 650,
+          "word_end_id": 650,
+          "text": "Okay."
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 651,
+          "word_end_id": 651,
+          "text": "Okay."
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 652,
+          "word_end_id": 652,
+          "text": "Okay."
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 653,
+          "word_end_id": 653,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 654,
+          "word_end_id": 659,
+          "text": "Today, I ate x for lunch."
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 660,
+          "word_end_id": 660,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 661,
+          "word_end_id": 678,
+          "text": "I have to, you know, I have to I have to convince myself because I've never done it."
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 679,
+          "word_end_id": 699,
+          "text": "I've I've I've never done it this mode, you know, and I I need time, but but I think it's good."
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 700,
+          "word_end_id": 700,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 701,
+          "word_end_id": 708,
+          "text": "Because it's it sounds more more more better."
+        },
+        {
+          "sentence_index": 13,
+          "word_start_id": 709,
+          "word_end_id": 709,
+          "text": "Yeah?"
+        },
+        {
+          "sentence_index": 14,
+          "word_start_id": 710,
+          "word_end_id": 710,
+          "text": "Better."
+        },
+        {
+          "sentence_index": 15,
+          "word_start_id": 711,
+          "word_end_id": 712,
+          "text": "More coffee."
+        },
+        {
+          "sentence_index": 16,
+          "word_start_id": 713,
+          "word_end_id": 713,
+          "text": "Yes."
+        },
+        {
+          "sentence_index": 17,
+          "word_start_id": 714,
+          "word_end_id": 714,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 18,
+          "word_start_id": 715,
+          "word_end_id": 715,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 19,
+          "word_start_id": 716,
+          "word_end_id": 716,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 20,
+          "word_start_id": 717,
+          "word_end_id": 718,
+          "text": "I okay."
+        },
+        {
+          "sentence_index": 21,
+          "word_start_id": 719,
+          "word_end_id": 719,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 22,
+          "word_start_id": 720,
+          "word_end_id": 725,
+          "text": "I ate eggs on lunch today."
+        },
+        {
+          "sentence_index": 23,
+          "word_start_id": 726,
+          "word_end_id": 746,
+          "text": "Didn't watch any sports, but I was listening at I was listening at morning at morning about about football, about languages."
+        },
+        {
+          "sentence_index": 24,
+          "word_start_id": 747,
+          "word_end_id": 762,
+          "text": "So I I didn't watch any match, but I was in contact with football, let's say."
+        },
+        {
+          "sentence_index": 25,
+          "word_start_id": 763,
+          "word_end_id": 763,
+          "text": "Mhmm."
+        },
+        {
+          "sentence_index": 26,
+          "word_start_id": 764,
+          "word_end_id": 764,
+          "text": "Okay."
+        },
+        {
+          "sentence_index": 27,
+          "word_start_id": 765,
+          "word_end_id": 769,
+          "text": "It was it was delicious."
+        },
+        {
+          "sentence_index": 28,
+          "word_start_id": 770,
+          "word_end_id": 772,
+          "text": "I like it."
+        },
+        {
+          "sentence_index": 29,
+          "word_start_id": 773,
+          "word_end_id": 782,
+          "text": "Often, I try to eat healthy, so I liked it."
+        },
+        {
+          "sentence_index": 30,
+          "word_start_id": 783,
+          "word_end_id": 783,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 31,
+          "word_start_id": 784,
+          "word_end_id": 798,
+          "text": "I think I'm really like eating healthy because I think it's important for my health."
+        },
+        {
+          "sentence_index": 32,
+          "word_start_id": 799,
+          "word_end_id": 822,
+          "text": "And if if I have if I if I have if I have opportunity to eat healthy, I try to do it for myself."
+        },
+        {
+          "sentence_index": 33,
+          "word_start_id": 823,
+          "word_end_id": 843,
+          "text": "It is not what I try to do daily, but 4 times a week, I try to eat eat eat eat."
+        },
+        {
+          "sentence_index": 34,
+          "word_start_id": 844,
+          "word_end_id": 844,
+          "text": "Yeah."
+        }
+      ]
+    },
+    {
+      "paragraph_id": 5,
+      "label": "Healthy eating habits, preferences, and daily plans",
+      "conversation_boolean": true,
+      "word_start_id": 845,
+      "word_end_id": 1052,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 845,
+          "word_end_id": 848,
+          "text": "4 times a week."
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 849,
+          "word_end_id": 852,
+          "text": "4 times a week."
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 853,
+          "word_end_id": 853,
+          "text": "Okay."
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 854,
+          "word_end_id": 857,
+          "text": "4 times a week."
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 858,
+          "word_end_id": 862,
+          "text": "I like changing my diet."
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 863,
+          "word_end_id": 880,
+          "text": "I like changing what I eat, so I don't I don't imagine eating daily only x, for example."
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 881,
+          "word_end_id": 881,
+          "text": "Mhmm."
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 882,
+          "word_end_id": 882,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 883,
+          "word_end_id": 886,
+          "text": "I think I understood."
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 887,
+          "word_end_id": 895,
+          "text": "We will see, but but I think I understood."
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 896,
+          "word_end_id": 899,
+          "text": "1 moment because okay."
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 900,
+          "word_end_id": 901,
+          "text": "Oh, okay."
+        },
+        {
+          "sentence_index": 13,
+          "word_start_id": 902,
+          "word_end_id": 902,
+          "text": "Okay."
+        },
+        {
+          "sentence_index": 14,
+          "word_start_id": 903,
+          "word_end_id": 906,
+          "text": "No. Could you repeat?"
+        },
+        {
+          "sentence_index": 15,
+          "word_start_id": 907,
+          "word_end_id": 917,
+          "text": "Because I didn't understand because I I didn't have the good."
+        },
+        {
+          "sentence_index": 16,
+          "word_start_id": 918,
+          "word_end_id": 918,
+          "text": "Yeah?"
+        },
+        {
+          "sentence_index": 17,
+          "word_start_id": 919,
+          "word_end_id": 919,
+          "text": "Okay."
+        },
+        {
+          "sentence_index": 18,
+          "word_start_id": 920,
+          "word_end_id": 920,
+          "text": "Okay."
+        },
+        {
+          "sentence_index": 19,
+          "word_start_id": 921,
+          "word_end_id": 921,
+          "text": "Okay."
+        },
+        {
+          "sentence_index": 20,
+          "word_start_id": 922,
+          "word_end_id": 923,
+          "text": "I understand."
+        },
+        {
+          "sentence_index": 21,
+          "word_start_id": 924,
+          "word_end_id": 930,
+          "text": "So my so my name is Damian."
+        },
+        {
+          "sentence_index": 22,
+          "word_start_id": 931,
+          "word_end_id": 935,
+          "text": "Not my name is Damian."
+        },
+        {
+          "sentence_index": 23,
+          "word_start_id": 936,
+          "word_end_id": 936,
+          "text": "Yeah?"
+        },
+        {
+          "sentence_index": 24,
+          "word_start_id": 937,
+          "word_end_id": 940,
+          "text": "My name is okay."
+        },
+        {
+          "sentence_index": 25,
+          "word_start_id": 941,
+          "word_end_id": 947,
+          "text": "My name is my name is Damian."
+        },
+        {
+          "sentence_index": 26,
+          "word_start_id": 948,
+          "word_end_id": 948,
+          "text": "Yeah?"
+        },
+        {
+          "sentence_index": 27,
+          "word_start_id": 949,
+          "word_end_id": 951,
+          "text": "I prefer coffee."
+        },
+        {
+          "sentence_index": 28,
+          "word_start_id": 952,
+          "word_end_id": 956,
+          "text": "I like the most coffee."
+        },
+        {
+          "sentence_index": 29,
+          "word_start_id": 957,
+          "word_end_id": 966,
+          "text": "I like I like coffee the most of of drinks."
+        },
+        {
+          "sentence_index": 30,
+          "word_start_id": 967,
+          "word_end_id": 967,
+          "text": "Okay."
+        },
+        {
+          "sentence_index": 31,
+          "word_start_id": 968,
+          "word_end_id": 980,
+          "text": "So so for the rest of the day, I will have many plans."
+        },
+        {
+          "sentence_index": 32,
+          "word_start_id": 981,
+          "word_end_id": 1004,
+          "text": "First of all, I will plan to go outside to to buy something in the shop in the shop, and then I will rest."
+        },
+        {
+          "sentence_index": 33,
+          "word_start_id": 1005,
+          "word_end_id": 1014,
+          "text": "I will rest because I need rest because I've worked."
+        },
+        {
+          "sentence_index": 34,
+          "word_start_id": 1015,
+          "word_end_id": 1022,
+          "text": "I worked a lot, and I need rest."
+        },
+        {
+          "sentence_index": 35,
+          "word_start_id": 1023,
+          "word_end_id": 1049,
+          "text": "I prefer to walk during the day because I like walking when there are many people when when I pre I prefer do it when it's bright."
+        },
+        {
+          "sentence_index": 36,
+          "word_start_id": 1050,
+          "word_end_id": 1050,
+          "text": "Yeah?"
+        },
+        {
+          "sentence_index": 37,
+          "word_start_id": 1051,
+          "word_end_id": 1051,
+          "text": "Bright?"
+        },
+        {
+          "sentence_index": 38,
+          "word_start_id": 1052,
+          "word_end_id": 1052,
+          "text": "I"
+        }
+      ]
+    },
+    {
+      "paragraph_id": 6,
+      "label": "Daily plans, preferences, and asking teacher questions",
+      "conversation_boolean": true,
+      "word_start_id": 1053,
+      "word_end_id": 1254,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 1053,
+          "word_end_id": 1054,
+          "text": "don't know."
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 1055,
+          "word_end_id": 1056,
+          "text": "But Okay."
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 1057,
+          "word_end_id": 1057,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 1058,
+          "word_end_id": 1066,
+          "text": "So do you like do you like teaching teaching?"
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 1067,
+          "word_end_id": 1067,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 1068,
+          "word_end_id": 1068,
+          "text": "Teach."
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 1069,
+          "word_end_id": 1069,
+          "text": "Okay."
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 1070,
+          "word_end_id": 1077,
+          "text": "Do you like do you like teaching languages?"
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 1078,
+          "word_end_id": 1078,
+          "text": "Languages."
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 1079,
+          "word_end_id": 1079,
+          "text": "Okay."
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 1080,
+          "word_end_id": 1080,
+          "text": "Mhmm."
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 1081,
+          "word_end_id": 1081,
+          "text": "Okay."
+        },
+        {
+          "sentence_index": 13,
+          "word_start_id": 1082,
+          "word_end_id": 1083,
+          "text": "I understand."
+        },
+        {
+          "sentence_index": 14,
+          "word_start_id": 1084,
+          "word_end_id": 1092,
+          "text": "Do you know what do you know about languages?"
+        },
+        {
+          "sentence_index": 15,
+          "word_start_id": 1093,
+          "word_end_id": 1093,
+          "text": "No."
+        },
+        {
+          "sentence_index": 16,
+          "word_start_id": 1094,
+          "word_end_id": 1094,
+          "text": "No."
+        },
+        {
+          "sentence_index": 17,
+          "word_start_id": 1095,
+          "word_end_id": 1097,
+          "text": "Not not that."
+        },
+        {
+          "sentence_index": 18,
+          "word_start_id": 1098,
+          "word_end_id": 1102,
+          "text": "What languages do you know?"
+        },
+        {
+          "sentence_index": 19,
+          "word_start_id": 1103,
+          "word_end_id": 1105,
+          "text": "What or no."
+        },
+        {
+          "sentence_index": 20,
+          "word_start_id": 1106,
+          "word_end_id": 1108,
+          "text": "What or no?"
+        },
+        {
+          "sentence_index": 21,
+          "word_start_id": 1109,
+          "word_end_id": 1109,
+          "text": "Ah."
+        },
+        {
+          "sentence_index": 22,
+          "word_start_id": 1110,
+          "word_end_id": 1111,
+          "text": "Oh, okay."
+        },
+        {
+          "sentence_index": 23,
+          "word_start_id": 1112,
+          "word_end_id": 1112,
+          "text": "Much?"
+        },
+        {
+          "sentence_index": 24,
+          "word_start_id": 1113,
+          "word_end_id": 1113,
+          "text": "Okay."
+        },
+        {
+          "sentence_index": 25,
+          "word_start_id": 1114,
+          "word_end_id": 1123,
+          "text": "How much lang how how much languages do you want?"
+        },
+        {
+          "sentence_index": 26,
+          "word_start_id": 1124,
+          "word_end_id": 1125,
+          "text": "How many?"
+        },
+        {
+          "sentence_index": 27,
+          "word_start_id": 1126,
+          "word_end_id": 1127,
+          "text": "How many?"
+        },
+        {
+          "sentence_index": 28,
+          "word_start_id": 1128,
+          "word_end_id": 1129,
+          "text": "How many?"
+        },
+        {
+          "sentence_index": 29,
+          "word_start_id": 1130,
+          "word_end_id": 1130,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 30,
+          "word_start_id": 1131,
+          "word_end_id": 1132,
+          "text": "How many?"
+        },
+        {
+          "sentence_index": 31,
+          "word_start_id": 1133,
+          "word_end_id": 1133,
+          "text": "Mhmm."
+        },
+        {
+          "sentence_index": 32,
+          "word_start_id": 1134,
+          "word_end_id": 1134,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 33,
+          "word_start_id": 1135,
+          "word_end_id": 1135,
+          "text": "Mhmm."
+        },
+        {
+          "sentence_index": 34,
+          "word_start_id": 1136,
+          "word_end_id": 1136,
+          "text": "Mhmm."
+        },
+        {
+          "sentence_index": 35,
+          "word_start_id": 1137,
+          "word_end_id": 1137,
+          "text": "Okay."
+        },
+        {
+          "sentence_index": 36,
+          "word_start_id": 1138,
+          "word_end_id": 1138,
+          "text": "Okay."
+        },
+        {
+          "sentence_index": 37,
+          "word_start_id": 1139,
+          "word_end_id": 1145,
+          "text": "As if it were your native languages."
+        },
+        {
+          "sentence_index": 38,
+          "word_start_id": 1146,
+          "word_end_id": 1150,
+          "text": "Oh, it's your native languages."
+        },
+        {
+          "sentence_index": 39,
+          "word_start_id": 1151,
+          "word_end_id": 1151,
+          "text": "Yeah?"
+        },
+        {
+          "sentence_index": 40,
+          "word_start_id": 1152,
+          "word_end_id": 1152,
+          "text": "Okay."
+        },
+        {
+          "sentence_index": 41,
+          "word_start_id": 1153,
+          "word_end_id": 1154,
+          "text": "I understand."
+        },
+        {
+          "sentence_index": 42,
+          "word_start_id": 1155,
+          "word_end_id": 1155,
+          "text": "Okay."
+        },
+        {
+          "sentence_index": 43,
+          "word_start_id": 1156,
+          "word_end_id": 1170,
+          "text": "Do you like do you like watching football, or do you like any other sports?"
+        },
+        {
+          "sentence_index": 44,
+          "word_start_id": 1171,
+          "word_end_id": 1171,
+          "text": "Mhmm."
+        },
+        {
+          "sentence_index": 45,
+          "word_start_id": 1172,
+          "word_end_id": 1172,
+          "text": "Okay."
+        },
+        {
+          "sentence_index": 46,
+          "word_start_id": 1173,
+          "word_end_id": 1173,
+          "text": "Okay."
+        },
+        {
+          "sentence_index": 47,
+          "word_start_id": 1174,
+          "word_end_id": 1175,
+          "text": "I understood."
+        },
+        {
+          "sentence_index": 48,
+          "word_start_id": 1176,
+          "word_end_id": 1177,
+          "text": "I understood."
+        },
+        {
+          "sentence_index": 49,
+          "word_start_id": 1178,
+          "word_end_id": 1179,
+          "text": "Ah, okay."
+        },
+        {
+          "sentence_index": 50,
+          "word_start_id": 1180,
+          "word_end_id": 1195,
+          "text": "So more more gaming, more playing on computer, let's say, than than than than than watching."
+        },
+        {
+          "sentence_index": 51,
+          "word_start_id": 1196,
+          "word_end_id": 1196,
+          "text": "Yeah?"
+        },
+        {
+          "sentence_index": 52,
+          "word_start_id": 1197,
+          "word_end_id": 1198,
+          "text": "Than watching."
+        },
+        {
+          "sentence_index": 53,
+          "word_start_id": 1199,
+          "word_end_id": 1199,
+          "text": "Okay."
+        },
+        {
+          "sentence_index": 54,
+          "word_start_id": 1200,
+          "word_end_id": 1200,
+          "text": "Okay."
+        },
+        {
+          "sentence_index": 55,
+          "word_start_id": 1201,
+          "word_end_id": 1201,
+          "text": "Mhmm."
+        },
+        {
+          "sentence_index": 56,
+          "word_start_id": 1202,
+          "word_end_id": 1202,
+          "text": "Okay."
+        },
+        {
+          "sentence_index": 57,
+          "word_start_id": 1203,
+          "word_end_id": 1203,
+          "text": "Okay."
+        },
+        {
+          "sentence_index": 58,
+          "word_start_id": 1204,
+          "word_end_id": 1208,
+          "text": "And I have to repeat."
+        },
+        {
+          "sentence_index": 59,
+          "word_start_id": 1209,
+          "word_end_id": 1209,
+          "text": "Yeah?"
+        },
+        {
+          "sentence_index": 60,
+          "word_start_id": 1210,
+          "word_end_id": 1213,
+          "text": "I have to repeat."
+        },
+        {
+          "sentence_index": 61,
+          "word_start_id": 1214,
+          "word_end_id": 1214,
+          "text": "Mhmm."
+        },
+        {
+          "sentence_index": 62,
+          "word_start_id": 1215,
+          "word_end_id": 1216,
+          "text": "Ah, okay."
+        },
+        {
+          "sentence_index": 63,
+          "word_start_id": 1217,
+          "word_end_id": 1223,
+          "text": "So what what do you eat today?"
+        },
+        {
+          "sentence_index": 64,
+          "word_start_id": 1224,
+          "word_end_id": 1224,
+          "text": "Mhmm."
+        },
+        {
+          "sentence_index": 65,
+          "word_start_id": 1225,
+          "word_end_id": 1230,
+          "text": "I ate eggs and drank coffee."
+        },
+        {
+          "sentence_index": 66,
+          "word_start_id": 1231,
+          "word_end_id": 1242,
+          "text": "I didn't eat I ate only eggs, so I didn't eat anymore."
+        },
+        {
+          "sentence_index": 67,
+          "word_start_id": 1243,
+          "word_end_id": 1243,
+          "text": "Okay."
+        },
+        {
+          "sentence_index": 68,
+          "word_start_id": 1244,
+          "word_end_id": 1250,
+          "text": "So we'll see what I will remember."
+        },
+        {
+          "sentence_index": 69,
+          "word_start_id": 1251,
+          "word_end_id": 1254,
+          "text": "But we I know."
+        }
+      ]
+    },
+    {
+      "paragraph_id": 7,
+      "label": "None",
+      "conversation_boolean": false,
+      "word_start_id": 1255,
+      "word_end_id": 1454,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 1255,
+          "word_end_id": 1256,
+          "text": "I know."
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 1257,
+          "word_end_id": 1263,
+          "text": "Today, I ate eggs and drank coffee."
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 1264,
+          "word_end_id": 1271,
+          "text": "Today, I ate eggs and took took coffee."
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 1272,
+          "word_end_id": 1272,
+          "text": "Yeah?"
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 1273,
+          "word_end_id": 1279,
+          "text": "Took it took A cup of coffee."
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 1280,
+          "word_end_id": 1296,
+          "text": "And I don't I don't remember I don't remember them what's what's what you what you thought."
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 1297,
+          "word_end_id": 1297,
+          "text": "Okay."
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 1298,
+          "word_end_id": 1298,
+          "text": "Mhmm."
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 1299,
+          "word_end_id": 1311,
+          "text": "Today, I took, today today, I took eggs and, a cup of coffee."
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 1312,
+          "word_end_id": 1320,
+          "text": "Today, I took eggs and a cup of coffee."
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 1321,
+          "word_end_id": 1331,
+          "text": "Today, I ate 2 bald eggs and a cup of coffee."
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 1332,
+          "word_end_id": 1343,
+          "text": "Today, I ate 2 bald eggs and a cup of hot coffee."
+        },
+        {
+          "sentence_index": 13,
+          "word_start_id": 1344,
+          "word_end_id": 1365,
+          "text": "Today, I ate 2 bold eggs 2 bold 2 bold eggs and a cup of of hot or on black hot coffee."
+        },
+        {
+          "sentence_index": 14,
+          "word_start_id": 1366,
+          "word_end_id": 1366,
+          "text": "Okay."
+        },
+        {
+          "sentence_index": 15,
+          "word_start_id": 1367,
+          "word_end_id": 1376,
+          "text": "Today, I ate 2 eggs and a cup of coffee."
+        },
+        {
+          "sentence_index": 16,
+          "word_start_id": 1377,
+          "word_end_id": 1387,
+          "text": "Today, I ate 2 bold eggs and a cup of coffee."
+        },
+        {
+          "sentence_index": 17,
+          "word_start_id": 1388,
+          "word_end_id": 1400,
+          "text": "Today, I ate 2 bold eggs and a cup of black hot coffee."
+        },
+        {
+          "sentence_index": 18,
+          "word_start_id": 1401,
+          "word_end_id": 1410,
+          "text": "Today, I ate 2 x and a cup of coffee."
+        },
+        {
+          "sentence_index": 19,
+          "word_start_id": 1411,
+          "word_end_id": 1411,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 20,
+          "word_start_id": 1412,
+          "word_end_id": 1423,
+          "text": "Today, I ate 2 x and a cup of of hot coffee."
+        },
+        {
+          "sentence_index": 21,
+          "word_start_id": 1424,
+          "word_end_id": 1424,
+          "text": "Yeah?"
+        },
+        {
+          "sentence_index": 22,
+          "word_start_id": 1425,
+          "word_end_id": 1435,
+          "text": "Today, I ate 2 eggs and a cup of hot coffee."
+        },
+        {
+          "sentence_index": 23,
+          "word_start_id": 1436,
+          "word_end_id": 1447,
+          "text": "Today, I ate 2 eggs and a cup of black hot coffee."
+        },
+        {
+          "sentence_index": 24,
+          "word_start_id": 1448,
+          "word_end_id": 1448,
+          "text": "Mhmm."
+        },
+        {
+          "sentence_index": 25,
+          "word_start_id": 1449,
+          "word_end_id": 1449,
+          "text": "Okay."
+        },
+        {
+          "sentence_index": 26,
+          "word_start_id": 1450,
+          "word_end_id": 1450,
+          "text": "Okay."
+        },
+        {
+          "sentence_index": 27,
+          "word_start_id": 1451,
+          "word_end_id": 1454,
+          "text": "So so I mhmm."
+        }
+      ]
+    },
+    {
+      "paragraph_id": 8,
+      "label": "None",
+      "conversation_boolean": false,
+      "word_start_id": 1455,
+      "word_end_id": 1658,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 1455,
+          "word_end_id": 1455,
+          "text": "Okay."
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 1456,
+          "word_end_id": 1456,
+          "text": "Okay."
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 1457,
+          "word_end_id": 1457,
+          "text": "Okay."
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 1458,
+          "word_end_id": 1458,
+          "text": "Okay."
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 1459,
+          "word_end_id": 1465,
+          "text": "Today, I ate 2 eggs and coffee."
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 1466,
+          "word_end_id": 1475,
+          "text": "Today, I ate 2 eggs and a cup of coffee."
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 1476,
+          "word_end_id": 1490,
+          "text": "Today, I had, I had today, I had 2 eggs and a cup of coffee."
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 1491,
+          "word_end_id": 1500,
+          "text": "Today, I had 2 egg And a cup of coffee."
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 1501,
+          "word_end_id": 1512,
+          "text": "Today, I ate 2 bold eggs and a cup of hot coffee."
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 1513,
+          "word_end_id": 1528,
+          "text": "Today, I ate 2 bold eggs and a cup of of hot black coffee or no."
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 1529,
+          "word_end_id": 1529,
+          "text": "Black."
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 1530,
+          "word_end_id": 1532,
+          "text": "Black hot coffee."
+        },
+        {
+          "sentence_index": 13,
+          "word_start_id": 1533,
+          "word_end_id": 1535,
+          "text": "Black hot coffee."
+        },
+        {
+          "sentence_index": 14,
+          "word_start_id": 1536,
+          "word_end_id": 1543,
+          "text": "Today, what what have I do yet today?"
+        },
+        {
+          "sentence_index": 15,
+          "word_start_id": 1544,
+          "word_end_id": 1544,
+          "text": "Okay."
+        },
+        {
+          "sentence_index": 16,
+          "word_start_id": 1545,
+          "word_end_id": 1545,
+          "text": "Okay."
+        },
+        {
+          "sentence_index": 17,
+          "word_start_id": 1546,
+          "word_end_id": 1562,
+          "text": "For lunch, I had, 2 Boldt eggs and, a cup and and a cup of hot coffee."
+        },
+        {
+          "sentence_index": 18,
+          "word_start_id": 1563,
+          "word_end_id": 1563,
+          "text": "Okay."
+        },
+        {
+          "sentence_index": 19,
+          "word_start_id": 1564,
+          "word_end_id": 1564,
+          "text": "Mhmm."
+        },
+        {
+          "sentence_index": 20,
+          "word_start_id": 1565,
+          "word_end_id": 1565,
+          "text": "Okay."
+        },
+        {
+          "sentence_index": 21,
+          "word_start_id": 1566,
+          "word_end_id": 1566,
+          "text": "Mhmm."
+        },
+        {
+          "sentence_index": 22,
+          "word_start_id": 1567,
+          "word_end_id": 1567,
+          "text": "Mhmm."
+        },
+        {
+          "sentence_index": 23,
+          "word_start_id": 1568,
+          "word_end_id": 1568,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 24,
+          "word_start_id": 1569,
+          "word_end_id": 1569,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 25,
+          "word_start_id": 1570,
+          "word_end_id": 1570,
+          "text": "Okay."
+        },
+        {
+          "sentence_index": 26,
+          "word_start_id": 1571,
+          "word_end_id": 1571,
+          "text": "Okay."
+        },
+        {
+          "sentence_index": 27,
+          "word_start_id": 1572,
+          "word_end_id": 1573,
+          "text": "I understand."
+        },
+        {
+          "sentence_index": 28,
+          "word_start_id": 1574,
+          "word_end_id": 1583,
+          "text": "Today, I had 2 eggs and a cup of coffee."
+        },
+        {
+          "sentence_index": 29,
+          "word_start_id": 1584,
+          "word_end_id": 1584,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 30,
+          "word_start_id": 1585,
+          "word_end_id": 1585,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 31,
+          "word_start_id": 1586,
+          "word_end_id": 1597,
+          "text": "Today, I had 2 eggs and a cup of black hot coffee."
+        },
+        {
+          "sentence_index": 32,
+          "word_start_id": 1598,
+          "word_end_id": 1609,
+          "text": "Today, I had 2 bold eggs and a cup of hot coffee."
+        },
+        {
+          "sentence_index": 33,
+          "word_start_id": 1610,
+          "word_end_id": 1625,
+          "text": "Today, I had today, I had 2 bold eggs and a cup of coffee without sugar."
+        },
+        {
+          "sentence_index": 34,
+          "word_start_id": 1626,
+          "word_end_id": 1626,
+          "text": "Okay."
+        },
+        {
+          "sentence_index": 35,
+          "word_start_id": 1627,
+          "word_end_id": 1639,
+          "text": "Today, I had 2 bold eggs and a cup of coffee, no sugar."
+        },
+        {
+          "sentence_index": 36,
+          "word_start_id": 1640,
+          "word_end_id": 1640,
+          "text": "Mhmm."
+        },
+        {
+          "sentence_index": 37,
+          "word_start_id": 1641,
+          "word_end_id": 1641,
+          "text": "Okay."
+        },
+        {
+          "sentence_index": 38,
+          "word_start_id": 1642,
+          "word_end_id": 1642,
+          "text": "Okay."
+        },
+        {
+          "sentence_index": 39,
+          "word_start_id": 1643,
+          "word_end_id": 1658,
+          "text": "Today, I have today today, I had 2 bold eggs, a cup of coffee, no sugar."
+        }
+      ]
+    },
+    {
+      "paragraph_id": 9,
+      "label": "Reflecting on class, learning progress, and future goals",
+      "conversation_boolean": true,
+      "word_start_id": 1659,
+      "word_end_id": 1889,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 1659,
+          "word_end_id": 1659,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 1660,
+          "word_end_id": 1660,
+          "text": "Okay."
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 1661,
+          "word_end_id": 1662,
+          "text": "I okay."
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 1663,
+          "word_end_id": 1707,
+          "text": "So I think I've learned about breakfast about breakfast, about what what I ate, what I could could tell you, and I like it because I think it's important to to keep speaking, to keep to keep having vocabulary a vocab the the new vocabulary."
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 1708,
+          "word_end_id": 1716,
+          "text": "So so I like it, and I feel good."
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 1717,
+          "word_end_id": 1717,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 1718,
+          "word_end_id": 1718,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 1719,
+          "word_end_id": 1719,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 1720,
+          "word_end_id": 1720,
+          "text": "Mhmm."
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 1721,
+          "word_end_id": 1721,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 1722,
+          "word_end_id": 1722,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 1723,
+          "word_end_id": 1723,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 13,
+          "word_start_id": 1724,
+          "word_end_id": 1724,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 14,
+          "word_start_id": 1725,
+          "word_end_id": 1725,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 15,
+          "word_start_id": 1726,
+          "word_end_id": 1726,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 16,
+          "word_start_id": 1727,
+          "word_end_id": 1734,
+          "text": "So so I liked I liked our class."
+        },
+        {
+          "sentence_index": 17,
+          "word_start_id": 1735,
+          "word_end_id": 1743,
+          "text": "I liked that we we were able to communicate."
+        },
+        {
+          "sentence_index": 18,
+          "word_start_id": 1744,
+          "word_end_id": 1753,
+          "text": "So I hope we will communicate ourselves ourselves in future."
+        },
+        {
+          "sentence_index": 19,
+          "word_start_id": 1754,
+          "word_end_id": 1780,
+          "text": "So I hope I'm looking I will looking forward to to have to have to have a class or to have lessons to have lessons in future."
+        },
+        {
+          "sentence_index": 20,
+          "word_start_id": 1781,
+          "word_end_id": 1785,
+          "text": "So so I like it."
+        },
+        {
+          "sentence_index": 21,
+          "word_start_id": 1786,
+          "word_end_id": 1786,
+          "text": "Okay."
+        },
+        {
+          "sentence_index": 22,
+          "word_start_id": 1787,
+          "word_end_id": 1788,
+          "text": "No problem."
+        },
+        {
+          "sentence_index": 23,
+          "word_start_id": 1789,
+          "word_end_id": 1790,
+          "text": "No problem."
+        },
+        {
+          "sentence_index": 24,
+          "word_start_id": 1791,
+          "word_end_id": 1791,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 25,
+          "word_start_id": 1792,
+          "word_end_id": 1792,
+          "text": "Mhmm."
+        },
+        {
+          "sentence_index": 26,
+          "word_start_id": 1793,
+          "word_end_id": 1793,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 27,
+          "word_start_id": 1794,
+          "word_end_id": 1794,
+          "text": "It"
+        },
+        {
+          "sentence_index": 28,
+          "word_start_id": 1795,
+          "word_end_id": 1795,
+          "text": "it"
+        },
+        {
+          "sentence_index": 29,
+          "word_start_id": 1796,
+          "word_end_id": 1804,
+          "text": "it don't have to be faster, but but mhmm."
+        },
+        {
+          "sentence_index": 30,
+          "word_start_id": 1805,
+          "word_end_id": 1805,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 31,
+          "word_start_id": 1806,
+          "word_end_id": 1806,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 32,
+          "word_start_id": 1807,
+          "word_end_id": 1807,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 33,
+          "word_start_id": 1808,
+          "word_end_id": 1826,
+          "text": "I think I've learned a lot because for me, it's important to to keep speaking, to keep keep learning."
+        },
+        {
+          "sentence_index": 34,
+          "word_start_id": 1827,
+          "word_end_id": 1837,
+          "text": "So I liked it, and I wish I learned a lot."
+        },
+        {
+          "sentence_index": 35,
+          "word_start_id": 1838,
+          "word_end_id": 1838,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 36,
+          "word_start_id": 1839,
+          "word_end_id": 1842,
+          "text": "And so I know"
+        },
+        {
+          "sentence_index": 37,
+          "word_start_id": 1843,
+          "word_end_id": 1888,
+          "text": "and I know that now I don't I don't understand all what what you are doing, for example, but I I know that in future, it will be possible because if if we if we learning, if we're trying, it's possible to communicate better and better."
+        },
+        {
+          "sentence_index": 38,
+          "word_start_id": 1889,
+          "word_end_id": 1889,
+          "text": "Yeah?"
+        }
+      ]
+    },
+    {
+      "paragraph_id": 10,
+      "label": "Reflecting on learning goals and closing the class",
+      "conversation_boolean": true,
+      "word_start_id": 1890,
+      "word_end_id": 2092,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 1890,
+          "word_end_id": 1908,
+          "text": "My goal is is is communicate because, as I told you, I don't learn to to have a job."
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 1909,
+          "word_end_id": 1914,
+          "text": "For example, I learn for myself."
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 1915,
+          "word_end_id": 1920,
+          "text": "So I want to communicate them."
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 1921,
+          "word_end_id": 1939,
+          "text": "I want to understand better and better, but I don't have I don't have I don't have to rush."
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 1940,
+          "word_end_id": 1940,
+          "text": "Yeah?"
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 1941,
+          "word_end_id": 1945,
+          "text": "I don't have to rush."
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 1946,
+          "word_end_id": 1977,
+          "text": "I think I will be opportunity to to communicate, but now I want to I want to listen to a lot, reading a lot, speaking a lot to to be more fluent."
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 1978,
+          "word_end_id": 1979,
+          "text": "You know?"
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 1980,
+          "word_end_id": 1992,
+          "text": "When when I'm fluent, it will be it will be easier and easier."
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 1993,
+          "word_end_id": 1993,
+          "text": "Yeah?"
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 1994,
+          "word_end_id": 1995,
+          "text": "So Mhmm."
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 1996,
+          "word_end_id": 1996,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 13,
+          "word_start_id": 1997,
+          "word_end_id": 1997,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 14,
+          "word_start_id": 1998,
+          "word_end_id": 1998,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 15,
+          "word_start_id": 1999,
+          "word_end_id": 2000,
+          "text": "It's changed."
+        },
+        {
+          "sentence_index": 16,
+          "word_start_id": 2001,
+          "word_end_id": 2002,
+          "text": "It's changed."
+        },
+        {
+          "sentence_index": 17,
+          "word_start_id": 2003,
+          "word_end_id": 2010,
+          "text": "So so I will try to check it."
+        },
+        {
+          "sentence_index": 18,
+          "word_start_id": 2011,
+          "word_end_id": 2012,
+          "text": "Check it."
+        },
+        {
+          "sentence_index": 19,
+          "word_start_id": 2013,
+          "word_end_id": 2013,
+          "text": "Mhmm."
+        },
+        {
+          "sentence_index": 20,
+          "word_start_id": 2014,
+          "word_end_id": 2014,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 21,
+          "word_start_id": 2015,
+          "word_end_id": 2015,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 22,
+          "word_start_id": 2016,
+          "word_end_id": 2016,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 23,
+          "word_start_id": 2017,
+          "word_end_id": 2017,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 24,
+          "word_start_id": 2018,
+          "word_end_id": 2018,
+          "text": "Mhmm."
+        },
+        {
+          "sentence_index": 25,
+          "word_start_id": 2019,
+          "word_end_id": 2019,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 26,
+          "word_start_id": 2020,
+          "word_end_id": 2020,
+          "text": "Mhmm."
+        },
+        {
+          "sentence_index": 27,
+          "word_start_id": 2021,
+          "word_end_id": 2021,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 28,
+          "word_start_id": 2022,
+          "word_end_id": 2022,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 29,
+          "word_start_id": 2023,
+          "word_end_id": 2023,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 30,
+          "word_start_id": 2024,
+          "word_end_id": 2024,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 31,
+          "word_start_id": 2025,
+          "word_end_id": 2026,
+          "text": "No problem."
+        },
+        {
+          "sentence_index": 32,
+          "word_start_id": 2027,
+          "word_end_id": 2032,
+          "text": "For me, it's not a problem."
+        },
+        {
+          "sentence_index": 33,
+          "word_start_id": 2033,
+          "word_end_id": 2034,
+          "text": "Oh, okay."
+        },
+        {
+          "sentence_index": 34,
+          "word_start_id": 2035,
+          "word_end_id": 2038,
+          "text": "No problem for me."
+        },
+        {
+          "sentence_index": 35,
+          "word_start_id": 2039,
+          "word_end_id": 2039,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 36,
+          "word_start_id": 2040,
+          "word_end_id": 2041,
+          "text": "I understand."
+        },
+        {
+          "sentence_index": 37,
+          "word_start_id": 2042,
+          "word_end_id": 2044,
+          "text": "And you okay."
+        },
+        {
+          "sentence_index": 38,
+          "word_start_id": 2045,
+          "word_end_id": 2050,
+          "text": "But 1 voice note or more?"
+        },
+        {
+          "sentence_index": 39,
+          "word_start_id": 2051,
+          "word_end_id": 2051,
+          "text": "Okay."
+        },
+        {
+          "sentence_index": 40,
+          "word_start_id": 2052,
+          "word_end_id": 2052,
+          "text": "Okay."
+        },
+        {
+          "sentence_index": 41,
+          "word_start_id": 2053,
+          "word_end_id": 2053,
+          "text": "Okay."
+        },
+        {
+          "sentence_index": 42,
+          "word_start_id": 2054,
+          "word_end_id": 2054,
+          "text": "Okay."
+        },
+        {
+          "sentence_index": 43,
+          "word_start_id": 2055,
+          "word_end_id": 2055,
+          "text": "Okay."
+        },
+        {
+          "sentence_index": 44,
+          "word_start_id": 2056,
+          "word_end_id": 2057,
+          "text": "I understand."
+        },
+        {
+          "sentence_index": 45,
+          "word_start_id": 2058,
+          "word_end_id": 2059,
+          "text": "I under"
+        },
+        {
+          "sentence_index": 46,
+          "word_start_id": 2060,
+          "word_end_id": 2060,
+          "text": "Okay."
+        },
+        {
+          "sentence_index": 47,
+          "word_start_id": 2061,
+          "word_end_id": 2062,
+          "text": "I understand."
+        },
+        {
+          "sentence_index": 48,
+          "word_start_id": 2063,
+          "word_end_id": 2063,
+          "text": "Mhmm."
+        },
+        {
+          "sentence_index": 49,
+          "word_start_id": 2064,
+          "word_end_id": 2064,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 50,
+          "word_start_id": 2065,
+          "word_end_id": 2065,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 51,
+          "word_start_id": 2066,
+          "word_end_id": 2066,
+          "text": "Mhmm."
+        },
+        {
+          "sentence_index": 52,
+          "word_start_id": 2067,
+          "word_end_id": 2067,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 53,
+          "word_start_id": 2068,
+          "word_end_id": 2068,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 54,
+          "word_start_id": 2069,
+          "word_end_id": 2069,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 55,
+          "word_start_id": 2070,
+          "word_end_id": 2071,
+          "text": "I understand."
+        },
+        {
+          "sentence_index": 56,
+          "word_start_id": 2072,
+          "word_end_id": 2087,
+          "text": "So thank you for for our class, and we will see we will see next week."
+        },
+        {
+          "sentence_index": 57,
+          "word_start_id": 2088,
+          "word_end_id": 2088,
+          "text": "Yeah?"
+        },
+        {
+          "sentence_index": 58,
+          "word_start_id": 2089,
+          "word_end_id": 2090,
+          "text": "Bye bye."
+        },
+        {
+          "sentence_index": 59,
+          "word_start_id": 2091,
+          "word_end_id": 2092,
+          "text": "Thank you."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3056 @@
+{
+  "source": "data/preprocessed/Student-2/lesson-2/",
+  "student": "Student-2",
+  "lesson": "lesson-2",
+  "partition_method": "ai_context_chunker_v14",
+  "paragraphs": [
+    {
+      "paragraph_id": 1,
+      "label": "Cold weather in Poland and ice activities near Warsaw",
+      "conversation_boolean": true,
+      "word_start_id": 1,
+      "word_end_id": 207,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 1,
+          "word_end_id": 3,
+          "text": "I'm very well."
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 4,
+          "word_end_id": 6,
+          "text": "How are you?"
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 7,
+          "word_end_id": 15,
+          "text": "You're doing very well in warm and, summer weather."
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 16,
+          "word_end_id": 19,
+          "text": "You have minus 19."
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 20,
+          "word_end_id": 21,
+          "text": "So no."
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 22,
+          "word_end_id": 22,
+          "text": "No."
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 23,
+          "word_end_id": 26,
+          "text": "It's it's cold cold."
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 27,
+          "word_end_id": 52,
+          "text": "And there was one or two days of, you know, warmer weather with snow, like, minus four, and now we we're back to minus 20 almost."
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 53,
+          "word_end_id": 54,
+          "text": "So, Yeah."
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 55,
+          "word_end_id": 55,
+          "text": "Exactly."
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 56,
+          "word_end_id": 56,
+          "text": "Exactly."
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 57,
+          "word_end_id": 73,
+          "text": "Now, you know, we enjoy beautiful sunny weather with just, clean sky, but, we pay for it."
+        },
+        {
+          "sentence_index": 13,
+          "word_start_id": 74,
+          "word_end_id": 77,
+          "text": "We pay for nothing."
+        },
+        {
+          "sentence_index": 14,
+          "word_start_id": 78,
+          "word_end_id": 83,
+          "text": "You know, no no free lunches."
+        },
+        {
+          "sentence_index": 15,
+          "word_start_id": 84,
+          "word_end_id": 88,
+          "text": "So, yeah, weekend was okay."
+        },
+        {
+          "sentence_index": 16,
+          "word_start_id": 89,
+          "word_end_id": 98,
+          "text": "Actually actually actually, we we enjoy we enjoyed nice weather."
+        },
+        {
+          "sentence_index": 17,
+          "word_start_id": 99,
+          "word_end_id": 110,
+          "text": "So we we went to the lake nearby Warsaw, which is so"
+        },
+        {
+          "sentence_index": 18,
+          "word_start_id": 111,
+          "word_end_id": 123,
+          "text": "so it's fully frozen and a lot of ice activities were made there."
+        },
+        {
+          "sentence_index": 19,
+          "word_start_id": 124,
+          "word_end_id": 148,
+          "text": "So we've we've we've been watching actually, not participating, but that that there were, you know, people doing kite surfing on skis and on snowboards."
+        },
+        {
+          "sentence_index": 20,
+          "word_start_id": 149,
+          "word_end_id": 151,
+          "text": "This is fascinating."
+        },
+        {
+          "sentence_index": 21,
+          "word_start_id": 152,
+          "word_end_id": 161,
+          "text": "This is really, you know, something because because this yeah."
+        },
+        {
+          "sentence_index": 22,
+          "word_start_id": 162,
+          "word_end_id": 165,
+          "text": "I mean, it's I"
+        },
+        {
+          "sentence_index": 23,
+          "word_start_id": 166,
+          "word_end_id": 179,
+          "text": "I can't say it's popular because, there were, like, maybe few, guys doing this."
+        },
+        {
+          "sentence_index": 24,
+          "word_start_id": 180,
+          "word_end_id": 193,
+          "text": "And, actually, this year, it's perfect weather to doing, such such type of activity."
+        },
+        {
+          "sentence_index": 25,
+          "word_start_id": 194,
+          "word_end_id": 207,
+          "text": "And this this is actually additional to to, you know, regular skiing or regular"
+        }
+      ]
+    },
+    {
+      "paragraph_id": 2,
+      "label": "Kite surfing on frozen lakes with low friction",
+      "conversation_boolean": true,
+      "word_start_id": 208,
+      "word_end_id": 417,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 208,
+          "word_end_id": 210,
+          "text": "regular kite surfing."
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 211,
+          "word_end_id": 215,
+          "text": "But but but why not?"
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 216,
+          "word_end_id": 219,
+          "text": "I mean, it's really"
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 220,
+          "word_end_id": 236,
+          "text": "you know, they they're going really fast because because the like, yesterday, there was almost no wind."
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 237,
+          "word_end_id": 249,
+          "text": "And there and but but they they they were, speeding like like her."
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 250,
+          "word_end_id": 253,
+          "text": "They they you know?"
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 254,
+          "word_end_id": 254,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 255,
+          "word_end_id": 292,
+          "text": "I mean, there was only little there was only little wind, and and, you know, that they they use it because because if you if you're moving on the snow on on the skis, the is it torsion?"
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 293,
+          "word_end_id": 304,
+          "text": "Is it, you know, what what stops you on on the ground?"
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 305,
+          "word_end_id": 305,
+          "text": "Friction."
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 306,
+          "word_end_id": 324,
+          "text": "Friction is very low because they slide they slide almost without any, you know, without, losing any any power."
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 325,
+          "word_end_id": 337,
+          "text": "So so they they speeding up very fast, and and this is great."
+        },
+        {
+          "sentence_index": 13,
+          "word_start_id": 338,
+          "word_end_id": 353,
+          "text": "I mean, the the it looks like very easy, but it is not easy at all."
+        },
+        {
+          "sentence_index": 14,
+          "word_start_id": 354,
+          "word_end_id": 354,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 15,
+          "word_start_id": 355,
+          "word_end_id": 355,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 16,
+          "word_start_id": 356,
+          "word_end_id": 366,
+          "text": "It is on on the frozen lake on on the snow."
+        },
+        {
+          "sentence_index": 17,
+          "word_start_id": 367,
+          "word_end_id": 393,
+          "text": "And the difference is that if if you're doing cat surfing just regular on water, you're losing a lot of power because water is is not sliding."
+        },
+        {
+          "sentence_index": 18,
+          "word_start_id": 394,
+          "word_end_id": 417,
+          "text": "And it it water is stops you all the time, and you have to generate, like, negative power on on the on the water"
+        }
+      ]
+    },
+    {
+      "paragraph_id": 3,
+      "label": "Physics and dangers of kite skiing on frozen lakes",
+      "conversation_boolean": true,
+      "word_start_id": 418,
+      "word_end_id": 645,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 418,
+          "word_end_id": 428,
+          "text": "to to balance the the power on on in the kite."
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 429,
+          "word_end_id": 429,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 430,
+          "word_end_id": 440,
+          "text": "So so so we're losing a lot of power doing this."
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 441,
+          "word_end_id": 458,
+          "text": "If you have ski, you have you have the edge of the ski, and it is very little."
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 459,
+          "word_end_id": 462,
+          "text": "So you you you"
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 463,
+          "word_end_id": 482,
+          "text": "you're losing A little amount of power just to to to to to balance the power on in a kite."
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 483,
+          "word_end_id": 507,
+          "text": "And that's why you you speeding up very quickly, and you you really you you really you really, you know, getting very, very high speed."
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 508,
+          "word_end_id": 532,
+          "text": "And the the the only the only difficulty is that that if you're doing this and the wind is too strong, then you you're done."
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 533,
+          "word_end_id": 540,
+          "text": "You you know, you no way to stop."
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 541,
+          "word_end_id": 541,
+          "text": "No."
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 542,
+          "word_end_id": 563,
+          "text": "That's that's the the I mean, of course, you because because if you turn upwind, then then it stops a little bit."
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 564,
+          "word_end_id": 564,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 13,
+          "word_start_id": 565,
+          "word_end_id": 591,
+          "text": "But but, you know, this this is dangerous because if if you are not perfectly balanced, then, the kite may throw you up and then you're done."
+        },
+        {
+          "sentence_index": 14,
+          "word_start_id": 592,
+          "word_end_id": 606,
+          "text": "And, you know, landing landing back landing back on the ice, it's really, like, painful."
+        },
+        {
+          "sentence_index": 15,
+          "word_start_id": 607,
+          "word_end_id": 608,
+          "text": "Oh, yeah."
+        },
+        {
+          "sentence_index": 16,
+          "word_start_id": 609,
+          "word_end_id": 610,
+          "text": "Oh, yeah."
+        },
+        {
+          "sentence_index": 17,
+          "word_start_id": 611,
+          "word_end_id": 612,
+          "text": "It is."
+        },
+        {
+          "sentence_index": 18,
+          "word_start_id": 613,
+          "word_end_id": 634,
+          "text": "But also well, I mean, everyone was fine, and they they they were actually, I believe that they knew what they're doing."
+        },
+        {
+          "sentence_index": 19,
+          "word_start_id": 635,
+          "word_end_id": 645,
+          "text": "And, actually, you you we we we watched some jumps on"
+        }
+      ]
+    },
+    {
+      "paragraph_id": 4,
+      "label": "Ice kite surfing jumps and ice sailing description",
+      "conversation_boolean": true,
+      "word_start_id": 646,
+      "word_end_id": 846,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 646,
+          "word_end_id": 655,
+          "text": "the on the the kite, and it it looks amazing."
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 656,
+          "word_end_id": 662,
+          "text": "I mean, that's that's really, really something."
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 663,
+          "word_end_id": 663,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 664,
+          "word_end_id": 687,
+          "text": "They they I believe, you know, we watch it from some distance, but I believe that they jump maybe three meters more maybe more."
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 688,
+          "word_end_id": 693,
+          "text": "So so this is pretty high."
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 694,
+          "word_end_id": 734,
+          "text": "And if you if you compare to the water kite surfing, then if if you fail to land correctly and you just hit the the the the the, you know, the the the ice, I mean, you you better not try."
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 735,
+          "word_end_id": 746,
+          "text": "Actually, you you maybe you heard about it's it's called in Polish."
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 747,
+          "word_end_id": 782,
+          "text": "It's actually, maybe it has some different English name because because the the, you know, the this this is mostly Swedish or Scandinavian way to to to to move on this on the on the ice."
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 783,
+          "word_end_id": 819,
+          "text": "And it is it is like a little if you if you can imagine a little kayak and and instead having I mean, using it to in water, they they they underneath, it it has the skates."
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 820,
+          "word_end_id": 820,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 821,
+          "word_end_id": 833,
+          "text": "And then and and then it it has a little sail on it."
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 834,
+          "word_end_id": 846,
+          "text": "And so so you're sitting, like, in a kayak, like, in a boat."
+        }
+      ]
+    },
+    {
+      "paragraph_id": 5,
+      "label": "Describing ice sailing sport and searching for English term",
+      "conversation_boolean": true,
+      "word_start_id": 847,
+      "word_end_id": 1046,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 847,
+          "word_end_id": 862,
+          "text": "You have a sail, like, in a boat, and you're on the ice, on the skates."
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 863,
+          "word_end_id": 875,
+          "text": "And the the the the this is this is also very, very speedy."
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 876,
+          "word_end_id": 889,
+          "text": "This this this is unbelievably speedy because you have very little is that friction?"
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 890,
+          "word_end_id": 890,
+          "text": "Friction."
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 891,
+          "word_end_id": 891,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 892,
+          "word_end_id": 911,
+          "text": "You have very little very, very, low friction, So you can speed even even faster than the wind actual wind."
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 912,
+          "word_end_id": 912,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 913,
+          "word_end_id": 918,
+          "text": "So so the the the this"
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 919,
+          "word_end_id": 928,
+          "text": "and we saw we saw it also on this lake."
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 929,
+          "word_end_id": 934,
+          "text": "Some people try to do this."
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 935,
+          "word_end_id": 939,
+          "text": "I don't know the English."
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 940,
+          "word_end_id": 940,
+          "text": "I"
+        },
+        {
+          "sentence_index": 13,
+          "word_start_id": 941,
+          "word_end_id": 947,
+          "text": "I I can just Google English name."
+        },
+        {
+          "sentence_index": 14,
+          "word_start_id": 948,
+          "word_end_id": 951,
+          "text": "Hold on, for example."
+        },
+        {
+          "sentence_index": 15,
+          "word_start_id": 952,
+          "word_end_id": 956,
+          "text": "Ice boat or ice Kuta."
+        },
+        {
+          "sentence_index": 16,
+          "word_start_id": 957,
+          "word_end_id": 960,
+          "text": "I I don't know."
+        },
+        {
+          "sentence_index": 17,
+          "word_start_id": 961,
+          "word_end_id": 961,
+          "text": "I"
+        },
+        {
+          "sentence_index": 18,
+          "word_start_id": 962,
+          "word_end_id": 983,
+          "text": "I I'm I'm not, like, positive whether this is the the the the thing, but but this is this is, you know"
+        },
+        {
+          "sentence_index": 19,
+          "word_start_id": 984,
+          "word_end_id": 1005,
+          "text": "so so so peep actually actually, in Poland, we have some masters, like, you know, the the sport for sports, IC acting."
+        },
+        {
+          "sentence_index": 20,
+          "word_start_id": 1006,
+          "word_end_id": 1006,
+          "text": "No."
+        },
+        {
+          "sentence_index": 21,
+          "word_start_id": 1007,
+          "word_end_id": 1007,
+          "text": "No."
+        },
+        {
+          "sentence_index": 22,
+          "word_start_id": 1008,
+          "word_end_id": 1008,
+          "text": "No."
+        },
+        {
+          "sentence_index": 23,
+          "word_start_id": 1009,
+          "word_end_id": 1009,
+          "text": "No."
+        },
+        {
+          "sentence_index": 24,
+          "word_start_id": 1010,
+          "word_end_id": 1016,
+          "text": "The the the this is the boat."
+        },
+        {
+          "sentence_index": 25,
+          "word_start_id": 1017,
+          "word_end_id": 1022,
+          "text": "This is the boat on skate."
+        },
+        {
+          "sentence_index": 26,
+          "word_start_id": 1023,
+          "word_end_id": 1028,
+          "text": "You you skate on the ice."
+        },
+        {
+          "sentence_index": 27,
+          "word_start_id": 1029,
+          "word_end_id": 1031,
+          "text": "Just show me."
+        },
+        {
+          "sentence_index": 28,
+          "word_start_id": 1032,
+          "word_end_id": 1033,
+          "text": "Show me."
+        },
+        {
+          "sentence_index": 29,
+          "word_start_id": 1034,
+          "word_end_id": 1046,
+          "text": "I tell you whether this is this is the the the the one."
+        }
+      ]
+    },
+    {
+      "paragraph_id": 6,
+      "label": "Ice sailing sport history in Poland and Scandinavia",
+      "conversation_boolean": true,
+      "word_start_id": 1047,
+      "word_end_id": 1247,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 1047,
+          "word_end_id": 1051,
+          "text": "Show me on the screen."
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 1052,
+          "word_end_id": 1053,
+          "text": "Oh, okay."
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 1054,
+          "word_end_id": 1054,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 1055,
+          "word_end_id": 1060,
+          "text": "This is this is exactly it"
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 1061,
+          "word_end_id": 1063,
+          "text": "it it is."
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 1064,
+          "word_end_id": 1073,
+          "text": "It it is, and it is very dangerous as well."
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 1074,
+          "word_end_id": 1117,
+          "text": "And, actually actually, in in I think it's seventies or maybe eighties, we have people were doing it in Poland as well for sports, And we have we have some master in in in in this ice whatever whatever ice skating or ice yachting."
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 1118,
+          "word_end_id": 1124,
+          "text": "Because because, you know, it whatever whatever."
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 1125,
+          "word_end_id": 1137,
+          "text": "I don't think they have in England because you need the frozen lakes."
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 1138,
+          "word_end_id": 1165,
+          "text": "And in Sweden and in Sweden, they have a lot or in Finland, they have a lot of frozen lakes, and they can try they they can practice."
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 1166,
+          "word_end_id": 1190,
+          "text": "You know, since we had no winter real winter in for for last fifteen years, it's it's you know, this idea is a little gone."
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 1191,
+          "word_end_id": 1234,
+          "text": "But but in the previous years, we had a very strong ice team, you know, doing this doing this for sports, for sports because because the the the there were real, you know, like, international competitions, and and Polish team was very, very high."
+        },
+        {
+          "sentence_index": 13,
+          "word_start_id": 1235,
+          "word_end_id": 1235,
+          "text": "But"
+        },
+        {
+          "sentence_index": 14,
+          "word_start_id": 1236,
+          "word_end_id": 1237,
+          "text": "but Yeah."
+        },
+        {
+          "sentence_index": 15,
+          "word_start_id": 1238,
+          "word_end_id": 1238,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 16,
+          "word_start_id": 1239,
+          "word_end_id": 1239,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 17,
+          "word_start_id": 1240,
+          "word_end_id": 1247,
+          "text": "Well, maybe maybe they maybe they practice somewhere,"
+        }
+      ]
+    },
+    {
+      "paragraph_id": 7,
+      "label": "Ice sailing sport, speeds, and son's experience trying it",
+      "conversation_boolean": true,
+      "word_start_id": 1248,
+      "word_end_id": 1454,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 1248,
+          "word_end_id": 1252,
+          "text": "you know, in in Russia."
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 1253,
+          "word_end_id": 1280,
+          "text": "Oh, maybe not Russia, but maybe in Lithuania or Estonia or Some somewhere in Scandinavia because this is this is mostly Scandinavian sport, which is which is great."
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 1281,
+          "word_end_id": 1288,
+          "text": "I mean, this is this is really cool."
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 1289,
+          "word_end_id": 1319,
+          "text": "If you look just, you know, like like, the this speed boats are faster than than this almost as fast as as the speed speed boats the the ocean speed boats."
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 1320,
+          "word_end_id": 1324,
+          "text": "So they they they they"
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 1325,
+          "word_end_id": 1330,
+          "text": "they you know, you can sail."
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 1331,
+          "word_end_id": 1349,
+          "text": "I I heard that you can sail up to 80 kilometers per hour or or was something like this."
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 1350,
+          "word_end_id": 1353,
+          "text": "This is really something."
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 1354,
+          "word_end_id": 1354,
+          "text": "Alright?"
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 1355,
+          "word_end_id": 1369,
+          "text": "And it can you imagine if they fail and they jumped out from the boat?"
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 1370,
+          "word_end_id": 1375,
+          "text": "Oh, this is this is something."
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 1376,
+          "word_end_id": 1387,
+          "text": "No. I never tried, but my son actually tried two weeks ago."
+        },
+        {
+          "sentence_index": 13,
+          "word_start_id": 1388,
+          "word_end_id": 1416,
+          "text": "But but this was kind of disappointment because because not like in skate kiting, you need more you need more stable win wind, right, to this to do this."
+        },
+        {
+          "sentence_index": 14,
+          "word_start_id": 1417,
+          "word_end_id": 1422,
+          "text": "Because because this is You know?"
+        },
+        {
+          "sentence_index": 15,
+          "word_start_id": 1423,
+          "word_end_id": 1436,
+          "text": "I mean, if if you look compare compare kite surfing to windsurfing, for example."
+        },
+        {
+          "sentence_index": 16,
+          "word_start_id": 1437,
+          "word_end_id": 1437,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 17,
+          "word_start_id": 1438,
+          "word_end_id": 1439,
+          "text": "Just regular."
+        },
+        {
+          "sentence_index": 18,
+          "word_start_id": 1440,
+          "word_end_id": 1440,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 19,
+          "word_start_id": 1441,
+          "word_end_id": 1454,
+          "text": "You have you have you have some sale, but it is very very low"
+        }
+      ]
+    },
+    {
+      "paragraph_id": 8,
+      "label": "Comparing windsurfing and kite surfing techniques and difficulty",
+      "conversation_boolean": true,
+      "word_start_id": 1455,
+      "word_end_id": 1659,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 1455,
+          "word_end_id": 1458,
+          "text": "just under the water."
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 1459,
+          "word_end_id": 1459,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 1460,
+          "word_end_id": 1478,
+          "text": "And compared to kite surfing, you have very, very high parachute over over, like, maybe 20 meters over yourself."
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 1479,
+          "word_end_id": 1493,
+          "text": "So you're getting better better wind with with more stable and with with more power."
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 1494,
+          "word_end_id": 1501,
+          "text": "So so this is exactly the same difference."
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 1502,
+          "word_end_id": 1514,
+          "text": "Here, you you're taking the the wind, which is only just ground wind."
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 1515,
+          "word_end_id": 1515,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 1516,
+          "word_end_id": 1521,
+          "text": "And ground wind is always unstable."
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 1522,
+          "word_end_id": 1536,
+          "text": "It's it's difficult because because it's hit you know, sometimes it hits to the ground"
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 1537,
+          "word_end_id": 1544,
+          "text": "and then you have some it's spreading over"
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 1545,
+          "word_end_id": 1555,
+          "text": "and, you know, this is sometimes difficult to to get it."
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 1556,
+          "word_end_id": 1564,
+          "text": "You know, I'm doing windsurfing and not kite surfing."
+        },
+        {
+          "sentence_index": 13,
+          "word_start_id": 1565,
+          "word_end_id": 1567,
+          "text": "And, actually, yeah."
+        },
+        {
+          "sentence_index": 14,
+          "word_start_id": 1568,
+          "word_end_id": 1588,
+          "text": "And and, you know, this this is very I mean, like, you you can learn kite surfing relatively easy and quickly."
+        },
+        {
+          "sentence_index": 15,
+          "word_start_id": 1589,
+          "word_end_id": 1615,
+          "text": "But if if you're trying to to learn windsurfing, it takes hours and hours and, you know, training by training, and this is so very, very difficult."
+        },
+        {
+          "sentence_index": 16,
+          "word_start_id": 1616,
+          "word_end_id": 1626,
+          "text": "Maybe not as dangerous because you're falling down to the water."
+        },
+        {
+          "sentence_index": 17,
+          "word_start_id": 1627,
+          "word_end_id": 1640,
+          "text": "And this is not as bad, but but, actually, actually, this is very tiring."
+        },
+        {
+          "sentence_index": 18,
+          "word_start_id": 1641,
+          "word_end_id": 1659,
+          "text": "But but it is very tiring because you have to go back to to the board and, you know,"
+        }
+      ]
+    },
+    {
+      "paragraph_id": 9,
+      "label": "Kite surfing and windsurfing recovery techniques after falling",
+      "conversation_boolean": true,
+      "word_start_id": 1660,
+      "word_end_id": 1868,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 1660,
+          "word_end_id": 1661,
+          "text": "start again."
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 1662,
+          "word_end_id": 1679,
+          "text": "This this is this is actually actually I mean, on kite surfing or on cars or kite surfing."
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 1680,
+          "word_end_id": 1682,
+          "text": "I I don't"
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 1683,
+          "word_end_id": 1683,
+          "text": "I"
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 1684,
+          "word_end_id": 1687,
+          "text": "I I don't know."
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 1688,
+          "word_end_id": 1694,
+          "text": "I I I never practiced kite surfing."
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 1695,
+          "word_end_id": 1719,
+          "text": "But there are some there are some methods which which allow you to to to put it back to the to the pick it up."
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 1720,
+          "word_end_id": 1720,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 1721,
+          "word_end_id": 1729,
+          "text": "Because because you you you you can actually, no."
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 1730,
+          "word_end_id": 1734,
+          "text": "I'm wrong because I tried."
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 1735,
+          "word_end_id": 1757,
+          "text": "Just I I had the training with with a very small parachute, and so I tried how to maneuver with with the parachute."
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 1758,
+          "word_end_id": 1769,
+          "text": "So so there are some methods, and this is not as bad."
+        },
+        {
+          "sentence_index": 13,
+          "word_start_id": 1770,
+          "word_end_id": 1781,
+          "text": "And this is relatively easy to to learn how to do it."
+        },
+        {
+          "sentence_index": 14,
+          "word_start_id": 1782,
+          "word_end_id": 1783,
+          "text": "So so"
+        },
+        {
+          "sentence_index": 15,
+          "word_start_id": 1784,
+          "word_end_id": 1805,
+          "text": "but but if you have windsurfing and you are on the boat and you fall down, then you have to start again."
+        },
+        {
+          "sentence_index": 16,
+          "word_start_id": 1806,
+          "word_end_id": 1854,
+          "text": "And then, you know, if there is no wind or not enough wind, this is really something because because it is not so easy to climb back to the on the board and just, you know, pull the the sail back to to to to to put it up."
+        },
+        {
+          "sentence_index": 17,
+          "word_start_id": 1855,
+          "word_end_id": 1868,
+          "text": "And, you know, the the there is of course, there is just profit method,"
+        }
+      ]
+    },
+    {
+      "paragraph_id": 10,
+      "label": "Windsurfing water start technique and best spots in Poland",
+      "conversation_boolean": true,
+      "word_start_id": 1869,
+      "word_end_id": 2074,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 1869,
+          "word_end_id": 1887,
+          "text": "which actually I'm I'm on this level, you know, to start the the which which is called water start."
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 1888,
+          "word_end_id": 1932,
+          "text": "So so then then you are just lying in the water, having your legs on the ball on the board, and you you pulling up a little bit the sail, and the wind is is taking you back to the to the to the boat."
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 1933,
+          "word_end_id": 1937,
+          "text": "And this is pretty cool."
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 1938,
+          "word_end_id": 1958,
+          "text": "This is this is so this is so good experience because because you are you're feeling, like, you know, super light."
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 1959,
+          "word_end_id": 1970,
+          "text": "You you know, the the the wind is doing the whole job."
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 1971,
+          "word_end_id": 1990,
+          "text": "Actually, we have very good spot in Poland, which is one of the best, except that it is pretty cold."
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 1991,
+          "word_end_id": 1991,
+          "text": "Sometimes."
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 1992,
+          "word_end_id": 1999,
+          "text": "So so We we we the the it"
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 2000,
+          "word_end_id": 2003,
+          "text": "it is called hell."
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 2004,
+          "word_end_id": 2010,
+          "text": "It it's hell is not exactly hell."
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 2011,
+          "word_end_id": 2011,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 2012,
+          "word_end_id": 2012,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 13,
+          "word_start_id": 2013,
+          "word_end_id": 2013,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 14,
+          "word_start_id": 2014,
+          "word_end_id": 2014,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 15,
+          "word_start_id": 2015,
+          "word_end_id": 2015,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 16,
+          "word_start_id": 2016,
+          "word_end_id": 2029,
+          "text": "This is like the the the the Spanish is something like 40 kilometers long."
+        },
+        {
+          "sentence_index": 17,
+          "word_start_id": 2030,
+          "word_end_id": 2042,
+          "text": "And, you know, and it stops the the the the Baltic Sea wind."
+        },
+        {
+          "sentence_index": 18,
+          "word_start_id": 2043,
+          "word_end_id": 2057,
+          "text": "And on other side of the peninsula, you have very nice bay, the big one."
+        },
+        {
+          "sentence_index": 19,
+          "word_start_id": 2058,
+          "word_end_id": 2066,
+          "text": "And and what what is important for good spot?"
+        },
+        {
+          "sentence_index": 20,
+          "word_start_id": 2067,
+          "word_end_id": 2074,
+          "text": "First of all, stable way stable wind, which"
+        }
+      ]
+    },
+    {
+      "paragraph_id": 11,
+      "label": "Ideal windsurfing conditions and favorite spots in Greece",
+      "conversation_boolean": true,
+      "word_start_id": 2075,
+      "word_end_id": 2279,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 2075,
+          "word_end_id": 2080,
+          "text": "is which is benefit of stable"
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 2081,
+          "word_end_id": 2091,
+          "text": "and, you know, which is not direct wind from the sea."
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 2092,
+          "word_end_id": 2106,
+          "text": "Because because if you have no direct wind from the sea, you have flat water."
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 2107,
+          "word_end_id": 2108,
+          "text": "No waves."
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 2109,
+          "word_end_id": 2130,
+          "text": "And this is important because if you have waves, it is very difficult to to do windsurfing because because it's it's shaky."
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 2131,
+          "word_end_id": 2133,
+          "text": "It's it's too"
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 2134,
+          "word_end_id": 2136,
+          "text": "it's very difficult."
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 2137,
+          "word_end_id": 2173,
+          "text": "And second second thing is that, you know, if if if the dip of of the water is not too high, it's like, you know, the ideal dip of the water is one one point five meter."
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 2174,
+          "word_end_id": 2175,
+          "text": "It's ideal."
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 2176,
+          "word_end_id": 2203,
+          "text": "Because then, eventually, if you fall down, eventually, you can stand on the on the sand and, you know, it's much easier to maneuver and start over, etcetera."
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 2204,
+          "word_end_id": 2213,
+          "text": "So we we have this spot, and this is great."
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 2214,
+          "word_end_id": 2223,
+          "text": "But, actually, I'm a little bit too, let's say, comfortable."
+        },
+        {
+          "sentence_index": 13,
+          "word_start_id": 2224,
+          "word_end_id": 2267,
+          "text": "And I'm I'm rather going to Greece, and there there is a there is there there is a Rhodos Island, and they they have Prasunisi Peninsula on the very, you know, far away just the the far end of of of of the island."
+        },
+        {
+          "sentence_index": 14,
+          "word_start_id": 2268,
+          "word_end_id": 2268,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 15,
+          "word_start_id": 2269,
+          "word_end_id": 2273,
+          "text": "And they have very great"
+        },
+        {
+          "sentence_index": 16,
+          "word_start_id": 2274,
+          "word_end_id": 2279,
+          "text": "they have very great spot because"
+        }
+      ]
+    },
+    {
+      "paragraph_id": 12,
+      "label": "Windsurfing spot in Rhodes with ideal wind conditions",
+      "conversation_boolean": true,
+      "word_start_id": 2280,
+      "word_end_id": 2516,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 2280,
+          "word_end_id": 2288,
+          "text": "Peninsula is is like dividing spot for two parts."
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 2289,
+          "word_end_id": 2305,
+          "text": "One part is is the wave where you have direct wind from the from the Mediterranean Sea."
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 2306,
+          "word_end_id": 2311,
+          "text": "And and this is very wave"
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 2312,
+          "word_end_id": 2346,
+          "text": "and so so people mostly for kite surfing have a fun to to to to to to do do it on waves, which is you can jump, you can you can, you know, play, etcetera."
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 2347,
+          "word_end_id": 2361,
+          "text": "And the other part of of this spot is flat flat sea, flat flat water."
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 2362,
+          "word_end_id": 2374,
+          "text": "So you can speed up, and you can you can easily do windsurfing."
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 2375,
+          "word_end_id": 2445,
+          "text": "So and and wind, they they they have also I mean, one part of the wind is is the, you know, Mediterranean Sea wind, but also they they have f tert tertomic effect because the the the bay the bay is surrounded by by some hills, which when which which are getting heat, you know, sun heat, and it it makes it, like, you know, terming terming terming terming terming wind."
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 2446,
+          "word_end_id": 2446,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 2447,
+          "word_end_id": 2465,
+          "text": "Because because if it is warmer than than the sea, so you have, like, move of of the air."
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 2466,
+          "word_end_id": 2479,
+          "text": "So this is perfect spot, and I I I going the actually, I was."
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 2480,
+          "word_end_id": 2494,
+          "text": "But the we we we've been there almost twice a year or something like this."
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 2495,
+          "word_end_id": 2504,
+          "text": "So so we we we know this spot very well."
+        },
+        {
+          "sentence_index": 13,
+          "word_start_id": 2505,
+          "word_end_id": 2505,
+          "text": "I"
+        },
+        {
+          "sentence_index": 14,
+          "word_start_id": 2506,
+          "word_end_id": 2513,
+          "text": "I I've been doing windsurfing with my wife."
+        },
+        {
+          "sentence_index": 15,
+          "word_start_id": 2514,
+          "word_end_id": 2516,
+          "text": "So so this"
+        }
+      ]
+    },
+    {
+      "paragraph_id": 13,
+      "label": "Windsurfing spots in Greece and Caribbean ABC islands",
+      "conversation_boolean": true,
+      "word_start_id": 2517,
+      "word_end_id": 2720,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 2517,
+          "word_end_id": 2522,
+          "text": "was this is a great place."
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 2523,
+          "word_end_id": 2541,
+          "text": "And, this is Polish place because, you know, the whole spot is run by Polish, you know, windsurfing basis."
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 2542,
+          "word_end_id": 2555,
+          "text": "So Polish people Polish people are only, you know, on this on this part."
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 2556,
+          "word_end_id": 2556,
+          "text": "No."
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 2557,
+          "word_end_id": 2557,
+          "text": "No."
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 2558,
+          "word_end_id": 2560,
+          "text": "It's it's almost"
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 2561,
+          "word_end_id": 2564,
+          "text": "it's almost four hours."
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 2565,
+          "word_end_id": 2565,
+          "text": "No."
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 2566,
+          "word_end_id": 2572,
+          "text": "It's maybe three hours, something like this."
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 2573,
+          "word_end_id": 2577,
+          "text": "So it's it's pretty far."
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 2578,
+          "word_end_id": 2580,
+          "text": "Not not too"
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 2581,
+          "word_end_id": 2588,
+          "text": "But it is still, it is quite far."
+        },
+        {
+          "sentence_index": 13,
+          "word_start_id": 2589,
+          "word_end_id": 2605,
+          "text": "But the other spot the other windsurfing spot is my best of the best is, Bon Air."
+        },
+        {
+          "sentence_index": 14,
+          "word_start_id": 2606,
+          "word_end_id": 2606,
+          "text": "It"
+        },
+        {
+          "sentence_index": 15,
+          "word_start_id": 2607,
+          "word_end_id": 2607,
+          "text": "it"
+        },
+        {
+          "sentence_index": 16,
+          "word_start_id": 2608,
+          "word_end_id": 2615,
+          "text": "you know, this Caribbean, A B C islands?"
+        },
+        {
+          "sentence_index": 17,
+          "word_start_id": 2616,
+          "word_end_id": 2616,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 18,
+          "word_start_id": 2617,
+          "word_end_id": 2620,
+          "text": "Agruba, Bonner, and Curacao?"
+        },
+        {
+          "sentence_index": 19,
+          "word_start_id": 2621,
+          "word_end_id": 2622,
+          "text": "Good catch."
+        },
+        {
+          "sentence_index": 20,
+          "word_start_id": 2623,
+          "word_end_id": 2623,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 21,
+          "word_start_id": 2624,
+          "word_end_id": 2624,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 22,
+          "word_start_id": 2625,
+          "word_end_id": 2663,
+          "text": "I mean, in in in for example, in in in Greece or in in the Rhodes, the spot is open only from, say, late May till late September because for because in the winter, it it is too cold."
+        },
+        {
+          "sentence_index": 23,
+          "word_start_id": 2664,
+          "word_end_id": 2671,
+          "text": "Water is cold and and air is cold"
+        },
+        {
+          "sentence_index": 24,
+          "word_start_id": 2672,
+          "word_end_id": 2673,
+          "text": "and yeah."
+        },
+        {
+          "sentence_index": 25,
+          "word_start_id": 2674,
+          "word_end_id": 2690,
+          "text": "But if you have, like, maybe, you know, 15 degree in water, it's it's not so great."
+        },
+        {
+          "sentence_index": 26,
+          "word_start_id": 2691,
+          "word_end_id": 2710,
+          "text": "Because, you know, is a little island and very actually, first of all, it is controlled by Nether The Netherlands."
+        },
+        {
+          "sentence_index": 27,
+          "word_start_id": 2711,
+          "word_end_id": 2720,
+          "text": "So we can go there without passport and without visa,"
+        }
+      ]
+    },
+    {
+      "paragraph_id": 14,
+      "label": "Bonaire as a perfect windsurfing spot",
+      "conversation_boolean": true,
+      "word_start_id": 2721,
+      "word_end_id": 2926,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 2721,
+          "word_end_id": 2727,
+          "text": "and this is part of European Union."
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 2728,
+          "word_end_id": 2748,
+          "text": "So it is easy access because you go to to to Amsterdam, and then you have direct flight to to Bonnet."
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 2749,
+          "word_end_id": 2774,
+          "text": "Second thing is, you know, the the spot, the windsurfing spot there is perfect one because this is, like, huge bay surrounded by by the reef."
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 2775,
+          "word_end_id": 2785,
+          "text": "So all the ocean waves are or it's probably Caribbean Sea."
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 2786,
+          "word_end_id": 2809,
+          "text": "So so the the ocean waves stops on the reef, and then in the bay, you have very flat water, very nice flat water."
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 2810,
+          "word_end_id": 2821,
+          "text": "But but the ocean wind is coming over over to the bay."
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 2822,
+          "word_end_id": 2846,
+          "text": "So you have some very strong wind with the flat water, and the depth of the water is perfect well because it is exactly 1.5."
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 2847,
+          "word_end_id": 2854,
+          "text": "So you can stand you can stand everywhere."
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 2855,
+          "word_end_id": 2857,
+          "text": "You can start."
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 2858,
+          "word_end_id": 2872,
+          "text": "You can just turn your your your boat back until you can go go again."
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 2873,
+          "word_end_id": 2877,
+          "text": "So so this is right."
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 2878,
+          "word_end_id": 2881,
+          "text": "Actually, the you know?"
+        },
+        {
+          "sentence_index": 13,
+          "word_start_id": 2882,
+          "word_end_id": 2882,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 14,
+          "word_start_id": 2883,
+          "word_end_id": 2901,
+          "text": "So so this is very unique because because, you know, for windsurfing, we're looking for the flat water rather."
+        },
+        {
+          "sentence_index": 15,
+          "word_start_id": 2902,
+          "word_end_id": 2907,
+          "text": "I mean, on my my style."
+        },
+        {
+          "sentence_index": 16,
+          "word_start_id": 2908,
+          "word_end_id": 2913,
+          "text": "I mean, I'm not doing freestyle."
+        },
+        {
+          "sentence_index": 17,
+          "word_start_id": 2914,
+          "word_end_id": 2919,
+          "text": "In freestyle, maybe you you you"
+        },
+        {
+          "sentence_index": 18,
+          "word_start_id": 2920,
+          "word_end_id": 2926,
+          "text": "you're happy with some waves because it's"
+        }
+      ]
+    },
+    {
+      "paragraph_id": 15,
+      "label": "Windsurfing spots, Bonaire conditions, and kite surfing dangers",
+      "conversation_boolean": true,
+      "word_start_id": 2927,
+      "word_end_id": 3141,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 2927,
+          "word_end_id": 2933,
+          "text": "it's helps to jump, I'm not jumping."
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 2934,
+          "word_end_id": 2941,
+          "text": "I'm doing the, you know, speed speed windsurfing."
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 2942,
+          "word_end_id": 2942,
+          "text": "So"
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 2943,
+          "word_end_id": 2943,
+          "text": "yeah."
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 2944,
+          "word_end_id": 2944,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 2945,
+          "word_end_id": 2945,
+          "text": "I"
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 2946,
+          "word_end_id": 2954,
+          "text": "I I like to slide and with no disturbance."
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 2955,
+          "word_end_id": 2964,
+          "text": "So so so it's it's different different type of windsurfing."
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 2965,
+          "word_end_id": 2967,
+          "text": "I mean, like"
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 2968,
+          "word_end_id": 2996,
+          "text": "so so so we're looking for flood water, and then you have very, very nice warm water, very nice, civilized place, and, and you have you have flood water."
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 2997,
+          "word_end_id": 3004,
+          "text": "So what what what do you need more?"
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 3005,
+          "word_end_id": 3013,
+          "text": "I mean, you know, that's that's a perfect combination."
+        },
+        {
+          "sentence_index": 13,
+          "word_start_id": 3014,
+          "word_end_id": 3039,
+          "text": "So so and also, you know, the, Bon Air is not, devastated by huge tourist organization, hotels, and, you know, it's not as packed with people."
+        },
+        {
+          "sentence_index": 14,
+          "word_start_id": 3040,
+          "word_end_id": 3057,
+          "text": "So so it is you know, like, for example, in Aruba, in, like, maybe in in the seventies."
+        },
+        {
+          "sentence_index": 15,
+          "word_start_id": 3058,
+          "word_end_id": 3065,
+          "text": "Aruba was perfect spot for windsurfing as well."
+        },
+        {
+          "sentence_index": 16,
+          "word_start_id": 3066,
+          "word_end_id": 3080,
+          "text": "But afterwards, it was surrounded by huge hotels, and these hotels kill killed the wind."
+        },
+        {
+          "sentence_index": 17,
+          "word_start_id": 3081,
+          "word_end_id": 3081,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 18,
+          "word_start_id": 3082,
+          "word_end_id": 3082,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 19,
+          "word_start_id": 3083,
+          "word_end_id": 3105,
+          "text": "So so it know, the the spot was spoiled with by the hotels, and it it is no no longer a good spot."
+        },
+        {
+          "sentence_index": 20,
+          "word_start_id": 3106,
+          "word_end_id": 3106,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 21,
+          "word_start_id": 3107,
+          "word_end_id": 3108,
+          "text": "Oh, yeah."
+        },
+        {
+          "sentence_index": 22,
+          "word_start_id": 3109,
+          "word_end_id": 3109,
+          "text": "Oh."
+        },
+        {
+          "sentence_index": 23,
+          "word_start_id": 3110,
+          "word_end_id": 3128,
+          "text": "Actually actually, for kite surfing, we probably have every year two or three accidents in Hal Peninsula as well."
+        },
+        {
+          "sentence_index": 24,
+          "word_start_id": 3129,
+          "word_end_id": 3141,
+          "text": "Even there are no hotels, if you if if you get a wave"
+        }
+      ]
+    },
+    {
+      "paragraph_id": 16,
+      "label": "Kite surfing dangers versus windsurfing control and stability",
+      "conversation_boolean": true,
+      "word_start_id": 3142,
+      "word_end_id": 3354,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 3142,
+          "word_end_id": 3145,
+          "text": "wolf, Is it wolf?"
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 3146,
+          "word_end_id": 3146,
+          "text": "Wolf."
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 3147,
+          "word_end_id": 3147,
+          "text": "Wolf."
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 3148,
+          "word_end_id": 3169,
+          "text": "If you get a wolf and you you you're losing control over the parachute, you are just and you hit the ground."
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 3170,
+          "word_end_id": 3183,
+          "text": "You you you you are taken from the water and you hit the ground."
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 3184,
+          "word_end_id": 3185,
+          "text": "It it"
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 3186,
+          "word_end_id": 3190,
+          "text": "it may be very dangerous."
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 3191,
+          "word_end_id": 3208,
+          "text": "And, actually, think that some one or two guys were killed because of the accident on on a."
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 3209,
+          "word_end_id": 3211,
+          "text": "So so, actually,"
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 3212,
+          "word_end_id": 3212,
+          "text": "yeah,"
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 3213,
+          "word_end_id": 3225,
+          "text": "I I you know, I believe that kite surfing is really nice sport."
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 3226,
+          "word_end_id": 3245,
+          "text": "But I, you know, I I prefer windsurfing because I I believe that maybe I have more control over this."
+        },
+        {
+          "sentence_index": 13,
+          "word_start_id": 3246,
+          "word_end_id": 3271,
+          "text": "It is, you know, it is more difficult, and this is you know, there there is a lot of instability in the in the whole set."
+        },
+        {
+          "sentence_index": 14,
+          "word_start_id": 3272,
+          "word_end_id": 3308,
+          "text": "So you have all board, you have control sail, you can control body, every every inch of your, you know, every movement on the board of every inch of difference in in your in your position matters."
+        },
+        {
+          "sentence_index": 15,
+          "word_start_id": 3309,
+          "word_end_id": 3309,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 16,
+          "word_start_id": 3310,
+          "word_end_id": 3331,
+          "text": "In in the kite surfing, it it is it is it is more stable, and it is not as much, like, touchy."
+        },
+        {
+          "sentence_index": 17,
+          "word_start_id": 3332,
+          "word_end_id": 3334,
+          "text": "Is it touchy?"
+        },
+        {
+          "sentence_index": 18,
+          "word_start_id": 3335,
+          "word_end_id": 3354,
+          "text": "Or it is not as much, you know, it is not as important, you know, whether you're doing it perfectly."
+        }
+      ]
+    },
+    {
+      "paragraph_id": 17,
+      "label": "Comparing kite surfing and windsurfing safety and equipment",
+      "conversation_boolean": true,
+      "word_start_id": 3355,
+      "word_end_id": 3554,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 3355,
+          "word_end_id": 3355,
+          "text": "Forgiving."
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 3356,
+          "word_end_id": 3359,
+          "text": "It's it's more forgiving."
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 3360,
+          "word_end_id": 3360,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 3361,
+          "word_end_id": 3364,
+          "text": "It's it's more forgiving."
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 3365,
+          "word_end_id": 3365,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 3366,
+          "word_end_id": 3366,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 3367,
+          "word_end_id": 3386,
+          "text": "So so so it is easier to start, but but it is also much easier to lose control over it."
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 3387,
+          "word_end_id": 3393,
+          "text": "And this is this is this is"
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 3394,
+          "word_end_id": 3410,
+          "text": "but, of course, you know, we should not exaggerate because because these accidents are not every day."
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 3411,
+          "word_end_id": 3418,
+          "text": "I mean, it's it's happened especially if yeah."
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 3419,
+          "word_end_id": 3430,
+          "text": "It it it happens, but but especially if someone overestimate its ability."
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 3431,
+          "word_end_id": 3431,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 13,
+          "word_start_id": 3432,
+          "word_end_id": 3455,
+          "text": "So so because there are some techniques that if you if you feel unstable, if you feel in danger, you can kill the power."
+        },
+        {
+          "sentence_index": 14,
+          "word_start_id": 3456,
+          "word_end_id": 3500,
+          "text": "And if if you if you try if you're well trained and if you if you know these techniques, it's pretty safe because because, you know, the the cats maybe you saw that the kite is connected with yourself with with something we call trappers."
+        },
+        {
+          "sentence_index": 15,
+          "word_start_id": 3501,
+          "word_end_id": 3511,
+          "text": "Is that I'm not whether this is also English, but yeah."
+        },
+        {
+          "sentence_index": 16,
+          "word_start_id": 3512,
+          "word_end_id": 3512,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 17,
+          "word_start_id": 3513,
+          "word_end_id": 3513,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 18,
+          "word_start_id": 3514,
+          "word_end_id": 3530,
+          "text": "And also and also you have you have in your head, you have the bar steering bar."
+        },
+        {
+          "sentence_index": 19,
+          "word_start_id": 3531,
+          "word_end_id": 3531,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 20,
+          "word_start_id": 3532,
+          "word_end_id": 3532,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 21,
+          "word_start_id": 3533,
+          "word_end_id": 3544,
+          "text": "But but the steering bar has has a kind of A rift?"
+        },
+        {
+          "sentence_index": 22,
+          "word_start_id": 3545,
+          "word_end_id": 3547,
+          "text": "Is that rift?"
+        },
+        {
+          "sentence_index": 23,
+          "word_start_id": 3548,
+          "word_end_id": 3554,
+          "text": "Or the the the you you can"
+        }
+      ]
+    },
+    {
+      "paragraph_id": 18,
+      "label": "Safety mechanisms in kite surfing and windsurfing equipment",
+      "conversation_boolean": true,
+      "word_start_id": 3555,
+      "word_end_id": 3757,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 3555,
+          "word_end_id": 3559,
+          "text": "if you if you yeah."
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 3560,
+          "word_end_id": 3574,
+          "text": "But but if you if you pull the line, the the special line, it's disconnected."
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 3575,
+          "word_end_id": 3575,
+          "text": "Yes."
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 3576,
+          "word_end_id": 3576,
+          "text": "Yes."
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 3577,
+          "word_end_id": 3579,
+          "text": "Something like yeah."
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 3580,
+          "word_end_id": 3581,
+          "text": "Safety switch."
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 3582,
+          "word_end_id": 3597,
+          "text": "So so every bar has a safety switch, and then it it is not exactly disconnected."
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 3598,
+          "word_end_id": 3599,
+          "text": "It it"
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 3600,
+          "word_end_id": 3608,
+          "text": "it it gets loose on the on the parachute."
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 3609,
+          "word_end_id": 3623,
+          "text": "And so so you can immediately lose the power on on the on the parachute."
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 3624,
+          "word_end_id": 3632,
+          "text": "So if you are not getting into panic and"
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 3633,
+          "word_end_id": 3651,
+          "text": "you you you you you using the the safety state safety switch, then then, basically, it is relatively safe."
+        },
+        {
+          "sentence_index": 13,
+          "word_start_id": 3652,
+          "word_end_id": 3653,
+          "text": "So so"
+        },
+        {
+          "sentence_index": 14,
+          "word_start_id": 3654,
+          "word_end_id": 3657,
+          "text": "so so it drops."
+        },
+        {
+          "sentence_index": 15,
+          "word_start_id": 3658,
+          "word_end_id": 3658,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 16,
+          "word_start_id": 3659,
+          "word_end_id": 3675,
+          "text": "Actually actually, in windsurfing, in in in the in his bodysuits, we have also safety safety switch."
+        },
+        {
+          "sentence_index": 17,
+          "word_start_id": 3676,
+          "word_end_id": 3693,
+          "text": "Because because I don't know whether you you ever seen how windsurfing is, you know, how to operate."
+        },
+        {
+          "sentence_index": 18,
+          "word_start_id": 3694,
+          "word_end_id": 3695,
+          "text": "So so"
+        },
+        {
+          "sentence_index": 19,
+          "word_start_id": 3696,
+          "word_end_id": 3698,
+          "text": "but but so"
+        },
+        {
+          "sentence_index": 20,
+          "word_start_id": 3699,
+          "word_end_id": 3718,
+          "text": "so so so in in in in once mixer thing, you are hooked with the sale, directly with the sail."
+        },
+        {
+          "sentence_index": 21,
+          "word_start_id": 3719,
+          "word_end_id": 3719,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 22,
+          "word_start_id": 3720,
+          "word_end_id": 3722,
+          "text": "On the line."
+        },
+        {
+          "sentence_index": 23,
+          "word_start_id": 3723,
+          "word_end_id": 3723,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 24,
+          "word_start_id": 3724,
+          "word_end_id": 3757,
+          "text": "So so you you are, like, flying on the lines and the sail is balance you and and you can you can so if you hook to the sail and you fell down, then"
+        }
+      ]
+    },
+    {
+      "paragraph_id": 19,
+      "label": "Windsurfing safety risks and life jacket dangers",
+      "conversation_boolean": true,
+      "word_start_id": 3758,
+      "word_end_id": 3959,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 3758,
+          "word_end_id": 3762,
+          "text": "sometimes it it fell off."
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 3763,
+          "word_end_id": 3767,
+          "text": "Sometimes it doesn't hook out."
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 3768,
+          "word_end_id": 3785,
+          "text": "And you the the and you you messed you messed with the with the hook and your lines."
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 3786,
+          "word_end_id": 3789,
+          "text": "And and you yeah."
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 3790,
+          "word_end_id": 3821,
+          "text": "And and if if, unfortunately, you are covered by the sail and you're getting underwater, then, of course, you have to you have to use some techniques how to how to untangle."
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 3822,
+          "word_end_id": 3822,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 3823,
+          "word_end_id": 3825,
+          "text": "How to untangle?"
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 3826,
+          "word_end_id": 3829,
+          "text": "This is pretty easy."
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 3830,
+          "word_end_id": 3836,
+          "text": "This is pretty easy, I tell you."
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 3837,
+          "word_end_id": 3844,
+          "text": "I mean, it's it's not a big deal."
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 3845,
+          "word_end_id": 3855,
+          "text": "It's not a big deal, unless you're getting in a panic."
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 3856,
+          "word_end_id": 3912,
+          "text": "And, also, some people actually, some people using the safety jacket, which is which the life jackets, which is big mistake which is big mistake because in such situation, the the life jacket is pressing you up and up and you're hitting the the sail, but there is no chance that you you can press a sail."
+        },
+        {
+          "sentence_index": 13,
+          "word_start_id": 3913,
+          "word_end_id": 3943,
+          "text": "Because sail is sail is usually if if it floods down to the water, it is if it falls down to the water, it's it it immediately covers with the water."
+        },
+        {
+          "sentence_index": 14,
+          "word_start_id": 3944,
+          "word_end_id": 3959,
+          "text": "And then if if you're trying to if you're trying to to to pull it up,"
+        }
+      ]
+    },
+    {
+      "paragraph_id": 20,
+      "label": "Dangers of life jackets in windsurfing accidents",
+      "conversation_boolean": true,
+      "word_start_id": 3960,
+      "word_end_id": 4160,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 3960,
+          "word_end_id": 3991,
+          "text": "it's push it push it up push it up, there is no chance because you have to pull push the cold water which is on the sail, and this is very heavy."
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 3992,
+          "word_end_id": 3995,
+          "text": "And you have no"
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 3996,
+          "word_end_id": 4017,
+          "text": "I mean, you you swimming in the water, you have no, like, such power to to to You have to swim under."
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 4018,
+          "word_end_id": 4019,
+          "text": "Very easy."
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 4020,
+          "word_end_id": 4021,
+          "text": "Swim under."
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 4022,
+          "word_end_id": 4033,
+          "text": "But but with the with the life jacket, you cannot swim under."
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 4034,
+          "word_end_id": 4036,
+          "text": "Keep your nuggets."
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 4037,
+          "word_end_id": 4070,
+          "text": "I think that, you know, the the I remember when when I started the my adventure with the with Windsurfing, we we at that time, we used the the life jacket just for safety."
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 4071,
+          "word_end_id": 4093,
+          "text": "But very quickly realized that it is rather not a good idea because you have difficulties how to swim up under the this."
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 4094,
+          "word_end_id": 4094,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 4095,
+          "word_end_id": 4099,
+          "text": "So I'm not listening yet."
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 4100,
+          "word_end_id": 4101,
+          "text": "The so"
+        },
+        {
+          "sentence_index": 13,
+          "word_start_id": 4102,
+          "word_end_id": 4106,
+          "text": "so I you know, it"
+        },
+        {
+          "sentence_index": 14,
+          "word_start_id": 4107,
+          "word_end_id": 4146,
+          "text": "it's a little bit risky that if from whatever reason, you cannot swim and you cannot catch, the board because sometimes the the board is spinning out from you and you have to really, swim fast to to catch it."
+        },
+        {
+          "sentence_index": 15,
+          "word_start_id": 4147,
+          "word_end_id": 4147,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 16,
+          "word_start_id": 4148,
+          "word_end_id": 4148,
+          "text": "But"
+        },
+        {
+          "sentence_index": 17,
+          "word_start_id": 4149,
+          "word_end_id": 4160,
+          "text": "but so so I'm not using a life jacket any any longer,"
+        }
+      ]
+    },
+    {
+      "paragraph_id": 21,
+      "label": "Dangerous windsurfing experience trapped under sail in shallow water",
+      "conversation_boolean": true,
+      "word_start_id": 4161,
+      "word_end_id": 4361,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 4161,
+          "word_end_id": 4166,
+          "text": "and this is much better idea."
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 4167,
+          "word_end_id": 4174,
+          "text": "But, actually, in the, I had a situation."
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 4175,
+          "word_end_id": 4194,
+          "text": "As I said, it's a perfect spot, but the density of the the depth of water is is very low."
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 4195,
+          "word_end_id": 4220,
+          "text": "So I had this situation where, you know, I fell down under the sea under the sail and in in a very low depth of water."
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 4221,
+          "word_end_id": 4246,
+          "text": "So, actually, I I've been pressed by the sail, and, actually, I could not swim under the sail because it was it was not enough depth."
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 4247,
+          "word_end_id": 4261,
+          "text": "So I couldn't I couldn't dive down because there was just a sand under me."
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 4262,
+          "word_end_id": 4270,
+          "text": "Actually actually, it was quite quite a panic situation."
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 4271,
+          "word_end_id": 4288,
+          "text": "Fortunately, I just, you know, just control my panic, and I I, you know, I I find that"
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 4289,
+          "word_end_id": 4289,
+          "text": "I"
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 4290,
+          "word_end_id": 4307,
+          "text": "I refresh my memory that that there is a security security switch in my in my body jacket."
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 4308,
+          "word_end_id": 4322,
+          "text": "So I I pulled the security switch and everything just released from from the Tango."
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 4323,
+          "word_end_id": 4325,
+          "text": "Is it Tango?"
+        },
+        {
+          "sentence_index": 13,
+          "word_start_id": 4326,
+          "word_end_id": 4326,
+          "text": "It's"
+        },
+        {
+          "sentence_index": 14,
+          "word_start_id": 4327,
+          "word_end_id": 4327,
+          "text": "yeah."
+        },
+        {
+          "sentence_index": 15,
+          "word_start_id": 4328,
+          "word_end_id": 4329,
+          "text": "So so"
+        },
+        {
+          "sentence_index": 16,
+          "word_start_id": 4330,
+          "word_end_id": 4334,
+          "text": "so it's really the tango"
+        },
+        {
+          "sentence_index": 17,
+          "word_start_id": 4335,
+          "word_end_id": 4346,
+          "text": "and I'm I'm swimmed out from under the under the the site."
+        },
+        {
+          "sentence_index": 18,
+          "word_start_id": 4347,
+          "word_end_id": 4351,
+          "text": "So it was but no."
+        },
+        {
+          "sentence_index": 19,
+          "word_start_id": 4352,
+          "word_end_id": 4354,
+          "text": "A life cycle."
+        },
+        {
+          "sentence_index": 20,
+          "word_start_id": 4355,
+          "word_end_id": 4361,
+          "text": "It was not life it was just"
+        }
+      ]
+    },
+    {
+      "paragraph_id": 22,
+      "label": "Windsurfing safety techniques and horseback riding terminology",
+      "conversation_boolean": true,
+      "word_start_id": 4362,
+      "word_end_id": 4562,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 4362,
+          "word_end_id": 4384,
+          "text": "just this was just regular, but this is but but nevertheless, there there was not enough water to dive dive under this site."
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 4385,
+          "word_end_id": 4385,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 4386,
+          "word_end_id": 4392,
+          "text": "So this was kind of stressy situation."
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 4393,
+          "word_end_id": 4423,
+          "text": "But, you know, the the the if you if you're well trained and if you if you know the methods how to survive, it is not as as really as dangerous."
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 4424,
+          "word_end_id": 4424,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 4425,
+          "word_end_id": 4447,
+          "text": "It's it's that there are always methods and people, not only me, who who who are in such a in such a situation."
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 4448,
+          "word_end_id": 4448,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 4449,
+          "word_end_id": 4466,
+          "text": "So so the the the the people people who designed this this, you know, this body, whatever, hook."
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 4467,
+          "word_end_id": 4467,
+          "text": "Right?"
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 4468,
+          "word_end_id": 4469,
+          "text": "They they"
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 4470,
+          "word_end_id": 4471,
+          "text": "they they"
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 4472,
+          "word_end_id": 4487,
+          "text": "they they they knew that it can happen, and they they they they prepared this way."
+        },
+        {
+          "sentence_index": 13,
+          "word_start_id": 4488,
+          "word_end_id": 4501,
+          "text": "But also there are some other kind of methods to to move it out."
+        },
+        {
+          "sentence_index": 14,
+          "word_start_id": 4502,
+          "word_end_id": 4505,
+          "text": "I mean, it's if"
+        },
+        {
+          "sentence_index": 15,
+          "word_start_id": 4506,
+          "word_end_id": 4506,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 16,
+          "word_start_id": 4507,
+          "word_end_id": 4528,
+          "text": "And it's it's it's the key because because, you know, more you're doing, more more you practice, you know you know more."
+        },
+        {
+          "sentence_index": 17,
+          "word_start_id": 4529,
+          "word_end_id": 4539,
+          "text": "And, you know, I'm I'm sure, like, your horse back riding."
+        },
+        {
+          "sentence_index": 18,
+          "word_start_id": 4540,
+          "word_end_id": 4547,
+          "text": "Is that horseback riding in in horse riding?"
+        },
+        {
+          "sentence_index": 19,
+          "word_start_id": 4548,
+          "word_end_id": 4561,
+          "text": "I I thought I that it's different in English and different in American English."
+        },
+        {
+          "sentence_index": 20,
+          "word_start_id": 4562,
+          "word_end_id": 4562,
+          "text": "It's"
+        }
+      ]
+    },
+    {
+      "paragraph_id": 23,
+      "label": "Horse riding experiences and vocabulary differences",
+      "conversation_boolean": true,
+      "word_start_id": 4563,
+      "word_end_id": 4780,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 4563,
+          "word_end_id": 4564,
+          "text": "like yeah."
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 4565,
+          "word_end_id": 4575,
+          "text": "You know, I did some course writing on during my study."
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 4576,
+          "word_end_id": 4578,
+          "text": "Like, you know,"
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 4579,
+          "word_end_id": 4583,
+          "text": "I I actually, I yeah."
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 4584,
+          "word_end_id": 4584,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 4585,
+          "word_end_id": 4585,
+          "text": "I"
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 4586,
+          "word_end_id": 4598,
+          "text": "I I did, like, some semis semester of semester course of horse riding."
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 4599,
+          "word_end_id": 4602,
+          "text": "And this was amazing."
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 4603,
+          "word_end_id": 4603,
+          "text": "I"
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 4604,
+          "word_end_id": 4612,
+          "text": "I I I love to to to, ride horses."
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 4613,
+          "word_end_id": 4623,
+          "text": "But, actually, this is like animal with with, their own character."
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 4624,
+          "word_end_id": 4657,
+          "text": "And, you know, either Remember that the the first thing, first my my first, situation with the with the with the horse was, like, he tried to hit me on my on my ass."
+        },
+        {
+          "sentence_index": 13,
+          "word_start_id": 4658,
+          "word_end_id": 4680,
+          "text": "And, actually, I I never fell down from, from the horse, which is bad because because fell off fell off, from the horse."
+        },
+        {
+          "sentence_index": 14,
+          "word_start_id": 4681,
+          "word_end_id": 4696,
+          "text": "It's bad because people say that you have to fall down to feel how it is."
+        },
+        {
+          "sentence_index": 15,
+          "word_start_id": 4697,
+          "word_end_id": 4712,
+          "text": "But, actually actually and I was glad that, you know, I'm so so good, so brave."
+        },
+        {
+          "sentence_index": 16,
+          "word_start_id": 4713,
+          "word_end_id": 4723,
+          "text": "I never, you know, fell off from the from the house."
+        },
+        {
+          "sentence_index": 17,
+          "word_start_id": 4724,
+          "word_end_id": 4741,
+          "text": "And there was a situation of just, you know, going just walk Walking, because it's it's it's walking"
+        },
+        {
+          "sentence_index": 18,
+          "word_start_id": 4742,
+          "word_end_id": 4746,
+          "text": "and so so it's walk"
+        },
+        {
+          "sentence_index": 19,
+          "word_start_id": 4747,
+          "word_end_id": 4752,
+          "text": "and then you it help track."
+        },
+        {
+          "sentence_index": 20,
+          "word_start_id": 4753,
+          "word_end_id": 4753,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 21,
+          "word_start_id": 4754,
+          "word_end_id": 4754,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 22,
+          "word_start_id": 4755,
+          "word_end_id": 4755,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 23,
+          "word_start_id": 4756,
+          "word_end_id": 4757,
+          "text": "It's tracking."
+        },
+        {
+          "sentence_index": 24,
+          "word_start_id": 4758,
+          "word_end_id": 4759,
+          "text": "It's tracking."
+        },
+        {
+          "sentence_index": 25,
+          "word_start_id": 4760,
+          "word_end_id": 4760,
+          "text": "Tracking."
+        },
+        {
+          "sentence_index": 26,
+          "word_start_id": 4761,
+          "word_end_id": 4761,
+          "text": "Tracking."
+        },
+        {
+          "sentence_index": 27,
+          "word_start_id": 4762,
+          "word_end_id": 4780,
+          "text": "So so we were tracking in the line of of the horses, and my horse decided to stop immediately."
+        }
+      ]
+    },
+    {
+      "paragraph_id": 24,
+      "label": "Falling off a horse while trotting during riding lessons",
+      "conversation_boolean": true,
+      "word_start_id": 4781,
+      "word_end_id": 4832,
+      "sentences": [
+        {
+          "sentence_index": 1,
+          "word_start_id": 4781,
+          "word_end_id": 4790,
+          "text": "And and, I don't know whether it's she or he."
+        },
+        {
+          "sentence_index": 2,
+          "word_start_id": 4791,
+          "word_end_id": 4794,
+          "text": "He turned, head down."
+        },
+        {
+          "sentence_index": 3,
+          "word_start_id": 4795,
+          "word_end_id": 4801,
+          "text": "So I just slide over slide over."
+        },
+        {
+          "sentence_index": 4,
+          "word_start_id": 4802,
+          "word_end_id": 4803,
+          "text": "This Good."
+        },
+        {
+          "sentence_index": 5,
+          "word_start_id": 4804,
+          "word_end_id": 4806,
+          "text": "This looks good."
+        },
+        {
+          "sentence_index": 6,
+          "word_start_id": 4807,
+          "word_end_id": 4814,
+          "text": "I mean, that at least I can I"
+        },
+        {
+          "sentence_index": 7,
+          "word_start_id": 4815,
+          "word_end_id": 4818,
+          "text": "I could say, yes?"
+        },
+        {
+          "sentence_index": 8,
+          "word_start_id": 4819,
+          "word_end_id": 4823,
+          "text": "I I know this feeling."
+        },
+        {
+          "sentence_index": 9,
+          "word_start_id": 4824,
+          "word_end_id": 4825,
+          "text": "That's right."
+        },
+        {
+          "sentence_index": 10,
+          "word_start_id": 4826,
+          "word_end_id": 4826,
+          "text": "Probably."
+        },
+        {
+          "sentence_index": 11,
+          "word_start_id": 4827,
+          "word_end_id": 4827,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 12,
+          "word_start_id": 4828,
+          "word_end_id": 4828,
+          "text": "Yeah."
+        },
+        {
+          "sentence_index": 13,
+          "word_start_id": 4829,
+          "word_end_id": 4830,
+          "text": "Oh, good."
+        },
+        {
+          "sentence_index": 14,
+          "word_start_id": 4831,
+          "word_end_id": 4831,
+          "text": "Good."
+        },
+        {
+          "sentence_index": 15,
+          "word_start_id": 4832,
+          "word_end_id": 4832,
+          "text": "Good."
+        }
+      ]
+    }
+  ]
+}

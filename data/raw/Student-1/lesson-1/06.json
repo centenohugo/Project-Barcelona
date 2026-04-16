@@ -1,0 +1,2763 @@
+{
+  "results": {
+    "channels": [
+      {
+        "alternatives": [
+          {
+            "words": [
+              {
+                "end": 4.18,
+                "word": "okay",
+                "start": 3.6799998,
+                "confidence": 0.6800537,
+                "punctuated_word": "Okay.",
+                "word_id": 1104
+              },
+              {
+                "end": 10.935,
+                "word": "okay",
+                "start": 10.435,
+                "confidence": 0.8886719,
+                "punctuated_word": "Okay.",
+                "word_id": 1105
+              },
+              {
+                "end": 17.335,
+                "word": "okay",
+                "start": 16.835,
+                "confidence": 0.6953125,
+                "punctuated_word": "Okay.",
+                "word_id": 1106
+              },
+              {
+                "end": 19.69,
+                "word": "ivan",
+                "start": 19.37,
+                "confidence": 0.48535156,
+                "punctuated_word": "Ivan",
+                "word_id": 1107
+              },
+              {
+                "end": 20.19,
+                "word": "has",
+                "start": 19.69,
+                "confidence": 0.99609375,
+                "punctuated_word": "has",
+                "word_id": 1108
+              },
+              {
+                "end": 20.89,
+                "word": "a",
+                "start": 20.73,
+                "confidence": 0.98095703,
+                "punctuated_word": "a",
+                "word_id": 1109
+              },
+              {
+                "end": 21.29,
+                "word": "blue",
+                "start": 20.89,
+                "confidence": 1,
+                "punctuated_word": "blue",
+                "word_id": 1110
+              },
+              {
+                "end": 21.61,
+                "word": "bike",
+                "start": 21.29,
+                "confidence": 1,
+                "punctuated_word": "bike",
+                "word_id": 1111
+              },
+              {
+                "end": 22.11,
+                "word": "and",
+                "start": 21.61,
+                "confidence": 0.6430664,
+                "punctuated_word": "and",
+                "word_id": 1112
+              },
+              {
+                "end": 22.83,
+                "word": "stacy",
+                "start": 22.33,
+                "confidence": 0.8671875,
+                "punctuated_word": "Stacy",
+                "word_id": 1113
+              },
+              {
+                "end": 23.130001,
+                "word": "has",
+                "start": 22.89,
+                "confidence": 0.9980469,
+                "punctuated_word": "has",
+                "word_id": 1114
+              },
+              {
+                "end": 23.37,
+                "word": "a",
+                "start": 23.130001,
+                "confidence": 0.9970703,
+                "punctuated_word": "a",
+                "word_id": 1115
+              },
+              {
+                "end": 23.69,
+                "word": "yellow",
+                "start": 23.37,
+                "confidence": 1,
+                "punctuated_word": "yellow",
+                "word_id": 1116
+              },
+              {
+                "end": 23.93,
+                "word": "bike",
+                "start": 23.69,
+                "confidence": 0.9916992,
+                "punctuated_word": "bike.",
+                "word_id": 1117
+              },
+              {
+                "end": 24.89,
+                "word": "mine",
+                "start": 24.57,
+                "confidence": 0.9506836,
+                "punctuated_word": "Mine",
+                "word_id": 1118
+              },
+              {
+                "end": 25.05,
+                "word": "is",
+                "start": 24.89,
+                "confidence": 0.95410156,
+                "punctuated_word": "is",
+                "word_id": 1119
+              },
+              {
+                "end": 25.55,
+                "word": "red",
+                "start": 25.05,
+                "confidence": 0.9770508,
+                "punctuated_word": "red.",
+                "word_id": 1120
+              },
+              {
+                "end": 26.705002,
+                "word": "they",
+                "start": 26.465,
+                "confidence": 0.8491211,
+                "punctuated_word": "They",
+                "word_id": 1121
+              },
+              {
+                "end": 27.025002,
+                "word": "ride",
+                "start": 26.705002,
+                "confidence": 0.9921875,
+                "punctuated_word": "ride",
+                "word_id": 1122
+              },
+              {
+                "end": 27.505001,
+                "word": "their",
+                "start": 27.025002,
+                "confidence": 0.97998047,
+                "punctuated_word": "their",
+                "word_id": 1123
+              },
+              {
+                "end": 28.005001,
+                "word": "bikes",
+                "start": 27.505001,
+                "confidence": 1,
+                "punctuated_word": "bikes",
+                "word_id": 1124
+              },
+              {
+                "end": 28.225,
+                "word": "in",
+                "start": 28.065,
+                "confidence": 1,
+                "punctuated_word": "in",
+                "word_id": 1125
+              },
+              {
+                "end": 28.385,
+                "word": "the",
+                "start": 28.225,
+                "confidence": 0.99902344,
+                "punctuated_word": "the",
+                "word_id": 1126
+              },
+              {
+                "end": 28.865002,
+                "word": "city",
+                "start": 28.385,
+                "confidence": 0.99853516,
+                "punctuated_word": "city.",
+                "word_id": 1127
+              },
+              {
+                "end": 29.025002,
+                "word": "i",
+                "start": 28.865002,
+                "confidence": 1,
+                "punctuated_word": "I",
+                "word_id": 1128
+              },
+              {
+                "end": 29.345001,
+                "word": "ride",
+                "start": 29.025002,
+                "confidence": 1,
+                "punctuated_word": "ride",
+                "word_id": 1129
+              },
+              {
+                "end": 29.505001,
+                "word": "my",
+                "start": 29.345001,
+                "confidence": 1,
+                "punctuated_word": "my",
+                "word_id": 1130
+              },
+              {
+                "end": 29.905,
+                "word": "bike",
+                "start": 29.505001,
+                "confidence": 1,
+                "punctuated_word": "bike",
+                "word_id": 1131
+              },
+              {
+                "end": 30.065,
+                "word": "in",
+                "start": 29.905,
+                "confidence": 1,
+                "punctuated_word": "in",
+                "word_id": 1132
+              },
+              {
+                "end": 30.225,
+                "word": "the",
+                "start": 30.065,
+                "confidence": 1,
+                "punctuated_word": "the",
+                "word_id": 1133
+              },
+              {
+                "end": 30.725,
+                "word": "park",
+                "start": 30.225,
+                "confidence": 0.9980469,
+                "punctuated_word": "park.",
+                "word_id": 1134
+              },
+              {
+                "end": 35.89,
+                "word": "his",
+                "start": 35.41,
+                "confidence": 0.9902344,
+                "punctuated_word": "His",
+                "word_id": 1135
+              },
+              {
+                "end": 36.29,
+                "word": "bike",
+                "start": 35.89,
+                "confidence": 1,
+                "punctuated_word": "bike",
+                "word_id": 1136
+              },
+              {
+                "end": 36.79,
+                "word": "is",
+                "start": 36.29,
+                "confidence": 0.99902344,
+                "punctuated_word": "is",
+                "word_id": 1137
+              },
+              {
+                "end": 38.07,
+                "word": "blue",
+                "start": 37.57,
+                "confidence": 0.7636719,
+                "punctuated_word": "blue,",
+                "word_id": 1138
+              },
+              {
+                "end": 39.11,
+                "word": "and",
+                "start": 38.61,
+                "confidence": 0.9951172,
+                "punctuated_word": "and",
+                "word_id": 1139
+              },
+              {
+                "end": 41.505,
+                "word": "and",
+                "start": 41.185,
+                "confidence": 0.9980469,
+                "punctuated_word": "and",
+                "word_id": 1140
+              },
+              {
+                "end": 41.905,
+                "word": "hers",
+                "start": 41.505,
+                "confidence": 0.95947266,
+                "punctuated_word": "hers",
+                "word_id": 1141
+              },
+              {
+                "end": 42.405,
+                "word": "is",
+                "start": 41.905,
+                "confidence": 1,
+                "punctuated_word": "is",
+                "word_id": 1142
+              },
+              {
+                "end": 44.085,
+                "word": "yellow",
+                "start": 43.585,
+                "confidence": 0.99853516,
+                "punctuated_word": "yellow.",
+                "word_id": 1143
+              },
+              {
+                "end": 47.445,
+                "word": "my",
+                "start": 46.945,
+                "confidence": 0.80908203,
+                "punctuated_word": "My",
+                "word_id": 1144
+              },
+              {
+                "end": 49.63,
+                "word": "my",
+                "start": 49.31,
+                "confidence": 0.9970703,
+                "punctuated_word": "my",
+                "word_id": 1145
+              },
+              {
+                "end": 50.030003,
+                "word": "bike",
+                "start": 49.63,
+                "confidence": 0.99609375,
+                "punctuated_word": "bike",
+                "word_id": 1146
+              },
+              {
+                "end": 50.43,
+                "word": "is",
+                "start": 50.030003,
+                "confidence": 0.99902344,
+                "punctuated_word": "is",
+                "word_id": 1147
+              },
+              {
+                "end": 50.83,
+                "word": "red",
+                "start": 50.43,
+                "confidence": 0.9838867,
+                "punctuated_word": "red",
+                "word_id": 1148
+              },
+              {
+                "end": 51.31,
+                "word": "even",
+                "start": 50.83,
+                "confidence": 0.6871338,
+                "punctuated_word": "even,",
+                "word_id": 1149
+              },
+              {
+                "end": 51.710003,
+                "word": "and",
+                "start": 51.31,
+                "confidence": 0.99902344,
+                "punctuated_word": "and",
+                "word_id": 1150
+              },
+              {
+                "end": 52.210003,
+                "word": "stacy",
+                "start": 51.710003,
+                "confidence": 0.7973633,
+                "punctuated_word": "Stacy",
+                "word_id": 1151
+              },
+              {
+                "end": 52.850002,
+                "word": "ride",
+                "start": 52.350002,
+                "confidence": 0.5439453,
+                "punctuated_word": "ride.",
+                "word_id": 1152
+              },
+              {
+                "end": 62.865,
+                "word": "okay",
+                "start": 62.545,
+                "confidence": 0.67211914,
+                "punctuated_word": "Okay.",
+                "word_id": 1153
+              },
+              {
+                "end": 63.265,
+                "word": "evan",
+                "start": 62.865,
+                "confidence": 0.2841797,
+                "punctuated_word": "Evan",
+                "word_id": 1154
+              },
+              {
+                "end": 63.345,
+                "word": "and",
+                "start": 63.265,
+                "confidence": 0.96972656,
+                "punctuated_word": "and",
+                "word_id": 1155
+              },
+              {
+                "end": 63.745,
+                "word": "stacy",
+                "start": 63.345,
+                "confidence": 0.85058594,
+                "punctuated_word": "Stacy",
+                "word_id": 1156
+              },
+              {
+                "end": 64.145,
+                "word": "writes",
+                "start": 63.745,
+                "confidence": 0.41796875,
+                "punctuated_word": "writes",
+                "word_id": 1157
+              },
+              {
+                "end": 64.645,
+                "word": "dave's",
+                "start": 64.145,
+                "confidence": 0.55704755,
+                "punctuated_word": "Dave's,",
+                "word_id": 1158
+              },
+              {
+                "end": 65.505,
+                "word": "in",
+                "start": 65.345,
+                "confidence": 0.9902344,
+                "punctuated_word": "in",
+                "word_id": 1159
+              },
+              {
+                "end": 65.665,
+                "word": "the",
+                "start": 65.505,
+                "confidence": 1,
+                "punctuated_word": "the",
+                "word_id": 1160
+              },
+              {
+                "end": 66.145,
+                "word": "city",
+                "start": 65.665,
+                "confidence": 0.74035645,
+                "punctuated_word": "city.",
+                "word_id": 1161
+              },
+              {
+                "end": 66.385,
+                "word": "i",
+                "start": 66.145,
+                "confidence": 0.99902344,
+                "punctuated_word": "I",
+                "word_id": 1162
+              },
+              {
+                "end": 66.885,
+                "word": "write",
+                "start": 66.385,
+                "confidence": 0.99121094,
+                "punctuated_word": "write",
+                "word_id": 1163
+              },
+              {
+                "end": 67.345,
+                "word": "mine",
+                "start": 67.025,
+                "confidence": 0.98095703,
+                "punctuated_word": "mine",
+                "word_id": 1164
+              },
+              {
+                "end": 67.585,
+                "word": "in",
+                "start": 67.345,
+                "confidence": 0.9970703,
+                "punctuated_word": "in",
+                "word_id": 1165
+              },
+              {
+                "end": 67.745,
+                "word": "the",
+                "start": 67.585,
+                "confidence": 0.9970703,
+                "punctuated_word": "the",
+                "word_id": 1166
+              },
+              {
+                "end": 68.245,
+                "word": "park",
+                "start": 67.745,
+                "confidence": 0.9394531,
+                "punctuated_word": "park.",
+                "word_id": 1167
+              },
+              {
+                "end": 68.85,
+                "word": "so",
+                "start": 68.689995,
+                "confidence": 0.9316406,
+                "punctuated_word": "So",
+                "word_id": 1168
+              },
+              {
+                "end": 69.09,
+                "word": "she's",
+                "start": 68.85,
+                "confidence": 0.34020996,
+                "punctuated_word": "she's",
+                "word_id": 1169
+              },
+              {
+                "end": 69.329994,
+                "word": "just",
+                "start": 69.09,
+                "confidence": 0.99121094,
+                "punctuated_word": "just",
+                "word_id": 1170
+              },
+              {
+                "end": 69.81,
+                "word": "calling",
+                "start": 69.329994,
+                "confidence": 0.4387207,
+                "punctuated_word": "calling",
+                "word_id": 1171
+              },
+              {
+                "end": 70.31,
+                "word": "me",
+                "start": 69.81,
+                "confidence": 0.99609375,
+                "punctuated_word": "me",
+                "word_id": 1172
+              },
+              {
+                "end": 70.93,
+                "word": "from",
+                "start": 70.85,
+                "confidence": 0.7939453,
+                "punctuated_word": "from",
+                "word_id": 1173
+              },
+              {
+                "end": 71.09,
+                "word": "the",
+                "start": 70.93,
+                "confidence": 0.3798828,
+                "punctuated_word": "the",
+                "word_id": 1174
+              },
+              {
+                "end": 71.49,
+                "word": "background",
+                "start": 71.09,
+                "confidence": 0.65148926,
+                "punctuated_word": "background.",
+                "word_id": 1175
+              },
+              {
+                "end": 71.99,
+                "word": "okay",
+                "start": 71.49,
+                "confidence": 0.73046875,
+                "punctuated_word": "Okay.",
+                "word_id": 1176
+              },
+              {
+                "end": 89.740005,
+                "word": "okay",
+                "start": 89.240005,
+                "confidence": 0.9411621,
+                "punctuated_word": "Okay.",
+                "word_id": 1177
+              },
+              {
+                "end": 151.67,
+                "word": "alright",
+                "start": 151.17,
+                "confidence": 0.8857422,
+                "punctuated_word": "Alright",
+                "word_id": 1178
+              },
+              {
+                "end": 156.79,
+                "word": "then",
+                "start": 156.29,
+                "confidence": 0.7269287,
+                "punctuated_word": "then.",
+                "word_id": 1179
+              },
+              {
+                "end": 188.51,
+                "word": "okay",
+                "start": 188.01,
+                "confidence": 0.88427734,
+                "punctuated_word": "Okay.",
+                "word_id": 1180
+              },
+              {
+                "end": 209.51,
+                "word": "mhmm",
+                "start": 209.01,
+                "confidence": 0.850708,
+                "punctuated_word": "Mhmm.",
+                "word_id": 1181
+              },
+              {
+                "end": 228.78,
+                "word": "mhmm",
+                "start": 228.28,
+                "confidence": 0.8100586,
+                "punctuated_word": "Mhmm.",
+                "word_id": 1182
+              },
+              {
+                "end": 229.34,
+                "word": "okay",
+                "start": 228.84,
+                "confidence": 0.74609375,
+                "punctuated_word": "Okay.",
+                "word_id": 1183
+              },
+              {
+                "end": 230.595,
+                "word": "yes",
+                "start": 230.095,
+                "confidence": 0.9223633,
+                "punctuated_word": "Yes.",
+                "word_id": 1184
+              },
+              {
+                "end": 232.515,
+                "word": "yes",
+                "start": 232.015,
+                "confidence": 0.76538086,
+                "punctuated_word": "Yes.",
+                "word_id": 1185
+              },
+              {
+                "end": 234.755,
+                "word": "okay",
+                "start": 234.255,
+                "confidence": 0.8442383,
+                "punctuated_word": "Okay.",
+                "word_id": 1186
+              },
+              {
+                "end": 246.82501,
+                "word": "this",
+                "start": 246.585,
+                "confidence": 0.51123047,
+                "punctuated_word": "This",
+                "word_id": 1187
+              },
+              {
+                "end": 247.065,
+                "word": "is",
+                "start": 246.82501,
+                "confidence": 1,
+                "punctuated_word": "is",
+                "word_id": 1188
+              },
+              {
+                "end": 247.565,
+                "word": "my",
+                "start": 247.065,
+                "confidence": 0.9980469,
+                "punctuated_word": "my",
+                "word_id": 1189
+              },
+              {
+                "end": 248.125,
+                "word": "brother",
+                "start": 247.625,
+                "confidence": 0.9748535,
+                "punctuated_word": "brother.",
+                "word_id": 1190
+              },
+              {
+                "end": 248.585,
+                "word": "he's",
+                "start": 248.18501,
+                "confidence": 0.8552246,
+                "punctuated_word": "He's",
+                "word_id": 1191
+              },
+              {
+                "end": 249.065,
+                "word": "married",
+                "start": 248.585,
+                "confidence": 0.9980469,
+                "punctuated_word": "married",
+                "word_id": 1192
+              },
+              {
+                "end": 249.38501,
+                "word": "to",
+                "start": 249.065,
+                "confidence": 0.99902344,
+                "punctuated_word": "to",
+                "word_id": 1193
+              },
+              {
+                "end": 249.88501,
+                "word": "carla",
+                "start": 249.38501,
+                "confidence": 0.9425456,
+                "punctuated_word": "Carla.",
+                "word_id": 1194
+              },
+              {
+                "end": 257.95,
+                "word": "right",
+                "start": 257.79,
+                "confidence": 0.6036377,
+                "punctuated_word": "Right.",
+                "word_id": 1195
+              },
+              {
+                "end": 258.43,
+                "word": "these",
+                "start": 257.95,
+                "confidence": 0.58447266,
+                "punctuated_word": "These",
+                "word_id": 1196
+              },
+              {
+                "end": 258.91,
+                "word": "are",
+                "start": 258.43,
+                "confidence": 0.9980469,
+                "punctuated_word": "are",
+                "word_id": 1197
+              },
+              {
+                "end": 259.15,
+                "word": "the",
+                "start": 258.91,
+                "confidence": 0.8413086,
+                "punctuated_word": "the",
+                "word_id": 1198
+              },
+              {
+                "end": 259.65,
+                "word": "children",
+                "start": 259.15,
+                "confidence": 0.91430664,
+                "punctuated_word": "children,",
+                "word_id": 1199
+              },
+              {
+                "end": 260.27002,
+                "word": "sam",
+                "start": 259.87,
+                "confidence": 0.9921875,
+                "punctuated_word": "Sam",
+                "word_id": 1200
+              },
+              {
+                "end": 260.67,
+                "word": "and",
+                "start": 260.27002,
+                "confidence": 0.9980469,
+                "punctuated_word": "and",
+                "word_id": 1201
+              },
+              {
+                "end": 261.17,
+                "word": "claire",
+                "start": 260.67,
+                "confidence": 0.77734375,
+                "punctuated_word": "Claire.",
+                "word_id": 1202
+              },
+              {
+                "end": 263.245,
+                "word": "it's",
+                "start": 263.085,
+                "confidence": 0.75512695,
+                "punctuated_word": "It's",
+                "word_id": 1203
+              },
+              {
+                "end": 263.745,
+                "word": "my",
+                "start": 263.245,
+                "confidence": 0.99902344,
+                "punctuated_word": "my",
+                "word_id": 1204
+              },
+              {
+                "end": 264.445,
+                "word": "younger",
+                "start": 263.965,
+                "confidence": 0.99902344,
+                "punctuated_word": "younger",
+                "word_id": 1205
+              },
+              {
+                "end": 264.945,
+                "word": "brother",
+                "start": 264.445,
+                "confidence": 0.9970703,
+                "punctuated_word": "brother",
+                "word_id": 1206
+              },
+              {
+                "end": 266.525,
+                "word": "over",
+                "start": 266.285,
+                "confidence": 0.7729492,
+                "punctuated_word": "over",
+                "word_id": 1207
+              },
+              {
+                "end": 267.025,
+                "word": "there",
+                "start": 266.525,
+                "confidence": 0.98168945,
+                "punctuated_word": "there.",
+                "word_id": 1208
+              },
+              {
+                "end": 269.78,
+                "word": "that",
+                "start": 269.405,
+                "confidence": 0.6801758,
+                "punctuated_word": "That",
+                "word_id": 1209
+              },
+              {
+                "end": 270.02,
+                "word": "is",
+                "start": 269.86,
+                "confidence": 1,
+                "punctuated_word": "is",
+                "word_id": 1210
+              },
+              {
+                "end": 270.26,
+                "word": "my",
+                "start": 270.02,
+                "confidence": 1,
+                "punctuated_word": "my",
+                "word_id": 1211
+              },
+              {
+                "end": 270.66,
+                "word": "younger",
+                "start": 270.26,
+                "confidence": 1,
+                "punctuated_word": "younger",
+                "word_id": 1212
+              },
+              {
+                "end": 271.16,
+                "word": "brother",
+                "start": 270.66,
+                "confidence": 1,
+                "punctuated_word": "brother",
+                "word_id": 1213
+              },
+              {
+                "end": 271.62,
+                "word": "over",
+                "start": 271.3,
+                "confidence": 0.9716797,
+                "punctuated_word": "over",
+                "word_id": 1214
+              },
+              {
+                "end": 272.1,
+                "word": "there",
+                "start": 271.62,
+                "confidence": 0.9147949,
+                "punctuated_word": "there,",
+                "word_id": 1215
+              },
+              {
+                "end": 272.6,
+                "word": "and",
+                "start": 272.1,
+                "confidence": 0.79248047,
+                "punctuated_word": "and,",
+                "word_id": 1216
+              },
+              {
+                "end": 274.36,
+                "word": "and",
+                "start": 273.86,
+                "confidence": 0.99609375,
+                "punctuated_word": "and",
+                "word_id": 1217
+              },
+              {
+                "end": 275.54,
+                "word": "those",
+                "start": 275.13998,
+                "confidence": 0.54833984,
+                "punctuated_word": "those",
+                "word_id": 1218
+              },
+              {
+                "end": 275.94,
+                "word": "are",
+                "start": 275.54,
+                "confidence": 1,
+                "punctuated_word": "are",
+                "word_id": 1219
+              },
+              {
+                "end": 276.26,
+                "word": "his",
+                "start": 275.94,
+                "confidence": 1,
+                "punctuated_word": "his",
+                "word_id": 1220
+              },
+              {
+                "end": 276.76,
+                "word": "dogs",
+                "start": 276.26,
+                "confidence": 1,
+                "punctuated_word": "dogs.",
+                "word_id": 1221
+              },
+              {
+                "end": 277.54,
+                "word": "he",
+                "start": 277.3,
+                "confidence": 0.9980469,
+                "punctuated_word": "He",
+                "word_id": 1222
+              },
+              {
+                "end": 278.04,
+                "word": "loves",
+                "start": 277.54,
+                "confidence": 0.9614258,
+                "punctuated_word": "loves",
+                "word_id": 1223
+              },
+              {
+                "end": 278.6,
+                "word": "them",
+                "start": 278.1,
+                "confidence": 0.7734375,
+                "punctuated_word": "them.",
+                "word_id": 1224
+              },
+              {
+                "end": 279.975,
+                "word": "there",
+                "start": 279.655,
+                "confidence": 0.54467773,
+                "punctuated_word": "There.",
+                "word_id": 1225
+              },
+              {
+                "end": 280.29498,
+                "word": "he",
+                "start": 279.975,
+                "confidence": 0.99902344,
+                "punctuated_word": "He",
+                "word_id": 1226
+              },
+              {
+                "end": 280.695,
+                "word": "loves",
+                "start": 280.29498,
+                "confidence": 0.9970703,
+                "punctuated_word": "loves",
+                "word_id": 1227
+              },
+              {
+                "end": 281.195,
+                "word": "them",
+                "start": 280.695,
+                "confidence": 0.9941406,
+                "punctuated_word": "them.",
+                "word_id": 1228
+              },
+              {
+                "end": 282.455,
+                "word": "the",
+                "start": 282.29498,
+                "confidence": 0.4880371,
+                "punctuated_word": "The",
+                "word_id": 1229
+              },
+              {
+                "end": 282.85498,
+                "word": "dog",
+                "start": 282.455,
+                "confidence": 0.96875,
+                "punctuated_word": "dog",
+                "word_id": 1230
+              },
+              {
+                "end": 283.01498,
+                "word": "are",
+                "start": 282.85498,
+                "confidence": 0.6303711,
+                "punctuated_word": "are",
+                "word_id": 1231
+              },
+              {
+                "end": 283.51498,
+                "word": "friendly",
+                "start": 283.01498,
+                "confidence": 0.7183838,
+                "punctuated_word": "friendly.",
+                "word_id": 1232
+              },
+              {
+                "end": 284.535,
+                "word": "this",
+                "start": 284.29498,
+                "confidence": 0.9838867,
+                "punctuated_word": "This",
+                "word_id": 1233
+              },
+              {
+                "end": 285.035,
+                "word": "is",
+                "start": 284.535,
+                "confidence": 0.99316406,
+                "punctuated_word": "is",
+                "word_id": 1234
+              },
+              {
+                "end": 287.57498,
+                "word": "scarf",
+                "start": 287.095,
+                "confidence": 0.7727051,
+                "punctuated_word": "scarf.",
+                "word_id": 1235
+              },
+              {
+                "end": 287.735,
+                "word": "this",
+                "start": 287.57498,
+                "confidence": 0.9921875,
+                "punctuated_word": "This",
+                "word_id": 1236
+              },
+              {
+                "end": 287.895,
+                "word": "is",
+                "start": 287.735,
+                "confidence": 0.98291016,
+                "punctuated_word": "is",
+                "word_id": 1237
+              },
+              {
+                "end": 288.395,
+                "word": "scarf",
+                "start": 287.895,
+                "confidence": 0.9248047,
+                "punctuated_word": "scarf.",
+                "word_id": 1238
+              },
+              {
+                "end": 293.21002,
+                "word": "dusty",
+                "start": 292.71002,
+                "confidence": 0.91674805,
+                "punctuated_word": "Dusty",
+                "word_id": 1239
+              },
+              {
+                "end": 293.77002,
+                "word": "over",
+                "start": 293.27002,
+                "confidence": 0.9472656,
+                "punctuated_word": "over",
+                "word_id": 1240
+              },
+              {
+                "end": 294.49002,
+                "word": "there",
+                "start": 293.99002,
+                "confidence": 0.8391113,
+                "punctuated_word": "there.",
+                "word_id": 1241
+              },
+              {
+                "end": 299.41495,
+                "word": "this",
+                "start": 299.09494,
+                "confidence": 0.5722656,
+                "punctuated_word": "This",
+                "word_id": 1242
+              },
+              {
+                "end": 299.91495,
+                "word": "is",
+                "start": 299.41495,
+                "confidence": 0.9970703,
+                "punctuated_word": "is",
+                "word_id": 1243
+              }
+            ],
+            "confidence": 0.97998047,
+            "paragraphs": {
+              "paragraphs": [
+                {
+                  "end": 25.55,
+                  "start": 3.6799998,
+                  "num_words": 17,
+                  "sentences": [
+                    {
+                      "end": 4.18,
+                      "text": "Okay.",
+                      "start": 3.6799998
+                    },
+                    {
+                      "end": 10.935,
+                      "text": "Okay.",
+                      "start": 10.435
+                    },
+                    {
+                      "end": 17.335,
+                      "text": "Okay.",
+                      "start": 16.835
+                    },
+                    {
+                      "end": 23.93,
+                      "text": "Ivan has a blue bike and Stacy has a yellow bike.",
+                      "start": 19.37
+                    },
+                    {
+                      "end": 25.55,
+                      "text": "Mine is red.",
+                      "start": 24.57
+                    }
+                  ]
+                },
+                {
+                  "end": 62.865,
+                  "start": 26.465,
+                  "num_words": 33,
+                  "sentences": [
+                    {
+                      "end": 28.865002,
+                      "text": "They ride their bikes in the city.",
+                      "start": 26.465
+                    },
+                    {
+                      "end": 30.725,
+                      "text": "I ride my bike in the park.",
+                      "start": 28.865002
+                    },
+                    {
+                      "end": 44.085,
+                      "text": "His bike is blue, and and hers is yellow.",
+                      "start": 35.41
+                    },
+                    {
+                      "end": 52.850002,
+                      "text": "My my bike is red even, and Stacy ride.",
+                      "start": 46.945
+                    },
+                    {
+                      "end": 62.865,
+                      "text": "Okay.",
+                      "start": 62.545
+                    }
+                  ]
+                },
+                {
+                  "end": 89.740005,
+                  "start": 62.865,
+                  "num_words": 24,
+                  "sentences": [
+                    {
+                      "end": 66.145,
+                      "text": "Evan and Stacy writes Dave's, in the city.",
+                      "start": 62.865
+                    },
+                    {
+                      "end": 68.245,
+                      "text": "I write mine in the park.",
+                      "start": 66.145
+                    },
+                    {
+                      "end": 71.49,
+                      "text": "So she's just calling me from the background.",
+                      "start": 68.689995
+                    },
+                    {
+                      "end": 71.99,
+                      "text": "Okay.",
+                      "start": 71.49
+                    },
+                    {
+                      "end": 89.740005,
+                      "text": "Okay.",
+                      "start": 89.240005
+                    }
+                  ]
+                },
+                {
+                  "end": 229.34,
+                  "start": 151.17,
+                  "num_words": 6,
+                  "sentences": [
+                    {
+                      "end": 156.79,
+                      "text": "Alright then.",
+                      "start": 151.17
+                    },
+                    {
+                      "end": 188.51,
+                      "text": "Okay.",
+                      "start": 188.01
+                    },
+                    {
+                      "end": 209.51,
+                      "text": "Mhmm.",
+                      "start": 209.01
+                    },
+                    {
+                      "end": 228.78,
+                      "text": "Mhmm.",
+                      "start": 228.28
+                    },
+                    {
+                      "end": 229.34,
+                      "text": "Okay.",
+                      "start": 228.84
+                    }
+                  ]
+                },
+                {
+                  "end": 249.88501,
+                  "start": 230.095,
+                  "num_words": 11,
+                  "sentences": [
+                    {
+                      "end": 230.595,
+                      "text": "Yes.",
+                      "start": 230.095
+                    },
+                    {
+                      "end": 232.515,
+                      "text": "Yes.",
+                      "start": 232.015
+                    },
+                    {
+                      "end": 234.755,
+                      "text": "Okay.",
+                      "start": 234.255
+                    },
+                    {
+                      "end": 248.125,
+                      "text": "This is my brother.",
+                      "start": 246.585
+                    },
+                    {
+                      "end": 249.88501,
+                      "text": "He's married to Carla.",
+                      "start": 248.18501
+                    }
+                  ]
+                },
+                {
+                  "end": 278.6,
+                  "start": 257.79,
+                  "num_words": 30,
+                  "sentences": [
+                    {
+                      "end": 257.95,
+                      "text": "Right.",
+                      "start": 257.79
+                    },
+                    {
+                      "end": 261.17,
+                      "text": "These are the children, Sam and Claire.",
+                      "start": 257.95
+                    },
+                    {
+                      "end": 267.025,
+                      "text": "It's my younger brother over there.",
+                      "start": 263.085
+                    },
+                    {
+                      "end": 276.76,
+                      "text": "That is my younger brother over there, and, and those are his dogs.",
+                      "start": 269.405
+                    },
+                    {
+                      "end": 278.6,
+                      "text": "He loves them.",
+                      "start": 277.3
+                    }
+                  ]
+                },
+                {
+                  "end": 288.395,
+                  "start": 279.655,
+                  "num_words": 14,
+                  "sentences": [
+                    {
+                      "end": 279.975,
+                      "text": "There.",
+                      "start": 279.655
+                    },
+                    {
+                      "end": 281.195,
+                      "text": "He loves them.",
+                      "start": 279.975
+                    },
+                    {
+                      "end": 283.51498,
+                      "text": "The dog are friendly.",
+                      "start": 282.29498
+                    },
+                    {
+                      "end": 287.57498,
+                      "text": "This is scarf.",
+                      "start": 284.29498
+                    },
+                    {
+                      "end": 288.395,
+                      "text": "This is scarf.",
+                      "start": 287.57498
+                    }
+                  ]
+                },
+                {
+                  "end": 299.91495,
+                  "start": 292.71002,
+                  "num_words": 5,
+                  "sentences": [
+                    {
+                      "end": 294.49002,
+                      "text": "Dusty over there.",
+                      "start": 292.71002
+                    },
+                    {
+                      "end": 299.91495,
+                      "text": "This is",
+                      "start": 299.09494
+                    }
+                  ]
+                }
+              ],
+              "transcript": "\nOkay. Okay. Okay. Ivan has a blue bike and Stacy has a yellow bike. Mine is red.\n\nThey ride their bikes in the city. I ride my bike in the park. His bike is blue, and and hers is yellow. My my bike is red even, and Stacy ride. Okay.\n\nEvan and Stacy writes Dave's, in the city. I write mine in the park. So she's just calling me from the background. Okay. Okay.\n\nAlright then. Okay. Mhmm. Mhmm. Okay.\n\nYes. Yes. Okay. This is my brother. He's married to Carla.\n\nRight. These are the children, Sam and Claire. It's my younger brother over there. That is my younger brother over there, and, and those are his dogs. He loves them.\n\nThere. He loves them. The dog are friendly. This is scarf. This is scarf.\n\nDusty over there. This is"
+            },
+            "transcript": "Okay. Okay. Okay. Ivan has a blue bike and Stacy has a yellow bike. Mine is red. They ride their bikes in the city. I ride my bike in the park. His bike is blue, and and hers is yellow. My my bike is red even, and Stacy ride. Okay. Evan and Stacy writes Dave's, in the city. I write mine in the park. So she's just calling me from the background. Okay. Okay. Alright then. Okay. Mhmm. Mhmm. Okay. Yes. Yes. Okay. This is my brother. He's married to Carla. Right. These are the children, Sam and Claire. It's my younger brother over there. That is my younger brother over there, and, and those are his dogs. He loves them. There. He loves them. The dog are friendly. This is scarf. This is scarf. Dusty over there. This is"
+          }
+        ]
+      },
+      {
+        "alternatives": [
+          {
+            "words": [
+              {
+                "end": 1.8399999,
+                "word": "our",
+                "start": 1.52,
+                "confidence": 0.32006836,
+                "punctuated_word": "Our"
+              },
+              {
+                "end": 2.24,
+                "word": "doc",
+                "start": 1.8399999,
+                "confidence": 0.63171387,
+                "punctuated_word": "doc,"
+              },
+              {
+                "end": 2.74,
+                "word": "our",
+                "start": 2.24,
+                "confidence": 0.93847656,
+                "punctuated_word": "our"
+              },
+              {
+                "end": 3.54,
+                "word": "actually",
+                "start": 3.04,
+                "confidence": 0.67004395,
+                "punctuated_word": "actually,"
+              },
+              {
+                "end": 4.18,
+                "word": "nash",
+                "start": 3.6799998,
+                "confidence": 0.8449707,
+                "punctuated_word": "Nash."
+              },
+              {
+                "end": 5.04,
+                "word": "right",
+                "start": 4.7999997,
+                "confidence": 0.8444824,
+                "punctuated_word": "Right?"
+              },
+              {
+                "end": 5.54,
+                "word": "nash",
+                "start": 5.04,
+                "confidence": 0.618042,
+                "punctuated_word": "Nash,"
+              },
+              {
+                "end": 5.7599998,
+                "word": "yet",
+                "start": 5.6,
+                "confidence": 0.18103027,
+                "punctuated_word": "yet"
+              },
+              {
+                "end": 6.64,
+                "word": "nps",
+                "start": 5.7599998,
+                "confidence": 0.79663086,
+                "punctuated_word": "NPS."
+              },
+              {
+                "end": 7.12,
+                "word": "right",
+                "start": 6.64,
+                "confidence": 0.9111328,
+                "punctuated_word": "Right?"
+              },
+              {
+                "end": 7.3599997,
+                "word": "but",
+                "start": 7.12,
+                "confidence": 0.9667969,
+                "punctuated_word": "But"
+              },
+              {
+                "end": 7.8399997,
+                "word": "ours",
+                "start": 7.3599997,
+                "confidence": 0.9667969,
+                "punctuated_word": "ours"
+              },
+              {
+                "end": 8,
+                "word": "are",
+                "start": 7.8399997,
+                "confidence": 0.9892578,
+                "punctuated_word": "are"
+              },
+              {
+                "end": 8.24,
+                "word": "good",
+                "start": 8,
+                "confidence": 0.8364258,
+                "punctuated_word": "good"
+              },
+              {
+                "end": 8.74,
+                "word": "doc",
+                "start": 8.24,
+                "confidence": 0.484375,
+                "punctuated_word": "doc."
+              },
+              {
+                "end": 17.93,
+                "word": "right",
+                "start": 17.505,
+                "confidence": 0.9160156,
+                "punctuated_word": "Right?"
+              },
+              {
+                "end": 44.995,
+                "word": "mhmm",
+                "start": 44.495,
+                "confidence": 0.8798828,
+                "punctuated_word": "Mhmm."
+              },
+              {
+                "end": 70.689995,
+                "word": "tag",
+                "start": 70.21,
+                "confidence": 0.5074463,
+                "punctuated_word": "Tag."
+              },
+              {
+                "end": 71.189995,
+                "word": "tag",
+                "start": 70.689995,
+                "confidence": 0.98583984,
+                "punctuated_word": "Tag."
+              },
+              {
+                "end": 72.149994,
+                "word": "mhmm",
+                "start": 71.649994,
+                "confidence": 0.95861816,
+                "punctuated_word": "Mhmm."
+              },
+              {
+                "end": 73.509995,
+                "word": "tag",
+                "start": 73.009995,
+                "confidence": 0.83447266,
+                "punctuated_word": "Tag."
+              },
+              {
+                "end": 79.415,
+                "word": "mhmm",
+                "start": 78.915,
+                "confidence": 0.91345215,
+                "punctuated_word": "Mhmm."
+              },
+              {
+                "end": 81.975,
+                "word": "super",
+                "start": 81.475,
+                "confidence": 0.810791,
+                "punctuated_word": "Super."
+              },
+              {
+                "end": 86.090004,
+                "word": "self",
+                "start": 85.85,
+                "confidence": 0.73291016,
+                "punctuated_word": "Self"
+              },
+              {
+                "end": 86.590004,
+                "word": "assessment",
+                "start": 86.090004,
+                "confidence": 0.9873047,
+                "punctuated_word": "assessment"
+              },
+              {
+                "end": 99.165,
+                "word": "okay",
+                "start": 98.665,
+                "confidence": 0.7388916,
+                "punctuated_word": "Okay."
+              },
+              {
+                "end": 108.65,
+                "word": "okay",
+                "start": 108.15,
+                "confidence": 0.951416,
+                "punctuated_word": "Okay."
+              },
+              {
+                "end": 132.545,
+                "word": "these",
+                "start": 132.045,
+                "confidence": 0.69628906,
+                "punctuated_word": "These,"
+              },
+              {
+                "end": 135.085,
+                "word": "that",
+                "start": 134.765,
+                "confidence": 0.96313477,
+                "punctuated_word": "that,"
+              },
+              {
+                "end": 135.405,
+                "word": "this",
+                "start": 135.085,
+                "confidence": 0.7109375,
+                "punctuated_word": "this,"
+              },
+              {
+                "end": 135.565,
+                "word": "and",
+                "start": 135.405,
+                "confidence": 0.94189453,
+                "punctuated_word": "and"
+              },
+              {
+                "end": 136.065,
+                "word": "those",
+                "start": 135.565,
+                "confidence": 0.7590332,
+                "punctuated_word": "those."
+              },
+              {
+                "end": 193.565,
+                "word": "it",
+                "start": 193.405,
+                "confidence": 0.5839844,
+                "punctuated_word": "It"
+              },
+              {
+                "end": 193.80501,
+                "word": "has",
+                "start": 193.565,
+                "confidence": 0.42529297,
+                "punctuated_word": "has"
+              },
+              {
+                "end": 194.045,
+                "word": "yet",
+                "start": 193.80501,
+                "confidence": 0.9291992,
+                "punctuated_word": "yet"
+              },
+              {
+                "end": 194.205,
+                "word": "not",
+                "start": 194.045,
+                "confidence": 0.75439453,
+                "punctuated_word": "not"
+              },
+              {
+                "end": 194.525,
+                "word": "it",
+                "start": 194.365,
+                "confidence": 0.38208008,
+                "punctuated_word": "it"
+              },
+              {
+                "end": 194.685,
+                "word": "has",
+                "start": 194.525,
+                "confidence": 0.63623047,
+                "punctuated_word": "has"
+              },
+              {
+                "end": 195.725,
+                "word": "this",
+                "start": 195.405,
+                "confidence": 0.81396484,
+                "punctuated_word": "this"
+              },
+              {
+                "end": 196.045,
+                "word": "this",
+                "start": 195.725,
+                "confidence": 0.3269043,
+                "punctuated_word": "this"
+              },
+              {
+                "end": 196.545,
+                "word": "this",
+                "start": 196.045,
+                "confidence": 0.24108887,
+                "punctuated_word": "this"
+              },
+              {
+                "end": 197.66501,
+                "word": "pen",
+                "start": 197.16501,
+                "confidence": 0.6105957,
+                "punctuated_word": "pen,"
+              },
+              {
+                "end": 198.445,
+                "word": "that",
+                "start": 198.045,
+                "confidence": 0.9790039,
+                "punctuated_word": "that"
+              },
+              {
+                "end": 198.925,
+                "word": "pen",
+                "start": 198.445,
+                "confidence": 0.75146484,
+                "punctuated_word": "pen,"
+              },
+              {
+                "end": 199.085,
+                "word": "other",
+                "start": 198.925,
+                "confidence": 0.2524414,
+                "punctuated_word": "other"
+              },
+              {
+                "end": 200.065,
+                "word": "those",
+                "start": 199.565,
+                "confidence": 0.99609375,
+                "punctuated_word": "those"
+              },
+              {
+                "end": 201.70999,
+                "word": "those",
+                "start": 201.39,
+                "confidence": 0.99121094,
+                "punctuated_word": "those"
+              },
+              {
+                "end": 202.20999,
+                "word": "phones",
+                "start": 201.70999,
+                "confidence": 0.93603516,
+                "punctuated_word": "phones"
+              },
+              {
+                "end": 203.23,
+                "word": "these",
+                "start": 202.91,
+                "confidence": 0.41357422,
+                "punctuated_word": "these"
+              },
+              {
+                "end": 203.73,
+                "word": "phones",
+                "start": 203.23,
+                "confidence": 0.9550781,
+                "punctuated_word": "phones"
+              },
+              {
+                "end": 204.59,
+                "word": "are",
+                "start": 204.34,
+                "confidence": 0.3479004,
+                "punctuated_word": "are"
+              },
+              {
+                "end": 204.91,
+                "word": "those",
+                "start": 204.59,
+                "confidence": 0.8857422,
+                "punctuated_word": "those"
+              },
+              {
+                "end": 205.41,
+                "word": "phones",
+                "start": 204.91,
+                "confidence": 0.60009766,
+                "punctuated_word": "phones."
+              },
+              {
+                "end": 216.195,
+                "word": "this",
+                "start": 215.695,
+                "confidence": 0.5553589,
+                "punctuated_word": "This,"
+              },
+              {
+                "end": 217.21501,
+                "word": "that",
+                "start": 216.815,
+                "confidence": 0.9448242,
+                "punctuated_word": "that,"
+              },
+              {
+                "end": 217.455,
+                "word": "this",
+                "start": 217.21501,
+                "confidence": 0.7312012,
+                "punctuated_word": "this,"
+              },
+              {
+                "end": 217.695,
+                "word": "and",
+                "start": 217.455,
+                "confidence": 0.9970703,
+                "punctuated_word": "and"
+              },
+              {
+                "end": 218.195,
+                "word": "those",
+                "start": 217.695,
+                "confidence": 0.96606445,
+                "punctuated_word": "those."
+              },
+              {
+                "end": 223.25,
+                "word": "the",
+                "start": 223.09,
+                "confidence": 0.6411133,
+                "punctuated_word": "The"
+              },
+              {
+                "end": 223.90999,
+                "word": "these",
+                "start": 223.40999,
+                "confidence": 0.95092773,
+                "punctuated_word": "these,"
+              },
+              {
+                "end": 225.10999,
+                "word": "that",
+                "start": 224.60999,
+                "confidence": 0.90966797,
+                "punctuated_word": "that."
+              },
+              {
+                "end": 225.90999,
+                "word": "these",
+                "start": 225.40999,
+                "confidence": 0.8310547,
+                "punctuated_word": "These,"
+              },
+              {
+                "end": 226.54999,
+                "word": "that",
+                "start": 226.04999,
+                "confidence": 0.9003906,
+                "punctuated_word": "that."
+              },
+              {
+                "end": 227.18999,
+                "word": "these",
+                "start": 226.68999,
+                "confidence": 0.9897461,
+                "punctuated_word": "These,"
+              },
+              {
+                "end": 227.98999,
+                "word": "those",
+                "start": 227.48999,
+                "confidence": 0.97387695,
+                "punctuated_word": "those."
+              },
+              {
+                "end": 229.245,
+                "word": "these",
+                "start": 228.745,
+                "confidence": 0.89941406,
+                "punctuated_word": "These."
+              },
+              {
+                "end": 229.945,
+                "word": "that",
+                "start": 229.625,
+                "confidence": 0.28833008,
+                "punctuated_word": "That"
+              },
+              {
+                "end": 230.265,
+                "word": "is",
+                "start": 229.945,
+                "confidence": 0.86279297,
+                "punctuated_word": "is"
+              },
+              {
+                "end": 230.765,
+                "word": "this",
+                "start": 230.265,
+                "confidence": 0.85839844,
+                "punctuated_word": "this,"
+              },
+              {
+                "end": 231.865,
+                "word": "this",
+                "start": 231.625,
+                "confidence": 0.98217773,
+                "punctuated_word": "this,"
+              },
+              {
+                "end": 232.365,
+                "word": "this",
+                "start": 231.865,
+                "confidence": 0.9682617,
+                "punctuated_word": "this,"
+              },
+              {
+                "end": 233.16501,
+                "word": "these",
+                "start": 232.66501,
+                "confidence": 0.7993164,
+                "punctuated_word": "these."
+              },
+              {
+                "end": 234.745,
+                "word": "right",
+                "start": 234.265,
+                "confidence": 0.7553711,
+                "punctuated_word": "Right?"
+              },
+              {
+                "end": 235.245,
+                "word": "this",
+                "start": 234.745,
+                "confidence": 0.7805176,
+                "punctuated_word": "This."
+              },
+              {
+                "end": 236.2,
+                "word": "so",
+                "start": 235.7,
+                "confidence": 0.96875,
+                "punctuated_word": "So"
+              },
+              {
+                "end": 237.06,
+                "word": "this",
+                "start": 236.65999,
+                "confidence": 0.87719727,
+                "punctuated_word": "this,"
+              },
+              {
+                "end": 237.56,
+                "word": "these",
+                "start": 237.06,
+                "confidence": 0.94921875,
+                "punctuated_word": "these."
+              },
+              {
+                "end": 238.28,
+                "word": "mhmm",
+                "start": 237.78,
+                "confidence": 0.9871826,
+                "punctuated_word": "Mhmm."
+              },
+              {
+                "end": 262.45502,
+                "word": "mhmm",
+                "start": 261.95502,
+                "confidence": 0.95544434,
+                "punctuated_word": "Mhmm."
+              },
+              {
+                "end": 277.465,
+                "word": "mhmm",
+                "start": 276.965,
+                "confidence": 0.9810791,
+                "punctuated_word": "Mhmm."
+              }
+            ],
+            "confidence": 0.85839844,
+            "paragraphs": {
+              "paragraphs": [
+                {
+                  "end": 8.74,
+                  "start": 1.52,
+                  "num_words": 15,
+                  "sentences": [
+                    {
+                      "end": 4.18,
+                      "text": "Our doc, our actually, Nash.",
+                      "start": 1.52
+                    },
+                    {
+                      "end": 5.04,
+                      "text": "Right?",
+                      "start": 4.7999997
+                    },
+                    {
+                      "end": 6.64,
+                      "text": "Nash, yet NPS.",
+                      "start": 5.04
+                    },
+                    {
+                      "end": 7.12,
+                      "text": "Right?",
+                      "start": 6.64
+                    },
+                    {
+                      "end": 8.74,
+                      "text": "But ours are good doc.",
+                      "start": 7.12
+                    }
+                  ]
+                },
+                {
+                  "end": 72.149994,
+                  "start": 17.505,
+                  "num_words": 5,
+                  "sentences": [
+                    {
+                      "end": 17.93,
+                      "text": "Right?",
+                      "start": 17.505
+                    },
+                    {
+                      "end": 44.995,
+                      "text": "Mhmm.",
+                      "start": 44.495
+                    },
+                    {
+                      "end": 70.689995,
+                      "text": "Tag.",
+                      "start": 70.21
+                    },
+                    {
+                      "end": 71.189995,
+                      "text": "Tag.",
+                      "start": 70.689995
+                    },
+                    {
+                      "end": 72.149994,
+                      "text": "Mhmm.",
+                      "start": 71.649994
+                    }
+                  ]
+                },
+                {
+                  "end": 108.65,
+                  "start": 73.009995,
+                  "num_words": 7,
+                  "sentences": [
+                    {
+                      "end": 73.509995,
+                      "text": "Tag.",
+                      "start": 73.009995
+                    },
+                    {
+                      "end": 79.415,
+                      "text": "Mhmm.",
+                      "start": 78.915
+                    },
+                    {
+                      "end": 81.975,
+                      "text": "Super.",
+                      "start": 81.475
+                    },
+                    {
+                      "end": 99.165,
+                      "text": "Self assessment Okay.",
+                      "start": 85.85
+                    },
+                    {
+                      "end": 108.65,
+                      "text": "Okay.",
+                      "start": 108.15
+                    }
+                  ]
+                },
+                {
+                  "end": 226.54999,
+                  "start": 132.045,
+                  "num_words": 36,
+                  "sentences": [
+                    {
+                      "end": 136.065,
+                      "text": "These, that, this, and those.",
+                      "start": 132.045
+                    },
+                    {
+                      "end": 205.41,
+                      "text": "It has yet not it has this this this pen, that pen, other those those phones these phones are those phones.",
+                      "start": 193.405
+                    },
+                    {
+                      "end": 218.195,
+                      "text": "This, that, this, and those.",
+                      "start": 215.695
+                    },
+                    {
+                      "end": 225.10999,
+                      "text": "The these, that.",
+                      "start": 223.09
+                    },
+                    {
+                      "end": 226.54999,
+                      "text": "These, that.",
+                      "start": 225.40999
+                    }
+                  ]
+                },
+                {
+                  "end": 235.245,
+                  "start": 226.68999,
+                  "num_words": 11,
+                  "sentences": [
+                    {
+                      "end": 227.98999,
+                      "text": "These, those.",
+                      "start": 226.68999
+                    },
+                    {
+                      "end": 229.245,
+                      "text": "These.",
+                      "start": 228.745
+                    },
+                    {
+                      "end": 233.16501,
+                      "text": "That is this, this, this, these.",
+                      "start": 229.625
+                    },
+                    {
+                      "end": 234.745,
+                      "text": "Right?",
+                      "start": 234.265
+                    },
+                    {
+                      "end": 235.245,
+                      "text": "This.",
+                      "start": 234.745
+                    }
+                  ]
+                },
+                {
+                  "end": 277.465,
+                  "start": 235.7,
+                  "num_words": 6,
+                  "sentences": [
+                    {
+                      "end": 237.56,
+                      "text": "So this, these.",
+                      "start": 235.7
+                    },
+                    {
+                      "end": 238.28,
+                      "text": "Mhmm.",
+                      "start": 237.78
+                    },
+                    {
+                      "end": 262.45502,
+                      "text": "Mhmm.",
+                      "start": 261.95502
+                    },
+                    {
+                      "end": 277.465,
+                      "text": "Mhmm.",
+                      "start": 276.965
+                    }
+                  ]
+                }
+              ],
+              "transcript": "\nOur doc, our actually, Nash. Right? Nash, yet NPS. Right? But ours are good doc.\n\nRight? Mhmm. Tag. Tag. Mhmm.\n\nTag. Mhmm. Super. Self assessment Okay. Okay.\n\nThese, that, this, and those. It has yet not it has this this this pen, that pen, other those those phones these phones are those phones. This, that, this, and those. The these, that. These, that.\n\nThese, those. These. That is this, this, this, these. Right? This.\n\nSo this, these. Mhmm. Mhmm. Mhmm."
+            },
+            "transcript": "Our doc, our actually, Nash. Right? Nash, yet NPS. Right? But ours are good doc. Right? Mhmm. Tag. Tag. Mhmm. Tag. Mhmm. Super. Self assessment Okay. Okay. These, that, this, and those. It has yet not it has this this this pen, that pen, other those those phones these phones are those phones. This, that, this, and those. The these, that. These, that. These, those. These. That is this, this, this, these. Right? This. So this, these. Mhmm. Mhmm. Mhmm."
+          }
+        ]
+      }
+    ],
+    "paragraphs": {
+      "paragraphs": [
+        {
+          "end": 4.18,
+          "start": 1.52,
+          "channel": 1,
+          "num_words": 5,
+          "sentences": [
+            {
+              "end": 4.18,
+              "text": "Our doc, our actually, Nash.",
+              "start": 1.52
+            }
+          ]
+        },
+        {
+          "end": 4.18,
+          "start": 3.6799998,
+          "channel": 0,
+          "num_words": 1,
+          "sentences": [
+            {
+              "end": 4.18,
+              "text": "Okay.",
+              "start": 3.6799998
+            }
+          ]
+        },
+        {
+          "end": 8.74,
+          "start": 4.7999997,
+          "channel": 1,
+          "num_words": 10,
+          "sentences": [
+            {
+              "end": 5.04,
+              "text": "Right?",
+              "start": 4.7999997
+            },
+            {
+              "end": 6.64,
+              "text": "Nash, yet NPS.",
+              "start": 5.04
+            },
+            {
+              "end": 7.12,
+              "text": "Right?",
+              "start": 6.64
+            },
+            {
+              "end": 8.74,
+              "text": "But ours are good doc.",
+              "start": 7.12
+            }
+          ]
+        },
+        {
+          "end": 17.335,
+          "start": 10.435,
+          "channel": 0,
+          "num_words": 2,
+          "sentences": [
+            {
+              "end": 10.935,
+              "text": "Okay.",
+              "start": 10.435
+            },
+            {
+              "end": 17.335,
+              "text": "Okay.",
+              "start": 16.835
+            }
+          ]
+        },
+        {
+          "end": 17.93,
+          "start": 17.505,
+          "channel": 1,
+          "num_words": 1,
+          "sentences": [
+            {
+              "end": 17.93,
+              "text": "Right?",
+              "start": 17.505
+            }
+          ]
+        },
+        {
+          "end": 44.085,
+          "start": 19.37,
+          "channel": 0,
+          "num_words": 37,
+          "sentences": [
+            {
+              "end": 23.93,
+              "text": "Ivan has a blue bike and Stacy has a yellow bike.",
+              "start": 19.37
+            },
+            {
+              "end": 25.55,
+              "text": "Mine is red.",
+              "start": 24.57
+            },
+            {
+              "end": 28.865002,
+              "text": "They ride their bikes in the city.",
+              "start": 26.465
+            },
+            {
+              "end": 30.725,
+              "text": "I ride my bike in the park.",
+              "start": 28.865002
+            },
+            {
+              "end": 44.085,
+              "text": "His bike is blue, and and hers is yellow.",
+              "start": 35.41
+            }
+          ]
+        },
+        {
+          "end": 44.995,
+          "start": 44.495,
+          "channel": 1,
+          "num_words": 1,
+          "sentences": [
+            {
+              "end": 44.995,
+              "text": "Mhmm.",
+              "start": 44.495
+            }
+          ]
+        },
+        {
+          "end": 70.31,
+          "start": 46.945,
+          "channel": 0,
+          "num_words": 29,
+          "sentences": [
+            {
+              "end": 52.850002,
+              "text": "My my bike is red even, and Stacy ride.",
+              "start": 46.945
+            },
+            {
+              "end": 62.865,
+              "text": "Okay.",
+              "start": 62.545
+            },
+            {
+              "end": 66.145,
+              "text": "Evan and Stacy writes Dave's, in the city.",
+              "start": 62.865
+            },
+            {
+              "end": 68.245,
+              "text": "I write mine in the park.",
+              "start": 66.145
+            },
+            {
+              "end": 70.31,
+              "text": "So she's just calling me",
+              "start": 68.689995
+            }
+          ]
+        },
+        {
+          "end": 71.189995,
+          "start": 70.21,
+          "channel": 1,
+          "num_words": 2,
+          "sentences": [
+            {
+              "end": 70.689995,
+              "text": "Tag.",
+              "start": 70.21
+            },
+            {
+              "end": 71.189995,
+              "text": "Tag.",
+              "start": 70.689995
+            }
+          ]
+        },
+        {
+          "end": 71.99,
+          "start": 70.85,
+          "channel": 0,
+          "num_words": 4,
+          "sentences": [
+            {
+              "end": 71.49,
+              "text": "from the background.",
+              "start": 70.85
+            },
+            {
+              "end": 71.99,
+              "text": "Okay.",
+              "start": 71.49
+            }
+          ]
+        },
+        {
+          "end": 86.590004,
+          "start": 71.649994,
+          "channel": 1,
+          "num_words": 6,
+          "sentences": [
+            {
+              "end": 72.149994,
+              "text": "Mhmm.",
+              "start": 71.649994
+            },
+            {
+              "end": 73.509995,
+              "text": "Tag.",
+              "start": 73.009995
+            },
+            {
+              "end": 79.415,
+              "text": "Mhmm.",
+              "start": 78.915
+            },
+            {
+              "end": 81.975,
+              "text": "Super.",
+              "start": 81.475
+            },
+            {
+              "end": 86.590004,
+              "text": "Self assessment",
+              "start": 85.85
+            }
+          ]
+        },
+        {
+          "end": 89.740005,
+          "start": 89.240005,
+          "channel": 0,
+          "num_words": 1,
+          "sentences": [
+            {
+              "end": 89.740005,
+              "text": "Okay.",
+              "start": 89.240005
+            }
+          ]
+        },
+        {
+          "end": 136.065,
+          "start": 98.665,
+          "channel": 1,
+          "num_words": 7,
+          "sentences": [
+            {
+              "end": 99.165,
+              "text": "Okay.",
+              "start": 98.665
+            },
+            {
+              "end": 108.65,
+              "text": "Okay.",
+              "start": 108.15
+            },
+            {
+              "end": 136.065,
+              "text": "These, that, this, and those.",
+              "start": 132.045
+            }
+          ]
+        },
+        {
+          "end": 188.51,
+          "start": 151.17,
+          "channel": 0,
+          "num_words": 3,
+          "sentences": [
+            {
+              "end": 156.79,
+              "text": "Alright then.",
+              "start": 151.17
+            },
+            {
+              "end": 188.51,
+              "text": "Okay.",
+              "start": 188.01
+            }
+          ]
+        },
+        {
+          "end": 205.41,
+          "start": 193.405,
+          "channel": 1,
+          "num_words": 21,
+          "sentences": [
+            {
+              "end": 205.41,
+              "text": "It has yet not it has this this this pen, that pen, other those those phones these phones are those phones.",
+              "start": 193.405
+            }
+          ]
+        },
+        {
+          "end": 209.51,
+          "start": 209.01,
+          "channel": 0,
+          "num_words": 1,
+          "sentences": [
+            {
+              "end": 209.51,
+              "text": "Mhmm.",
+              "start": 209.01
+            }
+          ]
+        },
+        {
+          "end": 227.98999,
+          "start": 215.695,
+          "channel": 1,
+          "num_words": 12,
+          "sentences": [
+            {
+              "end": 218.195,
+              "text": "This, that, this, and those.",
+              "start": 215.695
+            },
+            {
+              "end": 225.10999,
+              "text": "The these, that.",
+              "start": 223.09
+            },
+            {
+              "end": 226.54999,
+              "text": "These, that.",
+              "start": 225.40999
+            },
+            {
+              "end": 227.98999,
+              "text": "These, those.",
+              "start": 226.68999
+            }
+          ]
+        },
+        {
+          "end": 228.78,
+          "start": 228.28,
+          "channel": 0,
+          "num_words": 1,
+          "sentences": [
+            {
+              "end": 228.78,
+              "text": "Mhmm.",
+              "start": 228.28
+            }
+          ]
+        },
+        {
+          "end": 229.245,
+          "start": 228.745,
+          "channel": 1,
+          "num_words": 1,
+          "sentences": [
+            {
+              "end": 229.245,
+              "text": "These.",
+              "start": 228.745
+            }
+          ]
+        },
+        {
+          "end": 229.34,
+          "start": 228.84,
+          "channel": 0,
+          "num_words": 1,
+          "sentences": [
+            {
+              "end": 229.34,
+              "text": "Okay.",
+              "start": 228.84
+            }
+          ]
+        },
+        {
+          "end": 230.265,
+          "start": 229.625,
+          "channel": 1,
+          "num_words": 2,
+          "sentences": [
+            {
+              "end": 230.265,
+              "text": "That is",
+              "start": 229.625
+            }
+          ]
+        },
+        {
+          "end": 230.595,
+          "start": 230.095,
+          "channel": 0,
+          "num_words": 1,
+          "sentences": [
+            {
+              "end": 230.595,
+              "text": "Yes.",
+              "start": 230.095
+            }
+          ]
+        },
+        {
+          "end": 232.365,
+          "start": 230.265,
+          "channel": 1,
+          "num_words": 3,
+          "sentences": [
+            {
+              "end": 232.365,
+              "text": "this, this, this,",
+              "start": 230.265
+            }
+          ]
+        },
+        {
+          "end": 232.515,
+          "start": 232.015,
+          "channel": 0,
+          "num_words": 1,
+          "sentences": [
+            {
+              "end": 232.515,
+              "text": "Yes.",
+              "start": 232.015
+            }
+          ]
+        },
+        {
+          "end": 233.16501,
+          "start": 232.66501,
+          "channel": 1,
+          "num_words": 1,
+          "sentences": [
+            {
+              "end": 233.16501,
+              "text": "these.",
+              "start": 232.66501
+            }
+          ]
+        },
+        {
+          "end": 234.755,
+          "start": 234.255,
+          "channel": 0,
+          "num_words": 1,
+          "sentences": [
+            {
+              "end": 234.755,
+              "text": "Okay.",
+              "start": 234.255
+            }
+          ]
+        },
+        {
+          "end": 238.28,
+          "start": 234.265,
+          "channel": 1,
+          "num_words": 6,
+          "sentences": [
+            {
+              "end": 234.745,
+              "text": "Right?",
+              "start": 234.265
+            },
+            {
+              "end": 235.245,
+              "text": "This.",
+              "start": 234.745
+            },
+            {
+              "end": 237.56,
+              "text": "So this, these.",
+              "start": 235.7
+            },
+            {
+              "end": 238.28,
+              "text": "Mhmm.",
+              "start": 237.78
+            }
+          ]
+        },
+        {
+          "end": 261.17,
+          "start": 246.585,
+          "channel": 0,
+          "num_words": 16,
+          "sentences": [
+            {
+              "end": 248.125,
+              "text": "This is my brother.",
+              "start": 246.585
+            },
+            {
+              "end": 249.88501,
+              "text": "He's married to Carla.",
+              "start": 248.18501
+            },
+            {
+              "end": 257.95,
+              "text": "Right.",
+              "start": 257.79
+            },
+            {
+              "end": 261.17,
+              "text": "These are the children, Sam and Claire.",
+              "start": 257.95
+            }
+          ]
+        },
+        {
+          "end": 262.45502,
+          "start": 261.95502,
+          "channel": 1,
+          "num_words": 1,
+          "sentences": [
+            {
+              "end": 262.45502,
+              "text": "Mhmm.",
+              "start": 261.95502
+            }
+          ]
+        },
+        {
+          "end": 276.76,
+          "start": 263.085,
+          "channel": 0,
+          "num_words": 19,
+          "sentences": [
+            {
+              "end": 267.025,
+              "text": "It's my younger brother over there.",
+              "start": 263.085
+            },
+            {
+              "end": 276.76,
+              "text": "That is my younger brother over there, and, and those are his dogs.",
+              "start": 269.405
+            }
+          ]
+        },
+        {
+          "end": 277.465,
+          "start": 276.965,
+          "channel": 1,
+          "num_words": 1,
+          "sentences": [
+            {
+              "end": 277.465,
+              "text": "Mhmm.",
+              "start": 276.965
+            }
+          ]
+        },
+        {
+          "end": 287.57498,
+          "start": 277.3,
+          "channel": 0,
+          "num_words": 14,
+          "sentences": [
+            {
+              "end": 278.6,
+              "text": "He loves them.",
+              "start": 277.3
+            },
+            {
+              "end": 279.975,
+              "text": "There.",
+              "start": 279.655
+            },
+            {
+              "end": 281.195,
+              "text": "He loves them.",
+              "start": 279.975
+            },
+            {
+              "end": 283.51498,
+              "text": "The dog are friendly.",
+              "start": 282.29498
+            },
+            {
+              "end": 287.57498,
+              "text": "This is scarf.",
+              "start": 284.29498
+            }
+          ]
+        },
+        {
+          "end": 299.91495,
+          "start": 287.57498,
+          "channel": 0,
+          "num_words": 8,
+          "sentences": [
+            {
+              "end": 288.395,
+              "text": "This is scarf.",
+              "start": 287.57498
+            },
+            {
+              "end": 294.49002,
+              "text": "Dusty over there.",
+              "start": 292.71002
+            },
+            {
+              "end": 299.91495,
+              "text": "This is",
+              "start": 299.09494
+            }
+          ]
+        }
+      ],
+      "transcript": "\nChannel 1: Our doc, our actually, Nash.\n\nChannel 0: Okay.\n\nChannel 1: Right? Nash, yet NPS. Right? But ours are good doc.\n\nChannel 0: Okay. Okay.\n\nChannel 1: Right?\n\nChannel 0: Ivan has a blue bike and Stacy has a yellow bike. Mine is red. They ride their bikes in the city. I ride my bike in the park. His bike is blue, and and hers is yellow.\n\nChannel 1: Mhmm.\n\nChannel 0: My my bike is red even, and Stacy ride. Okay. Evan and Stacy writes Dave's, in the city. I write mine in the park. So she's just calling me\n\nChannel 1: Tag. Tag.\n\nChannel 0: from the background. Okay.\n\nChannel 1: Mhmm. Tag. Mhmm. Super. Self assessment\n\nChannel 0: Okay.\n\nChannel 1: Okay. Okay. These, that, this, and those.\n\nChannel 0: Alright then. Okay.\n\nChannel 1: It has yet not it has this this this pen, that pen, other those those phones these phones are those phones.\n\nChannel 0: Mhmm.\n\nChannel 1: This, that, this, and those. The these, that. These, that. These, those.\n\nChannel 0: Mhmm.\n\nChannel 1: These.\n\nChannel 0: Okay.\n\nChannel 1: That is\n\nChannel 0: Yes.\n\nChannel 1: this, this, this,\n\nChannel 0: Yes.\n\nChannel 1: these.\n\nChannel 0: Okay.\n\nChannel 1: Right? This. So this, these. Mhmm.\n\nChannel 0: This is my brother. He's married to Carla. Right. These are the children, Sam and Claire.\n\nChannel 1: Mhmm.\n\nChannel 0: It's my younger brother over there. That is my younger brother over there, and, and those are his dogs.\n\nChannel 1: Mhmm.\n\nChannel 0: He loves them. There. He loves them. The dog are friendly. This is scarf.\n\nThis is scarf. Dusty over there. This is"
+    }
+  }
+}

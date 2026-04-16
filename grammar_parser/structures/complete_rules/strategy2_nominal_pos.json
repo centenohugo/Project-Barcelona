@@ -2,22 +2,293 @@
   "group": "NOMINAL_POS",
   "detection_method": "spacy.matcher.Matcher with POS/TAG sequences",
   "description": "Rules targeting noun-phrase-level structures: pronoun types, determiner use, noun phrase patterns, adjective/adverb modification, and prepositional phrases. Detected via POS tag sequences.",
-  "total_structures": 23,
+  "total_structures": 40,
   "categories": {
-    "DETERMINERS": 6,
-    "PRONOUNS": 14,
-    "ADJECTIVES": 1,
-    "ADVERBS": 2
+    "DETERMINERS": 10,
+    "PRONOUNS": 22,
+    "ADJECTIVES": 3,
+    "ADVERBS": 4,
+    "NOUNS": 1
   },
   "level_distribution": {
-    "A1": 0,
-    "A2": 11,
+    "A1": 13,
+    "A2": 12,
     "B1": 3,
-    "B2": 7,
+    "B2": 8,
     "C1": 1,
-    "C2": 1
+    "C2": 3
   },
   "structures": [
+    {
+      "id": "1741163708789x344483096716751800",
+      "category": "DETERMINERS",
+      "guideword": "FORM: 'A' + ADJECTIVES",
+      "levels": [
+        "A1"
+      ],
+      "lowest_level": "A1",
+      "pos_patterns": [
+        {
+          "LOWER": "a"
+        }
+      ],
+      "description": "determiner",
+      "examples": [
+        "You can make a quick snack, for example a sandwich. (A1 BREAKTHROUGH; 2006; German; Pass)\n\nWe have a big garden and a small swimming pool. (A1 BREAKTHROUGH; 2009; Arabic - Other; Pass)\n\nI like it beca"
+      ]
+    },
+    {
+      "id": "1741163714316x693313936907989500",
+      "category": "PRONOUNS",
+      "guideword": "FORM: 'EVERYTHING', SUBJECT",
+      "levels": [
+        "A1"
+      ],
+      "lowest_level": "A1",
+      "pos_patterns": [
+        {
+          "LOWER": "everything"
+        }
+      ],
+      "description": "pronoun",
+      "examples": [
+        "I hope everything is all right. (A1 BREAKTHROUGH; 2008; Polish; Pass)\n\n[talking about the countryside] Everything is nice and green there. (A1 BREAKTHROUGH; 2007; Slovak; Pass)"
+      ]
+    },
+    {
+      "id": "1741163706532x162687205151185180",
+      "category": "ADJECTIVES",
+      "guideword": "FORM: 'MY BEST FRIEND'",
+      "levels": [
+        "A1"
+      ],
+      "lowest_level": "A1",
+      "pos_patterns": [
+        {
+          "TAG": "JJ"
+        }
+      ],
+      "description": "adjective",
+      "examples": [
+        "She's my best friend. (A1 BREAKTHROUGH; 2006; Polish; Pass)\n\nShahin is my best friend. (A1 BREAKTHROUGH; 2006; Urdu; Pass)"
+      ]
+    },
+    {
+      "id": "1741163708146x551167324571377540",
+      "category": "ADVERBS",
+      "guideword": "FORM: 'VERY' + ADVERB",
+      "levels": [
+        "A1"
+      ],
+      "lowest_level": "A1",
+      "pos_patterns": [
+        {
+          "LOWER": "very"
+        }
+      ],
+      "description": "adverb",
+      "examples": [
+        "I hope you will be fine very soon. (A1 BREAKTHROUGH; 2009; Urdu; Pass)\n\nI like my job very much. (A1 BREAKTHROUGH; 2007; Mandarin; Pass)"
+      ]
+    },
+    {
+      "id": "1741163713867x281198469131771500",
+      "category": "PRONOUNS",
+      "guideword": "FORM: (OBJECT) 'IT'",
+      "levels": [
+        "A1"
+      ],
+      "lowest_level": "A1",
+      "pos_patterns": [
+        {
+          "LOWER": "it"
+        }
+      ],
+      "description": "pronoun",
+      "examples": [
+        "The maths is boring and I don't like it. (Skills for Life (Entry 1); A1; Portuguese)\n\nIf you can't find it, call me. (Skills for Life (Entry 1); A1; Turkish)\n\nDo you like it too? (Skills for Life (Ent"
+      ]
+    },
+    {
+      "id": "1741163713867x710371035379195900",
+      "category": "PRONOUNS",
+      "guideword": "FORM: (OBJECT) 'ME', 'YOU', 'HER', 'HIM', 'US', 'THEM' ",
+      "levels": [
+        "A1"
+      ],
+      "lowest_level": "A1",
+      "pos_patterns": [
+        {
+          "LOWER": {
+            "IN": [
+              "her",
+              "him",
+              "me",
+              "them",
+              "us",
+              "you"
+            ]
+          }
+        }
+      ],
+      "description": "pronoun",
+      "examples": [
+        "I'm very happy that you want to see me. (Skills for Life (Entry 1); A1; German)\n\nI can see her on Saturday at 8 pm. (Skills for Life (Entry 1); A1; Arabic)\n\nIt protects us from rain, wind and sun. (Sk"
+      ]
+    },
+    {
+      "id": "1741163711829x787492176446619900",
+      "category": "NOUNS",
+      "guideword": "FORM: AS OBJECTS",
+      "levels": [
+        "A1"
+      ],
+      "lowest_level": "A1",
+      "pos_patterns": [
+        {
+          "TAG": {
+            "IN": [
+              "NN",
+              "NNS"
+            ]
+          }
+        }
+      ],
+      "description": "noun",
+      "examples": [
+        "I love my house. (Thai, A1 BREAKTHROUGH)\n\nWhen I have time, I visit my family. (Portuguese, A1 BREAKTHROUGH)"
+      ]
+    },
+    {
+      "id": "1741163714316x468029054820445100",
+      "category": "PRONOUNS",
+      "guideword": "FORM: OBJECT",
+      "levels": [
+        "A1"
+      ],
+      "lowest_level": "A1",
+      "pos_patterns": [
+        {
+          "TAG": {
+            "IN": [
+              "PRP",
+              "PRP$"
+            ]
+          }
+        }
+      ],
+      "description": "pronoun",
+      "examples": [
+        "I like doing everything at College because I love my college … (A1 BREAKTHROUGH; 2007; Arabic - Other; Pass)\n\nI like to eat everything. (A1 BREAKTHROUGH; 2006; Polish; Pass)\n\nI can clean your house an"
+      ]
+    },
+    {
+      "id": "1741163708789x819248395543273500",
+      "category": "DETERMINERS",
+      "guideword": "FORM: PREPOSITION + 'THE' + NOUN",
+      "levels": [
+        "A1"
+      ],
+      "lowest_level": "A1",
+      "pos_patterns": [
+        {
+          "LOWER": "the"
+        }
+      ],
+      "description": "determiner",
+      "examples": [
+        "I work at the weekend and I'm very busy from Monday to Friday. (A1 BREAKTHROUGH; 2008; Polish; Pass)\n\nI can come to see you on Friday in the morning. (A1 BREAKTHROUGH; 2009; Thai; Pass)"
+      ]
+    },
+    {
+      "id": "1741163706326x912859360099482800",
+      "category": "ADJECTIVES",
+      "guideword": "FORM: WITH 'VERY' ",
+      "levels": [
+        "A1"
+      ],
+      "lowest_level": "A1",
+      "pos_patterns": [
+        [
+          {
+            "LOWER": {
+              "IN": [
+                "very",
+                "quite",
+                "really"
+              ]
+            }
+          },
+          {
+            "TAG": "JJ"
+          }
+        ]
+      ],
+      "description": "adjective",
+      "examples": [
+        "I like Croydon because it's very quiet and very nice. (A1 BREAKTHROUGH; Farsi)\n\nMy neighbours are very friendly. (A1; Slovak)"
+      ]
+    },
+    {
+      "id": "1741163709005x427091401714639400",
+      "category": "DETERMINERS",
+      "guideword": "FORM: WITH NOUNS",
+      "levels": [
+        "A1"
+      ],
+      "lowest_level": "A1",
+      "pos_patterns": [
+        {
+          "TAG": "DT"
+        }
+      ],
+      "description": "determiner",
+      "examples": [
+        "I live with my family. My home is a flat. (A1 BREAKTHROUGH; 2009; Urdu; Pass)\n\n… my neighbours are very nice and helpful. (A1 BREAKTHROUGH; 2009; Panjabi; Pass)\n\nI like my teachers. (A1 BREAKTHROUGH; "
+      ]
+    },
+    {
+      "id": "1741163708998x669595367530949600",
+      "category": "DETERMINERS",
+      "guideword": "USE: 'THIS', FUTURE",
+      "levels": [
+        "A1"
+      ],
+      "lowest_level": "A1",
+      "pos_patterns": [
+        {
+          "LOWER": "this"
+        }
+      ],
+      "description": "determiner",
+      "examples": [
+        "… this summer I want to spend my holiday in my country, Bulgaria. (A1 BREAKTHROUGH; 2011; Bengali; Pass)\n\nI have a good plan for this weekend. (A1 BREAKTHROUGH; 2011; Polish; Pass)\n\nI'll call you this"
+      ]
+    },
+    {
+      "id": "1741163706537x909158263292138100",
+      "category": "ADVERBS",
+      "guideword": "USE: TIME",
+      "levels": [
+        "A1",
+        "A2",
+        "B1",
+        "B2"
+      ],
+      "lowest_level": "A1",
+      "pos_patterns": [
+        {
+          "TAG": "RB"
+        }
+      ],
+      "description": "adverb",
+      "examples": [
+        "Take care. See you soon. (A1 BREAKTHROUGH; 2009; Turkish; Pass)\n\nGet well soon. (A1 BREAKTHROUGH; 2009; Polish; Pass)",
+        "Yesterday I went shopping. (Hungary; A2 WAYSTAGE; 2008; Hungarian; Pass)\n\nI've just seen your mail. (France; A2 WAYSTAGE; 2007; French; Pass)\n\nI am working very hard now because I want to earn some mo",
+        "Dear Kate, I went to the cinema with a new friend recently. (Brazil; B1 THRESHOLD; 2002; Portuguese; Pass)\n\nI immediately called her to see if everything was O.K. (Italy; B1 THRESHOLD; 2008; Italian; ",
+        "I look forward hearing from you shortly and I thank you in advance. (Spain; B2 VANTAGE; 1998; Catalan; Pass)\n\nIt sounded like a muffled laugh, and she instantly recognised it as her mother's. (Sloveni"
+      ]
+    },
     {
       "id": "1741163709230x682584219326611800",
       "category": "DETERMINERS",
@@ -34,8 +305,7 @@
       "description": "determiner",
       "examples": [
         "There are n't many tickets. (other; A2 WAYSTAGE; 2010; Others; Pass)\n\nI bought them because I have n't got many winter clothes. (Spain; A2 WAYSTAGE; 2008; Spanish - European; Pass)"
-      ],
-      "explanation": "'Not many' — negative quantifier for countable nouns expressing a small number (e.g. 'There aren't many people here')."
+      ]
     },
     {
       "id": "1741163713637x587743601652187500",
@@ -53,8 +323,7 @@
       "description": "pronoun",
       "examples": [
         "I bought a new jacket because mine was very old. (Key English Test; A2; Italian)\n\nI bought a pullover and trousers because mine are too small for me. (Key English Test; A2; Korean)\n\nThe phone is not m"
-      ],
-      "explanation": "'Mine' — first-person possessive pronoun replacing a noun phrase (e.g. 'That bag is mine')."
+      ]
     },
     {
       "id": "1741163709012x123278635116746530",
@@ -72,8 +341,7 @@
       "description": "determiner",
       "examples": [
         "But we didn't have much money, so we didn't buy many things. (Vietnam; A2 WAYSTAGE; 2009; Vietnamese; Pass)\n\nI want to sell the television because I haven't got much time to watch it. (France; A2 WAYS"
-      ],
-      "explanation": "'Not much' — negative quantifier for uncountable nouns expressing a small amount (e.g. 'There isn't much time')."
+      ]
     },
     {
       "id": "1741163714104x984668926241232300",
@@ -91,8 +359,7 @@
       "description": "pronoun",
       "examples": [
         "[talking about a phone] I chose the black one with the numbers in orange. (Spain; A2 WAYSTAGE; 2007; Spanish - European; Pass)\n\nI bought a new pullover, because my old one is too small. (Romania; A2 W"
-      ],
-      "explanation": "'One' — impersonal pronoun referring to people in general, or substituting for a previously mentioned noun (e.g. 'One never knows')."
+      ]
     },
     {
       "id": "1741163714098x499091268404870700",
@@ -111,8 +378,7 @@
       "examples": [
         "That was amazing. (Peru; A2 WAYSTAGE; 2007; Spanish - Latin American; Pass)\n\nAfter that, we can go and drink a cup of coffee and eat a piece of cake. (Mexico; A2 WAYSTAGE; 2003; Spanish - Latin Americ",
         "I also want to see that film. (Myanmar; A2 WAYSTAGE; 2003; Burmese; Pass)\n\nI know we have that course in our college. (A2 WAYSTAGE; 2007; Spanish - Other; Pass)"
-      ],
-      "explanation": "'That' as demonstrative pronoun — replaces a noun already mentioned (e.g. 'I prefer that')."
+      ]
     },
     {
       "id": "1741163709000x205393325500403900",
@@ -130,8 +396,7 @@
       "description": "determiner",
       "examples": [
         "I bought these clothes because they weren't expensive. (Spain; A2 WAYSTAGE; 2008; Spanish - European; Pass)\n\nI bought these things because they were perfect. (Greece; A2 WAYSTAGE; 2008; Greek; Pass)\n\n"
-      ],
-      "explanation": "'These' — plural demonstrative pointing to things nearby (e.g. 'These books are mine')."
+      ]
     },
     {
       "id": "1741163709001x956266227421554000",
@@ -149,8 +414,7 @@
       "description": "determiner",
       "examples": [
         "The cost of those clothes was £300. (Malaysia; A2 WAYSTAGE; 2008; Chinese; Pass)\n\nI love to play those instruments. (Sri Lanka; A2 WAYSTAGE; 2010; Singhalese; Pass)"
-      ],
-      "explanation": "'Those' — plural demonstrative pointing to things further away (e.g. 'Those shoes look great')."
+      ]
     },
     {
       "id": "1741163713637x278356900298243550",
@@ -168,8 +432,7 @@
       "description": "pronoun",
       "examples": [
         "It was my best present, although I also loved yours. (Key English Test; A2; Spanish-European)\n\nMy favourite meal is spaghetti with garlic bread. What's yours? (Key English Test for Schools; A2; Tagalo"
-      ],
-      "explanation": "'Yours' as object — second-person possessive pronoun used as the object (e.g. 'I took yours by mistake')."
+      ]
     },
     {
       "id": "1741163714317x657607295889508100",
@@ -187,8 +450,7 @@
       "description": "pronoun",
       "examples": [
         "You don't have to bring anything. (Italy; A2 WAYSTAGE; 2006; Italian; Pass)\n\nWhen I want to eat something in the night, I can't find anything because it is too dark. (A2 WAYSTAGE; 2009; Polish; Pass)"
-      ],
-      "explanation": "Negative 'anything' — 'not + anything' (or 'nothing') to express a complete absence (e.g. 'I don't know anything about it')."
+      ]
     },
     {
       "id": "1741163706326x982625360706106900",
@@ -211,8 +473,7 @@
       "description": "adjective",
       "examples": [
         "It was sunny and really hot every day! (Argentina; A2 WAYSTAGE; 2009; Spanish - Latin American; Pass)\n\nI'm so happy because we can have a party for my birthday together! (Italy; A2 WAYSTAGE; 2009; Cro"
-      ],
-      "explanation": "Adjective with degree adverb — intensifier or softener modifying an adjective (e.g. 'very big', 'quite interesting', 'rather cold')."
+      ]
     },
     {
       "id": "1741163714317x316233802350039740",
@@ -230,8 +491,25 @@
       "description": "pronoun",
       "examples": [
         "After the concert we can have a pizza or something else. (Spain; A2 WAYSTAGE; 2010; Spanish - European; Pass)\n\nYou do not have to bring any food, but I will pleased if you could bring something to dri"
+      ]
+    },
+    {
+      "id": "1741163714319x695175885408785500",
+      "category": "PRONOUNS",
+      "guideword": "USE: 'YOU', GENERAL",
+      "levels": [
+        "A2"
       ],
-      "explanation": "'Something' in vague language — refers to an unspecified thing or softens a statement (e.g. 'There's something about this place')."
+      "lowest_level": "A2",
+      "pos_patterns": [
+        {
+          "LOWER": "you"
+        }
+      ],
+      "description": "pronoun",
+      "examples": [
+        "My new mobile phone can do lots of things! You can play games, you can take pictures. (Turkish, A2 WAYSTAGE, Pass, 2007)\n\nLet's say if you want to travel to China, you need to learn a little Chinese. "
+      ]
     },
     {
       "id": "1741163708793x822211978637164400",
@@ -249,8 +527,7 @@
       "description": "determiner",
       "examples": [
         "Every 5 minutes, he makes another great joke. (Germany; B1 THRESHOLD; 2001; German; Pass)\n\nMaria cried, but after a few minutes, she dried her tears and said: \"Tomorrow will be another day! (Peru; B1 "
-      ],
-      "explanation": "'Another' — determiner meaning 'one more' or 'a different one' (e.g. 'Can I have another coffee?')."
+      ]
     },
     {
       "id": "1741163714110x132568523130677460",
@@ -268,8 +545,7 @@
       "description": "pronoun",
       "examples": [
         "My pillows are getting old and I need new ones. (Brazil; B1 THRESHOLD; 2001; Portuguese; Pass)\n\nTo tell the truth, I prefer large schools to small ones. (Russia; B1 THRESHOLD; 2008; Russian; Pass)\n\nWe"
-      ],
-      "explanation": "'Ones' — pronoun substituting for a plural noun already mentioned (e.g. 'The red ones are better')."
+      ]
     },
     {
       "id": "1741163713638x869888127836414100",
@@ -292,8 +568,7 @@
       "description": "pronoun",
       "examples": [
         "Hope you have a friend as good as mine! (Preliminary English Test for Schools; Malaysia; B1 THRESHOLD; 2009; Chinese; Pass)\n\nMy bedroom is not as big as yours but it is lovely. (Preliminary English Te"
-      ],
-      "explanation": "Possessive pronoun in comparisons — 'mine'/'yours' inside a comparative clause (e.g. 'Her score is higher than mine')."
+      ]
     },
     {
       "id": "1741163708146x347057405549150660",
@@ -311,8 +586,7 @@
       "description": "adverb",
       "examples": [
         "Never have I seen such a realistic and impressive film before. (Argentina; B2 VANTAGE; 2008; Spanish - Latin American; Pass)\n\nNever had I thought that my parents would do this to me. (Netherlands; B2 "
-      ],
-      "explanation": "Fronted 'never' with inversion — 'never' at the front of a clause for emphasis, followed by auxiliary before subject (e.g. 'Never had I felt so tired')."
+      ]
     },
     {
       "id": "1741163713638x866856905336536400",
@@ -330,8 +604,7 @@
       "description": "pronoun",
       "examples": [
         "At the entrance, the security guard asked for my identity card. Pat gave hers. (First Certificate in English; B2; French)\n\nShe didn't remember leaving it there, it wasn't even hers, which is what frig"
-      ],
-      "explanation": "'Hers' as object — third-person feminine possessive pronoun (e.g. 'I borrowed hers')."
+      ]
     },
     {
       "id": "1741163713638x152872542688260900",
@@ -349,8 +622,7 @@
       "description": "pronoun",
       "examples": [
         "Can we rent windsurf boards or should we bring ours with us? (First Certificate in English; B2; Turkish)\n\n[talking about characters in a book] … when we read about them we think that we are the charac"
-      ],
-      "explanation": "'Ours' as object — first-person plural possessive pronoun (e.g. 'They took ours by mistake')."
+      ]
     },
     {
       "id": "1741163713861x561082941367103500",
@@ -368,8 +640,7 @@
       "description": "pronoun",
       "examples": [
         "I could show them the traditional things of our country and learn theirs. (Portugal; B2 VANTAGE; 1993; Portuguese; Pass)\n\nShe told him that this baby was theirs. (Germany; B2 VANTAGE; 1997; Turkish; P"
-      ],
-      "explanation": "'Theirs' as object — third-person plural possessive pronoun (e.g. 'We saw theirs first')."
+      ]
     },
     {
       "id": "1741163713638x185275902393746900",
@@ -392,8 +663,7 @@
       "description": "pronoun",
       "examples": [
         "I told my mother that your Spanish omelette is better than hers. (First Certificate in English; B2; Spanish – European) \n\nLots of changes which may occur during the next fifty years can make us fear t"
-      ],
-      "explanation": "Possessive pronoun in comparisons — 'ours'/'hers' in a comparative structure (e.g. 'Their house is bigger than ours')."
+      ]
     },
     {
       "id": "1741163713864x227611017911317760",
@@ -411,8 +681,30 @@
       "description": "pronoun",
       "examples": [
         "In my opinion, the main characters do not have to be liked by readers but the story itself must be good and interesting to be successful. (First Certificate in English; B2; Swiss German)\n\nThe building"
+      ]
+    },
+    {
+      "id": "1741163714320x570187312160225660",
+      "category": "PRONOUNS",
+      "guideword": "USE: 'WE', 'US', GENERAL",
+      "levels": [
+        "B2"
       ],
-      "explanation": "'Itself' for emphasis — reflexive pronoun stressing that no one else is involved (e.g. 'The problem solved itself')."
+      "lowest_level": "B2",
+      "pos_patterns": [
+        {
+          "LOWER": {
+            "IN": [
+              "us",
+              "we"
+            ]
+          }
+        }
+      ],
+      "description": "pronoun",
+      "examples": [
+        "These days the car is everywhere, we can see cars all over the world. (Portugal; B2 VANTAGE; 1993; Portuguese; Pass)\n\nIn this film we can see the life of a female teenager … in South-Africa. (Switzerl"
+      ]
     },
     {
       "id": "1741163713864x114619505443246400",
@@ -430,8 +722,7 @@
       "description": "pronoun",
       "examples": [
         "Dear Sir/Madam, I am writing to you in response to the advertisement published by yourselves in \"the Traveller\" regarding The Trip of a Lifetime. (First Certificate in English; B2; Portuguese)\n\nThe qu"
-      ],
-      "explanation": "'Yourselves' for politeness — reflexive used to address a group in a welcoming way (e.g. 'Please help yourselves')."
+      ]
     },
     {
       "id": "1741163709233x320864481076375400",
@@ -454,8 +745,7 @@
       "description": "determiner",
       "examples": [
         "Second, we would draw your attention to the fact that neither party could foresee or predict the recent rise in the price of wheat. (Russia; C1 EFFECTIVE OPERATIONAL PROFICIENCY; 2007; Russian; Pass)\n"
-      ],
-      "explanation": "'Either'/'neither' with singular noun — used to choose between or exclude two options (e.g. 'Either option works', 'Neither side agreed')."
+      ]
     },
     {
       "id": "1741163708146x422722508652768400",
@@ -473,8 +763,49 @@
       "description": "adverb",
       "examples": [
         "Hardly had he reached his front door when he heard the phone ringing. (Greece; C2 MASTERY; 1993; Greek; Pass)\n\nHardly had she finished her complaints when Bob stood up, paid and left. (Switzerland; C2"
+      ]
+    },
+    {
+      "id": "1741163713862x157795078394705100",
+      "category": "PRONOUNS",
+      "guideword": "FORM: 'HIS'",
+      "levels": [
+        "C2"
       ],
-      "explanation": "Fronted 'hardly' with inversion — negative adverb 'hardly' in initial position triggers subject-auxiliary inversion (e.g. 'Hardly had she left when it started raining')."
+      "lowest_level": "C2",
+      "pos_patterns": [
+        {
+          "LOWER": "his"
+        }
+      ],
+      "description": "pronoun",
+      "examples": [
+        "Therefore, his was not a happy and normal childhood. (C2 MASTERY; 1993; Spanish - Other; Fail)\n\nHe was my confidant and I was his. (Certificate of Proficiency in English; C2; Portuguese)\n\nIt was as if"
+      ]
+    },
+    {
+      "id": "1741163713862x925885380518367700",
+      "category": "PRONOUNS",
+      "guideword": "FORM: OF 'THEIRS', 'HERS', 'HIS'",
+      "levels": [
+        "C2"
+      ],
+      "lowest_level": "C2",
+      "pos_patterns": [
+        {
+          "LOWER": {
+            "IN": [
+              "hers",
+              "his",
+              "theirs"
+            ]
+          }
+        }
+      ],
+      "description": "pronoun",
+      "examples": [
+        "I was a great admirer of hers. (Certificate of Proficiency in English; C2; Greek)\n\nShe asked some old friends of hers and she went to the church where the marriage was taking place. (Greece; C2 MASTER"
+      ]
     }
   ]
 }

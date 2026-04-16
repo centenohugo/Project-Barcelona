@@ -72,6 +72,38 @@ def _normalise_patterns(raw: list) -> list:
     return result
 
 
+def _context_span(doc: Doc, start: int, end: int) -> tuple[int, int]:
+    """Compute a context window around a matched span for visualization.
+
+    Returns (ctx_start, ctx_end) token indices that are wider than the
+    matched span so that a UI can underline the full grammatical construction
+    (e.g. the whole relative clause, not just the verb inside it).
+
+    Strategy:
+      1. Find the syntactic root of the matched span.
+      2. If that root carries dep_=="ROOT" (sentence head), just expand by a
+         few tokens to avoid underlining the entire sentence.
+      3. Otherwise walk one level up (root.head) and take its full subtree,
+         capped at 12 tokens total. The original span is always included.
+    """
+    head = doc[start:end].root
+
+    if head.dep_ == "ROOT":
+        return max(0, start - 2), min(len(doc), end + 4)
+
+    subtree_tokens = sorted(head.head.subtree, key=lambda t: t.i)
+    ctx_start = subtree_tokens[0].i
+    ctx_end   = subtree_tokens[-1].i + 1
+
+    # Cap overly-wide subtrees
+    if ctx_end - ctx_start > 12:
+        ctx_start = max(ctx_start, start - 3)
+        ctx_end   = min(ctx_end,   end   + 8)
+
+    # Guarantee the original matched span is included
+    return min(ctx_start, start), max(ctx_end, end)
+
+
 def _dep_disambiguate(
     cat_a: str, cat_b: str, start: int, end: int, doc: Doc
 ) -> str | None:
@@ -274,6 +306,7 @@ class Group1Parser:
                 "levels": structure["levels"],
                 "lowest_level": structure["lowest_level"],
                 "lowest_level_numeric": CEFR_NUMERIC.get(structure["lowest_level"], 0),
+                "explanation": structure.get("explanation", ""),
             }
 
             # Matcher.add(key, patterns) — patterns is a list of token-dict-lists,
@@ -304,9 +337,12 @@ class Group1Parser:
             levels               list  e.g. ["A1", "A2", "B1"]
             lowest_level         str   e.g. "A1"
             lowest_level_numeric int   1–6
+            explanation          str   human-readable description of the rule
             span_text            str   matched token(s) as a string
             start_token          int   start token index in doc
             end_token            int   end token index (exclusive)
+            context_start_token  int   start of wider visualization context
+            context_end_token    int   end of wider visualization context
         """
         raw_matches = self._matcher(doc)
         results: list[dict[str, Any]] = []
@@ -326,6 +362,7 @@ class Group1Parser:
                 continue
 
             meta = self.structures[sid]
+            ctx_start, ctx_end = _context_span(doc, start, end)
             results.append({
                 "structure_id": sid,
                 "category": meta["category"],
@@ -333,9 +370,12 @@ class Group1Parser:
                 "levels": meta["levels"],
                 "lowest_level": meta["lowest_level"],
                 "lowest_level_numeric": meta["lowest_level_numeric"],
+                "explanation": meta["explanation"],
                 "span_text": doc[start:end].text,
                 "start_token": start,
                 "end_token": end,
+                "context_start_token": ctx_start,
+                "context_end_token": ctx_end,
             })
 
         if self._resolve:

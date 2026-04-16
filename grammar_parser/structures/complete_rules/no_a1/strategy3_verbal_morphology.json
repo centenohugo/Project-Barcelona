@@ -38,8 +38,7 @@
       "examples": [
         "If you want some help, I will be free next week. (Key English Test, A2, French)\n\nIf you go with your parents, you will go walking or swimming, but if you go with friends, you will have more fun. (Key "
       ],
-      "regex_pattern": "(?i)\\bif\\b",
-      "explanation": "Present simple in 'if' clauses — present tense in the condition of a real or likely conditional (e.g. 'If you need help, just ask')."
+      "regex_pattern": "(?i)\\bif\\b"
     },
     {
       "id": "1741163712747x157745710696413300",
@@ -58,8 +57,7 @@
       "examples": [
         "I haven't eaten Italian food for a long time. (Ecuador; A2 WAYSTAGE; 2003; Spanish - Latin American; Pass)\n\nI'm sorry I haven't written for so long. (Greece; A2 WAYSTAGE; 2009; Greek; Pass)\n\nI haven't"
       ],
-      "regex_pattern": "(?i)\\bfor\\b",
-      "explanation": "Past with 'for' — verb indicating duration in the past, used with 'for' (e.g. 'I waited for an hour', 'She had been waiting for days')."
+      "regex_pattern": "(?i)\\bfor\\b"
     },
     {
       "id": "1741163712047x673355343552202160",
@@ -78,8 +76,7 @@
       "examples": [
         "It was bought by my uncle. (China; A2 WAYSTAGE; 2004; Chinese; Pass)\n\nIt's made by Sony-Ericsson, I love it … (Italy; A2 WAYSTAGE; 2007; Italian; Pass)\n\n… it was written by an excellent author, Lev To"
       ],
-      "regex_pattern": "(?i)\\bby\\b",
-      "explanation": "Passive with 'by' — passive construction that identifies the agent (e.g. 'The book was written by Hemingway')."
+      "regex_pattern": "(?i)\\bby\\b"
     },
     {
       "id": "1741163712747x124721408738829090",
@@ -98,8 +95,7 @@
       "examples": [
         "[talking about a new mobile phone] I haven't seen it yet . (Cyprus; A2 WAYSTAGE; 2009; Greek; Pass)\n\n[talking about a book] It's very important because I haven't finished it yet. (Nepal; A2 WAYSTAGE; "
       ],
-      "regex_pattern": "(?i)\\byet\\b",
-      "explanation": "Past with 'yet' — present perfect asking or stating whether something expected has happened (e.g. 'Have you finished yet?', 'She hasn't arrived yet')."
+      "regex_pattern": "(?i)\\byet\\b"
     },
     {
       "id": "1741163712047x352927366474730100",
@@ -140,8 +136,7 @@
       "examples": [
         "It was built in 1880. (China; A2 WAYSTAGE; 2001; Chinese; Pass)\n\nOn Saturday morning I was invited to a sports competition. (India; A2 WAYSTAGE; 2007; Tamil; Pass)",
         "It was written in a strange language that I tried to translate. (B1 Spanish - Latin American)\n\nNext day, I heard that my neighbour's car was stolen. (B1 Polish)\n\nThey filmed the flowers and trees, and"
-      ],
-      "explanation": "Simple past passive — describes something done to the subject in the past (e.g. 'The car was repaired')."
+      ]
     },
     {
       "id": "1741163712740x766192438162604200",
@@ -160,8 +155,7 @@
       "examples": [
         "When I arrived, the weather was horrible. (Argentina; A2 WAYSTAGE; 2009; Spanish - Latin American; Pass)\n\n[talking about a missing phone] I think I left it in the kitchen when I fell on the slippery f"
       ],
-      "regex_pattern": "(?i)\\bwhen\\b",
-      "explanation": "Past in 'when' clauses — past tense describing what happened at a specific time (e.g. 'I was reading when she called')."
+      "regex_pattern": "(?i)\\bwhen\\b"
     },
     {
       "id": "1741163712332x914076237100333000",
@@ -180,8 +174,7 @@
       "examples": [
         "If the weather had been better, we would have enjoyed it more. (Argentina; B1 THRESHOLD; 2003; Spanish - Latin American; Pass)\n\nIf you had gone there with me, you would have been happy. (Korea, South;"
       ],
-      "regex_pattern": "(?i)\\bif\\b",
-      "explanation": "Past in hypothetical 'if' clauses — past tense used for imaginary or unreal conditions (e.g. 'If I had more time, I would...')."
+      "regex_pattern": "(?i)\\bif\\b"
     },
     {
       "id": "1741163713101x501579906052687300",
@@ -200,8 +193,7 @@
       "examples": [
         "I have been here since August 2006. (B1 THRESHOLD; 2006; French; Pass)\n\nIt's been a long time since we went out together so I think we will have a great time at the park playing sports and chatting! ("
       ],
-      "regex_pattern": "(?i)\\bsince\\b",
-      "explanation": "Past with 'since' — present perfect indicating an ongoing situation that started at a point in the past (e.g. 'I've lived here since 2010')."
+      "regex_pattern": "(?i)\\bsince\\b"
     },
     {
       "id": "1741163713101x219481632919301660",
@@ -220,8 +212,7 @@
       "examples": [
         "I've already planned the party, bought his present, and most important of all, I 've already told everyone. (Mexico; B1 THRESHOLD; 2004; Spanish - Latin American; Pass)\n\nI have already bought a new ar"
       ],
-      "regex_pattern": "(?i)\\balready\\b",
-      "explanation": "Past with 'already' — present perfect showing something happened before expected or earlier than usual (e.g. 'She has already left')."
+      "regex_pattern": "(?i)\\balready\\b"
     },
     {
       "id": "1741163712056x895221609473611600",
@@ -240,8 +231,7 @@
       "examples": [
         "[talking about a mirror] I bought it because mine got broken, so I need it to see myself in it. (Mexico; B1 THRESHOLD; 2009; Spanish - Latin American; Pass)\n\nYou should be careful while you are crossi"
       ],
-      "regex_pattern": "(?i)\\b(get|gets|got|getting)\\b",
-      "explanation": "Get-passive — informal passive using 'get' instead of 'be' (e.g. 'He got fired last week')."
+      "regex_pattern": "(?i)\\b(get|gets|got|getting)\\b"
     },
     {
       "id": "1741163712332x475879228502143170",
@@ -264,8 +254,7 @@
       "description": "was/were + verb-ing",
       "examples": [
         "I felt really sorry for you after I had read your last letter. (Poland; B1 THRESHOLD; 2008; Polish; Pass)\n\n[…] I'd forgotten that I have an appointment with the doctor […] (Spanish - Latin American; P"
-      ],
-      "explanation": "Affirmative past tense — regular or irregular verb in the simple past, positive form (e.g. 'He walked', 'She went')."
+      ]
     },
     {
       "id": "1741163712048x834192566226660200",
@@ -283,8 +272,7 @@
       "description": "past participle (passive)",
       "examples": [
         "It is going to be shown this Friday. (B1 PET Turkish)\n\nAfter that, they printed an authorisation, form which had to be signed by my parents because I'm not over eighteen. (Spain; B1 THRESHOLD; 2008; S"
-      ],
-      "explanation": "Passive infinitive — 'to be + past participle' as a passive construction (e.g. 'It needs to be fixed', 'She wants to be promoted')."
+      ]
     },
     {
       "id": "1741163712049x264322572450322000",
@@ -307,8 +295,7 @@
       "description": "is being + past participle",
       "examples": [
         "The seminar is being held at Chennai in the next week. (India; B1 THRESHOLD; 2004; Marathi; Pass)\n\nWe are being visited by our Sales Director on Thursday morning. (Brazil; B1 THRESHOLD; 2001; Portugue"
-      ],
-      "explanation": "Passive continuous with future reference — passive in present continuous to describe a planned upcoming event (e.g. 'The building is being renovated next year')."
+      ]
     },
     {
       "id": "1741163712057x241065069713333200",
@@ -327,8 +314,7 @@
       "examples": [
         "After I left you on Monday, I had my car serviced and visited Washington with its wonderful memorials. (Germany; B2 VANTAGE; 1993; Dutch; Pass)\n\nIt's such a shame that I'm having my room redecorated b"
       ],
-      "regex_pattern": "(?i)\\b(have|has|had)\\b",
-      "explanation": "Causative 'have' — 'have something done' means arranging for someone else to do something for you (e.g. 'I had my hair cut')."
+      "regex_pattern": "(?i)\\b(have|has|had)\\b"
     },
     {
       "id": "1741163712333x181896863266680420",
@@ -347,8 +333,7 @@
       "examples": [
         "He was sleeping but I realised that this was because he had lost a lot of blood. (Greece; B2 VANTAGE; 1993; Greek; Pass)\n\nI was driving on to my parents' house because I had arranged to have dinner wi"
       ],
-      "regex_pattern": "(?i)\\bbecause\\b",
-      "explanation": "Past tense in 'because' clauses — past verb in a reason clause explaining why something happened (e.g. 'She left because she was tired')."
+      "regex_pattern": "(?i)\\bbecause\\b"
     },
     {
       "id": "1741163712333x761860144866407300",
@@ -367,8 +352,7 @@
       "examples": [
         "If only I had listened to my father! (Iran; B2 VANTAGE; 1993; Farsi; Pass)\n\nIf only I had met her before. (Spain; B2 VANTAGE; 1993; Spanish - European; Pass)\n\nI am sure, because at the end of the conc"
       ],
-      "regex_pattern": "(?i)\\b(if only|(wish|wishes|wished))\\b",
-      "explanation": "'Wish'/'if only' + past — expressing regret or a wish to change a present or past situation (e.g. 'I wish I had more time', 'If only I had known')."
+      "regex_pattern": "(?i)\\b(if only|(wish|wishes|wished))\\b"
     },
     {
       "id": "1741163713111x611310529067472800",
@@ -387,8 +371,7 @@
       "examples": [
         "I still haven't read the role but when I read it, I was very excited and I accepted Mr Brown's offer. (Greece; B2 VANTAGE; 2002; Greek; Pass)\n\nYou asked me whether I bought a computer or a bicycle and"
       ],
-      "regex_pattern": "(?i)\\bstill\\b",
-      "explanation": "Past with 'still' — past perfect or simple past showing a situation continued into a past moment (e.g. 'She was still working at midnight')."
+      "regex_pattern": "(?i)\\bstill\\b"
     },
     {
       "id": "1741163712050x914576942340939400",
@@ -411,8 +394,7 @@
       "description": "was/were + past participle",
       "examples": [
         "What is worse, the ticket price was not reduced despite the fact that I showed my student ID. (B2 Japanese)\n\nI had to go to the hospital because my back hurt so badly, and I wasn't allowed to work for"
-      ],
-      "explanation": "Negative past passive — 'was/were not + past participle' (e.g. 'The report wasn't submitted on time')."
+      ]
     },
     {
       "id": "1741163712056x332718835608695200",
@@ -431,8 +413,7 @@
       "examples": [
         "To sum up, it can be concluded that this report has attempted to summarize the main points regarding the Spanish educational system. (C1  Spanish - European)\n\nIn addition, it has been found that some "
       ],
-      "regex_pattern": "(?i)\\bit\\b",
-      "explanation": "Impersonal passive with 'it' — 'it is said/reported/believed that' to describe general opinion or formally attributed information (e.g. 'It is believed that the building dates from 1800')."
+      "regex_pattern": "(?i)\\bit\\b"
     },
     {
       "id": "1741163712743x286039195636331720",
@@ -451,8 +432,7 @@
       "examples": [
         "We did reach the target figure and we have sent about 85 percent of the money to the hospital. (C1, Portuguese)\n\n[in a letter defending the organisation of an event] We did have 34 games and one stall"
       ],
-      "regex_pattern": "(?i)\\bdid\\b",
-      "explanation": "Emphatic 'did' — auxiliary 'did' added in a positive sentence for emphasis or to contradict a negative assumption (e.g. 'I did try my best!')."
+      "regex_pattern": "(?i)\\bdid\\b"
     },
     {
       "id": "1741163712739x168032886753128670",
@@ -471,8 +451,7 @@
       "examples": [
         "If only she had not changed, if only I had helped her, maybe we would still be best friends and I would not be sitting here, writing about her! (Portugal; C2 MASTERY; 1993; Portuguese; Pass)\n\nIf only "
       ],
-      "regex_pattern": "(?i)\\bif only\\b",
-      "explanation": "'If only' + past perfect — expressing strong regret about a past situation that cannot be changed (e.g. 'If only I had listened to her')."
+      "regex_pattern": "(?i)\\bif only\\b"
     },
     {
       "id": "1741163715300x705868508262334800",
@@ -496,8 +475,7 @@
       "description": "verb + -ing",
       "examples": [
         "We enjoy playing the piano and singing together. (Iran; A2 WAYSTAGE; 2010; Farsi; Pass)\n\nYou know I really enjoy listening to music. (China; A2 WAYSTAGE; 2010; Chinese; Pass)"
-      ],
-      "explanation": "'Enjoy' + gerund — verb 'enjoy' is always followed by a verb in -ing form (e.g. 'She enjoys painting', 'Do you enjoy cooking?')."
+      ]
     },
     {
       "id": "1741163715608x423925668920691600",
@@ -521,8 +499,7 @@
       "description": "there is/are",
       "examples": [
         "I need it because there is some money in it which I have to pay to someone. (India; A2 WAYSTAGE; 2005; Malayalam; Pass)\n\nThere is some information about the new art class. (Spain; A2 WAYSTAGE; 2006; C"
-      ],
-      "explanation": "'There is' with uncountable noun — existential structure stating the existence of an uncountable thing (e.g. 'There is some water')."
+      ]
     },
     {
       "id": "1741163715608x515455874028492200",
@@ -546,8 +523,7 @@
       "description": "there is/are",
       "examples": [
         "There's a lot of people there. (Portugal; A2 WAYSTAGE; 2008; Portuguese; Pass)\n\nThere's a lot of clothes but they are very cheap. (Turkey; A2 WAYSTAGE; 2008; Turkish; Pass)\n\nYou can go to the town cen"
-      ],
-      "explanation": "'There is/are a lot of' — existential structure expressing a large quantity (e.g. 'There are a lot of people here')."
+      ]
     },
     {
       "id": "1741163709234x399877343853970240",
@@ -568,8 +544,7 @@
       "description": "will + verb",
       "examples": [
         "I'll be waiting for you. (Portugal; A2 WAYSTAGE; 2009; Portuguese; Pass)\n\nWe will be starting at 12 o'clock this afternoon. (Malaysia; A2 WAYSTAGE; 2006; Chinese; Pass)"
-      ],
-      "explanation": "'Will' in positive statements — 'will + base verb' for future predictions or decisions (e.g. 'It will rain tomorrow')."
+      ]
     },
     {
       "id": "1741163715289x979513878826105700",
@@ -588,8 +563,7 @@
       "description": "verb",
       "examples": [
         "It has been a long time since I saw you. (Cyprus; A2 WAYSTAGE; 2003; Greek; Pass)\n\nI have left my suitcase in your house. (India; A2 WAYSTAGE; 2005; Hindi; Pass)\n\nHave you got a mobile phone? (Italy; "
-      ],
-      "explanation": "Auxiliary 'have'/'do' — helper verb forming questions, negatives, or perfect tenses (e.g. 'Does she know?', 'Have you seen it?')."
+      ]
     },
     {
       "id": "1741163715620x591479199213417900",
@@ -620,8 +594,7 @@
       "examples": [
         "There are indeed many ways of doing this and it all seems very confusing. (Denmark; B2 VANTAGE; 1993; Danish; Pass)\n\nThe food is a little bit strange but tastes good. (Brazil; B2 VANTAGE; 1993; Portug",
         "It looks good on you. (Brazil; A2 WAYSTAGE; 2008; Portuguese; Pass)\n\nWe will really become good pen-friends. (China; A2 WAYSTAGE; 2002; Chinese; Pass)\n\nMake sure you wear something over your clothes s"
-      ],
-      "explanation": "Linking verb with complement — verb like 'seem', 'become', 'appear' connecting the subject to a description (e.g. 'He seems tired')."
+      ]
     },
     {
       "id": "1741163715289x911878511149574100",
@@ -650,8 +623,7 @@
       "description": "linking verb + complement",
       "examples": [
         "It makes me feel comfortable and the room looks bigger with the colour. (Thailand; A2 WAYSTAGE; 2006; Thai; Pass)\n\nMy bedroom will be blue because the colour blue always looks fresh and I like it if i"
-      ],
-      "explanation": "Linking verb + adjective — state verb followed by a describing adjective (e.g. 'She looks happy', 'It tastes good')."
+      ]
     },
     {
       "id": "1741163709454x624344823309990100",
@@ -672,8 +644,7 @@
       "description": "will + verb",
       "examples": [
         "Without them I will not be able to play football. (Spain; A2 WAYSTAGE; 2005; Spanish - European; Pass)\n\nCan you come at 7 o'clock? I won't be at home before.  (Italy; A2 WAYSTAGE; 2009; Italian; Pass)"
-      ],
-      "explanation": "'Won't' — 'will not/won't + base verb' for future negatives (e.g. 'She won't come')."
+      ]
     },
     {
       "id": "1741163715275x773962644446279300",
@@ -705,8 +676,7 @@
       "examples": [
         "I hope that you'll come. (India; A2 WAYSTAGE; 2009; Tamil; Pass)\n\nI think that it begins on 20 or 21 May. (Spain; A2 WAYSTAGE; 2006; Catalan; Pass)\n\nMy mother said that she can help us. (Peru; A2 WAYS",
         "Now you're sixteen, I totally understand that you don't want to go on holiday with your parents. (France; B1 THRESHOLD; 2008; French; Pass)\n\nWhen I got there, I realised that I wasn't the only winner."
-      ],
-      "explanation": "Reporting verb + 'that' clause — verb of thinking/saying followed by a 'that' clause (e.g. 'She told me that she was leaving')."
+      ]
     },
     {
       "id": "1741163715300x883778606119012300",
@@ -730,8 +700,7 @@
       "description": "verb + to-infinitive",
       "examples": [
         "I bought them because I hope to go to England this year and the weather isn't very good. (Italy; A2 WAYSTAGE; 2008; Italian; Pass)\n\nPlease remember to bring your pyjamas and your tooth brush. (Cyprus;"
-      ],
-      "explanation": "Verb + to-infinitive — verb followed by another verb in 'to + base form' (e.g. 'I want to go', 'She decided to stay')."
+      ]
     },
     {
       "id": "1741163715278x159320936860696930",
@@ -764,8 +733,7 @@
         "I heard about this club when I was watching T.V. and I wanted to check it out. (B1, French)\n\nI really like shopping for clothes, but I hate trying them on because always when I finish, the shop assist",
         "I will pick you up and arrange everything. (A2 Burmese)\n\nRing me up or send me an email if you have any questions. (A2 Basque)\n\nYou may need to throw it away, it'll be too dirty after painting. (Thail",
         "[talking about a band] I went to check them out last week and here is my review of the two concerts. (Denmark; C1 EFFECTIVE OPERATIONAL PROFICIENCY; 1998; Danish; Pass)\n\n[talking about a living room] "
-      ],
-      "explanation": "Separable phrasal verb — object pronoun placed between the verb and its particle (e.g. 'Turn it off', 'Pick them up')."
+      ]
     },
     {
       "id": "1741163715300x592015717221221800",
@@ -789,8 +757,7 @@
       "description": "verb + to-infinitive",
       "examples": [
         "I love to play football. (Thailand; A2 WAYSTAGE; 2007; Thai; Pass)\n\nI love to cook. (A2 WAYSTAGE; 2009; French; Pass)\n\nI prefer to play football but I often go to the gym. (A2 WAYSTAGE; 2009; Farsi; P"
-      ],
-      "explanation": "Verb + infinitive or gerund — verb that can be followed by either 'to + verb' or '-ing' form (e.g. 'start to run' / 'start running')."
+      ]
     },
     {
       "id": "1741163715277x859067269502848500",
@@ -809,8 +776,7 @@
       "description": "verb",
       "examples": [
         "I hope you can go, buddy. (Brazil; A2 WAYSTAGE; 2009; Portuguese; Pass)\n\nI think I left my phone there, maybe in your kitchen. (Italy; A2 WAYSTAGE; 2005; Italian; Pass)\n\nI think you should go visit th"
-      ],
-      "explanation": "Reporting verb without 'that' — verb of saying/thinking followed by a clause with no 'that' connector (e.g. 'I think you're right')."
+      ]
     },
     {
       "id": "1741163709666x240355824465352520",
@@ -829,8 +795,7 @@
       "description": "modal for future",
       "examples": [
         "I'll tell you more when I meet you. (Vietnam; A2 WAYSTAGE; 2009; Vietnamese; Pass)\n\nCan you, please, call me when you find it? (Brazil; A2 WAYSTAGE; 2005; Portuguese; Pass)"
-      ],
-      "explanation": "Future in 'when' clauses — present tense used in a 'when' clause that refers to the future (e.g. 'I'll call you when I arrive')."
+      ]
     },
     {
       "id": "1741163709666x869572460282350800",
@@ -849,8 +814,7 @@
       "description": "modal for future",
       "examples": [
         "I hope you enjoy your holiday too. (A2, Chinese)\n\nI hope you come to visit me soon. (A2, Spanish – Latin American)"
-      ],
-      "explanation": "'Hope' for the future — 'hope + present/future' to express a desired outcome (e.g. 'I hope it goes well')."
+      ]
     },
     {
       "id": "1741163709234x671025735588754300",
@@ -879,8 +843,7 @@
         "I'm working this Saturday and Sunday morning. (Spanish - European, A2 WAYSTAGE, Pass, 2009)\n\nWe are having the meal at 7pm. (A2 Polish)\n\nThey are going back on 20th July. (A2 Ukrainian)",
         "I’m attending my grandmother’s funeral tomorrow. (B1 Malay)\n\nWe’re expecting a child very soon. (B1 Chinese)\n\nThe movie is starting at 8 o’clock. (B1 Czech)",
         "We’re throwing a party for fun on 5th January. (B2 French)\n\nShe is joining the course on Friday. (B2 Dutch)"
-      ],
-      "explanation": "Arranged future — present continuous or 'going to' for fixed plans already organised (e.g. 'We are meeting tomorrow')."
+      ]
     },
     {
       "id": "1741163709461x970222053180020700",
@@ -901,8 +864,7 @@
       "description": "will + verb",
       "examples": [
         "Will you have a mobile phone? (France; A2 WAYSTAGE; 2007; French; Pass)\n\nWill you come by train? (Switzerland; A2 WAYSTAGE; 2009; Spanish - Other; Pass)"
-      ],
-      "explanation": "Spontaneous plans with 'will' — 'will' for on-the-spot decisions or stated intentions (e.g. 'I'll help you with that')."
+      ]
     },
     {
       "id": "1741163709461x479205549406747100",
@@ -923,8 +885,7 @@
       "description": "will + verb",
       "examples": [
         "Will you come tomorrow at 6.35 pm to my house? (Italy; A2 WAYSTAGE; 2009; Italian; Pass)\n\n[talking about a parcel] Will you send it for me? (Sri Lanka; A2 WAYSTAGE; 2005; Tamil; Pass)"
-      ],
-      "explanation": "Requests with 'will' — 'will you...?' to make a request (e.g. 'Will you help me?')."
+      ]
     },
     {
       "id": "1741163709462x817785568593135600",
@@ -945,8 +906,7 @@
       "description": "will + verb",
       "examples": [
         "My mother will drive us there. (Malaysia; A2 WAYSTAGE; 2008; Malay; Pass)\n\n… and my elder sister will help us too. (Bangladesh; A2 WAYSTAGE; 2006; Bengali; Pass)"
-      ],
-      "explanation": "Willingness with 'will' — 'will' expressing voluntary agreement or offer (e.g. 'I'll do it', 'I will if you want')."
+      ]
     },
     {
       "id": "1741163715599x226684987670247260",
@@ -970,8 +930,7 @@
       "description": "verb + to-infinitive",
       "examples": [
         "Let me know if it is suitable for you. (Brazil; B1 THRESHOLD; 2003; Portuguese; Fail)\n\nShe makes me smile when I'm sad. (Yugoslavia; B1 THRESHOLD; 2010; Serbian; Pass)\n\nShe always makes me laugh! (Bra"
-      ],
-      "explanation": "'Make'/'let' + bare infinitive — causative or permissive verb followed by an object and a base-form verb (e.g. 'She made me laugh', 'Let me go')."
+      ]
     },
     {
       "id": "1741163715608x234716564632592830",
@@ -995,8 +954,7 @@
       "description": "there is/are",
       "examples": [
         "[talking about 20 years in the future] There will be flying cars and buses, and big houses. (Uruguay; B1 THRESHOLD; 2007; Spanish - Latin American; Pass)\n\nIn the countryside there wouldn’t be so many "
-      ],
-      "explanation": "'There' with modal verb — existential structure using a modal (e.g. 'There must be a solution', 'There should be more options')."
+      ]
     },
     {
       "id": "1741163709234x709818430358317700",
@@ -1017,8 +975,7 @@
       "description": "will + verb",
       "examples": [
         "I would like you to know that I won't be attending your English class next week. (Argentina; B1 THRESHOLD; 2009; Spanish - Latin American; Pass)\n\nI won't be coming because my family and I are going on"
-      ],
-      "explanation": "Future negative B1 — 'will not/won't' in complex future contexts or with conditional nuance."
+      ]
     },
     {
       "id": "1741163715598x290277890004933000",
@@ -1042,8 +999,7 @@
       "description": "verb + to-infinitive",
       "examples": [
         "… it's one of the reasons I decided to change class. (France; B1 THRESHOLD; 2002; French; Pass)\n\nI'm going to buy pictures to hang on the wall, because my room seems to be very cold and very unfriendl"
-      ],
-      "explanation": "B1 verb + to-infinitive — wider range of verbs followed by 'to + verb' (e.g. 'She refused to leave', 'He managed to escape')."
+      ]
     },
     {
       "id": "1741163715599x760677529197165200",
@@ -1067,8 +1023,7 @@
       "description": "verb + to-infinitive",
       "examples": [
         "I would like you to come to a picnic on Saturday. (Argentina; B1 THRESHOLD; 2009; Spanish - Latin American; Pass)\n\nI would like you to come to my office on 16th of May to discuss the terms of the cont"
-      ],
-      "explanation": "Verb + object + to-infinitive — object placed before the infinitive (e.g. 'She asked him to stay', 'I want you to understand')."
+      ]
     },
     {
       "id": "1741163715278x988184472035387100",
@@ -1092,8 +1047,7 @@
       "description": "prepositional verb",
       "examples": [
         "I think also that you should say to your parents that you want to try a new experience with your friends. (Italy; B1 THRESHOLD; 2008; Italian; Pass)\n\n[about meeting a famous person] When I said to my "
-      ],
-      "explanation": "Verb + prepositional phrase + 'that' clause — complex reporting structure (e.g. 'He reminded me that I should call')."
+      ]
     },
     {
       "id": "1741163709236x469443168054973600",
@@ -1120,8 +1074,7 @@
       "description": "be going to",
       "examples": [
         "She was going to return it but she saw something very strange, her number was on the screen. (Argentina; B1 THRESHOLD; 2008; Spanish - Latin American; Pass)\n\nShe didn't know what was going to happen. "
-      ],
-      "explanation": "'Going to' — 'be going to + verb' for plans, intentions, or predictions based on present evidence (e.g. 'It's going to rain')."
+      ]
     },
     {
       "id": "1741163709462x760930219625040500",
@@ -1142,8 +1095,7 @@
       "description": "will + verb",
       "examples": [
         "The work will start at 8 a.m. and finish at 2 p.m. The new schedule starts on 1 June. (Russia; B1 THRESHOLD; 2007; Russian; Pass)\nI won't be able to get there at the time we agreed. (Mexico; B1 THRESH"
-      ],
-      "explanation": "Confirmed future with 'will' — 'will' for decisions already made or firm commitments (e.g. 'I will be there at 8')."
+      ]
     },
     {
       "id": "1741163709462x479959298523018100",
@@ -1164,8 +1116,7 @@
       "description": "will + verb",
       "examples": [
         "It will be hotter because of global warming.  (2246945_2; PET; Brazil; B1 THRESHOLD; 2007; Portuguese; Pass)\n But, if you go on holiday with your parents, there are some advantages too: you will not h"
-      ],
-      "explanation": "Predictions with 'will' — 'will' to make predictions about the future (e.g. 'She will probably pass the exam')."
+      ]
     },
     {
       "id": "1741163715608x437514984752567900",
@@ -1189,8 +1140,7 @@
       "description": "there is/are",
       "examples": [
         "I figured out that there had to be matches somewhere; Bob, who owned the cabin, had told me that it was well equipped. (Sweden; B2 VANTAGE; 1993; Swedish; Pass)\n\nIn the library there needs to be schoo"
-      ],
-      "explanation": "'There' + semi-modal — existential with a verb carrying modal meaning (e.g. 'There seems to be a problem', 'There happens to be one left')."
+      ]
     },
     {
       "id": "1741163715599x773097571519741400",
@@ -1214,8 +1164,7 @@
       "description": "verb + to-infinitive",
       "examples": [
         "He said if you need to change the time, remember to contact him to make a new appointment. (Malaysia; B2 VANTAGE; 1999; Chinese; Pass)\n\nI know it is difficult to get by with such a low salary but I am"
-      ],
-      "explanation": "Infinitive vs gerund — the same verb changes meaning depending on whether it is followed by 'to' or '-ing' (e.g. 'stop to think' vs 'stop thinking')."
+      ]
     },
     {
       "id": "1741163715275x932225330988349400",
@@ -1239,8 +1188,7 @@
       "description": "prepositional verb",
       "examples": [
         "In Poland rules that refer to how to dress at school aren't very strict; we don't wear any uniforms, but our clothes have to be clean and nice to look at. (Poland; B2 VANTAGE; 2000; Polish; Pass)\n\nBut"
-      ],
-      "explanation": "Stranded preposition — prepositional verb where the preposition is separated from its object, often at end of clause (e.g. 'the problem I was talking about')."
+      ]
     },
     {
       "id": "1741163715275x268506157109972930",
@@ -1267,8 +1215,7 @@
       "description": "phrasal-prepositional verb",
       "examples": [
         "Anyway, let me tell you what ideas I came up with. (Greece; C1 EFFECTIVE OPERATIONAL PROFICIENCY; 2003; Greek; Pass)\n\nSometimes in order to feel confident and to be inspired we need a person to look u"
-      ],
-      "explanation": "Phrasal-prepositional verb — complex verb (verb + particle + preposition) with the preposition at the end of the clause (e.g. 'something to put up with')."
+      ]
     }
   ]
 }

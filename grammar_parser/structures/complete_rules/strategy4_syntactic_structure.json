@@ -2,22 +2,76 @@
   "group": "SYNTACTIC_STRUCTURE",
   "detection_method": "spacy.matcher.DependencyMatcher + spacy.matcher.Matcher for interrogative structures",
   "description": "Rules requiring sentence-level syntactic analysis: clause types and embeddings, reported speech, focus/cleft constructions, and question forms. Detected via dependency arcs and structural patterns.",
-  "total_structures": 30,
+  "total_structures": 39,
   "categories": {
-    "CLAUSES": 21,
-    "FOCUS": 3,
-    "REPORTED SPEECH": 2,
-    "QUESTIONS": 4
+    "CLAUSES": 26,
+    "FOCUS": 4,
+    "REPORTED SPEECH": 3,
+    "QUESTIONS": 6
   },
   "level_distribution": {
-    "A1": 0,
+    "A1": 4,
     "A2": 13,
-    "B1": 11,
+    "B1": 15,
     "B2": 2,
     "C1": 1,
-    "C2": 3
+    "C2": 4
   },
   "structures": [
+    {
+      "id": "1741163708567x184494536538858620",
+      "category": "CLAUSES",
+      "guideword": "FORM/USE: 'BECAUSE', REASONS",
+      "levels": [
+        "A1"
+      ],
+      "lowest_level": "A1",
+      "dep_patterns": [
+        {
+          "type": "causal",
+          "pattern": [
+            {
+              "DEP": "advcl"
+            }
+          ]
+        }
+      ],
+      "description": "causal clause",
+      "examples": [
+        "I love her because she is friendly. (A1 BREAKTHROUGH; 2006; Bengali; Pass)\n\nI like my television because it is big and modern. (A1 BREAKTHROUGH; 2009; Arabic - Other; Pass)"
+      ],
+      "regex_pattern": "(?i)\\bbecause\\b"
+    },
+    {
+      "id": "1741163708329x286701804737242940",
+      "category": "CLAUSES",
+      "guideword": "FORM: AFFIRMATIVE DECLARATIVE",
+      "levels": [
+        "A1"
+      ],
+      "lowest_level": "A1",
+      "dep_patterns": [
+        {
+          "type": "subordinate",
+          "pattern": [
+            {
+              "DEP": {
+                "IN": [
+                  "ccomp",
+                  "xcomp",
+                  "advcl",
+                  "acl"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "description": "subordinate clause",
+      "examples": [
+        "I study English at college. (A1 BREAKTHROUGH; 2007; Mandarin; Pass)\n\nMy friend is a nurse. (A1 BREAKTHROUGH; 2006; Panjabi; Pass)\n\nI'm living in Manchester. (A1 BREAKTHROUGH; 2009; Kurdish; Pass)\n\nIt'"
+      ]
+    },
     {
       "id": "1741163708331x843997098925344500",
       "category": "CLAUSES",
@@ -47,8 +101,7 @@
       "examples": [
         "The concert will be in Canecão. Let's go!!! (Brazil; A2 WAYSTAGE; 2009; Portuguese; Pass)\n\nLet's go to the town centre, it is an interesting place. (China; A2 WAYSTAGE; 2001; Chinese; Pass)\n\nLet's mee"
       ],
-      "regex_pattern": "(?i)\\b(let'?s|(let|lets))\\b",
-      "explanation": "'Let's' suggestion — 'let's + base verb' to propose doing something together (e.g. 'Let's go for a walk')."
+      "regex_pattern": "(?i)\\b(let'?s|(let|lets))\\b"
     },
     {
       "id": "1741163715820x505908632783048000",
@@ -71,8 +124,7 @@
       "description": "focus construction",
       "examples": [
         "In the morning, I go to the beach. (Argentina; A2 WAYSTAGE; 2009; Spanish - Latin American; Pass)\n\nIn my country, the most popular food is Paella, which is a kind of rice with seafood, really tasty. ("
-      ],
-      "explanation": "Focus / emphasis — Prepositional phrases, fronting."
+      ]
     },
     {
       "id": "1741163715620x681820697260531000",
@@ -96,8 +148,7 @@
       "examples": [
         "It is 3 hours long, and if you want to pass it you will have to study very hard, it is very difficult. (Italy; A2 WAYSTAGE; 2006; Italian; Pass)\n\nIf you buy a gift for me, please buy a book, because I"
       ],
-      "regex_pattern": "(?i)\\bif\\b",
-      "explanation": "Real conditional — 'if' + present simple in the condition clause, describing a genuine possibility (e.g. 'If you come early, we can chat')."
+      "regex_pattern": "(?i)\\bif\\b"
     },
     {
       "id": "1741163708563x534984544701562900",
@@ -121,8 +172,7 @@
       "examples": [
         "The team that I like is called 'The Monkeys', but Paty prefers 'The Walls'. (Uruguay; A2 WAYSTAGE; 2007; Spanish - Latin American; Pass)\n\nI bought some clothes that I will need for my trip to Greece. "
       ],
-      "regex_pattern": "(?i)\\bthat\\b",
-      "explanation": "Defining relative clause with 'that' (object) — 'that' introduces a clause that identifies the noun, which is the object of the relative clause (e.g. 'the film that I watched')."
+      "regex_pattern": "(?i)\\bthat\\b"
     },
     {
       "id": "1741163708564x475588905228959040",
@@ -146,8 +196,7 @@
       "examples": [
         "I came to your house yesterday with the computer game which I borrowed from Mayank. (India; A2 WAYSTAGE; 2005; Hindi; Pass)\n\nThe coffee-cup which my good friend gave me is pretty. (China; A2 WAYSTAGE;"
       ],
-      "regex_pattern": "(?i)\\bwhich\\b",
-      "explanation": "Defining relative clause with 'which' (object) — 'which' identifies a thing that is the object of the relative clause (e.g. 'the car which I bought')."
+      "regex_pattern": "(?i)\\bwhich\\b"
     },
     {
       "id": "1741163708563x223728715353026530",
@@ -171,8 +220,7 @@
       "examples": [
         "It's about a girl who went to the war when she was 22 years old. (Mexico; A2 WAYSTAGE; 1999; Spanish - Latin American; Pass)\n\nI'd like a pen-friend who really likes music and reading. (China; A2 WAYST"
       ],
-      "regex_pattern": "(?i)\\bwho\\b",
-      "explanation": "Defining relative clause with 'who' (subject) — 'who' introduces a clause identifying the person by what they do (e.g. 'the woman who called', 'the man who lives next door')."
+      "regex_pattern": "(?i)\\bwho\\b"
     },
     {
       "id": "1741163708330x456690728495361200",
@@ -203,8 +251,7 @@
       "examples": [
         "I haven't eaten Italian food for a long time. (Ecuador; A2 WAYSTAGE; 2003; Spanish - Latin American; Pass)\n\n… now I haven't got any money. (Spain; A2 WAYSTAGE; 2005; Spanish - European; Pass)\n\nI bough"
       ],
-      "regex_pattern": "(?i)\\b(have|has|had)\\b",
-      "explanation": "Negative 'have' — 'don't/doesn't/didn't have' stating the absence of something (e.g. 'I don't have any money', 'She didn't have time')."
+      "regex_pattern": "(?i)\\b(have|has|had)\\b"
     },
     {
       "id": "1741163715817x739086227561965400",
@@ -228,8 +275,7 @@
       "examples": [
         "My mother said that she can take us there. (Brazil; A2 WAYSTAGE; 2008; Portuguese; Pass)\n\nThe teacher said that we have to bring a notebook, a pencil and a rubber. (Spain; A2 WAYSTAGE; 2006; Spanish -"
       ],
-      "regex_pattern": "(?i)\\b(say|says|said)\\b",
-      "explanation": "Reported speech with 'say' — converting direct speech to indirect using 'say', with tense backshift and pronoun changes (e.g. 'He said he was tired')."
+      "regex_pattern": "(?i)\\b(say|says|said)\\b"
     },
     {
       "id": "1741163715817x253069047706943500",
@@ -256,8 +302,7 @@
       "examples": [
         "[about a mobile phone] It's very important to me to have it with me because my brother is in the hospital and my father told me that he will call. (Argentina; A2 WAYSTAGE; 2005; Spanish - Latin Americ"
       ],
-      "regex_pattern": "(?i)\\b(tell|tells|told)\\b",
-      "explanation": "Reported speech with 'tell' — converting direct speech using 'tell + person', with tense and pronoun backshift (e.g. 'She told me she would come')."
+      "regex_pattern": "(?i)\\b(tell|tells|told)\\b"
     },
     {
       "id": "1741163708332x482855077867024000",
@@ -288,8 +333,7 @@
       "examples": [
         "Do write back and let me know all your news. (Spain; B1 THRESHOLD; 2008; Spanish - European; Pass)\n\nDo let me know your views on this. (India; B1 THRESHOLD; 2004; Others; Pass)\n\nDo follow the instruct"
       ],
-      "regex_pattern": "(?i)\\b(do|does|did)\\b",
-      "explanation": "Emphatic 'do' — auxiliary 'do/does/did' in an affirmative clause to add emphasis or contradict a prior statement (e.g. 'I do like your idea', 'She did warn us')."
+      "regex_pattern": "(?i)\\b(do|does|did)\\b"
     },
     {
       "id": "1741163715820x418754553525479940",
@@ -313,8 +357,7 @@
       "examples": [
         "It's great that you have got a new job! (Spain; B1 THRESHOLD; 2009; Spanish - European; Pass)\n\nIt's true that there are one or two programmes that are interesting or funny, but the rest... they're hor"
       ],
-      "regex_pattern": "(?i)\\b(that|it)\\b",
-      "explanation": "'It is + adjective + that' — structure emphasising the content of the 'that' clause (e.g. 'It is important that you attend', 'It is clear that she knows')."
+      "regex_pattern": "(?i)\\b(that|it)\\b"
     },
     {
       "id": "1741163708332x731099780769310200",
@@ -345,8 +388,7 @@
       "examples": [
         "Let me tell you my story. (Taiwan; B1 THRESHOLD; 2008; Chinese; Pass)\n\nLet me explain something. (Russia; B1 THRESHOLD; 2008; Russian; Pass)\n\nLet me answer your question. (Libya; B1 THRESHOLD; 2009; A"
       ],
-      "regex_pattern": "(?i)\\blet me\\b",
-      "explanation": "'Let me' + focus — 'let me + verb' to introduce an offer, clarification, or example (e.g. 'Let me explain', 'Let me show you')."
+      "regex_pattern": "(?i)\\blet me\\b"
     },
     {
       "id": "1741163708149x584991035733899400",
@@ -377,8 +419,30 @@
       "examples": [
         "Use the stairs rather than the lift, the bike rather than the tube and whenever you've got enough time, try running around the neighbourhood in the morning before going to work. (Colombia; B1 THRESHOL"
       ],
-      "regex_pattern": "(?i)\\brather than\\b",
-      "explanation": "'Rather than' contrast — shows preference or contrast between two options (e.g. 'She studied rather than going out')."
+      "regex_pattern": "(?i)\\brather than\\b"
+    },
+    {
+      "id": "1741163708150x563640914716471200",
+      "category": "CLAUSES",
+      "guideword": "FORM/USE: 'THE BEST (THAT)'",
+      "levels": [
+        "B1"
+      ],
+      "lowest_level": "B1",
+      "dep_patterns": [
+        {
+          "type": "that_clause",
+          "pattern": [
+            {
+              "DEP": "ccomp"
+            }
+          ]
+        }
+      ],
+      "description": "that-clause",
+      "examples": [
+        "It's the best place that I have ever seen. (Italy; B1 THRESHOLD; 2008; Italian; Pass)\n\nWell, the best decision that I've ever made was the decision to go to France for a year. (Germany; B1 THRESHOLD; "
+      ]
     },
     {
       "id": "1741163715624x965900869689892700",
@@ -409,8 +473,7 @@
       "examples": [
         "I think I am going to pay by cash, unless you accept credit cards. (B1 THRESHOLD; 2003; Pass)\n\nIf I were you I'd go to work on foot, unless it's far away from your house. (Libya; B1 THRESHOLD; 2009; A"
       ],
-      "regex_pattern": "(?i)\\bunless\\b",
-      "explanation": "'Unless' condition — negative conditional meaning 'except if' (e.g. 'I'll go unless it rains', 'Don't call unless it's urgent')."
+      "regex_pattern": "(?i)\\bunless\\b"
     },
     {
       "id": "1741163708565x386440393591908900",
@@ -441,8 +504,53 @@
       "examples": [
         "The day when he had to go back to Korea, I could not stop myself crying. (Korea, South; B1 THRESHOLD; 1999; Korean; Pass)\n\nI really remember the day when I lost my suitcase in the airport. (Mexico; B1"
       ],
-      "regex_pattern": "(?i)\\bwhen\\b",
-      "explanation": "'When' clause — temporal or focusing clause introduced by 'when' (e.g. 'When I was young, I loved climbing')."
+      "regex_pattern": "(?i)\\bwhen\\b"
+    },
+    {
+      "id": "1741163715625x693512709893246700",
+      "category": "CLAUSES",
+      "guideword": "FORM/USE: ELLIPTED 'IF SO', CONFIRMING",
+      "levels": [
+        "B1"
+      ],
+      "lowest_level": "B1",
+      "dep_patterns": [
+        {
+          "type": "conditional",
+          "pattern": [
+            {
+              "DEP": "advcl"
+            }
+          ]
+        }
+      ],
+      "description": "conditional clause",
+      "examples": [
+        "Do you think we could have an extra class? If so, I'd like to do it to cover the work I'll miss. (Brazil; B1 THRESHOLD; 2006; Portuguese; Pass)\n\nIs it possible to pay by credit card? If so, which ones"
+      ]
+    },
+    {
+      "id": "1741163708567x363468807312569340",
+      "category": "CLAUSES",
+      "guideword": "FORM/USE: REASON",
+      "levels": [
+        "B1"
+      ],
+      "lowest_level": "B1",
+      "dep_patterns": [
+        {
+          "type": "causal",
+          "pattern": [
+            {
+              "DEP": "advcl"
+            }
+          ]
+        }
+      ],
+      "description": "causal clause",
+      "examples": [
+        "I prefer to speak on 14 July, as I have got another appointment on the next day. (India; B1 THRESHOLD; 2009; Malayalam; Pass)\n\nI am going to be absent from my English class next week, as I am travelli"
+      ]
     },
     {
       "id": "1741163708344x316156631249672000",
@@ -473,8 +581,7 @@
       "examples": [
         "How exciting! (China; B1 THRESHOLD; 2003; Chinese; Pass)\n\nHow terrible! (Bosnia-Herzegovina; B1 THRESHOLD; 2008; Serbian; Pass)\n\nHow amazing! This is my first flight in a hot-air balloon. (China; B1 T"
       ],
-      "regex_pattern": "(?i)\\bhow\\b",
-      "explanation": "'How + adjective' — exclamatory or embedded question structure (e.g. 'How strange!', 'I know how difficult it is')."
+      "regex_pattern": "(?i)\\bhow\\b"
     },
     {
       "id": "1741163708150x419378332254151740",
@@ -505,8 +612,30 @@
       "examples": [
         "First of all, I think you are too young to go on holiday by yourself. (Cyprus; B1 THRESHOLD; 2008; Greek; Pass)\n\nHe always told me that he was too busy to write a letter to me. (France; B1 THRESHOLD; "
       ],
-      "regex_pattern": "(?i)\\btoo\\b",
-      "explanation": "'Too + to-infinitive' — 'too + adjective/adverb + to + verb' expresses that something is excessive and prevents an action (e.g. 'It's too heavy to lift')."
+      "regex_pattern": "(?i)\\btoo\\b"
+    },
+    {
+      "id": "1741163715817x804980721338935900",
+      "category": "REPORTED SPEECH",
+      "guideword": "FORM: REPORTED 'WH-' QUESTIONS",
+      "levels": [
+        "B1"
+      ],
+      "lowest_level": "B1",
+      "dep_patterns": [
+        {
+          "type": "reported_speech",
+          "pattern": [
+            {
+              "DEP": "ccomp"
+            }
+          ]
+        }
+      ],
+      "description": "reported speech",
+      "examples": [
+        "I asked why she was here. (Italy; B1 THRESHOLD; 1999; Italian; Pass)\n\nI phoned and asked what sports we could play in this club. (France; B1 THRESHOLD; 2003; French; Pass)\n\nWhen we asked why they were"
+      ]
     },
     {
       "id": "1741163708151x483888706062789900",
@@ -530,8 +659,7 @@
       "examples": [
         "I was excited and I felt as if I was a bird. (Japan; B1 THRESHOLD; 2003; Japanese; Pass)\n\nSo when you enter the restaurant you feel as if you are in Italy. (Italy; B1 THRESHOLD; 2005; German; Pass)\n\nI"
       ],
-      "regex_pattern": "(?i)\\b(as if|as though)\\b",
-      "explanation": "Sense verb + 'as if'/'as though' — linking verb followed by 'as if' or 'as though' to describe an impression (e.g. 'It sounds as if something is wrong')."
+      "regex_pattern": "(?i)\\b(as if|as though)\\b"
     },
     {
       "id": "1741163708565x251895365489699360",
@@ -562,8 +690,7 @@
       "examples": [
         "The city where I live is very nice and extremely charming. (B1 THRESHOLD; 2003; ; Pass)\n\nBut if they are going to a place where you go every year you should go with your friends, you will have more fu"
       ],
-      "regex_pattern": "(?i)\\bwhere\\b",
-      "explanation": "Relative clause with 'where' — 'where' modifies a place noun (e.g. 'the city where I grew up', 'the office where she works')."
+      "regex_pattern": "(?i)\\bwhere\\b"
     },
     {
       "id": "1741163708565x901437004568881900",
@@ -586,8 +713,7 @@
       "description": "relative clause",
       "examples": [
         "We have a new employee whose name is Mary Watts. (Spain; B1 THRESHOLD; 2002; Spanish - European; Pass)\n\nIt was a very famous football player, whose name was known all over the world. (Russia; B1 THRES"
-      ],
-      "explanation": "Relative clause with 'whose' — 'whose' introduces a clause showing possession or close relationship (e.g. 'the woman whose bag was stolen', 'the doctor whose name I forgot')."
+      ]
     },
     {
       "id": "1741163708332x403656410301087360",
@@ -618,8 +744,7 @@
       "examples": [
         "Let's not lose track of each other again! (Brazil; B2 VANTAGE; 2004; Portuguese; Pass)\n\nLet's not forget that zoos actually help us keep dying species alive …. (B2 VANTAGE; 1993; Swedish; Pass)\n\nLet's"
       ],
-      "regex_pattern": "(?i)\\b(let|lets)\\b",
-      "explanation": "'Let's not' — negative suggestion proposing to avoid doing something together (e.g. 'Let's not argue about this')."
+      "regex_pattern": "(?i)\\b(let|lets)\\b"
     },
     {
       "id": "1741163708151x444231442548491900",
@@ -650,8 +775,7 @@
       "examples": [
         "In my opinion young people at that age are not mature enough to decide by themselves what they want for their future. (B2 VANTAGE; 2009; German; Pass)\n\nI think I am responsible enough to handle this j"
       ],
-      "regex_pattern": "(?i)\\benough\\b",
-      "explanation": "'Enough + to-infinitive' — 'adjective + enough + to' expresses that the degree is sufficient for an action (e.g. 'He is old enough to drive', 'Is it warm enough to swim?')."
+      "regex_pattern": "(?i)\\benough\\b"
     },
     {
       "id": "1741163716065x166400508777969860",
@@ -675,8 +799,31 @@
       "examples": [
         "What we need is a strong publicity campaign, directed at young people. (Portugal; C1 EFFECTIVE OPERATIONAL PROFICIENCY; 1993; Portuguese; Pass)\n\nWhat everyone loved were the special effects and we wer"
       ],
-      "regex_pattern": "(?i)\\bwhat\\b",
-      "explanation": "'What' cleft clause — 'What + clause + is/was + focus' puts special emphasis on a part of the message (e.g. 'What I need is a rest', 'What surprised me was her reaction')."
+      "regex_pattern": "(?i)\\bwhat\\b"
+    },
+    {
+      "id": "1741163716067x147000311893029860",
+      "category": "FOCUS",
+      "guideword": "FORM/USE: 'IT' CLEFT",
+      "levels": [
+        "C2"
+      ],
+      "lowest_level": "C2",
+      "dep_patterns": [
+        {
+          "type": "focus",
+          "pattern": [
+            {
+              "DEP": "advcl"
+            }
+          ]
+        }
+      ],
+      "description": "focus construction",
+      "examples": [
+        "It is Lily who decides to go to the seaside and it is also her who kills the turkey given by a lorry-driver. (France; C2 MASTERY; 1993; French; Pass)\n\nIt was Paul who stole the money. (Hong Kong; C2 M"
+      ],
+      "regex_pattern": "(?i)\\bit\\b"
     },
     {
       "id": "1741163708329x546836553751250300",
@@ -707,8 +854,7 @@
       "examples": [
         "That night Kevin did not sleep; nor did Kristin. (Spain; C2 MASTERY; 1999; Catalan; Pass)\n\nThey do not have any hobbies, nor do they have friends or relatives (at least not where they live). (Sweden; "
       ],
-      "regex_pattern": "(?i)\\bnor\\b",
-      "explanation": "Negative + 'nor' — 'nor' following a negative clause for rhetorical emphasis or to add a further negative (e.g. 'I didn't like it, nor did she')."
+      "regex_pattern": "(?i)\\bnor\\b"
     },
     {
       "id": "1741163708570x407214749191681340",
@@ -739,8 +885,7 @@
       "examples": [
         "\nI was my parents' first and only child, and I was brought up at my grandparents' home, because, although married, my mother decided not to leave her parents' home, and my father agreed with her. (Spa"
       ],
-      "regex_pattern": "(?i)\\bthough\\b",
-      "explanation": "Non-finite concessive — 'although'/'though' followed by a non-finite clause; formal and condensed concession (e.g. 'Although tired, she kept going')."
+      "regex_pattern": "(?i)\\bthough\\b"
     },
     {
       "id": "1741163708153x262593982426201800",
@@ -764,8 +909,56 @@
       "examples": [
         "She closed her eyes as if to push those thoughts away. (Brazil; C2 MASTERY; 1993; Portuguese; Pass)\n\nThere it was: the chef's body, hacked to pieces, a carving knife in his hand as if to scare off an "
       ],
-      "regex_pattern": "(?i)\\bas if\\b",
-      "explanation": "'As if' + non-finite — 'as if' followed by an infinitive or participle clause to describe an appearance or impression (e.g. 'She looked as if about to cry')."
+      "regex_pattern": "(?i)\\bas if\\b"
+    },
+    {
+      "id": "1741163715032x756418004139892900",
+      "category": "QUESTIONS",
+      "guideword": "FORM: MODAL VERBS",
+      "levels": [
+        "A1",
+        "A2"
+      ],
+      "lowest_level": "A1",
+      "spacy_patterns": [
+        {
+          "TAG": "MD"
+        }
+      ],
+      "regex_pattern": "(?i)\\?",
+      "description": "question",
+      "examples": [
+        "Can you come to dinner in my house? (A1 BREAKTHROUGH; 2008; Polish; Pass)\n\nI can't find my CD, can you bring some music please? (A1 BREAKTHROUGH; 2008; Romanian; Pass)",
+        "Could you meet me at my home at 7 pm? (Brazil; A2 WAYSTAGE; 2008; Portuguese; Pass)\n\nCould you look for it? (Uruguay; A2 WAYSTAGE; 2005; Spanish - Latin American; Pass)\n\nWould you like to go with me t"
+      ]
+    },
+    {
+      "id": "1741163715026x780872145435740400",
+      "category": "QUESTIONS",
+      "guideword": "FORM: WORD + WORD",
+      "levels": [
+        "A1",
+        "A2"
+      ],
+      "lowest_level": "A1",
+      "spacy_patterns": [
+        {
+          "TAG": {
+            "IN": [
+              "VBD",
+              "VBZ",
+              "VBP",
+              "MD"
+            ]
+          }
+        }
+      ],
+      "regex_pattern": "(?i)\\?",
+      "description": "question",
+      "examples": [
+        "Can you bring some food or drinks for the dinner? (Spain; A2 WAYSTAGE; 2009; Spanish - European; Pass) \n\nIs it cheap or expensive for you? (Spain; A2 WAYSTAGE; 2010; Spanish - European; Pass)\n\nWe can ",
+        "I like chicken and rice. I don't like meat and fish. (A1 BREAKTHROUGH; 2006; Kurdish; Pass)\n\nMy street is quiet and friendly. (A1 BREAKTHROUGH; 2008; Polish; Pass)\n\nOn Monday and Wednesday I have Engl"
+      ]
     },
     {
       "id": "1741163715033x134646499658930300",
@@ -784,8 +977,7 @@
       "description": "question",
       "examples": [
         "Are you going to come? (Spain; A2 WAYSTAGE; 2006; Catalan; Pass)\n\nAre you feeling better? (A2 WAYSTAGE; 2008; Spanish - Latin American; Pass)\n\nAre you going to the new art class? (Cyprus; A2 WAYSTAGE;"
-      ],
-      "explanation": "Yes/no question with 'be' — question formed by moving 'is/are/was/were' before the subject (e.g. 'Is she coming?', 'Were they late?')."
+      ]
     },
     {
       "id": "1741163715033x444139630968705800",
@@ -804,8 +996,7 @@
       "description": "question",
       "examples": [
         "I've just watched a football competition with my family and friends. Have you watched it? (Japan; A2 WAYSTAGE; 2007; Japanese; Pass)\n\nI left my mobile in your house, have you seen it? (Argentina; A2 W"
-      ],
-      "explanation": "Question with 'have' — question using 'have/has/had' in the perfect aspect (e.g. 'Have you seen it?', 'Has she arrived?')."
+      ]
     },
     {
       "id": "1741163715029x648850706024519700",
@@ -834,8 +1025,7 @@
       "description": "question tags",
       "examples": [
         "You don't know where I live, do you? (Spain; A2 WAYSTAGE; 2009; Spanish - European; Pass)\n\nIt differs from the story which you told me, doesn't it? (Japan; A2 WAYSTAGE; 2010; Japanese; Pass)\n\nIt's fan"
-      ],
-      "explanation": "Question tag — short question added at the end of a statement to seek confirmation or agreement (e.g. 'It's nice, isn't it?', 'You know him, don't you?')."
+      ]
     },
     {
       "id": "1741163715031x260861213622010530",
@@ -854,8 +1044,7 @@
       "description": "question",
       "examples": [
         "What do you think? (Brazil; A2 WAYSTAGE; 2001; Portuguese; Pass)\n\nWhat did you do yesterday? (Spain; A2 WAYSTAGE; 2008; Spanish - European; Pass)\n\nWhere did you go? (Taiwan; A2 WAYSTAGE; 2009; Chinese"
-      ],
-      "explanation": "Question with 'do' — question formed using 'do/does/did' as auxiliary (e.g. 'Do you know her?', 'Did they leave?')."
+      ]
     }
   ]
 }

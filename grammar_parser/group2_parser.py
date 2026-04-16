@@ -25,7 +25,7 @@ import spacy
 from spacy.matcher import Matcher
 from spacy.tokens import Doc
 
-from .group1_parser import CEFR_NUMERIC, _normalise_patterns, _resolve_matches
+from .group1_parser import CEFR_NUMERIC, _context_span, _normalise_patterns, _resolve_matches
 
 _DEFAULT_JSON = Path(__file__).parent / "structures" / "strategy2_nominal_pos.json"
 
@@ -79,6 +79,7 @@ class Group2Parser:
                 "levels": structure["levels"],
                 "lowest_level": structure["lowest_level"],
                 "lowest_level_numeric": CEFR_NUMERIC.get(structure["lowest_level"], 0),
+                "explanation": structure.get("explanation", ""),
             }
 
             self._matcher.add(sid, patterns)
@@ -101,9 +102,12 @@ class Group2Parser:
             levels               list  e.g. ["A1"]
             lowest_level         str   e.g. "A1"
             lowest_level_numeric int   1–6
+            explanation          str   human-readable description of the rule
             span_text            str   matched token(s) as a string
             start_token          int   start token index in doc
             end_token            int   end token index (exclusive)
+            context_start_token  int   start of wider visualization context
+            context_end_token    int   end of wider visualization context
         """
         raw_matches = self._matcher(doc)
         results: list[dict[str, Any]] = []
@@ -117,6 +121,7 @@ class Group2Parser:
             seen.add(dedup_key)
 
             meta = self.structures[sid]
+            ctx_start, ctx_end = _context_span(doc, start, end)
             results.append({
                 "structure_id": sid,
                 "category": meta["category"],
@@ -124,9 +129,12 @@ class Group2Parser:
                 "levels": meta["levels"],
                 "lowest_level": meta["lowest_level"],
                 "lowest_level_numeric": meta["lowest_level_numeric"],
+                "explanation": meta["explanation"],
                 "span_text": doc[start:end].text,
                 "start_token": start,
                 "end_token": end,
+                "context_start_token": ctx_start,
+                "context_end_token": ctx_end,
             })
 
         if self._resolve:

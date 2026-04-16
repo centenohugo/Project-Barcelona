@@ -239,7 +239,6 @@ export default function ComparePage({ params }: PageProps) {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.15, duration: 0.4 }}
             >
-              Side by side view · {student}
             </motion.p>
           </div>
         </div>

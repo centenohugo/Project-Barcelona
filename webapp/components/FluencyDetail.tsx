@@ -20,16 +20,10 @@ function scoreColor(score: number | null): { fg: string; bg: string } {
   return { fg: "#DC2626", bg: "#FEE2E2" };
 }
 
-interface SpeedStyle {
-  bg: string;
-  border: string;
-  color: string;
-}
-
 function getSpeedStyle(
   speed: number | null,
   thresholds: { p25Ms: number; p75Ms: number; p90Ms: number }
-): SpeedStyle {
+) {
   if (speed === null) return { bg: "#F9FAFB", border: "#E5E7EB", color: "#9CA3AF" };
   const ms = speed * 1000;
   if (ms < thresholds.p25Ms) return { bg: "#D1FAE5", border: "#34D399", color: "#064E3B" };
@@ -38,9 +32,9 @@ function getSpeedStyle(
   return { bg: "#FEE2E2", border: "#FCA5A5", color: "#991B1B" };
 }
 
-function gapColor(gapSeconds: number): string {
-  if (gapSeconds < 0.08) return "#34D399";
-  if (gapSeconds < 0.25) return "#FCD34D";
+function gapColor(g: number) {
+  if (g < 0.08) return "#34D399";
+  if (g < 0.25) return "#FCD34D";
   return "#F87171";
 }
 
@@ -49,75 +43,60 @@ function buildDupMap(
 ): Map<number, { isFirst: boolean; label: string; matchType: string }> {
   const dm = new Map<number, { isFirst: boolean; label: string; matchType: string }>();
   for (const d of dups) {
-    const k = d.phrase.length;
     const label = d.phrase.join(" ");
-    for (let occNum = 0; occNum < d.startIndices.length; occNum++) {
-      const start = d.startIndices[occNum];
-      for (let p = 0; p < k; p++) {
-        dm.set(start + p, { isFirst: occNum === 0, label, matchType: d.matchType });
+    for (let occ = 0; occ < d.startIndices.length; occ++) {
+      const start = d.startIndices[occ];
+      for (let p = 0; p < d.phrase.length; p++) {
+        dm.set(start + p, { isFirst: occ === 0, label, matchType: d.matchType });
       }
     }
   }
   return dm;
 }
 
-// ── Inline fillers/repeats text renderer ──────────────────────────────────────
+// ── Inline sentence text (fillers + duplicates highlighted) ───────────────────
 
-function FillerRepeatText({ sentence }: { sentence: FluencySentenceRecord }) {
+function SentenceInline({ sentence }: { sentence: FluencySentenceRecord }) {
   const dupMap = buildDupMap(sentence.duplicates);
-  const hasIssues =
-    sentence.fillers.count > 0 ||
-    sentence.duplicates.length > 0;
-
-  if (!hasIssues) {
+  if (sentence.fillers.count === 0 && sentence.duplicates.length === 0) {
     return (
-      <span
-        className="font-[family-name:var(--font-body)] text-on-surface"
-        style={{ fontSize: "13px", lineHeight: "2", fontFamily: "Georgia, serif" }}
-      >
+      <span style={{ fontFamily: "Georgia, serif", fontSize: "13px" }}>
         {sentence.text}
       </span>
     );
   }
-
   return (
-    <span
-      className="font-[family-name:var(--font-body)] text-on-surface"
-      style={{ fontSize: "13px", lineHeight: "2.2", fontFamily: "Georgia, serif" }}
-    >
+    <span style={{ fontFamily: "Georgia, serif", fontSize: "13px" }}>
       {sentence.words.map((word: FluencyWordData, i: number) => {
-        const dupInfo = dupMap.get(i);
+        const dup = dupMap.get(i);
         if (word.isFiller) {
           return (
             <span
               key={i}
-              className="rounded mx-0.5 italic"
-              style={{ padding: "1px 6px", background: "#FFF7ED", border: "1px solid #F97316", color: "#9A3412" }}
+              className="rounded italic"
+              style={{ padding: "1px 5px", background: "#FFF7ED", border: "1px solid #F97316", color: "#9A3412" }}
               title={word.fillerType ?? "filler"}
             >
               {word.punctuatedWord}
             </span>
           );
         }
-        if (dupInfo) {
-          if (dupInfo.isFirst) {
-            return (
-              <span
-                key={i}
-                className="rounded mx-0.5"
-                style={{ padding: "1px 6px", background: "#FEF2F2", color: "#DC2626", borderBottom: "2px dotted #DC2626" }}
-                title={`first of: "${dupInfo.label}"${dupInfo.matchType === "fuzzy" ? " ~" : ""}`}
-              >
-                {word.punctuatedWord}
-              </span>
-            );
-          }
-          return (
+        if (dup) {
+          return dup.isFirst ? (
             <span
               key={i}
-              className="rounded mx-0.5 line-through"
-              style={{ padding: "1px 6px", background: "#FEE2E2", color: "#991B1B" }}
-              title={`repeat: "${dupInfo.label}"`}
+              className="rounded"
+              style={{ padding: "1px 5px", background: "#FEF2F2", color: "#DC2626", borderBottom: "2px dotted #DC2626" }}
+              title={`first: "${dup.label}"`}
+            >
+              {word.punctuatedWord}
+            </span>
+          ) : (
+            <span
+              key={i}
+              className="rounded line-through"
+              style={{ padding: "1px 5px", background: "#FEE2E2", color: "#991B1B" }}
+              title={`repeat: "${dup.label}"`}
             >
               {word.punctuatedWord}
             </span>
@@ -129,7 +108,7 @@ function FillerRepeatText({ sentence }: { sentence: FluencySentenceRecord }) {
   );
 }
 
-// ── Speed/gaps temporal expansion ─────────────────────────────────────────────
+// ── Speed/gaps temporal detail ─────────────────────────────────────────────────
 
 function SpeedGapsView({
   sentence,
@@ -138,26 +117,15 @@ function SpeedGapsView({
   sentence: FluencySentenceRecord;
   thresholds: { p25Ms: number; p75Ms: number; p90Ms: number };
 }) {
-  const speedElements = sentence.words.flatMap((word: FluencyWordData, i: number) => {
+  const elements = sentence.words.flatMap((word: FluencyWordData, i: number) => {
     const sStyle = word.isFiller
       ? { bg: "#FFF7ED", border: "#F97316", color: "#9A3412" }
       : getSpeedStyle(word.speed, thresholds);
 
     const chip = (
-      <div
-        key={"w-" + i}
-        className="inline-flex flex-col items-center"
-        style={{ margin: "0 2px" }}
-        title={
-          word.isFiller
-            ? word.fillerType ?? "filler"
-            : word.speed != null
-              ? Math.round(word.speed * 1000) + "ms/letter"
-              : ""
-        }
-      >
+      <div key={"w-" + i} className="inline-flex flex-col items-center" style={{ margin: "0 2px" }}>
         <span
-          className="rounded-md px-2 py-1 text-xs whitespace-nowrap"
+          className="rounded-md px-2 py-1 whitespace-nowrap"
           style={{
             background: sStyle.bg,
             border: "1px solid " + sStyle.border,
@@ -169,10 +137,7 @@ function SpeedGapsView({
         >
           {word.punctuatedWord}
         </span>
-        <span
-          className="text-center mt-0.5"
-          style={{ fontSize: "8px", color: word.isFiller ? "#F97316" : "#9CA3AF" }}
-        >
+        <span style={{ fontSize: "8px", color: word.isFiller ? "#F97316" : "#9CA3AF", marginTop: "1px" }}>
           {word.isFiller
             ? word.fillerType ?? "filler"
             : word.speed != null
@@ -183,8 +148,8 @@ function SpeedGapsView({
     );
 
     if (i < sentence.words.length - 1) {
-      const nextWord = sentence.words[i + 1];
-      const gap = nextWord.start - word.end;
+      const next = sentence.words[i + 1];
+      const gap = next.start - word.end;
       const gCol = gap >= 0 ? gapColor(gap) : "#D1D5DB";
       const gLabel = gap >= 0 ? Math.round(gap * 1000) + "ms" : "—";
       return [
@@ -193,10 +158,9 @@ function SpeedGapsView({
           key={"g-" + i}
           className="inline-flex flex-col items-center"
           style={{ width: "22px", margin: "0 1px", verticalAlign: "middle" }}
-          title={"gap: " + gLabel}
         >
           <div style={{ width: "2px", height: "18px", background: gCol, margin: "0 auto" }} />
-          <span style={{ fontSize: "7px", color: gCol, marginTop: "1px", textAlign: "center", display: "block" }}>
+          <span style={{ fontSize: "7px", color: gCol, marginTop: "1px", display: "block", textAlign: "center" }}>
             {gLabel}
           </span>
         </div>,
@@ -206,21 +170,13 @@ function SpeedGapsView({
   });
 
   return (
-    <div
-      style={{
-        display: "flex",
-        flexWrap: "wrap",
-        alignItems: "flex-end",
-        lineHeight: "3.8",
-        padding: "4px 0",
-      }}
-    >
-      {speedElements}
+    <div style={{ display: "flex", flexWrap: "wrap", alignItems: "flex-end", lineHeight: "3.8", padding: "4px 0" }}>
+      {elements}
     </div>
   );
 }
 
-// ── Sentence row (compact + expandable timing) ─────────────────────────────────
+// ── Single sentence row ────────────────────────────────────────────────────────
 
 function SentenceRow({
   sentence,
@@ -234,21 +190,21 @@ function SentenceRow({
   const { fg, bg } = scoreColor(score);
   const nFillers = sentence.fillers.count;
   const nRepeats = sentence.duplicates.reduce((s, d) => s + d.occurrences - 1, 0);
-  const hasIssues = nFillers > 0 || nRepeats > 0;
 
   return (
     <div className="mb-3">
-      {/* Inline filler/repeat text */}
       <div className="flex items-start gap-2">
         <span
           className="shrink-0 text-[9px] text-on-surface-variant font-[family-name:var(--font-body)] mt-1"
-          style={{ width: "20px" }}
+          style={{ width: "22px" }}
         >
           s{sentence.sentenceId}
         </span>
         <div className="flex-1 min-w-0">
-          <FillerRepeatText sentence={sentence} />
-          {/* badges */}
+          <div style={{ lineHeight: 2 }}>
+            <SentenceInline sentence={sentence} />
+          </div>
+          {/* Badges row */}
           <div className="flex gap-1 mt-1 flex-wrap">
             {score !== null && (
               <span
@@ -274,23 +230,21 @@ function SentenceRow({
                 {nRepeats} repeat{nRepeats > 1 ? "s" : ""}
               </span>
             )}
-            {(hasIssues || score !== null) && (
-              <button
-                onClick={() => setOpen((v) => !v)}
-                className="text-[9px] px-1.5 py-0.5 rounded-full cursor-pointer transition-colors"
-                style={{
-                  background: open ? "var(--primary)" : "rgba(0,0,0,0.06)",
-                  color: open ? "var(--on-primary)" : "var(--on-surface-variant)",
-                }}
-              >
-                {open ? "▲ timing" : "▼ timing"}
-              </button>
-            )}
+            <button
+              onClick={() => setOpen((v) => !v)}
+              className="text-[9px] px-1.5 py-0.5 rounded-full cursor-pointer transition-colors"
+              style={{
+                background: open ? "var(--primary)" : "rgba(0,0,0,0.06)",
+                color: open ? "var(--on-primary)" : "var(--on-surface-variant)",
+              }}
+            >
+              {open ? "▲ timing" : "▼ timing"}
+            </button>
           </div>
         </div>
       </div>
 
-      {/* Expanded: speed & gaps */}
+      {/* Expandable timing */}
       <AnimatePresence>
         {open && (
           <motion.div
@@ -304,9 +258,7 @@ function SentenceRow({
               className="mt-2 rounded-xl p-3"
               style={{ background: "var(--surface)", border: "1px solid var(--surface-variant)" }}
             >
-              <div
-                className="text-[9px] font-semibold uppercase tracking-widest text-on-surface-variant mb-2 font-[family-name:var(--font-body)]"
-              >
+              <div className="text-[9px] font-semibold uppercase tracking-widest text-on-surface-variant mb-2 font-[family-name:var(--font-body)]">
                 Speed &amp; Inter-word Gaps
               </div>
               <SpeedGapsView sentence={sentence} thresholds={thresholds} />
@@ -318,7 +270,7 @@ function SentenceRow({
   );
 }
 
-// ── Per-chunk fluency card ─────────────────────────────────────────────────────
+// ── Per-chunk card ─────────────────────────────────────────────────────────────
 
 function FluencyChunkCard({
   chunk,
@@ -340,7 +292,7 @@ function FluencyChunkCard({
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: index * 0.1, duration: 0.45, ease: [0.34, 1.56, 0.64, 1] }}
     >
-      {/* Left — sentences */}
+      {/* Left — sentence rows */}
       <div className="flex-1 min-w-0">
         <span className="inline-block text-xs font-medium uppercase tracking-[0.05em] text-on-surface-variant font-[family-name:var(--font-body)] mb-4">
           {chunk.label || `Chunk ${chunk.paragraphId}`}
@@ -361,7 +313,7 @@ function FluencyChunkCard({
         )}
 
         {/* Summary chips */}
-        <div className="flex gap-2 mt-3 flex-wrap">
+        <div className="flex gap-2 mt-2 flex-wrap">
           <span
             className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-medium"
             style={{ background: "rgba(0,0,0,0.05)", color: "var(--on-surface-variant)" }}
@@ -379,9 +331,8 @@ function FluencyChunkCard({
         </div>
       </div>
 
-      {/* Right — metric bars */}
+      {/* Right — component score bars */}
       <div className="w-[33%] shrink-0 flex flex-col gap-3 justify-start pt-1">
-        {/* Score pill */}
         {score !== null && (
           <div className="flex items-center gap-2 mb-1">
             <div
@@ -422,7 +373,7 @@ function FluencyChunkCard({
   );
 }
 
-// ── Main FluencyDetail component ───────────────────────────────────────────────
+// ── Main FluencyDetail ─────────────────────────────────────────────────────────
 
 export default function FluencyDetail({ data }: { data: FluencyLessonData }) {
   const { speedThresholds: thr, chunks } = data;
@@ -476,28 +427,10 @@ export default function FluencyDetail({ data }: { data: FluencyLessonData }) {
           />
         ))
       ) : (
-        /* Fallback: flat sentence list when no chunk grouping */
-        <div>
-          <div className="text-xs font-semibold uppercase tracking-widest text-on-surface-variant mb-3 font-[family-name:var(--font-body)]">
-            Sentences — click ▼ timing to see speed &amp; gaps
-          </div>
-          <div
-            className="overflow-y-auto rounded-2xl"
-            style={{
-              maxHeight: "600px",
-              border: "1px solid var(--surface-variant)",
-              padding: "12px",
-              background: "var(--surface)",
-            }}
-          >
-            {data.sentences.map((sentence) => (
-              <SentenceRow
-                key={sentence.sentenceId}
-                sentence={sentence}
-                thresholds={thr}
-              />
-            ))}
-          </div>
+        <div className="rounded-2xl bg-surface-lowest p-8 text-center">
+          <p className="text-on-surface-variant font-[family-name:var(--font-body)] text-sm">
+            No fluency data available.
+          </p>
         </div>
       )}
     </motion.div>

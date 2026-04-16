@@ -82,7 +82,7 @@ export default function LessonPage({ params }: PageProps) {
           </div>
         </div>
       ) : lessonData ? (
-        <LessonDetail lesson={lessonData} lessonName={lessonName} />
+        <LessonDetail lesson={lessonData} lessonName={lessonName} studentId={student} lessonId={lessonId} />
       ) : null}
     </div>
   );

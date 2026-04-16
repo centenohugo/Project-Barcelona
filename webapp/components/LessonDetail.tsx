@@ -15,45 +15,47 @@ interface LessonDetailProps {
   lesson: RealLessonData;
   lessonName: string;
   studentId: string;
-  lessonId: string;
+  lessonId: number;
 }
 
 export default function LessonDetail({ lesson, lessonName, studentId, lessonId }: LessonDetailProps) {
   const [activeTab, setActiveTab] = useState<Tab>("Vocabulary");
-  const [showErrors, setShowErrors] = useState(false);
+
+  // Grammar state
   const [grammarData, setGrammarData] = useState<GrammarLessonData | null>(null);
   const [grammarLoading, setGrammarLoading] = useState(false);
+  const [grammarError, setGrammarError] = useState<string | null>(null);
+  const [showErrors, setShowErrors] = useState(false);
+
+  // Fluency state
   const [fluencyData, setFluencyData] = useState<FluencyLessonData | null>(null);
   const [fluencyLoading, setFluencyLoading] = useState(false);
+  const [fluencyError, setFluencyError] = useState<string | null>(null);
 
+  // Fetch grammar when tab selected
   useEffect(() => {
-    if (activeTab !== "Grammar" || grammarData) return;
+    if (activeTab !== "Grammar" || grammarData || grammarLoading) return;
     setGrammarLoading(true);
+    setGrammarError(null);
     fetch(`/api/lesson/${studentId}/${lessonId}/grammar`)
-      .then((r) => r.json())
-      .then(setGrammarData)
-      .catch(console.error)
-      .finally(() => setGrammarLoading(false));
-  }, [activeTab, grammarData, studentId, lessonId]);
+      .then((r) => { if (!r.ok) throw new Error(`${r.status}`); return r.json(); })
+      .then((d: GrammarLessonData) => { setGrammarData(d); setGrammarLoading(false); })
+      .catch((e) => { setGrammarError(e.message); setGrammarLoading(false); });
+  }, [activeTab, studentId, lessonId, grammarData, grammarLoading]);
 
+  // Fetch fluency when tab selected
   useEffect(() => {
-    if (activeTab !== "Fluency" || fluencyData) return;
+    if (activeTab !== "Fluency" || fluencyData || fluencyLoading) return;
     setFluencyLoading(true);
+    setFluencyError(null);
     fetch(`/api/lesson/${studentId}/${lessonId}/fluency`)
-      .then((r) => r.json())
-      .then(setFluencyData)
-      .catch(console.error)
-      .finally(() => setFluencyLoading(false));
-  }, [activeTab, fluencyData, studentId, lessonId]);
+      .then((r) => { if (!r.ok) throw new Error(`${r.status}`); return r.json(); })
+      .then((d: FluencyLessonData) => { setFluencyData(d); setFluencyLoading(false); })
+      .catch((e) => { setFluencyError(e.message); setFluencyLoading(false); });
+  }, [activeTab, studentId, lessonId, fluencyData, fluencyLoading]);
 
-  const totalNew = lesson.chunks.reduce(
-    (acc, c) => acc + c.stats.newWordsCount,
-    0
-  );
-  const totalAbove = lesson.chunks.reduce(
-    (acc, c) => acc + c.stats.aboveLevelCount,
-    0
-  );
+  const totalNew = lesson.chunks.reduce((acc, c) => acc + c.stats.newWordsCount, 0);
+  const totalAbove = lesson.chunks.reduce((acc, c) => acc + c.stats.aboveLevelCount, 0);
 
   return (
     <div className="w-full max-w-6xl mx-auto flex flex-col gap-8 px-8 py-12">
@@ -87,7 +89,7 @@ export default function LessonDetail({ lesson, lessonName, studentId, lessonId }
               className="text-sm text-on-surface-variant font-[family-name:var(--font-body)] mt-0.5"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              transition={{ delay: 0.15, duration: 0.35 }}
+              transition={{ delay: 0.15, duration: 0.4 }}
             >
               How was this lesson evaluated?
             </motion.p>
@@ -123,7 +125,7 @@ export default function LessonDetail({ lesson, lessonName, studentId, lessonId }
         </div>
       </div>
 
-      {/* Vocabulary tab — summary banner + chunks */}
+      {/* ── Vocabulary tab ── */}
       {activeTab === "Vocabulary" && (
         <motion.div
           key="vocabulary"
@@ -136,10 +138,7 @@ export default function LessonDetail({ lesson, lessonName, studentId, lessonId }
           <div className="flex items-center gap-4 flex-wrap">
             <span
               className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-semibold"
-              style={{
-                background: "var(--primary)",
-                color: "var(--on-primary)",
-              }}
+              style={{ background: "var(--primary)", color: "var(--on-primary)" }}
             >
               Level {lesson.studentLevel}
               <span className="text-xs font-normal opacity-80">
@@ -158,10 +157,7 @@ export default function LessonDetail({ lesson, lessonName, studentId, lessonId }
             {totalNew > 0 && (
               <span
                 className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-medium"
-                style={{
-                  background: "rgba(64, 224, 208, 0.12)",
-                  color: "var(--secondary-fixed)",
-                }}
+                style={{ background: "rgba(64, 224, 208, 0.12)", color: "var(--secondary-fixed)" }}
               >
                 {totalNew} new words
               </span>
@@ -169,10 +165,7 @@ export default function LessonDetail({ lesson, lessonName, studentId, lessonId }
             {totalAbove > 0 && (
               <span
                 className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-medium"
-                style={{
-                  background: "rgba(255, 107, 157, 0.10)",
-                  color: "var(--primary)",
-                }}
+                style={{ background: "rgba(255, 107, 157, 0.10)", color: "var(--primary)" }}
               >
                 {totalAbove} above level
               </span>
@@ -195,15 +188,13 @@ export default function LessonDetail({ lesson, lessonName, studentId, lessonId }
               </span>
             )}
           </div>
-
-          {/* Chunks */}
           {lesson.chunks.map((chunk, i) => (
             <ChunkCard key={chunk.paragraphId} chunk={chunk} index={i} />
           ))}
         </motion.div>
       )}
 
-      {/* Grammar tab */}
+      {/* ── Grammar tab ── */}
       {activeTab === "Grammar" && (
         <motion.div
           key="grammar"
@@ -213,123 +204,125 @@ export default function LessonDetail({ lesson, lessonName, studentId, lessonId }
           transition={{ duration: 0.3 }}
         >
           {grammarLoading && (
-            <div className="flex flex-col gap-4">
-              {[0, 1].map((i) => (
-                <div
-                  key={i}
-                  className="w-full rounded-2xl bg-surface-lowest p-8 h-40 animate-pulse"
-                />
+            <div className="flex flex-col gap-6">
+              {[1, 2, 3].map((i) => (
+                <div key={i} className="w-full rounded-2xl bg-surface-lowest p-8 flex gap-8 animate-pulse">
+                  <div className="flex-1 space-y-3">
+                    <div className="h-3 w-32 rounded bg-surface-variant" />
+                    <div className="h-4 w-full rounded bg-surface-variant" />
+                    <div className="h-4 w-3/4 rounded bg-surface-variant" />
+                  </div>
+                  <div className="w-[35%] space-y-4">
+                    {[1, 2, 3].map((j) => (
+                      <div key={j} className="space-y-2">
+                        <div className="h-2 w-8 rounded bg-surface-variant" />
+                        <div className="h-3 rounded-full bg-surface-variant" />
+                      </div>
+                    ))}
+                  </div>
+                </div>
               ))}
             </div>
           )}
 
-          {!grammarLoading && grammarData && (
+          {grammarError && (
+            <div className="rounded-2xl bg-surface-lowest p-12 text-center">
+              <p className="text-on-surface-variant font-[family-name:var(--font-body)]">
+                Grammar data not available for this lesson.
+              </p>
+            </div>
+          )}
+
+          {grammarData && (
             <>
               {/* Summary banner */}
               <div className="flex items-center gap-4 flex-wrap">
                 <span
-                  className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full text-sm font-semibold"
-                  style={{ background: grammarData.lessonSummary.richnessColor + "22", color: grammarData.lessonSummary.richnessColor }}
+                  className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-semibold"
+                  style={{ background: grammarData.lessonSummary.richnessColor + "22", color: grammarData.lessonSummary.richnessColor, border: `1px solid ${grammarData.lessonSummary.richnessColor}44` }}
                 >
                   Richness {grammarData.lessonSummary.avgRichnessScore}
-                  <span className="text-xs font-normal opacity-80">
-                    {grammarData.lessonSummary.richnessLabel}
-                  </span>
                 </span>
                 <span
-                  className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full text-sm font-semibold"
-                  style={{ background: grammarData.lessonSummary.qualityColor + "22", color: grammarData.lessonSummary.qualityColor }}
+                  className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-semibold"
+                  style={{ background: grammarData.lessonSummary.qualityColor + "22", color: grammarData.lessonSummary.qualityColor, border: `1px solid ${grammarData.lessonSummary.qualityColor}44` }}
                 >
-                  Quality {grammarData.lessonSummary.qualityScore}
-                  <span className="text-xs font-normal opacity-80">
-                    {grammarData.lessonSummary.qualityLevel}
-                  </span>
+                  Quality {grammarData.lessonSummary.qualityScore} · {grammarData.lessonSummary.qualityLevel}
                 </span>
                 <span className="text-sm text-on-surface-variant font-[family-name:var(--font-body)]">
                   {grammarData.lessonSummary.totalErrors} errors
                 </span>
-                {grammarData.lessonSummary.topCategories.slice(0, 2).map((cat) => (
-                  <span
-                    key={cat.category}
-                    className="text-xs text-on-surface-variant font-[family-name:var(--font-body)] px-3 py-1 rounded-full"
-                    style={{ background: "rgba(0,0,0,0.05)" }}
-                  >
-                    {cat.category} ×{cat.count}
-                  </span>
-                ))}
-
-                {/* Show errors toggle */}
-                <label
-                  className="ml-auto flex items-center gap-2 cursor-pointer select-none"
-                  style={{ color: "var(--on-surface-variant)", fontSize: "0.8rem" }}
+                {/* Toggle errors / structures */}
+                <button
+                  onClick={() => setShowErrors((v) => !v)}
+                  className="ml-auto px-4 py-2 rounded-xl text-sm font-medium cursor-pointer transition-colors"
+                  style={{
+                    background: showErrors ? "var(--primary)" : "rgba(0,0,0,0.06)",
+                    color: showErrors ? "var(--on-primary)" : "var(--on-surface-variant)",
+                  }}
                 >
-                  <input
-                    type="checkbox"
-                    checked={showErrors}
-                    onChange={(e) => setShowErrors(e.target.checked)}
-                    className="accent-primary w-4 h-4 cursor-pointer"
-                  />
-                  Show errors
-                </label>
+                  {showErrors ? "Show Structures" : "Show Errors"}
+                </button>
               </div>
-
-              {/* Paragraph cards */}
-              {grammarData.paragraphs.map((para, i) => (
+              {grammarData.paragraphs.map((paragraph, i) => (
                 <GrammarChunkCard
-                  key={para.paragraphId}
-                  paragraph={para}
+                  key={paragraph.paragraphId}
+                  paragraph={paragraph}
                   showErrors={showErrors}
                   index={i}
                 />
               ))}
             </>
           )}
-
-          {!grammarLoading && !grammarData && (
-            <div className="rounded-2xl bg-surface-lowest p-12 text-center">
-              <p className="text-on-surface-variant font-[family-name:var(--font-body)]">
-                No grammar data available for this lesson.
-              </p>
-            </div>
-          )}
         </motion.div>
       )}
 
-      {/* Fluency tab */}
+      {/* ── Fluency tab ── */}
       {activeTab === "Fluency" && (
         <>
           {fluencyLoading && (
-            <div className="flex flex-col gap-4">
-              <div className="flex gap-3 flex-wrap">
-                {[1, 2, 3, 4].map((i) => (
-                  <div key={i} className="h-8 w-24 rounded-full bg-surface-lowest animate-pulse" />
-                ))}
-              </div>
-              <div className="grid grid-cols-2 gap-4">
-                {[1, 2, 3, 4].map((i) => (
-                  <div key={i} className="rounded-2xl bg-surface-lowest p-6 h-40 animate-pulse" />
-                ))}
-              </div>
-            </div>
-          )}
-
-          {!fluencyLoading && fluencyData && (
-            <FluencyDetail data={fluencyData} />
-          )}
-
-          {!fluencyLoading && !fluencyData && (
             <motion.div
-              key="fluency-empty"
+              key="fluency-loading"
+              className="flex flex-col gap-6"
+              initial={{ opacity: 0, y: 8 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.3 }}
+            >
+              {[1, 2, 3].map((i) => (
+                <div key={i} className="w-full rounded-2xl bg-surface-lowest p-8 flex gap-8 animate-pulse">
+                  <div className="flex-1 space-y-3">
+                    <div className="h-3 w-32 rounded bg-surface-variant" />
+                    <div className="h-4 w-full rounded bg-surface-variant" />
+                    <div className="h-4 w-3/4 rounded bg-surface-variant" />
+                  </div>
+                  <div className="w-[33%] space-y-4">
+                    {[1, 2, 3, 4].map((j) => (
+                      <div key={j} className="space-y-2">
+                        <div className="h-2 w-8 rounded bg-surface-variant" />
+                        <div className="h-3 rounded-full bg-surface-variant" />
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              ))}
+            </motion.div>
+          )}
+
+          {fluencyError && (
+            <motion.div
+              key="fluency-error"
               className="rounded-2xl bg-surface-lowest p-12 text-center"
               initial={{ opacity: 0, y: 8 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.3 }}
             >
               <p className="text-on-surface-variant font-[family-name:var(--font-body)]">
-                No fluency data available for this lesson.
+                Fluency data not available for this lesson.
               </p>
             </motion.div>
           )}
+
+          {fluencyData && <FluencyDetail data={fluencyData} />}
         </>
       )}
     </div>

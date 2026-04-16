@@ -1,8 +1,7 @@
 "use client";
 
-import { useState } from "react";
 import { useRouter } from "next/navigation";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 import ProgressChart from "./ProgressChart";
 import MiniChart from "./MiniChart";
 import { useStudent } from "@/lib/student-context";
@@ -31,62 +30,14 @@ const springTransition = {
   damping: 24,
 };
 
-const dropdownVariants = {
-  hidden: { height: 0, opacity: 0, marginTop: 0 },
-  visible: { height: "auto", opacity: 1, marginTop: 12 },
-};
-
-function ChartExplanation({ type }: { type: "total" | "vocabulary" | "grammar" | "fluency" }) {
-  const explanations: Record<string, { title: string; body: string }> = {
-    total: {
-      title: "How is Total Progress calculated?",
-      body: "Your total progress score is the weighted average of Vocabulary, Grammar, and Fluency scores across each lesson. It reflects your overall improvement trajectory.",
-    },
-    vocabulary: {
-      title: "How is Vocabulary measured?",
-      body: "Vocabulary is scored by analyzing the CEFR level of words you use. Higher-level words (B2+) contribute more to the score. Function words are excluded.",
-    },
-    grammar: {
-      title: "How is Grammar measured?",
-      body: "Grammar tracks sentence complexity and accuracy patterns across your lessons, measuring structural growth over time.",
-    },
-    fluency: {
-      title: "How is Fluency measured?",
-      body: "Fluency captures speech flow, lexical diversity, and consistency. It combines type-token ratio with contextual richness indicators.",
-    },
-  };
-
-  const { title, body } = explanations[type];
-
-  return (
-    <motion.div
-      variants={dropdownVariants}
-      initial="hidden"
-      animate="visible"
-      exit="hidden"
-      transition={{ duration: 0.25, ease: [0.34, 1.56, 0.64, 1] }}
-      className="overflow-hidden"
-    >
-      <div className="rounded-xl bg-surface-low px-5 py-4">
-        <p className="font-[family-name:var(--font-display)] text-sm font-semibold text-on-surface mb-1">
-          {title}
-        </p>
-        <p className="font-[family-name:var(--font-body)] text-sm text-on-surface-variant leading-relaxed">
-          {body}
-        </p>
-      </div>
-    </motion.div>
-  );
-}
-
 interface DashboardProps {
   vocabProgress: VocabProgress;
 }
 
 export default function Dashboard({ vocabProgress }: DashboardProps) {
   const { student } = useStudent();
-  const router = useRouter();
   const progressData = studentsData[student].progress;
+  const router = useRouter();
 
   const vocabForStudent = vocabProgress[student] ?? [];
   const vocabularyData = vocabForStudent.map((d) => ({ lesson: d.lesson, value: d.vocabScore }));
@@ -94,31 +45,13 @@ export default function Dashboard({ vocabProgress }: DashboardProps) {
   const fluencyData = progressData.map((d) => ({ lesson: d.lesson, value: d.fluency }));
 
   const progress = getProgressMessage(progressData);
-  const [expanded, setExpanded] = useState<string | null>(null);
-
-  const toggle = (key: string) => setExpanded((prev) => (prev === key ? null : key));
-
-  function handleLessonClick(lesson: string) {
-    // lesson label is "L1", "L2" … → extract numeric id
-    const num = parseInt(lesson.replace(/\D/g, ""), 10);
-    if (!isNaN(num)) router.push(`/lesson/${num}`);
-  }
 
   return (
     <section className="w-full min-h-[calc(100vh-80px)] flex flex-col gap-6 justify-center">
       {/* Primary chart — center, bigger */}
-      <motion.div
-        whileHover={{ scale: 1.008 }}
-        whileTap={{ scale: 0.998 }}
-        transition={springTransition}
-        onClick={() => toggle("total")}
-        className="cursor-pointer"
-      >
-        <ProgressChart prominent data={progressData} onLessonClick={handleLessonClick} />
-        <AnimatePresence>
-          {expanded === "total" && <ChartExplanation type="total" />}
-        </AnimatePresence>
-      </motion.div>
+      <div>
+        <ProgressChart prominent data={progressData} />
+      </div>
       {/* Progress status text */}
       <div className="flex flex-col items-center gap-1 pt-2">
         <motion.p
@@ -136,10 +69,10 @@ export default function Dashboard({ vocabProgress }: DashboardProps) {
           transition={{ delay: 0.6, duration: 0.4 }}
           className="font-[family-name:var(--font-body)] text-sm text-on-surface-variant"
         >
-          Tap on any chart to see how it&apos;s calculated
+          Tap a chart below to compare lessons
         </motion.p>
       </div>
-      {/* Secondary charts — top row */}
+      {/* Secondary charts — bottom row */}
       <div className="grid grid-cols-3 gap-6">
         {([
           { key: "vocabulary", title: "Vocabulary", data: vocabularyData, color: "var(--secondary)", domain: [0, 100] as [number, number] },
@@ -151,13 +84,10 @@ export default function Dashboard({ vocabProgress }: DashboardProps) {
             whileHover={{ scale: 1.015 }}
             whileTap={{ scale: 0.995 }}
             transition={springTransition}
-            onClick={() => toggle(key)}
+            onClick={() => router.push(`/compare/${key}`)}
             className="cursor-pointer"
           >
             <MiniChart title={title} data={data} color={color} domain={domain} />
-            <AnimatePresence>
-              {expanded === key && <ChartExplanation type={key as "vocabulary" | "grammar" | "fluency"} />}
-            </AnimatePresence>
           </motion.div>
         ))}
       </div>

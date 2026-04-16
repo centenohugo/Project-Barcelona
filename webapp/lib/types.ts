@@ -1,71 +1,12 @@
 export type CefrLevel = "A1" | "A2" | "B1" | "B2" | "C1" | "C2";
 
-// --- Fluency types ---
+// --- Enhanced word for display ---
 
-export interface FluencyWordData {
-  word: string;
-  punctuatedWord: string;
-  start: number;
-  end: number;
-  confidence: number;
-  speed: number | null;
-  isFiller: boolean;
-  fillerType: string | null;
-  fillerPattern: string | null;
-}
-
-export interface FluencyDuplicate {
-  phrase: string[];
-  occurrences: number;
-  matchType: string;
-  startIndices: number[];
-}
-
-export interface FluencySentenceRecord {
-  sentenceId: number;
+export interface EnhancedWord {
   text: string;
-  wordCount: number;
-  gaps: { mean: number | null; count: number };
-  fillers: { count: number; rate: number; types: Record<string, number> };
-  duplicates: FluencyDuplicate[];
-  accuracy: { mean: number | null };
-  fluency: {
-    score: number | null;
-    components: {
-      speed: number | null;
-      gaps: number | null;
-      fillers: number | null;
-      dups: number | null;
-    };
-  };
-  words: FluencyWordData[];
-}
-
-export interface FluencyChunk {
-  paragraphId: number;
-  label: string;
-  sentences: FluencySentenceRecord[];
-  fluencyScore: number | null;
-  compAvgs: { speed: number | null; gaps: number | null; fillers: number | null; dups: number | null };
-  fillerCount: number;
-  wordCount: number;
-}
-
-export interface FluencyLessonData {
-  totalWords: number;
-  totalSentences: number;
-  avgFluency: number;
-  fillerRate: number;
-  avgAccuracy: number;
-  avgGapMs: number;
-  fillerCount: number;
-  speedThresholds: { p25Ms: number; p75Ms: number; p90Ms: number };
-  speedBuckets: { fast: number; normal: number; slow: number; verySlow: number; total: number };
-  fillerTypes: Record<string, number>;
-  scoreDist: number[];
-  compAvgs: { speed: number; gaps: number; fillers: number; dups: number };
-  sentences: FluencySentenceRecord[];
-  chunks?: FluencyChunk[];
+  cefrLevel?: CefrLevel;
+  isNew?: boolean;
+  isAboveLevel?: boolean;
 }
 
 // --- Grammar types ---
@@ -116,6 +57,8 @@ export interface GrammarParagraph {
     nAssigned: number;
     density: number;
     avgLevelStr: string;
+    levelScore: number;
+    varietyScore: number;
   };
   errorStats: {
     count: number;
@@ -142,13 +85,64 @@ export interface GrammarLessonData {
   paragraphs: GrammarParagraph[];
 }
 
-// --- Enhanced word for display ---
+// --- Fluency types ---
 
-export interface EnhancedWord {
+export interface FluencyWordData {
+  word: string;
+  punctuatedWord: string;
+  start: number;
+  end: number;
+  confidence: number;
+  speed: number | null;
+  isFiller: boolean;
+  fillerType: string | null;
+  fillerPattern: string | null;
+}
+
+export interface FluencyDuplicate {
+  phrase: string[];
+  occurrences: number;
+  matchType: string;
+  startIndices: number[];
+}
+
+export interface FluencySentenceRecord {
+  sentenceId: number;
   text: string;
-  cefrLevel?: CefrLevel;
-  isNew?: boolean;
-  isAboveLevel?: boolean;
+  wordCount: number;
+  gaps: { count: number; mean: number | null };
+  fillers: { count: number; rate: number; types: Record<string, number> };
+  duplicates: FluencyDuplicate[];
+  accuracy: { mean: number | null };
+  fluency: { score: number | null; components: { speed: number | null; gaps: number | null; fillers: number | null; dups: number | null } };
+  words: FluencyWordData[];
+}
+
+export interface FluencyChunk {
+  paragraphId: number;
+  label: string;
+  sentences: FluencySentenceRecord[];
+  fluencyScore: number | null;
+  compAvgs: { speed: number | null; gaps: number | null; fillers: number | null; dups: number | null };
+  fillerCount: number;
+  wordCount: number;
+}
+
+export interface FluencyLessonData {
+  totalSentences: number;
+  totalWords: number;
+  avgFluency: number;
+  fillerCount: number;
+  fillerRate: number;
+  avgGapMs: number;
+  avgAccuracy: number;
+  speedThresholds: { p25Ms: number; p75Ms: number; p90Ms: number };
+  speedBuckets: { fast: number; normal: number; slow: number; verySlow: number; total: number };
+  fillerTypes: Record<string, number>;
+  scoreDist: number[];
+  compAvgs: { speed: number; gaps: number; fillers: number; dups: number };
+  sentences: FluencySentenceRecord[];
+  chunks?: FluencyChunk[];
 }
 
 // --- Per-block data ---

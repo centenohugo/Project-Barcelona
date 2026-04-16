@@ -1,0 +1,5350 @@
+{
+  "student": "Student-1",
+  "lesson": "lesson-3",
+  "generated_at": "2026-04-16T05:15:06.008578+00:00",
+  "grammar": {
+    "has_grammar": true,
+    "has_errors": true,
+    "partial": false,
+    "formula": {
+      "level_weight": 40,
+      "variety_weight": 20,
+      "error_weight": 40,
+      "min_chunk_words": 10
+    },
+    "aggregate": {
+      "score": 49.79,
+      "score_label": "Moderate",
+      "color": "#d97706",
+      "level_score": 4.71,
+      "variety_score": 15.48,
+      "error_score": 29.58,
+      "chunks_total": 18,
+      "chunks_included": 18,
+      "chunks_skipped": 0,
+      "partial": false
+    },
+    "chunks": [
+      {
+        "chunk_id": 1,
+        "label": "Weather improvement and choosing a topic to discuss",
+        "word_count": 201,
+        "sentence_count": 28,
+        "skipped": false,
+        "skip_reason": null,
+        "has_grammar": true,
+        "has_errors": true,
+        "partial": false,
+        "score": 44.5,
+        "score_label": "Basic",
+        "color": "#ea580c",
+        "level_score": 4.58,
+        "variety_score": 14.67,
+        "error_score": 25.2,
+        "grammar": {
+          "richness_score": 36,
+          "level": 0.1144,
+          "level_score": 4.58,
+          "variety": 0.7333,
+          "variety_score": 14.67,
+          "avg_cefr": "A2",
+          "n_assigned": 59,
+          "density": 2.1071,
+          "distinct_categories": [
+            "ADJECTIVES",
+            "CLAUSES",
+            "DISCOURSE MARKERS",
+            "FOCUS",
+            "FUTURE",
+            "MODALITY",
+            "PASSIVES",
+            "PAST",
+            "PRONOUNS",
+            "QUESTIONS",
+            "VERBS"
+          ],
+          "dims_present": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "level_distribution": {
+            "A2": 39,
+            "C1": 1,
+            "B2": 5,
+            "B1": 14
+          },
+          "top_match": {
+            "sentence_index": 12,
+            "sentence_text": "It has it has improved because in the during the winter, it was it was was very cold.",
+            "structure_id": "1741163712056x332718835608695200",
+            "category": "PASSIVES",
+            "guideword": "FORM/USE: SUMMARISING, EVALUATING WITH 'IT'.",
+            "lowest_level": "C1",
+            "lowest_level_numeric": 5,
+            "explanation": "Impersonal passive with 'it' — 'it is said/reported/believed that' to describe general opinion or formally attributed information (e.g. 'It is believed that the building dates from 1800').",
+            "span_text": "improved",
+            "start_token": 4,
+            "end_token": 5,
+            "start_char": 14,
+            "end_char": 22,
+            "context_start_char": 3,
+            "context_end_char": 59
+          }
+        },
+        "errors": {
+          "error_count": 7,
+          "weighted_error_sum": 15,
+          "quality_score": 63,
+          "quality_level": "Moderate",
+          "error_score": 25.2,
+          "dimension_counts": {
+            "A": 0,
+            "B": 4,
+            "C": 1,
+            "D": 2
+          }
+        }
+      },
+      {
+        "chunk_id": 3,
+        "label": "Discussing how notifications hurt concentration and personal habits",
+        "word_count": 201,
+        "sentence_count": 15,
+        "skipped": false,
+        "skip_reason": null,
+        "has_grammar": true,
+        "has_errors": true,
+        "partial": false,
+        "score": 55.1,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "level_score": 4.42,
+        "variety_score": 18.67,
+        "error_score": 32.0,
+        "grammar": {
+          "richness_score": 44,
+          "level": 0.1105,
+          "level_score": 4.42,
+          "variety": 0.9333,
+          "variety_score": 18.67,
+          "avg_cefr": "A2",
+          "n_assigned": 95,
+          "density": 6.3333,
+          "distinct_categories": [
+            "ADJECTIVES",
+            "CLAUSES",
+            "DETERMINERS",
+            "DISCOURSE MARKERS",
+            "FOCUS",
+            "FUTURE",
+            "MODALITY",
+            "NEGATION",
+            "PASSIVES",
+            "PAST",
+            "PRESENT",
+            "PRONOUNS",
+            "REPORTED SPEECH",
+            "VERBS"
+          ],
+          "dims_present": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "level_distribution": {
+            "B1": 22,
+            "A2": 63,
+            "B2": 10
+          },
+          "top_match": {
+            "sentence_index": 3,
+            "sentence_text": "And the more they wanted to check a notification and the stronger the emotional response, the more, the more, their reaction time was delayed.",
+            "structure_id": "1741163712050x914576942340939400",
+            "category": "PASSIVES",
+            "guideword": "FORM: PAST SIMPLE NEGATIVE",
+            "lowest_level": "B2",
+            "lowest_level_numeric": 4,
+            "explanation": "Negative past passive — 'was/were not + past participle' (e.g. 'The report wasn't submitted on time').",
+            "span_text": "was delayed",
+            "start_token": 25,
+            "end_token": 27,
+            "start_char": 130,
+            "end_char": 141,
+            "context_start_char": 116,
+            "context_end_char": 142
+          }
+        },
+        "errors": {
+          "error_count": 4,
+          "weighted_error_sum": 8,
+          "quality_score": 80,
+          "quality_level": "Good",
+          "error_score": 32.0,
+          "dimension_counts": {
+            "A": 0,
+            "B": 3,
+            "C": 0,
+            "D": 1
+          }
+        }
+      },
+      {
+        "chunk_id": 4,
+        "label": "Turning off phone notifications to improve focus",
+        "word_count": 248,
+        "sentence_count": 21,
+        "skipped": false,
+        "skip_reason": null,
+        "has_grammar": true,
+        "has_errors": true,
+        "partial": false,
+        "score": 55.6,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "level_score": 5.44,
+        "variety_score": 13.33,
+        "error_score": 36.8,
+        "grammar": {
+          "richness_score": 35,
+          "level": 0.1361,
+          "level_score": 5.44,
+          "variety": 0.6667,
+          "variety_score": 13.33,
+          "avg_cefr": "B1",
+          "n_assigned": 90,
+          "density": 4.2857,
+          "distinct_categories": [
+            "CLAUSES",
+            "DISCOURSE MARKERS",
+            "FOCUS",
+            "FUTURE",
+            "MODALITY",
+            "NEGATION",
+            "PASSIVES",
+            "PAST",
+            "PRONOUNS",
+            "VERBS"
+          ],
+          "dims_present": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "level_distribution": {
+            "A2": 56,
+            "B1": 26,
+            "C1": 7,
+            "B2": 1
+          },
+          "top_match": {
+            "sentence_index": 1,
+            "sentence_text": "causing when it was causing a lot of problems when it comes to being focused on my tasks.",
+            "structure_id": "1741163712056x332718835608695200",
+            "category": "PASSIVES",
+            "guideword": "FORM/USE: SUMMARISING, EVALUATING WITH 'IT'.",
+            "lowest_level": "C1",
+            "lowest_level_numeric": 5,
+            "explanation": "Impersonal passive with 'it' — 'it is said/reported/believed that' to describe general opinion or formally attributed information (e.g. 'It is believed that the building dates from 1800').",
+            "span_text": "focused",
+            "start_token": 14,
+            "end_token": 15,
+            "start_char": 69,
+            "end_char": 76,
+            "context_start_char": 60,
+            "context_end_char": 88
+          }
+        },
+        "errors": {
+          "error_count": 2,
+          "weighted_error_sum": 4,
+          "quality_score": 92,
+          "quality_level": "Good",
+          "error_score": 36.8,
+          "dimension_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 0,
+            "D": 2
+          }
+        }
+      },
+      {
+        "chunk_id": 5,
+        "label": "Benefits of turning off phone notifications for concentration",
+        "word_count": 213,
+        "sentence_count": 18,
+        "skipped": false,
+        "skip_reason": null,
+        "has_grammar": true,
+        "has_errors": true,
+        "partial": false,
+        "score": 57.3,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "level_score": 5.53,
+        "variety_score": 17.33,
+        "error_score": 34.4,
+        "grammar": {
+          "richness_score": 43,
+          "level": 0.1382,
+          "level_score": 5.53,
+          "variety": 0.8667,
+          "variety_score": 17.33,
+          "avg_cefr": "B1",
+          "n_assigned": 85,
+          "density": 4.7222,
+          "distinct_categories": [
+            "ADJECTIVES",
+            "ADVERBS",
+            "CLAUSES",
+            "DISCOURSE MARKERS",
+            "FOCUS",
+            "FUTURE",
+            "MODALITY",
+            "NEGATION",
+            "PASSIVES",
+            "PAST",
+            "PRONOUNS",
+            "REPORTED SPEECH",
+            "VERBS"
+          ],
+          "dims_present": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "level_distribution": {
+            "A2": 55,
+            "B2": 13,
+            "B1": 15,
+            "C1": 2
+          },
+          "top_match": {
+            "sentence_index": 13,
+            "sentence_text": "It's difficult to to to say, but one hour, two hours, it depends on day because because I've never thought about it.",
+            "structure_id": "1741163712056x332718835608695200",
+            "category": "PASSIVES",
+            "guideword": "FORM/USE: SUMMARISING, EVALUATING WITH 'IT'.",
+            "lowest_level": "C1",
+            "lowest_level_numeric": 5,
+            "explanation": "Impersonal passive with 'it' — 'it is said/reported/believed that' to describe general opinion or formally attributed information (e.g. 'It is believed that the building dates from 1800').",
+            "span_text": "thought",
+            "start_token": 24,
+            "end_token": 25,
+            "start_char": 99,
+            "end_char": 106,
+            "context_start_char": 88,
+            "context_end_char": 116
+          }
+        },
+        "errors": {
+          "error_count": 3,
+          "weighted_error_sum": 6,
+          "quality_score": 86,
+          "quality_level": "Good",
+          "error_score": 34.4,
+          "dimension_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 0,
+            "D": 3
+          }
+        }
+      },
+      {
+        "chunk_id": 6,
+        "label": "Not using phone notifications and Twitter usage habits",
+        "word_count": 200,
+        "sentence_count": 18,
+        "skipped": false,
+        "skip_reason": null,
+        "has_grammar": true,
+        "has_errors": true,
+        "partial": false,
+        "score": 53.8,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "level_score": 4.43,
+        "variety_score": 17.33,
+        "error_score": 32.0,
+        "grammar": {
+          "richness_score": 41,
+          "level": 0.1107,
+          "level_score": 4.43,
+          "variety": 0.8667,
+          "variety_score": 17.33,
+          "avg_cefr": "A2",
+          "n_assigned": 70,
+          "density": 3.8889,
+          "distinct_categories": [
+            "ADJECTIVES",
+            "ADVERBS",
+            "CLAUSES",
+            "DISCOURSE MARKERS",
+            "FOCUS",
+            "FUTURE",
+            "MODALITY",
+            "NEGATION",
+            "PASSIVES",
+            "PAST",
+            "PRESENT",
+            "PRONOUNS",
+            "VERBS"
+          ],
+          "dims_present": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "level_distribution": {
+            "B2": 4,
+            "B1": 14,
+            "A2": 49,
+            "C1": 3
+          },
+          "top_match": {
+            "sentence_index": 8,
+            "sentence_text": "So I've been using it or I've been not using it for, like, say, six six years.",
+            "structure_id": "1741163712056x332718835608695200",
+            "category": "PASSIVES",
+            "guideword": "FORM/USE: SUMMARISING, EVALUATING WITH 'IT'.",
+            "lowest_level": "C1",
+            "lowest_level_numeric": 5,
+            "explanation": "Impersonal passive with 'it' — 'it is said/reported/believed that' to describe general opinion or formally attributed information (e.g. 'It is believed that the building dates from 1800').",
+            "span_text": "been",
+            "start_token": 9,
+            "end_token": 10,
+            "start_char": 30,
+            "end_char": 34,
+            "context_start_char": 25,
+            "context_end_char": 62
+          }
+        },
+        "errors": {
+          "error_count": 4,
+          "weighted_error_sum": 8,
+          "quality_score": 80,
+          "quality_level": "Good",
+          "error_score": 32.0,
+          "dimension_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 1,
+            "D": 3
+          }
+        }
+      },
+      {
+        "chunk_id": 7,
+        "label": "Social media habits, focus times, and working from home",
+        "word_count": 212,
+        "sentence_count": 24,
+        "skipped": false,
+        "skip_reason": null,
+        "has_grammar": true,
+        "has_errors": true,
+        "partial": false,
+        "score": 47.0,
+        "score_label": "Basic",
+        "color": "#ea580c",
+        "level_score": 4.84,
+        "variety_score": 13.33,
+        "error_score": 28.8,
+        "grammar": {
+          "richness_score": 34,
+          "level": 0.121,
+          "level_score": 4.84,
+          "variety": 0.6667,
+          "variety_score": 13.33,
+          "avg_cefr": "A2",
+          "n_assigned": 62,
+          "density": 2.5833,
+          "distinct_categories": [
+            "CLAUSES",
+            "DISCOURSE MARKERS",
+            "FOCUS",
+            "FUTURE",
+            "MODALITY",
+            "NEGATION",
+            "PASSIVES",
+            "PAST",
+            "PRONOUNS",
+            "VERBS"
+          ],
+          "dims_present": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "level_distribution": {
+            "A2": 36,
+            "B2": 2,
+            "B1": 23,
+            "C1": 1
+          },
+          "top_match": {
+            "sentence_index": 16,
+            "sentence_text": "It it doesn't depend only on my planifications, but but I try to be concentrated when I need need to work.",
+            "structure_id": "1741163712056x332718835608695200",
+            "category": "PASSIVES",
+            "guideword": "FORM/USE: SUMMARISING, EVALUATING WITH 'IT'.",
+            "lowest_level": "C1",
+            "lowest_level_numeric": 5,
+            "explanation": "Impersonal passive with 'it' — 'it is said/reported/believed that' to describe general opinion or formally attributed information (e.g. 'It is believed that the building dates from 1800').",
+            "span_text": "concentrated",
+            "start_token": 16,
+            "end_token": 17,
+            "start_char": 68,
+            "end_char": 80,
+            "context_start_char": 56,
+            "context_end_char": 106
+          }
+        },
+        "errors": {
+          "error_count": 5,
+          "weighted_error_sum": 12,
+          "quality_score": 72,
+          "quality_level": "Moderate",
+          "error_score": 28.8,
+          "dimension_counts": {
+            "A": 0,
+            "B": 4,
+            "C": 1,
+            "D": 0
+          }
+        }
+      },
+      {
+        "chunk_id": 8,
+        "label": "How distractions affect concentration during work and exams",
+        "word_count": 218,
+        "sentence_count": 19,
+        "skipped": false,
+        "skip_reason": null,
+        "has_grammar": true,
+        "has_errors": true,
+        "partial": false,
+        "score": 49.1,
+        "score_label": "Basic",
+        "color": "#ea580c",
+        "level_score": 5.86,
+        "variety_score": 16.0,
+        "error_score": 27.2,
+        "grammar": {
+          "richness_score": 41,
+          "level": 0.1466,
+          "level_score": 5.86,
+          "variety": 0.8,
+          "variety_score": 16.0,
+          "avg_cefr": "B1",
+          "n_assigned": 87,
+          "density": 4.5789,
+          "distinct_categories": [
+            "ADJECTIVES",
+            "CLAUSES",
+            "DISCOURSE MARKERS",
+            "FOCUS",
+            "FUTURE",
+            "MODALITY",
+            "NEGATION",
+            "PASSIVES",
+            "PAST",
+            "PRESENT",
+            "PRONOUNS",
+            "VERBS"
+          ],
+          "dims_present": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "level_distribution": {
+            "A2": 54,
+            "B1": 23,
+            "C1": 2,
+            "C2": 3,
+            "B2": 5
+          },
+          "top_match": {
+            "sentence_index": 4,
+            "sentence_text": "And if I'm disrupted by not only by notifications, but by every situation, I need I need, like, four, five minutes to to get back and be really concentrated as as if, you know, as if I wasn't disrupted completely.",
+            "structure_id": "1741163708153x262593982426201800",
+            "category": "CLAUSES",
+            "guideword": "FORM: 'AS IF' + NON-FINITE CLAUSE",
+            "lowest_level": "C2",
+            "lowest_level_numeric": 6,
+            "explanation": "'As if' + non-finite — 'as if' followed by an infinitive or participle clause to describe an appearance or impression (e.g. 'She looked as if about to cry').",
+            "span_text": "disrupted",
+            "start_token": 4,
+            "end_token": 5,
+            "start_char": 11,
+            "end_char": 20,
+            "context_start_char": 4,
+            "context_end_char": 57
+          }
+        },
+        "errors": {
+          "error_count": 7,
+          "weighted_error_sum": 14,
+          "quality_score": 68,
+          "quality_level": "Moderate",
+          "error_score": 27.2,
+          "dimension_counts": {
+            "A": 0,
+            "B": 1,
+            "C": 1,
+            "D": 5
+          }
+        }
+      },
+      {
+        "chunk_id": 9,
+        "label": "Phone distractions during school exams and scam calls",
+        "word_count": 211,
+        "sentence_count": 23,
+        "skipped": false,
+        "skip_reason": null,
+        "has_grammar": true,
+        "has_errors": true,
+        "partial": false,
+        "score": 52.0,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "level_score": 4.27,
+        "variety_score": 17.33,
+        "error_score": 30.4,
+        "grammar": {
+          "richness_score": 41,
+          "level": 0.1067,
+          "level_score": 4.27,
+          "variety": 0.8667,
+          "variety_score": 17.33,
+          "avg_cefr": "A2",
+          "n_assigned": 75,
+          "density": 3.2609,
+          "distinct_categories": [
+            "ADJECTIVES",
+            "ADVERBS",
+            "CLAUSES",
+            "DISCOURSE MARKERS",
+            "FOCUS",
+            "FUTURE",
+            "MODALITY",
+            "NEGATION",
+            "PASSIVES",
+            "PAST",
+            "PRONOUNS",
+            "REPORTED SPEECH",
+            "VERBS"
+          ],
+          "dims_present": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "level_distribution": {
+            "B1": 6,
+            "A2": 57,
+            "C1": 2,
+            "B2": 10
+          },
+          "top_match": {
+            "sentence_index": 1,
+            "sentence_text": "And in this moment, I need to be concentrated because it was a very complicated exam, and I lost, like I I lost, like, five or ten minutes and it max, if I'm not wrong.",
+            "structure_id": "1741163712056x332718835608695200",
+            "category": "PASSIVES",
+            "guideword": "FORM/USE: SUMMARISING, EVALUATING WITH 'IT'.",
+            "lowest_level": "C1",
+            "lowest_level_numeric": 5,
+            "explanation": "Impersonal passive with 'it' — 'it is said/reported/believed that' to describe general opinion or formally attributed information (e.g. 'It is believed that the building dates from 1800').",
+            "span_text": "concentrated",
+            "start_token": 9,
+            "end_token": 10,
+            "start_char": 33,
+            "end_char": 45,
+            "context_start_char": 22,
+            "context_end_char": 85
+          }
+        },
+        "errors": {
+          "error_count": 5,
+          "weighted_error_sum": 10,
+          "quality_score": 76,
+          "quality_level": "Moderate",
+          "error_score": 30.4,
+          "dimension_counts": {
+            "A": 0,
+            "B": 3,
+            "C": 1,
+            "D": 1
+          }
+        }
+      },
+      {
+        "chunk_id": 10,
+        "label": "Scam calls in Poland and messaging app preferences",
+        "word_count": 202,
+        "sentence_count": 23,
+        "skipped": false,
+        "skip_reason": null,
+        "has_grammar": true,
+        "has_errors": true,
+        "partial": false,
+        "score": 59.8,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "level_score": 3.81,
+        "variety_score": 16.0,
+        "error_score": 40.0,
+        "grammar": {
+          "richness_score": 38,
+          "level": 0.0952,
+          "level_score": 3.81,
+          "variety": 0.8,
+          "variety_score": 16.0,
+          "avg_cefr": "A2",
+          "n_assigned": 42,
+          "density": 1.8261,
+          "distinct_categories": [
+            "ADJECTIVES",
+            "CLAUSES",
+            "DISCOURSE MARKERS",
+            "FOCUS",
+            "FUTURE",
+            "MODALITY",
+            "NEGATION",
+            "PASSIVES",
+            "PAST",
+            "PRONOUNS",
+            "REPORTED SPEECH",
+            "VERBS"
+          ],
+          "dims_present": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "level_distribution": {
+            "A2": 29,
+            "B1": 10,
+            "B2": 3
+          },
+          "top_match": {
+            "sentence_index": 3,
+            "sentence_text": "Because I consider that if someone wants to contact with me, he will probably give me a message if I don't respond, you know.",
+            "structure_id": "1741163715275x932225330988349400",
+            "category": "VERBS",
+            "guideword": "FORM: PREPOSITIONAL VERB, STRANDED PREPOSITION",
+            "lowest_level": "B2",
+            "lowest_level_numeric": 4,
+            "explanation": "Stranded preposition — prepositional verb where the preposition is separated from its object, often at end of clause (e.g. 'the problem I was talking about').",
+            "span_text": "contact with",
+            "start_token": 8,
+            "end_token": 10,
+            "start_char": 44,
+            "end_char": 56,
+            "context_start_char": 24,
+            "context_end_char": 59
+          }
+        },
+        "errors": {
+          "error_count": 0,
+          "weighted_error_sum": 0,
+          "quality_score": 100,
+          "quality_level": "Good",
+          "error_score": 40.0,
+          "dimension_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 0,
+            "D": 0
+          }
+        }
+      },
+      {
+        "chunk_id": 11,
+        "label": "Messaging apps usage, education on digital notifications, learning vocabulary",
+        "word_count": 235,
+        "sentence_count": 38,
+        "skipped": false,
+        "skip_reason": null,
+        "has_grammar": true,
+        "has_errors": true,
+        "partial": false,
+        "score": 43.9,
+        "score_label": "Basic",
+        "color": "#ea580c",
+        "level_score": 8.83,
+        "variety_score": 14.67,
+        "error_score": 20.4,
+        "grammar": {
+          "richness_score": 43,
+          "level": 0.2208,
+          "level_score": 8.83,
+          "variety": 0.7333,
+          "variety_score": 14.67,
+          "avg_cefr": "B1",
+          "n_assigned": 77,
+          "density": 2.0263,
+          "distinct_categories": [
+            "ADJECTIVES",
+            "CLAUSES",
+            "DISCOURSE MARKERS",
+            "FOCUS",
+            "FUTURE",
+            "MODALITY",
+            "NEGATION",
+            "PASSIVES",
+            "PAST",
+            "PRONOUNS",
+            "VERBS"
+          ],
+          "dims_present": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "level_distribution": {
+            "B1": 27,
+            "A2": 33,
+            "B2": 10,
+            "C1": 7
+          },
+          "top_match": {
+            "sentence_index": 4,
+            "sentence_text": "And in your in your country, what peep do people do people use messenger or what's I don't see I'm not I don't know because when I was at school, I didn't receive a lot of lessons about this problem.",
+            "structure_id": "1741163716065x166400508777969860",
+            "category": "FOCUS",
+            "guideword": "FORM/USE: 'WHAT' CLEFT CLAUSE",
+            "lowest_level": "C1",
+            "lowest_level_numeric": 5,
+            "explanation": "'What' cleft clause — 'What + clause + is/was + focus' puts special emphasis on a part of the message (e.g. 'What I need is a rest', 'What surprised me was her reaction').",
+            "span_text": "was",
+            "start_token": 32,
+            "end_token": 33,
+            "start_char": 131,
+            "end_char": 134,
+            "context_start_char": 116,
+            "context_end_char": 164
+          }
+        },
+        "errors": {
+          "error_count": 11,
+          "weighted_error_sum": 23,
+          "quality_score": 51,
+          "quality_level": "Weak",
+          "error_score": 20.4,
+          "dimension_counts": {
+            "A": 0,
+            "B": 2,
+            "C": 1,
+            "D": 8
+          }
+        }
+      },
+      {
+        "chunk_id": 12,
+        "label": "Impact of notifications on focus and device usage habits",
+        "word_count": 210,
+        "sentence_count": 23,
+        "skipped": false,
+        "skip_reason": null,
+        "has_grammar": true,
+        "has_errors": true,
+        "partial": false,
+        "score": 47.5,
+        "score_label": "Basic",
+        "color": "#ea580c",
+        "level_score": 4.39,
+        "variety_score": 14.67,
+        "error_score": 28.4,
+        "grammar": {
+          "richness_score": 36,
+          "level": 0.1096,
+          "level_score": 4.39,
+          "variety": 0.7333,
+          "variety_score": 14.67,
+          "avg_cefr": "A2",
+          "n_assigned": 57,
+          "density": 2.4783,
+          "distinct_categories": [
+            "CLAUSES",
+            "DISCOURSE MARKERS",
+            "FOCUS",
+            "FUTURE",
+            "MODALITY",
+            "NEGATION",
+            "PASSIVES",
+            "PAST",
+            "PRONOUNS",
+            "REPORTED SPEECH",
+            "VERBS"
+          ],
+          "dims_present": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "level_distribution": {
+            "A2": 43,
+            "B2": 9,
+            "B1": 4,
+            "C1": 1
+          },
+          "top_match": {
+            "sentence_index": 6,
+            "sentence_text": "So even if it had happened, it would it wouldn't have this cost problems, you know.",
+            "structure_id": "1741163712056x332718835608695200",
+            "category": "PASSIVES",
+            "guideword": "FORM/USE: SUMMARISING, EVALUATING WITH 'IT'.",
+            "lowest_level": "C1",
+            "lowest_level_numeric": 5,
+            "explanation": "Impersonal passive with 'it' — 'it is said/reported/believed that' to describe general opinion or formally attributed information (e.g. 'It is believed that the building dates from 1800').",
+            "span_text": "happened",
+            "start_token": 5,
+            "end_token": 6,
+            "start_char": 18,
+            "end_char": 26,
+            "context_start_char": 0,
+            "context_end_char": 36
+          }
+        },
+        "errors": {
+          "error_count": 6,
+          "weighted_error_sum": 12,
+          "quality_score": 71,
+          "quality_level": "Moderate",
+          "error_score": 28.4,
+          "dimension_counts": {
+            "A": 0,
+            "B": 3,
+            "C": 1,
+            "D": 2
+          }
+        }
+      },
+      {
+        "chunk_id": 13,
+        "label": "Laptop usage, gaming opinions, and digital disruption effects",
+        "word_count": 234,
+        "sentence_count": 20,
+        "skipped": false,
+        "skip_reason": null,
+        "has_grammar": true,
+        "has_errors": true,
+        "partial": false,
+        "score": 51.9,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "level_score": 5.49,
+        "variety_score": 16.0,
+        "error_score": 30.4,
+        "grammar": {
+          "richness_score": 40,
+          "level": 0.1372,
+          "level_score": 5.49,
+          "variety": 0.8,
+          "variety_score": 16.0,
+          "avg_cefr": "B1",
+          "n_assigned": 82,
+          "density": 4.1,
+          "distinct_categories": [
+            "ADJECTIVES",
+            "ADVERBS",
+            "CLAUSES",
+            "DISCOURSE MARKERS",
+            "FOCUS",
+            "FUTURE",
+            "MODALITY",
+            "NEGATION",
+            "PASSIVES",
+            "PAST",
+            "PRONOUNS",
+            "VERBS"
+          ],
+          "dims_present": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "level_distribution": {
+            "A2": 54,
+            "B2": 9,
+            "B1": 15,
+            "C1": 4
+          },
+          "top_match": {
+            "sentence_index": 13,
+            "sentence_text": "It can back up become become.",
+            "structure_id": "1741163712056x332718835608695200",
+            "category": "PASSIVES",
+            "guideword": "FORM/USE: SUMMARISING, EVALUATING WITH 'IT'.",
+            "lowest_level": "C1",
+            "lowest_level_numeric": 5,
+            "explanation": "Impersonal passive with 'it' — 'it is said/reported/believed that' to describe general opinion or formally attributed information (e.g. 'It is believed that the building dates from 1800').",
+            "span_text": "become",
+            "start_token": 5,
+            "end_token": 6,
+            "start_char": 22,
+            "end_char": 28,
+            "context_start_char": 0,
+            "context_end_char": 29
+          }
+        },
+        "errors": {
+          "error_count": 5,
+          "weighted_error_sum": 11,
+          "quality_score": 76,
+          "quality_level": "Moderate",
+          "error_score": 30.4,
+          "dimension_counts": {
+            "A": 0,
+            "B": 1,
+            "C": 0,
+            "D": 4
+          }
+        }
+      },
+      {
+        "chunk_id": 14,
+        "label": "TikTok vs YouTube, attention spans, and digital distractions",
+        "word_count": 202,
+        "sentence_count": 26,
+        "skipped": false,
+        "skip_reason": null,
+        "has_grammar": true,
+        "has_errors": true,
+        "partial": false,
+        "score": 51.8,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "level_score": 6.6,
+        "variety_score": 16.0,
+        "error_score": 29.2,
+        "grammar": {
+          "richness_score": 42,
+          "level": 0.1649,
+          "level_score": 6.6,
+          "variety": 0.8,
+          "variety_score": 16.0,
+          "avg_cefr": "B1",
+          "n_assigned": 47,
+          "density": 1.8077,
+          "distinct_categories": [
+            "ADJECTIVES",
+            "ADVERBS",
+            "CLAUSES",
+            "DISCOURSE MARKERS",
+            "FOCUS",
+            "FUTURE",
+            "MODALITY",
+            "NEGATION",
+            "PASSIVES",
+            "PAST",
+            "PRONOUNS",
+            "VERBS"
+          ],
+          "dims_present": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "level_distribution": {
+            "B1": 10,
+            "A2": 28,
+            "C1": 3,
+            "B2": 6
+          },
+          "top_match": {
+            "sentence_index": 1,
+            "sentence_text": "We've been we've been living with with with It's not in short area.",
+            "structure_id": "1741163712056x332718835608695200",
+            "category": "PASSIVES",
+            "guideword": "FORM/USE: SUMMARISING, EVALUATING WITH 'IT'.",
+            "lowest_level": "C1",
+            "lowest_level_numeric": 5,
+            "explanation": "Impersonal passive with 'it' — 'it is said/reported/believed that' to describe general opinion or formally attributed information (e.g. 'It is believed that the building dates from 1800').",
+            "span_text": "been",
+            "start_token": 2,
+            "end_token": 3,
+            "start_char": 6,
+            "end_char": 10,
+            "context_start_char": 0,
+            "context_end_char": 28
+          }
+        },
+        "errors": {
+          "error_count": 5,
+          "weighted_error_sum": 11,
+          "quality_score": 73,
+          "quality_level": "Moderate",
+          "error_score": 29.2,
+          "dimension_counts": {
+            "A": 0,
+            "B": 1,
+            "C": 3,
+            "D": 1
+          }
+        }
+      },
+      {
+        "chunk_id": 15,
+        "label": "Personal discipline, sports habits, and having idols",
+        "word_count": 208,
+        "sentence_count": 29,
+        "skipped": false,
+        "skip_reason": null,
+        "has_grammar": true,
+        "has_errors": true,
+        "partial": false,
+        "score": 43.3,
+        "score_label": "Basic",
+        "color": "#ea580c",
+        "level_score": 3.82,
+        "variety_score": 14.67,
+        "error_score": 24.8,
+        "grammar": {
+          "richness_score": 35,
+          "level": 0.0956,
+          "level_score": 3.82,
+          "variety": 0.7333,
+          "variety_score": 14.67,
+          "avg_cefr": "A2",
+          "n_assigned": 68,
+          "density": 2.3448,
+          "distinct_categories": [
+            "ADJECTIVES",
+            "CLAUSES",
+            "FOCUS",
+            "FUTURE",
+            "MODALITY",
+            "NEGATION",
+            "PASSIVES",
+            "PAST",
+            "PRONOUNS",
+            "REPORTED SPEECH",
+            "VERBS"
+          ],
+          "dims_present": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "level_distribution": {
+            "A2": 46,
+            "B1": 19,
+            "B2": 2,
+            "C1": 1
+          },
+          "top_match": {
+            "sentence_index": 28,
+            "sentence_text": "Because I like watching a lot of people, for example, or seeing, but it's not about being fascinated.",
+            "structure_id": "1741163712056x332718835608695200",
+            "category": "PASSIVES",
+            "guideword": "FORM/USE: SUMMARISING, EVALUATING WITH 'IT'.",
+            "lowest_level": "C1",
+            "lowest_level_numeric": 5,
+            "explanation": "Impersonal passive with 'it' — 'it is said/reported/believed that' to describe general opinion or formally attributed information (e.g. 'It is believed that the building dates from 1800').",
+            "span_text": "fascinated",
+            "start_token": 21,
+            "end_token": 22,
+            "start_char": 90,
+            "end_char": 100,
+            "context_start_char": 78,
+            "context_end_char": 100
+          }
+        },
+        "errors": {
+          "error_count": 7,
+          "weighted_error_sum": 16,
+          "quality_score": 62,
+          "quality_level": "Moderate",
+          "error_score": 24.8,
+          "dimension_counts": {
+            "A": 0,
+            "B": 3,
+            "C": 2,
+            "D": 2
+          }
+        }
+      },
+      {
+        "chunk_id": 16,
+        "label": "Idols, discipline changes during teenage years",
+        "word_count": 211,
+        "sentence_count": 35,
+        "skipped": false,
+        "skip_reason": null,
+        "has_grammar": true,
+        "has_errors": true,
+        "partial": false,
+        "score": 41.5,
+        "score_label": "Basic",
+        "color": "#ea580c",
+        "level_score": 2.92,
+        "variety_score": 17.33,
+        "error_score": 21.2,
+        "grammar": {
+          "richness_score": 39,
+          "level": 0.0729,
+          "level_score": 2.92,
+          "variety": 0.8667,
+          "variety_score": 17.33,
+          "avg_cefr": "A2",
+          "n_assigned": 72,
+          "density": 2.0571,
+          "distinct_categories": [
+            "ADJECTIVES",
+            "CLAUSES",
+            "DISCOURSE MARKERS",
+            "FOCUS",
+            "FUTURE",
+            "MODALITY",
+            "NEGATION",
+            "PASSIVES",
+            "PAST",
+            "PRONOUNS",
+            "QUESTIONS",
+            "REPORTED SPEECH",
+            "VERBS"
+          ],
+          "dims_present": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "level_distribution": {
+            "A2": 55,
+            "B2": 4,
+            "B1": 13
+          },
+          "top_match": {
+            "sentence_index": 3,
+            "sentence_text": "So and to in your case, do you have anyone who who really who really like?",
+            "structure_id": "1741163716072x486471898998410700",
+            "category": "NEGATION",
+            "guideword": "FORM: 'NEITHER OF', 'NONE OF' + PRONOUN",
+            "lowest_level": "B2",
+            "lowest_level_numeric": 4,
+            "explanation": "'Neither of / none of' + pronoun — negative quantifier before a pronoun referring to a group (e.g. 'None of them arrived').",
+            "span_text": "anyone",
+            "start_token": 10,
+            "end_token": 11,
+            "start_char": 36,
+            "end_char": 42,
+            "context_start_char": 24,
+            "context_end_char": 74
+          }
+        },
+        "errors": {
+          "error_count": 10,
+          "weighted_error_sum": 20,
+          "quality_score": 53,
+          "quality_level": "Weak",
+          "error_score": 21.2,
+          "dimension_counts": {
+            "A": 0,
+            "B": 1,
+            "C": 4,
+            "D": 5
+          }
+        }
+      },
+      {
+        "chunk_id": 17,
+        "label": "Changes in behavior and discipline from childhood to adulthood",
+        "word_count": 210,
+        "sentence_count": 16,
+        "skipped": false,
+        "skip_reason": null,
+        "has_grammar": true,
+        "has_errors": true,
+        "partial": false,
+        "score": 53.8,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "level_score": 4.05,
+        "variety_score": 17.33,
+        "error_score": 32.4,
+        "grammar": {
+          "richness_score": 41,
+          "level": 0.1014,
+          "level_score": 4.05,
+          "variety": 0.8667,
+          "variety_score": 17.33,
+          "avg_cefr": "A2",
+          "n_assigned": 74,
+          "density": 4.625,
+          "distinct_categories": [
+            "ADJECTIVES",
+            "CLAUSES",
+            "DISCOURSE MARKERS",
+            "FOCUS",
+            "FUTURE",
+            "MODALITY",
+            "NEGATION",
+            "PASSIVES",
+            "PAST",
+            "PRONOUNS",
+            "QUESTIONS",
+            "REPORTED SPEECH",
+            "VERBS"
+          ],
+          "dims_present": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "level_distribution": {
+            "A2": 48,
+            "B2": 2,
+            "B1": 23,
+            "C1": 1
+          },
+          "top_match": {
+            "sentence_index": 4,
+            "sentence_text": "So when we are tried, we it's not we when we're it's not that we we don't think, but we we don't consider any consequences, I would say, and see.",
+            "structure_id": "1741163712056x332718835608695200",
+            "category": "PASSIVES",
+            "guideword": "FORM/USE: SUMMARISING, EVALUATING WITH 'IT'.",
+            "lowest_level": "C1",
+            "lowest_level_numeric": 5,
+            "explanation": "Impersonal passive with 'it' — 'it is said/reported/believed that' to describe general opinion or formally attributed information (e.g. 'It is believed that the building dates from 1800').",
+            "span_text": "tried",
+            "start_token": 4,
+            "end_token": 5,
+            "start_char": 15,
+            "end_char": 20,
+            "context_start_char": 3,
+            "context_end_char": 44
+          }
+        },
+        "errors": {
+          "error_count": 4,
+          "weighted_error_sum": 8,
+          "quality_score": 81,
+          "quality_level": "Good",
+          "error_score": 32.4,
+          "dimension_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 2,
+            "D": 2
+          }
+        }
+      },
+      {
+        "chunk_id": 18,
+        "label": "Growing up, discipline, family dependence, and focusing on strengths",
+        "word_count": 221,
+        "sentence_count": 26,
+        "skipped": false,
+        "skip_reason": null,
+        "has_grammar": true,
+        "has_errors": true,
+        "partial": false,
+        "score": 42.9,
+        "score_label": "Basic",
+        "color": "#ea580c",
+        "level_score": 1.86,
+        "variety_score": 14.67,
+        "error_score": 26.4,
+        "grammar": {
+          "richness_score": 32,
+          "level": 0.0466,
+          "level_score": 1.86,
+          "variety": 0.7333,
+          "variety_score": 14.67,
+          "avg_cefr": "A2",
+          "n_assigned": 59,
+          "density": 2.2692,
+          "distinct_categories": [
+            "ADJECTIVES",
+            "CLAUSES",
+            "DISCOURSE MARKERS",
+            "FOCUS",
+            "FUTURE",
+            "MODALITY",
+            "NEGATION",
+            "PRESENT",
+            "PRONOUNS",
+            "REPORTED SPEECH",
+            "VERBS"
+          ],
+          "dims_present": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "level_distribution": {
+            "A2": 51,
+            "B1": 5,
+            "B2": 3
+          },
+          "top_match": {
+            "sentence_index": 11,
+            "sentence_text": "It depends on every family, but it's not for example, that you you are 18, like and you are free because there are a lot of people who lives with with their parents, for example, it creates deep dependence.",
+            "structure_id": "1741163715608x437514984752567900",
+            "category": "VERBS",
+            "guideword": "FORM: 'THERE' + VERBS WITH MODAL MEANING",
+            "lowest_level": "B2",
+            "lowest_level_numeric": 4,
+            "explanation": "'There' + semi-modal — existential with a verb carrying modal meaning (e.g. 'There seems to be a problem', 'There happens to be one left').",
+            "span_text": "there are",
+            "start_token": 25,
+            "end_token": 27,
+            "start_char": 105,
+            "end_char": 114,
+            "context_start_char": 88,
+            "context_end_char": 150
+          }
+        },
+        "errors": {
+          "error_count": 7,
+          "weighted_error_sum": 15,
+          "quality_score": 66,
+          "quality_level": "Moderate",
+          "error_score": 26.4,
+          "dimension_counts": {
+            "A": 0,
+            "B": 3,
+            "C": 1,
+            "D": 3
+          }
+        }
+      },
+      {
+        "chunk_id": 19,
+        "label": "Focusing on few topics for better results and farewell",
+        "word_count": 53,
+        "sentence_count": 12,
+        "skipped": false,
+        "skip_reason": null,
+        "has_grammar": true,
+        "has_errors": true,
+        "partial": false,
+        "score": 45.4,
+        "score_label": "Basic",
+        "color": "#ea580c",
+        "level_score": 3.64,
+        "variety_score": 9.33,
+        "error_score": 32.4,
+        "grammar": {
+          "richness_score": 24,
+          "level": 0.0909,
+          "level_score": 3.64,
+          "variety": 0.4667,
+          "variety_score": 9.33,
+          "avg_cefr": "A2",
+          "n_assigned": 22,
+          "density": 1.8333,
+          "distinct_categories": [
+            "CLAUSES",
+            "DISCOURSE MARKERS",
+            "FUTURE",
+            "MODALITY",
+            "PRONOUNS",
+            "QUESTIONS",
+            "VERBS"
+          ],
+          "dims_present": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "level_distribution": {
+            "A2": 14,
+            "B1": 8
+          },
+          "top_match": {
+            "sentence_index": 6,
+            "sentence_text": "and I will finish everything, and I will I will do sports.",
+            "structure_id": "1741163711534x531065253308636860",
+            "category": "MODALITY",
+            "guideword": "USE: WILLINGNESS IN THE PAST",
+            "lowest_level": "B1",
+            "lowest_level_numeric": 3,
+            "explanation": "Past willingness — 'would' describing readiness or refusal in a past situation (e.g. 'He wouldn't help me').",
+            "span_text": "will",
+            "start_token": 2,
+            "end_token": 3,
+            "start_char": 6,
+            "end_char": 10,
+            "context_start_char": 0,
+            "context_end_char": 47
+          }
+        },
+        "errors": {
+          "error_count": 1,
+          "weighted_error_sum": 2,
+          "quality_score": 81,
+          "quality_level": "Good",
+          "error_score": 32.4,
+          "dimension_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 0,
+            "D": 1
+          }
+        }
+      }
+    ]
+  },
+  "fluency": {
+    "formula": {
+      "min_sentence_words": 5,
+      "components": {
+        "speed": {
+          "weight": 35,
+          "desc": "articulation speed (sec/letter)"
+        },
+        "gaps": {
+          "weight": 35,
+          "desc": "inter-word pauses"
+        },
+        "fillers": {
+          "weight": 15,
+          "desc": "filler / hesitation rate"
+        },
+        "dups": {
+          "weight": 15,
+          "desc": "word / phrase repetitions"
+        }
+      }
+    },
+    "aggregate": {
+      "score": 60.46,
+      "score_label": "Moderate",
+      "color": "#d97706",
+      "components": {
+        "speed": 35.4,
+        "gaps": 68.36,
+        "fillers": 89.09,
+        "dups": 71.87
+      },
+      "distribution": {
+        "fluent": 18,
+        "moderate": 81,
+        "struggling": 84,
+        "weak": 16
+      },
+      "sentences_included": 199,
+      "sentences_skipped": 230,
+      "sentences_total": 429,
+      "stats": {
+        "total_words": 3687,
+        "filler_count": 232,
+        "filler_rate": 0.0629,
+        "filler_types": {
+          "discourse_marker": 117,
+          "backchannel": 113,
+          "placeholder": 2
+        },
+        "avg_speed_ms": 150,
+        "avg_gap_ms": -279
+      }
+    },
+    "sentences": [
+      {
+        "sentence_id": 11,
+        "text": "Because I the weather the the weather is great.",
+        "word_count": 9,
+        "score": 51.6,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 73.5,
+          "gaps": 0.0,
+          "fillers": 100.0,
+          "dups": 72.2
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 550.0,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.842
+      },
+      {
+        "sentence_id": 12,
+        "text": "It has it has improved because in the during the winter, it was it was was very cold.",
+        "word_count": 18,
+        "score": 50.4,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 25.8,
+          "gaps": 56.2,
+          "fillers": 100.0,
+          "dups": 44.4
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 92.6,
+        "duplicate_count": 2,
+        "accuracy_mean": 0.9555
+      },
+      {
+        "sentence_id": 16,
+        "text": "So so I'm happy because we have a sunny day.",
+        "word_count": 10,
+        "score": 64.6,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 50.3,
+          "gaps": 70.0,
+          "fillers": 75.0,
+          "dups": 75.0
+        },
+        "filler_count": 1,
+        "filler_rate": 0.1,
+        "gap_mean_ms": 80.0,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9189
+      },
+      {
+        "sentence_id": 20,
+        "text": "I thought that it would be very interesting to to to speak.",
+        "word_count": 12,
+        "score": 63.0,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 30.9,
+          "gaps": 81.2,
+          "fillers": 100.0,
+          "dups": 58.3
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 50.9,
+        "duplicate_count": 2,
+        "accuracy_mean": 0.9669
+      },
+      {
+        "sentence_id": 23,
+        "text": "How notifications hurt your concentration?",
+        "word_count": 5,
+        "score": 89.8,
+        "score_label": "Fluent",
+        "color": "#15803d",
+        "components": {
+          "speed": 75.6,
+          "gaps": 95.2,
+          "fillers": 100.0,
+          "dups": 100.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 20.0,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.881
+      },
+      {
+        "sentence_id": 24,
+        "text": "Constant digital constant constant digital notifications, emails, news outlets, and text messages from friends are a come are are a common distraction when we are trying to work or study.",
+        "word_count": 30,
+        "score": 79.7,
+        "score_label": "Fluent",
+        "color": "#15803d",
+        "components": {
+          "speed": 62.7,
+          "gaps": 86.4,
+          "fillers": 100.0,
+          "dups": 83.3
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 40.9,
+        "duplicate_count": 2,
+        "accuracy_mean": 0.8824
+      },
+      {
+        "sentence_id": 25,
+        "text": "In fact, getting a single smartphone notification could disrupt your concentration for around seven seconds.",
+        "word_count": 15,
+        "score": 91.4,
+        "score_label": "Fluent",
+        "color": "#15803d",
+        "components": {
+          "speed": 75.3,
+          "gaps": 100.0,
+          "fillers": 100.0,
+          "dups": 100.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 0.0,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.9984
+      },
+      {
+        "sentence_id": 26,
+        "text": "That's according to a recent study published in computers in human behavior in which behavior behavior in which 118 university students were split into three groups to take part in Stroop takes tasks tasks tasks.",
+        "word_count": 35,
+        "score": 72.6,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 61.3,
+          "gaps": 69.6,
+          "fillers": 100.0,
+          "dups": 78.6
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 107.5,
+        "duplicate_count": 3,
+        "accuracy_mean": 0.9207
+      },
+      {
+        "sentence_id": 27,
+        "text": "During Stroop tasks, participations are shown the word for a color, but the font will be in a different color.",
+        "word_count": 20,
+        "score": 82.4,
+        "score_label": "Fluent",
+        "color": "#15803d",
+        "components": {
+          "speed": 60.7,
+          "gaps": 89.1,
+          "fillers": 100.0,
+          "dups": 100.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 29.5,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.9688
+      },
+      {
+        "sentence_id": 28,
+        "text": "For example, they will see the word green but written in red letters.",
+        "word_count": 13,
+        "score": 90.3,
+        "score_label": "Fluent",
+        "color": "#15803d",
+        "components": {
+          "speed": 72.2,
+          "gaps": 100.0,
+          "fillers": 100.0,
+          "dups": 100.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 0.0,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.9202
+      },
+      {
+        "sentence_id": 49,
+        "text": "Who those who fought, they were seeing notifications from their own phone.",
+        "word_count": 12,
+        "score": 85.8,
+        "score_label": "Fluent",
+        "color": "#15803d",
+        "components": {
+          "speed": 72.2,
+          "gaps": 87.4,
+          "fillers": 100.0,
+          "dups": 100.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 36.4,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.9959
+      },
+      {
+        "sentence_id": 50,
+        "text": "And the more they wanted to check a notification and the stronger the emotional response, the more, the more, their reaction time was delayed.",
+        "word_count": 24,
+        "score": 84.1,
+        "score_label": "Fluent",
+        "color": "#15803d",
+        "components": {
+          "speed": 75.5,
+          "gaps": 87.9,
+          "fillers": 100.0,
+          "dups": 79.2
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 27.8,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9395
+      },
+      {
+        "sentence_id": 51,
+        "text": "Seven sec might not seem like a lot.",
+        "word_count": 8,
+        "score": 78.2,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 51.1,
+          "gaps": 100.0,
+          "fillers": 68.8,
+          "dups": 100.0
+        },
+        "filler_count": 1,
+        "filler_rate": 0.125,
+        "gap_mean_ms": 0.0,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.9245
+      },
+      {
+        "sentence_id": 52,
+        "text": "However, Hippologt Fournier, one of the study authors told CPOST, Even short disruption when repeated dose dozens or hundreds of time per day may meaningfully affect concentration",
+        "word_count": 27,
+        "score": 72.9,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 61.8,
+          "gaps": 60.7,
+          "fillers": 100.0,
+          "dups": 100.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 163.3,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.8801
+      },
+      {
+        "sentence_id": 58,
+        "text": "I I thought that it would be great to discuss because in the world that we are living now, there are a lot of notifications.",
+        "word_count": 25,
+        "score": 79.6,
+        "score_label": "Fluent",
+        "color": "#15803d",
+        "components": {
+          "speed": 46.0,
+          "gaps": 100.0,
+          "fillers": 100.0,
+          "dups": 90.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": -57.3,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9259
+      },
+      {
+        "sentence_id": 59,
+        "text": "There are a lot of disruptions that we can encounter, and and it would be great if we were more conscious about it because because it can cause a lot of it can it can cause it can cause a lot of issues when it comes to being present,",
+        "word_count": 49,
+        "score": 70.2,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 48.2,
+          "gaps": 75.3,
+          "fillers": 100.0,
+          "dups": 79.6
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 57.8,
+        "duplicate_count": 3,
+        "accuracy_mean": 0.9599
+      },
+      {
+        "sentence_id": 60,
+        "text": "yeah, in in in our lives.",
+        "word_count": 6,
+        "score": 54.3,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 23.0,
+          "gaps": 100.0,
+          "fillers": 58.3,
+          "dups": 16.7
+        },
+        "filler_count": 1,
+        "filler_rate": 0.1667,
+        "gap_mean_ms": 0.0,
+        "duplicate_count": 2,
+        "accuracy_mean": 0.9608
+      },
+      {
+        "sentence_id": 61,
+        "text": "I would say that I don't get interrupted by notifications because a few years ago, I turned out turned off my notifications.",
+        "word_count": 22,
+        "score": 53.8,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 0.2,
+          "gaps": 67.8,
+          "fillers": 100.0,
+          "dups": 100.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 69.3,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.9746
+      },
+      {
+        "sentence_id": 62,
+        "text": "So I I saw when I was younger that it was causing a lot of problems when it comes causing when it was causing a lot of problems when it comes to being focused on my tasks.",
+        "word_count": 37,
+        "score": 58.7,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 9.8,
+          "gaps": 78.1,
+          "fillers": 93.2,
+          "dups": 93.2
+        },
+        "filler_count": 1,
+        "filler_rate": 0.027,
+        "gap_mean_ms": 28.2,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9168
+      },
+      {
+        "sentence_id": 63,
+        "text": "And I decided to to to turn off every notification from my phone.",
+        "word_count": 13,
+        "score": 54.4,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 29.7,
+          "gaps": 56.5,
+          "fillers": 100.0,
+          "dups": 61.5
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 193.3,
+        "duplicate_count": 2,
+        "accuracy_mean": 0.9734
+      },
+      {
+        "sentence_id": 64,
+        "text": "So I don't get any notification.",
+        "word_count": 6,
+        "score": 72.7,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 50.0,
+          "gaps": 89.9,
+          "fillers": 58.3,
+          "dups": 100.0
+        },
+        "filler_count": 1,
+        "filler_rate": 0.1667,
+        "gap_mean_ms": 32.0,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.9956
+      },
+      {
+        "sentence_id": 65,
+        "text": "I my phone, when I I'm receiving a call, my phone can zip.",
+        "word_count": 13,
+        "score": 55.1,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 0.0,
+          "gaps": 71.6,
+          "fillers": 100.0,
+          "dups": 100.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 106.7,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.9471
+      },
+      {
+        "sentence_id": 67,
+        "text": "It can, yeah, sort out sort out.",
+        "word_count": 7,
+        "score": 42.6,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 60.4,
+          "gaps": 21.4,
+          "fillers": 64.3,
+          "dups": 28.6
+        },
+        "filler_count": 1,
+        "filler_rate": 0.1429,
+        "gap_mean_ms": 333.3,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.8492
+      },
+      {
+        "sentence_id": 68,
+        "text": "So I I will notice it, but I consider that when I get called Vibrate or vibrate.",
+        "word_count": 17,
+        "score": 35.6,
+        "score_label": "Weak",
+        "color": "#dc2626",
+        "components": {
+          "speed": 0.0,
+          "gaps": 28.7,
+          "fillers": 85.3,
+          "dups": 85.3
+        },
+        "filler_count": 1,
+        "filler_rate": 0.0588,
+        "gap_mean_ms": 320.3,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.8966
+      },
+      {
+        "sentence_id": 74,
+        "text": "but but I I find it great because I consider that when I get a call, it's probably something more important that any notification from Facebook, from from Instagram.",
+        "word_count": 29,
+        "score": 62.7,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 25.7,
+          "gaps": 78.9,
+          "fillers": 100.0,
+          "dups": 74.1
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 79.8,
+        "duplicate_count": 3,
+        "accuracy_mean": 0.9643
+      },
+      {
+        "sentence_id": 75,
+        "text": "So so I I did it, and I if I if I could get back in time, I I didn't check anything.",
+        "word_count": 22,
+        "score": 42.2,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 0.0,
+          "gaps": 64.1,
+          "fillers": 88.6,
+          "dups": 43.2
+        },
+        "filler_count": 1,
+        "filler_rate": 0.0455,
+        "gap_mean_ms": 147.4,
+        "duplicate_count": 4,
+        "accuracy_mean": 0.9562
+      },
+      {
+        "sentence_id": 76,
+        "text": "I think it helped me a lot when it comes to being concentrated, but it's not that now I'm concentrated what in 100%.",
+        "word_count": 23,
+        "score": 80.1,
+        "score_label": "Fluent",
+        "color": "#15803d",
+        "components": {
+          "speed": 64.2,
+          "gaps": 78.8,
+          "fillers": 100.0,
+          "dups": 100.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 58.2,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.9656
+      },
+      {
+        "sentence_id": 77,
+        "text": "I'm struggling with it sometimes, but it helped me a lot, I think.",
+        "word_count": 13,
+        "score": 78.8,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 39.5,
+          "gaps": 100.0,
+          "fillers": 100.0,
+          "dups": 100.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": -4.6,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.9817
+      },
+      {
+        "sentence_id": 78,
+        "text": "In sense that sometimes, for example, when I know that that I will get informations about about import situations that are important in my life, and I and I'm looking forward I'm looking forward to it.",
+        "word_count": 36,
+        "score": 42.6,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 0.0,
+          "gaps": 50.7,
+          "fillers": 100.0,
+          "dups": 65.3
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 226.3,
+        "duplicate_count": 3,
+        "accuracy_mean": 0.9471
+      },
+      {
+        "sentence_id": 79,
+        "text": "I I used to I used to scroll my phone.",
+        "word_count": 10,
+        "score": 57.4,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 2.3,
+          "gaps": 86.7,
+          "fillers": 100.0,
+          "dups": 75.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 35.6,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9761
+      },
+      {
+        "sentence_id": 80,
+        "text": "So, like, searching notifications sometimes.",
+        "word_count": 5,
+        "score": 66.3,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 78.7,
+          "gaps": 67.8,
+          "fillers": 0.0,
+          "dups": 100.0
+        },
+        "filler_count": 2,
+        "filler_rate": 0.4,
+        "gap_mean_ms": 220.0,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.9427
+      },
+      {
+        "sentence_id": 81,
+        "text": "So I it's it has shown me that I still need to improve.",
+        "word_count": 13,
+        "score": 47.2,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 0.0,
+          "gaps": 57.4,
+          "fillers": 80.8,
+          "dups": 100.0
+        },
+        "filler_count": 1,
+        "filler_rate": 0.0769,
+        "gap_mean_ms": 157.9,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.9613
+      },
+      {
+        "sentence_id": 82,
+        "text": "But as I told you, this situation helped me a lot that I turn off my notifications.",
+        "word_count": 17,
+        "score": 60.1,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 46.7,
+          "gaps": 39.3,
+          "fillers": 100.0,
+          "dups": 100.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 215.0,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.9454
+      },
+      {
+        "sentence_id": 83,
+        "text": "It's one step to to achieve my goal, let's say, if it is a goal.",
+        "word_count": 15,
+        "score": 67.1,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 39.2,
+          "gaps": 88.3,
+          "fillers": 66.7,
+          "dups": 83.3
+        },
+        "filler_count": 2,
+        "filler_rate": 0.1333,
+        "gap_mean_ms": 26.8,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9933
+      },
+      {
+        "sentence_id": 85,
+        "text": "When I started to to get off my notifications, I felt this this sensation this sensation of of of losing something.",
+        "word_count": 21,
+        "score": 55.3,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 16.5,
+          "gaps": 76.3,
+          "fillers": 100.0,
+          "dups": 52.4
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 92.0,
+        "duplicate_count": 4,
+        "accuracy_mean": 0.9551
+      },
+      {
+        "sentence_id": 86,
+        "text": "But I but now I consider that if something is really important something is really important, someone will will get to me.",
+        "word_count": 22,
+        "score": 40.1,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 0.0,
+          "gaps": 53.3,
+          "fillers": 100.0,
+          "dups": 43.2
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 116.2,
+        "duplicate_count": 2,
+        "accuracy_mean": 0.9392
+      },
+      {
+        "sentence_id": 90,
+        "text": "But but when what we nowadays, we have a lot of notifications about Use or situations that's that are not so important.",
+        "word_count": 22,
+        "score": 66.2,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 48.6,
+          "gaps": 64.4,
+          "fillers": 100.0,
+          "dups": 77.3
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": -14141.0,
+        "duplicate_count": 2,
+        "accuracy_mean": 0.9123
+      },
+      {
+        "sentence_id": 92,
+        "text": "So the world creates a lot of informations that that are that are that are unnecessary to to our lives.",
+        "word_count": 20,
+        "score": 54.8,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 44.6,
+          "gaps": 52.9,
+          "fillers": 87.5,
+          "dups": 50.0
+        },
+        "filler_count": 1,
+        "filler_rate": 0.05,
+        "gap_mean_ms": 200.8,
+        "duplicate_count": 3,
+        "accuracy_mean": 0.9054
+      },
+      {
+        "sentence_id": 93,
+        "text": "So if I if I could eliminate if I could get off, let's say, 40% of this type of information, I think it was a great choice.",
+        "word_count": 27,
+        "score": 50.8,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 30.2,
+          "gaps": 48.9,
+          "fillers": 72.2,
+          "dups": 81.5
+        },
+        "filler_count": 3,
+        "filler_rate": 0.1111,
+        "gap_mean_ms": 184.8,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9323
+      },
+      {
+        "sentence_id": 95,
+        "text": "It's difficult to to to say, but one hour, two hours, it depends on day because because I've never thought about it.",
+        "word_count": 22,
+        "score": 59.3,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 31.4,
+          "gaps": 67.1,
+          "fillers": 100.0,
+          "dups": 65.9
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 97.4,
+        "duplicate_count": 3,
+        "accuracy_mean": 0.9703
+      },
+      {
+        "sentence_id": 96,
+        "text": "But now I use my phone, first of all, to to get more informations about language learning.",
+        "word_count": 17,
+        "score": 76.1,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 53.0,
+          "gaps": 85.0,
+          "fillers": 100.0,
+          "dups": 85.3
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 41.6,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9631
+      },
+      {
+        "sentence_id": 99,
+        "text": "To get more information about what I really need, and I think I because of that I I don't lose time that I would lose if I reinstall notifications.",
+        "word_count": 29,
+        "score": 47.6,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 0.0,
+          "gaps": 54.0,
+          "fillers": 100.0,
+          "dups": 91.4
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 184.5,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9288
+      },
+      {
+        "sentence_id": 102,
+        "text": "I turned out my notifications, like, five or six years ago, and I've never thought about about coming back.",
+        "word_count": 19,
+        "score": 52.5,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 10.8,
+          "gaps": 64.9,
+          "fillers": 86.8,
+          "dups": 86.8
+        },
+        "filler_count": 1,
+        "filler_rate": 0.0526,
+        "gap_mean_ms": 98.6,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9773
+      },
+      {
+        "sentence_id": 104,
+        "text": "So so if it's not necessary, I don't consider it.",
+        "word_count": 10,
+        "score": 58.7,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 13.3,
+          "gaps": 90.0,
+          "fillers": 75.0,
+          "dups": 75.0
+        },
+        "filler_count": 1,
+        "filler_rate": 0.1,
+        "gap_mean_ms": 35.0,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9991
+      },
+      {
+        "sentence_id": 105,
+        "text": "If in the future, it is necessary, I will turn on my notifications.",
+        "word_count": 13,
+        "score": 79.2,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 50.5,
+          "gaps": 90.0,
+          "fillers": 100.0,
+          "dups": 100.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 26.7,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.9554
+      },
+      {
+        "sentence_id": 106,
+        "text": "But in this moment, I I have not encountered any reason to to to return.",
+        "word_count": 15,
+        "score": 44.0,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 0.0,
+          "gaps": 61.3,
+          "fillers": 100.0,
+          "dups": 50.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 162.5,
+        "duplicate_count": 3,
+        "accuracy_mean": 0.9909
+      },
+      {
+        "sentence_id": 108,
+        "text": "So I've been using it or I've been not using it for, like, say, six six years.",
+        "word_count": 17,
+        "score": 61.8,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 57.6,
+          "gaps": 52.3,
+          "fillers": 70.6,
+          "dups": 85.3
+        },
+        "filler_count": 2,
+        "filler_rate": 0.1176,
+        "gap_mean_ms": 146.6,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9361
+      },
+      {
+        "sentence_id": 109,
+        "text": "And and I wish it could it could go ahead.",
+        "word_count": 10,
+        "score": 47.6,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 0.0,
+          "gaps": 82.6,
+          "fillers": 100.0,
+          "dups": 25.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 80.0,
+        "duplicate_count": 2,
+        "accuracy_mean": 0.9704
+      },
+      {
+        "sentence_id": 111,
+        "text": "I use first of all, I use Twitter.",
+        "word_count": 8,
+        "score": 35.1,
+        "score_label": "Weak",
+        "color": "#dc2626",
+        "components": {
+          "speed": 0.0,
+          "gaps": 14.5,
+          "fillers": 100.0,
+          "dups": 100.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 662.9,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.9843
+      },
+      {
+        "sentence_id": 112,
+        "text": "It is named, like, now how can we do not x x.",
+        "word_count": 12,
+        "score": 47.9,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 40.4,
+          "gaps": 46.4,
+          "fillers": 37.5,
+          "dups": 79.2
+        },
+        "filler_count": 3,
+        "filler_rate": 0.25,
+        "gap_mean_ms": 203.2,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.7647
+      },
+      {
+        "sentence_id": 113,
+        "text": "So if I try to I try I try to I try to be conscious about it and don't use a lot of of Twitter.",
+        "word_count": 25,
+        "score": 39.0,
+        "score_label": "Weak",
+        "color": "#dc2626",
+        "components": {
+          "speed": 0.0,
+          "gaps": 55.8,
+          "fillers": 90.0,
+          "dups": 40.0
+        },
+        "filler_count": 1,
+        "filler_rate": 0.04,
+        "gap_mean_ms": 173.1,
+        "duplicate_count": 2,
+        "accuracy_mean": 0.9307
+      },
+      {
+        "sentence_id": 114,
+        "text": "But I know I noticed that if I have a free time and I don't have",
+        "word_count": 16,
+        "score": 61.7,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 15.5,
+          "gaps": 75.0,
+          "fillers": 100.0,
+          "dups": 100.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 67.7,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.9661
+      },
+      {
+        "sentence_id": 115,
+        "text": "and I I do have not nothing to do, I I something start to to use Twitter.",
+        "word_count": 17,
+        "score": 39.6,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 1.0,
+          "gaps": 51.6,
+          "fillers": 100.0,
+          "dups": 41.2
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 174.1,
+        "duplicate_count": 4,
+        "accuracy_mean": 0.9572
+      },
+      {
+        "sentence_id": 116,
+        "text": "And if you are you can you can get lost in this, you know, using it, reading for forty minutes, one hour, and it don't help you at the end.",
+        "word_count": 30,
+        "score": 64.0,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 40.2,
+          "gaps": 74.7,
+          "fillers": 83.3,
+          "dups": 75.0
+        },
+        "filler_count": 2,
+        "filler_rate": 0.0667,
+        "gap_mean_ms": 55.7,
+        "duplicate_count": 2,
+        "accuracy_mean": 0.9503
+      },
+      {
+        "sentence_id": 118,
+        "text": "It does it doesn't it doesn't help you.",
+        "word_count": 8,
+        "score": 75.5,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 79.7,
+          "gaps": 93.1,
+          "fillers": 100.0,
+          "dups": 0.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 11.4,
+        "duplicate_count": 2,
+        "accuracy_mean": 0.9331
+      },
+      {
+        "sentence_id": 119,
+        "text": "It doesn't help you at the end.",
+        "word_count": 7,
+        "score": 96.2,
+        "score_label": "Fluent",
+        "color": "#15803d",
+        "components": {
+          "speed": 89.3,
+          "gaps": 100.0,
+          "fillers": 100.0,
+          "dups": 100.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 0.0,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.94
+      },
+      {
+        "sentence_id": 120,
+        "text": "I think I can focus the best after waking up.",
+        "word_count": 10,
+        "score": 59.8,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 0.0,
+          "gaps": 85.1,
+          "fillers": 100.0,
+          "dups": 100.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 28.3,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.9622
+      },
+      {
+        "sentence_id": 123,
+        "text": "Because in the night, for example, I can focus because I noticed that sometimes I I learn languages, for example, and I can be concentrated.",
+        "word_count": 25,
+        "score": 64.5,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 13.2,
+          "gaps": 89.8,
+          "fillers": 100.0,
+          "dups": 90.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 9.4,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.975
+      },
+      {
+        "sentence_id": 124,
+        "text": "But but for me, it's it's more easy to do it.",
+        "word_count": 11,
+        "score": 36.5,
+        "score_label": "Weak",
+        "color": "#dc2626",
+        "components": {
+          "speed": 0.0,
+          "gaps": 38.2,
+          "fillers": 100.0,
+          "dups": 54.5
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 233.5,
+        "duplicate_count": 2,
+        "accuracy_mean": 0.9748
+      },
+      {
+        "sentence_id": 128,
+        "text": "Easier to do it during the morning.",
+        "word_count": 7,
+        "score": 87.9,
+        "score_label": "Fluent",
+        "color": "#15803d",
+        "components": {
+          "speed": 65.3,
+          "gaps": 100.0,
+          "fillers": 100.0,
+          "dups": 100.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 0.0,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.9772
+      },
+      {
+        "sentence_id": 130,
+        "text": "Then I don't I don't because when I working now I'm working from home.",
+        "word_count": 14,
+        "score": 52.9,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 15.2,
+          "gaps": 65.6,
+          "fillers": 100.0,
+          "dups": 64.3
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 123.1,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.85
+      },
+      {
+        "sentence_id": 131,
+        "text": "So I have a lot of frames in my when I have both spare time and the time in which I need to work.",
+        "word_count": 24,
+        "score": 60.1,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 31.1,
+          "gaps": 59.4,
+          "fillers": 89.6,
+          "dups": 100.0
+        },
+        "filler_count": 1,
+        "filler_rate": 0.0417,
+        "gap_mean_ms": 135.7,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.9742
+      },
+      {
+        "sentence_id": 132,
+        "text": "So it depends on the situation.",
+        "word_count": 6,
+        "score": 84.9,
+        "score_label": "Fluent",
+        "color": "#15803d",
+        "components": {
+          "speed": 74.9,
+          "gaps": 100.0,
+          "fillers": 58.3,
+          "dups": 100.0
+        },
+        "filler_count": 1,
+        "filler_rate": 0.1667,
+        "gap_mean_ms": 0.0,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.9998
+      },
+      {
+        "sentence_id": 133,
+        "text": "It it doesn't depend only on my planifications, but but I try to be concentrated when I need need to work.",
+        "word_count": 21,
+        "score": 52.6,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 5.8,
+          "gaps": 74.0,
+          "fillers": 100.0,
+          "dups": 64.3
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 98.2,
+        "duplicate_count": 3,
+        "accuracy_mean": 0.9449
+      },
+      {
+        "sentence_id": 134,
+        "text": "And if I have a spare time to to do something different, I I used to not not use a lot of applications to to waste time.",
+        "word_count": 27,
+        "score": 42.9,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 0.0,
+          "gaps": 52.8,
+          "fillers": 100.0,
+          "dups": 63.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 196.0,
+        "duplicate_count": 4,
+        "accuracy_mean": 0.965
+      },
+      {
+        "sentence_id": 137,
+        "text": "For me, sometimes it's hard and sometimes doesn't in sense that it isn't.",
+        "word_count": 13,
+        "score": 60.8,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 39.0,
+          "gaps": 49.0,
+          "fillers": 100.0,
+          "dups": 100.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 212.1,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.7919
+      },
+      {
+        "sentence_id": 140,
+        "text": "It's and sometimes it isn't in sense that when I sometimes I need to I need to use Excel,",
+        "word_count": 19,
+        "score": 35.6,
+        "score_label": "Weak",
+        "color": "#dc2626",
+        "components": {
+          "speed": 1.4,
+          "gaps": 31.6,
+          "fillers": 100.0,
+          "dups": 60.5
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 315.6,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9294
+      },
+      {
+        "sentence_id": 141,
+        "text": "yeah, as a as a program when it's it's very",
+        "word_count": 10,
+        "score": 48.4,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 0.7,
+          "gaps": 94.6,
+          "fillers": 75.0,
+          "dups": 25.0
+        },
+        "filler_count": 1,
+        "filler_rate": 0.1,
+        "gap_mean_ms": -77.2,
+        "duplicate_count": 2,
+        "accuracy_mean": 0.9713
+      },
+      {
+        "sentence_id": 142,
+        "text": "it's not very demanding, but and it's not very complicated, but you need to be concentrated, be focused on what you what you what you write,",
+        "word_count": 26,
+        "score": 77.5,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 71.6,
+          "gaps": 80.7,
+          "fillers": 100.0,
+          "dups": 61.5
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 46.6,
+        "duplicate_count": 2,
+        "accuracy_mean": 0.9596
+      },
+      {
+        "sentence_id": 143,
+        "text": "yeah, what you put generally.",
+        "word_count": 5,
+        "score": 52.2,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 46.5,
+          "gaps": 38.4,
+          "fillers": 50.0,
+          "dups": 100.0
+        },
+        "filler_count": 1,
+        "filler_rate": 0.2,
+        "gap_mean_ms": 340.0,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.9199
+      },
+      {
+        "sentence_id": 144,
+        "text": "And if I'm disrupted by not only by notifications, but by every situation, I need I need, like, four, five minutes to to get back and be really concentrated as as if, you know, as if I wasn't disrupted completely.",
+        "word_count": 40,
+        "score": 51.2,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 16.0,
+          "gaps": 63.5,
+          "fillers": 81.2,
+          "dups": 75.0
+        },
+        "filler_count": 3,
+        "filler_rate": 0.075,
+        "gap_mean_ms": 138.8,
+        "duplicate_count": 3,
+        "accuracy_mean": 0.9688
+      },
+      {
+        "sentence_id": 147,
+        "text": "Because if you if you see I",
+        "word_count": 7,
+        "score": 57.5,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 36.1,
+          "gaps": 73.1,
+          "fillers": 100.0,
+          "dups": 28.6
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 66.7,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9962
+      },
+      {
+        "sentence_id": 148,
+        "text": "I guess that if you see that it's that someone called you during the class, you you notice it and you thinking about you are thinking about it during having a class, having a lesson.",
+        "word_count": 35,
+        "score": 74.7,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 57.6,
+          "gaps": 79.4,
+          "fillers": 85.7,
+          "dups": 92.9
+        },
+        "filler_count": 2,
+        "filler_rate": 0.0571,
+        "gap_mean_ms": 56.0,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9243
+      },
+      {
+        "sentence_id": 150,
+        "text": "And it even if you you you don't want, it can disrupt.",
+        "word_count": 12,
+        "score": 62.7,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 28.8,
+          "gaps": 82.5,
+          "fillers": 100.0,
+          "dups": 58.3
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 59.5,
+        "duplicate_count": 2,
+        "accuracy_mean": 0.8317
+      },
+      {
+        "sentence_id": 156,
+        "text": "For example, I remember that when I was at school and I was supposed to to pass an exam, for example, I I remember that I that I felt that in my pocket, my phone was was, you know, was vibrating.",
+        "word_count": 41,
+        "score": 42.3,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 0.0,
+          "gaps": 53.5,
+          "fillers": 87.8,
+          "dups": 69.5
+        },
+        "filler_count": 2,
+        "filler_rate": 0.0488,
+        "gap_mean_ms": 174.1,
+        "duplicate_count": 4,
+        "accuracy_mean": 0.9481
+      },
+      {
+        "sentence_id": 158,
+        "text": "And even this sensation, it cows that I was thinking about it because I I couldn't check check out who who was who was calling to me.",
+        "word_count": 27,
+        "score": 55.3,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 23.8,
+          "gaps": 60.4,
+          "fillers": 100.0,
+          "dups": 72.2
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 147.5,
+        "duplicate_count": 3,
+        "accuracy_mean": 0.9525
+      },
+      {
+        "sentence_id": 159,
+        "text": "So I was disruptive disruptive disruptive.",
+        "word_count": 6,
+        "score": 44.5,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 23.7,
+          "gaps": 71.4,
+          "fillers": 58.3,
+          "dups": 16.7
+        },
+        "filler_count": 1,
+        "filler_rate": 0.1667,
+        "gap_mean_ms": 176.0,
+        "duplicate_count": 2,
+        "accuracy_mean": 0.7944
+      },
+      {
+        "sentence_id": 160,
+        "text": "And in this moment, I need to be concentrated because it was a very complicated exam, and I lost, like I I lost, like, five or ten minutes and it max, if I'm not wrong.",
+        "word_count": 35,
+        "score": 53.3,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 22.6,
+          "gaps": 53.1,
+          "fillers": 85.7,
+          "dups": 92.9
+        },
+        "filler_count": 2,
+        "filler_rate": 0.0571,
+        "gap_mean_ms": -8666.2,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.8856
+      },
+      {
+        "sentence_id": 161,
+        "text": "So I've never been good at at yeah.",
+        "word_count": 8,
+        "score": 29.5,
+        "score_label": "Weak",
+        "color": "#dc2626",
+        "components": {
+          "speed": 5.8,
+          "gaps": 32.8,
+          "fillers": 37.5,
+          "dups": 68.8
+        },
+        "filler_count": 2,
+        "filler_rate": 0.25,
+        "gap_mean_ms": 416.4,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9586
+      },
+      {
+        "sentence_id": 162,
+        "text": "So to to pass every maths exam, I needed to be very concentrated, very prepared, and with every disruption that's that's occurs occurs.",
+        "word_count": 23,
+        "score": 48.4,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 31.6,
+          "gaps": 39.6,
+          "fillers": 89.1,
+          "dups": 67.4
+        },
+        "filler_count": 1,
+        "filler_rate": 0.0435,
+        "gap_mean_ms": 351.6,
+        "duplicate_count": 3,
+        "accuracy_mean": 0.8973
+      },
+      {
+        "sentence_id": 163,
+        "text": "At the end of the day, it was impossible to pass this exam because of a lot of distractions.",
+        "word_count": 19,
+        "score": 79.9,
+        "score_label": "Fluent",
+        "color": "#15803d",
+        "components": {
+          "speed": 66.0,
+          "gaps": 76.5,
+          "fillers": 100.0,
+          "dups": 100.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 50.8,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.9841
+      },
+      {
+        "sentence_id": 164,
+        "text": "So it's a it has showed me that that that you need to be that even a small signal can can straight things down.",
+        "word_count": 24,
+        "score": 51.1,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 40.2,
+          "gaps": 38.0,
+          "fillers": 89.6,
+          "dups": 68.8
+        },
+        "filler_count": 1,
+        "filler_rate": 0.0417,
+        "gap_mean_ms": 262.0,
+        "duplicate_count": 3,
+        "accuracy_mean": 0.9351
+      },
+      {
+        "sentence_id": 177,
+        "text": "And in in Poland, in this now we received a lot of calls from from not not thieves, but",
+        "word_count": 19,
+        "score": 39.3,
+        "score_label": "Weak",
+        "color": "#dc2626",
+        "components": {
+          "speed": 23.0,
+          "gaps": 20.4,
+          "fillers": 100.0,
+          "dups": 60.5
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 507.5,
+        "duplicate_count": 3,
+        "accuracy_mean": 0.8996
+      },
+      {
+        "sentence_id": 178,
+        "text": "but, you know, people who who has received your number and try to scammer oh, scammers.",
+        "word_count": 16,
+        "score": 60.2,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 34.2,
+          "gaps": 72.2,
+          "fillers": 68.8,
+          "dups": 84.4
+        },
+        "filler_count": 2,
+        "filler_rate": 0.125,
+        "gap_mean_ms": 102.3,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9439
+      },
+      {
+        "sentence_id": 180,
+        "text": "Scammers from from banks that that they they say that they they are working in in a in a bank and your account has lost everything.",
+        "word_count": 26,
+        "score": 63.9,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 38.1,
+          "gaps": 79.4,
+          "fillers": 100.0,
+          "dups": 51.9
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 68.2,
+        "duplicate_count": 5,
+        "accuracy_mean": 0.9402
+      },
+      {
+        "sentence_id": 181,
+        "text": "You need to you need to help them to giving giving them your password and everything.",
+        "word_count": 16,
+        "score": 57.6,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 48.2,
+          "gaps": 57.6,
+          "fillers": 100.0,
+          "dups": 37.5
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 149.3,
+        "duplicate_count": 2,
+        "accuracy_mean": 0.9662
+      },
+      {
+        "sentence_id": 183,
+        "text": "And so so we received a lot of a lot of calls.",
+        "word_count": 12,
+        "score": 41.4,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 14.3,
+          "gaps": 54.0,
+          "fillers": 100.0,
+          "dups": 16.7
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 174.5,
+        "duplicate_count": 2,
+        "accuracy_mean": 0.9409
+      },
+      {
+        "sentence_id": 184,
+        "text": "So now if I see a call from from a number that I I don't know, I I don't I don't.",
+        "word_count": 21,
+        "score": 43.4,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 2.7,
+          "gaps": 56.1,
+          "fillers": 88.1,
+          "dups": 64.3
+        },
+        "filler_count": 1,
+        "filler_rate": 0.0476,
+        "gap_mean_ms": 130.3,
+        "duplicate_count": 3,
+        "accuracy_mean": 0.9699
+      },
+      {
+        "sentence_id": 185,
+        "text": "Because I consider that if someone wants to contact with me, he will probably give me a message if I don't respond, you know.",
+        "word_count": 24,
+        "score": 58.5,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 39.9,
+          "gaps": 50.5,
+          "fillers": 79.2,
+          "dups": 100.0
+        },
+        "filler_count": 2,
+        "filler_rate": 0.0833,
+        "gap_mean_ms": 183.7,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.96
+      },
+      {
+        "sentence_id": 186,
+        "text": "And if it's a scam, they they don't.",
+        "word_count": 8,
+        "score": 71.8,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 32.8,
+          "gaps": 100.0,
+          "fillers": 100.0,
+          "dups": 68.8
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 0.0,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9327
+      },
+      {
+        "sentence_id": 189,
+        "text": "Messages from from from my phone, like, not from Facebook, for example, but",
+        "word_count": 13,
+        "score": 72.5,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 46.2,
+          "gaps": 100.0,
+          "fillers": 80.8,
+          "dups": 61.5
+        },
+        "filler_count": 1,
+        "filler_rate": 0.0769,
+        "gap_mean_ms": 0.0,
+        "duplicate_count": 2,
+        "accuracy_mean": 0.9293
+      },
+      {
+        "sentence_id": 191,
+        "text": "I use in Poland, we use we tend to use more messenger from Facebook than WhatsApp.",
+        "word_count": 16,
+        "score": 73.6,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 63.1,
+          "gaps": 61.4,
+          "fillers": 100.0,
+          "dups": 100.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 117.3,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.9333
+      },
+      {
+        "sentence_id": 192,
+        "text": "WhatsApp exists, but it's not as popular.",
+        "word_count": 7,
+        "score": 66.4,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 64.5,
+          "gaps": 39.5,
+          "fillers": 100.0,
+          "dups": 100.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 280.8,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.9937
+      },
+      {
+        "sentence_id": 193,
+        "text": "I don't know the reason.",
+        "word_count": 5,
+        "score": 71.0,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 57.5,
+          "gaps": 59.8,
+          "fillers": 100.0,
+          "dups": 100.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 140.0,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.9521
+      },
+      {
+        "sentence_id": 194,
+        "text": "I don't we we started, like, ten or fifteen years ago with Facebook, and people was get used to.",
+        "word_count": 19,
+        "score": 59.3,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 35.1,
+          "gaps": 60.0,
+          "fillers": 86.8,
+          "dups": 86.8
+        },
+        "filler_count": 1,
+        "filler_rate": 0.0526,
+        "gap_mean_ms": 153.1,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9563
+      },
+      {
+        "sentence_id": 196,
+        "text": "People people how can I say?",
+        "word_count": 6,
+        "score": 41.8,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 36.1,
+          "gaps": 15.4,
+          "fillers": 100.0,
+          "dups": 58.3
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 544.0,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.8722
+      },
+      {
+        "sentence_id": 199,
+        "text": "People got used to, and and now I I noticed that, for example, in Spain or Italy, people use, primarily, WhatsApp in Ukraine or Russia.",
+        "word_count": 25,
+        "score": 58.8,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 33.9,
+          "gaps": 57.1,
+          "fillers": 100.0,
+          "dups": 80.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 171.0,
+        "duplicate_count": 2,
+        "accuracy_mean": 0.9225
+      },
+      {
+        "sentence_id": 202,
+        "text": "In Ukraine or Russia Diagram.",
+        "word_count": 5,
+        "score": 78.4,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 53.8,
+          "gaps": 84.4,
+          "fillers": 100.0,
+          "dups": 100.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": -74903.8,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.775
+      },
+      {
+        "sentence_id": 204,
+        "text": "They use in Poland, people use messenger from Facebook and and say, I have both WhatsApp and Telegram, but but I converse with five, six people regularly.",
+        "word_count": 27,
+        "score": 59.6,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 24.1,
+          "gaps": 68.4,
+          "fillers": 100.0,
+          "dups": 81.5
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 126.7,
+        "duplicate_count": 2,
+        "accuracy_mean": 0.9245
+      },
+      {
+        "sentence_id": 209,
+        "text": "And in your in your country, what peep do people do people use messenger or what's I don't see I'm not I don't know because when I was at school, I didn't receive a lot of lessons about this problem.",
+        "word_count": 40,
+        "score": 53.9,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 31.7,
+          "gaps": 47.4,
+          "fillers": 100.0,
+          "dups": 75.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 780.6,
+        "duplicate_count": 2,
+        "accuracy_mean": 0.9306
+      },
+      {
+        "sentence_id": 210,
+        "text": "I don't know if it has changed.",
+        "word_count": 7,
+        "score": 82.4,
+        "score_label": "Fluent",
+        "color": "#15803d",
+        "components": {
+          "speed": 49.7,
+          "gaps": 100.0,
+          "fillers": 100.0,
+          "dups": 100.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 0.0,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.9717
+      },
+      {
+        "sentence_id": 213,
+        "text": "At the time, people didn't think it's it's a problem.",
+        "word_count": 10,
+        "score": 78.1,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 62.0,
+          "gaps": 86.1,
+          "fillers": 100.0,
+          "dups": 75.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 35.6,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.954
+      },
+      {
+        "sentence_id": 214,
+        "text": "Now it should it should have changed, I guess.",
+        "word_count": 9,
+        "score": 48.5,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 46.4,
+          "gaps": 54.1,
+          "fillers": 44.4,
+          "dups": 44.4
+        },
+        "filler_count": 2,
+        "filler_rate": 0.2222,
+        "gap_mean_ms": 190.0,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9592
+      },
+      {
+        "sentence_id": 215,
+        "text": "But but it depends on the education because if education is is aware of this, I think they will they will teach people how to be to be more more more aware, yeah, of it because it's not only about all their people that's that's that's don't get used to this type of app.",
+        "word_count": 54,
+        "score": 58.5,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 37.7,
+          "gaps": 65.6,
+          "fillers": 95.4,
+          "dups": 53.7
+        },
+        "filler_count": 1,
+        "filler_rate": 0.0185,
+        "gap_mean_ms": 109.6,
+        "duplicate_count": 8,
+        "accuracy_mean": 0.9408
+      },
+      {
+        "sentence_id": 223,
+        "text": "I have it in our in our chat.",
+        "word_count": 8,
+        "score": 79.9,
+        "score_label": "Fluent",
+        "color": "#15803d",
+        "components": {
+          "speed": 69.3,
+          "gaps": 100.0,
+          "fillers": 100.0,
+          "dups": 37.5
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 0.0,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9928
+      },
+      {
+        "sentence_id": 228,
+        "text": "Adjust is like adjust to to a new to a new",
+        "word_count": 11,
+        "score": 48.6,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 38.3,
+          "gaps": 34.2,
+          "fillers": 77.3,
+          "dups": 77.3
+        },
+        "filler_count": 1,
+        "filler_rate": 0.0909,
+        "gap_mean_ms": 313.5,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9309
+      },
+      {
+        "sentence_id": 242,
+        "text": "As I told you, the notifications now are not with me, so they they couldn't disrupt any important meeting.",
+        "word_count": 19,
+        "score": 69.9,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 59.0,
+          "gaps": 60.7,
+          "fillers": 100.0,
+          "dups": 86.8
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 128.9,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9611
+      },
+      {
+        "sentence_id": 243,
+        "text": "But as I as I told you about my school journey journey school exam when I when I was supposed to to pass it to being concentrated, and I couldn't because of the disruption.",
+        "word_count": 34,
+        "score": 50.1,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 7.8,
+          "gaps": 68.6,
+          "fillers": 100.0,
+          "dups": 55.9
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 114.2,
+        "duplicate_count": 4,
+        "accuracy_mean": 0.9454
+      },
+      {
+        "sentence_id": 244,
+        "text": "It caused a lot of problems.",
+        "word_count": 6,
+        "score": 92.8,
+        "score_label": "Fluent",
+        "color": "#15803d",
+        "components": {
+          "speed": 79.5,
+          "gaps": 100.0,
+          "fillers": 100.0,
+          "dups": 100.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 0.0,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.9373
+      },
+      {
+        "sentence_id": 245,
+        "text": "But if I if I used notifications now, it would be it would be possible to to disrupt me because I I saw it in the future, but I was younger.",
+        "word_count": 31,
+        "score": 47.5,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 12.7,
+          "gaps": 61.6,
+          "fillers": 100.0,
+          "dups": 43.5
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 127.8,
+        "duplicate_count": 4,
+        "accuracy_mean": 0.9747
+      },
+      {
+        "sentence_id": 248,
+        "text": "So so let's say that I didn't have any oblique any important meetings, obligations, you know.",
+        "word_count": 16,
+        "score": 38.4,
+        "score_label": "Weak",
+        "color": "#dc2626",
+        "components": {
+          "speed": 6.5,
+          "gaps": 57.6,
+          "fillers": 21.9,
+          "dups": 84.4
+        },
+        "filler_count": 5,
+        "filler_rate": 0.3125,
+        "gap_mean_ms": 196.3,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9456
+      },
+      {
+        "sentence_id": 249,
+        "text": "So even if it had happened, it would it wouldn't have this cost problems, you know.",
+        "word_count": 16,
+        "score": 50.2,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 30.6,
+          "gaps": 60.6,
+          "fillers": 53.1,
+          "dups": 68.8
+        },
+        "filler_count": 3,
+        "filler_rate": 0.1875,
+        "gap_mean_ms": 158.3,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9215
+      },
+      {
+        "sentence_id": 251,
+        "text": "The premier First of all, it would be my phone because I get a lot of informations via my phone.",
+        "word_count": 20,
+        "score": 64.2,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 28.6,
+          "gaps": 69.2,
+          "fillers": 100.0,
+          "dups": 100.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": -15682.9,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.8907
+      },
+      {
+        "sentence_id": 252,
+        "text": "I don't use my laptop out of my work and out of my language learning.",
+        "word_count": 15,
+        "score": 65.4,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 26.0,
+          "gaps": 75.1,
+          "fillers": 100.0,
+          "dups": 100.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 92.5,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.9866
+      },
+      {
+        "sentence_id": 253,
+        "text": "Right now, I use laptop, but I'm not a person who who like, for example, playing games.",
+        "word_count": 17,
+        "score": 67.5,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 52.0,
+          "gaps": 67.6,
+          "fillers": 85.3,
+          "dups": 85.3
+        },
+        "filler_count": 1,
+        "filler_rate": 0.0588,
+        "gap_mean_ms": 100.0,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9568
+      },
+      {
+        "sentence_id": 254,
+        "text": "So I don't I don't use my laptop out of my my obligations.",
+        "word_count": 13,
+        "score": 31.2,
+        "score_label": "Weak",
+        "color": "#dc2626",
+        "components": {
+          "speed": 0.0,
+          "gaps": 36.4,
+          "fillers": 80.8,
+          "dups": 42.3
+        },
+        "filler_count": 1,
+        "filler_rate": 0.0769,
+        "gap_mean_ms": 374.6,
+        "duplicate_count": 2,
+        "accuracy_mean": 0.9959
+      },
+      {
+        "sentence_id": 257,
+        "text": "it's I don't have I have my personal lap laptop.",
+        "word_count": 10,
+        "score": 42.7,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 36.0,
+          "gaps": 10.9,
+          "fillers": 100.0,
+          "dups": 75.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 540.6,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9805
+      },
+      {
+        "sentence_id": 258,
+        "text": "Now I'm using it, and I'm laptop from my job to to work.",
+        "word_count": 13,
+        "score": 53.5,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 21.4,
+          "gaps": 54.1,
+          "fillers": 100.0,
+          "dups": 80.8
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 180.0,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9546
+      },
+      {
+        "sentence_id": 260,
+        "text": "So I have two laptops, but my personal laptop is used practically only to to Preply, yeah, in this moment.",
+        "word_count": 20,
+        "score": 70.1,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 40.4,
+          "gaps": 90.3,
+          "fillers": 75.0,
+          "dups": 87.5
+        },
+        "filler_count": 2,
+        "filler_rate": 0.1,
+        "gap_mean_ms": 17.1,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9554
+      },
+      {
+        "sentence_id": 265,
+        "text": "Because as I told you, I don't play a lot of games.",
+        "word_count": 12,
+        "score": 84.4,
+        "score_label": "Fluent",
+        "color": "#15803d",
+        "components": {
+          "speed": 55.5,
+          "gaps": 100.0,
+          "fillers": 100.0,
+          "dups": 100.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 0.0,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.9572
+      },
+      {
+        "sentence_id": 268,
+        "text": "I don't think it's a a waste of time at all.",
+        "word_count": 11,
+        "score": 74.2,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 36.1,
+          "gaps": 100.0,
+          "fillers": 100.0,
+          "dups": 77.3
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 0.0,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.94
+      },
+      {
+        "sentence_id": 269,
+        "text": "If someone like, likes it, it likes it, it can it can be funny.",
+        "word_count": 14,
+        "score": 55.7,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 48.9,
+          "gaps": 55.1,
+          "fillers": 82.1,
+          "dups": 46.4
+        },
+        "filler_count": 1,
+        "filler_rate": 0.0714,
+        "gap_mean_ms": 151.9,
+        "duplicate_count": 3,
+        "accuracy_mean": 0.9604
+      },
+      {
+        "sentence_id": 270,
+        "text": "Like, for me, let learning playing with this is funny.",
+        "word_count": 10,
+        "score": 81.0,
+        "score_label": "Fluent",
+        "color": "#15803d",
+        "components": {
+          "speed": 72.6,
+          "gaps": 83.7,
+          "fillers": 75.0,
+          "dups": 100.0
+        },
+        "filler_count": 1,
+        "filler_rate": 0.1,
+        "gap_mean_ms": 35.6,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.7874
+      },
+      {
+        "sentence_id": 271,
+        "text": "But I've never I've never been a person who who liked playing games.",
+        "word_count": 13,
+        "score": 75.3,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 54.0,
+          "gaps": 100.0,
+          "fillers": 100.0,
+          "dups": 42.3
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 0.0,
+        "duplicate_count": 2,
+        "accuracy_mean": 0.9882
+      },
+      {
+        "sentence_id": 272,
+        "text": "It's was not my my passion.",
+        "word_count": 6,
+        "score": 53.1,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 19.2,
+          "gaps": 64.6,
+          "fillers": 100.0,
+          "dups": 58.3
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 151.0,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9509
+      },
+      {
+        "sentence_id": 274,
+        "text": "But but I don't think it's a waste of time if someone need if someone needs one or two hours per day to to to relax.",
+        "word_count": 26,
+        "score": 62.2,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 46.2,
+          "gaps": 70.6,
+          "fillers": 100.0,
+          "dups": 42.3
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 86.4,
+        "duplicate_count": 4,
+        "accuracy_mean": 0.9688
+      },
+      {
+        "sentence_id": 277,
+        "text": "Because it can it can",
+        "word_count": 5,
+        "score": 66.2,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 46.2,
+          "gaps": 100.0,
+          "fillers": 100.0,
+          "dups": 0.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 0.0,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9638
+      },
+      {
+        "sentence_id": 279,
+        "text": "It can back up become become.",
+        "word_count": 6,
+        "score": 80.2,
+        "score_label": "Fluent",
+        "color": "#15803d",
+        "components": {
+          "speed": 68.1,
+          "gaps": 93.3,
+          "fillers": 100.0,
+          "dups": 58.3
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 16.0,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.8683
+      },
+      {
+        "sentence_id": 281,
+        "text": "It can become it can be it becomes very problematic if you play during the night and you you don't sleep and you it cow it can cause more problem in your in your life.",
+        "word_count": 35,
+        "score": 67.9,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 46.1,
+          "gaps": 71.5,
+          "fillers": 100.0,
+          "dups": 78.6
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 70.4,
+        "duplicate_count": 2,
+        "accuracy_mean": 0.9217
+      },
+      {
+        "sentence_id": 282,
+        "text": "I think so because because I have read a lot of investigations when investigate when investigators burst out this this opinion because it was it was shown, I think, that we are more disrupted.",
+        "word_count": 34,
+        "score": 58.3,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 31.0,
+          "gaps": 62.4,
+          "fillers": 100.0,
+          "dups": 70.6
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 152.7,
+        "duplicate_count": 3,
+        "accuracy_mean": 0.9291
+      },
+      {
+        "sentence_id": 283,
+        "text": "And even, for example, if we read a book if you read a book via your laptop or your smartphone, it's not the same if we if you use a book.",
+        "word_count": 31,
+        "score": 68.9,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 31.3,
+          "gaps": 79.7,
+          "fillers": 100.0,
+          "dups": 100.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 39.2,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.9514
+      },
+      {
+        "sentence_id": 285,
+        "text": "A book like so it's it shows that that that our disruptions, whether do we use application, whether or not, has caused a lot of a lot of changes in in the recent years.",
+        "word_count": 34,
+        "score": 58.7,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 42.4,
+          "gaps": 61.7,
+          "fillers": 92.6,
+          "dups": 55.9
+        },
+        "filler_count": 1,
+        "filler_rate": 0.0294,
+        "gap_mean_ms": 118.0,
+        "duplicate_count": 4,
+        "accuracy_mean": 0.9297
+      },
+      {
+        "sentence_id": 287,
+        "text": "We've been we've been living with with with It's not in short area.",
+        "word_count": 13,
+        "score": 46.9,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 69.8,
+          "gaps": 11.3,
+          "fillers": 100.0,
+          "dups": 23.1
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 447.1,
+        "duplicate_count": 3,
+        "accuracy_mean": 0.8329
+      },
+      {
+        "sentence_id": 288,
+        "text": "TikTok TikTok, you know, I saw one investigation or I had one opinion about TikTok that's comparing it to YouTube.",
+        "word_count": 20,
+        "score": 52.7,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 15.6,
+          "gaps": 65.3,
+          "fillers": 75.0,
+          "dups": 87.5
+        },
+        "filler_count": 2,
+        "filler_rate": 0.1,
+        "gap_mean_ms": 130.5,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9024
+      },
+      {
+        "sentence_id": 289,
+        "text": "In YouTube, you have you On YouTube.",
+        "word_count": 7,
+        "score": 60.9,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 60.7,
+          "gaps": 42.9,
+          "fillers": 100.0,
+          "dups": 64.3
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 229.2,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9416
+      },
+      {
+        "sentence_id": 290,
+        "text": "On you on YouTube, you have both videos one hours videos, one minute videos.",
+        "word_count": 14,
+        "score": 58.8,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 50.0,
+          "gaps": 47.7,
+          "fillers": 100.0,
+          "dups": 64.3
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 233.8,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.923
+      },
+      {
+        "sentence_id": 292,
+        "text": "But in YouTube, you you are on YouTube.",
+        "word_count": 8,
+        "score": 54.4,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 47.5,
+          "gaps": 48.9,
+          "fillers": 100.0,
+          "dups": 37.5
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 202.1,
+        "duplicate_count": 2,
+        "accuracy_mean": 0.9011
+      },
+      {
+        "sentence_id": 296,
+        "text": "On YouTube, you are supposed to choose what you want to watch.",
+        "word_count": 12,
+        "score": 78.9,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 60.1,
+          "gaps": 88.5,
+          "fillers": 100.0,
+          "dups": 79.2
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 29.1,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9946
+      },
+      {
+        "sentence_id": 298,
+        "text": "And on tick on TikTok.",
+        "word_count": 5,
+        "score": 67.4,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 12.5,
+          "gaps": 94.4,
+          "fillers": 100.0,
+          "dups": 100.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 20.0,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.7895
+      },
+      {
+        "sentence_id": 300,
+        "text": "On TikTok, the algorithm decides.",
+        "word_count": 5,
+        "score": 73.0,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 62.0,
+          "gaps": 60.9,
+          "fillers": 100.0,
+          "dups": 100.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 196.3,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.859
+      },
+      {
+        "sentence_id": 301,
+        "text": "So you are more lazy, let's say, when it comes to choose.",
+        "word_count": 12,
+        "score": 68.7,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 57.0,
+          "gaps": 80.4,
+          "fillers": 37.5,
+          "dups": 100.0
+        },
+        "filler_count": 3,
+        "filler_rate": 0.25,
+        "gap_mean_ms": 58.2,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.9863
+      },
+      {
+        "sentence_id": 302,
+        "text": "So it it cause more problems when it comes to your attention.",
+        "word_count": 12,
+        "score": 76.3,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 56.0,
+          "gaps": 94.2,
+          "fillers": 79.2,
+          "dups": 79.2
+        },
+        "filler_count": 1,
+        "filler_rate": 0.0833,
+        "gap_mean_ms": 14.5,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9224
+      },
+      {
+        "sentence_id": 303,
+        "text": "And I don't like this type of videos that's that's It is too short for me.",
+        "word_count": 16,
+        "score": 57.5,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 43.6,
+          "gaps": 48.4,
+          "fillers": 84.4,
+          "dups": 84.4
+        },
+        "filler_count": 1,
+        "filler_rate": 0.0625,
+        "gap_mean_ms": -19793.7,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9227
+      },
+      {
+        "sentence_id": 304,
+        "text": "Like like, you know, not and they put a lot of information because they need to speak faster.",
+        "word_count": 18,
+        "score": 66.1,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 53.5,
+          "gaps": 79.6,
+          "fillers": 44.4,
+          "dups": 86.1
+        },
+        "filler_count": 4,
+        "filler_rate": 0.2222,
+        "gap_mean_ms": 61.2,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9421
+      },
+      {
+        "sentence_id": 305,
+        "text": "It's a lot of a lot of noise for me.",
+        "word_count": 10,
+        "score": 35.0,
+        "score_label": "Weak",
+        "color": "#dc2626",
+        "components": {
+          "speed": 0.0,
+          "gaps": 46.3,
+          "fillers": 100.0,
+          "dups": 25.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 245.0,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9105
+      },
+      {
+        "sentence_id": 306,
+        "text": "I've never been a fan of of of TikTok.",
+        "word_count": 9,
+        "score": 69.4,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 36.5,
+          "gaps": 100.0,
+          "fillers": 100.0,
+          "dups": 44.4
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 0.0,
+        "duplicate_count": 2,
+        "accuracy_mean": 0.9865
+      },
+      {
+        "sentence_id": 308,
+        "text": "Algorithm the the algorithm give you more information that that you would like to receive, not",
+        "word_count": 16,
+        "score": 59.5,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 63.2,
+          "gaps": 34.6,
+          "fillers": 100.0,
+          "dups": 68.8
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 296.3,
+        "duplicate_count": 2,
+        "accuracy_mean": 0.9253
+      },
+      {
+        "sentence_id": 309,
+        "text": "so it's it is adjusted.",
+        "word_count": 5,
+        "score": 68.3,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 62.0,
+          "gaps": 68.7,
+          "fillers": 50.0,
+          "dups": 100.0
+        },
+        "filler_count": 1,
+        "filler_rate": 0.2,
+        "gap_mean_ms": 120.0,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.9889
+      },
+      {
+        "sentence_id": 311,
+        "text": "It is adjusted to to your to your life.",
+        "word_count": 9,
+        "score": 79.5,
+        "score_label": "Fluent",
+        "color": "#15803d",
+        "components": {
+          "speed": 53.5,
+          "gaps": 100.0,
+          "fillers": 100.0,
+          "dups": 72.2
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 0.0,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9228
+      },
+      {
+        "sentence_id": 313,
+        "text": "It it don't it doesn't help when it comes to to to sync wider.",
+        "word_count": 14,
+        "score": 66.7,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 43.2,
+          "gaps": 84.6,
+          "fillers": 100.0,
+          "dups": 46.4
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 43.1,
+        "duplicate_count": 3,
+        "accuracy_mean": 0.9081
+      },
+      {
+        "sentence_id": 319,
+        "text": "I would say that that I'm a very disciplined person when it comes to things that really matter for me.",
+        "word_count": 20,
+        "score": 67.8,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 22.9,
+          "gaps": 90.5,
+          "fillers": 100.0,
+          "dups": 87.5
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 25.3,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9539
+      },
+      {
+        "sentence_id": 320,
+        "text": "For example, I for example I don't know.",
+        "word_count": 8,
+        "score": 37.8,
+        "score_label": "Weak",
+        "color": "#dc2626",
+        "components": {
+          "speed": 7.7,
+          "gaps": 54.7,
+          "fillers": 100.0,
+          "dups": 6.2
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 179.3,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9525
+      },
+      {
+        "sentence_id": 321,
+        "text": "I I like I like doing sport.",
+        "word_count": 7,
+        "score": 47.0,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 0.0,
+          "gaps": 94.4,
+          "fillers": 28.6,
+          "dups": 64.3
+        },
+        "filler_count": 2,
+        "filler_rate": 0.2857,
+        "gap_mean_ms": 26.7,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9923
+      },
+      {
+        "sentence_id": 323,
+        "text": "I like I like doing sport, and I try to do it every day to maintain my level of of of consistence.",
+        "word_count": 22,
+        "score": 56.9,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 26.9,
+          "gaps": 79.1,
+          "fillers": 77.3,
+          "dups": 54.5
+        },
+        "filler_count": 2,
+        "filler_rate": 0.0909,
+        "gap_mean_ms": 60.2,
+        "duplicate_count": 3,
+        "accuracy_mean": 0.9803
+      },
+      {
+        "sentence_id": 324,
+        "text": "When it comes to learning languages, I try to do it every day, and it's about discipline.",
+        "word_count": 17,
+        "score": 86.3,
+        "score_label": "Fluent",
+        "color": "#15803d",
+        "components": {
+          "speed": 61.0,
+          "gaps": 100.0,
+          "fillers": 100.0,
+          "dups": 100.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 0.0,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.9825
+      },
+      {
+        "sentence_id": 325,
+        "text": "But if I don't like and I don't like something",
+        "word_count": 10,
+        "score": 66.9,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 26.9,
+          "gaps": 100.0,
+          "fillers": 50.0,
+          "dups": 100.0
+        },
+        "filler_count": 2,
+        "filler_rate": 0.2,
+        "gap_mean_ms": -80.6,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.9016
+      },
+      {
+        "sentence_id": 326,
+        "text": "and I I must to do it, it depends.",
+        "word_count": 9,
+        "score": 52.0,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 0.0,
+          "gaps": 86.6,
+          "fillers": 100.0,
+          "dups": 44.4
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 50.0,
+        "duplicate_count": 2,
+        "accuracy_mean": 0.8971
+      },
+      {
+        "sentence_id": 330,
+        "text": "And I must do it.",
+        "word_count": 5,
+        "score": 79.9,
+        "score_label": "Fluent",
+        "color": "#15803d",
+        "components": {
+          "speed": 42.5,
+          "gaps": 100.0,
+          "fillers": 100.0,
+          "dups": 100.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 0.0,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.9793
+      },
+      {
+        "sentence_id": 331,
+        "text": "It depends of importance of this this stuff.",
+        "word_count": 8,
+        "score": 71.6,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 39.0,
+          "gaps": 93.3,
+          "fillers": 100.0,
+          "dups": 68.8
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 22.9,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9888
+      },
+      {
+        "sentence_id": 333,
+        "text": "But I would consider myself as a small discipline person than but not.",
+        "word_count": 13,
+        "score": 50.2,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 11.8,
+          "gaps": 45.8,
+          "fillers": 100.0,
+          "dups": 100.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 197.9,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.9151
+      },
+      {
+        "sentence_id": 335,
+        "text": "I've when I was younger when I was younger, I had more.",
+        "word_count": 12,
+        "score": 40.1,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 35.5,
+          "gaps": 29.2,
+          "fillers": 100.0,
+          "dups": 16.7
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 327.3,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9303
+      },
+      {
+        "sentence_id": 336,
+        "text": "Now I have people that I like to upset, but I I wouldn't say that I have an I idols.",
+        "word_count": 20,
+        "score": 63.4,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 9.7,
+          "gaps": 96.6,
+          "fillers": 87.5,
+          "dups": 87.5
+        },
+        "filler_count": 1,
+        "filler_rate": 0.05,
+        "gap_mean_ms": -8.7,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9339
+      },
+      {
+        "sentence_id": 340,
+        "text": "Because I like watching a lot of people, for example, or seeing, but it's not about being fascinated.",
+        "word_count": 18,
+        "score": 67.1,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 37.3,
+          "gaps": 74.8,
+          "fillers": 86.1,
+          "dups": 100.0
+        },
+        "filler_count": 1,
+        "filler_rate": 0.0556,
+        "gap_mean_ms": 93.2,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.9588
+      },
+      {
+        "sentence_id": 344,
+        "text": "So and to in your case, do you have anyone who who really who really like?",
+        "word_count": 16,
+        "score": 67.9,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 58.6,
+          "gaps": 69.7,
+          "fillers": 68.8,
+          "dups": 84.4
+        },
+        "filler_count": 2,
+        "filler_rate": 0.125,
+        "gap_mean_ms": 96.0,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.8956
+      },
+      {
+        "sentence_id": 350,
+        "text": "I would I would agree that that we have we have an image of of our idols that's that's that's it's only what they can show.",
+        "word_count": 26,
+        "score": 48.9,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 40.0,
+          "gaps": 46.9,
+          "fillers": 100.0,
+          "dups": 23.1
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 153.4,
+        "duplicate_count": 6,
+        "accuracy_mean": 0.954
+      },
+      {
+        "sentence_id": 352,
+        "text": "So it's not about that as as a human beings, they they both.",
+        "word_count": 13,
+        "score": 63.0,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 45.1,
+          "gaps": 74.0,
+          "fillers": 80.8,
+          "dups": 61.5
+        },
+        "filler_count": 1,
+        "filler_rate": 0.0769,
+        "gap_mean_ms": 80.0,
+        "duplicate_count": 2,
+        "accuracy_mean": 0.8747
+      },
+      {
+        "sentence_id": 356,
+        "text": "so I would agree with you in this point.",
+        "word_count": 9,
+        "score": 86.1,
+        "score_label": "Fluent",
+        "color": "#15803d",
+        "components": {
+          "speed": 72.2,
+          "gaps": 100.0,
+          "fillers": 72.2,
+          "dups": 100.0
+        },
+        "filler_count": 1,
+        "filler_rate": 0.1111,
+        "gap_mean_ms": 0.0,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.9807
+      },
+      {
+        "sentence_id": 357,
+        "text": "I remember that when I was, like, 14, 15, I wasn't as disciplined as I'm now.",
+        "word_count": 16,
+        "score": 55.2,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 0.0,
+          "gaps": 78.6,
+          "fillers": 84.4,
+          "dups": 100.0
+        },
+        "filler_count": 1,
+        "filler_rate": 0.0625,
+        "gap_mean_ms": 89.0,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.9597
+      },
+      {
+        "sentence_id": 358,
+        "text": "It's it was because of of of of of being teenager, I think.",
+        "word_count": 13,
+        "score": 53.1,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 29.0,
+          "gaps": 53.6,
+          "fillers": 100.0,
+          "dups": 61.5
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 180.0,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9271
+      },
+      {
+        "sentence_id": 359,
+        "text": "Because when we are teenagers, we we tend to have a lot of changes in a in a in a short terms of time.",
+        "word_count": 24,
+        "score": 57.8,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 19.8,
+          "gaps": 82.0,
+          "fillers": 100.0,
+          "dups": 47.9
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 50.2,
+        "duplicate_count": 3,
+        "accuracy_mean": 0.9684
+      },
+      {
+        "sentence_id": 361,
+        "text": "It's it's more disrupted, I would say.",
+        "word_count": 7,
+        "score": 72.4,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 44.4,
+          "gaps": 92.1,
+          "fillers": 100.0,
+          "dups": 64.3
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 26.7,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9764
+      },
+      {
+        "sentence_id": 363,
+        "text": "so it's not natural, I I think, but I had moments in which I was more disciplined and less.",
+        "word_count": 19,
+        "score": 48.9,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 0.0,
+          "gaps": 65.2,
+          "fillers": 86.8,
+          "dups": 86.8
+        },
+        "filler_count": 1,
+        "filler_rate": 0.0526,
+        "gap_mean_ms": 146.7,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9618
+      },
+      {
+        "sentence_id": 364,
+        "text": "So it it was in constantly changing.",
+        "word_count": 7,
+        "score": 28.0,
+        "score_label": "Weak",
+        "color": "#dc2626",
+        "components": {
+          "speed": 0.0,
+          "gaps": 25.0,
+          "fillers": 64.3,
+          "dups": 64.3
+        },
+        "filler_count": 1,
+        "filler_rate": 0.1429,
+        "gap_mean_ms": 555.8,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.8961
+      },
+      {
+        "sentence_id": 373,
+        "text": "So so after you mhmm.",
+        "word_count": 5,
+        "score": 9.4,
+        "score_label": "Weak",
+        "color": "#dc2626",
+        "components": {
+          "speed": 0.0,
+          "gaps": 5.5,
+          "fillers": 0.0,
+          "dups": 50.0
+        },
+        "filler_count": 2,
+        "filler_rate": 0.4,
+        "gap_mean_ms": 1100.0,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.7836
+      },
+      {
+        "sentence_id": 375,
+        "text": "It's it's very curious because we we even don't notice this this change",
+        "word_count": 13,
+        "score": 59.7,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 50.8,
+          "gaps": 58.8,
+          "fillers": 100.0,
+          "dups": 42.3
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 153.3,
+        "duplicate_count": 3,
+        "accuracy_mean": 0.9419
+      },
+      {
+        "sentence_id": 376,
+        "text": "and it's I think I think",
+        "word_count": 6,
+        "score": 27.0,
+        "score_label": "Weak",
+        "color": "#dc2626",
+        "components": {
+          "speed": 27.2,
+          "gaps": 0.0,
+          "fillers": 100.0,
+          "dups": 16.7
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 941.0,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.856
+      },
+      {
+        "sentence_id": 377,
+        "text": "so because it it is natural that you you don't you don't think about it.",
+        "word_count": 15,
+        "score": 67.2,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 29.7,
+          "gaps": 98.1,
+          "fillers": 83.3,
+          "dups": 66.7
+        },
+        "filler_count": 1,
+        "filler_rate": 0.0667,
+        "gap_mean_ms": 5.7,
+        "duplicate_count": 2,
+        "accuracy_mean": 0.9467
+      },
+      {
+        "sentence_id": 378,
+        "text": "And overnight, you you change your your your ideas even, you know when you are, yeah, when you are older, it's not the same style because we we tend to think about every decision that we we make.",
+        "word_count": 38,
+        "score": 67.1,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 47.4,
+          "gaps": 81.1,
+          "fillers": 80.3,
+          "dups": 67.1
+        },
+        "filler_count": 3,
+        "filler_rate": 0.0789,
+        "gap_mean_ms": 45.8,
+        "duplicate_count": 5,
+        "accuracy_mean": 0.9337
+      },
+      {
+        "sentence_id": 380,
+        "text": "So when we are tried, we it's not we when we're it's not that we we don't think, but we we don't consider any consequences, I would say, and see.",
+        "word_count": 30,
+        "score": 60.2,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 29.5,
+          "gaps": 67.6,
+          "fillers": 91.7,
+          "dups": 83.3
+        },
+        "filler_count": 1,
+        "filler_rate": 0.0333,
+        "gap_mean_ms": 108.4,
+        "duplicate_count": 2,
+        "accuracy_mean": 0.9434
+      },
+      {
+        "sentence_id": 384,
+        "text": "Well, I was the I was the active one when I was very young.",
+        "word_count": 14,
+        "score": 73.5,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 54.8,
+          "gaps": 100.0,
+          "fillers": 82.1,
+          "dups": 46.4
+        },
+        "filler_count": 1,
+        "filler_rate": 0.0714,
+        "gap_mean_ms": 0.0,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9353
+      },
+      {
+        "sentence_id": 385,
+        "text": "I was playing a lot with my friends, so",
+        "word_count": 9,
+        "score": 74.7,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 27.8,
+          "gaps": 100.0,
+          "fillers": 100.0,
+          "dups": 100.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 0.0,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.9635
+      },
+      {
+        "sentence_id": 386,
+        "text": "I I spend I was spending a lot of time out of of my house with my friends playing.",
+        "word_count": 19,
+        "score": 56.4,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 12.5,
+          "gaps": 74.1,
+          "fillers": 100.0,
+          "dups": 73.7
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 48.6,
+        "duplicate_count": 2,
+        "accuracy_mean": 0.953
+      },
+      {
+        "sentence_id": 387,
+        "text": "So so, you know, in my village, in my small village when I live, so I have where I live where I live.",
+        "word_count": 23,
+        "score": 44.1,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 40.9,
+          "gaps": 31.9,
+          "fillers": 67.4,
+          "dups": 56.5
+        },
+        "filler_count": 3,
+        "filler_rate": 0.1304,
+        "gap_mean_ms": 241.1,
+        "duplicate_count": 2,
+        "accuracy_mean": 0.9034
+      },
+      {
+        "sentence_id": 388,
+        "text": "So I have, like, five, six friends, and we and we we were playing them.",
+        "word_count": 15,
+        "score": 61.2,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 48.7,
+          "gaps": 68.9,
+          "fillers": 66.7,
+          "dups": 66.7
+        },
+        "filler_count": 2,
+        "filler_rate": 0.1333,
+        "gap_mean_ms": 97.1,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9537
+      },
+      {
+        "sentence_id": 389,
+        "text": "But I don't remember exactly how old how old I was, but was I?",
+        "word_count": 14,
+        "score": 46.6,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 12.6,
+          "gaps": 50.2,
+          "fillers": 100.0,
+          "dups": 64.3
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 215.0,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9583
+      },
+      {
+        "sentence_id": 392,
+        "text": "I also as as you started to to put more efforts on education or on learning something, but I was I don't remember exactly, but I would say 16 15 or 16.",
+        "word_count": 32,
+        "score": 63.9,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 26.8,
+          "gaps": 76.7,
+          "fillers": 100.0,
+          "dups": 84.4
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 76.5,
+        "duplicate_count": 2,
+        "accuracy_mean": 0.9455
+      },
+      {
+        "sentence_id": 394,
+        "text": "I was not a child, like, ten years.",
+        "word_count": 8,
+        "score": 52.1,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 40.2,
+          "gaps": 36.4,
+          "fillers": 68.8,
+          "dups": 100.0
+        },
+        "filler_count": 1,
+        "filler_rate": 0.125,
+        "gap_mean_ms": 240.0,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.9622
+      },
+      {
+        "sentence_id": 396,
+        "text": "So but it it was it happened it happened without thinking about it as we as we as we told.",
+        "word_count": 20,
+        "score": 45.3,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 46.7,
+          "gaps": 39.9,
+          "fillers": 87.5,
+          "dups": 12.5
+        },
+        "filler_count": 1,
+        "filler_rate": 0.05,
+        "gap_mean_ms": 225.5,
+        "duplicate_count": 4,
+        "accuracy_mean": 0.9572
+      },
+      {
+        "sentence_id": 398,
+        "text": "It's it's it was a slow process, but but but a little bit more but natural, I I would say.",
+        "word_count": 20,
+        "score": 52.7,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 15.3,
+          "gaps": 70.9,
+          "fillers": 100.0,
+          "dups": 50.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 97.1,
+        "duplicate_count": 4,
+        "accuracy_mean": 0.9257
+      },
+      {
+        "sentence_id": 402,
+        "text": "It depends on every family, but it's not for example, that you you are 18, like and you are free because there are a lot of people who lives with with their parents, for example, it creates deep dependence.",
+        "word_count": 39,
+        "score": 72.2,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 54.3,
+          "gaps": 74.6,
+          "fillers": 93.6,
+          "dups": 87.2
+        },
+        "filler_count": 1,
+        "filler_rate": 0.0256,
+        "gap_mean_ms": 50.8,
+        "duplicate_count": 2,
+        "accuracy_mean": 0.9409
+      },
+      {
+        "sentence_id": 404,
+        "text": "Dependence even if your parents are not as obsessive of of being of control you.",
+        "word_count": 15,
+        "score": 60.8,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 30.7,
+          "gaps": 64.4,
+          "fillers": 100.0,
+          "dups": 83.3
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 112.5,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.932
+      },
+      {
+        "sentence_id": 413,
+        "text": "And I think it's it's a very good a very good way of thinking because you don't you can't be good at everything.",
+        "word_count": 23,
+        "score": 52.9,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 27.2,
+          "gaps": 56.9,
+          "fillers": 100.0,
+          "dups": 56.5
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 159.8,
+        "duplicate_count": 2,
+        "accuracy_mean": 0.9796
+      },
+      {
+        "sentence_id": 414,
+        "text": "And if you choose two or three topics and you're really good at it, it can give you more benefits in the future.",
+        "word_count": 23,
+        "score": 81.8,
+        "score_label": "Fluent",
+        "color": "#15803d",
+        "components": {
+          "speed": 58.9,
+          "gaps": 93.8,
+          "fillers": 100.0,
+          "dups": 89.1
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 14.5,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9737
+      },
+      {
+        "sentence_id": 415,
+        "text": "Because if you are trying to learn everything, impossible to be to be good at at everything.",
+        "word_count": 17,
+        "score": 66.3,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 48.9,
+          "gaps": 73.8,
+          "fillers": 100.0,
+          "dups": 55.9
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 80.3,
+        "duplicate_count": 2,
+        "accuracy_mean": 0.9477
+      },
+      {
+        "sentence_id": 416,
+        "text": "You can lose one topic that you would be that you would be stronger if you focus on it.",
+        "word_count": 19,
+        "score": 65.9,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 43.8,
+          "gaps": 81.3,
+          "fillers": 100.0,
+          "dups": 47.4
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 57.8,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9707
+      },
+      {
+        "sentence_id": 419,
+        "text": "After this, have to end my job because I yeah.",
+        "word_count": 10,
+        "score": 36.9,
+        "score_label": "Weak",
+        "color": "#dc2626",
+        "components": {
+          "speed": 11.3,
+          "gaps": 19.1,
+          "fillers": 75.0,
+          "dups": 100.0
+        },
+        "filler_count": 1,
+        "filler_rate": 0.1,
+        "gap_mean_ms": 435.6,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.9348
+      },
+      {
+        "sentence_id": 423,
+        "text": "and I will finish everything, and I will I will do sports.",
+        "word_count": 12,
+        "score": 57.2,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 0.0,
+          "gaps": 95.7,
+          "fillers": 100.0,
+          "dups": 58.3
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 15.0,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9265
+      },
+      {
+        "sentence_id": 424,
+        "text": "So I will go go out",
+        "word_count": 6,
+        "score": 52.5,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 0.0,
+          "gaps": 100.0,
+          "fillers": 58.3,
+          "dups": 58.3
+        },
+        "filler_count": 1,
+        "filler_rate": 0.1667,
+        "gap_mean_ms": 0.0,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9954
+      },
+      {
+        "sentence_id": 425,
+        "text": "and and we'll see what's that?",
+        "word_count": 6,
+        "score": 60.2,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 49.7,
+          "gaps": 54.5,
+          "fillers": 100.0,
+          "dups": 58.3
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 192.0,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.847
+      }
+    ]
+  }
+}

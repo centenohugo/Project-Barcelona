@@ -1,7 +1,7 @@
 {
   "student": "Student-1",
   "lesson": "lesson-2",
-  "generated_at": "2026-04-16T04:48:40.899287+00:00",
+  "generated_at": "2026-04-16T05:15:04.048464+00:00",
   "grammar": {
     "has_grammar": true,
     "has_errors": true,
@@ -675,5 +675,2000 @@
       }
     ]
   },
-  "fluency": null
+  "fluency": {
+    "formula": {
+      "min_sentence_words": 5,
+      "components": {
+        "speed": {
+          "weight": 35,
+          "desc": "articulation speed (sec/letter)"
+        },
+        "gaps": {
+          "weight": 35,
+          "desc": "inter-word pauses"
+        },
+        "fillers": {
+          "weight": 15,
+          "desc": "filler / hesitation rate"
+        },
+        "dups": {
+          "weight": 15,
+          "desc": "word / phrase repetitions"
+        }
+      }
+    },
+    "aggregate": {
+      "score": 57.23,
+      "score_label": "Struggling",
+      "color": "#ea580c",
+      "components": {
+        "speed": 22.51,
+        "gaps": 77.76,
+        "fillers": 82.55,
+        "dups": 65.03
+      },
+      "distribution": {
+        "fluent": 6,
+        "moderate": 36,
+        "struggling": 48,
+        "weak": 12
+      },
+      "sentences_included": 102,
+      "sentences_skipped": 318,
+      "sentences_total": 420,
+      "stats": {
+        "total_words": 1688,
+        "filler_count": 266,
+        "filler_rate": 0.1576,
+        "filler_types": {
+          "backchannel": 173,
+          "discourse_marker": 84,
+          "placeholder": 5,
+          "hesitation": 4
+        },
+        "avg_speed_ms": 170,
+        "avg_gap_ms": -1398
+      }
+    },
+    "sentences": [
+      {
+        "sentence_id": 14,
+        "text": "I was I was listening to about about English after our class, so I wanted to to to to prepare prepare some of it.",
+        "word_count": 24,
+        "score": 48.6,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 10.5,
+          "gaps": 69.5,
+          "fillers": 100.0,
+          "dups": 37.5
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 105.9,
+        "duplicate_count": 4,
+        "accuracy_mean": 0.904
+      },
+      {
+        "sentence_id": 20,
+        "text": "Today today, I was learning a lot.",
+        "word_count": 7,
+        "score": 64.6,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 17.4,
+          "gaps": 96.7,
+          "fillers": 100.0,
+          "dups": 64.3
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 13.3,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9789
+      },
+      {
+        "sentence_id": 21,
+        "text": "I was learning Spanish because, as I told you, I didn't I didn't I didn't know if I told you, but but I learn I learn Spanish.",
+        "word_count": 27,
+        "score": 46.8,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 12.5,
+          "gaps": 63.3,
+          "fillers": 100.0,
+          "dups": 35.2
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 131.3,
+        "duplicate_count": 4,
+        "accuracy_mean": 0.9696
+      },
+      {
+        "sentence_id": 23,
+        "text": "So I try to learn it.",
+        "word_count": 6,
+        "score": 43.2,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 5.0,
+          "gaps": 50.5,
+          "fillers": 58.3,
+          "dups": 100.0
+        },
+        "filler_count": 1,
+        "filler_rate": 0.1667,
+        "gap_mean_ms": 176.0,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.9
+      },
+      {
+        "sentence_id": 24,
+        "text": "So I was I was studying a lot.",
+        "word_count": 8,
+        "score": 48.7,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 0.0,
+          "gaps": 93.5,
+          "fillers": 68.8,
+          "dups": 37.5
+        },
+        "filler_count": 1,
+        "filler_rate": 0.125,
+        "gap_mean_ms": 20.7,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9699
+      },
+      {
+        "sentence_id": 25,
+        "text": "Then I was listening an English podcast to to have to have to have to have my ability, let's say, the best.",
+        "word_count": 22,
+        "score": 34.6,
+        "score_label": "Weak",
+        "color": "#dc2626",
+        "components": {
+          "speed": 22.3,
+          "gaps": 24.8,
+          "fillers": 77.3,
+          "dups": 43.2
+        },
+        "filler_count": 2,
+        "filler_rate": 0.0909,
+        "gap_mean_ms": 438.3,
+        "duplicate_count": 3,
+        "accuracy_mean": 0.9482
+      },
+      {
+        "sentence_id": 26,
+        "text": "And and now I would like to to to to start, to to to to to practice it, to practice to speak.",
+        "word_count": 22,
+        "score": 72.3,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 51.0,
+          "gaps": 94.2,
+          "fillers": 100.0,
+          "dups": 43.2
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 12.1,
+        "duplicate_count": 3,
+        "accuracy_mean": 0.925
+      },
+      {
+        "sentence_id": 27,
+        "text": "So so it's I wish it's it were it were it were good.",
+        "word_count": 13,
+        "score": 51.2,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 49.7,
+          "gaps": 60.3,
+          "fillers": 80.8,
+          "dups": 3.8
+        },
+        "filler_count": 1,
+        "filler_rate": 0.0769,
+        "gap_mean_ms": 100.0,
+        "duplicate_count": 3,
+        "accuracy_mean": 0.9124
+      },
+      {
+        "sentence_id": 31,
+        "text": "Because because, you know, it was my first time when I had to had to tell you these these things, and I didn't prepare it, but",
+        "word_count": 26,
+        "score": 50.7,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 15.8,
+          "gaps": 68.1,
+          "fillers": 80.8,
+          "dups": 61.5
+        },
+        "filler_count": 2,
+        "filler_rate": 0.0769,
+        "gap_mean_ms": 108.2,
+        "duplicate_count": 3,
+        "accuracy_mean": 0.9588
+      },
+      {
+        "sentence_id": 33,
+        "text": "but I I didn't want to prepare it.",
+        "word_count": 8,
+        "score": 52.9,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 0.0,
+          "gaps": 78.7,
+          "fillers": 100.0,
+          "dups": 68.8
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 68.6,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9844
+      },
+      {
+        "sentence_id": 34,
+        "text": "So I started and and I was thinking when I was speaking.",
+        "word_count": 12,
+        "score": 58.1,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 11.8,
+          "gaps": 86.3,
+          "fillers": 79.2,
+          "dups": 79.2
+        },
+        "filler_count": 1,
+        "filler_rate": 0.0833,
+        "gap_mean_ms": 43.6,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9127
+      },
+      {
+        "sentence_id": 37,
+        "text": "I know that it was not perfect, but I tried to to tell you tell you something.",
+        "word_count": 17,
+        "score": 70.7,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 51.0,
+          "gaps": 84.1,
+          "fillers": 100.0,
+          "dups": 55.9
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 40.0,
+        "duplicate_count": 2,
+        "accuracy_mean": 0.9768
+      },
+      {
+        "sentence_id": 40,
+        "text": "I think I think it's I think it wouldn't be okay if I I had read, for for example, after after telling you.",
+        "word_count": 23,
+        "score": 46.7,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 0.0,
+          "gaps": 75.6,
+          "fillers": 89.1,
+          "dups": 45.7
+        },
+        "filler_count": 1,
+        "filler_rate": 0.0435,
+        "gap_mean_ms": 99.8,
+        "duplicate_count": 4,
+        "accuracy_mean": 0.9443
+      },
+      {
+        "sentence_id": 41,
+        "text": "So I tried I decided I decided to to to don't prepare it to didn't prepare it.",
+        "word_count": 17,
+        "score": 54.0,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 22.3,
+          "gaps": 77.9,
+          "fillers": 85.3,
+          "dups": 41.2
+        },
+        "filler_count": 1,
+        "filler_rate": 0.0588,
+        "gap_mean_ms": 65.0,
+        "duplicate_count": 3,
+        "accuracy_mean": 0.9809
+      },
+      {
+        "sentence_id": 44,
+        "text": "So so I was saying what what I was what I had in my mind only.",
+        "word_count": 16,
+        "score": 55.6,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 0.0,
+          "gaps": 93.2,
+          "fillers": 84.4,
+          "dups": 68.8
+        },
+        "filler_count": 1,
+        "filler_rate": 0.0625,
+        "gap_mean_ms": -96.3,
+        "duplicate_count": 2,
+        "accuracy_mean": 0.9656
+      },
+      {
+        "sentence_id": 53,
+        "text": "I I think that I'm confident when I try to speak.",
+        "word_count": 11,
+        "score": 61.6,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 0.0,
+          "gaps": 100.0,
+          "fillers": 100.0,
+          "dups": 77.3
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": -64.5,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9792
+      },
+      {
+        "sentence_id": 54,
+        "text": "I know that I don't already, I don't know anything.",
+        "word_count": 10,
+        "score": 60.6,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 4.0,
+          "gaps": 83.3,
+          "fillers": 100.0,
+          "dups": 100.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 62.2,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.9843
+      },
+      {
+        "sentence_id": 55,
+        "text": "I I'm lack of a lot of things, but but I try to to to to to to speak.",
+        "word_count": 19,
+        "score": 54.5,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 29.1,
+          "gaps": 63.4,
+          "fillers": 100.0,
+          "dups": 47.4
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 84.7,
+        "duplicate_count": 2,
+        "accuracy_mean": 0.9778
+      },
+      {
+        "sentence_id": 66,
+        "text": "So so I don't I don't know if I understand you.",
+        "word_count": 11,
+        "score": 51.4,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 0.0,
+          "gaps": 100.0,
+          "fillers": 77.3,
+          "dups": 31.8
+        },
+        "filler_count": 1,
+        "filler_rate": 0.0909,
+        "gap_mean_ms": -52.5,
+        "duplicate_count": 2,
+        "accuracy_mean": 0.9242
+      },
+      {
+        "sentence_id": 67,
+        "text": "You want to to say that it's, for me now, most important to to to speak, for example, slowly, but to but don't speak don't speak fast, for example, to to communicate to communicate good.",
+        "word_count": 35,
+        "score": 50.2,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 27.6,
+          "gaps": 48.4,
+          "fillers": 100.0,
+          "dups": 57.1
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 231.0,
+        "duplicate_count": 5,
+        "accuracy_mean": 0.9724
+      },
+      {
+        "sentence_id": 73,
+        "text": "So when when I'm thinking, I I could I could I couldn't",
+        "word_count": 12,
+        "score": 30.4,
+        "score_label": "Weak",
+        "color": "#dc2626",
+        "components": {
+          "speed": 0.0,
+          "gaps": 45.7,
+          "fillers": 79.2,
+          "dups": 16.7
+        },
+        "filler_count": 1,
+        "filler_rate": 0.0833,
+        "gap_mean_ms": 253.2,
+        "duplicate_count": 3,
+        "accuracy_mean": 0.9561
+      },
+      {
+        "sentence_id": 74,
+        "text": "I couldn't I couldn't speak, but I I could think, but think in my mind, yeah, without without without for example, now I want to tell you something.",
+        "word_count": 28,
+        "score": 62.5,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 33.0,
+          "gaps": 82.9,
+          "fillers": 91.1,
+          "dups": 55.4
+        },
+        "filler_count": 1,
+        "filler_rate": 0.0357,
+        "gap_mean_ms": 49.4,
+        "duplicate_count": 4,
+        "accuracy_mean": 0.9349
+      },
+      {
+        "sentence_id": 75,
+        "text": "I don't know what I tell you, and I I'm thinking.",
+        "word_count": 11,
+        "score": 61.9,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 30.5,
+          "gaps": 60.8,
+          "fillers": 100.0,
+          "dups": 100.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 96.0,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.9519
+      },
+      {
+        "sentence_id": 85,
+        "text": "so I should do what what what I've done, but more slowly but about about this topic about this topic, about football, about what what you answered me.",
+        "word_count": 28,
+        "score": 61.5,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 34.2,
+          "gaps": 86.4,
+          "fillers": 91.1,
+          "dups": 37.5
+        },
+        "filler_count": 1,
+        "filler_rate": 0.0357,
+        "gap_mean_ms": 46.5,
+        "duplicate_count": 5,
+        "accuracy_mean": 0.9436
+      },
+      {
+        "sentence_id": 91,
+        "text": "Today, it's 01:00 in Poland.",
+        "word_count": 5,
+        "score": 63.6,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 28.8,
+          "gaps": 67.3,
+          "fillers": 100.0,
+          "dups": 100.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 220.0,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.9695
+      },
+      {
+        "sentence_id": 92,
+        "text": "Right now, it's 01:00 in Poland.",
+        "word_count": 6,
+        "score": 63.0,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 20.7,
+          "gaps": 73.7,
+          "fillers": 100.0,
+          "dups": 100.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 144.0,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.9317
+      },
+      {
+        "sentence_id": 94,
+        "text": "Today, it's 1 in Poland.",
+        "word_count": 5,
+        "score": 65.0,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 0.0,
+          "gaps": 100.0,
+          "fillers": 100.0,
+          "dups": 100.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 0.0,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.932
+      },
+      {
+        "sentence_id": 97,
+        "text": "I was I I saw it.",
+        "word_count": 6,
+        "score": 36.7,
+        "score_label": "Weak",
+        "color": "#dc2626",
+        "components": {
+          "speed": 0.0,
+          "gaps": 36.9,
+          "fillers": 100.0,
+          "dups": 58.3
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 224.0,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9925
+      },
+      {
+        "sentence_id": 100,
+        "text": "Today, right now, is 01:00.",
+        "word_count": 5,
+        "score": 73.9,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 25.4,
+          "gaps": 100.0,
+          "fillers": 100.0,
+          "dups": 100.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 0.0,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.9352
+      },
+      {
+        "sentence_id": 104,
+        "text": "I try to to to to I try to do it without without any any thinking.",
+        "word_count": 16,
+        "score": 64.5,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 50.9,
+          "gaps": 74.5,
+          "fillers": 100.0,
+          "dups": 37.5
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 69.3,
+        "duplicate_count": 3,
+        "accuracy_mean": 0.966
+      },
+      {
+        "sentence_id": 106,
+        "text": "Without I'm thinking I'm thinking, but I try to I try to",
+        "word_count": 12,
+        "score": 25.5,
+        "score_label": "Weak",
+        "color": "#dc2626",
+        "components": {
+          "speed": 0.0,
+          "gaps": 30.0,
+          "fillers": 100.0,
+          "dups": 0.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 357.7,
+        "duplicate_count": 2,
+        "accuracy_mean": 0.9162
+      },
+      {
+        "sentence_id": 107,
+        "text": "I try to think without without pause or without without stop.",
+        "word_count": 11,
+        "score": 64.2,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 47.1,
+          "gaps": 70.1,
+          "fillers": 100.0,
+          "dups": 54.5
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 112.0,
+        "duplicate_count": 2,
+        "accuracy_mean": 0.9598
+      },
+      {
+        "sentence_id": 108,
+        "text": "You you know, you understand.",
+        "word_count": 5,
+        "score": 74.4,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 91.1,
+          "gaps": 100.0,
+          "fillers": 0.0,
+          "dups": 50.0
+        },
+        "filler_count": 2,
+        "filler_rate": 0.4,
+        "gap_mean_ms": 0.0,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.8653
+      },
+      {
+        "sentence_id": 109,
+        "text": "I am I have I have ate lunch.",
+        "word_count": 8,
+        "score": 51.6,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 0.0,
+          "gaps": 88.6,
+          "fillers": 100.0,
+          "dups": 37.5
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 34.3,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.8688
+      },
+      {
+        "sentence_id": 110,
+        "text": "I ate I ate lunch when I was okay.",
+        "word_count": 9,
+        "score": 32.6,
+        "score_label": "Weak",
+        "color": "#dc2626",
+        "components": {
+          "speed": 0.0,
+          "gaps": 43.2,
+          "fillers": 72.2,
+          "dups": 44.4
+        },
+        "filler_count": 1,
+        "filler_rate": 0.1111,
+        "gap_mean_ms": 310.0,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9833
+      },
+      {
+        "sentence_id": 112,
+        "text": "I ate I ate lunch.",
+        "word_count": 5,
+        "score": 50.0,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 0.0,
+          "gaps": 100.0,
+          "fillers": 100.0,
+          "dups": 0.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 0.0,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9967
+      },
+      {
+        "sentence_id": 115,
+        "text": "I don't remember what I ate.",
+        "word_count": 6,
+        "score": 65.0,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 0.0,
+          "gaps": 100.0,
+          "fillers": 100.0,
+          "dups": 100.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 0.0,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.982
+      },
+      {
+        "sentence_id": 116,
+        "text": "I ate I ate I ate I ate x.",
+        "word_count": 9,
+        "score": 37.3,
+        "score_label": "Weak",
+        "color": "#dc2626",
+        "components": {
+          "speed": 0.0,
+          "gaps": 75.8,
+          "fillers": 72.2,
+          "dups": 0.0
+        },
+        "filler_count": 1,
+        "filler_rate": 0.1111,
+        "gap_mean_ms": 80.0,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9574
+      },
+      {
+        "sentence_id": 119,
+        "text": "I ate x on the lunch On a lunch.",
+        "word_count": 9,
+        "score": 51.2,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 21.9,
+          "gaps": 50.6,
+          "fillers": 72.2,
+          "dups": 100.0
+        },
+        "filler_count": 1,
+        "filler_rate": 0.1111,
+        "gap_mean_ms": 189.4,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.8663
+      },
+      {
+        "sentence_id": 124,
+        "text": "Today, I ate x for lunch.",
+        "word_count": 6,
+        "score": 58.8,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 13.7,
+          "gaps": 86.4,
+          "fillers": 58.3,
+          "dups": 100.0
+        },
+        "filler_count": 1,
+        "filler_rate": 0.1667,
+        "gap_mean_ms": 64.0,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.9085
+      },
+      {
+        "sentence_id": 126,
+        "text": "I have to, you know, I have to I have to convince myself because I've never done it.",
+        "word_count": 18,
+        "score": 54.8,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 34.5,
+          "gaps": 66.0,
+          "fillers": 72.2,
+          "dups": 58.3
+        },
+        "filler_count": 2,
+        "filler_rate": 0.1111,
+        "gap_mean_ms": 98.8,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9628
+      },
+      {
+        "sentence_id": 127,
+        "text": "I've I've I've never done it this mode, you know, and I I need time, but but I think it's good.",
+        "word_count": 21,
+        "score": 61.9,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 42.7,
+          "gaps": 78.9,
+          "fillers": 76.2,
+          "dups": 52.4
+        },
+        "filler_count": 2,
+        "filler_rate": 0.0952,
+        "gap_mean_ms": 26.7,
+        "duplicate_count": 4,
+        "accuracy_mean": 0.936
+      },
+      {
+        "sentence_id": 129,
+        "text": "Because it's it sounds more more more better.",
+        "word_count": 8,
+        "score": 51.8,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 27.8,
+          "gaps": 61.4,
+          "fillers": 100.0,
+          "dups": 37.5
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 217.1,
+        "duplicate_count": 2,
+        "accuracy_mean": 0.9713
+      },
+      {
+        "sentence_id": 139,
+        "text": "I ate eggs on lunch today.",
+        "word_count": 6,
+        "score": 70.1,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 24.3,
+          "gaps": 90.2,
+          "fillers": 100.0,
+          "dups": 100.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 32.0,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.9442
+      },
+      {
+        "sentence_id": 140,
+        "text": "Didn't watch any sports, but I was listening at I was listening at morning at morning about about football, about languages.",
+        "word_count": 21,
+        "score": 63.6,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 34.9,
+          "gaps": 86.6,
+          "fillers": 100.0,
+          "dups": 40.5
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 52.0,
+        "duplicate_count": 2,
+        "accuracy_mean": 0.9279
+      },
+      {
+        "sentence_id": 141,
+        "text": "So I I didn't watch any match, but I was in contact with football, let's say.",
+        "word_count": 16,
+        "score": 50.8,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 0.0,
+          "gaps": 86.3,
+          "fillers": 53.1,
+          "dups": 84.4
+        },
+        "filler_count": 3,
+        "filler_rate": 0.1875,
+        "gap_mean_ms": -54.3,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9856
+      },
+      {
+        "sentence_id": 144,
+        "text": "It was it was delicious.",
+        "word_count": 5,
+        "score": 71.0,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 60.0,
+          "gaps": 100.0,
+          "fillers": 100.0,
+          "dups": 0.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 0.0,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9607
+      },
+      {
+        "sentence_id": 146,
+        "text": "Often, I try to eat healthy, so I liked it.",
+        "word_count": 10,
+        "score": 71.7,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 22.0,
+          "gaps": 97.0,
+          "fillers": 100.0,
+          "dups": 100.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 8.9,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.9732
+      },
+      {
+        "sentence_id": 148,
+        "text": "I think I'm really like eating healthy because I think it's important for my health.",
+        "word_count": 15,
+        "score": 78.2,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 45.0,
+          "gaps": 100.0,
+          "fillers": 83.3,
+          "dups": 100.0
+        },
+        "filler_count": 1,
+        "filler_rate": 0.0667,
+        "gap_mean_ms": 0.0,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.9411
+      },
+      {
+        "sentence_id": 149,
+        "text": "And if if I have if if I I have if I have opportunity to eat healthy, I try to do it for myself.",
+        "word_count": 24,
+        "score": 54.9,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 0.0,
+          "gaps": 84.4,
+          "fillers": 100.0,
+          "dups": 68.8
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": -18.5,
+        "duplicate_count": 3,
+        "accuracy_mean": 0.9716
+      },
+      {
+        "sentence_id": 150,
+        "text": "It is not what I try to do daily, but 4 times a week, I try to eat eat eat eat.",
+        "word_count": 21,
+        "score": 51.5,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 0.9,
+          "gaps": 70.8,
+          "fillers": 100.0,
+          "dups": 76.2
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 101.2,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9345
+      },
+      {
+        "sentence_id": 151,
+        "text": "Yeah. 4 times a week.",
+        "word_count": 5,
+        "score": 22.5,
+        "score_label": "Weak",
+        "color": "#dc2626",
+        "components": {
+          "speed": 0.0,
+          "gaps": 0.0,
+          "fillers": 50.0,
+          "dups": 100.0
+        },
+        "filler_count": 1,
+        "filler_rate": 0.2,
+        "gap_mean_ms": 3503.7,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.8858
+      },
+      {
+        "sentence_id": 155,
+        "text": "I like changing my diet.",
+        "word_count": 5,
+        "score": 51.3,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 0.0,
+          "gaps": 82.3,
+          "fillers": 50.0,
+          "dups": 100.0
+        },
+        "filler_count": 1,
+        "filler_rate": 0.2,
+        "gap_mean_ms": 100.0,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.979
+      },
+      {
+        "sentence_id": 156,
+        "text": "I like changing what I eat, so I don't I don't imagine eating daily only x, for example.",
+        "word_count": 18,
+        "score": 49.0,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 0.0,
+          "gaps": 78.0,
+          "fillers": 72.2,
+          "dups": 72.2
+        },
+        "filler_count": 2,
+        "filler_rate": 0.1111,
+        "gap_mean_ms": 31.5,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9674
+      },
+      {
+        "sentence_id": 160,
+        "text": "We will see, but but I think I understood.",
+        "word_count": 9,
+        "score": 74.2,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 38.3,
+          "gaps": 100.0,
+          "fillers": 100.0,
+          "dups": 72.2
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 0.0,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9871
+      },
+      {
+        "sentence_id": 165,
+        "text": "Because I didn't understand because I I didn't have the good.",
+        "word_count": 11,
+        "score": 56.7,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 3.6,
+          "gaps": 82.4,
+          "fillers": 100.0,
+          "dups": 77.3
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 72.0,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.7826
+      },
+      {
+        "sentence_id": 171,
+        "text": "So my so my name is Damian.",
+        "word_count": 7,
+        "score": 48.4,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 22.2,
+          "gaps": 76.2,
+          "fillers": 64.3,
+          "dups": 28.6
+        },
+        "filler_count": 1,
+        "filler_rate": 0.1429,
+        "gap_mean_ms": 93.3,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9306
+      },
+      {
+        "sentence_id": 172,
+        "text": "Not my name is Damian.",
+        "word_count": 5,
+        "score": 88.9,
+        "score_label": "Fluent",
+        "color": "#15803d",
+        "components": {
+          "speed": 68.3,
+          "gaps": 100.0,
+          "fillers": 100.0,
+          "dups": 100.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 0.0,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.8057
+      },
+      {
+        "sentence_id": 175,
+        "text": "My name is my name is Damian.",
+        "word_count": 7,
+        "score": 68.8,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 53.6,
+          "gaps": 100.0,
+          "fillers": 100.0,
+          "dups": 0.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 0.0,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9002
+      },
+      {
+        "sentence_id": 178,
+        "text": "I like the most coffee.",
+        "word_count": 5,
+        "score": 54.7,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 0.0,
+          "gaps": 91.9,
+          "fillers": 50.0,
+          "dups": 100.0
+        },
+        "filler_count": 1,
+        "filler_rate": 0.2,
+        "gap_mean_ms": 40.0,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.9102
+      },
+      {
+        "sentence_id": 179,
+        "text": "I like I like coffee the most of of drinks.",
+        "word_count": 10,
+        "score": 50.6,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 12.5,
+          "gaps": 100.0,
+          "fillers": 50.0,
+          "dups": 25.0
+        },
+        "filler_count": 2,
+        "filler_rate": 0.2,
+        "gap_mean_ms": 0.0,
+        "duplicate_count": 2,
+        "accuracy_mean": 0.9389
+      },
+      {
+        "sentence_id": 181,
+        "text": "So so for the rest of the day, I will have many plans.",
+        "word_count": 13,
+        "score": 53.9,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 2.9,
+          "gaps": 81.9,
+          "fillers": 80.8,
+          "dups": 80.8
+        },
+        "filler_count": 1,
+        "filler_rate": 0.0769,
+        "gap_mean_ms": 66.7,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9836
+      },
+      {
+        "sentence_id": 182,
+        "text": "First of all, I will plan to go outside to to buy something in the shop in the shop, and then I will rest.",
+        "word_count": 24,
+        "score": 51.0,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 12.3,
+          "gaps": 65.5,
+          "fillers": 100.0,
+          "dups": 58.3
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 138.9,
+        "duplicate_count": 2,
+        "accuracy_mean": 0.9895
+      },
+      {
+        "sentence_id": 183,
+        "text": "I will rest because I need rest because I've worked.",
+        "word_count": 10,
+        "score": 54.8,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 34.8,
+          "gaps": 36.1,
+          "fillers": 100.0,
+          "dups": 100.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 337.2,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.9032
+      },
+      {
+        "sentence_id": 184,
+        "text": "I worked a lot, and I need rest.",
+        "word_count": 8,
+        "score": 69.7,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 21.4,
+          "gaps": 92.1,
+          "fillers": 100.0,
+          "dups": 100.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 22.9,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.9041
+      },
+      {
+        "sentence_id": 185,
+        "text": "I prefer to walk during the day because I like walking when there are many people when when I pre I prefer do it when it's bright.",
+        "word_count": 27,
+        "score": 57.5,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 16.3,
+          "gaps": 78.3,
+          "fillers": 90.7,
+          "dups": 72.2
+        },
+        "filler_count": 1,
+        "filler_rate": 0.037,
+        "gap_mean_ms": 72.9,
+        "duplicate_count": 2,
+        "accuracy_mean": 0.934
+      },
+      {
+        "sentence_id": 191,
+        "text": "So do you like do you like teaching teaching?",
+        "word_count": 9,
+        "score": 51.9,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 55.6,
+          "gaps": 85.6,
+          "fillers": 16.7,
+          "dups": 0.0
+        },
+        "filler_count": 3,
+        "filler_rate": 0.3333,
+        "gap_mean_ms": 50.0,
+        "duplicate_count": 2,
+        "accuracy_mean": 0.9695
+      },
+      {
+        "sentence_id": 195,
+        "text": "Do you like do you like teaching languages?",
+        "word_count": 8,
+        "score": 64.3,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 73.4,
+          "gaps": 91.7,
+          "fillers": 37.5,
+          "dups": 6.2
+        },
+        "filler_count": 2,
+        "filler_rate": 0.25,
+        "gap_mean_ms": 22.9,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9965
+      },
+      {
+        "sentence_id": 201,
+        "text": "Do you know what do you know about languages?",
+        "word_count": 9,
+        "score": 47.4,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 47.4,
+          "gaps": 45.3,
+          "fillers": 0.0,
+          "dups": 100.0
+        },
+        "filler_count": 5,
+        "filler_rate": 0.5556,
+        "gap_mean_ms": 210.0,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.9856
+      },
+      {
+        "sentence_id": 205,
+        "text": "What languages do you know?",
+        "word_count": 5,
+        "score": 50.0,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 0.0,
+          "gaps": 100.0,
+          "fillers": 0.0,
+          "dups": 100.0
+        },
+        "filler_count": 2,
+        "filler_rate": 0.4,
+        "gap_mean_ms": 0.0,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.9397
+      },
+      {
+        "sentence_id": 212,
+        "text": "How much lang how how much languages do you want?",
+        "word_count": 10,
+        "score": 82.8,
+        "score_label": "Fluent",
+        "color": "#15803d",
+        "components": {
+          "speed": 69.5,
+          "gaps": 92.2,
+          "fillers": 100.0,
+          "dups": 75.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 17.8,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9513
+      },
+      {
+        "sentence_id": 224,
+        "text": "As if it were your native languages.",
+        "word_count": 7,
+        "score": 60.9,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 17.7,
+          "gaps": 70.8,
+          "fillers": 100.0,
+          "dups": 100.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 133.3,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.9224
+      },
+      {
+        "sentence_id": 225,
+        "text": "Oh, it's your native languages.",
+        "word_count": 5,
+        "score": 90.9,
+        "score_label": "Fluent",
+        "color": "#15803d",
+        "components": {
+          "speed": 73.9,
+          "gaps": 100.0,
+          "fillers": 100.0,
+          "dups": 100.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 0.0,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.9966
+      },
+      {
+        "sentence_id": 230,
+        "text": "Do you like do you like watching football, or do you like any other sports?",
+        "word_count": 15,
+        "score": 48.5,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 30.1,
+          "gaps": 65.8,
+          "fillers": 50.0,
+          "dups": 50.0
+        },
+        "filler_count": 3,
+        "filler_rate": 0.2,
+        "gap_mean_ms": 131.4,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9617
+      },
+      {
+        "sentence_id": 237,
+        "text": "So more more gaming, more playing on computer, let's say, than than than than than watching.",
+        "word_count": 16,
+        "score": 35.3,
+        "score_label": "Weak",
+        "color": "#dc2626",
+        "components": {
+          "speed": 0.0,
+          "gaps": 55.4,
+          "fillers": 53.1,
+          "dups": 53.1
+        },
+        "filler_count": 3,
+        "filler_rate": 0.1875,
+        "gap_mean_ms": 162.3,
+        "duplicate_count": 2,
+        "accuracy_mean": 0.9612
+      },
+      {
+        "sentence_id": 245,
+        "text": "And I have to repeat.",
+        "word_count": 5,
+        "score": 70.5,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 15.8,
+          "gaps": 100.0,
+          "fillers": 100.0,
+          "dups": 100.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 0.0,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.9186
+      },
+      {
+        "sentence_id": 250,
+        "text": "So what what do you eat today?",
+        "word_count": 7,
+        "score": 61.9,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 21.8,
+          "gaps": 100.0,
+          "fillers": 64.3,
+          "dups": 64.3
+        },
+        "filler_count": 1,
+        "filler_rate": 0.1429,
+        "gap_mean_ms": 0.0,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9526
+      },
+      {
+        "sentence_id": 252,
+        "text": "I ate eggs and drank coffee.",
+        "word_count": 6,
+        "score": 45.3,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 0.0,
+          "gaps": 43.7,
+          "fillers": 100.0,
+          "dups": 100.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 400.0,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.9055
+      },
+      {
+        "sentence_id": 253,
+        "text": "I didn't eat I ate only eggs, so I didn't eat anymore.",
+        "word_count": 12,
+        "score": 51.8,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 16.8,
+          "gaps": 45.5,
+          "fillers": 100.0,
+          "dups": 100.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 254.5,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.9778
+      },
+      {
+        "sentence_id": 255,
+        "text": "So we'll see what I will remember.",
+        "word_count": 7,
+        "score": 57.8,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 44.8,
+          "gaps": 50.0,
+          "fillers": 64.3,
+          "dups": 100.0
+        },
+        "filler_count": 1,
+        "filler_rate": 0.1429,
+        "gap_mean_ms": 240.0,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.816
+      },
+      {
+        "sentence_id": 326,
+        "text": "So I think I've learned about breakfast about breakfast, about what what I ate, what I could could tell you, and I like it because I think it's important to to keep speaking, to keep to keep having vocabulary a vocab the the new vocabulary.",
+        "word_count": 45,
+        "score": 57.9,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 28.1,
+          "gaps": 75.4,
+          "fillers": 88.9,
+          "dups": 55.6
+        },
+        "filler_count": 2,
+        "filler_rate": 0.0444,
+        "gap_mean_ms": 70.3,
+        "duplicate_count": 6,
+        "accuracy_mean": 0.9623
+      },
+      {
+        "sentence_id": 327,
+        "text": "So so I like it, and I feel good.",
+        "word_count": 9,
+        "score": 59.6,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 20.2,
+          "gaps": 100.0,
+          "fillers": 44.4,
+          "dups": 72.2
+        },
+        "filler_count": 2,
+        "filler_rate": 0.2222,
+        "gap_mean_ms": 0.0,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9386
+      },
+      {
+        "sentence_id": 339,
+        "text": "so I liked I liked our class.",
+        "word_count": 7,
+        "score": 37.5,
+        "score_label": "Weak",
+        "color": "#dc2626",
+        "components": {
+          "speed": 0.0,
+          "gaps": 67.3,
+          "fillers": 64.3,
+          "dups": 28.6
+        },
+        "filler_count": 1,
+        "filler_rate": 0.1429,
+        "gap_mean_ms": 146.7,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.8693
+      },
+      {
+        "sentence_id": 340,
+        "text": "I liked that we we were able to communicate.",
+        "word_count": 9,
+        "score": 67.4,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 18.7,
+          "gaps": 100.0,
+          "fillers": 100.0,
+          "dups": 72.2
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 0.0,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.968
+      },
+      {
+        "sentence_id": 341,
+        "text": "So I hope we will communicate ourselves ourselves in future.",
+        "word_count": 10,
+        "score": 62.5,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 27.8,
+          "gaps": 86.5,
+          "fillers": 75.0,
+          "dups": 75.0
+        },
+        "filler_count": 1,
+        "filler_rate": 0.1,
+        "gap_mean_ms": -61.7,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9665
+      },
+      {
+        "sentence_id": 342,
+        "text": "So I hope I'm looking I will looking forward to to have to have to have a class or to have lessons to have lessons in future.",
+        "word_count": 27,
+        "score": 52.1,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 31.9,
+          "gaps": 59.0,
+          "fillers": 90.7,
+          "dups": 44.4
+        },
+        "filler_count": 1,
+        "filler_rate": 0.037,
+        "gap_mean_ms": 113.7,
+        "duplicate_count": 3,
+        "accuracy_mean": 0.9551
+      },
+      {
+        "sentence_id": 343,
+        "text": "So so I like it.",
+        "word_count": 5,
+        "score": 33.7,
+        "score_label": "Weak",
+        "color": "#dc2626",
+        "components": {
+          "speed": 0.0,
+          "gaps": 74.7,
+          "fillers": 0.0,
+          "dups": 50.0
+        },
+        "filler_count": 2,
+        "filler_rate": 0.4,
+        "gap_mean_ms": 100.0,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9986
+      },
+      {
+        "sentence_id": 352,
+        "text": "it don't have to be faster, but but mhmm.",
+        "word_count": 9,
+        "score": 38.3,
+        "score_label": "Weak",
+        "color": "#dc2626",
+        "components": {
+          "speed": 0.0,
+          "gaps": 47.5,
+          "fillers": 72.2,
+          "dups": 72.2
+        },
+        "filler_count": 1,
+        "filler_rate": 0.1111,
+        "gap_mean_ms": 290.0,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.9069
+      },
+      {
+        "sentence_id": 356,
+        "text": "I think I've learned a lot because for me, it's important to to keep speaking, to keep keep learning.",
+        "word_count": 19,
+        "score": 69.6,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 37.7,
+          "gaps": 86.8,
+          "fillers": 100.0,
+          "dups": 73.7
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": -26.4,
+        "duplicate_count": 2,
+        "accuracy_mean": 0.9488
+      },
+      {
+        "sentence_id": 357,
+        "text": "So I liked it, and I wish I learned a lot.",
+        "word_count": 11,
+        "score": 55.2,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 0.0,
+          "gaps": 81.8,
+          "fillers": 77.3,
+          "dups": 100.0
+        },
+        "filler_count": 1,
+        "filler_rate": 0.0909,
+        "gap_mean_ms": 48.0,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.9865
+      },
+      {
+        "sentence_id": 360,
+        "text": "and I know that now I don't I don't understand all what what you are doing, for example, but I I know that in future, it will be possible because if if we if we learning, if we're trying, it's possible to communicate better and better.",
+        "word_count": 46,
+        "score": 63.1,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 20.6,
+          "gaps": 85.6,
+          "fillers": 100.0,
+          "dups": 72.8
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 31.9,
+        "duplicate_count": 4,
+        "accuracy_mean": 0.9558
+      },
+      {
+        "sentence_id": 362,
+        "text": "My goal is is is communicate because, as I told you, I don't learn to to have a job.",
+        "word_count": 19,
+        "score": 63.1,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 17.8,
+          "gaps": 93.8,
+          "fillers": 100.0,
+          "dups": 60.5
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 17.8,
+        "duplicate_count": 3,
+        "accuracy_mean": 0.9406
+      },
+      {
+        "sentence_id": 363,
+        "text": "For example, I learn for myself.",
+        "word_count": 6,
+        "score": 83.7,
+        "score_label": "Fluent",
+        "color": "#15803d",
+        "components": {
+          "speed": 53.3,
+          "gaps": 100.0,
+          "fillers": 100.0,
+          "dups": 100.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 0.0,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.9738
+      },
+      {
+        "sentence_id": 364,
+        "text": "So I want to communicate them.",
+        "word_count": 6,
+        "score": 58.8,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 15.7,
+          "gaps": 84.5,
+          "fillers": 58.3,
+          "dups": 100.0
+        },
+        "filler_count": 1,
+        "filler_rate": 0.1667,
+        "gap_mean_ms": 59.0,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.9554
+      },
+      {
+        "sentence_id": 365,
+        "text": "I want to understand better and better, but I don't have I don't have I don't have to rush.",
+        "word_count": 19,
+        "score": 48.5,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 18.2,
+          "gaps": 68.4,
+          "fillers": 100.0,
+          "dups": 21.1
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 97.8,
+        "duplicate_count": 2,
+        "accuracy_mean": 0.976
+      },
+      {
+        "sentence_id": 367,
+        "text": "I don't have to rush.",
+        "word_count": 5,
+        "score": 94.8,
+        "score_label": "Fluent",
+        "color": "#15803d",
+        "components": {
+          "speed": 85.0,
+          "gaps": 100.0,
+          "fillers": 100.0,
+          "dups": 100.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 0.0,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.9987
+      },
+      {
+        "sentence_id": 368,
+        "text": "I think I will be opportunity to to communicate, but now I want to I want to listen to a lot, reading a lot, speaking a lot to to be more fluent.",
+        "word_count": 32,
+        "score": 54.2,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 9.1,
+          "gaps": 76.7,
+          "fillers": 100.0,
+          "dups": 60.9
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 71.1,
+        "duplicate_count": 3,
+        "accuracy_mean": 0.969
+      },
+      {
+        "sentence_id": 370,
+        "text": "When when I'm fluent, it will be it will be easier and easier.",
+        "word_count": 13,
+        "score": 67.6,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 43.0,
+          "gaps": 97.5,
+          "fillers": 100.0,
+          "dups": 23.1
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 6.7,
+        "duplicate_count": 2,
+        "accuracy_mean": 0.9993
+      },
+      {
+        "sentence_id": 378,
+        "text": "So so I will try to check it.",
+        "word_count": 8,
+        "score": 38.1,
+        "score_label": "Weak",
+        "color": "#dc2626",
+        "components": {
+          "speed": 0.0,
+          "gaps": 50.0,
+          "fillers": 68.8,
+          "dups": 68.8
+        },
+        "filler_count": 1,
+        "filler_rate": 0.125,
+        "gap_mean_ms": 205.7,
+        "duplicate_count": 1,
+        "accuracy_mean": 0.8741
+      },
+      {
+        "sentence_id": 393,
+        "text": "For me, it's not a problem.",
+        "word_count": 6,
+        "score": 85.8,
+        "score_label": "Fluent",
+        "color": "#15803d",
+        "components": {
+          "speed": 59.3,
+          "gaps": 100.0,
+          "fillers": 100.0,
+          "dups": 100.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 0.0,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.7707
+      },
+      {
+        "sentence_id": 399,
+        "text": "But 1 voice note or more?",
+        "word_count": 6,
+        "score": 58.9,
+        "score_label": "Struggling",
+        "color": "#ea580c",
+        "components": {
+          "speed": 0.0,
+          "gaps": 82.5,
+          "fillers": 100.0,
+          "dups": 100.0
+        },
+        "filler_count": 0,
+        "filler_rate": 0.0,
+        "gap_mean_ms": 96.0,
+        "duplicate_count": 0,
+        "accuracy_mean": 0.9337
+      },
+      {
+        "sentence_id": 417,
+        "text": "So thank you for for our class, and we will see we will see next week.",
+        "word_count": 16,
+        "score": 64.9,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "components": {
+          "speed": 36.9,
+          "gaps": 96.3,
+          "fillers": 84.4,
+          "dups": 37.5
+        },
+        "filler_count": 1,
+        "filler_rate": 0.0625,
+        "gap_mean_ms": 10.7,
+        "duplicate_count": 2,
+        "accuracy_mean": 0.9771
+      }
+    ]
+  }
 }

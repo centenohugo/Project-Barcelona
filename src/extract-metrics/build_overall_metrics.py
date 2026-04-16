@@ -8,7 +8,8 @@ Formula (per chunk):
   overall_score = content_score * (fluency_score / 100)
 
 Where:
-  content_score = grammar_score (0–100)    [future: mean(grammar, vocab)]
+  content_score = mean(grammar_score, vocab_score)   both 0–100
+                  (falls back to whichever is available if one is missing)
   fluency_score = mean of per-chunk sentence fluency scores (0–100)
 
 Per-chunk fluency is derived by mapping fluency.json sentences to grammar
@@ -20,9 +21,10 @@ Fluency sentences with < FLUENCY_MIN_WORDS words are excluded from the per-chunk
 Lesson aggregate = mean(chunk_overall_scores) over non-skipped chunks → 0–100.
 
 Reads (from data/processed/{student}/{lesson}/):
-  grammar/grammar_richness.json  (required for chunk definitions)
-  errors/errors.json             (optional, for grammar error component)
-  fluency.json                   (optional, for fluency component)
+  grammar/grammar_richness.json      (required for chunk definitions)
+  errors/errors.json                 (optional, for grammar error component)
+  fluency.json                       (optional, for fluency component)
+  vocabulary/vocab_metrics.json      (optional, for vocabulary component)
 
 Writes:
   data/processed/{student}/{lesson}/metrics/overall_metrics.json
@@ -159,6 +161,7 @@ def process_lesson(student: str, lesson: str) -> Path | None:
     grammar_path  = lesson_dir / "grammar" / "grammar_richness.json"
     errors_path   = lesson_dir / "errors"  / "errors.json"
     fluency_path  = lesson_dir / "fluency.json"
+    vocab_path    = lesson_dir / "vocabulary" / "vocab_metrics.json"
     out_path      = lesson_dir / "metrics" / "overall_metrics.json"
 
     if not grammar_path.exists():
@@ -168,11 +171,13 @@ def process_lesson(student: str, lesson: str) -> Path | None:
     grammar_data = json.loads(grammar_path.read_text("utf-8"))
     errors_data  = json.loads(errors_path.read_text("utf-8"))  if errors_path.exists()  else None
     fluency_data = json.loads(fluency_path.read_text("utf-8")) if fluency_path.exists() else None
+    vocab_data   = json.loads(vocab_path.read_text("utf-8"))   if vocab_path.exists()   else None
 
     has_errors  = errors_data  is not None
     has_fluency = fluency_data is not None
+    has_vocab   = vocab_data   is not None
 
-    print(f"  {student}/{lesson}  errors={has_errors}  fluency={has_fluency}")
+    print(f"  {student}/{lesson}  errors={has_errors}  fluency={has_fluency}  vocab={has_vocab}")
 
     # Conversation filter (excludes teacher/non-learner paragraphs)
     conv_ranges = _conversation_ranges(student, lesson)
@@ -182,6 +187,12 @@ def process_lesson(student: str, lesson: str) -> Path | None:
     if errors_data:
         for p in errors_data["paragraphs"]:
             error_paras[p["paragraph_id"]] = p
+
+    # Index vocab scores by chunk_id (only non-skipped chunks have a score)
+    vocab_scores: dict[int, float | None] = {}
+    if vocab_data:
+        for c in vocab_data["chunks"]:
+            vocab_scores[c["chunk_id"]] = None if c["skipped"] else c["score"]
 
     # Chunk ranges for fluency alignment (grammar already has only conversation chunks)
     chunk_ranges = [
@@ -227,6 +238,8 @@ def process_lesson(student: str, lesson: str) -> Path | None:
                 "skipped":        True,
                 "skip_reason":    f"too short ({wc}w < {GRAMMAR_MIN_WORDS})",
                 "grammar_score":  None,
+                "vocab_score":    None,
+                "content_score":  None,
                 "fluency_score":  None,
                 "fluency_sentences_included": 0,
                 "overall_score":  None,
@@ -237,6 +250,12 @@ def process_lesson(student: str, lesson: str) -> Path | None:
             continue
 
         grammar_score, grammar_partial = _grammar_chunk_score(gp["richness"], ep)
+
+        # Vocab score for this chunk (None if vocab not available or chunk was skipped in vocab)
+        vocab_score: float | None = vocab_scores.get(pid) if has_vocab else None
+
+        # content_score = mean(grammar, vocab), using whichever are available
+        content_score = _mean([grammar_score, vocab_score])
 
         # Per-chunk fluency score (fall back to lesson-level if < 3 valid sentences)
         fluency_score: float | None = None
@@ -250,8 +269,8 @@ def process_lesson(student: str, lesson: str) -> Path | None:
                 fluency_fallback = True
 
         # Overall
-        if grammar_score is not None and fluency_score is not None:
-            overall = round(grammar_score * (fluency_score / 100), 1)
+        if content_score is not None and fluency_score is not None:
+            overall = round(content_score * (fluency_score / 100), 1)
         else:
             overall = None
 
@@ -266,9 +285,11 @@ def process_lesson(student: str, lesson: str) -> Path | None:
             "skip_reason":    None,
             "grammar_score":  grammar_score,
             "grammar_partial": grammar_partial,
+            "vocab_score":    vocab_score,
+            "content_score":  content_score,
             "fluency_score":  fluency_score,
             "fluency_sentences_included": fluency_sents_n,
-            "fluency_fallback": fluency_fallback,  # True if lesson-level score was used
+            "fluency_fallback": fluency_fallback,
             "overall_score":  overall,
             "score_label":    sl,
             "color":          color,
@@ -276,6 +297,8 @@ def process_lesson(student: str, lesson: str) -> Path | None:
         })
 
         print(f"    chunk {pid:2d}: grammar={str(grammar_score):>5}  "
+              f"vocab={str(vocab_score):>5}  "
+              f"content={str(content_score):>5}  "
               f"fluency={str(round(fluency_score, 1) if fluency_score else None):>5}  "
               f"overall={str(overall):>5}"
               + (" [fluency=lesson avg]" if fluency_fallback else ""))
@@ -288,39 +311,41 @@ def process_lesson(student: str, lesson: str) -> Path | None:
 
     # Component aggregates (for context)
     agg_grammar_score  = _mean([c["grammar_score"] for c in included])
+    agg_vocab_score    = _mean([c["vocab_score"]   for c in included]) if has_vocab   else None
+    agg_content_score  = _mean([c["content_score"] for c in included])
     agg_fluency_score  = _mean([c["fluency_score"] for c in included]) if has_fluency else None
 
     aggregate = {
         "score":           agg_score,
         "score_label":     agg_label,
         "color":           agg_color,
+        "content_score":   agg_content_score,
         "grammar_score":   agg_grammar_score,
+        "vocab_score":     agg_vocab_score,
         "fluency_score":   agg_fluency_score,
         "chunks_included": len(included),
         "chunks_skipped":  len(chunks) - len(included),
         "chunks_total":    len(chunks),
         "grammar_partial": not has_errors,
+        "vocab_partial":   not has_vocab,
         "fluency_partial": not has_fluency,
-        "partial":         not has_errors or not has_fluency,
+        "partial":         not has_errors or not has_vocab or not has_fluency,
     }
 
     output = {
         "student":      student,
         "lesson":       lesson,
         "generated_at": datetime.now(timezone.utc).isoformat(),
-        "note": (
-            "overall_score = grammar_score × (fluency_score / 100). "
-            "Future: grammar_score will be mean(grammar, vocab)."
-        ),
         "formula": {
-            "content_score":    "grammar_score (future: mean of grammar + vocab)",
-            "fluency_weight":   "content_score × fluency_score / 100",
+            "content_score":    "mean(grammar_score, vocab_score) — uses whichever are available",
+            "overall_score":    "content_score × (fluency_score / 100)",
             "aggregation":      "mean of chunk overall_scores",
             "grammar_weights":  {
                 "level":   LEVEL_MAX,
                 "variety": VARIETY_MAX,
                 "errors":  ERROR_MAX,
             },
+            "vocab_normalization": "(cefr_raw - 1) / 5 × 100  (A1=0 … C2=100)",
             "min_chunk_words":    GRAMMAR_MIN_WORDS,
             "min_sentence_words": FLUENCY_MIN_WORDS,
         },
@@ -331,7 +356,8 @@ def process_lesson(student: str, lesson: str) -> Path | None:
     out_path.parent.mkdir(parents=True, exist_ok=True)
     out_path.write_text(json.dumps(output, ensure_ascii=False, indent=2), "utf-8")
     print(f"    Aggregate: overall={agg_score} ({agg_label})  "
-          f"[grammar={agg_grammar_score}, fluency={agg_fluency_score}]")
+          f"[content={agg_content_score}, grammar={agg_grammar_score}, "
+          f"vocab={agg_vocab_score}, fluency={agg_fluency_score}]")
     print(f"    -> {out_path.relative_to(ROOT)}")
     return out_path
 

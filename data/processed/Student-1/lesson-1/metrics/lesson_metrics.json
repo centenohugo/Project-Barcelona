@@ -1,11 +1,11 @@
 {
   "student": "Student-1",
   "lesson": "lesson-1",
-  "generated_at": "2026-04-16T04:48:40.751039+00:00",
+  "generated_at": "2026-04-16T05:15:03.412400+00:00",
   "grammar": {
     "has_grammar": true,
-    "has_errors": false,
-    "partial": true,
+    "has_errors": true,
+    "partial": false,
     "formula": {
       "level_weight": 40,
       "variety_weight": 20,
@@ -13,16 +13,16 @@
       "min_chunk_words": 10
     },
     "aggregate": {
-      "score": 22.63,
-      "score_label": "Sparse",
-      "color": "#dc2626",
-      "level_score": 6.57,
-      "variety_score": 16.05,
-      "error_score": null,
+      "score": 42.99,
+      "score_label": "Basic",
+      "color": "#ea580c",
+      "level_score": 3.94,
+      "variety_score": 9.63,
+      "error_score": 29.42,
       "chunks_total": 9,
       "chunks_included": 9,
       "chunks_skipped": 0,
-      "partial": true
+      "partial": false
     },
     "chunks": [
       {
@@ -33,20 +33,20 @@
         "skipped": false,
         "skip_reason": null,
         "has_grammar": true,
-        "has_errors": false,
-        "partial": true,
-        "score": 35.2,
-        "score_label": "Basic",
-        "color": "#ea580c",
-        "level_score": 8.48,
-        "variety_score": 26.67,
-        "error_score": null,
+        "has_errors": true,
+        "partial": false,
+        "score": 55.9,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "level_score": 5.09,
+        "variety_score": 16.0,
+        "error_score": 34.8,
         "grammar": {
           "richness_score": 40,
           "level": 0.1273,
-          "level_score": 8.48,
+          "level_score": 5.09,
           "variety": 0.8,
-          "variety_score": 26.67,
+          "variety_score": 16.0,
           "avg_cefr": "B1",
           "n_assigned": 55,
           "density": 1.3095,
@@ -93,7 +93,19 @@
             "context_end_char": 33
           }
         },
-        "errors": null
+        "errors": {
+          "error_count": 3,
+          "weighted_error_sum": 7,
+          "quality_score": 87,
+          "quality_level": "Good",
+          "error_score": 34.8,
+          "dimension_counts": {
+            "A": 0,
+            "B": 2,
+            "C": 1,
+            "D": 0
+          }
+        }
       },
       {
         "chunk_id": 2,
@@ -103,20 +115,20 @@
         "skipped": false,
         "skip_reason": null,
         "has_grammar": true,
-        "has_errors": false,
-        "partial": true,
-        "score": 11.8,
+        "has_errors": true,
+        "partial": false,
+        "score": 27.9,
         "score_label": "Sparse",
         "color": "#dc2626",
-        "level_score": 2.9,
-        "variety_score": 8.88,
-        "error_score": null,
+        "level_score": 1.74,
+        "variety_score": 5.33,
+        "error_score": 20.8,
         "grammar": {
           "richness_score": 13,
           "level": 0.0435,
-          "level_score": 2.9,
+          "level_score": 1.74,
           "variety": 0.2667,
-          "variety_score": 8.88,
+          "variety_score": 5.33,
           "avg_cefr": "A2",
           "n_assigned": 23,
           "density": 0.3651,
@@ -153,7 +165,19 @@
             "context_end_char": 19
           }
         },
-        "errors": null
+        "errors": {
+          "error_count": 8,
+          "weighted_error_sum": 19,
+          "quality_score": 52,
+          "quality_level": "Weak",
+          "error_score": 20.8,
+          "dimension_counts": {
+            "A": 0,
+            "B": 6,
+            "C": 1,
+            "D": 1
+          }
+        }
       },
       {
         "chunk_id": 3,
@@ -163,20 +187,20 @@
         "skipped": false,
         "skip_reason": null,
         "has_grammar": true,
-        "has_errors": false,
-        "partial": true,
-        "score": 20.2,
-        "score_label": "Sparse",
-        "color": "#dc2626",
-        "level_score": 6.9,
-        "variety_score": 13.33,
-        "error_score": null,
+        "has_errors": true,
+        "partial": false,
+        "score": 36.5,
+        "score_label": "Basic",
+        "color": "#ea580c",
+        "level_score": 4.14,
+        "variety_score": 8.0,
+        "error_score": 24.4,
         "grammar": {
           "richness_score": 22,
           "level": 0.1034,
-          "level_score": 6.9,
+          "level_score": 4.14,
           "variety": 0.4,
-          "variety_score": 13.33,
+          "variety_score": 8.0,
           "avg_cefr": "A2",
           "n_assigned": 29,
           "density": 0.4265,
@@ -215,7 +239,19 @@
             "context_end_char": 7
           }
         },
-        "errors": null
+        "errors": {
+          "error_count": 7,
+          "weighted_error_sum": 16,
+          "quality_score": 61,
+          "quality_level": "Moderate",
+          "error_score": 24.4,
+          "dimension_counts": {
+            "A": 0,
+            "B": 4,
+            "C": 1,
+            "D": 2
+          }
+        }
       },
       {
         "chunk_id": 4,
@@ -225,20 +261,20 @@
         "skipped": false,
         "skip_reason": null,
         "has_grammar": true,
-        "has_errors": false,
-        "partial": true,
-        "score": 9.1,
+        "has_errors": true,
+        "partial": false,
+        "score": 26.6,
         "score_label": "Sparse",
         "color": "#dc2626",
-        "level_score": 2.38,
-        "variety_score": 6.67,
-        "error_score": null,
+        "level_score": 1.43,
+        "variety_score": 4.0,
+        "error_score": 21.2,
         "grammar": {
           "richness_score": 10,
           "level": 0.0357,
-          "level_score": 2.38,
+          "level_score": 1.43,
           "variety": 0.2,
-          "variety_score": 6.67,
+          "variety_score": 4.0,
           "avg_cefr": "A2",
           "n_assigned": 7,
           "density": 0.1429,
@@ -272,7 +308,19 @@
             "context_end_char": 39
           }
         },
-        "errors": null
+        "errors": {
+          "error_count": 10,
+          "weighted_error_sum": 20,
+          "quality_score": 53,
+          "quality_level": "Weak",
+          "error_score": 21.2,
+          "dimension_counts": {
+            "A": 0,
+            "B": 5,
+            "C": 1,
+            "D": 4
+          }
+        }
       },
       {
         "chunk_id": 5,
@@ -282,20 +330,20 @@
         "skipped": false,
         "skip_reason": null,
         "has_grammar": true,
-        "has_errors": false,
-        "partial": true,
-        "score": 23.9,
-        "score_label": "Sparse",
-        "color": "#dc2626",
-        "level_score": 8.33,
-        "variety_score": 15.55,
-        "error_score": null,
+        "has_errors": true,
+        "partial": false,
+        "score": 52.3,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "level_score": 5.0,
+        "variety_score": 9.33,
+        "error_score": 38.0,
         "grammar": {
           "richness_score": 26,
           "level": 0.125,
-          "level_score": 8.33,
+          "level_score": 5.0,
           "variety": 0.4667,
-          "variety_score": 15.55,
+          "variety_score": 9.33,
           "avg_cefr": "A2",
           "n_assigned": 26,
           "density": 0.7879,
@@ -337,7 +385,19 @@
             "context_end_char": 35
           }
         },
-        "errors": null
+        "errors": {
+          "error_count": 1,
+          "weighted_error_sum": 2,
+          "quality_score": 95,
+          "quality_level": "Good",
+          "error_score": 38.0,
+          "dimension_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 0,
+            "D": 1
+          }
+        }
       },
       {
         "chunk_id": 6,
@@ -347,20 +407,20 @@
         "skipped": false,
         "skip_reason": null,
         "has_grammar": true,
-        "has_errors": false,
-        "partial": true,
-        "score": 17.1,
-        "score_label": "Sparse",
-        "color": "#dc2626",
-        "level_score": 3.77,
-        "variety_score": 13.33,
-        "error_score": null,
+        "has_errors": true,
+        "partial": false,
+        "score": 40.3,
+        "score_label": "Basic",
+        "color": "#ea580c",
+        "level_score": 2.26,
+        "variety_score": 8.0,
+        "error_score": 30.0,
         "grammar": {
           "richness_score": 19,
           "level": 0.0565,
-          "level_score": 3.77,
+          "level_score": 2.26,
           "variety": 0.4,
-          "variety_score": 13.33,
+          "variety_score": 8.0,
           "avg_cefr": "A2",
           "n_assigned": 31,
           "density": 0.5849,
@@ -400,7 +460,19 @@
             "context_end_char": 41
           }
         },
-        "errors": null
+        "errors": {
+          "error_count": 4,
+          "weighted_error_sum": 10,
+          "quality_score": 75,
+          "quality_level": "Moderate",
+          "error_score": 30.0,
+          "dimension_counts": {
+            "A": 0,
+            "B": 4,
+            "C": 0,
+            "D": 0
+          }
+        }
       },
       {
         "chunk_id": 7,
@@ -410,20 +482,20 @@
         "skipped": false,
         "skip_reason": null,
         "has_grammar": true,
-        "has_errors": false,
-        "partial": true,
-        "score": 25.1,
-        "score_label": "Sparse",
-        "color": "#dc2626",
-        "level_score": 2.85,
-        "variety_score": 22.22,
-        "error_score": null,
+        "has_errors": true,
+        "partial": false,
+        "score": 49.0,
+        "score_label": "Basic",
+        "color": "#ea580c",
+        "level_score": 1.71,
+        "variety_score": 13.33,
+        "error_score": 34.0,
         "grammar": {
           "richness_score": 29,
           "level": 0.0427,
-          "level_score": 2.85,
+          "level_score": 1.71,
           "variety": 0.6667,
-          "variety_score": 22.22,
+          "variety_score": 13.33,
           "avg_cefr": "A2",
           "n_assigned": 41,
           "density": 1.0513,
@@ -468,7 +540,19 @@
             "context_end_char": 19
           }
         },
-        "errors": null
+        "errors": {
+          "error_count": 3,
+          "weighted_error_sum": 6,
+          "quality_score": 85,
+          "quality_level": "Good",
+          "error_score": 34.0,
+          "dimension_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 0,
+            "D": 3
+          }
+        }
       },
       {
         "chunk_id": 8,
@@ -478,20 +562,20 @@
         "skipped": false,
         "skip_reason": null,
         "has_grammar": true,
-        "has_errors": false,
-        "partial": true,
-        "score": 27.3,
-        "score_label": "Sparse",
-        "color": "#dc2626",
-        "level_score": 9.52,
-        "variety_score": 17.78,
-        "error_score": null,
+        "has_errors": true,
+        "partial": false,
+        "score": 40.8,
+        "score_label": "Basic",
+        "color": "#ea580c",
+        "level_score": 5.71,
+        "variety_score": 10.67,
+        "error_score": 24.4,
         "grammar": {
           "richness_score": 30,
           "level": 0.1429,
-          "level_score": 9.52,
+          "level_score": 5.71,
           "variety": 0.5333,
-          "variety_score": 17.78,
+          "variety_score": 10.67,
           "avg_cefr": "B1",
           "n_assigned": 70,
           "density": 1.2963,
@@ -534,7 +618,19 @@
             "context_end_char": 25
           }
         },
-        "errors": null
+        "errors": {
+          "error_count": 8,
+          "weighted_error_sum": 17,
+          "quality_score": 61,
+          "quality_level": "Moderate",
+          "error_score": 24.4,
+          "dimension_counts": {
+            "A": 0,
+            "B": 6,
+            "C": 0,
+            "D": 2
+          }
+        }
       },
       {
         "chunk_id": 9,
@@ -544,20 +640,20 @@
         "skipped": false,
         "skip_reason": null,
         "has_grammar": true,
-        "has_errors": false,
-        "partial": true,
-        "score": 34.0,
-        "score_label": "Basic",
-        "color": "#ea580c",
-        "level_score": 13.98,
-        "variety_score": 20.0,
-        "error_score": null,
+        "has_errors": true,
+        "partial": false,
+        "score": 57.6,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "level_score": 8.39,
+        "variety_score": 12.0,
+        "error_score": 37.2,
         "grammar": {
           "richness_score": 37,
           "level": 0.2097,
-          "level_score": 13.98,
+          "level_score": 8.39,
           "variety": 0.6,
-          "variety_score": 20.0,
+          "variety_score": 12.0,
           "avg_cefr": "B1",
           "n_assigned": 31,
           "density": 0.8857,
@@ -601,7 +697,19 @@
             "context_end_char": 36
           }
         },
-        "errors": null
+        "errors": {
+          "error_count": 1,
+          "weighted_error_sum": 2,
+          "quality_score": 93,
+          "quality_level": "Good",
+          "error_score": 37.2,
+          "dimension_counts": {
+            "A": 0,
+            "B": 0,
+            "C": 0,
+            "D": 1
+          }
+        }
       }
     ]
   },

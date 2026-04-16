@@ -1,0 +1,679 @@
+{
+  "student": "Student-1",
+  "lesson": "lesson-2",
+  "generated_at": "2026-04-16T04:27:07.220222+00:00",
+  "grammar": {
+    "has_grammar": true,
+    "has_errors": true,
+    "partial": false,
+    "formula": {
+      "level_weight": 40,
+      "variety_weight": 20,
+      "error_weight": 40,
+      "min_chunk_words": 10
+    },
+    "aggregate": {
+      "score": 39.99,
+      "score_label": "Basic",
+      "color": "#ea580c",
+      "level_score": 4.88,
+      "variety_score": 14.17,
+      "error_score": 20.95,
+      "chunks_total": 8,
+      "chunks_included": 8,
+      "chunks_skipped": 0,
+      "partial": false
+    },
+    "chunks": [
+      {
+        "chunk_id": 1,
+        "label": "Preparing for class and studying languages including Spanish",
+        "word_count": 222,
+        "sentence_count": 37,
+        "skipped": false,
+        "skip_reason": null,
+        "has_grammar": true,
+        "has_errors": true,
+        "partial": false,
+        "score": 43.8,
+        "score_label": "Basic",
+        "color": "#ea580c",
+        "level_score": 7.53,
+        "variety_score": 18.67,
+        "error_score": 17.6,
+        "grammar": {
+          "richness_score": 49,
+          "level": 0.1882,
+          "level_score": 7.53,
+          "variety": 0.9333,
+          "variety_score": 18.67,
+          "avg_cefr": "B1",
+          "n_assigned": 89,
+          "density": 2.4054,
+          "distinct_categories": [
+            "ADJECTIVES",
+            "CLAUSES",
+            "DETERMINERS",
+            "DISCOURSE MARKERS",
+            "FOCUS",
+            "FUTURE",
+            "MODALITY",
+            "NEGATION",
+            "PAST",
+            "PRESENT",
+            "PRONOUNS",
+            "QUESTIONS",
+            "REPORTED SPEECH",
+            "VERBS"
+          ],
+          "dims_present": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "level_distribution": {
+            "A2": 49,
+            "B1": 13,
+            "B2": 27
+          },
+          "top_match": {
+            "sentence_index": 14,
+            "sentence_text": "I was I was listening to about about English after our class, so I wanted to to to to prepare prepare some of it.",
+            "structure_id": "1741163715599x773097571519741400",
+            "category": "VERBS",
+            "guideword": "FORM: 'TO'-INFINITIVE OR '-ING' FORM, MEANING",
+            "lowest_level": "B2",
+            "lowest_level_numeric": 4,
+            "explanation": "Infinitive vs gerund — the same verb changes meaning depending on whether it is followed by 'to' or '-ing' (e.g. 'stop to think' vs 'stop thinking').",
+            "span_text": "to to",
+            "start_token": 18,
+            "end_token": 20,
+            "start_char": 80,
+            "end_char": 85,
+            "context_start_char": 67,
+            "context_end_char": 113
+          }
+        },
+        "errors": {
+          "error_count": 12,
+          "weighted_error_sum": 25,
+          "quality_score": 44,
+          "quality_level": "Weak",
+          "error_score": 17.6,
+          "dimension_counts": {
+            "A": 0,
+            "B": 2,
+            "C": 0,
+            "D": 10
+          }
+        }
+      },
+      {
+        "chunk_id": 2,
+        "label": "Explaining decision to speak spontaneously without preparation",
+        "word_count": 211,
+        "sentence_count": 38,
+        "skipped": false,
+        "skip_reason": null,
+        "has_grammar": true,
+        "has_errors": true,
+        "partial": false,
+        "score": 41.7,
+        "score_label": "Basic",
+        "color": "#ea580c",
+        "level_score": 2.93,
+        "variety_score": 16.0,
+        "error_score": 22.8,
+        "grammar": {
+          "richness_score": 36,
+          "level": 0.0733,
+          "level_score": 2.93,
+          "variety": 0.8,
+          "variety_score": 16.0,
+          "avg_cefr": "A2",
+          "n_assigned": 75,
+          "density": 1.9737,
+          "distinct_categories": [
+            "CLAUSES",
+            "DISCOURSE MARKERS",
+            "FOCUS",
+            "FUTURE",
+            "MODALITY",
+            "NEGATION",
+            "PASSIVES",
+            "PAST",
+            "PRESENT",
+            "PRONOUNS",
+            "REPORTED SPEECH",
+            "VERBS"
+          ],
+          "dims_present": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "level_distribution": {
+            "A2": 61,
+            "B1": 7,
+            "B2": 6,
+            "C1": 1
+          },
+          "top_match": {
+            "sentence_index": 4,
+            "sentence_text": "I think I think it's I think it wouldn't be okay if I I had read, for for example, after after telling you.",
+            "structure_id": "1741163712056x332718835608695200",
+            "category": "PASSIVES",
+            "guideword": "FORM/USE: SUMMARISING, EVALUATING WITH 'IT'.",
+            "lowest_level": "C1",
+            "lowest_level_numeric": 5,
+            "explanation": "Impersonal passive with 'it' — 'it is said/reported/believed that' to describe general opinion or formally attributed information (e.g. 'It is believed that the building dates from 1800').",
+            "span_text": "read",
+            "start_token": 17,
+            "end_token": 18,
+            "start_char": 60,
+            "end_char": 64,
+            "context_start_char": 52,
+            "context_end_char": 102
+          }
+        },
+        "errors": {
+          "error_count": 9,
+          "weighted_error_sum": 18,
+          "quality_score": 57,
+          "quality_level": "Weak",
+          "error_score": 22.8,
+          "dimension_counts": {
+            "A": 0,
+            "B": 3,
+            "C": 0,
+            "D": 6
+          }
+        }
+      },
+      {
+        "chunk_id": 3,
+        "label": "Practicing speaking slowly and describing daily activities",
+        "word_count": 204,
+        "sentence_count": 44,
+        "skipped": false,
+        "skip_reason": null,
+        "has_grammar": true,
+        "has_errors": true,
+        "partial": false,
+        "score": 39.1,
+        "score_label": "Basic",
+        "color": "#ea580c",
+        "level_score": 3.94,
+        "variety_score": 12.0,
+        "error_score": 23.2,
+        "grammar": {
+          "richness_score": 30,
+          "level": 0.0985,
+          "level_score": 3.94,
+          "variety": 0.6,
+          "variety_score": 12.0,
+          "avg_cefr": "A2",
+          "n_assigned": 33,
+          "density": 0.75,
+          "distinct_categories": [
+            "CLAUSES",
+            "DISCOURSE MARKERS",
+            "FOCUS",
+            "FUTURE",
+            "MODALITY",
+            "PASSIVES",
+            "PAST",
+            "PRONOUNS",
+            "VERBS"
+          ],
+          "dims_present": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "level_distribution": {
+            "A2": 23,
+            "B2": 3,
+            "B1": 7
+          },
+          "top_match": {
+            "sentence_index": 12,
+            "sentence_text": "so I should do what what what I've done, but more slowly but about about this topic about this topic, about football, about what what you answered me.",
+            "structure_id": "1741163711291x330489296656484280",
+            "category": "MODALITY",
+            "guideword": "FORM: 'SHOULD BE' + '-ING'",
+            "lowest_level": "B2",
+            "lowest_level_numeric": 4,
+            "explanation": "'Should be' + continuous — describes what is expected to be happening right now (e.g. 'You should be studying').",
+            "span_text": "should",
+            "start_token": 2,
+            "end_token": 3,
+            "start_char": 5,
+            "end_char": 11,
+            "context_start_char": 0,
+            "context_end_char": 40
+          }
+        },
+        "errors": {
+          "error_count": 8,
+          "weighted_error_sum": 17,
+          "quality_score": 58,
+          "quality_level": "Weak",
+          "error_score": 23.2,
+          "dimension_counts": {
+            "A": 0,
+            "B": 2,
+            "C": 0,
+            "D": 6
+          }
+        }
+      },
+      {
+        "chunk_id": 4,
+        "label": "Discussing lunch, healthy eating habits, and daily activities",
+        "word_count": 207,
+        "sentence_count": 34,
+        "skipped": false,
+        "skip_reason": null,
+        "has_grammar": true,
+        "has_errors": true,
+        "partial": false,
+        "score": 43.0,
+        "score_label": "Basic",
+        "color": "#ea580c",
+        "level_score": 6.09,
+        "variety_score": 13.33,
+        "error_score": 23.6,
+        "grammar": {
+          "richness_score": 36,
+          "level": 0.1522,
+          "level_score": 6.09,
+          "variety": 0.6667,
+          "variety_score": 13.33,
+          "avg_cefr": "B1",
+          "n_assigned": 46,
+          "density": 1.3529,
+          "distinct_categories": [
+            "ADVERBS",
+            "CLAUSES",
+            "DISCOURSE MARKERS",
+            "FOCUS",
+            "FUTURE",
+            "NEGATION",
+            "PASSIVES",
+            "PAST",
+            "REPORTED SPEECH",
+            "VERBS"
+          ],
+          "dims_present": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "level_distribution": {
+            "A2": 27,
+            "B2": 5,
+            "C1": 2,
+            "B1": 12
+          },
+          "top_match": {
+            "sentence_index": 9,
+            "sentence_text": "I have to, you know, I have to I have to convince myself because I've never done it.",
+            "structure_id": "1741163712056x332718835608695200",
+            "category": "PASSIVES",
+            "guideword": "FORM/USE: SUMMARISING, EVALUATING WITH 'IT'.",
+            "lowest_level": "C1",
+            "lowest_level_numeric": 5,
+            "explanation": "Impersonal passive with 'it' — 'it is said/reported/believed that' to describe general opinion or formally attributed information (e.g. 'It is believed that the building dates from 1800').",
+            "span_text": "done",
+            "start_token": 19,
+            "end_token": 20,
+            "start_char": 76,
+            "end_char": 80,
+            "context_start_char": 38,
+            "context_end_char": 83
+          }
+        },
+        "errors": {
+          "error_count": 8,
+          "weighted_error_sum": 17,
+          "quality_score": 59,
+          "quality_level": "Weak",
+          "error_score": 23.6,
+          "dimension_counts": {
+            "A": 0,
+            "B": 2,
+            "C": 2,
+            "D": 4
+          }
+        }
+      },
+      {
+        "chunk_id": 5,
+        "label": "Healthy eating habits, preferences, and daily plans",
+        "word_count": 208,
+        "sentence_count": 38,
+        "skipped": false,
+        "skip_reason": null,
+        "has_grammar": true,
+        "has_errors": true,
+        "partial": false,
+        "score": 51.5,
+        "score_label": "Moderate",
+        "color": "#d97706",
+        "level_score": 5.67,
+        "variety_score": 14.67,
+        "error_score": 31.2,
+        "grammar": {
+          "richness_score": 38,
+          "level": 0.1417,
+          "level_score": 5.67,
+          "variety": 0.7333,
+          "variety_score": 14.67,
+          "avg_cefr": "B1",
+          "n_assigned": 60,
+          "density": 1.5789,
+          "distinct_categories": [
+            "CLAUSES",
+            "DETERMINERS",
+            "DISCOURSE MARKERS",
+            "FOCUS",
+            "FUTURE",
+            "MODALITY",
+            "NEGATION",
+            "PASSIVES",
+            "PAST",
+            "PRONOUNS",
+            "VERBS"
+          ],
+          "dims_present": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "level_distribution": {
+            "A2": 33,
+            "B1": 20,
+            "B2": 7
+          },
+          "top_match": {
+            "sentence_index": 15,
+            "sentence_text": "Because I didn't understand because I I didn't have the good.",
+            "structure_id": "1741163712333x181896863266680420",
+            "category": "PAST",
+            "guideword": "FORM/USE: AFTER 'BECAUSE', EXPLANATIONS ",
+            "lowest_level": "B2",
+            "lowest_level_numeric": 4,
+            "explanation": "Past tense in 'because' clauses — past verb in a reason clause explaining why something happened (e.g. 'She left because she was tired').",
+            "span_text": "did",
+            "start_token": 2,
+            "end_token": 3,
+            "start_char": 10,
+            "end_char": 13,
+            "context_start_char": 0,
+            "context_end_char": 51
+          }
+        },
+        "errors": {
+          "error_count": 4,
+          "weighted_error_sum": 9,
+          "quality_score": 78,
+          "quality_level": "Moderate",
+          "error_score": 31.2,
+          "dimension_counts": {
+            "A": 0,
+            "B": 2,
+            "C": 0,
+            "D": 2
+          }
+        }
+      },
+      {
+        "chunk_id": 6,
+        "label": "Daily plans, preferences, and asking teacher questions",
+        "word_count": 202,
+        "sentence_count": 69,
+        "skipped": false,
+        "skip_reason": null,
+        "has_grammar": true,
+        "has_errors": true,
+        "partial": false,
+        "score": 23.7,
+        "score_label": "Sparse",
+        "color": "#dc2626",
+        "level_score": 2.0,
+        "variety_score": 13.33,
+        "error_score": 8.4,
+        "grammar": {
+          "richness_score": 30,
+          "level": 0.05,
+          "level_score": 2.0,
+          "variety": 0.6667,
+          "variety_score": 13.33,
+          "avg_cefr": "A2",
+          "n_assigned": 55,
+          "density": 0.7971,
+          "distinct_categories": [
+            "CLAUSES",
+            "DETERMINERS",
+            "DISCOURSE MARKERS",
+            "FUTURE",
+            "MODALITY",
+            "NEGATION",
+            "PAST",
+            "PRONOUNS",
+            "QUESTIONS",
+            "VERBS"
+          ],
+          "dims_present": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "level_distribution": {
+            "A2": 45,
+            "B1": 9,
+            "B2": 1
+          },
+          "top_match": {
+            "sentence_index": 14,
+            "sentence_text": "Do you know what do you know about languages?",
+            "structure_id": "1741163715275x932225330988349400",
+            "category": "VERBS",
+            "guideword": "FORM: PREPOSITIONAL VERB, STRANDED PREPOSITION",
+            "lowest_level": "B2",
+            "lowest_level_numeric": 4,
+            "explanation": "Stranded preposition — prepositional verb where the preposition is separated from its object, often at end of clause (e.g. 'the problem I was talking about').",
+            "span_text": "know about",
+            "start_token": 6,
+            "end_token": 8,
+            "start_char": 24,
+            "end_char": 34,
+            "context_start_char": 0,
+            "context_end_char": 45
+          }
+        },
+        "errors": {
+          "error_count": 15,
+          "weighted_error_sum": 32,
+          "quality_score": 21,
+          "quality_level": "Poor",
+          "error_score": 8.4,
+          "dimension_counts": {
+            "A": 0,
+            "B": 11,
+            "C": 3,
+            "D": 1
+          }
+        }
+      },
+      {
+        "chunk_id": 9,
+        "label": "Reflecting on class, learning progress, and future goals",
+        "word_count": 231,
+        "sentence_count": 38,
+        "skipped": false,
+        "skip_reason": null,
+        "has_grammar": true,
+        "has_errors": true,
+        "partial": false,
+        "score": 37.4,
+        "score_label": "Basic",
+        "color": "#ea580c",
+        "level_score": 5.65,
+        "variety_score": 13.33,
+        "error_score": 18.4,
+        "grammar": {
+          "richness_score": 35,
+          "level": 0.1412,
+          "level_score": 5.65,
+          "variety": 0.6667,
+          "variety_score": 13.33,
+          "avg_cefr": "B1",
+          "n_assigned": 85,
+          "density": 2.2368,
+          "distinct_categories": [
+            "CLAUSES",
+            "DISCOURSE MARKERS",
+            "FOCUS",
+            "FUTURE",
+            "MODALITY",
+            "PASSIVES",
+            "PAST",
+            "PRESENT",
+            "PRONOUNS",
+            "VERBS"
+          ],
+          "dims_present": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "level_distribution": {
+            "A2": 62,
+            "C1": 9,
+            "B2": 7,
+            "B1": 7
+          },
+          "top_match": {
+            "sentence_index": 4,
+            "sentence_text": "So I think I've learned about breakfast about breakfast, about what what I ate, what I could could tell you, and I like it because I think it's important to to keep speaking, to keep to keep having vocabulary a vocab the the new vocabulary.",
+            "structure_id": "1741163712056x332718835608695200",
+            "category": "PASSIVES",
+            "guideword": "FORM/USE: SUMMARISING, EVALUATING WITH 'IT'.",
+            "lowest_level": "C1",
+            "lowest_level_numeric": 5,
+            "explanation": "Impersonal passive with 'it' — 'it is said/reported/believed that' to describe general opinion or formally attributed information (e.g. 'It is believed that the building dates from 1800').",
+            "span_text": "learned",
+            "start_token": 5,
+            "end_token": 6,
+            "start_char": 16,
+            "end_char": 23,
+            "context_start_char": 5,
+            "context_end_char": 72
+          }
+        },
+        "errors": {
+          "error_count": 11,
+          "weighted_error_sum": 25,
+          "quality_score": 46,
+          "quality_level": "Weak",
+          "error_score": 18.4,
+          "dimension_counts": {
+            "A": 0,
+            "B": 6,
+            "C": 0,
+            "D": 5
+          }
+        }
+      },
+      {
+        "chunk_id": 10,
+        "label": "Reflecting on learning goals and closing the class",
+        "word_count": 203,
+        "sentence_count": 59,
+        "skipped": false,
+        "skip_reason": null,
+        "has_grammar": true,
+        "has_errors": true,
+        "partial": false,
+        "score": 39.7,
+        "score_label": "Basic",
+        "color": "#ea580c",
+        "level_score": 5.26,
+        "variety_score": 12.0,
+        "error_score": 22.4,
+        "grammar": {
+          "richness_score": 32,
+          "level": 0.1316,
+          "level_score": 5.26,
+          "variety": 0.6,
+          "variety_score": 12.0,
+          "avg_cefr": "B1",
+          "n_assigned": 57,
+          "density": 0.9661,
+          "distinct_categories": [
+            "CLAUSES",
+            "DISCOURSE MARKERS",
+            "FOCUS",
+            "FUTURE",
+            "MODALITY",
+            "NEGATION",
+            "PASSIVES",
+            "PAST",
+            "VERBS"
+          ],
+          "dims_present": [
+            "A",
+            "B",
+            "D"
+          ],
+          "level_distribution": {
+            "A2": 35,
+            "B2": 6,
+            "B1": 15,
+            "C1": 1
+          },
+          "top_match": {
+            "sentence_index": 15,
+            "sentence_text": "It's changed.",
+            "structure_id": "1741163712056x332718835608695200",
+            "category": "PASSIVES",
+            "guideword": "FORM/USE: SUMMARISING, EVALUATING WITH 'IT'.",
+            "lowest_level": "C1",
+            "lowest_level_numeric": 5,
+            "explanation": "Impersonal passive with 'it' — 'it is said/reported/believed that' to describe general opinion or formally attributed information (e.g. 'It is believed that the building dates from 1800').",
+            "span_text": "changed",
+            "start_token": 2,
+            "end_token": 3,
+            "start_char": 5,
+            "end_char": 12,
+            "context_start_char": 0,
+            "context_end_char": 13
+          }
+        },
+        "errors": {
+          "error_count": 8,
+          "weighted_error_sum": 18,
+          "quality_score": 56,
+          "quality_level": "Weak",
+          "error_score": 22.4,
+          "dimension_counts": {
+            "A": 0,
+            "B": 8,
+            "C": 0,
+            "D": 0
+          }
+        }
+      }
+    ]
+  },
+  "fluency": null
+}

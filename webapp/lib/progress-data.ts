@@ -17,7 +17,7 @@ export interface LessonVocabProgress {
 export type VocabProgress = Record<string, LessonVocabProgress[]>;
 
 export function loadVocabProgress(): VocabProgress {
-  const progressDir = path.join(process.cwd(), "..", "progress");
+  const progressDir = path.join(process.cwd(), "..", "src", "vocabulary", "progress");
   const files = fs.readdirSync(progressDir).filter(f => f.endsWith("_progress.json"));
 
   const result: VocabProgress = {};

@@ -200,7 +200,7 @@ export async function GET(
 
   // Read all required JSON files
   const contextual = readJSON<ContextualOutput>(
-    path.join(projectRoot, "output", `${studentId}_${lessonKey}_contextual.json`)
+    path.join(projectRoot, "src", "vocabulary", "output", `${studentId}_${lessonKey}_contextual.json`)
   );
   if (!contextual) {
     return NextResponse.json(
@@ -210,7 +210,7 @@ export async function GET(
   }
 
   const progress = readJSON<ProgressData>(
-    path.join(projectRoot, "progress", `${studentId}_${lessonKey}_progress.json`)
+    path.join(projectRoot, "src", "vocabulary", "progress", `${studentId}_${lessonKey}_progress.json`)
   );
   if (!progress) {
     return NextResponse.json(
@@ -220,7 +220,7 @@ export async function GET(
   }
 
   const history = readJSON<HistoryData>(
-    path.join(projectRoot, "progress", `${studentId}_history.json`)
+    path.join(projectRoot, "src", "vocabulary", "progress", `${studentId}_history.json`)
   );
 
   // Student level from progress

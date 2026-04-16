@@ -42,6 +42,7 @@ from pathlib import Path
 # ── Paths ─────────────────────────────────────────────────────────────────────
 ROOT = Path(__file__).parent.parent.parent
 PROC = ROOT / "data" / "processed"
+PREP = ROOT / "data" / "preprocessed"
 
 # ── Constants ─────────────────────────────────────────────────────────────────
 LEVEL_MAX         = 40
@@ -72,6 +73,30 @@ def _mean(vals: list) -> float | None:
     return round(sum(clean) / len(clean), 2) if clean else None
 
 
+# ── Conversation filter ────────────────────────────────────────────────────────
+
+def _conversation_ranges(student: str, lesson: str) -> list[tuple[int, int]] | None:
+    """Returns [(word_start, word_end), ...] for conversation=True paragraphs.
+    Returns None if sentences.json not found (no filtering applied)."""
+    path = PREP / student / lesson / "sentences.json"
+    if not path.exists():
+        return None
+    data = json.loads(path.read_text("utf-8"))
+    ranges: list[tuple[int, int]] = []
+    cum = 0
+    for para in data["paragraphs"]:
+        wc = sum(len(s["text"].split()) for s in para["sentences"])
+        start, end = cum + 1, cum + wc
+        if para.get("conversation_boolean", True):
+            ranges.append((start, end))
+        cum += wc
+    return ranges
+
+
+def _in_conversation(word_start: int, conv_ranges: list[tuple[int, int]]) -> bool:
+    return any(ws <= word_start <= we for ws, we in conv_ranges)
+
+
 # ── Grammar score per chunk (same formula as build_lesson_metrics) ────────────
 
 def _grammar_chunk_score(richness: dict | None, error_para: dict | None) -> tuple[float | None, bool]:
@@ -98,22 +123,24 @@ def _grammar_chunk_score(richness: dict | None, error_para: dict | None) -> tupl
 
 def _assign_sentences_to_chunks(
     fluency_sentences: list[dict],
-    chunk_ranges: list[tuple[int, int, int]],  # (pid, word_start, word_end)
+    chunk_ranges: list[tuple[int, int, int]],       # (pid, word_start, word_end)
+    conv_ranges: list[tuple[int, int]] | None,      # conversation-only word ranges
 ) -> dict[int, list[dict]]:
-    """Assigns each fluency sentence to a chunk using cumulative word position."""
+    """Assigns each fluency sentence to a grammar chunk using cumulative word position.
+    Sentences outside conversation paragraphs are silently dropped."""
     chunk_sentences: dict[int, list[dict]] = {pid: [] for pid, _, _ in chunk_ranges}
     cum = 0
     for s in fluency_sentences:
         start_word = cum + 1
         cum += s["word_count"]
-        assigned = None
+        # Drop non-conversation sentences
+        if conv_ranges is not None and not _in_conversation(start_word, conv_ranges):
+            continue
         for pid, ws, we in chunk_ranges:
             if ws <= start_word <= we:
-                assigned = pid
+                chunk_sentences[pid].append(s)
                 break
-        if assigned is None:
-            assigned = chunk_ranges[-1][0]   # trailing words → last chunk
-        chunk_sentences[assigned].append(s)
+        # No fallback to last chunk — unmatched conversation sentences are dropped
     return chunk_sentences
 
 
@@ -147,28 +174,38 @@ def process_lesson(student: str, lesson: str) -> Path | None:
 
     print(f"  {student}/{lesson}  errors={has_errors}  fluency={has_fluency}")
 
+    # Conversation filter (excludes teacher/non-learner paragraphs)
+    conv_ranges = _conversation_ranges(student, lesson)
+
     # Index error paragraphs
     error_paras: dict[int, dict] = {}
     if errors_data:
         for p in errors_data["paragraphs"]:
             error_paras[p["paragraph_id"]] = p
 
-    # Chunk ranges for fluency alignment
+    # Chunk ranges for fluency alignment (grammar already has only conversation chunks)
     chunk_ranges = [
         (p["paragraph_id"], p["word_start_id"], p["word_end_id"])
         for p in grammar_data["paragraphs"]
     ]
 
-    # Map fluency sentences to chunks
+    # Map fluency sentences to chunks (non-conversation dropped)
     chunk_fluency_sents: dict[int, list[dict]] = {}
     lesson_fluency_score: float | None = None
     if fluency_data:
         chunk_fluency_sents = _assign_sentences_to_chunks(
-            fluency_data["sentences"], chunk_ranges
+            fluency_data["sentences"], chunk_ranges, conv_ranges
         )
-        # Lesson-level fallback (for chunks with too few sentences)
-        all_valid = [s for s in fluency_data["sentences"]
-                     if s["word_count"] >= FLUENCY_MIN_WORDS and s["fluency"]["score"] is not None]
+        # Lesson-level fallback: only conversation sentences
+        all_valid = []
+        cum = 0
+        for s in fluency_data["sentences"]:
+            start_word = cum + 1
+            cum += s["word_count"]
+            if (conv_ranges is None or _in_conversation(start_word, conv_ranges)) \
+               and s["word_count"] >= FLUENCY_MIN_WORDS \
+               and s["fluency"]["score"] is not None:
+                all_valid.append(s)
         lesson_fluency_score = _mean([s["fluency"]["score"] for s in all_valid])
 
     # ── Build per-chunk records ────────────────────────────────────────────────

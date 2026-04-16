@@ -1,7 +1,7 @@
 {
   "student": "Student-1",
   "lesson": "lesson-1",
-  "generated_at": "2026-04-16T04:29:54.432142+00:00",
+  "generated_at": "2026-04-16T04:48:42.595409+00:00",
   "note": "overall_score = grammar_score × (fluency_score / 100). Future: grammar_score will be mean(grammar, vocab).",
   "formula": {
     "content_score": "grammar_score (future: mean of grammar + vocab)",

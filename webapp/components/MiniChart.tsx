@@ -62,12 +62,8 @@ export default function MiniChart({ title, data, color }: MiniChartProps) {
   }
 
   // % change label rendered above each bar (skipped for the first bar)
-  function PctLabel(props: {
-    x?: number;
-    y?: number;
-    width?: number;
-    value?: number | null;
-  }) {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  function PctLabel(props: any) {
     const { x = 0, y = 0, width = 0, value } = props;
     if (value === null || value === undefined) return <g />;
     const isPos = value > 0;
@@ -111,7 +107,8 @@ export default function MiniChart({ title, data, color }: MiniChartProps) {
                 boxShadow: "0 6px 24px rgba(28,27,26,0.06)",
                 fontSize: 12,
               }}
-              formatter={(value: number) => [value.toFixed(1), title]}
+              // eslint-disable-next-line @typescript-eslint/no-explicit-any
+              formatter={(value: any) => [typeof value === "number" ? value.toFixed(1) : value, title]}
               cursor={false}
             />
             <Bar

@@ -37,19 +37,18 @@ function highlightSpan(sentence: string, spanText: string): React.ReactNode {
   const idx = sentence.toLowerCase().indexOf(spanText.toLowerCase());
   if (idx === -1) {
     const clipped = sentence.length > 90 ? sentence.slice(0, 90) + "…" : sentence;
-    return <em style={{ color: "#555", fontSize: "12px" }}>{clipped}</em>;
+    return <em style={{ color: "var(--on-surface-variant)", fontSize: "12px" }}>{clipped}</em>;
   }
   const pre = sentence.slice(0, idx);
   const mid = sentence.slice(idx, idx + spanText.length);
   const post = sentence.slice(idx + spanText.length);
-  const clipped = (pre + "·" + mid + "·" + post).length > 120;
   return (
-    <em style={{ color: "#555", fontSize: "12px" }}>
-      {clipped ? "…" : ""}{pre}
-      <strong style={{ color: "#1a237e", textDecoration: "underline dotted", textUnderlineOffset: "2px" }}>
+    <em style={{ color: "var(--on-surface-variant)", fontSize: "12px" }}>
+      {pre.length > 40 ? "…" + pre.slice(-25) : pre}
+      <strong style={{ color: "var(--on-surface)", textDecoration: "underline dotted", textUnderlineOffset: "2px" }}>
         {mid}
       </strong>
-      {post.length > 60 ? post.slice(0, 57) + "…" : post}
+      {post.length > 55 ? post.slice(0, 52) + "…" : post}
     </em>
   );
 }
@@ -61,7 +60,7 @@ function highlightError(sentence: string, offset: number, length: number, weight
   const bg = SEV_BG[weight] ?? "#FFF";
   const border = SEV_BORDER[weight] ?? "#ccc";
   return (
-    <em style={{ color: "#444", fontSize: "12px" }}>
+    <em style={{ color: "var(--on-surface-variant)", fontSize: "12px" }}>
       {pre.length > 50 ? "…" + pre.slice(-30) : pre}
       <span style={{ background: bg, borderBottom: `2px solid ${border}`, borderRadius: "2px", padding: "0 2px" }}>
         {mid}
@@ -71,33 +70,22 @@ function highlightError(sentence: string, offset: number, length: number, weight
   );
 }
 
-// ── Structure row ──────────────────────────────────────────────────────────────
+// ── Structure row (only rendered when item is present) ─────────────────────────
 
 interface StructRowProps {
-  item: GrammarStructureItem | null;
+  item: GrammarStructureItem;
   isHovered: boolean;
   onEnter: () => void;
   onLeave: () => void;
 }
 
 function StructRow({ item, isHovered, onEnter, onLeave }: StructRowProps) {
-  if (!item) {
-    return (
-      <div
-        className="py-2 px-3 rounded-lg mb-1.5"
-        style={{ border: "1px dashed rgba(0,0,0,0.12)", opacity: 0.35 }}
-      >
-        <span style={{ fontSize: "11px", color: "#9CA3AF", fontStyle: "italic" }}>— not detected —</span>
-      </div>
-    );
-  }
-
   return (
     <div
-      className="py-2 px-3 rounded-lg mb-1.5 cursor-default transition-all"
+      className="py-2.5 px-3 rounded-xl mb-1.5 cursor-default transition-all"
       style={{
-        background: isHovered ? "#FFF9C4" : "transparent",
-        border: isHovered ? "1px solid #F9A825" : "1px solid transparent",
+        background: isHovered ? "rgba(var(--primary-rgb, 99,91,255), 0.07)" : "var(--surface-lowest)",
+        border: isHovered ? "1px solid rgba(var(--primary-rgb, 99,91,255), 0.25)" : "1px solid rgba(0,0,0,0.06)",
       }}
       onMouseEnter={onEnter}
       onMouseLeave={onLeave}
@@ -112,12 +100,12 @@ function StructRow({ item, isHovered, onEnter, onLeave }: StructRowProps) {
         </span>
         <span
           className="shrink-0 px-1.5 py-0.5 rounded text-[10px]"
-          style={{ background: "#ECEFF1", color: "#37474F" }}
+          style={{ background: "rgba(0,0,0,0.06)", color: "var(--on-surface-variant)" }}
         >
           {item.category}
         </span>
         <span
-          className="text-[12px] text-on-surface flex-1 min-w-0 font-medium truncate"
+          className="text-[12px] text-on-surface flex-1 min-w-0 font-medium truncate font-[family-name:var(--font-body)]"
           title={item.guideword}
         >
           {item.guideword}
@@ -130,7 +118,7 @@ function StructRow({ item, isHovered, onEnter, onLeave }: StructRowProps) {
         </span>
       </div>
       {/* Example sentence */}
-      <div className="pl-0.5">
+      <div className="pl-0.5 font-[family-name:var(--font-body)]">
         {highlightSpan(item.exampleSentence, item.exampleSpan)}
       </div>
     </div>
@@ -147,22 +135,20 @@ function ErrorCard({ item, isShared }: { item: GrammarErrorItem; isShared: boole
 
   return (
     <div
-      className="rounded-xl p-3 mb-2.5"
+      className="rounded-xl p-3 mb-2"
       style={{ background: bg, border: `1px solid ${border}` }}
     >
       {/* Header row */}
       <div className="flex items-center gap-1.5 mb-1.5 flex-wrap">
         <span
-          className="shrink-0 px-1.5 py-0.5 rounded text-[10px] font-bold text-white"
+          className="shrink-0 w-2 h-2 rounded-full"
           style={{ background: dimColor }}
-        >
-          {item.dimensionCode}
-        </span>
-        <span className="text-[12px] font-semibold flex-1 min-w-0" style={{ color: "#263238" }}>
+        />
+        <span className="text-[12px] font-semibold flex-1 min-w-0 font-[family-name:var(--font-body)]" style={{ color: "var(--on-surface)" }}>
           {item.grammarCategory}
         </span>
         {isShared && (
-          <span className="shrink-0 px-1.5 py-0.5 rounded text-[10px] font-bold text-white" style={{ background: "#F97316" }}>
+          <span className="shrink-0 px-1.5 py-0.5 rounded text-[10px] font-bold text-white" style={{ background: "var(--primary)" }}>
             shared
           </span>
         )}
@@ -172,27 +158,35 @@ function ErrorCard({ item, isShared }: { item: GrammarErrorItem; isShared: boole
         >
           {SEV_LABEL[item.weight] ?? ""}
         </span>
-        <span className="shrink-0 text-[11px] font-bold" style={{ color: text }}>
+        <span className="shrink-0 text-[11px] font-bold font-[family-name:var(--font-display)]" style={{ color: text }}>
           {item.count}×
         </span>
       </div>
       {/* Example */}
-      <div className="mb-1">
+      <div className="mb-1 font-[family-name:var(--font-body)]">
         {highlightError(item.exampleSentence, item.exampleOffset, item.exampleLength, item.weight)}
       </div>
       {/* Message */}
-      <div style={{ fontSize: "11px", color: "#78909C" }}>{item.exampleMessage}</div>
+      <div className="font-[family-name:var(--font-body)]" style={{ fontSize: "11px", color: "var(--on-surface-variant)" }}>
+        {item.exampleMessage}
+      </div>
     </div>
   );
 }
 
 // ── Stats pills ────────────────────────────────────────────────────────────────
 
-function StatsPills({ stats, richnessColor }: { stats: GrammarCompareSummary["stats"]; richnessColor: string }) {
+function StatsPills({ stats }: { stats: GrammarCompareSummary["stats"] }) {
+  const richnessColor =
+    stats.avgRichnessScore >= 70 ? "#15803d"
+    : stats.avgRichnessScore >= 50 ? "#d97706"
+    : stats.avgRichnessScore >= 30 ? "#ea580c"
+    : "#dc2626";
+
   const pills = [
-    { label: "sentences", value: stats.sentenceCount, color: "#37474F" },
-    { label: "structures", value: stats.structureCount, color: "#1565C0" },
-    { label: "error types", value: stats.errorTypeCount, color: "#C62828" },
+    { label: "sentences", value: stats.sentenceCount },
+    { label: "structures", value: stats.structureCount },
+    { label: "error types", value: stats.errorTypeCount },
     { label: "richness", value: stats.avgRichnessScore, color: richnessColor },
   ];
   return (
@@ -200,11 +194,11 @@ function StatsPills({ stats, richnessColor }: { stats: GrammarCompareSummary["st
       {pills.map((p) => (
         <span
           key={p.label}
-          className="px-2.5 py-1 rounded-lg text-[12px]"
+          className="px-2.5 py-1 rounded-lg text-[11px] font-[family-name:var(--font-body)]"
           style={{ background: "rgba(0,0,0,0.05)" }}
         >
-          <strong style={{ color: p.color }}>{p.value}</strong>{" "}
-          <span style={{ color: "#607D8B" }}>{p.label}</span>
+          <strong style={{ color: p.color ?? "var(--on-surface)" }}>{p.value}</strong>{" "}
+          <span style={{ color: "var(--on-surface-variant)" }}>{p.label}</span>
         </span>
       ))}
     </div>
@@ -297,7 +291,7 @@ export default function GrammarComparePane({ studentId, leftId, rightId, leftNam
     );
   }
 
-  // Build union of structure IDs ordered as: shared (level desc) → left-only → right-only
+  // Only show structures detected in BOTH lessons (shared)
   const leftMap = new Map((left.data?.structures ?? []).map((s) => [s.structureId, s]));
   const rightMap = new Map((right.data?.structures ?? []).map((s) => [s.structureId, s]));
 
@@ -307,31 +301,12 @@ export default function GrammarComparePane({ studentId, leftId, rightId, leftNam
       const la = leftMap.get(a)!;
       const lb = leftMap.get(b)!;
       return lb.lowestLevelNumeric - la.lowestLevelNumeric || lb.count - la.count;
-    });
-  const leftOnly = [...leftMap.keys()]
-    .filter((sid) => !rightMap.has(sid))
-    .sort((a, b) => leftMap.get(b)!.lowestLevelNumeric - leftMap.get(a)!.lowestLevelNumeric);
-  const rightOnly = [...rightMap.keys()]
-    .filter((sid) => !leftMap.has(sid))
-    .sort((a, b) => rightMap.get(b)!.lowestLevelNumeric - rightMap.get(a)!.lowestLevelNumeric);
-
-  // Interleave for the union row list:
-  // Each entry in union has a sid; left column shows leftMap.get(sid) or null; right shows rightMap.get(sid) or null
-  const maxExtra = Math.max(leftOnly.length, rightOnly.length);
-  const extraRows: string[] = [];
-  for (let i = 0; i < maxExtra; i++) {
-    if (i < leftOnly.length) extraRows.push(leftOnly[i]);
-    if (i < rightOnly.length) extraRows.push(rightOnly[i]);
-  }
-  const union = [...shared, ...extraRows].slice(0, 18);
+    })
+    .slice(0, 12);
 
   // Error shared categories
   const leftErrCats = new Set((left.data?.errors ?? []).map((e) => e.grammarCategory));
   const rightErrCats = new Set((right.data?.errors ?? []).map((e) => e.grammarCategory));
-
-  // Richness colors (fallback)
-  const leftRichnessColor = left.error ? "#6B7280" : (left.data ? (left.data.stats.avgRichnessScore >= 70 ? "#15803d" : left.data.stats.avgRichnessScore >= 50 ? "#d97706" : left.data.stats.avgRichnessScore >= 30 ? "#ea580c" : "#dc2626") : "#6B7280");
-  const rightRichnessColor = right.error ? "#6B7280" : (right.data ? (right.data.stats.avgRichnessScore >= 70 ? "#15803d" : right.data.stats.avgRichnessScore >= 50 ? "#d97706" : right.data.stats.avgRichnessScore >= 30 ? "#ea580c" : "#dc2626") : "#6B7280");
 
   return (
     <motion.div
@@ -343,103 +318,89 @@ export default function GrammarComparePane({ studentId, leftId, rightId, leftNam
     >
       {/* ── Top structures ── */}
       <div>
-        <div className="grid grid-cols-2 gap-6">
-          {/* Column headers */}
-          <div>
-            <div
-              className="rounded-t-xl px-4 py-2.5 font-[family-name:var(--font-display)] font-bold text-white text-sm"
-              style={{ background: "#1565C0" }}
-            >
-              {leftName}
-            </div>
-            {left.data && (
-              <div className="pt-2 pb-1">
-                <StatsPills stats={left.data.stats} richnessColor={leftRichnessColor} />
-              </div>
-            )}
-          </div>
-          <div>
-            <div
-              className="rounded-t-xl px-4 py-2.5 font-[family-name:var(--font-display)] font-bold text-white text-sm"
-              style={{ background: "#2E7D32" }}
-            >
-              {rightName}
-            </div>
-            {right.data && (
-              <div className="pt-2 pb-1">
-                <StatsPills stats={right.data.stats} richnessColor={rightRichnessColor} />
-              </div>
-            )}
-          </div>
-        </div>
-
-        <div className="flex items-center gap-2 mb-2">
+        <div className="flex items-center gap-2 mb-3">
           <span className="text-[11px] font-semibold uppercase tracking-widest text-on-surface-variant font-[family-name:var(--font-body)]">
-            Top grammar structures
+            Shared grammar structures
           </span>
           <span className="text-[11px] text-on-surface-variant font-[family-name:var(--font-body)]">
-            — {shared.length} shared · {leftOnly.length} only in {leftName} · {rightOnly.length} only in {rightName}
+            — {shared.length} in common
           </span>
         </div>
 
         <div className="grid grid-cols-2 gap-6">
-          {/* Left structures list */}
-          <div
-            ref={leftScrollRef}
-            className="overflow-y-auto rounded-b-xl"
-            style={{
-              maxHeight: "420px",
-              border: "1px solid rgba(0,0,0,0.08)",
-              borderTop: "none",
-              padding: "10px",
-              background: "var(--surface-lowest)",
-            }}
-          >
-            {union.length === 0 && (
-              <p className="text-xs text-on-surface-variant italic p-2">No structures detected.</p>
-            )}
-            {union.map((sid) => (
-              <StructRow
-                key={sid}
-                item={leftMap.get(sid) ?? null}
-                isHovered={hoveredSid === sid}
-                onEnter={() => setHoveredSid(sid)}
-                onLeave={() => setHoveredSid(null)}
-              />
-            ))}
+          {/* Left column */}
+          <div className="flex flex-col gap-1">
+            <div className="flex items-center gap-2 mb-1">
+              <span className="text-xs font-semibold text-on-surface-variant font-[family-name:var(--font-body)] uppercase tracking-widest">
+                {leftName}
+              </span>
+            </div>
+            {left.data && <StatsPills stats={left.data.stats} />}
+            <div
+              ref={leftScrollRef}
+              className="overflow-y-auto rounded-xl"
+              style={{
+                maxHeight: "380px",
+                border: "1px solid rgba(0,0,0,0.07)",
+                padding: "8px",
+                background: "var(--surface-lowest)",
+              }}
+            >
+              {shared.length === 0 ? (
+                <p className="text-xs text-on-surface-variant italic p-2 font-[family-name:var(--font-body)]">No shared structures.</p>
+              ) : (
+                shared.map((sid) => (
+                  <StructRow
+                    key={sid}
+                    item={leftMap.get(sid)!}
+                    isHovered={hoveredSid === sid}
+                    onEnter={() => setHoveredSid(sid)}
+                    onLeave={() => setHoveredSid(null)}
+                  />
+                ))
+              )}
+            </div>
           </div>
 
-          {/* Right structures list */}
-          <div
-            ref={rightScrollRef}
-            className="overflow-y-auto rounded-b-xl"
-            style={{
-              maxHeight: "420px",
-              border: "1px solid rgba(0,0,0,0.08)",
-              borderTop: "none",
-              padding: "10px",
-              background: "var(--surface-lowest)",
-            }}
-          >
-            {union.length === 0 && (
-              <p className="text-xs text-on-surface-variant italic p-2">No structures detected.</p>
-            )}
-            {union.map((sid) => (
-              <StructRow
-                key={sid}
-                item={rightMap.get(sid) ?? null}
-                isHovered={hoveredSid === sid}
-                onEnter={() => setHoveredSid(sid)}
-                onLeave={() => setHoveredSid(null)}
-              />
-            ))}
+          {/* Right column */}
+          <div className="flex flex-col gap-1">
+            <div className="flex items-center gap-2 mb-1">
+              <span className="text-xs font-semibold text-on-surface-variant font-[family-name:var(--font-body)] uppercase tracking-widest">
+                {rightName}
+              </span>
+            </div>
+            {right.data && <StatsPills stats={right.data.stats} />}
+            <div
+              ref={rightScrollRef}
+              className="overflow-y-auto rounded-xl"
+              style={{
+                maxHeight: "380px",
+                border: "1px solid rgba(0,0,0,0.07)",
+                padding: "8px",
+                background: "var(--surface-lowest)",
+              }}
+            >
+              {shared.length === 0 ? (
+                <p className="text-xs text-on-surface-variant italic p-2 font-[family-name:var(--font-body)]">No shared structures.</p>
+              ) : (
+                shared.map((sid) => (
+                  <StructRow
+                    key={sid}
+                    item={rightMap.get(sid)!}
+                    isHovered={hoveredSid === sid}
+                    onEnter={() => setHoveredSid(sid)}
+                    onLeave={() => setHoveredSid(null)}
+                  />
+                ))
+              )}
+            </div>
           </div>
         </div>
       </div>
 
       {/* ── Recurring errors ── */}
       <div>
-        <div className="flex items-center gap-2 mb-2">
+        <div className="flex items-center gap-2 mb-3">
           <span className="text-[11px] font-semibold uppercase tracking-widest text-on-surface-variant font-[family-name:var(--font-body)]">
             Most recurring errors
           </span>
@@ -448,7 +409,7 @@ export default function GrammarComparePane({ studentId, leftId, rightId, leftNam
           <div>
             {(left.data?.errors ?? []).length === 0 ? (
               <div className="rounded-xl bg-surface-lowest p-6 text-center">
-                <p className="text-xs text-on-surface-variant italic">No errors detected.</p>
+                <p className="text-xs text-on-surface-variant italic font-[family-name:var(--font-body)]">No errors detected.</p>
               </div>
             ) : (
               (left.data?.errors ?? []).map((e) => (
@@ -459,7 +420,7 @@ export default function GrammarComparePane({ studentId, leftId, rightId, leftNam
           <div>
             {(right.data?.errors ?? []).length === 0 ? (
               <div className="rounded-xl bg-surface-lowest p-6 text-center">
-                <p className="text-xs text-on-surface-variant italic">No errors detected.</p>
+                <p className="text-xs text-on-surface-variant italic font-[family-name:var(--font-body)]">No errors detected.</p>
               </div>
             ) : (
               (right.data?.errors ?? []).map((e) => (

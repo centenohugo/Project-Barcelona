@@ -3,7 +3,7 @@
 import { useState } from "react";
 import type { ReactNode } from "react";
 import { motion } from "framer-motion";
-import type { GrammarParagraph } from "@/lib/types";
+import type { GrammarParagraph, GrammarError } from "@/lib/types";
 
 // ── CEFR level colours (for richness mode) ─────────────────────────────────────
 
@@ -330,7 +330,15 @@ function RichnessPanel({ r, e }: { r: GrammarParagraph["richness"]; e: GrammarPa
 
 // ── Right panel — error quality ────────────────────────────────────────────────
 
-function ErrorPanel({ e }: { e: GrammarParagraph["errorStats"] }) {
+function ErrorPanel({ e, errors }: { e: GrammarParagraph["errorStats"]; errors: GrammarError[] }) {
+  // Group grammar categories by dimension
+  const catsByDim: Record<string, Record<string, number>> = {};
+  for (const err of errors) {
+    const dim = err.dimensionCode;
+    if (!catsByDim[dim]) catsByDim[dim] = {};
+    catsByDim[dim][err.grammarCategory] = (catsByDim[dim][err.grammarCategory] ?? 0) + 1;
+  }
+
   const dimEntries = Object.entries(e.dimensionCounts)
     .filter(([, c]) => c > 0)
     .sort(([a], [b]) => a.localeCompare(b));
@@ -361,40 +369,42 @@ function ErrorPanel({ e }: { e: GrammarParagraph["errorStats"] }) {
         </div>
       </div>
 
-      {/* Per-dimension error bars */}
+      {/* Per-dimension category breakdown */}
       {dimEntries.length > 0 && (
-        <div className="flex flex-col gap-2">
+        <div className="flex flex-col gap-2.5">
           <span className="text-[10px] font-semibold uppercase tracking-[0.08em] text-on-surface-variant font-[family-name:var(--font-body)]">
             By dimension
           </span>
-          {dimEntries.map(([dim, count]) => (
-            <div key={dim} className="flex flex-col gap-0.5">
-              <div className="flex items-center justify-between">
-                <div className="flex items-center gap-1.5">
-                  <span
-                    className="w-2 h-2 rounded-full shrink-0"
-                    style={{ background: DIM_TEXT[dim] }}
-                  />
-                  <span className="text-[10px] font-medium font-[family-name:var(--font-body)]" style={{ color: DIM_TEXT[dim] }}>
-                    {dim} · {DIM_LABEL[dim] ?? dim}
+          {dimEntries.map(([dim, count]) => {
+            const cats = Object.entries(catsByDim[dim] ?? {})
+              .sort(([, a], [, b]) => b - a)
+              .slice(0, 3)
+              .map(([cat]) => cat);
+            const totalCats = Object.keys(catsByDim[dim] ?? {}).length;
+            return (
+              <div key={dim} className="flex flex-col gap-0.5">
+                <div className="flex items-center justify-between">
+                  <div className="flex items-center gap-1.5">
+                    <span className="w-2 h-2 rounded-full shrink-0" style={{ background: DIM_TEXT[dim] }} />
+                    <span className="text-[10px] font-semibold font-[family-name:var(--font-body)]" style={{ color: DIM_TEXT[dim] }}>
+                      {DIM_LABEL[dim] ?? dim}
+                    </span>
+                  </div>
+                  <span className="text-[10px] font-semibold font-[family-name:var(--font-display)]" style={{ color: DIM_TEXT[dim] }}>
+                    {count}
                   </span>
                 </div>
-                <span className="text-[10px] font-semibold font-[family-name:var(--font-display)]" style={{ color: DIM_TEXT[dim] }}>
-                  {count}
-                </span>
+                {cats.length > 0 && (
+                  <div
+                    className="pl-3.5 font-[family-name:var(--font-body)]"
+                    style={{ fontSize: "10px", color: "var(--on-surface-variant)", lineHeight: 1.5 }}
+                  >
+                    {cats.join(", ")}{totalCats > 3 ? ", …" : ""}
+                  </div>
+                )}
               </div>
-              <div className="h-1.5 rounded-full overflow-hidden" style={{ background: "rgba(0,0,0,0.07)" }}>
-                <div
-                  className="h-full rounded-full"
-                  style={{
-                    width: `${e.count > 0 ? (count / e.count) * 100 : 0}%`,
-                    background: DIM_TEXT[dim],
-                    transition: "width 600ms cubic-bezier(0.34,1.56,0.64,1)",
-                  }}
-                />
-              </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
       )}
     </div>
@@ -527,7 +537,7 @@ export default function GrammarChunkCard({ paragraph, showErrors, index }: Gramm
         {!showErrors ? (
           <RichnessPanel r={r} e={e} />
         ) : (
-          <ErrorPanel e={e} />
+          <ErrorPanel e={e} errors={paragraph.errors} />
         )}
       </div>
     </motion.div>

@@ -365,11 +365,7 @@ def analyze(input_path: Path, window: int, wordnet_tsv: Path) -> dict:
         "word_families": word_families,
     }
 
-    # Strip internal "source" field from public output
-    words_public = [
-        {k: v for k, v in w.items() if k != "source"} for w in words_out
-    ]
-    return {"words": words_public, "stats": stats}
+    return {"words": words_out, "stats": stats}
 
 
 def main():

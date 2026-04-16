@@ -4,7 +4,8 @@ import { useState } from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import ChunkCard from "./ChunkCard";
-import type { RealLessonData } from "@/lib/types";
+import type { RealLessonData, CefrLevel } from "@/lib/types";
+import { CEFR_LEVELS, cefrBgColors, cefrTextColors } from "@/lib/cefr-utils";
 
 const tabs = ["Vocabulary", "Grammar", "Fluency"] as const;
 type Tab = (typeof tabs)[number];
@@ -155,6 +156,25 @@ export default function LessonDetail({ lesson, lessonName }: LessonDetailProps) 
                 </span>
               </span>
             )}
+          </div>
+
+          {/* CEFR Legend */}
+          <div className="flex items-center gap-2 flex-wrap">
+            <span className="text-[10px] font-medium uppercase tracking-[0.08em] text-on-surface-variant font-[family-name:var(--font-body)]">
+              CEFR Legend
+            </span>
+            {CEFR_LEVELS.map((level) => (
+              <span
+                key={level}
+                className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-bold"
+                style={{
+                  backgroundColor: cefrBgColors[level as CefrLevel],
+                  color: cefrTextColors[level as CefrLevel],
+                }}
+              >
+                {level}
+              </span>
+            ))}
           </div>
 
           {/* Chunks */}

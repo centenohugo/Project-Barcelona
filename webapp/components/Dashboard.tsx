@@ -81,9 +81,9 @@ export default function Dashboard() {
       {/* Secondary charts — bottom row */}
       <div className="grid grid-cols-3 gap-6">
         {([
-          { key: "vocabulary", title: "Vocabulary", data: vocabularyData, color: "var(--secondary)",    domain: [0, 100] as [number, number] },
-          { key: "grammar",    title: "Grammar",    data: grammarData,    color: "var(--primary)",       domain: [0, 100] as [number, number] },
           { key: "fluency",    title: "Fluency",    data: fluencyData,    color: "#8B5CF6",              domain: [0, 100] as [number, number] },
+          { key: "grammar",    title: "Grammar",    data: grammarData,    color: "var(--primary)",       domain: [0, 100] as [number, number] },
+          { key: "vocabulary", title: "Vocabulary", data: vocabularyData, color: "var(--secondary)",    domain: [0, 100] as [number, number] },
         ]).map(({ key, title, data, color, domain }) => (
           <motion.div
             key={key}

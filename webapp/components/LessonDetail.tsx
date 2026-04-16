@@ -8,7 +8,7 @@ import GrammarChunkCard from "./GrammarChunkCard";
 import FluencyDetail from "./FluencyDetail";
 import type { RealLessonData, GrammarLessonData, FluencyLessonData } from "@/lib/types";
 
-const tabs = ["Vocabulary", "Grammar", "Fluency"] as const;
+const tabs = ["Fluency", "Grammar", "Vocabulary"] as const;
 type Tab = (typeof tabs)[number];
 
 interface LessonDetailProps {
@@ -19,7 +19,7 @@ interface LessonDetailProps {
 }
 
 export default function LessonDetail({ lesson, lessonName, studentId, lessonId }: LessonDetailProps) {
-  const [activeTab, setActiveTab] = useState<Tab>("Vocabulary");
+  const [activeTab, setActiveTab] = useState<Tab>("Fluency");
 
   // Grammar state
   const [grammarData, setGrammarData] = useState<GrammarLessonData | null>(null);

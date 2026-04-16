@@ -55,7 +55,7 @@ export default function Dashboard() {
   return (
     <section className="w-full min-h-[calc(100vh-80px)] flex flex-col gap-6 justify-center">
       {/* Primary chart — center, bigger */}
-      <div>
+      <div id="progress">
         <ProgressChart prominent data={progressData} />
       </div>
       {/* Progress status text */}
@@ -79,7 +79,7 @@ export default function Dashboard() {
         </motion.p>
       </div>
       {/* Secondary charts — bottom row */}
-      <div className="grid grid-cols-3 gap-6">
+      <div id="charts" className="grid grid-cols-3 gap-6">
         {([
           { key: "fluency",    title: "Fluency",    data: fluencyData,    color: "#8B5CF6",              domain: [0, 100] as [number, number] },
           { key: "grammar",    title: "Grammar",    data: grammarData,    color: "var(--primary)",       domain: [0, 100] as [number, number] },

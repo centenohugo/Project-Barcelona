@@ -63,7 +63,7 @@ export default function LessonDetail({ lesson, lessonName, studentId, lessonId }
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-4">
           <Link
-            href="/#lessons"
+            href="/#progress"
             className="w-10 h-10 rounded-xl flex items-center justify-center text-on-surface-variant transition-colors"
           >
             <svg width="20" height="20" viewBox="0 0 20 20" fill="none">

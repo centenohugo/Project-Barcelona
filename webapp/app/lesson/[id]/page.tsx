@@ -47,7 +47,7 @@ export default function LessonPage({ params }: PageProps) {
 
   return (
     <div className="flex flex-col flex-1 bg-surface">
-      <Navbar showStudentToggle={false} />
+      <Navbar />
 
       {/* Lesson navigation */}
       {lessons.length > 1 && (
@@ -105,7 +105,7 @@ export default function LessonPage({ params }: PageProps) {
           </div>
         </div>
       ) : lessonData ? (
-        <LessonDetail lesson={lessonData} lessonName={lessonName} studentId={student} lessonId={lessonId} />
+        <LessonDetail key={`${student}-${lessonId}`} lesson={lessonData} lessonName={lessonName} studentId={student} lessonId={lessonId} />
       ) : null}
     </div>
   );

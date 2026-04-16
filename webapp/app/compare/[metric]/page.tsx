@@ -211,7 +211,7 @@ export default function ComparePage({ params }: PageProps) {
         {/* Header */}
         <div className="flex items-center gap-4">
           <Link
-            href="/"
+            href="/#charts"
             className="w-10 h-10 rounded-xl flex items-center justify-center text-on-surface-variant transition-colors"
           >
             <svg width="20" height="20" viewBox="0 0 20 20" fill="none">

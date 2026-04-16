@@ -15,7 +15,21 @@ interface ChunkCardProps {
   index: number;
 }
 
+const DISPLAY_LEVELS = CEFR_LEVELS.filter((l) => l !== "A1");
+
+function redistributeWithoutA1(dist: Record<CefrLevel, number>) {
+  const a1 = dist.A1 ?? 0;
+  const rest = DISPLAY_LEVELS.reduce((s, l) => s + (dist[l] ?? 0), 0);
+  if (rest === 0) return dist;
+  const scale = (rest + a1) / rest;
+  return Object.fromEntries(
+    DISPLAY_LEVELS.map((l) => [l, Math.round((dist[l] ?? 0) * scale * 10) / 10])
+  ) as Record<CefrLevel, number>;
+}
+
 export default function ChunkCard({ chunk, index }: ChunkCardProps) {
+  const adjustedDist = redistributeWithoutA1(chunk.cefrDistribution);
+
   return (
     <motion.div
       className="w-full rounded-2xl bg-surface-lowest p-8 flex gap-8"
@@ -139,11 +153,11 @@ export default function ChunkCard({ chunk, index }: ChunkCardProps) {
         <span className="text-[10px] font-medium uppercase tracking-[0.08em] text-on-surface-variant font-[family-name:var(--font-body)] mb-1">
           CEFR Distribution
         </span>
-        {CEFR_LEVELS.map((level, i) => (
+        {DISPLAY_LEVELS.map((level, i) => (
           <MetricBar
             key={level}
             label={level}
-            value={Math.round(chunk.cefrDistribution[level] * 10) / 10}
+            value={adjustedDist[level] ?? 0}
             delay={300 + index * 100 + i * 60}
             color={cefrBarGradients[level]}
           />

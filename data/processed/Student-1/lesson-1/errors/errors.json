@@ -4,27 +4,26 @@
   "lesson": "lesson-1",
   "partition_method": "ai_context_chunker_v14",
   "summary": {
-    "paragraph_count": 9,
-    "sentence_count": 436,
-    "total_words": 1856,
-    "total_errors": 45,
-    "weighted_error_sum": 99,
+    "paragraph_count": 5,
+    "sentence_count": 208,
+    "total_words": 819,
+    "total_errors": 19,
+    "weighted_error_sum": 44,
     "overall_quality_score": 73,
     "overall_quality_level": "Moderate",
     "overall_quality_color": "#d97706",
     "dimension_counts": {
       "A": 0,
-      "B": 27,
-      "C": 4,
-      "D": 14
+      "B": 12,
+      "C": 3,
+      "D": 4
     },
     "grammar_category_counts": {
-      "incorrect word form": 18,
-      "modal/conditional error": 14,
-      "subject-verb agreement": 5,
-      "nominal error": 4,
+      "incorrect word form": 6,
+      "modal/conditional error": 4,
       "verb/tense error": 3,
-      "verb form": 1
+      "nominal error": 3,
+      "subject-verb agreement": 3
     }
   },
   "paragraphs": [
@@ -86,112 +85,36 @@
       }
     },
     {
-      "paragraph_id": 4,
-      "label": "Practicing verb conjugation and possessive forms in sentences",
-      "sentence_count": 49,
-      "word_count": 213,
+      "paragraph_id": 9,
+      "label": "Practicing prepositions of time with birthday plans",
+      "sentence_count": 22,
+      "word_count": 98,
       "sentence_start_idx": 174,
-      "sentence_end_idx": 222,
-      "error_count": 10,
-      "weighted_error_sum": 20,
-      "quality_score": 53,
-      "quality_level": "Weak",
-      "quality_color": "#ea580c",
-      "dimension_counts": {
-        "A": 0,
-        "B": 5,
-        "C": 1,
-        "D": 4
-      }
-    },
-    {
-      "paragraph_id": 5,
-      "label": "Reading exercises about daily routines, pets, and possessive pronouns",
-      "sentence_count": 33,
-      "word_count": 202,
-      "sentence_start_idx": 223,
-      "sentence_end_idx": 255,
-      "error_count": 1,
-      "weighted_error_sum": 2,
-      "quality_score": 95,
+      "sentence_end_idx": 195,
+      "error_count": 0,
+      "weighted_error_sum": 0,
+      "quality_score": 100,
       "quality_level": "Good",
       "quality_color": "#15803d",
       "dimension_counts": {
         "A": 0,
         "B": 0,
-        "C": 0,
-        "D": 1
-      }
-    },
-    {
-      "paragraph_id": 6,
-      "label": "Possessive pronouns, demonstratives, and describing family and belongings",
-      "sentence_count": 53,
-      "word_count": 203,
-      "sentence_start_idx": 256,
-      "sentence_end_idx": 308,
-      "error_count": 4,
-      "weighted_error_sum": 10,
-      "quality_score": 75,
-      "quality_level": "Moderate",
-      "quality_color": "#d97706",
-      "dimension_counts": {
-        "A": 0,
-        "B": 4,
         "C": 0,
         "D": 0
       }
     },
     {
-      "paragraph_id": 7,
-      "label": "Practicing question words and answers about daily life",
-      "sentence_count": 39,
-      "word_count": 202,
-      "sentence_start_idx": 309,
-      "sentence_end_idx": 347,
-      "error_count": 3,
-      "weighted_error_sum": 6,
-      "quality_score": 85,
-      "quality_level": "Good",
-      "quality_color": "#15803d",
-      "dimension_counts": {
-        "A": 0,
-        "B": 0,
-        "C": 0,
-        "D": 3
-      }
-    },
-    {
-      "paragraph_id": 8,
-      "label": "Practicing adverbs of frequency and simple present questions",
-      "sentence_count": 54,
-      "word_count": 217,
-      "sentence_start_idx": 348,
-      "sentence_end_idx": 401,
-      "error_count": 8,
-      "weighted_error_sum": 17,
-      "quality_score": 61,
-      "quality_level": "Moderate",
-      "quality_color": "#d97706",
-      "dimension_counts": {
-        "A": 0,
-        "B": 6,
-        "C": 0,
-        "D": 2
-      }
-    },
-    {
-      "paragraph_id": 9,
-      "label": "Practicing prepositions of time with birthday plans",
-      "sentence_count": 35,
-      "word_count": 138,
-      "sentence_start_idx": 402,
-      "sentence_end_idx": 436,
+      "paragraph_id": 10,
+      "label": "Closing the class",
+      "sentence_count": 13,
+      "word_count": 40,
+      "sentence_start_idx": 196,
+      "sentence_end_idx": 208,
       "error_count": 1,
       "weighted_error_sum": 2,
-      "quality_score": 93,
-      "quality_level": "Good",
-      "quality_color": "#15803d",
+      "quality_score": 75,
+      "quality_level": "Moderate",
+      "quality_color": "#d97706",
       "dimension_counts": {
         "A": 0,
         "B": 0,
@@ -534,535 +457,8 @@
       "paragraph_id": 3
     },
     {
-      "sentence": "Mhmm.",
-      "sentence_index": 178,
-      "rule_id": "MORFOLOGIK_RULE_EN_US",
-      "grammar_category": "incorrect word form",
-      "dimension_code": "B",
-      "dimension_label": "Tense & Aspect Mastery",
-      "weight": 2,
-      "matched_text": "Mhmm",
-      "message": "Possible spelling mistake found.",
-      "replacements": [
-        "MMM",
-        "Hmm",
-        "M hmm"
-      ],
-      "offset": 0,
-      "error_length": 4,
-      "paragraph_id": 4
-    },
-    {
-      "sentence": "Are you and Lya sisters?",
-      "sentence_index": 181,
-      "rule_id": "MORFOLOGIK_RULE_EN_US",
-      "grammar_category": "incorrect word form",
-      "dimension_code": "B",
-      "dimension_label": "Tense & Aspect Mastery",
-      "weight": 2,
-      "matched_text": "Lya",
-      "message": "Possible spelling mistake found.",
-      "replacements": [
-        "Lay",
-        "LA",
-        "LGA",
-        "LMA",
-        "Lea",
-        "Lyn",
-        "LCA",
-        "LDA",
-        "LSA",
-        "Lyra",
-        "Lye",
-        "LBA",
-        "AYA",
-        "BYA",
-        "CYA",
-        "Ilya",
-        "LEA",
-        "LHA",
-        "LIA",
-        "LKA",
-        "LNA",
-        "LOA",
-        "LPA",
-        "LTA",
-        "LVA",
-        "LY",
-        "LYD",
-        "La",
-        "Léa",
-        "MYA",
-        "NYA",
-        "WYA",
-        "Ya",
-        "Lua"
-      ],
-      "offset": 12,
-      "error_length": 3,
-      "paragraph_id": 4
-    },
-    {
-      "sentence": "Mhmm.",
-      "sentence_index": 185,
-      "rule_id": "MORFOLOGIK_RULE_EN_US",
-      "grammar_category": "incorrect word form",
-      "dimension_code": "B",
-      "dimension_label": "Tense & Aspect Mastery",
-      "weight": 2,
-      "matched_text": "Mhmm",
-      "message": "Possible spelling mistake found.",
-      "replacements": [
-        "MMM",
-        "Hmm",
-        "M hmm"
-      ],
-      "offset": 0,
-      "error_length": 4,
-      "paragraph_id": 4
-    },
-    {
-      "sentence": "So Shekhar.",
-      "sentence_index": 187,
-      "rule_id": "MORFOLOGIK_RULE_EN_US",
-      "grammar_category": "incorrect word form",
-      "dimension_code": "B",
-      "dimension_label": "Tense & Aspect Mastery",
-      "weight": 2,
-      "matched_text": "Shekhar",
-      "message": "Possible spelling mistake found.",
-      "replacements": [
-        "Shikhar"
-      ],
-      "offset": 3,
-      "error_length": 7,
-      "paragraph_id": 4
-    },
-    {
-      "sentence": "Some, some lives some lives with, his parents.",
-      "sentence_index": 191,
-      "rule_id": "PHRASE_REPETITION",
-      "grammar_category": "modal/conditional error",
-      "dimension_code": "D",
-      "dimension_label": "Modal & Functional Range",
-      "weight": 2,
-      "matched_text": "some lives some lives",
-      "message": "This phrase is duplicated. You should probably use “some lives” only once.",
-      "replacements": [
-        "some lives"
-      ],
-      "offset": 6,
-      "error_length": 21,
-      "paragraph_id": 4
-    },
-    {
-      "sentence": "Mhmm.",
-      "sentence_index": 197,
-      "rule_id": "MORFOLOGIK_RULE_EN_US",
-      "grammar_category": "incorrect word form",
-      "dimension_code": "B",
-      "dimension_label": "Tense & Aspect Mastery",
-      "weight": 2,
-      "matched_text": "Mhmm",
-      "message": "Possible spelling mistake found.",
-      "replacements": [
-        "MMM",
-        "Hmm",
-        "M hmm"
-      ],
-      "offset": 0,
-      "error_length": 4,
-      "paragraph_id": 4
-    },
-    {
-      "sentence": "They live in a in a nice house in the city.",
-      "sentence_index": 199,
-      "rule_id": "PHRASE_REPETITION",
-      "grammar_category": "modal/conditional error",
-      "dimension_code": "D",
-      "dimension_label": "Modal & Functional Range",
-      "weight": 2,
-      "matched_text": "in a in a",
-      "message": "This phrase is duplicated. You should probably use “in a” only once.",
-      "replacements": [
-        "in a"
-      ],
-      "offset": 10,
-      "error_length": 9,
-      "paragraph_id": 4
-    },
-    {
-      "sentence": "My sister my sister eat me.",
-      "sentence_index": 200,
-      "rule_id": "PHRASE_REPETITION",
-      "grammar_category": "modal/conditional error",
-      "dimension_code": "D",
-      "dimension_label": "Modal & Functional Range",
-      "weight": 2,
-      "matched_text": "My sister my sister",
-      "message": "This phrase is duplicated. You should probably use “My sister” only once.",
-      "replacements": [
-        "My sister"
-      ],
-      "offset": 0,
-      "error_length": 19,
-      "paragraph_id": 4
-    },
-    {
-      "sentence": "My friends my friends on the phone a lot.",
-      "sentence_index": 209,
-      "rule_id": "PHRASE_REPETITION",
-      "grammar_category": "modal/conditional error",
-      "dimension_code": "D",
-      "dimension_label": "Modal & Functional Range",
-      "weight": 2,
-      "matched_text": "My friends my friends",
-      "message": "This phrase is duplicated. You should probably use “My friends” only once.",
-      "replacements": [
-        "My friends"
-      ],
-      "offset": 0,
-      "error_length": 21,
-      "paragraph_id": 4
-    },
-    {
-      "sentence": "They they have the they have 2 children, Tina, Tina had a cat has has has a cat.",
-      "sentence_index": 222,
-      "rule_id": "DT_PRP",
-      "grammar_category": "nominal error",
-      "dimension_code": "C",
-      "dimension_label": "Nominal Precision",
-      "weight": 2,
-      "matched_text": "the they",
-      "message": "Using a determiner and a pronoun together is incorrect. Did you mean “the” or “they”?",
-      "replacements": [
-        "the",
-        "they"
-      ],
-      "offset": 15,
-      "error_length": 8,
-      "paragraph_id": 4
-    },
-    {
-      "sentence": "Team dot dot dot dot dot.",
-      "sentence_index": 225,
-      "rule_id": "PHRASE_REPETITION",
-      "grammar_category": "modal/conditional error",
-      "dimension_code": "D",
-      "dimension_label": "Modal & Functional Range",
-      "weight": 2,
-      "matched_text": "dot dot dot dot",
-      "message": "This phrase is duplicated. You should probably use “dot dot” only once.",
-      "replacements": [
-        "dot dot"
-      ],
-      "offset": 5,
-      "error_length": 15,
-      "paragraph_id": 5
-    },
-    {
-      "sentence": "Evan and Stacy writes Dave's, in the city.",
-      "sentence_index": 268,
-      "rule_id": "COMPOUND_NNP_AGREEMENT",
-      "grammar_category": "subject-verb agreement",
-      "dimension_code": "B",
-      "dimension_label": "Tense & Aspect Mastery",
-      "weight": 3,
-      "matched_text": "writes",
-      "message": "Possible subject-verb agreement error. Did you mean to use a different form of ‘write’?",
-      "replacements": [
-        "write",
-        "wrote"
-      ],
-      "offset": 15,
-      "error_length": 6,
-      "paragraph_id": 6
-    },
-    {
-      "sentence": "Mhmm.",
-      "sentence_index": 275,
-      "rule_id": "MORFOLOGIK_RULE_EN_US",
-      "grammar_category": "incorrect word form",
-      "dimension_code": "B",
-      "dimension_label": "Tense & Aspect Mastery",
-      "weight": 2,
-      "matched_text": "Mhmm",
-      "message": "Possible spelling mistake found.",
-      "replacements": [
-        "MMM",
-        "Hmm",
-        "M hmm"
-      ],
-      "offset": 0,
-      "error_length": 4,
-      "paragraph_id": 6
-    },
-    {
-      "sentence": "Mhmm.",
-      "sentence_index": 276,
-      "rule_id": "MORFOLOGIK_RULE_EN_US",
-      "grammar_category": "incorrect word form",
-      "dimension_code": "B",
-      "dimension_label": "Tense & Aspect Mastery",
-      "weight": 2,
-      "matched_text": "Mhmm",
-      "message": "Possible spelling mistake found.",
-      "replacements": [
-        "MMM",
-        "Hmm",
-        "M hmm"
-      ],
-      "offset": 0,
-      "error_length": 4,
-      "paragraph_id": 6
-    },
-    {
-      "sentence": "The dog are friendly.",
-      "sentence_index": 290,
-      "rule_id": "SINGULAR_AGREEMENT_SENT_START",
-      "grammar_category": "subject-verb agreement",
-      "dimension_code": "B",
-      "dimension_label": "Tense & Aspect Mastery",
-      "weight": 3,
-      "matched_text": "are",
-      "message": "You should probably use “is”.",
-      "replacements": [
-        "is"
-      ],
-      "offset": 8,
-      "error_length": 3,
-      "paragraph_id": 6
-    },
-    {
-      "sentence": "I guess, how many how many children do you have?",
-      "sentence_index": 325,
-      "rule_id": "PHRASE_REPETITION",
-      "grammar_category": "modal/conditional error",
-      "dimension_code": "D",
-      "dimension_label": "Modal & Functional Range",
-      "weight": 2,
-      "matched_text": "how many how many",
-      "message": "This phrase is duplicated. You should probably use “how many” only once.",
-      "replacements": [
-        "how many"
-      ],
-      "offset": 9,
-      "error_length": 17,
-      "paragraph_id": 7
-    },
-    {
-      "sentence": "When is when is your birth birthday?",
-      "sentence_index": 327,
-      "rule_id": "PHRASE_REPETITION",
-      "grammar_category": "modal/conditional error",
-      "dimension_code": "D",
-      "dimension_label": "Modal & Functional Range",
-      "weight": 2,
-      "matched_text": "When is when is",
-      "message": "This phrase is duplicated. You should probably use “When is” only once.",
-      "replacements": [
-        "When is"
-      ],
-      "offset": 0,
-      "error_length": 15,
-      "paragraph_id": 7
-    },
-    {
-      "sentence": "What is what is this thing in your backpack backpack?",
-      "sentence_index": 340,
-      "rule_id": "PHRASE_REPETITION",
-      "grammar_category": "modal/conditional error",
-      "dimension_code": "D",
-      "dimension_label": "Modal & Functional Range",
-      "weight": 2,
-      "matched_text": "What is what is",
-      "message": "This phrase is duplicated. You should probably use “What is” only once.",
-      "replacements": [
-        "What is"
-      ],
-      "offset": 0,
-      "error_length": 15,
-      "paragraph_id": 7
-    },
-    {
-      "sentence": "Mhmm.",
-      "sentence_index": 352,
-      "rule_id": "MORFOLOGIK_RULE_EN_US",
-      "grammar_category": "incorrect word form",
-      "dimension_code": "B",
-      "dimension_label": "Tense & Aspect Mastery",
-      "weight": 2,
-      "matched_text": "Mhmm",
-      "message": "Possible spelling mistake found.",
-      "replacements": [
-        "MMM",
-        "Hmm",
-        "M hmm"
-      ],
-      "offset": 0,
-      "error_length": 4,
-      "paragraph_id": 8
-    },
-    {
-      "sentence": "Swetta, Swetta does, but Hillary doesn't.",
-      "sentence_index": 368,
-      "rule_id": "MORFOLOGIK_RULE_EN_US",
-      "grammar_category": "incorrect word form",
-      "dimension_code": "B",
-      "dimension_label": "Tense & Aspect Mastery",
-      "weight": 2,
-      "matched_text": "Swetta",
-      "message": "Possible spelling mistake found.",
-      "replacements": [
-        "Sweet",
-        "Swept",
-        "Sweat",
-        "Sweets",
-        "Etta",
-        "Quetta",
-        "Septa",
-        "Sett",
-        "Sweats",
-        "Sweaty",
-        "Siesta",
-        "Seta",
-        "Jetta",
-        "SCETA",
-        "SNETAA",
-        "Shelta",
-        "Shetty",
-        "Setts"
-      ],
-      "offset": 0,
-      "error_length": 6,
-      "paragraph_id": 8
-    },
-    {
-      "sentence": "Swetta, Swetta does, but Hillary doesn't.",
-      "sentence_index": 368,
-      "rule_id": "MORFOLOGIK_RULE_EN_US",
-      "grammar_category": "incorrect word form",
-      "dimension_code": "B",
-      "dimension_label": "Tense & Aspect Mastery",
-      "weight": 2,
-      "matched_text": "Swetta",
-      "message": "Possible spelling mistake found.",
-      "replacements": [
-        "Sweet",
-        "Swept",
-        "Sweat",
-        "Sweets",
-        "Etta",
-        "Quetta",
-        "Septa",
-        "Sett",
-        "Sweats",
-        "Sweaty",
-        "Siesta",
-        "Seta",
-        "Jetta",
-        "SCETA",
-        "SNETAA",
-        "Shelta",
-        "Shetty",
-        "Setts"
-      ],
-      "offset": 8,
-      "error_length": 6,
-      "paragraph_id": 8
-    },
-    {
-      "sentence": "Do you do you",
-      "sentence_index": 369,
-      "rule_id": "PHRASE_REPETITION",
-      "grammar_category": "modal/conditional error",
-      "dimension_code": "D",
-      "dimension_label": "Modal & Functional Range",
-      "weight": 2,
-      "matched_text": "Do you do you",
-      "message": "This phrase is duplicated. You should probably use “Do you” only once.",
-      "replacements": [
-        "Do you"
-      ],
-      "offset": 0,
-      "error_length": 13,
-      "paragraph_id": 8
-    },
-    {
-      "sentence": "Does does, does he go to football does he go to football practice every day?",
-      "sentence_index": 373,
-      "rule_id": "AUXILIARY_DO_WITH_INCORRECT_VERB_FORM",
-      "grammar_category": "verb form",
-      "dimension_code": "B",
-      "dimension_label": "Tense & Aspect Mastery",
-      "weight": 3,
-      "matched_text": "does",
-      "message": "After the auxiliary verb ‘do’, use the base form of a verb. Did you mean “do”?",
-      "replacements": [
-        "do"
-      ],
-      "offset": 5,
-      "error_length": 4,
-      "paragraph_id": 8
-    },
-    {
-      "sentence": "Dot dot dot dot.",
-      "sentence_index": 377,
-      "rule_id": "PHRASE_REPETITION",
-      "grammar_category": "modal/conditional error",
-      "dimension_code": "D",
-      "dimension_label": "Modal & Functional Range",
-      "weight": 2,
-      "matched_text": "Dot dot dot dot",
-      "message": "This phrase is duplicated. You should probably use “Dot dot” only once.",
-      "replacements": [
-        "Dot dot"
-      ],
-      "offset": 0,
-      "error_length": 15,
-      "paragraph_id": 8
-    },
-    {
-      "sentence": "Mhmm.",
-      "sentence_index": 394,
-      "rule_id": "MORFOLOGIK_RULE_EN_US",
-      "grammar_category": "incorrect word form",
-      "dimension_code": "B",
-      "dimension_label": "Tense & Aspect Mastery",
-      "weight": 2,
-      "matched_text": "Mhmm",
-      "message": "Possible spelling mistake found.",
-      "replacements": [
-        "MMM",
-        "Hmm",
-        "M hmm"
-      ],
-      "offset": 0,
-      "error_length": 4,
-      "paragraph_id": 8
-    },
-    {
-      "sentence": "Mhmm.",
-      "sentence_index": 398,
-      "rule_id": "MORFOLOGIK_RULE_EN_US",
-      "grammar_category": "incorrect word form",
-      "dimension_code": "B",
-      "dimension_label": "Tense & Aspect Mastery",
-      "weight": 2,
-      "matched_text": "Mhmm",
-      "message": "Possible spelling mistake found.",
-      "replacements": [
-        "MMM",
-        "Hmm",
-        "M hmm"
-      ],
-      "offset": 0,
-      "error_length": 4,
-      "paragraph_id": 8
-    },
-    {
       "sentence": "See you see you, in lunchtime.",
-      "sentence_index": 426,
+      "sentence_index": 198,
       "rule_id": "PHRASE_REPETITION",
       "grammar_category": "modal/conditional error",
       "dimension_code": "D",
@@ -1075,7 +471,7 @@
       ],
       "offset": 0,
       "error_length": 15,
-      "paragraph_id": 9
+      "paragraph_id": 10
     }
   ]
 }

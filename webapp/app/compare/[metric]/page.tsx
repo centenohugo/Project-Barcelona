@@ -4,16 +4,13 @@ import { use, useState, useEffect } from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
 import Navbar from "@/components/Navbar";
-import ChunkCard from "@/components/ChunkCard";
 import GrammarComparePane from "@/components/GrammarComparePane";
 import FluencyCompareSummary from "@/components/FluencyCompareSummary";
 import VocabCompareSummary from "@/components/VocabCompareSummary";
+import WordFamilyCloud from "@/components/WordFamilyCloud";
 import { useStudent } from "@/lib/student-context";
-import { studentsData } from "@/lib/mock-data";
-import type {
-  RealLessonData,
-  FluencyLessonData,
-} from "@/lib/types";
+import { realStudentsData } from "@/lib/real-data";
+import type { FluencyLessonData } from "@/lib/types";
 
 type Metric = "vocabulary" | "grammar" | "fluency";
 
@@ -57,57 +54,6 @@ function PaneSkeleton() {
     </div>
   );
 }
-
-// ── Vocabulary pane ────────────────────────────────────────────────────────────
-
-function VocabPane({ studentId, lessonId }: { studentId: string; lessonId: number }) {
-  const [data, setData] = useState<RealLessonData | null>(null);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
-
-  useEffect(() => {
-    setData(null);
-    setLoading(true);
-    setError(null);
-    fetch(`/api/lesson/${studentId}/${lessonId}`)
-      .then((r) => { if (!r.ok) throw new Error(`${r.status}`); return r.json(); })
-      .then((d: RealLessonData) => { setData(d); setLoading(false); })
-      .catch((e) => { setError(e.message); setLoading(false); });
-  }, [studentId, lessonId]);
-
-  if (loading) return <PaneSkeleton />;
-  if (error || !data) {
-    return (
-      <div className="rounded-2xl bg-surface-lowest p-8 text-center">
-        <p className="text-on-surface-variant font-[family-name:var(--font-body)] text-sm">
-          Vocabulary data not available.
-        </p>
-      </div>
-    );
-  }
-
-  return (
-    <div className="flex flex-col gap-4">
-      {/* Summary chips */}
-      <div className="flex flex-wrap gap-2">
-        <span
-          className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-semibold"
-          style={{ background: "var(--primary)", color: "var(--on-primary)" }}
-        >
-          Level {data.studentLevel} ({data.studentScore.toFixed(1)})
-        </span>
-        <span className="text-xs text-on-surface-variant font-[family-name:var(--font-body)] self-center">
-          {data.lessonStats.totalWords}w · {data.lessonStats.uniqueWords} unique · Guiraud {data.lessonStats.lexicalDiversity.toFixed(1)}
-        </span>
-      </div>
-      {data.chunks.map((chunk, i) => (
-        <ChunkCard key={chunk.paragraphId} chunk={chunk} index={i} />
-      ))}
-    </div>
-  );
-}
-
-
 
 // ── Fluency pane ───────────────────────────────────────────────────────────────
 
@@ -181,26 +127,20 @@ export default function ComparePage({ params }: PageProps) {
   const metric = (rawMetric as Metric) in METRIC_LABELS ? (rawMetric as Metric) : "vocabulary";
 
   const { student } = useStudent();
-  const lessons = studentsData[student]?.lessons ?? [];
+  const lessons = realStudentsData[student]?.lessons ?? [];
   const lessonIds = lessons.map((l) => l.id);
 
   const [leftId, setLeftId] = useState(lessonIds[0] ?? 1);
   const [rightId, setRightId] = useState(lessonIds[1] ?? 2);
 
-  // Reset selected lessons when student changes
   useEffect(() => {
-    const ids = studentsData[student]?.lessons.map((l) => l.id) ?? [];
+    const ids = realStudentsData[student]?.lessons.map((l) => l.id) ?? [];
     setLeftId(ids[0] ?? 1);
     setRightId(ids[1] ?? ids[0] ?? 1);
   }, [student]);
 
   const color = METRIC_COLORS[metric];
   const label = METRIC_LABELS[metric];
-
-  function renderPane(lessonId: number) {
-    if (metric === "vocabulary") return <VocabPane studentId={student} lessonId={lessonId} />;
-    return <FluencyPane studentId={student} lessonId={lessonId} />;
-  }
 
   const leftLesson = lessons.find((l) => l.id === leftId);
   const rightLesson = lessons.find((l) => l.id === rightId);
@@ -250,39 +190,17 @@ export default function ComparePage({ params }: PageProps) {
             <span className="text-xs font-semibold uppercase tracking-widest text-on-surface-variant font-[family-name:var(--font-body)]">
               Left — {leftLesson?.name ?? `Lesson ${leftId}`}
             </span>
-            <LessonSelector
-              lessons={lessons}
-              value={leftId}
-              onChange={setLeftId}
-              color={color}
-            />
+            <LessonSelector lessons={lessons} value={leftId} onChange={setLeftId} color={color} />
           </div>
           <div className="flex flex-col gap-2">
             <span className="text-xs font-semibold uppercase tracking-widest text-on-surface-variant font-[family-name:var(--font-body)]">
               Right — {rightLesson?.name ?? `Lesson ${rightId}`}
             </span>
-            <LessonSelector
-              lessons={lessons}
-              value={rightId}
-              onChange={setRightId}
-              color={color}
-            />
+            <LessonSelector lessons={lessons} value={rightId} onChange={setRightId} color={color} />
           </div>
         </div>
 
-        {/* Vocabulary summary — level badges + CEFR mirror chart */}
-        {metric === "vocabulary" && (
-          <VocabCompareSummary
-            key={`summary-${leftId}-${rightId}-${student}`}
-            studentId={student}
-            leftId={leftId}
-            rightId={rightId}
-            leftName={leftLesson?.name ?? `Lesson ${leftId}`}
-            rightName={rightLesson?.name ?? `Lesson ${rightId}`}
-          />
-        )}
-
-        {/* Content — grammar uses unified full-width comparison; others use two-column */}
+        {/* ── Content ── */}
         {metric === "grammar" ? (
           <GrammarComparePane
             key={`${leftId}-${rightId}-${student}`}
@@ -292,7 +210,47 @@ export default function ComparePage({ params }: PageProps) {
             leftName={leftLesson?.name ?? `Lesson ${leftId}`}
             rightName={rightLesson?.name ?? `Lesson ${rightId}`}
           />
+        ) : metric === "vocabulary" ? (
+          <>
+            {/* CEFR mirror chart */}
+            <VocabCompareSummary
+              key={`summary-${leftId}-${rightId}-${student}`}
+              studentId={student}
+              leftId={leftId}
+              rightId={rightId}
+              leftName={leftLesson?.name ?? `Lesson ${leftId}`}
+              rightName={rightLesson?.name ?? `Lesson ${rightId}`}
+            />
+
+            {/* Word family clouds */}
+            <div className="flex flex-col gap-4">
+              <div style={{ height: "1px", background: "var(--surface-variant)" }} />
+              <div className="flex items-center gap-2">
+                <span className="text-[11px] font-semibold uppercase tracking-widest text-on-surface-variant font-[family-name:var(--font-body)]">
+                  Largest word family
+                </span>
+                <span className="text-[11px] text-on-surface-variant font-[family-name:var(--font-body)]">
+                  — showing vocabulary variety per lesson
+                </span>
+              </div>
+              <div className="grid grid-cols-2 gap-6">
+                <WordFamilyCloud
+                  key={`wc-left-${student}-${leftId}`}
+                  studentId={student}
+                  lessonId={leftId}
+                  lessonName={leftLesson?.name ?? `Lesson ${leftId}`}
+                />
+                <WordFamilyCloud
+                  key={`wc-right-${student}-${rightId}`}
+                  studentId={student}
+                  lessonId={rightId}
+                  lessonName={rightLesson?.name ?? `Lesson ${rightId}`}
+                />
+              </div>
+            </div>
+          </>
         ) : (
+          /* Fluency — two-column */
           <div className="grid grid-cols-2 gap-6 items-start">
             <motion.div
               key={`left-${leftId}-${student}`}
@@ -300,7 +258,7 @@ export default function ComparePage({ params }: PageProps) {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.35 }}
             >
-              {renderPane(leftId)}
+              <FluencyPane studentId={student} lessonId={leftId} />
             </motion.div>
             <motion.div
               key={`right-${rightId}-${student}`}
@@ -308,7 +266,7 @@ export default function ComparePage({ params }: PageProps) {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.35 }}
             >
-              {renderPane(rightId)}
+              <FluencyPane studentId={student} lessonId={rightId} />
             </motion.div>
           </div>
         )}

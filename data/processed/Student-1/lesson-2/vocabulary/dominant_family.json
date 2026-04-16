@@ -1,0 +1,442 @@
+{
+  "student": "Student-1",
+  "lesson": "lesson-2",
+  "generated_at": "2026-04-16T07:58:30.235301+00:00",
+  "wn_available": true,
+  "dominant_family": {
+    "root": "learn",
+    "method": "wordnet",
+    "members": [
+      {
+        "word": "learn",
+        "occurrences": 6,
+        "cefr_level": "A1"
+      },
+      {
+        "word": "learning",
+        "occurrences": 4,
+        "cefr_level": "A1"
+      },
+      {
+        "word": "teaching",
+        "occurrences": 3,
+        "cefr_level": "B1"
+      },
+      {
+        "word": "learned",
+        "occurrences": 3,
+        "cefr_level": "B1"
+      },
+      {
+        "word": "check",
+        "occurrences": 2,
+        "cefr_level": "A2"
+      },
+      {
+        "word": "teach",
+        "occurrences": 1,
+        "cefr_level": "A2"
+      },
+      {
+        "word": "studying",
+        "occurrences": 1,
+        "cefr_level": "A1"
+      }
+    ],
+    "member_count": 7,
+    "total_occurrences": 20,
+    "avg_cefr_numeric": 1.86,
+    "cefr_range": [
+      "A1",
+      "B1"
+    ]
+  },
+  "top_families": [
+    {
+      "root": "learn",
+      "method": "wordnet",
+      "members": [
+        {
+          "word": "learn",
+          "occurrences": 6,
+          "cefr_level": "A1"
+        },
+        {
+          "word": "learning",
+          "occurrences": 4,
+          "cefr_level": "A1"
+        },
+        {
+          "word": "teaching",
+          "occurrences": 3,
+          "cefr_level": "B1"
+        },
+        {
+          "word": "learned",
+          "occurrences": 3,
+          "cefr_level": "B1"
+        },
+        {
+          "word": "check",
+          "occurrences": 2,
+          "cefr_level": "A2"
+        },
+        {
+          "word": "teach",
+          "occurrences": 1,
+          "cefr_level": "A2"
+        },
+        {
+          "word": "studying",
+          "occurrences": 1,
+          "cefr_level": "A1"
+        }
+      ],
+      "member_count": 7,
+      "total_occurrences": 20,
+      "avg_cefr_numeric": 1.86,
+      "cefr_range": [
+        "A1",
+        "B1"
+      ]
+    },
+    {
+      "root": "mind",
+      "method": "wordnet",
+      "members": [
+        {
+          "word": "think",
+          "occurrences": 16,
+          "cefr_level": "B1"
+        },
+        {
+          "word": "thinking",
+          "occurrences": 6,
+          "cefr_level": "B1"
+        },
+        {
+          "word": "listening",
+          "occurrences": 4,
+          "cefr_level": "A1"
+        },
+        {
+          "word": "mind",
+          "occurrences": 2,
+          "cefr_level": "B1"
+        },
+        {
+          "word": "listen",
+          "occurrences": 1,
+          "cefr_level": "A1"
+        },
+        {
+          "word": "thought",
+          "occurrences": 1,
+          "cefr_level": "B1"
+        }
+      ],
+      "member_count": 6,
+      "total_occurrences": 30,
+      "avg_cefr_numeric": 2.33,
+      "cefr_range": [
+        "A1",
+        "B1"
+      ]
+    },
+    {
+      "root": "saw",
+      "method": "wordnet",
+      "members": [
+        {
+          "word": "understand",
+          "occurrences": 15,
+          "cefr_level": "B1"
+        },
+        {
+          "word": "see",
+          "occurrences": 4,
+          "cefr_level": "A2"
+        },
+        {
+          "word": "watching",
+          "occurrences": 3,
+          "cefr_level": "A1"
+        },
+        {
+          "word": "watch",
+          "occurrences": 2,
+          "cefr_level": "A1"
+        },
+        {
+          "word": "check",
+          "occurrences": 2,
+          "cefr_level": "A2"
+        },
+        {
+          "word": "saw",
+          "occurrences": 1,
+          "cefr_level": "A1"
+        }
+      ],
+      "member_count": 6,
+      "total_occurrences": 27,
+      "avg_cefr_numeric": 1.67,
+      "cefr_range": [
+        "A1",
+        "B1"
+      ]
+    },
+    {
+      "root": "see",
+      "method": "wordnet",
+      "members": [
+        {
+          "word": "understand",
+          "occurrences": 15,
+          "cefr_level": "B1"
+        },
+        {
+          "word": "see",
+          "occurrences": 4,
+          "cefr_level": "A2"
+        },
+        {
+          "word": "watching",
+          "occurrences": 3,
+          "cefr_level": "A1"
+        },
+        {
+          "word": "watch",
+          "occurrences": 2,
+          "cefr_level": "A1"
+        },
+        {
+          "word": "check",
+          "occurrences": 2,
+          "cefr_level": "A2"
+        }
+      ],
+      "member_count": 5,
+      "total_occurrences": 26,
+      "avg_cefr_numeric": 1.8,
+      "cefr_range": [
+        "A1",
+        "B1"
+      ]
+    },
+    {
+      "root": "want",
+      "method": "wordnet",
+      "members": [
+        {
+          "word": "want",
+          "occurrences": 8,
+          "cefr_level": "A1"
+        },
+        {
+          "word": "need",
+          "occurrences": 3,
+          "cefr_level": "A1"
+        },
+        {
+          "word": "wish",
+          "occurrences": 2,
+          "cefr_level": "B1"
+        },
+        {
+          "word": "lack",
+          "occurrences": 1,
+          "cefr_level": "C2"
+        },
+        {
+          "word": "wanted",
+          "occurrences": 1,
+          "cefr_level": "A1"
+        }
+      ],
+      "member_count": 5,
+      "total_occurrences": 15,
+      "avg_cefr_numeric": 2.4,
+      "cefr_range": [
+        "A1",
+        "C2"
+      ]
+    },
+    {
+      "root": "took",
+      "method": "wordnet",
+      "members": [
+        {
+          "word": "took",
+          "occurrences": 7,
+          "cefr_level": "A2"
+        },
+        {
+          "word": "need",
+          "occurrences": 3,
+          "cefr_level": "A1"
+        },
+        {
+          "word": "reading",
+          "occurrences": 1,
+          "cefr_level": "A2"
+        },
+        {
+          "word": "studying",
+          "occurrences": 1,
+          "cefr_level": "A1"
+        },
+        {
+          "word": "read",
+          "occurrences": 1,
+          "cefr_level": "A2"
+        }
+      ],
+      "member_count": 5,
+      "total_occurrences": 13,
+      "avg_cefr_numeric": 1.6,
+      "cefr_range": [
+        "A1",
+        "A2"
+      ]
+    },
+    {
+      "root": "say",
+      "method": "wordnet",
+      "members": [
+        {
+          "word": "tell",
+          "occurrences": 6,
+          "cefr_level": "B2"
+        },
+        {
+          "word": "reading",
+          "occurrences": 1,
+          "cefr_level": "A2"
+        },
+        {
+          "word": "saying",
+          "occurrences": 1,
+          "cefr_level": "A1"
+        },
+        {
+          "word": "telling",
+          "occurrences": 1,
+          "cefr_level": "B2"
+        },
+        {
+          "word": "read",
+          "occurrences": 1,
+          "cefr_level": "A2"
+        }
+      ],
+      "member_count": 5,
+      "total_occurrences": 10,
+      "avg_cefr_numeric": 2.6,
+      "cefr_range": [
+        "A1",
+        "B2"
+      ]
+    },
+    {
+      "root": "think",
+      "method": "wordnet",
+      "members": [
+        {
+          "word": "think",
+          "occurrences": 16,
+          "cefr_level": "B1"
+        },
+        {
+          "word": "thinking",
+          "occurrences": 6,
+          "cefr_level": "B1"
+        },
+        {
+          "word": "remember",
+          "occurrences": 4,
+          "cefr_level": "A1"
+        },
+        {
+          "word": "thought",
+          "occurrences": 1,
+          "cefr_level": "B1"
+        }
+      ],
+      "member_count": 4,
+      "total_occurrences": 27,
+      "avg_cefr_numeric": 2.5,
+      "cefr_range": [
+        "A1",
+        "B1"
+      ]
+    },
+    {
+      "root": "think",
+      "method": "wordnet",
+      "members": [
+        {
+          "word": "think",
+          "occurrences": 16,
+          "cefr_level": "B1"
+        },
+        {
+          "word": "thinking",
+          "occurrences": 6,
+          "cefr_level": "B1"
+        },
+        {
+          "word": "thought",
+          "occurrences": 1,
+          "cefr_level": "B1"
+        },
+        {
+          "word": "imagine",
+          "occurrences": 1,
+          "cefr_level": "A1"
+        }
+      ],
+      "member_count": 4,
+      "total_occurrences": 24,
+      "avg_cefr_numeric": 2.5,
+      "cefr_range": [
+        "A1",
+        "B1"
+      ]
+    },
+    {
+      "root": "say",
+      "method": "wordnet",
+      "members": [
+        {
+          "word": "tell",
+          "occurrences": 6,
+          "cefr_level": "B2"
+        },
+        {
+          "word": "told",
+          "occurrences": 3,
+          "cefr_level": "B2"
+        },
+        {
+          "word": "telling",
+          "occurrences": 1,
+          "cefr_level": "B2"
+        },
+        {
+          "word": "saying",
+          "occurrences": 1,
+          "cefr_level": "A1"
+        }
+      ],
+      "member_count": 4,
+      "total_occurrences": 11,
+      "avg_cefr_numeric": 3.25,
+      "cefr_range": [
+        "A1",
+        "B2"
+      ]
+    }
+  ],
+  "total_families_found": 39
+}

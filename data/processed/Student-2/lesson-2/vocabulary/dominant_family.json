@@ -1,0 +1,527 @@
+{
+  "student": "Student-2",
+  "lesson": "lesson-2",
+  "generated_at": "2026-04-16T07:58:37.279482+00:00",
+  "wn_available": true,
+  "dominant_family": {
+    "root": "jump",
+    "method": "wordnet",
+    "members": [
+      {
+        "word": "start",
+        "occurrences": 7,
+        "cefr_level": "B2"
+      },
+      {
+        "word": "part",
+        "occurrences": 5,
+        "cefr_level": "A2"
+      },
+      {
+        "word": "jump",
+        "occurrences": 3,
+        "cefr_level": "A2"
+      },
+      {
+        "word": "started",
+        "occurrences": 1,
+        "cefr_level": "B2"
+      },
+      {
+        "word": "parts",
+        "occurrences": 1,
+        "cefr_level": "A1"
+      },
+      {
+        "word": "jumps",
+        "occurrences": 1,
+        "cefr_level": "B2"
+      },
+      {
+        "word": "jumping",
+        "occurrences": 1,
+        "cefr_level": "B1"
+      },
+      {
+        "word": "jumped",
+        "occurrences": 1,
+        "cefr_level": "B2"
+      }
+    ],
+    "member_count": 8,
+    "total_occurrences": 20,
+    "avg_cefr_numeric": 3.0,
+    "cefr_range": [
+      "A1",
+      "B2"
+    ]
+  },
+  "top_families": [
+    {
+      "root": "jump",
+      "method": "wordnet",
+      "members": [
+        {
+          "word": "start",
+          "occurrences": 7,
+          "cefr_level": "B2"
+        },
+        {
+          "word": "part",
+          "occurrences": 5,
+          "cefr_level": "A2"
+        },
+        {
+          "word": "jump",
+          "occurrences": 3,
+          "cefr_level": "A2"
+        },
+        {
+          "word": "started",
+          "occurrences": 1,
+          "cefr_level": "B2"
+        },
+        {
+          "word": "parts",
+          "occurrences": 1,
+          "cefr_level": "A1"
+        },
+        {
+          "word": "jumps",
+          "occurrences": 1,
+          "cefr_level": "B2"
+        },
+        {
+          "word": "jumping",
+          "occurrences": 1,
+          "cefr_level": "B1"
+        },
+        {
+          "word": "jumped",
+          "occurrences": 1,
+          "cefr_level": "B2"
+        }
+      ],
+      "member_count": 8,
+      "total_occurrences": 20,
+      "avg_cefr_numeric": 3.0,
+      "cefr_range": [
+        "A1",
+        "B2"
+      ]
+    },
+    {
+      "root": "jump",
+      "method": "wordnet",
+      "members": [
+        {
+          "word": "start",
+          "occurrences": 7,
+          "cefr_level": "B2"
+        },
+        {
+          "word": "parachute",
+          "occurrences": 6,
+          "cefr_level": "B2"
+        },
+        {
+          "word": "jump",
+          "occurrences": 3,
+          "cefr_level": "A2"
+        },
+        {
+          "word": "started",
+          "occurrences": 1,
+          "cefr_level": "B2"
+        },
+        {
+          "word": "jumps",
+          "occurrences": 1,
+          "cefr_level": "B2"
+        },
+        {
+          "word": "jumping",
+          "occurrences": 1,
+          "cefr_level": "B1"
+        },
+        {
+          "word": "jumped",
+          "occurrences": 1,
+          "cefr_level": "B2"
+        }
+      ],
+      "member_count": 7,
+      "total_occurrences": 20,
+      "avg_cefr_numeric": 3.57,
+      "cefr_range": [
+        "A2",
+        "B2"
+      ]
+    },
+    {
+      "root": "get",
+      "method": "wordnet",
+      "members": [
+        {
+          "word": "start",
+          "occurrences": 7,
+          "cefr_level": "B2"
+        },
+        {
+          "word": "getting",
+          "occurrences": 6,
+          "cefr_level": "A2"
+        },
+        {
+          "word": "catch",
+          "occurrences": 3,
+          "cefr_level": "B2"
+        },
+        {
+          "word": "coming",
+          "occurrences": 1,
+          "cefr_level": "B2"
+        },
+        {
+          "word": "experience",
+          "occurrences": 1,
+          "cefr_level": "B1"
+        },
+        {
+          "word": "started",
+          "occurrences": 1,
+          "cefr_level": "B2"
+        },
+        {
+          "word": "gets",
+          "occurrences": 1,
+          "cefr_level": "A1"
+        }
+      ],
+      "member_count": 7,
+      "total_occurrences": 20,
+      "avg_cefr_numeric": 3.14,
+      "cefr_range": [
+        "A1",
+        "B2"
+      ]
+    },
+    {
+      "root": "direct",
+      "method": "wordnet",
+      "members": [
+        {
+          "word": "line",
+          "occurrences": 4,
+          "cefr_level": "B2"
+        },
+        {
+          "word": "direct",
+          "occurrences": 4,
+          "cefr_level": "C1"
+        },
+        {
+          "word": "place",
+          "occurrences": 3,
+          "cefr_level": "B2"
+        },
+        {
+          "word": "head",
+          "occurrences": 2,
+          "cefr_level": "B2"
+        },
+        {
+          "word": "lines",
+          "occurrences": 2,
+          "cefr_level": "B2"
+        },
+        {
+          "word": "steering",
+          "occurrences": 2,
+          "cefr_level": "B2"
+        },
+        {
+          "word": "organization",
+          "occurrences": 1,
+          "cefr_level": "C2"
+        }
+      ],
+      "member_count": 7,
+      "total_occurrences": 18,
+      "avg_cefr_numeric": 4.43,
+      "cefr_range": [
+        "B2",
+        "C2"
+      ]
+    },
+    {
+      "root": "use",
+      "method": "wordnet",
+      "members": [
+        {
+          "word": "using",
+          "occurrences": 4,
+          "cefr_level": "A1"
+        },
+        {
+          "word": "practice",
+          "occurrences": 3,
+          "cefr_level": "A1"
+        },
+        {
+          "word": "use",
+          "occurrences": 2,
+          "cefr_level": "A2"
+        },
+        {
+          "word": "enjoy",
+          "occurrences": 2,
+          "cefr_level": "A1"
+        },
+        {
+          "word": "practiced",
+          "occurrences": 1,
+          "cefr_level": "A1"
+        },
+        {
+          "word": "enjoyed",
+          "occurrences": 1,
+          "cefr_level": "A1"
+        },
+        {
+          "word": "used",
+          "occurrences": 1,
+          "cefr_level": "B1"
+        }
+      ],
+      "member_count": 7,
+      "total_occurrences": 14,
+      "avg_cefr_numeric": 1.43,
+      "cefr_range": [
+        "A1",
+        "B1"
+      ]
+    },
+    {
+      "root": "move",
+      "method": "wordnet",
+      "members": [
+        {
+          "word": "going",
+          "occurrences": 4,
+          "cefr_level": "B2"
+        },
+        {
+          "word": "move",
+          "occurrences": 3,
+          "cefr_level": "A2"
+        },
+        {
+          "word": "gone",
+          "occurrences": 1,
+          "cefr_level": "B1"
+        },
+        {
+          "word": "moving",
+          "occurrences": 1,
+          "cefr_level": "A2"
+        },
+        {
+          "word": "movement",
+          "occurrences": 1,
+          "cefr_level": "C1"
+        },
+        {
+          "word": "run",
+          "occurrences": 1,
+          "cefr_level": "B1"
+        },
+        {
+          "word": "acting",
+          "occurrences": 1,
+          "cefr_level": "B2"
+        }
+      ],
+      "member_count": 7,
+      "total_occurrences": 12,
+      "avg_cefr_numeric": 3.29,
+      "cefr_range": [
+        "A2",
+        "C1"
+      ]
+    },
+    {
+      "root": "cover",
+      "method": "wordnet",
+      "members": [
+        {
+          "word": "back",
+          "occurrences": 10,
+          "cefr_level": "B1"
+        },
+        {
+          "word": "tracking",
+          "occurrences": 5,
+          "cefr_level": "B2"
+        },
+        {
+          "word": "track",
+          "occurrences": 1,
+          "cefr_level": "B2"
+        },
+        {
+          "word": "screen",
+          "occurrences": 1,
+          "cefr_level": "A2"
+        },
+        {
+          "word": "covers",
+          "occurrences": 1,
+          "cefr_level": "B1"
+        },
+        {
+          "word": "covered",
+          "occurrences": 1,
+          "cefr_level": "A2"
+        }
+      ],
+      "member_count": 6,
+      "total_occurrences": 19,
+      "avg_cefr_numeric": 3.0,
+      "cefr_range": [
+        "A2",
+        "B2"
+      ]
+    },
+    {
+      "root": "stop",
+      "method": "wordnet",
+      "members": [
+        {
+          "word": "stops",
+          "occurrences": 5,
+          "cefr_level": "B1"
+        },
+        {
+          "word": "catch",
+          "occurrences": 3,
+          "cefr_level": "B2"
+        },
+        {
+          "word": "stop",
+          "occurrences": 2,
+          "cefr_level": "B1"
+        },
+        {
+          "word": "watched",
+          "occurrences": 1,
+          "cefr_level": "A1"
+        },
+        {
+          "word": "watch",
+          "occurrences": 1,
+          "cefr_level": "A1"
+        },
+        {
+          "word": "watching",
+          "occurrences": 1,
+          "cefr_level": "A1"
+        }
+      ],
+      "member_count": 6,
+      "total_occurrences": 13,
+      "avg_cefr_numeric": 2.17,
+      "cefr_range": [
+        "A1",
+        "B2"
+      ]
+    },
+    {
+      "root": "feel",
+      "method": "wordnet",
+      "members": [
+        {
+          "word": "feel",
+          "occurrences": 3,
+          "cefr_level": "B1"
+        },
+        {
+          "word": "looks",
+          "occurrences": 3,
+          "cefr_level": "B1"
+        },
+        {
+          "word": "look",
+          "occurrences": 2,
+          "cefr_level": "B1"
+        },
+        {
+          "word": "looking",
+          "occurrences": 2,
+          "cefr_level": "A1"
+        },
+        {
+          "word": "feeling",
+          "occurrences": 2,
+          "cefr_level": "B1"
+        },
+        {
+          "word": "experience",
+          "occurrences": 1,
+          "cefr_level": "B1"
+        }
+      ],
+      "member_count": 6,
+      "total_occurrences": 13,
+      "avg_cefr_numeric": 2.67,
+      "cefr_range": [
+        "A1",
+        "B1"
+      ]
+    },
+    {
+      "root": "move",
+      "method": "wordnet",
+      "members": [
+        {
+          "word": "going",
+          "occurrences": 4,
+          "cefr_level": "B2"
+        },
+        {
+          "word": "move",
+          "occurrences": 3,
+          "cefr_level": "A2"
+        },
+        {
+          "word": "gone",
+          "occurrences": 1,
+          "cefr_level": "B1"
+        },
+        {
+          "word": "moving",
+          "occurrences": 1,
+          "cefr_level": "A2"
+        },
+        {
+          "word": "movement",
+          "occurrences": 1,
+          "cefr_level": "C1"
+        },
+        {
+          "word": "run",
+          "occurrences": 1,
+          "cefr_level": "B1"
+        }
+      ],
+      "member_count": 6,
+      "total_occurrences": 11,
+      "avg_cefr_numeric": 3.17,
+      "cefr_range": [
+        "A2",
+        "C1"
+      ]
+    }
+  ],
+  "total_families_found": 142
+}

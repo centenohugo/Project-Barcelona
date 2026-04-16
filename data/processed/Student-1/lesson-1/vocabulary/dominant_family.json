@@ -1,0 +1,377 @@
+{
+  "student": "Student-1",
+  "lesson": "lesson-1",
+  "generated_at": "2026-04-16T07:58:29.341733+00:00",
+  "wn_available": true,
+  "dominant_family": {
+    "root": "call",
+    "method": "wordnet",
+    "members": [
+      {
+        "word": "named",
+        "occurrences": 7,
+        "cefr_level": "B1"
+      },
+      {
+        "word": "name",
+        "occurrences": 4,
+        "cefr_level": "B1"
+      },
+      {
+        "word": "phone",
+        "occurrences": 3,
+        "cefr_level": "A2"
+      },
+      {
+        "word": "sing",
+        "occurrences": 1,
+        "cefr_level": "A1"
+      },
+      {
+        "word": "calling",
+        "occurrences": 1,
+        "cefr_level": "A2"
+      },
+      {
+        "word": "visits",
+        "occurrences": 1,
+        "cefr_level": "B1"
+      }
+    ],
+    "member_count": 6,
+    "total_occurrences": 17,
+    "avg_cefr_numeric": 2.33,
+    "cefr_range": [
+      "A1",
+      "B1"
+    ]
+  },
+  "top_families": [
+    {
+      "root": "call",
+      "method": "wordnet",
+      "members": [
+        {
+          "word": "named",
+          "occurrences": 7,
+          "cefr_level": "B1"
+        },
+        {
+          "word": "name",
+          "occurrences": 4,
+          "cefr_level": "B1"
+        },
+        {
+          "word": "phone",
+          "occurrences": 3,
+          "cefr_level": "A2"
+        },
+        {
+          "word": "sing",
+          "occurrences": 1,
+          "cefr_level": "A1"
+        },
+        {
+          "word": "calling",
+          "occurrences": 1,
+          "cefr_level": "A2"
+        },
+        {
+          "word": "visits",
+          "occurrences": 1,
+          "cefr_level": "B1"
+        }
+      ],
+      "member_count": 6,
+      "total_occurrences": 17,
+      "avg_cefr_numeric": 2.33,
+      "cefr_range": [
+        "A1",
+        "B1"
+      ]
+    },
+    {
+      "root": "see",
+      "method": "wordnet",
+      "members": [
+        {
+          "word": "see",
+          "occurrences": 4,
+          "cefr_level": "A2"
+        },
+        {
+          "word": "meet",
+          "occurrences": 2,
+          "cefr_level": "B1"
+        },
+        {
+          "word": "watched",
+          "occurrences": 1,
+          "cefr_level": "A1"
+        },
+        {
+          "word": "watch",
+          "occurrences": 1,
+          "cefr_level": "A1"
+        },
+        {
+          "word": "understand",
+          "occurrences": 1,
+          "cefr_level": "B1"
+        },
+        {
+          "word": "watching",
+          "occurrences": 1,
+          "cefr_level": "A1"
+        }
+      ],
+      "member_count": 6,
+      "total_occurrences": 10,
+      "avg_cefr_numeric": 1.83,
+      "cefr_range": [
+        "A1",
+        "B1"
+      ]
+    },
+    {
+      "root": "friend",
+      "method": "wordnet",
+      "members": [
+        {
+          "word": "friends",
+          "occurrences": 10,
+          "cefr_level": "A1"
+        },
+        {
+          "word": "friend",
+          "occurrences": 4,
+          "cefr_level": "A1"
+        },
+        {
+          "word": "friendly",
+          "occurrences": 1,
+          "cefr_level": "B2"
+        },
+        {
+          "word": "admire",
+          "occurrences": 1,
+          "cefr_level": "B1"
+        }
+      ],
+      "member_count": 4,
+      "total_occurrences": 16,
+      "avg_cefr_numeric": 2.25,
+      "cefr_range": [
+        "A1",
+        "B2"
+      ]
+    },
+    {
+      "root": "made",
+      "method": "wordnet",
+      "members": [
+        {
+          "word": "named",
+          "occurrences": 7,
+          "cefr_level": "B1"
+        },
+        {
+          "word": "name",
+          "occurrences": 4,
+          "cefr_level": "B1"
+        },
+        {
+          "word": "made",
+          "occurrences": 1,
+          "cefr_level": "A2"
+        },
+        {
+          "word": "cook",
+          "occurrences": 1,
+          "cefr_level": "A2"
+        }
+      ],
+      "member_count": 4,
+      "total_occurrences": 13,
+      "avg_cefr_numeric": 2.5,
+      "cefr_range": [
+        "A2",
+        "B1"
+      ]
+    },
+    {
+      "root": "know",
+      "method": "wordnet",
+      "members": [
+        {
+          "word": "know",
+          "occurrences": 4,
+          "cefr_level": "A2"
+        },
+        {
+          "word": "bed",
+          "occurrences": 3,
+          "cefr_level": "A1"
+        },
+        {
+          "word": "loves",
+          "occurrences": 3,
+          "cefr_level": "A1"
+        },
+        {
+          "word": "love",
+          "occurrences": 1,
+          "cefr_level": "A1"
+        }
+      ],
+      "member_count": 4,
+      "total_occurrences": 11,
+      "avg_cefr_numeric": 1.25,
+      "cefr_range": [
+        "A1",
+        "A2"
+      ]
+    },
+    {
+      "root": "friend",
+      "method": "wordnet",
+      "members": [
+        {
+          "word": "friends",
+          "occurrences": 10,
+          "cefr_level": "A1"
+        },
+        {
+          "word": "friend",
+          "occurrences": 4,
+          "cefr_level": "A1"
+        },
+        {
+          "word": "friendly",
+          "occurrences": 1,
+          "cefr_level": "B2"
+        }
+      ],
+      "member_count": 3,
+      "total_occurrences": 15,
+      "avg_cefr_numeric": 2.0,
+      "cefr_range": [
+        "A1",
+        "B2"
+      ]
+    },
+    {
+      "root": "teach",
+      "method": "wordnet",
+      "members": [
+        {
+          "word": "teacher",
+          "occurrences": 7,
+          "cefr_level": "A1"
+        },
+        {
+          "word": "teaches",
+          "occurrences": 1,
+          "cefr_level": "A2"
+        },
+        {
+          "word": "teachers",
+          "occurrences": 1,
+          "cefr_level": "A1"
+        }
+      ],
+      "member_count": 3,
+      "total_occurrences": 9,
+      "avg_cefr_numeric": 1.33,
+      "cefr_range": [
+        "A1",
+        "A2"
+      ]
+    },
+    {
+      "root": "family",
+      "method": "wordnet",
+      "members": [
+        {
+          "word": "class",
+          "occurrences": 4,
+          "cefr_level": "A1"
+        },
+        {
+          "word": "home",
+          "occurrences": 3,
+          "cefr_level": "B2"
+        },
+        {
+          "word": "family",
+          "occurrences": 1,
+          "cefr_level": "A1"
+        }
+      ],
+      "member_count": 3,
+      "total_occurrences": 8,
+      "avg_cefr_numeric": 2.0,
+      "cefr_range": [
+        "A1",
+        "B2"
+      ]
+    },
+    {
+      "root": "bed",
+      "method": "wordnet",
+      "members": [
+        {
+          "word": "bed",
+          "occurrences": 3,
+          "cefr_level": "A1"
+        },
+        {
+          "word": "loves",
+          "occurrences": 3,
+          "cefr_level": "A1"
+        },
+        {
+          "word": "love",
+          "occurrences": 1,
+          "cefr_level": "A1"
+        }
+      ],
+      "member_count": 3,
+      "total_occurrences": 7,
+      "avg_cefr_numeric": 1.0,
+      "cefr_range": [
+        "A1",
+        "A1"
+      ]
+    },
+    {
+      "root": "study",
+      "method": "wordnet",
+      "members": [
+        {
+          "word": "student",
+          "occurrences": 5,
+          "cefr_level": "A1"
+        },
+        {
+          "word": "students",
+          "occurrences": 1,
+          "cefr_level": "C1"
+        },
+        {
+          "word": "study",
+          "occurrences": 1,
+          "cefr_level": "A1"
+        }
+      ],
+      "member_count": 3,
+      "total_occurrences": 7,
+      "avg_cefr_numeric": 2.33,
+      "cefr_range": [
+        "A1",
+        "C1"
+      ]
+    }
+  ],
+  "total_families_found": 48
+}

@@ -1,0 +1,53 @@
+{
+  "source": "Data/Student-1/lesson-1/",
+  "student": "Student-1",
+  "lesson": "lesson-1",
+  "partition_method": "ai_context_chunker_v14",
+  "paragraphs": [
+    {
+      "paragraph_id": 1,
+      "label": "Greetings and practicing relative clauses with who and which",
+      "conversation_boolean": true,
+      "word_start_id": 1,
+      "word_end_id": 276,
+      "text": "Hello? Hello? Fine. Fine. Fine. Thanks. Marcos, how are you? Very good. Very good. I had a good time with my friends. Very, very, very good. Okay. Okay. I remember. I remember. Okay. Okay. Okay. My my my mistake. Okay. Okay. Okay. X. Okay. Okay. K. The teacher who teaches, us, Mauve, is very kind. I have a friend have a friend who loves to play soccer. The book, which the book, which I bought from the library's fantastic. Fascinating. She is the artist who paint the beautiful Mora Decade, which I bought last year. It's very fast. There are many students who study hard for the Erics and the movie which, we watched last night. Eric is the 1 who helped me with my work, the flowers, which are in the garden blooming beautiful. The new the music who performed the con concert is very talented. And then which right. Supreme, the woman who lives next star is a doctor. This is the restaurant witch. That's the best bit. So in town, the dog, which barks loudly, belongs to my neighbor, the teacher who I admire the most is selecting Zoom, the laptop which I use for work is quite odd. She is the 1 she is the 1 who I can stay even in painting, which was displayed in the settings. That's that's who participates in the the book, which is the person who I made at the conference, the movie, which I want to see is coming out next week. It's a good which, the children who play in the park and the and the smartphone, which I bought as a great camera.",
+      "sentences": []
+    },
+    {
+      "paragraph_id": 2,
+      "label": "Practicing relative clauses with who and which",
+      "conversation_boolean": true,
+      "word_start_id": 277,
+      "word_end_id": 476,
+      "text": "Thank you. Thank you. Thank you. Hello? Yeah. Mhmm. Yeah. Yeah. Yeah. Yeah. I understand. Yeah. Okay. Okay. Give me moment because, I don't have, I don't have, to write, you know, paper. Okay. Okay. Okay. Okay. Hello. My name my name is, Joanna. I'm a student. He's Russell. He he he's Russell. He's a student. Russell and I Russell and I are classmate. We, classmates. Classmates. Classmates. Classmates. Classmates. Classmates. Mhmm. Class are classmates. We are friends. Emma and Sally are my friends. They, they they are English teachers. Hello. My name is Emma. I am from the UK. My parents are Indian. I'm from the I am from the UK. My parents, are India. What is Mary? She is from France. She is, she is, from France because she's French. She's French. Mhmm. My grandparents love my baby sister. My sister is, is young. My grandparent my grandparents are old. Tim has a great family. His parents, his parents are nice. His brother is funny. His sister is, kind. Look at the sheets. Direct sheets is, shirts. Look at the look at the shirts. The red shirts is, is small. The blue shirts is, is Okay. Okay. Correct.",
+      "sentences": []
+    },
+    {
+      "paragraph_id": 3,
+      "label": "Practicing negative sentences with verb to be",
+      "conversation_boolean": true,
+      "word_start_id": 477,
+      "word_end_id": 681,
+      "text": "That's right. Right. Right. Right. Right. Right. Right. Mhmm. Right. Right. Mhmm. Okay. Okay. Okay. Today, I today, I'm tired. I want to sleep. My bed my bed is nice and, my bed is nice and, and, warm. I'm not, I'm not a student. I I'm not. Yeah. I okay. Okay. Okay. I'm a student. I'm a student. I'm not, I'm not a teacher. Oh, I I'm not a teacher. Oh, such a teacher. I'm not a teacher. Oh, I'm not a teacher. This is Sarah. We aren't we aren't we aren't sisters. We we are friends. Hi. My name my name's Jack. I'm from new New Zealand. Australia is isn't, my country. Oh, no? Australia is ah, Australia is not my country. Australia is So yeah. It's not my country. It is Okay. Isn't my country? Okay. Max is a good doc. He is He's he's not my dog. He He isn't. He isn't my dog. He is my brother's dog. Case. They they Tina and Ben, they are, they are American. They they are British. Yeah. They're British. Are you Peter? No. I'm not Peter. No. He isn't. Isn't French. American, no. He isn't French. Australian. Yes. You are ready. It time, Eddy.",
+      "sentences": []
+    },
+    {
+      "paragraph_id": 9,
+      "label": "Practicing prepositions of time with birthday plans",
+      "conversation_boolean": true,
+      "word_start_id": 1719,
+      "word_end_id": 1816,
+      "text": "Okay. Okay. Let's go for lunch on your birthday. It's it's it's it's well, on Monday. Right. Okay. Okay. My birthday is, it's on Monday too. It's in in January. Okay. It's, on January. Okay. In January. Okay. In January, it's not a great time for a birthday. It is difficult to have a birthday in January. Winter, it's normally cold. In winter, it's normally cold, but we will have fun, but we will have fun in your on birthday on your birthday. Okay. Not sure where you know. Let's meet, let's meet at 1PM in the restaurant.",
+      "sentences": []
+    },
+    {
+      "paragraph_id": 10,
+      "label": "Closing the class",
+      "conversation_boolean": true,
+      "word_start_id": 1817,
+      "word_end_id": 1856,
+      "text": "We were born, we were born, in. Okay. See you see you, in lunchtime. No. At at okay. That's a bit of the feature. On Monday, I will bring your Okay. Yep. Subject subject Can be. Uh-huh. Yeah. We yeah.",
+      "sentences": []
+    }
+  ]
+}

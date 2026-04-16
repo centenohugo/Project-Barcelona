@@ -1,0 +1,577 @@
+{
+  "student": "Student-2",
+  "lesson": "lesson-1",
+  "generated_at": "2026-04-16T07:58:35.660996+00:00",
+  "wn_available": true,
+  "dominant_family": {
+    "root": "back",
+    "method": "wordnet",
+    "members": [
+      {
+        "word": "second",
+        "occurrences": 15,
+        "cefr_level": "A2"
+      },
+      {
+        "word": "support",
+        "occurrences": 4,
+        "cefr_level": "B2"
+      },
+      {
+        "word": "back",
+        "occurrences": 3,
+        "cefr_level": "C2"
+      },
+      {
+        "word": "cover",
+        "occurrences": 2,
+        "cefr_level": "B1"
+      },
+      {
+        "word": "supported",
+        "occurrences": 2,
+        "cefr_level": "B2"
+      },
+      {
+        "word": "stake",
+        "occurrences": 1,
+        "cefr_level": "B2"
+      },
+      {
+        "word": "supporting",
+        "occurrences": 1,
+        "cefr_level": "C2"
+      },
+      {
+        "word": "covering",
+        "occurrences": 1,
+        "cefr_level": "B1"
+      },
+      {
+        "word": "game",
+        "occurrences": 1,
+        "cefr_level": "A2"
+      },
+      {
+        "word": "supports",
+        "occurrences": 1,
+        "cefr_level": "C1"
+      },
+      {
+        "word": "covered",
+        "occurrences": 1,
+        "cefr_level": "A2"
+      }
+    ],
+    "member_count": 11,
+    "total_occurrences": 32,
+    "avg_cefr_numeric": 3.73,
+    "cefr_range": [
+      "A2",
+      "C2"
+    ]
+  },
+  "top_families": [
+    {
+      "root": "back",
+      "method": "wordnet",
+      "members": [
+        {
+          "word": "second",
+          "occurrences": 15,
+          "cefr_level": "A2"
+        },
+        {
+          "word": "support",
+          "occurrences": 4,
+          "cefr_level": "B2"
+        },
+        {
+          "word": "back",
+          "occurrences": 3,
+          "cefr_level": "C2"
+        },
+        {
+          "word": "cover",
+          "occurrences": 2,
+          "cefr_level": "B1"
+        },
+        {
+          "word": "supported",
+          "occurrences": 2,
+          "cefr_level": "B2"
+        },
+        {
+          "word": "stake",
+          "occurrences": 1,
+          "cefr_level": "B2"
+        },
+        {
+          "word": "supporting",
+          "occurrences": 1,
+          "cefr_level": "C2"
+        },
+        {
+          "word": "covering",
+          "occurrences": 1,
+          "cefr_level": "B1"
+        },
+        {
+          "word": "game",
+          "occurrences": 1,
+          "cefr_level": "A2"
+        },
+        {
+          "word": "supports",
+          "occurrences": 1,
+          "cefr_level": "C1"
+        },
+        {
+          "word": "covered",
+          "occurrences": 1,
+          "cefr_level": "A2"
+        }
+      ],
+      "member_count": 11,
+      "total_occurrences": 32,
+      "avg_cefr_numeric": 3.73,
+      "cefr_range": [
+        "A2",
+        "C2"
+      ]
+    },
+    {
+      "root": "last",
+      "method": "wordnet",
+      "members": [
+        {
+          "word": "end",
+          "occurrences": 8,
+          "cefr_level": "A2"
+        },
+        {
+          "word": "last",
+          "occurrences": 5,
+          "cefr_level": "B1"
+        },
+        {
+          "word": "close",
+          "occurrences": 3,
+          "cefr_level": "C2"
+        },
+        {
+          "word": "closer",
+          "occurrences": 3,
+          "cefr_level": "A1"
+        },
+        {
+          "word": "die",
+          "occurrences": 2,
+          "cefr_level": "A1"
+        },
+        {
+          "word": "dying",
+          "occurrences": 2,
+          "cefr_level": "A1"
+        },
+        {
+          "word": "final",
+          "occurrences": 1,
+          "cefr_level": "B1"
+        },
+        {
+          "word": "died",
+          "occurrences": 1,
+          "cefr_level": "A1"
+        }
+      ],
+      "member_count": 8,
+      "total_occurrences": 25,
+      "avg_cefr_numeric": 2.25,
+      "cefr_range": [
+        "A1",
+        "C2"
+      ]
+    },
+    {
+      "root": "saw",
+      "method": "wordnet",
+      "members": [
+        {
+          "word": "experience",
+          "occurrences": 5,
+          "cefr_level": "B1"
+        },
+        {
+          "word": "see",
+          "occurrences": 3,
+          "cefr_level": "A2"
+        },
+        {
+          "word": "experiences",
+          "occurrences": 2,
+          "cefr_level": "B1"
+        },
+        {
+          "word": "picture",
+          "occurrences": 2,
+          "cefr_level": "C2"
+        },
+        {
+          "word": "meetings",
+          "occurrences": 1,
+          "cefr_level": "A2"
+        },
+        {
+          "word": "understands",
+          "occurrences": 1,
+          "cefr_level": "C2"
+        },
+        {
+          "word": "saw",
+          "occurrences": 1,
+          "cefr_level": "B1"
+        },
+        {
+          "word": "watching",
+          "occurrences": 1,
+          "cefr_level": "A1"
+        }
+      ],
+      "member_count": 8,
+      "total_occurrences": 16,
+      "avg_cefr_numeric": 3.25,
+      "cefr_range": [
+        "A1",
+        "C2"
+      ]
+    },
+    {
+      "root": "send",
+      "method": "wordnet",
+      "members": [
+        {
+          "word": "sending",
+          "occurrences": 3,
+          "cefr_level": "A1"
+        },
+        {
+          "word": "air",
+          "occurrences": 2,
+          "cefr_level": "B1"
+        },
+        {
+          "word": "place",
+          "occurrences": 1,
+          "cefr_level": "A2"
+        },
+        {
+          "word": "send",
+          "occurrences": 1,
+          "cefr_level": "B2"
+        },
+        {
+          "word": "mails",
+          "occurrences": 1,
+          "cefr_level": "B1"
+        },
+        {
+          "word": "ships",
+          "occurrences": 1,
+          "cefr_level": "A2"
+        },
+        {
+          "word": "mail",
+          "occurrences": 1,
+          "cefr_level": "B1"
+        },
+        {
+          "word": "post",
+          "occurrences": 1,
+          "cefr_level": "A2"
+        }
+      ],
+      "member_count": 8,
+      "total_occurrences": 11,
+      "avg_cefr_numeric": 2.5,
+      "cefr_range": [
+        "A1",
+        "B2"
+      ]
+    },
+    {
+      "root": "see",
+      "method": "wordnet",
+      "members": [
+        {
+          "word": "experience",
+          "occurrences": 5,
+          "cefr_level": "B1"
+        },
+        {
+          "word": "see",
+          "occurrences": 3,
+          "cefr_level": "A2"
+        },
+        {
+          "word": "experiences",
+          "occurrences": 2,
+          "cefr_level": "B1"
+        },
+        {
+          "word": "picture",
+          "occurrences": 2,
+          "cefr_level": "C2"
+        },
+        {
+          "word": "meetings",
+          "occurrences": 1,
+          "cefr_level": "A2"
+        },
+        {
+          "word": "understands",
+          "occurrences": 1,
+          "cefr_level": "C2"
+        },
+        {
+          "word": "watching",
+          "occurrences": 1,
+          "cefr_level": "A1"
+        }
+      ],
+      "member_count": 7,
+      "total_occurrences": 15,
+      "avg_cefr_numeric": 3.29,
+      "cefr_range": [
+        "A1",
+        "C2"
+      ]
+    },
+    {
+      "root": "make",
+      "method": "wordnet",
+      "members": [
+        {
+          "word": "build",
+          "occurrences": 3,
+          "cefr_level": "A2"
+        },
+        {
+          "word": "building",
+          "occurrences": 1,
+          "cefr_level": "A2"
+        },
+        {
+          "word": "make",
+          "occurrences": 1,
+          "cefr_level": "C1"
+        },
+        {
+          "word": "products",
+          "occurrences": 1,
+          "cefr_level": "B1"
+        },
+        {
+          "word": "reached",
+          "occurrences": 1,
+          "cefr_level": "B2"
+        },
+        {
+          "word": "name",
+          "occurrences": 1,
+          "cefr_level": "B2"
+        },
+        {
+          "word": "reaching",
+          "occurrences": 1,
+          "cefr_level": "B2"
+        }
+      ],
+      "member_count": 7,
+      "total_occurrences": 9,
+      "avg_cefr_numeric": 3.43,
+      "cefr_range": [
+        "A2",
+        "C1"
+      ]
+    },
+    {
+      "root": "send",
+      "method": "wordnet",
+      "members": [
+        {
+          "word": "sending",
+          "occurrences": 3,
+          "cefr_level": "A1"
+        },
+        {
+          "word": "stake",
+          "occurrences": 1,
+          "cefr_level": "B2"
+        },
+        {
+          "word": "place",
+          "occurrences": 1,
+          "cefr_level": "A2"
+        },
+        {
+          "word": "send",
+          "occurrences": 1,
+          "cefr_level": "B2"
+        },
+        {
+          "word": "mails",
+          "occurrences": 1,
+          "cefr_level": "B1"
+        },
+        {
+          "word": "mail",
+          "occurrences": 1,
+          "cefr_level": "B1"
+        },
+        {
+          "word": "post",
+          "occurrences": 1,
+          "cefr_level": "A2"
+        }
+      ],
+      "member_count": 7,
+      "total_occurrences": 9,
+      "avg_cefr_numeric": 2.71,
+      "cefr_range": [
+        "A1",
+        "B2"
+      ]
+    },
+    {
+      "root": "knew",
+      "method": "wordnet",
+      "members": [
+        {
+          "word": "know",
+          "occurrences": 100,
+          "cefr_level": "B1"
+        },
+        {
+          "word": "experience",
+          "occurrences": 5,
+          "cefr_level": "B1"
+        },
+        {
+          "word": "fuck",
+          "occurrences": 3,
+          "cefr_level": "C2"
+        },
+        {
+          "word": "experiences",
+          "occurrences": 2,
+          "cefr_level": "B1"
+        },
+        {
+          "word": "knew",
+          "occurrences": 1,
+          "cefr_level": "A2"
+        },
+        {
+          "word": "known",
+          "occurrences": 1,
+          "cefr_level": "A2"
+        }
+      ],
+      "member_count": 6,
+      "total_occurrences": 112,
+      "avg_cefr_numeric": 3.17,
+      "cefr_range": [
+        "A2",
+        "C2"
+      ]
+    },
+    {
+      "root": "end",
+      "method": "wordnet",
+      "members": [
+        {
+          "word": "end",
+          "occurrences": 8,
+          "cefr_level": "A2"
+        },
+        {
+          "word": "close",
+          "occurrences": 3,
+          "cefr_level": "C2"
+        },
+        {
+          "word": "closer",
+          "occurrences": 3,
+          "cefr_level": "A1"
+        },
+        {
+          "word": "die",
+          "occurrences": 2,
+          "cefr_level": "A1"
+        },
+        {
+          "word": "dying",
+          "occurrences": 2,
+          "cefr_level": "A1"
+        },
+        {
+          "word": "died",
+          "occurrences": 1,
+          "cefr_level": "A1"
+        }
+      ],
+      "member_count": 6,
+      "total_occurrences": 19,
+      "avg_cefr_numeric": 2.0,
+      "cefr_range": [
+        "A1",
+        "C2"
+      ]
+    },
+    {
+      "root": "support",
+      "method": "wordnet",
+      "members": [
+        {
+          "word": "friend",
+          "occurrences": 6,
+          "cefr_level": "C1"
+        },
+        {
+          "word": "support",
+          "occurrences": 4,
+          "cefr_level": "B2"
+        },
+        {
+          "word": "supported",
+          "occurrences": 2,
+          "cefr_level": "B2"
+        },
+        {
+          "word": "friends",
+          "occurrences": 1,
+          "cefr_level": "C1"
+        },
+        {
+          "word": "supporting",
+          "occurrences": 1,
+          "cefr_level": "C2"
+        },
+        {
+          "word": "supports",
+          "occurrences": 1,
+          "cefr_level": "C1"
+        }
+      ],
+      "member_count": 6,
+      "total_occurrences": 15,
+      "avg_cefr_numeric": 4.83,
+      "cefr_range": [
+        "B2",
+        "C2"
+      ]
+    }
+  ],
+  "total_families_found": 179
+}

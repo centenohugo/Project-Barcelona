@@ -1,0 +1,622 @@
+{
+  "student": "Student-1",
+  "lesson": "lesson-3",
+  "generated_at": "2026-04-16T07:58:32.724011+00:00",
+  "wn_available": true,
+  "dominant_family": {
+    "root": "saw",
+    "method": "wordnet",
+    "members": [
+      {
+        "word": "see",
+        "occurrences": 11,
+        "cefr_level": "A1"
+      },
+      {
+        "word": "check",
+        "occurrences": 4,
+        "cefr_level": "A2"
+      },
+      {
+        "word": "saw",
+        "occurrences": 4,
+        "cefr_level": "B1"
+      },
+      {
+        "word": "seeing",
+        "occurrences": 3,
+        "cefr_level": "A1"
+      },
+      {
+        "word": "image",
+        "occurrences": 1,
+        "cefr_level": "C2"
+      },
+      {
+        "word": "attention",
+        "occurrences": 1,
+        "cefr_level": "B1"
+      },
+      {
+        "word": "watch",
+        "occurrences": 1,
+        "cefr_level": "A1"
+      },
+      {
+        "word": "encounter",
+        "occurrences": 1,
+        "cefr_level": "C1"
+      },
+      {
+        "word": "encountered",
+        "occurrences": 1,
+        "cefr_level": "C1"
+      },
+      {
+        "word": "meeting",
+        "occurrences": 1,
+        "cefr_level": "B1"
+      },
+      {
+        "word": "watching",
+        "occurrences": 1,
+        "cefr_level": "A1"
+      }
+    ],
+    "member_count": 11,
+    "total_occurrences": 29,
+    "avg_cefr_numeric": 2.82,
+    "cefr_range": [
+      "A1",
+      "C2"
+    ]
+  },
+  "top_families": [
+    {
+      "root": "saw",
+      "method": "wordnet",
+      "members": [
+        {
+          "word": "see",
+          "occurrences": 11,
+          "cefr_level": "A1"
+        },
+        {
+          "word": "check",
+          "occurrences": 4,
+          "cefr_level": "A2"
+        },
+        {
+          "word": "saw",
+          "occurrences": 4,
+          "cefr_level": "B1"
+        },
+        {
+          "word": "seeing",
+          "occurrences": 3,
+          "cefr_level": "A1"
+        },
+        {
+          "word": "image",
+          "occurrences": 1,
+          "cefr_level": "C2"
+        },
+        {
+          "word": "attention",
+          "occurrences": 1,
+          "cefr_level": "B1"
+        },
+        {
+          "word": "watch",
+          "occurrences": 1,
+          "cefr_level": "A1"
+        },
+        {
+          "word": "encounter",
+          "occurrences": 1,
+          "cefr_level": "C1"
+        },
+        {
+          "word": "encountered",
+          "occurrences": 1,
+          "cefr_level": "C1"
+        },
+        {
+          "word": "meeting",
+          "occurrences": 1,
+          "cefr_level": "B1"
+        },
+        {
+          "word": "watching",
+          "occurrences": 1,
+          "cefr_level": "A1"
+        }
+      ],
+      "member_count": 11,
+      "total_occurrences": 29,
+      "avg_cefr_numeric": 2.82,
+      "cefr_range": [
+        "A1",
+        "C2"
+      ]
+    },
+    {
+      "root": "take",
+      "method": "wordnet",
+      "members": [
+        {
+          "word": "need",
+          "occurrences": 16,
+          "cefr_level": "A1"
+        },
+        {
+          "word": "read",
+          "occurrences": 4,
+          "cefr_level": "A1"
+        },
+        {
+          "word": "study",
+          "occurrences": 3,
+          "cefr_level": "A1"
+        },
+        {
+          "word": "takes",
+          "occurrences": 2,
+          "cefr_level": "C1"
+        },
+        {
+          "word": "reading",
+          "occurrences": 1,
+          "cefr_level": "A2"
+        },
+        {
+          "word": "demanding",
+          "occurrences": 1,
+          "cefr_level": "B2"
+        },
+        {
+          "word": "return",
+          "occurrences": 1,
+          "cefr_level": "C1"
+        },
+        {
+          "word": "take",
+          "occurrences": 1,
+          "cefr_level": "B2"
+        },
+        {
+          "word": "needs",
+          "occurrences": 1,
+          "cefr_level": "B1"
+        },
+        {
+          "word": "needed",
+          "occurrences": 1,
+          "cefr_level": "A1"
+        }
+      ],
+      "member_count": 10,
+      "total_occurrences": 31,
+      "avg_cefr_numeric": 2.7,
+      "cefr_range": [
+        "A1",
+        "C1"
+      ]
+    },
+    {
+      "root": "see",
+      "method": "wordnet",
+      "members": [
+        {
+          "word": "see",
+          "occurrences": 11,
+          "cefr_level": "A1"
+        },
+        {
+          "word": "check",
+          "occurrences": 4,
+          "cefr_level": "A2"
+        },
+        {
+          "word": "seeing",
+          "occurrences": 3,
+          "cefr_level": "A1"
+        },
+        {
+          "word": "image",
+          "occurrences": 1,
+          "cefr_level": "C2"
+        },
+        {
+          "word": "attention",
+          "occurrences": 1,
+          "cefr_level": "B1"
+        },
+        {
+          "word": "watch",
+          "occurrences": 1,
+          "cefr_level": "A1"
+        },
+        {
+          "word": "encounter",
+          "occurrences": 1,
+          "cefr_level": "C1"
+        },
+        {
+          "word": "encountered",
+          "occurrences": 1,
+          "cefr_level": "C1"
+        },
+        {
+          "word": "meeting",
+          "occurrences": 1,
+          "cefr_level": "B1"
+        },
+        {
+          "word": "watching",
+          "occurrences": 1,
+          "cefr_level": "A1"
+        }
+      ],
+      "member_count": 10,
+      "total_occurrences": 25,
+      "avg_cefr_numeric": 2.8,
+      "cefr_range": [
+        "A1",
+        "C2"
+      ]
+    },
+    {
+      "root": "get",
+      "method": "wordnet",
+      "members": [
+        {
+          "word": "comes",
+          "occurrences": 9,
+          "cefr_level": "B2"
+        },
+        {
+          "word": "cause",
+          "occurrences": 6,
+          "cefr_level": "B1"
+        },
+        {
+          "word": "started",
+          "occurrences": 3,
+          "cefr_level": "B2"
+        },
+        {
+          "word": "causing",
+          "occurrences": 3,
+          "cefr_level": "B1"
+        },
+        {
+          "word": "caused",
+          "occurrences": 2,
+          "cefr_level": "B1"
+        },
+        {
+          "word": "getting",
+          "occurrences": 1,
+          "cefr_level": "C1"
+        },
+        {
+          "word": "come",
+          "occurrences": 1,
+          "cefr_level": "B2"
+        },
+        {
+          "word": "start",
+          "occurrences": 1,
+          "cefr_level": "B1"
+        },
+        {
+          "word": "coming",
+          "occurrences": 1,
+          "cefr_level": "A1"
+        }
+      ],
+      "member_count": 9,
+      "total_occurrences": 27,
+      "avg_cefr_numeric": 3.33,
+      "cefr_range": [
+        "A1",
+        "C1"
+      ]
+    },
+    {
+      "root": "call",
+      "method": "wordnet",
+      "members": [
+        {
+          "word": "phone",
+          "occurrences": 11,
+          "cefr_level": "A2"
+        },
+        {
+          "word": "call",
+          "occurrences": 3,
+          "cefr_level": "A2"
+        },
+        {
+          "word": "called",
+          "occurrences": 2,
+          "cefr_level": "B1"
+        },
+        {
+          "word": "calls",
+          "occurrences": 2,
+          "cefr_level": "A2"
+        },
+        {
+          "word": "phones",
+          "occurrences": 1,
+          "cefr_level": "A2"
+        },
+        {
+          "word": "name",
+          "occurrences": 1,
+          "cefr_level": "B2"
+        },
+        {
+          "word": "calling",
+          "occurrences": 1,
+          "cefr_level": "A2"
+        },
+        {
+          "word": "named",
+          "occurrences": 1,
+          "cefr_level": "B1"
+        }
+      ],
+      "member_count": 8,
+      "total_occurrences": 22,
+      "avg_cefr_numeric": 2.5,
+      "cefr_range": [
+        "A2",
+        "B2"
+      ]
+    },
+    {
+      "root": "need",
+      "method": "wordnet",
+      "members": [
+        {
+          "word": "need",
+          "occurrences": 16,
+          "cefr_level": "A1"
+        },
+        {
+          "word": "want",
+          "occurrences": 2,
+          "cefr_level": "C2"
+        },
+        {
+          "word": "wish",
+          "occurrences": 1,
+          "cefr_level": "B1"
+        },
+        {
+          "word": "wants",
+          "occurrences": 1,
+          "cefr_level": "C2"
+        },
+        {
+          "word": "wanted",
+          "occurrences": 1,
+          "cefr_level": "A1"
+        },
+        {
+          "word": "needs",
+          "occurrences": 1,
+          "cefr_level": "B1"
+        },
+        {
+          "word": "needed",
+          "occurrences": 1,
+          "cefr_level": "A1"
+        }
+      ],
+      "member_count": 7,
+      "total_occurrences": 23,
+      "avg_cefr_numeric": 3.0,
+      "cefr_range": [
+        "A1",
+        "C2"
+      ]
+    },
+    {
+      "root": "need",
+      "method": "wordnet",
+      "members": [
+        {
+          "word": "need",
+          "occurrences": 16,
+          "cefr_level": "A1"
+        },
+        {
+          "word": "want",
+          "occurrences": 2,
+          "cefr_level": "C2"
+        },
+        {
+          "word": "demanding",
+          "occurrences": 1,
+          "cefr_level": "B2"
+        },
+        {
+          "word": "wants",
+          "occurrences": 1,
+          "cefr_level": "C2"
+        },
+        {
+          "word": "wanted",
+          "occurrences": 1,
+          "cefr_level": "A1"
+        },
+        {
+          "word": "needs",
+          "occurrences": 1,
+          "cefr_level": "B1"
+        },
+        {
+          "word": "needed",
+          "occurrences": 1,
+          "cefr_level": "A1"
+        }
+      ],
+      "member_count": 7,
+      "total_occurrences": 23,
+      "avg_cefr_numeric": 3.14,
+      "cefr_range": [
+        "A1",
+        "C2"
+      ]
+    },
+    {
+      "root": "meet",
+      "method": "wordnet",
+      "members": [
+        {
+          "word": "playing",
+          "occurrences": 6,
+          "cefr_level": "B1"
+        },
+        {
+          "word": "contact",
+          "occurrences": 2,
+          "cefr_level": "B2"
+        },
+        {
+          "word": "play",
+          "occurrences": 2,
+          "cefr_level": "A1"
+        },
+        {
+          "word": "meetings",
+          "occurrences": 1,
+          "cefr_level": "A2"
+        },
+        {
+          "word": "encounter",
+          "occurrences": 1,
+          "cefr_level": "C1"
+        },
+        {
+          "word": "encountered",
+          "occurrences": 1,
+          "cefr_level": "C1"
+        },
+        {
+          "word": "meeting",
+          "occurrences": 1,
+          "cefr_level": "B1"
+        }
+      ],
+      "member_count": 7,
+      "total_occurrences": 14,
+      "avg_cefr_numeric": 3.29,
+      "cefr_range": [
+        "A1",
+        "C1"
+      ]
+    },
+    {
+      "root": "present",
+      "method": "wordnet",
+      "members": [
+        {
+          "word": "shown",
+          "occurrences": 3,
+          "cefr_level": "C1"
+        },
+        {
+          "word": "give",
+          "occurrences": 3,
+          "cefr_level": "A1"
+        },
+        {
+          "word": "giving",
+          "occurrences": 2,
+          "cefr_level": "B1"
+        },
+        {
+          "word": "showed",
+          "occurrences": 1,
+          "cefr_level": "C1"
+        },
+        {
+          "word": "shows",
+          "occurrences": 1,
+          "cefr_level": "C1"
+        },
+        {
+          "word": "show",
+          "occurrences": 1,
+          "cefr_level": "C1"
+        },
+        {
+          "word": "present",
+          "occurrences": 1,
+          "cefr_level": "B1"
+        }
+      ],
+      "member_count": 7,
+      "total_occurrences": 12,
+      "avg_cefr_numeric": 3.86,
+      "cefr_range": [
+        "A1",
+        "C1"
+      ]
+    },
+    {
+      "root": "take",
+      "method": "wordnet",
+      "members": [
+        {
+          "word": "takes",
+          "occurrences": 2,
+          "cefr_level": "C1"
+        },
+        {
+          "word": "effect",
+          "occurrences": 1,
+          "cefr_level": "B1"
+        },
+        {
+          "word": "published",
+          "occurrences": 1,
+          "cefr_level": "B1"
+        },
+        {
+          "word": "issues",
+          "occurrences": 1,
+          "cefr_level": "B1"
+        },
+        {
+          "word": "take",
+          "occurrences": 1,
+          "cefr_level": "B2"
+        },
+        {
+          "word": "matter",
+          "occurrences": 1,
+          "cefr_level": "B2"
+        },
+        {
+          "word": "return",
+          "occurrences": 1,
+          "cefr_level": "C1"
+        }
+      ],
+      "member_count": 7,
+      "total_occurrences": 8,
+      "avg_cefr_numeric": 3.86,
+      "cefr_range": [
+        "B1",
+        "C1"
+      ]
+    }
+  ],
+  "total_families_found": 162
+}

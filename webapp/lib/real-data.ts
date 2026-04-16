@@ -36,7 +36,7 @@ export const realStudentsData: Record<string, RealStudentData> = {
       { id: 3, name: "Lesson 3" },
     ],
     scores: [
-      { lesson: "L1", overall: 20.86, grammar: 42.99, vocabulary: 23.33, fluency: 62.58 },
+      { lesson: "L1", overall: 15.81, grammar: 37.50, vocabulary: 20.00, fluency: 55.00 },
       { lesson: "L2", overall: 17.14, grammar: 39.99, vocabulary: 20.00, fluency: 57.17 },
       { lesson: "L3", overall: 23.33, grammar: 49.78, vocabulary: 27.33, fluency: 60.31 },
     ],

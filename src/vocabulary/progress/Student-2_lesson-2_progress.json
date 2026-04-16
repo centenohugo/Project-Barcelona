@@ -1,0 +1,5800 @@
+{
+  "student": "Student-2",
+  "lesson": "lesson-2",
+  "segments_analyzed": 1,
+  "flags": {
+    "is_baseline": false,
+    "partial_lesson": false,
+    "low_confidence": false
+  },
+  "tier1": {
+    "vocab_level": {
+      "score": 2.6,
+      "cefr_label": "B1",
+      "content_words_scored": 1262
+    },
+    "chunks": [
+      {
+        "paragraph_id": 1,
+        "label": "Cold weather in Poland and ice activities near Warsaw",
+        "vocab_level": {
+          "score": 1.9,
+          "cefr_label": "A2",
+          "content_words_scored": 76
+        }
+      },
+      {
+        "paragraph_id": 2,
+        "label": "Kite surfing on frozen lakes with low friction",
+        "vocab_level": {
+          "score": 2.6,
+          "cefr_label": "B1",
+          "content_words_scored": 48
+        }
+      },
+      {
+        "paragraph_id": 3,
+        "label": "Physics and dangers of kite skiing on frozen lakes",
+        "vocab_level": {
+          "score": 2.4,
+          "cefr_label": "A2",
+          "content_words_scored": 57
+        }
+      },
+      {
+        "paragraph_id": 4,
+        "label": "Ice kite surfing jumps and ice sailing description",
+        "vocab_level": {
+          "score": 2.7,
+          "cefr_label": "B1",
+          "content_words_scored": 56
+        }
+      },
+      {
+        "paragraph_id": 5,
+        "label": "Describing ice sailing sport and searching for English term",
+        "vocab_level": {
+          "score": 2.5,
+          "cefr_label": "B1",
+          "content_words_scored": 44
+        }
+      },
+      {
+        "paragraph_id": 6,
+        "label": "Ice sailing sport history in Poland and Scandinavia",
+        "vocab_level": {
+          "score": 2.3,
+          "cefr_label": "A2",
+          "content_words_scored": 52
+        }
+      },
+      {
+        "paragraph_id": 7,
+        "label": "Ice sailing sport, speeds, and son's experience trying it",
+        "vocab_level": {
+          "score": 2.5,
+          "cefr_label": "B1",
+          "content_words_scored": 60
+        }
+      },
+      {
+        "paragraph_id": 8,
+        "label": "Comparing windsurfing and kite surfing techniques and difficulty",
+        "vocab_level": {
+          "score": 2.4,
+          "cefr_label": "A2",
+          "content_words_scored": 55
+        }
+      },
+      {
+        "paragraph_id": 9,
+        "label": "Kite surfing and windsurfing recovery techniques after falling",
+        "vocab_level": {
+          "score": 2.7,
+          "cefr_label": "B1",
+          "content_words_scored": 43
+        }
+      },
+      {
+        "paragraph_id": 10,
+        "label": "Windsurfing water start technique and best spots in Poland",
+        "vocab_level": {
+          "score": 2.6,
+          "cefr_label": "B1",
+          "content_words_scored": 62
+        }
+      },
+      {
+        "paragraph_id": 11,
+        "label": "Ideal windsurfing conditions and favorite spots in Greece",
+        "vocab_level": {
+          "score": 3.0,
+          "cefr_label": "B1",
+          "content_words_scored": 52
+        }
+      },
+      {
+        "paragraph_id": 12,
+        "label": "Windsurfing spot in Rhodes with ideal wind conditions",
+        "vocab_level": {
+          "score": 2.4,
+          "cefr_label": "A2",
+          "content_words_scored": 56
+        }
+      },
+      {
+        "paragraph_id": 13,
+        "label": "Windsurfing spots in Greece and Caribbean ABC islands",
+        "vocab_level": {
+          "score": 2.6,
+          "cefr_label": "B1",
+          "content_words_scored": 62
+        }
+      },
+      {
+        "paragraph_id": 14,
+        "label": "Bonaire as a perfect windsurfing spot",
+        "vocab_level": {
+          "score": 2.6,
+          "cefr_label": "B1",
+          "content_words_scored": 60
+        }
+      },
+      {
+        "paragraph_id": 15,
+        "label": "Windsurfing spots, Bonaire conditions, and kite surfing dangers",
+        "vocab_level": {
+          "score": 2.6,
+          "cefr_label": "B1",
+          "content_words_scored": 65
+        }
+      },
+      {
+        "paragraph_id": 16,
+        "label": "Kite surfing dangers versus windsurfing control and stability",
+        "vocab_level": {
+          "score": 2.5,
+          "cefr_label": "B1",
+          "content_words_scored": 50
+        }
+      },
+      {
+        "paragraph_id": 17,
+        "label": "Comparing kite surfing and windsurfing safety and equipment",
+        "vocab_level": {
+          "score": 2.7,
+          "cefr_label": "B1",
+          "content_words_scored": 49
+        }
+      },
+      {
+        "paragraph_id": 18,
+        "label": "Safety mechanisms in kite surfing and windsurfing equipment",
+        "vocab_level": {
+          "score": 2.9,
+          "cefr_label": "B1",
+          "content_words_scored": 50
+        }
+      },
+      {
+        "paragraph_id": 19,
+        "label": "Windsurfing safety risks and life jacket dangers",
+        "vocab_level": {
+          "score": 2.8,
+          "cefr_label": "B1",
+          "content_words_scored": 49
+        }
+      },
+      {
+        "paragraph_id": 20,
+        "label": "Dangers of life jackets in windsurfing accidents",
+        "vocab_level": {
+          "score": 2.8,
+          "cefr_label": "B1",
+          "content_words_scored": 51
+        }
+      },
+      {
+        "paragraph_id": 21,
+        "label": "Dangerous windsurfing experience trapped under sail in shallow water",
+        "vocab_level": {
+          "score": 2.7,
+          "cefr_label": "B1",
+          "content_words_scored": 46
+        }
+      },
+      {
+        "paragraph_id": 22,
+        "label": "Windsurfing safety techniques and horseback riding terminology",
+        "vocab_level": {
+          "score": 2.4,
+          "cefr_label": "A2",
+          "content_words_scored": 48
+        }
+      },
+      {
+        "paragraph_id": 23,
+        "label": "Horse riding experiences and vocabulary differences",
+        "vocab_level": {
+          "score": 2.4,
+          "cefr_label": "A2",
+          "content_words_scored": 51
+        }
+      },
+      {
+        "paragraph_id": 24,
+        "label": "Falling off a horse while trotting during riding lessons",
+        "vocab_level": {
+          "score": 2.4,
+          "cefr_label": "A2",
+          "content_words_scored": 20
+        }
+      }
+    ],
+    "lexical_sophistication": {
+      "lsi": 0.304,
+      "b2_plus_count": 173,
+      "content_word_count": 569
+    },
+    "lexical_diversity": {
+      "ttr": 0.1372,
+      "root_ttr": 9.54
+    },
+    "word_count": {
+      "total_tokens": 4832,
+      "unique_words": 663,
+      "unique_content_words": 579
+    },
+    "cefr_distribution": {
+      "A1": {
+        "count": 2821,
+        "percent": 58.38
+      },
+      "A2": {
+        "count": 819,
+        "percent": 16.95
+      },
+      "B1": {
+        "count": 493,
+        "percent": 10.2
+      },
+      "B2": {
+        "count": 348,
+        "percent": 7.2
+      },
+      "C1": {
+        "count": 111,
+        "percent": 2.3
+      },
+      "C2": {
+        "count": 213,
+        "percent": 4.41
+      },
+      "UNKNOWN": {
+        "count": 27,
+        "percent": 0.56
+      }
+    },
+    "source_distribution": {
+      "wsd": 36.5,
+      "cefrpy": 42.5,
+      "whitelist": 4.5,
+      "lemma_fallback": 15.9,
+      "digit": 0.1,
+      "other": 0.6
+    },
+    "interesting_words": [
+      {
+        "word": "allow",
+        "cefr_level": "C2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "aruba",
+        "cefr_level": "C2",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "baltic",
+        "cefr_level": "C2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "bodysuits",
+        "cefr_level": "C2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "bon",
+        "cefr_level": "C2",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "bonner",
+        "cefr_level": "C2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "bonnet",
+        "cefr_level": "C2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "brave",
+        "cefr_level": "C2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "cannot",
+        "cefr_level": "C2",
+        "occurrence_count": 3,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "connected",
+        "cefr_level": "C2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "curacao",
+        "cefr_level": "C2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "disturbance",
+        "cefr_level": "C2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "estonia",
+        "cefr_level": "C2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "etcetera",
+        "cefr_level": "C2",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "freestyle",
+        "cefr_level": "C2",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "hal",
+        "cefr_level": "C2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "horseback",
+        "cefr_level": "C2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "ic",
+        "cefr_level": "C2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "kayak",
+        "cefr_level": "C2",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "lithuania",
+        "cefr_level": "C2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "little",
+        "cefr_level": "C2",
+        "occurrence_count": 15,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "loose",
+        "cefr_level": "C2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "nether",
+        "cefr_level": "C2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "nuggets",
+        "cefr_level": "C2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "organization",
+        "cefr_level": "C2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "weak"
+      },
+      {
+        "word": "perfect",
+        "cefr_level": "C2",
+        "occurrence_count": 7,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "point",
+        "cefr_level": "C2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "polish",
+        "cefr_level": "C2",
+        "occurrence_count": 6,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "pressing",
+        "cefr_level": "C2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "push",
+        "cefr_level": "C2",
+        "occurrence_count": 4,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "rhodos",
+        "cefr_level": "C2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "rift",
+        "cefr_level": "C2",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "safety",
+        "cefr_level": "C2",
+        "occurrence_count": 8,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "sail",
+        "cefr_level": "C2",
+        "occurrence_count": 19,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "scandinavia",
+        "cefr_level": "C2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "scandinavian",
+        "cefr_level": "C2",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "show",
+        "cefr_level": "C2",
+        "occurrence_count": 3,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "speed",
+        "cefr_level": "C2",
+        "occurrence_count": 9,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "speeding",
+        "cefr_level": "C2",
+        "occurrence_count": 3,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "takes",
+        "cefr_level": "C2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "tango",
+        "cefr_level": "C2",
+        "occurrence_count": 3,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "torsion",
+        "cefr_level": "C2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "untangle",
+        "cefr_level": "C2",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "ass",
+        "cefr_level": "C1",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "basis",
+        "cefr_level": "C1",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "weak"
+      },
+      {
+        "word": "caribbean",
+        "cefr_level": "C1",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "density",
+        "cefr_level": "C1",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "down",
+        "cefr_level": "C1",
+        "occurrence_count": 11,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "exaggerate",
+        "cefr_level": "C1",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "except",
+        "cefr_level": "C1",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "weak"
+      },
+      {
+        "word": "fascinating",
+        "cefr_level": "C1",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "friction",
+        "cefr_level": "C1",
+        "occurrence_count": 5,
+        "avg_confidence": 1.0,
+        "context_quality": "weak"
+      },
+      {
+        "word": "learn",
+        "cefr_level": "C1",
+        "occurrence_count": 3,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "master",
+        "cefr_level": "C1",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "masters",
+        "cefr_level": "C1",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "movement",
+        "cefr_level": "C1",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "overestimate",
+        "cefr_level": "C1",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "part",
+        "cefr_level": "C1",
+        "occurrence_count": 5,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "power",
+        "cefr_level": "C1",
+        "occurrence_count": 11,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "profit",
+        "cefr_level": "C1",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "spinning",
+        "cefr_level": "C1",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "spreading",
+        "cefr_level": "C1",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "stable",
+        "cefr_level": "C1",
+        "occurrence_count": 6,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "swedish",
+        "cefr_level": "C1",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "touchy",
+        "cefr_level": "C1",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "turned",
+        "cefr_level": "C1",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "type",
+        "cefr_level": "C1",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "unbelievably",
+        "cefr_level": "C1",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "weak"
+      },
+      {
+        "word": "warsaw",
+        "cefr_level": "C1",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "win",
+        "cefr_level": "C1",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "wrong",
+        "cefr_level": "C1",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "acting",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "actual",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "weak"
+      },
+      {
+        "word": "additional",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "amount",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "amsterdam",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "balance",
+        "cefr_level": "B2",
+        "occurrence_count": 3,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "balanced",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "basically",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "weak"
+      },
+      {
+        "word": "benefit",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "call",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "catch",
+        "cefr_level": "B2",
+        "occurrence_count": 3,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "chance",
+        "cefr_level": "B2",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "climb",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "combination",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "coming",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "competitions",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "control",
+        "cefr_level": "B2",
+        "occurrence_count": 6,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "controlled",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "cool",
+        "cefr_level": "B2",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "deal",
+        "cefr_level": "B2",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "decided",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "dip",
+        "cefr_level": "B2",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "direct",
+        "cefr_level": "B2",
+        "occurrence_count": 4,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "dividing",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "done",
+        "cefr_level": "B2",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "drops",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "fail",
+        "cefr_level": "B2",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "fall",
+        "cefr_level": "B2",
+        "occurrence_count": 3,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "falling",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "falls",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "far",
+        "cefr_level": "B2",
+        "occurrence_count": 4,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "feel",
+        "cefr_level": "B2",
+        "occurrence_count": 3,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "fell",
+        "cefr_level": "B2",
+        "occurrence_count": 7,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "finland",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "generate",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "getting",
+        "cefr_level": "B2",
+        "occurrence_count": 6,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "going",
+        "cefr_level": "B2",
+        "occurrence_count": 4,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "ground",
+        "cefr_level": "B2",
+        "occurrence_count": 6,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "having",
+        "cefr_level": "B2",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "head",
+        "cefr_level": "B2",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "hell",
+        "cefr_level": "B2",
+        "occurrence_count": 3,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "helps",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "hook",
+        "cefr_level": "B2",
+        "occurrence_count": 4,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "hooked",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "house",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "ideal",
+        "cefr_level": "B2",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "imagine",
+        "cefr_level": "B2",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "jumped",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "jumps",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "keep",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "landing",
+        "cefr_level": "B2",
+        "occurrence_count": 3,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "level",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "life",
+        "cefr_level": "B2",
+        "occurrence_count": 7,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "line",
+        "cefr_level": "B2",
+        "occurrence_count": 4,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "lines",
+        "cefr_level": "B2",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "lot",
+        "cefr_level": "B2",
+        "occurrence_count": 6,
+        "avg_confidence": 1.0,
+        "context_quality": "weak"
+      },
+      {
+        "word": "maneuver",
+        "cefr_level": "B2",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "matters",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "messed",
+        "cefr_level": "B2",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "minus",
+        "cefr_level": "B2",
+        "occurrence_count": 3,
+        "avg_confidence": 1.0,
+        "context_quality": "weak"
+      },
+      {
+        "word": "negative",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "weak"
+      },
+      {
+        "word": "nevertheless",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "panic",
+        "cefr_level": "B2",
+        "occurrence_count": 4,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "parachute",
+        "cefr_level": "B2",
+        "occurrence_count": 6,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "peep",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "peninsula",
+        "cefr_level": "B2",
+        "occurrence_count": 4,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "place",
+        "cefr_level": "B2",
+        "occurrence_count": 3,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "positive",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "press",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "pressed",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "put",
+        "cefr_level": "B2",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "rather",
+        "cefr_level": "B2",
+        "occurrence_count": 3,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "released",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "rhodes",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "risky",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "sale",
+        "cefr_level": "B2",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "second",
+        "cefr_level": "B2",
+        "occurrence_count": 3,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "set",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "shaky",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "spot",
+        "cefr_level": "B2",
+        "occurrence_count": 18,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "start",
+        "cefr_level": "B2",
+        "occurrence_count": 7,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "started",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "steering",
+        "cefr_level": "B2",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "still",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "style",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "sun",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "survive",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "tell",
+        "cefr_level": "B2",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "track",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "tracking",
+        "cefr_level": "B2",
+        "occurrence_count": 5,
+        "avg_confidence": 1.0,
+        "context_quality": "weak"
+      },
+      {
+        "word": "trained",
+        "cefr_level": "B2",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "training",
+        "cefr_level": "B2",
+        "occurrence_count": 3,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "turn",
+        "cefr_level": "B2",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "underneath",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "underwater",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "unique",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "unstable",
+        "cefr_level": "B2",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "warm",
+        "cefr_level": "B2",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "wolf",
+        "cefr_level": "B2",
+        "occurrence_count": 5,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "writing",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "yachting",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      }
+    ]
+  },
+  "tier2": {
+    "comparison": {
+      "scores": [
+        2.6,
+        2.6
+      ],
+      "trend": "neutral",
+      "trend_magnitude": 0.0,
+      "direction_confidence": "low",
+      "previous_lesson": "lesson-1",
+      "vocab_level_change": 0.0
+    },
+    "new_vocabulary": {
+      "total_new": 372,
+      "by_level": {
+        "A1": 80,
+        "B1": 92,
+        "A2": 63,
+        "B2": 78,
+        "C2": 36,
+        "C1": 23
+      },
+      "growth_ratio": 0.6156,
+      "notable_new_words": [
+        {
+          "word": "acting",
+          "level": "B2",
+          "source": "wsd:act.v.01"
+        },
+        {
+          "word": "actual",
+          "level": "B2",
+          "source": "lemma_fallback"
+        },
+        {
+          "word": "additional",
+          "level": "B2",
+          "source": "wsd:extra.s.03"
+        },
+        {
+          "word": "allow",
+          "level": "C2",
+          "source": "wsd:let.v.01"
+        },
+        {
+          "word": "amount",
+          "level": "B2",
+          "source": "wsd:come.v.15"
+        },
+        {
+          "word": "amsterdam",
+          "level": "B2",
+          "source": "cefrpy"
+        },
+        {
+          "word": "aruba",
+          "level": "C2",
+          "source": "cefrpy"
+        },
+        {
+          "word": "ass",
+          "level": "C1",
+          "source": "wsd:buttocks.n.01"
+        },
+        {
+          "word": "balance",
+          "level": "B2",
+          "source": "wsd:poise.v.04"
+        },
+        {
+          "word": "balanced",
+          "level": "B2",
+          "source": "wsd:balance.v.04"
+        },
+        {
+          "word": "basically",
+          "level": "B2",
+          "source": "lemma_fallback"
+        },
+        {
+          "word": "basis",
+          "level": "C1",
+          "source": "lemma_fallback"
+        },
+        {
+          "word": "benefit",
+          "level": "B2",
+          "source": "wsd:benefit.v.02"
+        },
+        {
+          "word": "bodysuits",
+          "level": "C2",
+          "source": "cefrpy"
+        },
+        {
+          "word": "bon",
+          "level": "C2",
+          "source": "cefrpy"
+        },
+        {
+          "word": "bonner",
+          "level": "C2",
+          "source": "cefrpy"
+        },
+        {
+          "word": "bonnet",
+          "level": "C2",
+          "source": "cefrpy"
+        },
+        {
+          "word": "caribbean",
+          "level": "C1",
+          "source": "cefrpy"
+        },
+        {
+          "word": "catch",
+          "level": "B2",
+          "source": "wsd:get.v.11"
+        },
+        {
+          "word": "climb",
+          "level": "B2",
+          "source": "wsd:climb.v.01"
+        },
+        {
+          "word": "combination",
+          "level": "B2",
+          "source": "wsd:combination.n.01"
+        },
+        {
+          "word": "coming",
+          "level": "B2",
+          "source": "wsd:come.v.03"
+        },
+        {
+          "word": "competitions",
+          "level": "B2",
+          "source": "wsd:competition.n.03"
+        },
+        {
+          "word": "connected",
+          "level": "C2",
+          "source": "wsd:associate.v.01"
+        },
+        {
+          "word": "controlled",
+          "level": "B2",
+          "source": "wsd:control.v.01"
+        },
+        {
+          "word": "cool",
+          "level": "B2",
+          "source": "wsd:cool.v.01"
+        },
+        {
+          "word": "curacao",
+          "level": "C2",
+          "source": "cefrpy"
+        },
+        {
+          "word": "deal",
+          "level": "B2",
+          "source": "wsd:cope.v.01"
+        },
+        {
+          "word": "density",
+          "level": "C1",
+          "source": "wsd:concentration.n.02"
+        },
+        {
+          "word": "dip",
+          "level": "B2",
+          "source": "wsd:dip.v.10"
+        },
+        {
+          "word": "direct",
+          "level": "B2",
+          "source": "wsd:steer.v.01"
+        },
+        {
+          "word": "disturbance",
+          "level": "C2",
+          "source": "wsd:disturbance.n.03"
+        },
+        {
+          "word": "dividing",
+          "level": "B2",
+          "source": "wsd:separate.v.07"
+        },
+        {
+          "word": "down",
+          "level": "C1",
+          "source": "wsd:down.s.01"
+        },
+        {
+          "word": "drops",
+          "level": "B2",
+          "source": "wsd:sink.v.01"
+        },
+        {
+          "word": "estonia",
+          "level": "C2",
+          "source": "cefrpy"
+        },
+        {
+          "word": "exaggerate",
+          "level": "C1",
+          "source": "wsd:overstate.v.01"
+        },
+        {
+          "word": "except",
+          "level": "C1",
+          "source": "lemma_fallback"
+        },
+        {
+          "word": "fail",
+          "level": "B2",
+          "source": "wsd:fail.v.04"
+        },
+        {
+          "word": "fall",
+          "level": "B2",
+          "source": "wsd:fall.v.32"
+        },
+        {
+          "word": "falling",
+          "level": "B2",
+          "source": "wsd:hang.v.05"
+        },
+        {
+          "word": "falls",
+          "level": "B2",
+          "source": "wsd:hang.v.05"
+        },
+        {
+          "word": "fascinating",
+          "level": "C1",
+          "source": "wsd:intrigue.v.01"
+        },
+        {
+          "word": "feel",
+          "level": "B2",
+          "source": "wsd:find.v.05"
+        },
+        {
+          "word": "fell",
+          "level": "B2",
+          "source": "wsd:fall.v.32"
+        },
+        {
+          "word": "finland",
+          "level": "B2",
+          "source": "cefrpy"
+        },
+        {
+          "word": "freestyle",
+          "level": "C2",
+          "source": "cefrpy"
+        },
+        {
+          "word": "friction",
+          "level": "C1",
+          "source": "lemma_fallback"
+        },
+        {
+          "word": "generate",
+          "level": "B2",
+          "source": "wsd:generate.v.03"
+        },
+        {
+          "word": "hal",
+          "level": "C2",
+          "source": "cefrpy"
+        },
+        {
+          "word": "head",
+          "level": "B2",
+          "source": "wsd:steer.v.01"
+        },
+        {
+          "word": "hell",
+          "level": "B2",
+          "source": "wsd:hell.n.03"
+        },
+        {
+          "word": "helps",
+          "level": "B2",
+          "source": "wsd:help.v.02"
+        },
+        {
+          "word": "hook",
+          "level": "B2",
+          "source": "wsd:hook.n.04"
+        },
+        {
+          "word": "hooked",
+          "level": "B2",
+          "source": "cefrpy"
+        },
+        {
+          "word": "horseback",
+          "level": "C2",
+          "source": "cefrpy"
+        },
+        {
+          "word": "house",
+          "level": "B2",
+          "source": "wsd:family.n.01"
+        },
+        {
+          "word": "ideal",
+          "level": "B2",
+          "source": "wsd:ideal.s.01"
+        },
+        {
+          "word": "jumped",
+          "level": "B2",
+          "source": "wsd:startle.v.02"
+        },
+        {
+          "word": "jumps",
+          "level": "B2",
+          "source": "wsd:startle.v.02"
+        },
+        {
+          "word": "kayak",
+          "level": "C2",
+          "source": "cefrpy"
+        },
+        {
+          "word": "keep",
+          "level": "B2",
+          "source": "wsd:keep.v.15"
+        },
+        {
+          "word": "landing",
+          "level": "B2",
+          "source": "wsd:landing.n.04"
+        },
+        {
+          "word": "learn",
+          "level": "C1",
+          "source": "wsd:determine.v.08"
+        },
+        {
+          "word": "level",
+          "level": "B2",
+          "source": "wsd:level.n.04"
+        },
+        {
+          "word": "lines",
+          "level": "B2",
+          "source": "wsd:line.v.01"
+        },
+        {
+          "word": "lithuania",
+          "level": "C2",
+          "source": "cefrpy"
+        },
+        {
+          "word": "loose",
+          "level": "C2",
+          "source": "wsd:loosen.v.01"
+        },
+        {
+          "word": "maneuver",
+          "level": "B2",
+          "source": "wsd:steer.v.01"
+        },
+        {
+          "word": "master",
+          "level": "C1",
+          "source": "wsd:master.n.08"
+        },
+        {
+          "word": "masters",
+          "level": "C1",
+          "source": "wsd:master.n.08"
+        },
+        {
+          "word": "matters",
+          "level": "B2",
+          "source": "wsd:count.v.02"
+        },
+        {
+          "word": "messed",
+          "level": "B2",
+          "source": "cefrpy"
+        },
+        {
+          "word": "minus",
+          "level": "B2",
+          "source": "lemma_fallback"
+        },
+        {
+          "word": "movement",
+          "level": "C1",
+          "source": "wsd:campaign.n.02"
+        },
+        {
+          "word": "negative",
+          "level": "B2",
+          "source": "lemma_fallback"
+        },
+        {
+          "word": "nether",
+          "level": "C2",
+          "source": "cefrpy"
+        },
+        {
+          "word": "nevertheless",
+          "level": "B2",
+          "source": "wsd:however.r.01"
+        },
+        {
+          "word": "nuggets",
+          "level": "C2",
+          "source": "cefrpy"
+        },
+        {
+          "word": "overestimate",
+          "level": "C1",
+          "source": "wsd:overestimate.v.01"
+        },
+        {
+          "word": "panic",
+          "level": "B2",
+          "source": "wsd:panic.v.02"
+        },
+        {
+          "word": "parachute",
+          "level": "B2",
+          "source": "wsd:parachute.n.01"
+        },
+        {
+          "word": "peep",
+          "level": "B2",
+          "source": "cefrpy"
+        },
+        {
+          "word": "peninsula",
+          "level": "B2",
+          "source": "cefrpy"
+        },
+        {
+          "word": "perfect",
+          "level": "C2",
+          "source": "wsd:perfect.v.01"
+        },
+        {
+          "word": "point",
+          "level": "C2",
+          "source": "wsd:sharpen.v.07"
+        },
+        {
+          "word": "polish",
+          "level": "C2",
+          "source": "wsd:polish.v.02"
+        },
+        {
+          "word": "positive",
+          "level": "B2",
+          "source": "wsd:convinced.s.01"
+        },
+        {
+          "word": "power",
+          "level": "C1",
+          "source": "wsd:power.n.05"
+        },
+        {
+          "word": "press",
+          "level": "B2",
+          "source": "wsd:compress.v.02"
+        },
+        {
+          "word": "pressed",
+          "level": "B2",
+          "source": "wsd:compress.v.02"
+        },
+        {
+          "word": "pressing",
+          "level": "C2",
+          "source": "wsd:press.n.09"
+        },
+        {
+          "word": "profit",
+          "level": "C1",
+          "source": "wsd:profit.n.02"
+        },
+        {
+          "word": "push",
+          "level": "C2",
+          "source": "wsd:push.v.01"
+        },
+        {
+          "word": "put",
+          "level": "B2",
+          "source": "wsd:put.v.01"
+        },
+        {
+          "word": "released",
+          "level": "B2",
+          "source": "wsd:free.v.01"
+        },
+        {
+          "word": "rhodes",
+          "level": "B2",
+          "source": "cefrpy"
+        },
+        {
+          "word": "rhodos",
+          "level": "C2",
+          "source": "cefrpy"
+        },
+        {
+          "word": "rift",
+          "level": "C2",
+          "source": "cefrpy"
+        },
+        {
+          "word": "risky",
+          "level": "B2",
+          "source": "wsd:hazardous.s.01"
+        },
+        {
+          "word": "safety",
+          "level": "C2",
+          "source": "wsd:safety.n.02"
+        },
+        {
+          "word": "sail",
+          "level": "C2",
+          "source": "wsd:sail.n.01"
+        },
+        {
+          "word": "sale",
+          "level": "B2",
+          "source": "wsd:sale.n.02"
+        },
+        {
+          "word": "scandinavia",
+          "level": "C2",
+          "source": "cefrpy"
+        },
+        {
+          "word": "scandinavian",
+          "level": "C2",
+          "source": "cefrpy"
+        },
+        {
+          "word": "set",
+          "level": "B2",
+          "source": "wsd:set.n.08"
+        },
+        {
+          "word": "shaky",
+          "level": "B2",
+          "source": "cefrpy"
+        },
+        {
+          "word": "show",
+          "level": "C2",
+          "source": "wsd:picture.v.02"
+        },
+        {
+          "word": "speed",
+          "level": "C2",
+          "source": "wsd:accelerate.v.01"
+        },
+        {
+          "word": "speeding",
+          "level": "C2",
+          "source": "wsd:accelerate.v.02"
+        },
+        {
+          "word": "spinning",
+          "level": "C1",
+          "source": "wsd:whirl.v.02"
+        },
+        {
+          "word": "spot",
+          "level": "B2",
+          "source": "wsd:topographic_point.n.01"
+        },
+        {
+          "word": "spreading",
+          "level": "C1",
+          "source": "wsd:spread.v.03"
+        },
+        {
+          "word": "start",
+          "level": "B2",
+          "source": "wsd:start.v.09"
+        },
+        {
+          "word": "started",
+          "level": "B2",
+          "source": "wsd:start.v.08"
+        },
+        {
+          "word": "steering",
+          "level": "B2",
+          "source": "wsd:steer.v.01"
+        },
+        {
+          "word": "style",
+          "level": "B2",
+          "source": "wsd:dash.n.01"
+        },
+        {
+          "word": "sun",
+          "level": "B2",
+          "source": "wsd:sunlight.n.01"
+        },
+        {
+          "word": "survive",
+          "level": "B2",
+          "source": "wsd:survive.v.01"
+        },
+        {
+          "word": "takes",
+          "level": "C2",
+          "source": "wsd:take.v.24"
+        },
+        {
+          "word": "tango",
+          "level": "C2",
+          "source": "cefrpy"
+        },
+        {
+          "word": "torsion",
+          "level": "C2",
+          "source": "cefrpy"
+        },
+        {
+          "word": "touchy",
+          "level": "C1",
+          "source": "wsd:delicate.s.05"
+        },
+        {
+          "word": "track",
+          "level": "B2",
+          "source": "wsd:track.n.11"
+        },
+        {
+          "word": "tracking",
+          "level": "B2",
+          "source": "lemma_fallback"
+        },
+        {
+          "word": "turned",
+          "level": "C1",
+          "source": "wsd:twist.v.10"
+        },
+        {
+          "word": "type",
+          "level": "C1",
+          "source": "wsd:character.n.05"
+        },
+        {
+          "word": "unbelievably",
+          "level": "C1",
+          "source": "lemma_fallback"
+        },
+        {
+          "word": "underneath",
+          "level": "B2",
+          "source": "wsd:underneath.r.01"
+        },
+        {
+          "word": "underwater",
+          "level": "B2",
+          "source": "wsd:submerged.s.01"
+        },
+        {
+          "word": "unstable",
+          "level": "B2",
+          "source": "cefrpy"
+        },
+        {
+          "word": "untangle",
+          "level": "C2",
+          "source": "cefrpy"
+        },
+        {
+          "word": "warm",
+          "level": "B2",
+          "source": "wsd:warm.v.01"
+        },
+        {
+          "word": "wolf",
+          "level": "B2",
+          "source": "wsd:wolf.n.01"
+        },
+        {
+          "word": "writing",
+          "level": "B2",
+          "source": "wsd:writing.n.01"
+        },
+        {
+          "word": "wrong",
+          "level": "C1",
+          "source": "wsd:incorrect.a.01"
+        },
+        {
+          "word": "yachting",
+          "level": "B2",
+          "source": "cefrpy"
+        }
+      ]
+    },
+    "retention": {
+      "overall_rate": 0.3654,
+      "retained_count": 281,
+      "prior_vocabulary_size": 769,
+      "retained_advanced_words": [
+        "as",
+        "baltic",
+        "brave",
+        "by",
+        "c",
+        "call",
+        "cannot",
+        "chance",
+        "control",
+        "decided",
+        "done",
+        "etcetera",
+        "far",
+        "getting",
+        "going",
+        "ground",
+        "having",
+        "ic",
+        "imagine",
+        "life",
+        "line",
+        "little",
+        "lot",
+        "on",
+        "organization",
+        "part",
+        "place",
+        "rather",
+        "second",
+        "stable",
+        "still",
+        "swedish",
+        "tell",
+        "trained",
+        "training",
+        "turn",
+        "unique",
+        "up",
+        "warsaw",
+        "win"
+      ]
+    },
+    "active_vocabulary": {
+      "cumulative_unique": [
+        769,
+        1141
+      ],
+      "cumulative_b2_plus": [
+        258,
+        406
+      ],
+      "growth_rate": [
+        769,
+        372
+      ]
+    },
+    "level_migrations": {
+      "count": 48,
+      "net_direction": "down",
+      "meaningful_migrations": [
+        {
+          "word": "doing",
+          "from_level": "B2",
+          "from_lesson": "lesson-1",
+          "to_level": "A2",
+          "to_lesson": "lesson-2",
+          "direction": "down",
+          "likely_meaningful": true
+        },
+        {
+          "word": "cold",
+          "from_level": "A2",
+          "from_lesson": "lesson-1",
+          "to_level": "A1",
+          "to_lesson": "lesson-2",
+          "direction": "down",
+          "likely_meaningful": true
+        },
+        {
+          "word": "back",
+          "from_level": "A2",
+          "from_lesson": "lesson-1",
+          "to_level": "B1",
+          "to_lesson": "lesson-2",
+          "direction": "up",
+          "likely_meaningful": true
+        },
+        {
+          "word": "skiing",
+          "from_level": "B1",
+          "from_lesson": "lesson-1",
+          "to_level": "A2",
+          "to_lesson": "lesson-2",
+          "direction": "down",
+          "likely_meaningful": true
+        },
+        {
+          "word": "little",
+          "from_level": "B2",
+          "from_lesson": "lesson-1",
+          "to_level": "C2",
+          "to_lesson": "lesson-2",
+          "direction": "up",
+          "likely_meaningful": true
+        },
+        {
+          "word": "moving",
+          "from_level": "B1",
+          "from_lesson": "lesson-1",
+          "to_level": "A2",
+          "to_lesson": "lesson-2",
+          "direction": "down",
+          "likely_meaningful": true
+        },
+        {
+          "word": "great",
+          "from_level": "A2",
+          "from_lesson": "lesson-1",
+          "to_level": "A1",
+          "to_lesson": "lesson-2",
+          "direction": "down",
+          "likely_meaningful": true
+        },
+        {
+          "word": "right",
+          "from_level": "B2",
+          "from_lesson": "lesson-1",
+          "to_level": "A2",
+          "to_lesson": "lesson-2",
+          "direction": "down",
+          "likely_meaningful": true
+        },
+        {
+          "word": "getting",
+          "from_level": "A2",
+          "from_lesson": "lesson-1",
+          "to_level": "B2",
+          "to_lesson": "lesson-2",
+          "direction": "up",
+          "likely_meaningful": true
+        },
+        {
+          "word": "knew",
+          "from_level": "A2",
+          "from_lesson": "lesson-1",
+          "to_level": "A1",
+          "to_lesson": "lesson-2",
+          "direction": "down",
+          "likely_meaningful": true
+        },
+        {
+          "word": "heard",
+          "from_level": "C2",
+          "from_lesson": "lesson-1",
+          "to_level": "B1",
+          "to_lesson": "lesson-2",
+          "direction": "down",
+          "likely_meaningful": true
+        },
+        {
+          "word": "name",
+          "from_level": "B2",
+          "from_lesson": "lesson-1",
+          "to_level": "B1",
+          "to_lesson": "lesson-2",
+          "direction": "down",
+          "likely_meaningful": true
+        },
+        {
+          "word": "move",
+          "from_level": "A2",
+          "from_lesson": "lesson-1",
+          "to_level": "B1",
+          "to_lesson": "lesson-2",
+          "direction": "up",
+          "likely_meaningful": true
+        },
+        {
+          "word": "instead",
+          "from_level": "B2",
+          "from_lesson": "lesson-1",
+          "to_level": "A2",
+          "to_lesson": "lesson-2",
+          "direction": "down",
+          "likely_meaningful": true
+        },
+        {
+          "word": "saw",
+          "from_level": "B1",
+          "from_lesson": "lesson-1",
+          "to_level": "A1",
+          "to_lesson": "lesson-2",
+          "direction": "down",
+          "likely_meaningful": true
+        },
+        {
+          "word": "do",
+          "from_level": "B2",
+          "from_lesson": "lesson-1",
+          "to_level": "A1",
+          "to_lesson": "lesson-2",
+          "direction": "down",
+          "likely_meaningful": true
+        },
+        {
+          "word": "win",
+          "from_level": "A2",
+          "from_lesson": "lesson-1",
+          "to_level": "C1",
+          "to_lesson": "lesson-2",
+          "direction": "up",
+          "likely_meaningful": true
+        },
+        {
+          "word": "bad",
+          "from_level": "C1",
+          "from_lesson": "lesson-1",
+          "to_level": "A2",
+          "to_lesson": "lesson-2",
+          "direction": "down",
+          "likely_meaningful": true
+        },
+        {
+          "word": "job",
+          "from_level": "B2",
+          "from_lesson": "lesson-1",
+          "to_level": "A1",
+          "to_lesson": "lesson-2",
+          "direction": "down",
+          "likely_meaningful": true
+        },
+        {
+          "word": "long",
+          "from_level": "A1",
+          "from_lesson": "lesson-1",
+          "to_level": "A2",
+          "to_lesson": "lesson-2",
+          "direction": "up",
+          "likely_meaningful": true
+        },
+        {
+          "word": "first",
+          "from_level": "B1",
+          "from_lesson": "lesson-1",
+          "to_level": "A1",
+          "to_lesson": "lesson-2",
+          "direction": "down",
+          "likely_meaningful": true
+        },
+        {
+          "word": "part",
+          "from_level": "A1",
+          "from_lesson": "lesson-1",
+          "to_level": "C1",
+          "to_lesson": "lesson-2",
+          "direction": "up",
+          "likely_meaningful": true
+        },
+        {
+          "word": "place",
+          "from_level": "A2",
+          "from_lesson": "lesson-1",
+          "to_level": "B2",
+          "to_lesson": "lesson-2",
+          "direction": "up",
+          "likely_meaningful": true
+        },
+        {
+          "word": "late",
+          "from_level": "C2",
+          "from_lesson": "lesson-1",
+          "to_level": "A1",
+          "to_lesson": "lesson-2",
+          "direction": "down",
+          "likely_meaningful": true
+        },
+        {
+          "word": "kill",
+          "from_level": "C2",
+          "from_lesson": "lesson-1",
+          "to_level": "A2",
+          "to_lesson": "lesson-2",
+          "direction": "down",
+          "likely_meaningful": true
+        },
+        {
+          "word": "call",
+          "from_level": "A2",
+          "from_lesson": "lesson-1",
+          "to_level": "B2",
+          "to_lesson": "lesson-2",
+          "direction": "up",
+          "likely_meaningful": true
+        },
+        {
+          "word": "off",
+          "from_level": "B2",
+          "from_lesson": "lesson-1",
+          "to_level": "A2",
+          "to_lesson": "lesson-2",
+          "direction": "down",
+          "likely_meaningful": true
+        },
+        {
+          "word": "life",
+          "from_level": "B1",
+          "from_lesson": "lesson-1",
+          "to_level": "B2",
+          "to_lesson": "lesson-2",
+          "direction": "up",
+          "likely_meaningful": true
+        },
+        {
+          "word": "brave",
+          "from_level": "B1",
+          "from_lesson": "lesson-1",
+          "to_level": "C2",
+          "to_lesson": "lesson-2",
+          "direction": "up",
+          "likely_meaningful": true
+        }
+      ]
+    }
+  },
+  "vocabulary_snapshot": {
+    "i'm": {
+      "level": "A1",
+      "count": 21,
+      "source": "whitelist"
+    },
+    "very": {
+      "level": "A1",
+      "count": 52,
+      "source": "lemma_fallback"
+    },
+    "well": {
+      "level": "A1",
+      "count": 12,
+      "source": "wsd:well.r.01"
+    },
+    "how": {
+      "level": "A1",
+      "count": 11,
+      "source": "cefrpy"
+    },
+    "are": {
+      "level": "A1",
+      "count": 24,
+      "source": "wsd:be.v.03"
+    },
+    "you": {
+      "level": "A1",
+      "count": 281,
+      "source": "cefrpy"
+    },
+    "you're": {
+      "level": "A1",
+      "count": 26,
+      "source": "whitelist"
+    },
+    "doing": {
+      "level": "A2",
+      "count": 18,
+      "source": "wsd:make.v.01"
+    },
+    "in": {
+      "level": "A2",
+      "count": 79,
+      "source": "lemma_fallback"
+    },
+    "warm": {
+      "level": "B2",
+      "count": 2,
+      "source": "wsd:warm.v.01"
+    },
+    "and": {
+      "level": "A1",
+      "count": 173,
+      "source": "cefrpy"
+    },
+    "summer": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:summer.n.01"
+    },
+    "weather": {
+      "level": "A1",
+      "count": 5,
+      "source": "wsd:weather.n.01"
+    },
+    "have": {
+      "level": "A1",
+      "count": 61,
+      "source": "wsd:have.v.02"
+    },
+    "minus": {
+      "level": "B2",
+      "count": 3,
+      "source": "lemma_fallback"
+    },
+    "19": {
+      "level": "A1",
+      "count": 1,
+      "source": "digit"
+    },
+    "so": {
+      "level": "A1",
+      "count": 129,
+      "source": "lemma_fallback"
+    },
+    "no": {
+      "level": "A1",
+      "count": 29,
+      "source": "lemma_fallback"
+    },
+    "it's": {
+      "level": "A1",
+      "count": 74,
+      "source": "whitelist"
+    },
+    "cold": {
+      "level": "A1",
+      "count": 7,
+      "source": "wsd:cold.a.01"
+    },
+    "there": {
+      "level": "A1",
+      "count": 36,
+      "source": "lemma_fallback"
+    },
+    "was": {
+      "level": "A1",
+      "count": 28,
+      "source": "lemma_fallback"
+    },
+    "one": {
+      "level": "A1",
+      "count": 10,
+      "source": "cefrpy"
+    },
+    "or": {
+      "level": "A1",
+      "count": 22,
+      "source": "cefrpy"
+    },
+    "two": {
+      "level": "A1",
+      "count": 5,
+      "source": "cefrpy"
+    },
+    "days": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:day.n.04"
+    },
+    "of": {
+      "level": "A1",
+      "count": 50,
+      "source": "cefrpy"
+    },
+    "know": {
+      "level": "A2",
+      "count": 102,
+      "source": "wsd:know.v.02"
+    },
+    "warmer": {
+      "level": "A1",
+      "count": 2,
+      "source": "wsd:warm.a.02"
+    },
+    "with": {
+      "level": "A1",
+      "count": 33,
+      "source": "cefrpy"
+    },
+    "snow": {
+      "level": "A2",
+      "count": 3,
+      "source": "wsd:snow.v.01"
+    },
+    "like": {
+      "level": "A1",
+      "count": 46,
+      "source": "lemma_fallback"
+    },
+    "four": {
+      "level": "A1",
+      "count": 2,
+      "source": "cefrpy"
+    },
+    "now": {
+      "level": "A1",
+      "count": 2,
+      "source": "wsd:nowadays.r.01"
+    },
+    "we": {
+      "level": "A1",
+      "count": 41,
+      "source": "cefrpy"
+    },
+    "we're": {
+      "level": "A1",
+      "count": 4,
+      "source": "whitelist"
+    },
+    "back": {
+      "level": "B1",
+      "count": 10,
+      "source": "wsd:back.r.02"
+    },
+    "to": {
+      "level": "A1",
+      "count": 110,
+      "source": "cefrpy"
+    },
+    "20": {
+      "level": "A1",
+      "count": 2,
+      "source": "digit"
+    },
+    "almost": {
+      "level": "A2",
+      "count": 7,
+      "source": "wsd:about.r.07"
+    },
+    "yeah": {
+      "level": "A1",
+      "count": 53,
+      "source": "whitelist"
+    },
+    "exactly": {
+      "level": "A2",
+      "count": 7,
+      "source": "lemma_fallback"
+    },
+    "enjoy": {
+      "level": "A1",
+      "count": 2,
+      "source": "wsd:delight.v.02"
+    },
+    "beautiful": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:beautiful.s.01"
+    },
+    "sunny": {
+      "level": "A1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "just": {
+      "level": "A2",
+      "count": 28,
+      "source": "wsd:just.r.03"
+    },
+    "clean": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:clean.v.01"
+    },
+    "sky": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:sky.n.01"
+    },
+    "but": {
+      "level": "A2",
+      "count": 69,
+      "source": "lemma_fallback"
+    },
+    "pay": {
+      "level": "A1",
+      "count": 2,
+      "source": "wsd:pay.v.01"
+    },
+    "for": {
+      "level": "A2",
+      "count": 22,
+      "source": "cefrpy"
+    },
+    "it": {
+      "level": "A2",
+      "count": 125,
+      "source": "cefrpy"
+    },
+    "nothing": {
+      "level": "A1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "free": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:spare.s.03"
+    },
+    "lunches": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:lunch.n.01"
+    },
+    "weekend": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:weekend.n.01"
+    },
+    "okay": {
+      "level": "A1",
+      "count": 2,
+      "source": "whitelist"
+    },
+    "actually": {
+      "level": "A2",
+      "count": 44,
+      "source": "wsd:actually.r.01"
+    },
+    "enjoyed": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:delight.v.02"
+    },
+    "nice": {
+      "level": "A1",
+      "count": 6,
+      "source": "wsd:nice.a.01"
+    },
+    "went": {
+      "level": "A1",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "the": {
+      "level": "A1",
+      "count": 286,
+      "source": "cefrpy"
+    },
+    "lake": {
+      "level": "A2",
+      "count": 3,
+      "source": "wsd:lake.n.01"
+    },
+    "nearby": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:nearby.r.01"
+    },
+    "warsaw": {
+      "level": "C1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "which": {
+      "level": "A1",
+      "count": 23,
+      "source": "cefrpy"
+    },
+    "is": {
+      "level": "A1",
+      "count": 186,
+      "source": "lemma_fallback"
+    },
+    "fully": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:fully.r.01"
+    },
+    "frozen": {
+      "level": "B1",
+      "count": 4,
+      "source": "wsd:freeze.v.04"
+    },
+    "a": {
+      "level": "A1",
+      "count": 53,
+      "source": "cefrpy"
+    },
+    "lot": {
+      "level": "B2",
+      "count": 6,
+      "source": "lemma_fallback"
+    },
+    "ice": {
+      "level": "A2",
+      "count": 12,
+      "source": "wsd:ice.n.02"
+    },
+    "activities": {
+      "level": "A1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "were": {
+      "level": "A1",
+      "count": 9,
+      "source": "lemma_fallback"
+    },
+    "made": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:make.v.01"
+    },
+    "we've": {
+      "level": "A1",
+      "count": 4,
+      "source": "whitelist"
+    },
+    "been": {
+      "level": "B1",
+      "count": 4,
+      "source": "wsd:exist.v.01"
+    },
+    "watching": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:watch.v.03"
+    },
+    "not": {
+      "level": "A1",
+      "count": 44,
+      "source": "lemma_fallback"
+    },
+    "participating": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:enter.v.02"
+    },
+    "that": {
+      "level": "A2",
+      "count": 35,
+      "source": "cefrpy"
+    },
+    "people": {
+      "level": "A1",
+      "count": 13,
+      "source": "lemma_fallback"
+    },
+    "kite": {
+      "level": "A2",
+      "count": 19,
+      "source": "wsd:kite.n.03"
+    },
+    "surfing": {
+      "level": "B1",
+      "count": 15,
+      "source": "wsd:surfboard.v.01"
+    },
+    "on": {
+      "level": "B2",
+      "count": 62,
+      "source": "wsd:along.r.01"
+    },
+    "skis": {
+      "level": "B1",
+      "count": 2,
+      "source": "wsd:ski.v.01"
+    },
+    "snowboards": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:snowboard.n.01"
+    },
+    "this": {
+      "level": "A1",
+      "count": 114,
+      "source": "cefrpy"
+    },
+    "fascinating": {
+      "level": "C1",
+      "count": 1,
+      "source": "wsd:intrigue.v.01"
+    },
+    "really": {
+      "level": "B1",
+      "count": 16,
+      "source": "wsd:actually.r.01"
+    },
+    "something": {
+      "level": "A1",
+      "count": 11,
+      "source": "cefrpy"
+    },
+    "because": {
+      "level": "A1",
+      "count": 78,
+      "source": "cefrpy"
+    },
+    "i": {
+      "level": "A1",
+      "count": 121,
+      "source": "cefrpy"
+    },
+    "mean": {
+      "level": "B1",
+      "count": 24,
+      "source": "lemma_fallback"
+    },
+    "can't": {
+      "level": "A1",
+      "count": 1,
+      "source": "whitelist"
+    },
+    "say": {
+      "level": "A1",
+      "count": 5,
+      "source": "wsd:say.v.08"
+    },
+    "popular": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:popular.a.01"
+    },
+    "maybe": {
+      "level": "A1",
+      "count": 19,
+      "source": "cefrpy"
+    },
+    "few": {
+      "level": "A2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "guys": {
+      "level": "A2",
+      "count": 2,
+      "source": "wsd:guy.n.01"
+    },
+    "year": {
+      "level": "A1",
+      "count": 3,
+      "source": "lemma_fallback"
+    },
+    "perfect": {
+      "level": "C2",
+      "count": 7,
+      "source": "wsd:perfect.v.01"
+    },
+    "such": {
+      "level": "A2",
+      "count": 6,
+      "source": "cefrpy"
+    },
+    "type": {
+      "level": "C1",
+      "count": 2,
+      "source": "wsd:character.n.05"
+    },
+    "activity": {
+      "level": "A1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "additional": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:extra.s.03"
+    },
+    "regular": {
+      "level": "B1",
+      "count": 6,
+      "source": "lemma_fallback"
+    },
+    "skiing": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:skiing.n.01"
+    },
+    "why": {
+      "level": "A1",
+      "count": 2,
+      "source": "cefrpy"
+    },
+    "they": {
+      "level": "A1",
+      "count": 57,
+      "source": "cefrpy"
+    },
+    "they're": {
+      "level": "A1",
+      "count": 2,
+      "source": "whitelist"
+    },
+    "going": {
+      "level": "B2",
+      "count": 4,
+      "source": "wsd:belong.v.03"
+    },
+    "fast": {
+      "level": "A1",
+      "count": 4,
+      "source": "wsd:fast.a.03"
+    },
+    "yesterday": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:yesterday.r.01"
+    },
+    "wind": {
+      "level": "A1",
+      "count": 26,
+      "source": "wsd:wind.n.01"
+    },
+    "speeding": {
+      "level": "C2",
+      "count": 3,
+      "source": "wsd:accelerate.v.02"
+    },
+    "her": {
+      "level": "A1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "only": {
+      "level": "A2",
+      "count": 8,
+      "source": "wsd:merely.r.01"
+    },
+    "little": {
+      "level": "C2",
+      "count": 15,
+      "source": "wsd:fiddling.s.01"
+    },
+    "use": {
+      "level": "A2",
+      "count": 2,
+      "source": "wsd:use.n.01"
+    },
+    "if": {
+      "level": "A1",
+      "count": 66,
+      "source": "cefrpy"
+    },
+    "moving": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:move.v.02"
+    },
+    "torsion": {
+      "level": "C2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "what": {
+      "level": "A1",
+      "count": 8,
+      "source": "cefrpy"
+    },
+    "stops": {
+      "level": "B1",
+      "count": 5,
+      "source": "wsd:stop.v.05"
+    },
+    "ground": {
+      "level": "B2",
+      "count": 6,
+      "source": "wsd:anchor.v.01"
+    },
+    "friction": {
+      "level": "C1",
+      "count": 5,
+      "source": "lemma_fallback"
+    },
+    "low": {
+      "level": "A2",
+      "count": 5,
+      "source": "wsd:humble.s.01"
+    },
+    "slide": {
+      "level": "B1",
+      "count": 5,
+      "source": "cefrpy"
+    },
+    "without": {
+      "level": "A2",
+      "count": 4,
+      "source": "cefrpy"
+    },
+    "any": {
+      "level": "A1",
+      "count": 5,
+      "source": "cefrpy"
+    },
+    "losing": {
+      "level": "B1",
+      "count": 5,
+      "source": "wsd:lose.v.05"
+    },
+    "power": {
+      "level": "C1",
+      "count": 11,
+      "source": "wsd:power.n.05"
+    },
+    "up": {
+      "level": "B2",
+      "count": 14,
+      "source": "wsd:up.r.02"
+    },
+    "great": {
+      "level": "A1",
+      "count": 7,
+      "source": "wsd:bang-up.s.01"
+    },
+    "looks": {
+      "level": "B1",
+      "count": 3,
+      "source": "wsd:look.n.02"
+    },
+    "easy": {
+      "level": "A2",
+      "count": 9,
+      "source": "wsd:easily.r.01"
+    },
+    "at": {
+      "level": "A1",
+      "count": 3,
+      "source": "cefrpy"
+    },
+    "all": {
+      "level": "A2",
+      "count": 6,
+      "source": "lemma_fallback"
+    },
+    "difference": {
+      "level": "A2",
+      "count": 3,
+      "source": "wsd:difference.n.01"
+    },
+    "cat": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:cat.n.01"
+    },
+    "water": {
+      "level": "A2",
+      "count": 33,
+      "source": "wsd:body_of_water.n.01"
+    },
+    "sliding": {
+      "level": "B1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "time": {
+      "level": "B1",
+      "count": 2,
+      "source": "wsd:time.n.02"
+    },
+    "generate": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:generate.v.03"
+    },
+    "negative": {
+      "level": "B2",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "balance": {
+      "level": "B2",
+      "count": 3,
+      "source": "wsd:poise.v.04"
+    },
+    "right": {
+      "level": "A2",
+      "count": 27,
+      "source": "wsd:properly.r.01"
+    },
+    "ski": {
+      "level": "B1",
+      "count": 2,
+      "source": "wsd:ski.v.01"
+    },
+    "edge": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:edge.n.01"
+    },
+    "amount": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:come.v.15"
+    },
+    "that's": {
+      "level": "A1",
+      "count": 8,
+      "source": "whitelist"
+    },
+    "quickly": {
+      "level": "A2",
+      "count": 3,
+      "source": "wsd:quickly.r.01"
+    },
+    "getting": {
+      "level": "B2",
+      "count": 6,
+      "source": "wsd:arrive.v.01"
+    },
+    "high": {
+      "level": "B1",
+      "count": 5,
+      "source": "wsd:high.r.01"
+    },
+    "speed": {
+      "level": "C2",
+      "count": 9,
+      "source": "wsd:accelerate.v.01"
+    },
+    "difficulty": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:difficulty.n.04"
+    },
+    "too": {
+      "level": "A1",
+      "count": 6,
+      "source": "lemma_fallback"
+    },
+    "strong": {
+      "level": "A2",
+      "count": 3,
+      "source": "wsd:strong.a.01"
+    },
+    "then": {
+      "level": "A1",
+      "count": 24,
+      "source": "lemma_fallback"
+    },
+    "done": {
+      "level": "B2",
+      "count": 2,
+      "source": "wsd:do.v.03"
+    },
+    "way": {
+      "level": "A2",
+      "count": 4,
+      "source": "lemma_fallback"
+    },
+    "stop": {
+      "level": "B1",
+      "count": 2,
+      "source": "wsd:stop.v.01"
+    },
+    "course": {
+      "level": "A1",
+      "count": 6,
+      "source": "wsd:course.n.01"
+    },
+    "turn": {
+      "level": "B2",
+      "count": 2,
+      "source": "wsd:turn.v.04"
+    },
+    "upwind": {
+      "level": "A2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "bit": {
+      "level": "B1",
+      "count": 4,
+      "source": "wsd:bite.v.01"
+    },
+    "dangerous": {
+      "level": "A2",
+      "count": 5,
+      "source": "wsd:dangerous.a.01"
+    },
+    "perfectly": {
+      "level": "B1",
+      "count": 2,
+      "source": "wsd:perfectly.r.02"
+    },
+    "balanced": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:balance.v.04"
+    },
+    "may": {
+      "level": "A1",
+      "count": 3,
+      "source": "cefrpy"
+    },
+    "throw": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:throw.v.14"
+    },
+    "landing": {
+      "level": "B2",
+      "count": 3,
+      "source": "wsd:landing.n.04"
+    },
+    "painful": {
+      "level": "A2",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "oh": {
+      "level": "A1",
+      "count": 8,
+      "source": "whitelist"
+    },
+    "also": {
+      "level": "A1",
+      "count": 13,
+      "source": "wsd:besides.r.02"
+    },
+    "everyone": {
+      "level": "A1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "fine": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:all_right.s.01"
+    },
+    "believe": {
+      "level": "A1",
+      "count": 5,
+      "source": "lemma_fallback"
+    },
+    "knew": {
+      "level": "A1",
+      "count": 2,
+      "source": "wsd:know.v.01"
+    },
+    "watched": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:watch.v.03"
+    },
+    "some": {
+      "level": "A1",
+      "count": 23,
+      "source": "lemma_fallback"
+    },
+    "jumps": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:startle.v.02"
+    },
+    "amazing": {
+      "level": "A2",
+      "count": 2,
+      "source": "lemma_fallback"
+    },
+    "watch": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:watch.v.03"
+    },
+    "from": {
+      "level": "A1",
+      "count": 18,
+      "source": "cefrpy"
+    },
+    "distance": {
+      "level": "B1",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "jump": {
+      "level": "B1",
+      "count": 3,
+      "source": "wsd:jump.n.06"
+    },
+    "three": {
+      "level": "A1",
+      "count": 3,
+      "source": "cefrpy"
+    },
+    "meters": {
+      "level": "A2",
+      "count": 2,
+      "source": "wsd:meter.n.01"
+    },
+    "more": {
+      "level": "A2",
+      "count": 16,
+      "source": "cefrpy"
+    },
+    "pretty": {
+      "level": "B1",
+      "count": 7,
+      "source": "lemma_fallback"
+    },
+    "compare": {
+      "level": "B1",
+      "count": 3,
+      "source": "wsd:compare.v.01"
+    },
+    "fail": {
+      "level": "B2",
+      "count": 2,
+      "source": "wsd:fail.v.04"
+    },
+    "land": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:land.v.04"
+    },
+    "correctly": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:correctly.r.01"
+    },
+    "hit": {
+      "level": "B1",
+      "count": 5,
+      "source": "wsd:hit.v.02"
+    },
+    "better": {
+      "level": "A2",
+      "count": 4,
+      "source": "wsd:better.v.02"
+    },
+    "try": {
+      "level": "A2",
+      "count": 4,
+      "source": "wsd:try.v.01"
+    },
+    "heard": {
+      "level": "B1",
+      "count": 2,
+      "source": "wsd:hear.v.03"
+    },
+    "about": {
+      "level": "A1",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "called": {
+      "level": "A2",
+      "count": 3,
+      "source": "wsd:call.v.03"
+    },
+    "polish": {
+      "level": "C2",
+      "count": 6,
+      "source": "wsd:polish.v.02"
+    },
+    "has": {
+      "level": "A1",
+      "count": 6,
+      "source": "lemma_fallback"
+    },
+    "different": {
+      "level": "A1",
+      "count": 5,
+      "source": "wsd:different.a.01"
+    },
+    "english": {
+      "level": "A2",
+      "count": 6,
+      "source": "cefrpy"
+    },
+    "name": {
+      "level": "B1",
+      "count": 2,
+      "source": "wsd:name.v.05"
+    },
+    "mostly": {
+      "level": "B1",
+      "count": 3,
+      "source": "wsd:by_and_large.r.01"
+    },
+    "swedish": {
+      "level": "C1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "scandinavian": {
+      "level": "C2",
+      "count": 2,
+      "source": "cefrpy"
+    },
+    "move": {
+      "level": "B1",
+      "count": 3,
+      "source": "wsd:travel.v.01"
+    },
+    "can": {
+      "level": "A1",
+      "count": 32,
+      "source": "lemma_fallback"
+    },
+    "imagine": {
+      "level": "B2",
+      "count": 2,
+      "source": "wsd:think.v.02"
+    },
+    "kayak": {
+      "level": "C2",
+      "count": 2,
+      "source": "cefrpy"
+    },
+    "instead": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:alternatively.r.01"
+    },
+    "having": {
+      "level": "B2",
+      "count": 2,
+      "source": "wsd:have.v.02"
+    },
+    "using": {
+      "level": "A1",
+      "count": 4,
+      "source": "lemma_fallback"
+    },
+    "underneath": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:underneath.r.01"
+    },
+    "skates": {
+      "level": "B1",
+      "count": 2,
+      "source": "wsd:skate.v.01"
+    },
+    "sail": {
+      "level": "C2",
+      "count": 19,
+      "source": "wsd:sail.n.01"
+    },
+    "sitting": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:sit.v.01"
+    },
+    "boat": {
+      "level": "A1",
+      "count": 9,
+      "source": "cefrpy"
+    },
+    "speedy": {
+      "level": "A1",
+      "count": 2,
+      "source": "wsd:quick.s.01"
+    },
+    "unbelievably": {
+      "level": "C1",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "even": {
+      "level": "A1",
+      "count": 3,
+      "source": "lemma_fallback"
+    },
+    "faster": {
+      "level": "A1",
+      "count": 2,
+      "source": "wsd:fast.a.03"
+    },
+    "than": {
+      "level": "A1",
+      "count": 5,
+      "source": "cefrpy"
+    },
+    "actual": {
+      "level": "B2",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "saw": {
+      "level": "A1",
+      "count": 3,
+      "source": "wsd:watch.v.03"
+    },
+    "do": {
+      "level": "A1",
+      "count": 8,
+      "source": "wsd:perform.v.01"
+    },
+    "don't": {
+      "level": "A1",
+      "count": 7,
+      "source": "whitelist"
+    },
+    "hold": {
+      "level": "A1",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "example": {
+      "level": "A1",
+      "count": 4,
+      "source": "lemma_fallback"
+    },
+    "positive": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:convinced.s.01"
+    },
+    "whether": {
+      "level": "B1",
+      "count": 6,
+      "source": "cefrpy"
+    },
+    "thing": {
+      "level": "A2",
+      "count": 5,
+      "source": "wsd:thing.n.05"
+    },
+    "peep": {
+      "level": "B2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "poland": {
+      "level": "B1",
+      "count": 3,
+      "source": "cefrpy"
+    },
+    "masters": {
+      "level": "C1",
+      "count": 1,
+      "source": "wsd:master.n.08"
+    },
+    "sport": {
+      "level": "A1",
+      "count": 3,
+      "source": "wsd:sport.n.01"
+    },
+    "sports": {
+      "level": "A1",
+      "count": 4,
+      "source": "wsd:sport.n.01"
+    },
+    "ic": {
+      "level": "C2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "acting": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:act.v.01"
+    },
+    "skate": {
+      "level": "B1",
+      "count": 3,
+      "source": "wsd:skate.v.01"
+    },
+    "show": {
+      "level": "C2",
+      "count": 3,
+      "source": "wsd:picture.v.02"
+    },
+    "me": {
+      "level": "A1",
+      "count": 6,
+      "source": "cefrpy"
+    },
+    "tell": {
+      "level": "B2",
+      "count": 2,
+      "source": "wsd:distinguish.v.01"
+    },
+    "screen": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:screen.n.03"
+    },
+    "as": {
+      "level": "C1",
+      "count": 18,
+      "source": "lemma_fallback"
+    },
+    "think": {
+      "level": "B1",
+      "count": 4,
+      "source": "wsd:think.v.11"
+    },
+    "seventies": {
+      "level": "A1",
+      "count": 2,
+      "source": "cefrpy"
+    },
+    "eighties": {
+      "level": "A1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "master": {
+      "level": "C1",
+      "count": 1,
+      "source": "wsd:master.n.08"
+    },
+    "whatever": {
+      "level": "A2",
+      "count": 6,
+      "source": "cefrpy"
+    },
+    "skating": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:skating.n.01"
+    },
+    "yachting": {
+      "level": "B2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "england": {
+      "level": "A2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "need": {
+      "level": "A1",
+      "count": 4,
+      "source": "wsd:want.v.02"
+    },
+    "lakes": {
+      "level": "A2",
+      "count": 2,
+      "source": "wsd:lake.n.01"
+    },
+    "sweden": {
+      "level": "B1",
+      "count": 2,
+      "source": "cefrpy"
+    },
+    "finland": {
+      "level": "B2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "practice": {
+      "level": "A1",
+      "count": 3,
+      "source": "wsd:drill.v.03"
+    },
+    "since": {
+      "level": "B1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "had": {
+      "level": "A1",
+      "count": 5,
+      "source": "lemma_fallback"
+    },
+    "winter": {
+      "level": "A1",
+      "count": 3,
+      "source": "wsd:winter.n.01"
+    },
+    "real": {
+      "level": "A1",
+      "count": 2,
+      "source": "lemma_fallback"
+    },
+    "last": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:last.r.01"
+    },
+    "fifteen": {
+      "level": "A1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "years": {
+      "level": "A1",
+      "count": 2,
+      "source": "wsd:old_age.n.01"
+    },
+    "idea": {
+      "level": "B1",
+      "count": 3,
+      "source": "wsd:idea.n.03"
+    },
+    "gone": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:blend.v.02"
+    },
+    "previous": {
+      "level": "B1",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "team": {
+      "level": "B1",
+      "count": 2,
+      "source": "wsd:team.n.01"
+    },
+    "international": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:external.s.02"
+    },
+    "competitions": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:competition.n.03"
+    },
+    "somewhere": {
+      "level": "A2",
+      "count": 2,
+      "source": "wsd:somewhere.r.01"
+    },
+    "russia": {
+      "level": "A2",
+      "count": 2,
+      "source": "cefrpy"
+    },
+    "lithuania": {
+      "level": "C2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "estonia": {
+      "level": "C2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "scandinavia": {
+      "level": "C2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "cool": {
+      "level": "B2",
+      "count": 2,
+      "source": "wsd:cool.v.01"
+    },
+    "look": {
+      "level": "B1",
+      "count": 2,
+      "source": "wsd:look.v.02"
+    },
+    "boats": {
+      "level": "A1",
+      "count": 3,
+      "source": "cefrpy"
+    },
+    "ocean": {
+      "level": "A2",
+      "count": 4,
+      "source": "wsd:ocean.n.01"
+    },
+    "80": {
+      "level": "A1",
+      "count": 1,
+      "source": "digit"
+    },
+    "kilometers": {
+      "level": "A2",
+      "count": 2,
+      "source": "wsd:kilometer.n.01"
+    },
+    "per": {
+      "level": "B1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "hour": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:hour.n.01"
+    },
+    "alright": {
+      "level": "A2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "jumped": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:startle.v.02"
+    },
+    "out": {
+      "level": "A2",
+      "count": 5,
+      "source": "wsd:out.r.01"
+    },
+    "never": {
+      "level": "A1",
+      "count": 4,
+      "source": "wsd:never.r.01"
+    },
+    "tried": {
+      "level": "A2",
+      "count": 5,
+      "source": "wsd:try.v.01"
+    },
+    "my": {
+      "level": "A1",
+      "count": 16,
+      "source": "cefrpy"
+    },
+    "son": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:son.n.01"
+    },
+    "weeks": {
+      "level": "A1",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "ago": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:ago.r.01"
+    },
+    "kind": {
+      "level": "A1",
+      "count": 4,
+      "source": "lemma_fallback"
+    },
+    "disappointment": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:disappointment.n.01"
+    },
+    "kiting": {
+      "level": "A2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "stable": {
+      "level": "C1",
+      "count": 6,
+      "source": "wsd:stable.s.01"
+    },
+    "win": {
+      "level": "C1",
+      "count": 1,
+      "source": "wsd:win.n.01"
+    },
+    "sale": {
+      "level": "B2",
+      "count": 2,
+      "source": "wsd:sale.n.02"
+    },
+    "under": {
+      "level": "A1",
+      "count": 12,
+      "source": "wsd:under.r.08"
+    },
+    "compared": {
+      "level": "B1",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "parachute": {
+      "level": "B2",
+      "count": 6,
+      "source": "wsd:parachute.n.01"
+    },
+    "over": {
+      "level": "B1",
+      "count": 12,
+      "source": "lemma_fallback"
+    },
+    "yourself": {
+      "level": "A1",
+      "count": 2,
+      "source": "cefrpy"
+    },
+    "same": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:same.a.01"
+    },
+    "here": {
+      "level": "A1",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "taking": {
+      "level": "B1",
+      "count": 2,
+      "source": "wsd:take.v.21"
+    },
+    "always": {
+      "level": "A1",
+      "count": 2,
+      "source": "lemma_fallback"
+    },
+    "unstable": {
+      "level": "B2",
+      "count": 2,
+      "source": "cefrpy"
+    },
+    "difficult": {
+      "level": "A1",
+      "count": 6,
+      "source": "wsd:difficult.a.01"
+    },
+    "sometimes": {
+      "level": "A1",
+      "count": 6,
+      "source": "wsd:sometimes.r.01"
+    },
+    "hits": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:hit.v.02"
+    },
+    "spreading": {
+      "level": "C1",
+      "count": 1,
+      "source": "wsd:spread.v.03"
+    },
+    "get": {
+      "level": "A1",
+      "count": 3,
+      "source": "wsd:get.v.21"
+    },
+    "learn": {
+      "level": "C1",
+      "count": 3,
+      "source": "wsd:determine.v.08"
+    },
+    "relatively": {
+      "level": "B1",
+      "count": 3,
+      "source": "cefrpy"
+    },
+    "trying": {
+      "level": "A2",
+      "count": 3,
+      "source": "wsd:try.v.01"
+    },
+    "takes": {
+      "level": "C2",
+      "count": 1,
+      "source": "wsd:take.v.24"
+    },
+    "hours": {
+      "level": "A1",
+      "count": 4,
+      "source": "lemma_fallback"
+    },
+    "training": {
+      "level": "B2",
+      "count": 3,
+      "source": "wsd:train.v.02"
+    },
+    "by": {
+      "level": "B2",
+      "count": 12,
+      "source": "lemma_fallback"
+    },
+    "falling": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:hang.v.05"
+    },
+    "down": {
+      "level": "C1",
+      "count": 11,
+      "source": "wsd:down.s.01"
+    },
+    "bad": {
+      "level": "A2",
+      "count": 4,
+      "source": "wsd:bad.s.05"
+    },
+    "tiring": {
+      "level": "B1",
+      "count": 2,
+      "source": "wsd:exhausting.s.02"
+    },
+    "go": {
+      "level": "B1",
+      "count": 5,
+      "source": "wsd:go.v.03"
+    },
+    "board": {
+      "level": "B1",
+      "count": 7,
+      "source": "wsd:board.v.01"
+    },
+    "start": {
+      "level": "B2",
+      "count": 7,
+      "source": "wsd:start.v.09"
+    },
+    "again": {
+      "level": "A1",
+      "count": 3,
+      "source": "lemma_fallback"
+    },
+    "cars": {
+      "level": "A1",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "practiced": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:practice.v.01"
+    },
+    "methods": {
+      "level": "B1",
+      "count": 5,
+      "source": "wsd:method.n.01"
+    },
+    "allow": {
+      "level": "C2",
+      "count": 1,
+      "source": "wsd:let.v.01"
+    },
+    "put": {
+      "level": "B2",
+      "count": 2,
+      "source": "wsd:put.v.01"
+    },
+    "pick": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:choice.n.02"
+    },
+    "wrong": {
+      "level": "C1",
+      "count": 1,
+      "source": "wsd:incorrect.a.01"
+    },
+    "small": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:minor.s.03"
+    },
+    "maneuver": {
+      "level": "B2",
+      "count": 2,
+      "source": "wsd:steer.v.01"
+    },
+    "fall": {
+      "level": "B2",
+      "count": 3,
+      "source": "wsd:fall.v.32"
+    },
+    "enough": {
+      "level": "A2",
+      "count": 3,
+      "source": "wsd:enough.r.01"
+    },
+    "climb": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:climb.v.01"
+    },
+    "pull": {
+      "level": "A2",
+      "count": 4,
+      "source": "wsd:pull.v.01"
+    },
+    "profit": {
+      "level": "C1",
+      "count": 1,
+      "source": "wsd:profit.n.02"
+    },
+    "method": {
+      "level": "B1",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "level": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:level.n.04"
+    },
+    "lying": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:lie.v.02"
+    },
+    "your": {
+      "level": "A1",
+      "count": 11,
+      "source": "cefrpy"
+    },
+    "legs": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:leg.n.02"
+    },
+    "ball": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:ball.n.01"
+    },
+    "pulling": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:pull.v.01"
+    },
+    "good": {
+      "level": "A1",
+      "count": 12,
+      "source": "lemma_fallback"
+    },
+    "experience": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:feel.v.01"
+    },
+    "feeling": {
+      "level": "B1",
+      "count": 2,
+      "source": "wsd:feeling.n.04"
+    },
+    "super": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:extremely.r.02"
+    },
+    "light": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:light.n.01"
+    },
+    "whole": {
+      "level": "A2",
+      "count": 3,
+      "source": "lemma_fallback"
+    },
+    "job": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:problem.n.01"
+    },
+    "spot": {
+      "level": "B2",
+      "count": 18,
+      "source": "wsd:topographic_point.n.01"
+    },
+    "best": {
+      "level": "A1",
+      "count": 3,
+      "source": "wsd:good.s.04"
+    },
+    "except": {
+      "level": "C1",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "hell": {
+      "level": "B2",
+      "count": 3,
+      "source": "wsd:hell.n.03"
+    },
+    "spanish": {
+      "level": "B1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "40": {
+      "level": "A1",
+      "count": 1,
+      "source": "digit"
+    },
+    "long": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:long.r.01"
+    },
+    "baltic": {
+      "level": "C2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "sea": {
+      "level": "A1",
+      "count": 9,
+      "source": "cefrpy"
+    },
+    "other": {
+      "level": "A2",
+      "count": 5,
+      "source": "cefrpy"
+    },
+    "side": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:side.n.04"
+    },
+    "peninsula": {
+      "level": "B2",
+      "count": 4,
+      "source": "cefrpy"
+    },
+    "bay": {
+      "level": "B1",
+      "count": 6,
+      "source": "wsd:bay.n.01"
+    },
+    "big": {
+      "level": "A2",
+      "count": 5,
+      "source": "wsd:big.s.01"
+    },
+    "important": {
+      "level": "B1",
+      "count": 3,
+      "source": "wsd:significant.a.01"
+    },
+    "first": {
+      "level": "A1",
+      "count": 5,
+      "source": "wsd:first.r.02"
+    },
+    "benefit": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:benefit.v.02"
+    },
+    "direct": {
+      "level": "B2",
+      "count": 4,
+      "source": "wsd:steer.v.01"
+    },
+    "flat": {
+      "level": "B1",
+      "count": 9,
+      "source": "wsd:flat.s.01"
+    },
+    "waves": {
+      "level": "B1",
+      "count": 6,
+      "source": "wsd:wave.n.01"
+    },
+    "shaky": {
+      "level": "B2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "second": {
+      "level": "B2",
+      "count": 3,
+      "source": "wsd:second.r.01"
+    },
+    "dip": {
+      "level": "B2",
+      "count": 2,
+      "source": "wsd:dip.v.10"
+    },
+    "ideal": {
+      "level": "B2",
+      "count": 2,
+      "source": "wsd:ideal.s.01"
+    },
+    "point": {
+      "level": "C2",
+      "count": 1,
+      "source": "wsd:sharpen.v.07"
+    },
+    "five": {
+      "level": "A1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "meter": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:meter.n.01"
+    },
+    "eventually": {
+      "level": "A2",
+      "count": 2,
+      "source": "lemma_fallback"
+    },
+    "stand": {
+      "level": "A2",
+      "count": 3,
+      "source": "wsd:stand.v.01"
+    },
+    "sand": {
+      "level": "B1",
+      "count": 2,
+      "source": "wsd:sand.n.01"
+    },
+    "much": {
+      "level": "B1",
+      "count": 5,
+      "source": "wsd:a_lot.r.01"
+    },
+    "easier": {
+      "level": "A1",
+      "count": 3,
+      "source": "wsd:easy.a.01"
+    },
+    "etcetera": {
+      "level": "C2",
+      "count": 2,
+      "source": "cefrpy"
+    },
+    "let's": {
+      "level": "A1",
+      "count": 1,
+      "source": "whitelist"
+    },
+    "comfortable": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:comfortable.a.01"
+    },
+    "rather": {
+      "level": "B2",
+      "count": 3,
+      "source": "wsd:rather.r.01"
+    },
+    "greece": {
+      "level": "B1",
+      "count": 2,
+      "source": "cefrpy"
+    },
+    "rhodos": {
+      "level": "C2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "island": {
+      "level": "A2",
+      "count": 3,
+      "source": "wsd:island.n.01"
+    },
+    "far": {
+      "level": "B2",
+      "count": 4,
+      "source": "wsd:far.r.01"
+    },
+    "away": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:off.r.02"
+    },
+    "end": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:end.v.04"
+    },
+    "dividing": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:separate.v.07"
+    },
+    "parts": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:part.n.09"
+    },
+    "part": {
+      "level": "C1",
+      "count": 5,
+      "source": "wsd:partially.r.01"
+    },
+    "wave": {
+      "level": "B1",
+      "count": 3,
+      "source": "wsd:beckon.v.01"
+    },
+    "where": {
+      "level": "A1",
+      "count": 2,
+      "source": "cefrpy"
+    },
+    "mediterranean": {
+      "level": "B1",
+      "count": 2,
+      "source": "cefrpy"
+    },
+    "fun": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:fun.n.01"
+    },
+    "play": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:play.v.03"
+    },
+    "easily": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:easily.r.01"
+    },
+    "f": {
+      "level": "A2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "effect": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:consequence.n.01"
+    },
+    "surrounded": {
+      "level": "B1",
+      "count": 3,
+      "source": "lemma_fallback"
+    },
+    "hills": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:hill.n.01"
+    },
+    "when": {
+      "level": "A1",
+      "count": 3,
+      "source": "cefrpy"
+    },
+    "heat": {
+      "level": "B1",
+      "count": 2,
+      "source": "wsd:hotness.n.01"
+    },
+    "sun": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:sunlight.n.01"
+    },
+    "makes": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:cook.v.02"
+    },
+    "terming": {
+      "level": "B1",
+      "count": 5,
+      "source": "cefrpy"
+    },
+    "air": {
+      "level": "B1",
+      "count": 4,
+      "source": "wsd:breeze.n.01"
+    },
+    "twice": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:twice.r.01"
+    },
+    "i've": {
+      "level": "A1",
+      "count": 2,
+      "source": "whitelist"
+    },
+    "wife": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:wife.n.01"
+    },
+    "place": {
+      "level": "B2",
+      "count": 3,
+      "source": "wsd:put.v.01"
+    },
+    "run": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:race.v.02"
+    },
+    "basis": {
+      "level": "C1",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "still": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:inactive.s.02"
+    },
+    "quite": {
+      "level": "B1",
+      "count": 3,
+      "source": "lemma_fallback"
+    },
+    "bon": {
+      "level": "C2",
+      "count": 2,
+      "source": "cefrpy"
+    },
+    "caribbean": {
+      "level": "C1",
+      "count": 2,
+      "source": "cefrpy"
+    },
+    "b": {
+      "level": "B1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "c": {
+      "level": "B2",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "islands": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:island.n.01"
+    },
+    "bonner": {
+      "level": "C2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "curacao": {
+      "level": "C2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "catch": {
+      "level": "B2",
+      "count": 3,
+      "source": "wsd:get.v.11"
+    },
+    "rhodes": {
+      "level": "B2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "open": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:open.v.01"
+    },
+    "late": {
+      "level": "A1",
+      "count": 2,
+      "source": "wsd:late.a.06"
+    },
+    "till": {
+      "level": "A2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "september": {
+      "level": "A1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "15": {
+      "level": "A1",
+      "count": 1,
+      "source": "digit"
+    },
+    "degree": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:degree.n.06"
+    },
+    "controlled": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:control.v.01"
+    },
+    "nether": {
+      "level": "C2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "netherlands": {
+      "level": "B1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "passport": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:passport.n.02"
+    },
+    "visa": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:visa.n.01"
+    },
+    "european": {
+      "level": "A2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "union": {
+      "level": "B1",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "access": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:access.n.02"
+    },
+    "amsterdam": {
+      "level": "B2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "flight": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:flight.n.02"
+    },
+    "bonnet": {
+      "level": "C2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "huge": {
+      "level": "B1",
+      "count": 3,
+      "source": "lemma_fallback"
+    },
+    "reef": {
+      "level": "B1",
+      "count": 2,
+      "source": "cefrpy"
+    },
+    "probably": {
+      "level": "A2",
+      "count": 3,
+      "source": "lemma_fallback"
+    },
+    "coming": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:come.v.03"
+    },
+    "depth": {
+      "level": "B1",
+      "count": 4,
+      "source": "wsd:depth.n.01"
+    },
+    "everywhere": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:everywhere.r.01"
+    },
+    "until": {
+      "level": "A2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "unique": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:alone.s.04"
+    },
+    "looking": {
+      "level": "A1",
+      "count": 2,
+      "source": "lemma_fallback"
+    },
+    "style": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:dash.n.01"
+    },
+    "freestyle": {
+      "level": "C2",
+      "count": 2,
+      "source": "cefrpy"
+    },
+    "happy": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:happy.a.01"
+    },
+    "helps": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:help.v.02"
+    },
+    "jumping": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:jump.n.06"
+    },
+    "disturbance": {
+      "level": "C2",
+      "count": 1,
+      "source": "wsd:disturbance.n.03"
+    },
+    "flood": {
+      "level": "B1",
+      "count": 2,
+      "source": "wsd:flood.n.01"
+    },
+    "civilized": {
+      "level": "B1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "combination": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:combination.n.01"
+    },
+    "devastated": {
+      "level": "B1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "tourist": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:tourist.n.01"
+    },
+    "organization": {
+      "level": "C2",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "hotels": {
+      "level": "A1",
+      "count": 5,
+      "source": "wsd:hotel.n.01"
+    },
+    "packed": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:pack.v.01"
+    },
+    "aruba": {
+      "level": "C2",
+      "count": 2,
+      "source": "cefrpy"
+    },
+    "afterwards": {
+      "level": "A2",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "these": {
+      "level": "A1",
+      "count": 3,
+      "source": "cefrpy"
+    },
+    "kill": {
+      "level": "A2",
+      "count": 2,
+      "source": "wsd:kill.v.04"
+    },
+    "killed": {
+      "level": "A2",
+      "count": 2,
+      "source": "wsd:kill.v.04"
+    },
+    "spoiled": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:botch.v.01"
+    },
+    "longer": {
+      "level": "A1",
+      "count": 2,
+      "source": "lemma_fallback"
+    },
+    "every": {
+      "level": "A1",
+      "count": 7,
+      "source": "cefrpy"
+    },
+    "accidents": {
+      "level": "A2",
+      "count": 2,
+      "source": "wsd:accident.n.01"
+    },
+    "hal": {
+      "level": "C2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "wolf": {
+      "level": "B2",
+      "count": 5,
+      "source": "wsd:wolf.n.01"
+    },
+    "control": {
+      "level": "B2",
+      "count": 6,
+      "source": "wsd:control.n.05"
+    },
+    "taken": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:lead.v.01"
+    },
+    "be": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:be.v.03"
+    },
+    "accident": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:accident.n.01"
+    },
+    "prefer": {
+      "level": "A1",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "instability": {
+      "level": "B1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "set": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:set.n.08"
+    },
+    "body": {
+      "level": "B1",
+      "count": 3,
+      "source": "wsd:torso.n.01"
+    },
+    "inch": {
+      "level": "B1",
+      "count": 2,
+      "source": "wsd:inch.n.01"
+    },
+    "movement": {
+      "level": "C1",
+      "count": 1,
+      "source": "wsd:campaign.n.02"
+    },
+    "position": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:situation.n.02"
+    },
+    "matters": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:count.v.02"
+    },
+    "touchy": {
+      "level": "C1",
+      "count": 2,
+      "source": "wsd:delicate.s.05"
+    },
+    "forgiving": {
+      "level": "B1",
+      "count": 3,
+      "source": "wsd:forgive.v.01"
+    },
+    "lose": {
+      "level": "B1",
+      "count": 2,
+      "source": "wsd:lose.v.01"
+    },
+    "should": {
+      "level": "A1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "exaggerate": {
+      "level": "C1",
+      "count": 1,
+      "source": "wsd:overstate.v.01"
+    },
+    "day": {
+      "level": "A1",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "happened": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:happen.v.02"
+    },
+    "especially": {
+      "level": "A2",
+      "count": 2,
+      "source": "lemma_fallback"
+    },
+    "happens": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:find.v.01"
+    },
+    "someone": {
+      "level": "A1",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "overestimate": {
+      "level": "C1",
+      "count": 1,
+      "source": "wsd:overestimate.v.01"
+    },
+    "its": {
+      "level": "A1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "ability": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:ability.n.01"
+    },
+    "techniques": {
+      "level": "B1",
+      "count": 3,
+      "source": "wsd:technique.n.01"
+    },
+    "feel": {
+      "level": "B2",
+      "count": 3,
+      "source": "wsd:find.v.05"
+    },
+    "danger": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:danger.n.01"
+    },
+    "trained": {
+      "level": "B2",
+      "count": 2,
+      "source": "wsd:train.v.02"
+    },
+    "safe": {
+      "level": "B1",
+      "count": 2,
+      "source": "wsd:safe.a.01"
+    },
+    "cats": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:cat.n.01"
+    },
+    "connected": {
+      "level": "C2",
+      "count": 1,
+      "source": "wsd:associate.v.01"
+    },
+    "call": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:call.v.27"
+    },
+    "trappers": {
+      "level": "A2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "head": {
+      "level": "B2",
+      "count": 2,
+      "source": "wsd:steer.v.01"
+    },
+    "bar": {
+      "level": "A2",
+      "count": 4,
+      "source": "lemma_fallback"
+    },
+    "steering": {
+      "level": "B2",
+      "count": 2,
+      "source": "wsd:steer.v.01"
+    },
+    "rift": {
+      "level": "C2",
+      "count": 2,
+      "source": "cefrpy"
+    },
+    "line": {
+      "level": "B2",
+      "count": 4,
+      "source": "wsd:line.v.01"
+    },
+    "special": {
+      "level": "A2",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "disconnected": {
+      "level": "B1",
+      "count": 2,
+      "source": "cefrpy"
+    },
+    "yes": {
+      "level": "A1",
+      "count": 3,
+      "source": "whitelist"
+    },
+    "safety": {
+      "level": "C2",
+      "count": 8,
+      "source": "wsd:safety.n.02"
+    },
+    "switch": {
+      "level": "B1",
+      "count": 6,
+      "source": "wsd:switch.n.01"
+    },
+    "gets": {
+      "level": "A1",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "loose": {
+      "level": "C2",
+      "count": 1,
+      "source": "wsd:loosen.v.01"
+    },
+    "immediately": {
+      "level": "A2",
+      "count": 3,
+      "source": "wsd:immediately.r.01"
+    },
+    "into": {
+      "level": "A1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "panic": {
+      "level": "B2",
+      "count": 4,
+      "source": "wsd:panic.v.02"
+    },
+    "state": {
+      "level": "A1",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "basically": {
+      "level": "B2",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "drops": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:sink.v.01"
+    },
+    "his": {
+      "level": "A1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "bodysuits": {
+      "level": "C2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "ever": {
+      "level": "A1",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "seen": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:learn.v.02"
+    },
+    "operate": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:operate_on.v.01"
+    },
+    "once": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:once.r.01"
+    },
+    "mixer": {
+      "level": "B1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "hooked": {
+      "level": "B2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "directly": {
+      "level": "A2",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "flying": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:fly.v.01"
+    },
+    "lines": {
+      "level": "B2",
+      "count": 2,
+      "source": "wsd:line.v.01"
+    },
+    "hook": {
+      "level": "B2",
+      "count": 4,
+      "source": "wsd:hook.n.04"
+    },
+    "fell": {
+      "level": "B2",
+      "count": 7,
+      "source": "wsd:fall.v.32"
+    },
+    "off": {
+      "level": "A2",
+      "count": 4,
+      "source": "wsd:off.r.03"
+    },
+    "doesn't": {
+      "level": "A1",
+      "count": 1,
+      "source": "whitelist"
+    },
+    "messed": {
+      "level": "B2",
+      "count": 2,
+      "source": "cefrpy"
+    },
+    "unfortunately": {
+      "level": "A2",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "covered": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:cover.v.01"
+    },
+    "underwater": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:submerged.s.01"
+    },
+    "untangle": {
+      "level": "C2",
+      "count": 2,
+      "source": "cefrpy"
+    },
+    "deal": {
+      "level": "B2",
+      "count": 2,
+      "source": "wsd:cope.v.01"
+    },
+    "unless": {
+      "level": "B1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "jacket": {
+      "level": "A1",
+      "count": 6,
+      "source": "wsd:jacket.n.01"
+    },
+    "life": {
+      "level": "B2",
+      "count": 7,
+      "source": "wsd:animation.n.01"
+    },
+    "jackets": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:jacket.n.01"
+    },
+    "mistake": {
+      "level": "A2",
+      "count": 2,
+      "source": "wsd:mistake.n.01"
+    },
+    "situation": {
+      "level": "B1",
+      "count": 8,
+      "source": "wsd:situation.n.02"
+    },
+    "pressing": {
+      "level": "C2",
+      "count": 1,
+      "source": "wsd:press.n.09"
+    },
+    "hitting": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:hit.v.02"
+    },
+    "chance": {
+      "level": "B2",
+      "count": 2,
+      "source": "wsd:gamble.v.01"
+    },
+    "press": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:compress.v.02"
+    },
+    "usually": {
+      "level": "A2",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "floods": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:flood.n.01"
+    },
+    "falls": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:hang.v.05"
+    },
+    "covers": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:cover.v.02"
+    },
+    "push": {
+      "level": "C2",
+      "count": 4,
+      "source": "wsd:push.v.01"
+    },
+    "heavy": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:heavy.s.16"
+    },
+    "swimming": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:swimming.n.01"
+    },
+    "swim": {
+      "level": "A2",
+      "count": 7,
+      "source": "wsd:swimming.n.01"
+    },
+    "cannot": {
+      "level": "C2",
+      "count": 3,
+      "source": "cefrpy"
+    },
+    "keep": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:keep.v.15"
+    },
+    "nuggets": {
+      "level": "C2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "remember": {
+      "level": "A1",
+      "count": 2,
+      "source": "wsd:remember.v.01"
+    },
+    "started": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:start.v.08"
+    },
+    "adventure": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:adventure.n.01"
+    },
+    "used": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:secondhand.s.02"
+    },
+    "realized": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:recognize.v.02"
+    },
+    "difficulties": {
+      "level": "B1",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "listening": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:listen.v.02"
+    },
+    "yet": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:yet.r.01"
+    },
+    "risky": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:hazardous.s.01"
+    },
+    "reason": {
+      "level": "A2",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "spinning": {
+      "level": "C1",
+      "count": 1,
+      "source": "wsd:whirl.v.02"
+    },
+    "said": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:say.v.08"
+    },
+    "density": {
+      "level": "C1",
+      "count": 1,
+      "source": "wsd:concentration.n.02"
+    },
+    "pressed": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:compress.v.02"
+    },
+    "could": {
+      "level": "A1",
+      "count": 2,
+      "source": "cefrpy"
+    },
+    "couldn't": {
+      "level": "A1",
+      "count": 2,
+      "source": "whitelist"
+    },
+    "dive": {
+      "level": "B1",
+      "count": 3,
+      "source": "wsd:dive.v.02"
+    },
+    "fortunately": {
+      "level": "B1",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "find": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:discover.v.03"
+    },
+    "refresh": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:review.v.04"
+    },
+    "memory": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:memory.n.01"
+    },
+    "security": {
+      "level": "B1",
+      "count": 3,
+      "source": "wsd:security.n.09"
+    },
+    "pulled": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:pull.v.01"
+    },
+    "everything": {
+      "level": "A1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "released": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:free.v.01"
+    },
+    "tango": {
+      "level": "C2",
+      "count": 3,
+      "source": "cefrpy"
+    },
+    "site": {
+      "level": "B1",
+      "count": 2,
+      "source": "lemma_fallback"
+    },
+    "cycle": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:bicycle.v.01"
+    },
+    "nevertheless": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:however.r.01"
+    },
+    "survive": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:survive.v.01"
+    },
+    "who": {
+      "level": "A1",
+      "count": 4,
+      "source": "cefrpy"
+    },
+    "designed": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:design.v.04"
+    },
+    "happen": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:happen.v.02"
+    },
+    "prepared": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:disposed.s.01"
+    },
+    "key": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:key.n.02"
+    },
+    "sure": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:surely.r.01"
+    },
+    "horse": {
+      "level": "A1",
+      "count": 7,
+      "source": "wsd:horse.n.01"
+    },
+    "riding": {
+      "level": "A1",
+      "count": 4,
+      "source": "wsd:ride.v.01"
+    },
+    "horseback": {
+      "level": "C2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "thought": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:think.v.11"
+    },
+    "american": {
+      "level": "A1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "did": {
+      "level": "A1",
+      "count": 2,
+      "source": "wsd:practice.v.01"
+    },
+    "writing": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:writing.n.01"
+    },
+    "during": {
+      "level": "A2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "study": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:study.v.02"
+    },
+    "semis": {
+      "level": "B1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "semester": {
+      "level": "A2",
+      "count": 2,
+      "source": "wsd:semester.n.01"
+    },
+    "love": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:love.v.02"
+    },
+    "ride": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:ride.n.02"
+    },
+    "horses": {
+      "level": "A1",
+      "count": 2,
+      "source": "wsd:horse.n.01"
+    },
+    "animal": {
+      "level": "A1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "their": {
+      "level": "A1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "own": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:own.v.01"
+    },
+    "character": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:fictional_character.n.01"
+    },
+    "either": {
+      "level": "B1",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "he": {
+      "level": "A1",
+      "count": 3,
+      "source": "cefrpy"
+    },
+    "ass": {
+      "level": "C1",
+      "count": 1,
+      "source": "wsd:buttocks.n.01"
+    },
+    "glad": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:glad.s.02"
+    },
+    "brave": {
+      "level": "C2",
+      "count": 1,
+      "source": "wsd:audacious.s.01"
+    },
+    "house": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:family.n.01"
+    },
+    "walk": {
+      "level": "A1",
+      "count": 2,
+      "source": "wsd:walk.n.05"
+    },
+    "walking": {
+      "level": "A1",
+      "count": 2,
+      "source": "wsd:walk.v.08"
+    },
+    "help": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:serve.v.05"
+    },
+    "track": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:track.n.11"
+    },
+    "tracking": {
+      "level": "B2",
+      "count": 5,
+      "source": "lemma_fallback"
+    },
+    "decided": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:decide.v.02"
+    },
+    "she": {
+      "level": "A1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "turned": {
+      "level": "C1",
+      "count": 1,
+      "source": "wsd:twist.v.10"
+    },
+    "least": {
+      "level": "B1",
+      "count": 1,
+      "source": "lemma_fallback"
+    }
+  }
+}

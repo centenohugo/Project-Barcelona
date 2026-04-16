@@ -1,0 +1,5871 @@
+{
+  "student": "Student-2",
+  "lesson": "lesson-1",
+  "segments_analyzed": 1,
+  "flags": {
+    "is_baseline": true,
+    "partial_lesson": false,
+    "low_confidence": false
+  },
+  "tier1": {
+    "vocab_level": {
+      "score": 2.6,
+      "cefr_label": "B1",
+      "content_words_scored": 1372
+    },
+    "chunks": [
+      {
+        "paragraph_id": 1,
+        "label": "Apologizing for being late and oversleeping, weekend skiing",
+        "vocab_level": {
+          "score": 2.0,
+          "cefr_label": "A2",
+          "content_words_scored": 60
+        }
+      },
+      {
+        "paragraph_id": 2,
+        "label": "Cross-country skiing weekends and snow conditions this winter",
+        "vocab_level": {
+          "score": 2.5,
+          "cefr_label": "B1",
+          "content_words_scored": 65
+        }
+      },
+      {
+        "paragraph_id": 3,
+        "label": "Swedish invasion of Poland and Baltic Sea history",
+        "vocab_level": {
+          "score": 2.6,
+          "cefr_label": "B1",
+          "content_words_scored": 54
+        }
+      },
+      {
+        "paragraph_id": 4,
+        "label": "Little Ice Age, Baltic Sea freezing, and climate change",
+        "vocab_level": {
+          "score": 2.3,
+          "cefr_label": "A2",
+          "content_words_scored": 62
+        }
+      },
+      {
+        "paragraph_id": 5,
+        "label": "Ukraine situation, Trump's politics, and Yalta Treaty comparison",
+        "vocab_level": {
+          "score": 2.8,
+          "cefr_label": "B1",
+          "content_words_scored": 79
+        }
+      },
+      {
+        "paragraph_id": 6,
+        "label": "Yalta Treaty parallels with Trump's Ukraine policy",
+        "vocab_level": {
+          "score": 2.6,
+          "cefr_label": "B1",
+          "content_words_scored": 65
+        }
+      },
+      {
+        "paragraph_id": 7,
+        "label": "Ukraine's challenges building democracy and Western support",
+        "vocab_level": {
+          "score": 2.9,
+          "cefr_label": "B1",
+          "content_words_scored": 60
+        }
+      },
+      {
+        "paragraph_id": 8,
+        "label": "Ukraine situation, Trump's comments on Zelensky, wartime elections",
+        "vocab_level": {
+          "score": 2.5,
+          "cefr_label": "B1",
+          "content_words_scored": 60
+        }
+      },
+      {
+        "paragraph_id": 9,
+        "label": "Poland's pandemic election issues and Ukraine's election impossibility",
+        "vocab_level": {
+          "score": 3.0,
+          "cefr_label": "B1",
+          "content_words_scored": 54
+        }
+      },
+      {
+        "paragraph_id": 10,
+        "label": "Ukraine elections, Trump's dangerous policies, European military weakness",
+        "vocab_level": {
+          "score": 2.6,
+          "cefr_label": "B1",
+          "content_words_scored": 58
+        }
+      },
+      {
+        "paragraph_id": 11,
+        "label": "Russian military production advantage over European defense industry",
+        "vocab_level": {
+          "score": 2.4,
+          "cefr_label": "A2",
+          "content_words_scored": 57
+        }
+      },
+      {
+        "paragraph_id": 12,
+        "label": "Modern warfare, mass production vs sophisticated military equipment",
+        "vocab_level": {
+          "score": 3.0,
+          "cefr_label": "B1",
+          "content_words_scored": 58
+        }
+      },
+      {
+        "paragraph_id": 13,
+        "label": "Modern warfare vs NATO tactics in Ukraine conflict",
+        "vocab_level": {
+          "score": 2.3,
+          "cefr_label": "A2",
+          "content_words_scored": 64
+        }
+      },
+      {
+        "paragraph_id": 14,
+        "label": "US propaganda film about Libya and military defense tactics",
+        "vocab_level": {
+          "score": 2.5,
+          "cefr_label": "B1",
+          "content_words_scored": 66
+        }
+      },
+      {
+        "paragraph_id": 15,
+        "label": "Management book by marines vs. reality of frontline combat",
+        "vocab_level": {
+          "score": 2.9,
+          "cefr_label": "B1",
+          "content_words_scored": 59
+        }
+      },
+      {
+        "paragraph_id": 16,
+        "label": "NATO training inadequacy for modern frontline warfare in Ukraine",
+        "vocab_level": {
+          "score": 3.0,
+          "cefr_label": "B1",
+          "content_words_scored": 64
+        }
+      },
+      {
+        "paragraph_id": 17,
+        "label": "Military helicopters and NATO methods obsolete in modern warfare",
+        "vocab_level": {
+          "score": 2.7,
+          "cefr_label": "B1",
+          "content_words_scored": 63
+        }
+      },
+      {
+        "paragraph_id": 18,
+        "label": "European military training gaps and North Korean troops in Ukraine",
+        "vocab_level": {
+          "score": 2.8,
+          "cefr_label": "B1",
+          "content_words_scored": 68
+        }
+      },
+      {
+        "paragraph_id": 19,
+        "label": "North Korean troops, Polish president's visit to Trump",
+        "vocab_level": {
+          "score": 2.6,
+          "cefr_label": "B1",
+          "content_words_scored": 72
+        }
+      },
+      {
+        "paragraph_id": 20,
+        "label": "Polish president's diplomatic disrespect during Trump meeting and elections",
+        "vocab_level": {
+          "score": 2.6,
+          "cefr_label": "B1",
+          "content_words_scored": 58
+        }
+      },
+      {
+        "paragraph_id": 21,
+        "label": "Polish presidential election candidates and political situation",
+        "vocab_level": {
+          "score": 2.9,
+          "cefr_label": "B1",
+          "content_words_scored": 76
+        }
+      },
+      {
+        "paragraph_id": 22,
+        "label": "Polish presidential election candidates and political dynamics",
+        "vocab_level": {
+          "score": 2.6,
+          "cefr_label": "B1",
+          "content_words_scored": 49
+        }
+      },
+      {
+        "paragraph_id": 23,
+        "label": "Polish presidential election candidates and potential outcomes",
+        "vocab_level": {
+          "score": 2.0,
+          "cefr_label": "A2",
+          "content_words_scored": 1
+        }
+      }
+    ],
+    "lexical_sophistication": {
+      "lsi": 0.3693,
+      "b2_plus_count": 250,
+      "content_word_count": 677
+    },
+    "lexical_diversity": {
+      "ttr": 0.1631,
+      "root_ttr": 11.26
+    },
+    "word_count": {
+      "total_tokens": 4771,
+      "unique_words": 778,
+      "unique_content_words": 686
+    },
+    "cefr_distribution": {
+      "A1": {
+        "count": 2576,
+        "percent": 53.99
+      },
+      "A2": {
+        "count": 897,
+        "percent": 18.8
+      },
+      "B1": {
+        "count": 520,
+        "percent": 10.9
+      },
+      "B2": {
+        "count": 433,
+        "percent": 9.08
+      },
+      "C1": {
+        "count": 112,
+        "percent": 2.35
+      },
+      "C2": {
+        "count": 214,
+        "percent": 4.49
+      },
+      "UNKNOWN": {
+        "count": 19,
+        "percent": 0.4
+      }
+    },
+    "source_distribution": {
+      "wsd": 34.2,
+      "cefrpy": 42.8,
+      "whitelist": 3.9,
+      "lemma_fallback": 17.8,
+      "digit": 0.8,
+      "other": 0.4
+    },
+    "interesting_words": [
+      {
+        "word": "awacs",
+        "cefr_level": "C2",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "backup",
+        "cefr_level": "C2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "baltic",
+        "cefr_level": "C2",
+        "occurrence_count": 6,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "based",
+        "cefr_level": "C2",
+        "occurrence_count": 4,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "cadence",
+        "cefr_level": "C2",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "candid",
+        "cefr_level": "C2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "weak"
+      },
+      {
+        "word": "cannot",
+        "cefr_level": "C2",
+        "occurrence_count": 6,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "chauvinistic",
+        "cefr_level": "C2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "continental",
+        "cefr_level": "C2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "converting",
+        "cefr_level": "C2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "cross",
+        "cefr_level": "C2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "czech",
+        "cefr_level": "C2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "dicta",
+        "cefr_level": "C2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "drones",
+        "cefr_level": "C2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "etcetera",
+        "cefr_level": "C2",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "example",
+        "cefr_level": "C2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "focusing",
+        "cefr_level": "C2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "fuck",
+        "cefr_level": "C2",
+        "occurrence_count": 3,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "gans",
+        "cefr_level": "C2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "gunfire",
+        "cefr_level": "C2",
+        "occurrence_count": 3,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "heard",
+        "cefr_level": "C2",
+        "occurrence_count": 3,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "heroes",
+        "cefr_level": "C2",
+        "occurrence_count": 3,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "ic",
+        "cefr_level": "C2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "insane",
+        "cefr_level": "C2",
+        "occurrence_count": 3,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "kharkov",
+        "cefr_level": "C2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "kill",
+        "cefr_level": "C2",
+        "occurrence_count": 3,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "late",
+        "cefr_level": "C2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "libya",
+        "cefr_level": "C2",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "libyan",
+        "cefr_level": "C2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "lives",
+        "cefr_level": "C2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "lot",
+        "cefr_level": "C2",
+        "occurrence_count": 3,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "mali",
+        "cefr_level": "C2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "manpower",
+        "cefr_level": "C2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "marissa",
+        "cefr_level": "C2",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "mass",
+        "cefr_level": "C2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "weak"
+      },
+      {
+        "word": "media",
+        "cefr_level": "C2",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "memorial",
+        "cefr_level": "C2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "men",
+        "cefr_level": "C2",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "moderated",
+        "cefr_level": "C2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "organization",
+        "cefr_level": "C2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "osman",
+        "cefr_level": "C2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "picture",
+        "cefr_level": "C2",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "pis",
+        "cefr_level": "C2",
+        "occurrence_count": 5,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "quote",
+        "cefr_level": "C2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "reinhold",
+        "cefr_level": "C2",
+        "occurrence_count": 3,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "siberia",
+        "cefr_level": "C2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "stabilized",
+        "cefr_level": "C2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "supporting",
+        "cefr_level": "C2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "tammy",
+        "cefr_level": "C2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "treaty",
+        "cefr_level": "C2",
+        "occurrence_count": 4,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "troops",
+        "cefr_level": "C2",
+        "occurrence_count": 7,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "ukraine",
+        "cefr_level": "C2",
+        "occurrence_count": 12,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "ukrainian",
+        "cefr_level": "C2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "understands",
+        "cefr_level": "C2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "unquote",
+        "cefr_level": "C2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "word",
+        "cefr_level": "C2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "words",
+        "cefr_level": "C2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "yalta",
+        "cefr_level": "C2",
+        "occurrence_count": 7,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "afghanistan",
+        "cefr_level": "C1",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "bad",
+        "cefr_level": "C1",
+        "occurrence_count": 5,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "beat",
+        "cefr_level": "C1",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "conservative",
+        "cefr_level": "C1",
+        "occurrence_count": 5,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "czechoslovakia",
+        "cefr_level": "C1",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "disrespect",
+        "cefr_level": "C1",
+        "occurrence_count": 3,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "dream",
+        "cefr_level": "C1",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "ease",
+        "cefr_level": "C1",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "finnish",
+        "cefr_level": "C1",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "finns",
+        "cefr_level": "C1",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "formally",
+        "cefr_level": "C1",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "weak"
+      },
+      {
+        "word": "friend",
+        "cefr_level": "C1",
+        "occurrence_count": 6,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "friends",
+        "cefr_level": "C1",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "giving",
+        "cefr_level": "C1",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "group",
+        "cefr_level": "C1",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "groups",
+        "cefr_level": "C1",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "happening",
+        "cefr_level": "C1",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "harsh",
+        "cefr_level": "C1",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "heaven",
+        "cefr_level": "C1",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "korean",
+        "cefr_level": "C1",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "lightly",
+        "cefr_level": "C1",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "likely",
+        "cefr_level": "C1",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "limitations",
+        "cefr_level": "C1",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "make",
+        "cefr_level": "C1",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "mind",
+        "cefr_level": "C1",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "nato",
+        "cefr_level": "C1",
+        "occurrence_count": 3,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "office",
+        "cefr_level": "C1",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "offices",
+        "cefr_level": "C1",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "propose",
+        "cefr_level": "C1",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "reestablish",
+        "cefr_level": "C1",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "regulation",
+        "cefr_level": "C1",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "regulations",
+        "cefr_level": "C1",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "rejoin",
+        "cefr_level": "C1",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "weak"
+      },
+      {
+        "word": "rejoining",
+        "cefr_level": "C1",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "stable",
+        "cefr_level": "C1",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "weak"
+      },
+      {
+        "word": "statistics",
+        "cefr_level": "C1",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "weak"
+      },
+      {
+        "word": "superpower",
+        "cefr_level": "C1",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "supports",
+        "cefr_level": "C1",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "swedish",
+        "cefr_level": "C1",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "syria",
+        "cefr_level": "C1",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "tactics",
+        "cefr_level": "C1",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "tanks",
+        "cefr_level": "C1",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "uk",
+        "cefr_level": "C1",
+        "occurrence_count": 3,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "vietnam",
+        "cefr_level": "C1",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "warsaw",
+        "cefr_level": "C1",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "way",
+        "cefr_level": "C1",
+        "occurrence_count": 6,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "work",
+        "cefr_level": "C1",
+        "occurrence_count": 3,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "act",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "adapt",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "affair",
+        "cefr_level": "B2",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "anger",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "armed",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "artillery",
+        "cefr_level": "B2",
+        "occurrence_count": 4,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "asked",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "beaten",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "candidate",
+        "cefr_level": "B2",
+        "occurrence_count": 6,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "category",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "chance",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "citizens",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "coalition",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "collapsed",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "colonial",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "come",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "comment",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "communism",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "community",
+        "cefr_level": "B2",
+        "occurrence_count": 3,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "concern",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "confirmed",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "control",
+        "cefr_level": "B2",
+        "occurrence_count": 4,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "cooperate",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "correspondence",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "criticized",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "criticizing",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "current",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "weak"
+      },
+      {
+        "word": "decided",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "demanding",
+        "cefr_level": "B2",
+        "occurrence_count": 3,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "democracy",
+        "cefr_level": "B2",
+        "occurrence_count": 3,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "democratic",
+        "cefr_level": "B2",
+        "occurrence_count": 6,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "denmark",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "dictator",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "diplomat",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "doing",
+        "cefr_level": "B2",
+        "occurrence_count": 3,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "done",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "enemy",
+        "cefr_level": "B2",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "far",
+        "cefr_level": "B2",
+        "occurrence_count": 16,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "fear",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "field",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "fighting",
+        "cefr_level": "B2",
+        "occurrence_count": 5,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "forbidden",
+        "cefr_level": "B2",
+        "occurrence_count": 3,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "foreign",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "freedom",
+        "cefr_level": "B2",
+        "occurrence_count": 3,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "generally",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "global",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "weak"
+      },
+      {
+        "word": "going",
+        "cefr_level": "B2",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "gossips",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "government",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "ground",
+        "cefr_level": "B2",
+        "occurrence_count": 4,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "gulf",
+        "cefr_level": "B2",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "gulfs",
+        "cefr_level": "B2",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "home",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "imagine",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "instantly",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "instead",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "institute",
+        "cefr_level": "B2",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "intelligence",
+        "cefr_level": "B2",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "weak"
+      },
+      {
+        "word": "intentions",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "invaded",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "invasions",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "job",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "judge",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "lanes",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "law",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "laws",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "leading",
+        "cefr_level": "B2",
+        "occurrence_count": 4,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "legend",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "limited",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "line",
+        "cefr_level": "B2",
+        "occurrence_count": 6,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "little",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "majority",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "management",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "massive",
+        "cefr_level": "B2",
+        "occurrence_count": 6,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "mayor",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "military",
+        "cefr_level": "B2",
+        "occurrence_count": 5,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "millions",
+        "cefr_level": "B2",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "miss",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "missed",
+        "cefr_level": "B2",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "name",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "nationalistic",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "observers",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "official",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "opportunity",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "weak"
+      },
+      {
+        "word": "organize",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "organized",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "oval",
+        "cefr_level": "B2",
+        "occurrence_count": 3,
+        "avg_confidence": 1.0,
+        "context_quality": "weak"
+      },
+      {
+        "word": "pandemic",
+        "cefr_level": "B2",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "partisan",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "partisans",
+        "cefr_level": "B2",
+        "occurrence_count": 5,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "percent",
+        "cefr_level": "B2",
+        "occurrence_count": 6,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "policy",
+        "cefr_level": "B2",
+        "occurrence_count": 3,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "possibilities",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "possibility",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "practically",
+        "cefr_level": "B2",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "weak"
+      },
+      {
+        "word": "presidential",
+        "cefr_level": "B2",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "propaganda",
+        "cefr_level": "B2",
+        "occurrence_count": 4,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "ranch",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "rather",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "reached",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "reaching",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "reason",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "rebel",
+        "cefr_level": "B2",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "recognized",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "regular",
+        "cefr_level": "B2",
+        "occurrence_count": 3,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "reports",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "republic",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "weak"
+      },
+      {
+        "word": "resources",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "right",
+        "cefr_level": "B2",
+        "occurrence_count": 77,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "running",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "schedule",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "second",
+        "cefr_level": "B2",
+        "occurrence_count": 15,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "send",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "shooting",
+        "cefr_level": "B2",
+        "occurrence_count": 3,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "significantly",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "weak"
+      },
+      {
+        "word": "simply",
+        "cefr_level": "B2",
+        "occurrence_count": 3,
+        "avg_confidence": 1.0,
+        "context_quality": "weak"
+      },
+      {
+        "word": "soviet",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "spread",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "stake",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "steel",
+        "cefr_level": "B2",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "sufficient",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "support",
+        "cefr_level": "B2",
+        "occurrence_count": 4,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "supported",
+        "cefr_level": "B2",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "survived",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "weak"
+      },
+      {
+        "word": "tell",
+        "cefr_level": "B2",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "tested",
+        "cefr_level": "B2",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "third",
+        "cefr_level": "B2",
+        "occurrence_count": 3,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "told",
+        "cefr_level": "B2",
+        "occurrence_count": 3,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "tradition",
+        "cefr_level": "B2",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "tragic",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "train",
+        "cefr_level": "B2",
+        "occurrence_count": 5,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "trained",
+        "cefr_level": "B2",
+        "occurrence_count": 4,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "training",
+        "cefr_level": "B2",
+        "occurrence_count": 4,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "trick",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "troop",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "turkish",
+        "cefr_level": "B2",
+        "occurrence_count": 4,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "turn",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "unfortunate",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "unique",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "weak"
+      },
+      {
+        "word": "vision",
+        "cefr_level": "B2",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "washington",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "wing",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "winning",
+        "cefr_level": "B2",
+        "occurrence_count": 5,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "world",
+        "cefr_level": "B2",
+        "occurrence_count": 10,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      }
+    ]
+  },
+  "tier2": null,
+  "vocabulary_snapshot": {
+    "hi": {
+      "level": "A1",
+      "count": 3,
+      "source": "whitelist"
+    },
+    "marissa": {
+      "level": "C2",
+      "count": 2,
+      "source": "cefrpy"
+    },
+    "iii": {
+      "level": "A2",
+      "count": 6,
+      "source": "cefrpy"
+    },
+    "will": {
+      "level": "B2",
+      "count": 27,
+      "source": "wsd:bequeath.v.01"
+    },
+    "join": {
+      "level": "B1",
+      "count": 4,
+      "source": "wsd:connect.v.03"
+    },
+    "you": {
+      "level": "A1",
+      "count": 177,
+      "source": "cefrpy"
+    },
+    "in": {
+      "level": "A2",
+      "count": 106,
+      "source": "lemma_fallback"
+    },
+    "a": {
+      "level": "A1",
+      "count": 44,
+      "source": "cefrpy"
+    },
+    "second": {
+      "level": "B2",
+      "count": 15,
+      "source": "wsd:second.r.01"
+    },
+    "just": {
+      "level": "A2",
+      "count": 16,
+      "source": "wsd:equitable.a.01"
+    },
+    "give": {
+      "level": "A1",
+      "count": 2,
+      "source": "wsd:give.v.08"
+    },
+    "me": {
+      "level": "A1",
+      "count": 2,
+      "source": "cefrpy"
+    },
+    "2": {
+      "level": "A1",
+      "count": 5,
+      "source": "digit"
+    },
+    "minutes": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:minute.n.01"
+    },
+    "okay": {
+      "level": "A1",
+      "count": 11,
+      "source": "whitelist"
+    },
+    "i'm": {
+      "level": "A1",
+      "count": 24,
+      "source": "whitelist"
+    },
+    "back": {
+      "level": "A2",
+      "count": 3,
+      "source": "wsd:back.v.01"
+    },
+    "but": {
+      "level": "A2",
+      "count": 65,
+      "source": "lemma_fallback"
+    },
+    "trying": {
+      "level": "A2",
+      "count": 2,
+      "source": "wsd:try.v.01"
+    },
+    "to": {
+      "level": "A1",
+      "count": 71,
+      "source": "cefrpy"
+    },
+    "open": {
+      "level": "A1",
+      "count": 2,
+      "source": "wsd:open.v.01"
+    },
+    "my": {
+      "level": "A1",
+      "count": 7,
+      "source": "cefrpy"
+    },
+    "camera": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:camera.n.01"
+    },
+    "so": {
+      "level": "A1",
+      "count": 66,
+      "source": "wsd:so.r.01"
+    },
+    "yeah": {
+      "level": "A1",
+      "count": 22,
+      "source": "whitelist"
+    },
+    "i": {
+      "level": "A1",
+      "count": 112,
+      "source": "cefrpy"
+    },
+    "leave": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:exit.v.01"
+    },
+    "and": {
+      "level": "A1",
+      "count": 116,
+      "source": "cefrpy"
+    },
+    "1": {
+      "level": "A1",
+      "count": 16,
+      "source": "digit"
+    },
+    "then": {
+      "level": "A1",
+      "count": 5,
+      "source": "lemma_fallback"
+    },
+    "oh": {
+      "level": "A1",
+      "count": 9,
+      "source": "whitelist"
+    },
+    "very": {
+      "level": "A1",
+      "count": 39,
+      "source": "lemma_fallback"
+    },
+    "sorry": {
+      "level": "A1",
+      "count": 2,
+      "source": "whitelist"
+    },
+    "for": {
+      "level": "A2",
+      "count": 30,
+      "source": "cefrpy"
+    },
+    "being": {
+      "level": "A1",
+      "count": 2,
+      "source": "lemma_fallback"
+    },
+    "late": {
+      "level": "C2",
+      "count": 1,
+      "source": "wsd:late.s.03"
+    },
+    "what": {
+      "level": "A1",
+      "count": 39,
+      "source": "cefrpy"
+    },
+    "happened": {
+      "level": "A2",
+      "count": 4,
+      "source": "wsd:happen.v.02"
+    },
+    "missed": {
+      "level": "B2",
+      "count": 2,
+      "source": "wsd:miss.v.03"
+    },
+    "the": {
+      "level": "A1",
+      "count": 280,
+      "source": "cefrpy"
+    },
+    "bus": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:bus.n.01"
+    },
+    "had": {
+      "level": "B2",
+      "count": 9,
+      "source": "wsd:have.v.02"
+    },
+    "know": {
+      "level": "B1",
+      "count": 100,
+      "source": "lemma_fallback"
+    },
+    "an": {
+      "level": "A1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "accident": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:accident.n.01"
+    },
+    "on": {
+      "level": "B1",
+      "count": 37,
+      "source": "lemma_fallback"
+    },
+    "way": {
+      "level": "C1",
+      "count": 6,
+      "source": "wsd:manner.n.01"
+    },
+    "someone": {
+      "level": "A1",
+      "count": 2,
+      "source": "lemma_fallback"
+    },
+    "was": {
+      "level": "A1",
+      "count": 72,
+      "source": "lemma_fallback"
+    },
+    "killed": {
+      "level": "A2",
+      "count": 4,
+      "source": "wsd:kill.v.04"
+    },
+    "have": {
+      "level": "A1",
+      "count": 45,
+      "source": "wsd:have.v.02"
+    },
+    "call": {
+      "level": "A2",
+      "count": 5,
+      "source": "wsd:call.v.09"
+    },
+    "rescue": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:rescue.n.01"
+    },
+    "no": {
+      "level": "A1",
+      "count": 33,
+      "source": "lemma_fallback"
+    },
+    "it's": {
+      "level": "A1",
+      "count": 41,
+      "source": "whitelist"
+    },
+    "joke": {
+      "level": "B1",
+      "count": 2,
+      "source": "wsd:joke.v.01"
+    },
+    "people": {
+      "level": "A1",
+      "count": 15,
+      "source": "lemma_fallback"
+    },
+    "saying": {
+      "level": "A1",
+      "count": 8,
+      "source": "wsd:say.v.08"
+    },
+    "when": {
+      "level": "A1",
+      "count": 7,
+      "source": "cefrpy"
+    },
+    "they": {
+      "level": "A1",
+      "count": 118,
+      "source": "cefrpy"
+    },
+    "miss": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:miss.v.03"
+    },
+    "class": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:class.n.02"
+    },
+    "this": {
+      "level": "A1",
+      "count": 91,
+      "source": "cefrpy"
+    },
+    "is": {
+      "level": "A1",
+      "count": 113,
+      "source": "lemma_fallback"
+    },
+    "happens": {
+      "level": "A2",
+      "count": 4,
+      "source": "wsd:happen.v.02"
+    },
+    "sometimes": {
+      "level": "A1",
+      "count": 4,
+      "source": "wsd:sometimes.r.01"
+    },
+    "something": {
+      "level": "A1",
+      "count": 10,
+      "source": "cefrpy"
+    },
+    "out": {
+      "level": "A2",
+      "count": 4,
+      "source": "wsd:out.r.01"
+    },
+    "of": {
+      "level": "A1",
+      "count": 54,
+      "source": "cefrpy"
+    },
+    "schedule": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:schedule.v.02"
+    },
+    "which": {
+      "level": "A1",
+      "count": 10,
+      "source": "cefrpy"
+    },
+    "you're": {
+      "level": "A1",
+      "count": 12,
+      "source": "whitelist"
+    },
+    "changing": {
+      "level": "A2",
+      "count": 3,
+      "source": "wsd:change.v.01"
+    },
+    "regular": {
+      "level": "B2",
+      "count": 3,
+      "source": "wsd:even.s.03"
+    },
+    "time": {
+      "level": "B1",
+      "count": 13,
+      "source": "wsd:time.n.04"
+    },
+    "slept": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:sleep.v.01"
+    },
+    "over": {
+      "level": "B1",
+      "count": 7,
+      "source": "lemma_fallback"
+    },
+    "that's": {
+      "level": "A1",
+      "count": 10,
+      "source": "whitelist"
+    },
+    "overslept": {
+      "level": "A2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "it": {
+      "level": "A2",
+      "count": 103,
+      "source": "cefrpy"
+    },
+    "maybe": {
+      "level": "A1",
+      "count": 16,
+      "source": "cefrpy"
+    },
+    "few": {
+      "level": "A2",
+      "count": 4,
+      "source": "cefrpy"
+    },
+    "times": {
+      "level": "B1",
+      "count": 2,
+      "source": "wsd:time.n.04"
+    },
+    "year": {
+      "level": "A1",
+      "count": 6,
+      "source": "wsd:year.n.01"
+    },
+    "always": {
+      "level": "A1",
+      "count": 7,
+      "source": "wsd:always.r.05"
+    },
+    "early": {
+      "level": "A2",
+      "count": 2,
+      "source": "wsd:early.r.02"
+    },
+    "not": {
+      "level": "A1",
+      "count": 36,
+      "source": "lemma_fallback"
+    },
+    "beautiful": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:beautiful.s.01"
+    },
+    "weekend": {
+      "level": "A1",
+      "count": 4,
+      "source": "wsd:weekend.n.01"
+    },
+    "mountains": {
+      "level": "A2",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "skiing": {
+      "level": "B1",
+      "count": 2,
+      "source": "wsd:ski.v.01"
+    },
+    "that": {
+      "level": "A2",
+      "count": 60,
+      "source": "cefrpy"
+    },
+    "cross": {
+      "level": "C2",
+      "count": 1,
+      "source": "wsd:traverse.v.01"
+    },
+    "country": {
+      "level": "A1",
+      "count": 4,
+      "source": "wsd:country.n.02"
+    },
+    "again": {
+      "level": "A1",
+      "count": 3,
+      "source": "lemma_fallback"
+    },
+    "same": {
+      "level": "A1",
+      "count": 2,
+      "source": "lemma_fallback"
+    },
+    "place": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:home.n.01"
+    },
+    "exactly": {
+      "level": "A2",
+      "count": 4,
+      "source": "lemma_fallback"
+    },
+    "every": {
+      "level": "A1",
+      "count": 7,
+      "source": "cefrpy"
+    },
+    "first": {
+      "level": "B1",
+      "count": 16,
+      "source": "wsd:first.r.02"
+    },
+    "winter": {
+      "level": "A1",
+      "count": 3,
+      "source": "wsd:winter.n.01"
+    },
+    "why": {
+      "level": "A1",
+      "count": 8,
+      "source": "cefrpy"
+    },
+    "going": {
+      "level": "B2",
+      "count": 2,
+      "source": "wsd:belong.v.03"
+    },
+    "there": {
+      "level": "A1",
+      "count": 33,
+      "source": "lemma_fallback"
+    },
+    "because": {
+      "level": "A1",
+      "count": 56,
+      "source": "cefrpy"
+    },
+    "kind": {
+      "level": "A1",
+      "count": 6,
+      "source": "lemma_fallback"
+    },
+    "unique": {
+      "level": "B2",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "we": {
+      "level": "A1",
+      "count": 51,
+      "source": "cefrpy"
+    },
+    "can": {
+      "level": "A1",
+      "count": 23,
+      "source": "lemma_fallback"
+    },
+    "follow": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:follow.v.06"
+    },
+    "shoulder": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:shoulder.n.01"
+    },
+    "last": {
+      "level": "B1",
+      "count": 5,
+      "source": "wsd:last.r.01"
+    },
+    "snow": {
+      "level": "A2",
+      "count": 9,
+      "source": "wsd:snow.v.01"
+    },
+    "at": {
+      "level": "A1",
+      "count": 33,
+      "source": "cefrpy"
+    },
+    "all": {
+      "level": "A2",
+      "count": 38,
+      "source": "lemma_fallback"
+    },
+    "never": {
+      "level": "A1",
+      "count": 2,
+      "source": "wsd:never.r.02"
+    },
+    "been": {
+      "level": "A1",
+      "count": 15,
+      "source": "lemma_fallback"
+    },
+    "window": {
+      "level": "A1",
+      "count": 2,
+      "source": "wsd:window.n.01"
+    },
+    "december": {
+      "level": "A1",
+      "count": 2,
+      "source": "cefrpy"
+    },
+    "only": {
+      "level": "A2",
+      "count": 8,
+      "source": "wsd:entirely.r.02"
+    },
+    "with": {
+      "level": "A1",
+      "count": 20,
+      "source": "cefrpy"
+    },
+    "think": {
+      "level": "A1",
+      "count": 11,
+      "source": "lemma_fallback"
+    },
+    "don't": {
+      "level": "A1",
+      "count": 16,
+      "source": "whitelist"
+    },
+    "remember": {
+      "level": "A1",
+      "count": 5,
+      "source": "wsd:remember.v.01"
+    },
+    "happening": {
+      "level": "C1",
+      "count": 1,
+      "source": "wsd:happening.n.01"
+    },
+    "earlier": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:earlier.r.01"
+    },
+    "do": {
+      "level": "B2",
+      "count": 13,
+      "source": "wsd:do.v.03"
+    },
+    "safe": {
+      "level": "B1",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "much": {
+      "level": "B1",
+      "count": 5,
+      "source": "wsd:much.r.01"
+    },
+    "better": {
+      "level": "A2",
+      "count": 3,
+      "source": "wsd:better.v.02"
+    },
+    "snowing": {
+      "level": "A2",
+      "count": 3,
+      "source": "wsd:snow.v.01"
+    },
+    "day": {
+      "level": "A1",
+      "count": 2,
+      "source": "wsd:day.n.04"
+    },
+    "pretty": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:pretty.s.01"
+    },
+    "close": {
+      "level": "A1",
+      "count": 3,
+      "source": "wsd:conclude.v.04"
+    },
+    "nice": {
+      "level": "A1",
+      "count": 3,
+      "source": "wsd:courteous.s.01"
+    },
+    "seacoast": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:seashore.n.01"
+    },
+    "different": {
+      "level": "A1",
+      "count": 5,
+      "source": "wsd:different.a.01"
+    },
+    "climate": {
+      "level": "B1",
+      "count": 3,
+      "source": "wsd:climate.n.01"
+    },
+    "most": {
+      "level": "A2",
+      "count": 2,
+      "source": "lemma_fallback"
+    },
+    "products": {
+      "level": "B1",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "c": {
+      "level": "B2",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "moderated": {
+      "level": "C2",
+      "count": 1,
+      "source": "wsd:moderate.v.02"
+    },
+    "less": {
+      "level": "A2",
+      "count": 4,
+      "source": "wsd:less.r.02"
+    },
+    "harsh": {
+      "level": "C1",
+      "count": 1,
+      "source": "wsd:harsh.s.03"
+    },
+    "than": {
+      "level": "A1",
+      "count": 12,
+      "source": "cefrpy"
+    },
+    "continental": {
+      "level": "C2",
+      "count": 1,
+      "source": "wsd:continental.a.04"
+    },
+    "east": {
+      "level": "A2",
+      "count": 5,
+      "source": "wsd:east.r.01"
+    },
+    "part": {
+      "level": "A1",
+      "count": 3,
+      "source": "wsd:partially.r.01"
+    },
+    "poland": {
+      "level": "B1",
+      "count": 14,
+      "source": "cefrpy"
+    },
+    "more": {
+      "level": "A2",
+      "count": 4,
+      "source": "cefrpy"
+    },
+    "lanes": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:lane.n.01"
+    },
+    "least": {
+      "level": "B1",
+      "count": 5,
+      "source": "lemma_fallback"
+    },
+    "legend": {
+      "level": "B2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "probably": {
+      "level": "A2",
+      "count": 4,
+      "source": "wsd:probably.r.01"
+    },
+    "might": {
+      "level": "C1",
+      "count": 7,
+      "source": "lemma_fallback"
+    },
+    "be": {
+      "level": "A1",
+      "count": 30,
+      "source": "lemma_fallback"
+    },
+    "told": {
+      "level": "B2",
+      "count": 3,
+      "source": "wsd:assure.v.02"
+    },
+    "about": {
+      "level": "A1",
+      "count": 15,
+      "source": "lemma_fallback"
+    },
+    "swedish": {
+      "level": "C1",
+      "count": 2,
+      "source": "cefrpy"
+    },
+    "flood": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:flood.n.01"
+    },
+    "16": {
+      "level": "A1",
+      "count": 3,
+      "source": "digit"
+    },
+    "48": {
+      "level": "A1",
+      "count": 1,
+      "source": "digit"
+    },
+    "far": {
+      "level": "B2",
+      "count": 16,
+      "source": "wsd:far.r.01"
+    },
+    "long": {
+      "level": "A1",
+      "count": 2,
+      "source": "wsd:long.r.01"
+    },
+    "ago": {
+      "level": "A2",
+      "count": 2,
+      "source": "wsd:ago.r.01"
+    },
+    "invasions": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:invasion.n.01"
+    },
+    "army": {
+      "level": "B1",
+      "count": 4,
+      "source": "cefrpy"
+    },
+    "actually": {
+      "level": "A2",
+      "count": 12,
+      "source": "wsd:actually.r.01"
+    },
+    "unfortunate": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:unfortunate.a.01"
+    },
+    "engaged": {
+      "level": "B1",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "turkish": {
+      "level": "B2",
+      "count": 4,
+      "source": "cefrpy"
+    },
+    "war": {
+      "level": "A2",
+      "count": 17,
+      "source": "wsd:war.n.01"
+    },
+    "say": {
+      "level": "A1",
+      "count": 11,
+      "source": "lemma_fallback"
+    },
+    "world": {
+      "level": "B2",
+      "count": 10,
+      "source": "wsd:global.s.01"
+    },
+    "ukraine": {
+      "level": "C2",
+      "count": 12,
+      "source": "cefrpy"
+    },
+    "moment": {
+      "level": "A2",
+      "count": 12,
+      "source": "lemma_fallback"
+    },
+    "were": {
+      "level": "A1",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "beaten": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:beat.v.02"
+    },
+    "demanding": {
+      "level": "B2",
+      "count": 3,
+      "source": "wsd:demanding.a.01"
+    },
+    "work": {
+      "level": "C1",
+      "count": 3,
+      "source": "wsd:workplace.n.01"
+    },
+    "would": {
+      "level": "A1",
+      "count": 8,
+      "source": "cefrpy"
+    },
+    "like": {
+      "level": "A1",
+      "count": 40,
+      "source": "lemma_fallback"
+    },
+    "osman": {
+      "level": "C2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "strong": {
+      "level": "A2",
+      "count": 3,
+      "source": "wsd:strong.a.01"
+    },
+    "also": {
+      "level": "A1",
+      "count": 2,
+      "source": "wsd:besides.r.02"
+    },
+    "russian": {
+      "level": "B1",
+      "count": 4,
+      "source": "cefrpy"
+    },
+    "against": {
+      "level": "A2",
+      "count": 3,
+      "source": "cefrpy"
+    },
+    "etcetera": {
+      "level": "C2",
+      "count": 2,
+      "source": "cefrpy"
+    },
+    "sweet": {
+      "level": "A1",
+      "count": 2,
+      "source": "wsd:sweet.a.01"
+    },
+    "sweets": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:dessert.n.01"
+    },
+    "use": {
+      "level": "A2",
+      "count": 5,
+      "source": "wsd:use.n.01"
+    },
+    "right": {
+      "level": "B2",
+      "count": 77,
+      "source": "wsd:correct.v.01"
+    },
+    "invaded": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:invade.v.01"
+    },
+    "how": {
+      "level": "A1",
+      "count": 29,
+      "source": "cefrpy"
+    },
+    "sweden": {
+      "level": "B1",
+      "count": 2,
+      "source": "cefrpy"
+    },
+    "across": {
+      "level": "A2",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "baltic": {
+      "level": "C2",
+      "count": 6,
+      "source": "cefrpy"
+    },
+    "sea": {
+      "level": "A1",
+      "count": 2,
+      "source": "cefrpy"
+    },
+    "mean": {
+      "level": "B1",
+      "count": 48,
+      "source": "lemma_fallback"
+    },
+    "small": {
+      "level": "A1",
+      "count": 3,
+      "source": "wsd:small.a.01"
+    },
+    "still": {
+      "level": "A2",
+      "count": 3,
+      "source": "lemma_fallback"
+    },
+    "need": {
+      "level": "A1",
+      "count": 5,
+      "source": "wsd:want.v.02"
+    },
+    "possibility": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:possibility.n.04"
+    },
+    "move": {
+      "level": "A2",
+      "count": 2,
+      "source": "wsd:travel.v.01"
+    },
+    "big": {
+      "level": "A2",
+      "count": 26,
+      "source": "wsd:big.s.01"
+    },
+    "some": {
+      "level": "A1",
+      "count": 11,
+      "source": "lemma_fallback"
+    },
+    "ships": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:ship.n.01"
+    },
+    "did": {
+      "level": "A1",
+      "count": 3,
+      "source": "lemma_fallback"
+    },
+    "votes": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:vote.n.01"
+    },
+    "invited": {
+      "level": "A1",
+      "count": 2,
+      "source": "wsd:invite.v.07"
+    },
+    "through": {
+      "level": "B1",
+      "count": 3,
+      "source": "lemma_fallback"
+    },
+    "ice": {
+      "level": "A2",
+      "count": 3,
+      "source": "wsd:ice.n.02"
+    },
+    "icy": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:icy.s.03"
+    },
+    "called": {
+      "level": "A1",
+      "count": 4,
+      "source": "lemma_fallback"
+    },
+    "hundred": {
+      "level": "A2",
+      "count": 4,
+      "source": "cefrpy"
+    },
+    "ic": {
+      "level": "C2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "period": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:time_period.n.01"
+    },
+    "europe": {
+      "level": "A2",
+      "count": 7,
+      "source": "cefrpy"
+    },
+    "colder": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:cold.a.02"
+    },
+    "used": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:secondhand.s.02"
+    },
+    "see": {
+      "level": "A2",
+      "count": 3,
+      "source": "wsd:watch.v.03"
+    },
+    "covered": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:cover.v.01"
+    },
+    "by": {
+      "level": "B2",
+      "count": 17,
+      "source": "lemma_fallback"
+    },
+    "now": {
+      "level": "A1",
+      "count": 8,
+      "source": "wsd:now.r.04"
+    },
+    "even": {
+      "level": "A1",
+      "count": 15,
+      "source": "lemma_fallback"
+    },
+    "from": {
+      "level": "A1",
+      "count": 14,
+      "source": "cefrpy"
+    },
+    "childhood": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:childhood.n.01"
+    },
+    "certain": {
+      "level": "A2",
+      "count": 3,
+      "source": "lemma_fallback"
+    },
+    "are": {
+      "level": "A1",
+      "count": 24,
+      "source": "lemma_fallback"
+    },
+    "gulfs": {
+      "level": "B2",
+      "count": 2,
+      "source": "wsd:gulf.n.01"
+    },
+    "finns": {
+      "level": "C1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "or": {
+      "level": "A1",
+      "count": 21,
+      "source": "cefrpy"
+    },
+    "finnish": {
+      "level": "C1",
+      "count": 2,
+      "source": "cefrpy"
+    },
+    "gulf": {
+      "level": "B2",
+      "count": 2,
+      "source": "wsd:gulf.n.01"
+    },
+    "thing": {
+      "level": "A1",
+      "count": 5,
+      "source": "lemma_fallback"
+    },
+    "iced": {
+      "level": "A1",
+      "count": 3,
+      "source": "cefrpy"
+    },
+    "practically": {
+      "level": "B2",
+      "count": 2,
+      "source": "lemma_fallback"
+    },
+    "fully": {
+      "level": "B1",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "change": {
+      "level": "A2",
+      "count": 4,
+      "source": "wsd:change.v.01"
+    },
+    "has": {
+      "level": "B1",
+      "count": 3,
+      "source": "wsd:induce.v.02"
+    },
+    "difficulty": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:difficulty.n.04"
+    },
+    "snowfall": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:snow.n.01"
+    },
+    "short": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:short.a.03"
+    },
+    "usually": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:normally.r.01"
+    },
+    "staying": {
+      "level": "A1",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "moving": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:travel.v.01"
+    },
+    "warsaw": {
+      "level": "C1",
+      "count": 2,
+      "source": "cefrpy"
+    },
+    "lightly": {
+      "level": "C1",
+      "count": 1,
+      "source": "wsd:thinly.r.03"
+    },
+    "white": {
+      "level": "A1",
+      "count": 2,
+      "source": "wsd:white.a.01"
+    },
+    "outside": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:outside.r.01"
+    },
+    "whole": {
+      "level": "A2",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "week": {
+      "level": "A1",
+      "count": 2,
+      "source": "lemma_fallback"
+    },
+    "likely": {
+      "level": "C1",
+      "count": 1,
+      "source": "wsd:probably.r.01"
+    },
+    "ease": {
+      "level": "C1",
+      "count": 1,
+      "source": "wsd:facilitate.v.01"
+    },
+    "what's": {
+      "level": "A1",
+      "count": 2,
+      "source": "whitelist"
+    },
+    "media": {
+      "level": "C2",
+      "count": 2,
+      "source": "wsd:medium.n.01"
+    },
+    "judge": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:estimate.v.01"
+    },
+    "having": {
+      "level": "A1",
+      "count": 3,
+      "source": "lemma_fallback"
+    },
+    "gossips": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:dish_the_dirt.v.01"
+    },
+    "guesses": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:guess.n.02"
+    },
+    "confirmed": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:confirm.v.01"
+    },
+    "information": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:data.n.01"
+    },
+    "these": {
+      "level": "A1",
+      "count": 14,
+      "source": "cefrpy"
+    },
+    "talking": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:talk.n.01"
+    },
+    "trump": {
+      "level": "B1",
+      "count": 12,
+      "source": "lemma_fallback"
+    },
+    "playing": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:play.v.12"
+    },
+    "dangerous": {
+      "level": "A2",
+      "count": 2,
+      "source": "wsd:dangerous.a.01"
+    },
+    "game": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:game.n.02"
+    },
+    "he": {
+      "level": "A1",
+      "count": 23,
+      "source": "cefrpy"
+    },
+    "lose": {
+      "level": "B1",
+      "count": 5,
+      "source": "wsd:lose.v.02"
+    },
+    "final": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:final.n.01"
+    },
+    "global": {
+      "level": "B2",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "decision": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:decision.n.02"
+    },
+    "end": {
+      "level": "A2",
+      "count": 8,
+      "source": "wsd:end.v.04"
+    },
+    "up": {
+      "level": "A2",
+      "count": 4,
+      "source": "lemma_fallback"
+    },
+    "another": {
+      "level": "A2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "yalta": {
+      "level": "C2",
+      "count": 7,
+      "source": "cefrpy"
+    },
+    "treaty": {
+      "level": "C2",
+      "count": 4,
+      "source": "wsd:treaty.n.01"
+    },
+    "town": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:town.n.01"
+    },
+    "between": {
+      "level": "C1",
+      "count": 1,
+      "source": "wsd:between.r.01"
+    },
+    "soviet": {
+      "level": "B2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "union": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:union.n.01"
+    },
+    "us": {
+      "level": "A1",
+      "count": 12,
+      "source": "cefrpy"
+    },
+    "uk": {
+      "level": "C1",
+      "count": 3,
+      "source": "cefrpy"
+    },
+    "vision": {
+      "level": "B2",
+      "count": 2,
+      "source": "wsd:sight.n.03"
+    },
+    "everyone's": {
+      "level": "A1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "areas": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:area.n.01"
+    },
+    "cold": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:cold.n.01"
+    },
+    "adapt": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:adjust.v.03"
+    },
+    "socialistic": {
+      "level": "B1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "communism": {
+      "level": "B2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "idea": {
+      "level": "B1",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "including": {
+      "level": "A2",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "nobody": {
+      "level": "A2",
+      "count": 9,
+      "source": "cefrpy"
+    },
+    "asked": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:ask.v.04"
+    },
+    "whether": {
+      "level": "B1",
+      "count": 11,
+      "source": "cefrpy"
+    },
+    "want": {
+      "level": "A1",
+      "count": 4,
+      "source": "wsd:desire.v.01"
+    },
+    "believe": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:believe.v.05"
+    },
+    "based": {
+      "level": "C2",
+      "count": 4,
+      "source": "wsd:establish.v.08"
+    },
+    "russia": {
+      "level": "A2",
+      "count": 9,
+      "source": "cefrpy"
+    },
+    "gain": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:derive.v.02"
+    },
+    "czech": {
+      "level": "C2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "republic": {
+      "level": "B2",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "czechoslovakia": {
+      "level": "C1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "countries": {
+      "level": "A1",
+      "count": 2,
+      "source": "wsd:country.n.02"
+    },
+    "take": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:lead.v.01"
+    },
+    "rejoin": {
+      "level": "C1",
+      "count": 2,
+      "source": "lemma_fallback"
+    },
+    "them": {
+      "level": "A1",
+      "count": 6,
+      "source": "cefrpy"
+    },
+    "western": {
+      "level": "B1",
+      "count": 3,
+      "source": "wsd:western.a.01"
+    },
+    "clear": {
+      "level": "A2",
+      "count": 2,
+      "source": "wsd:clear.s.07"
+    },
+    "picture": {
+      "level": "C2",
+      "count": 2,
+      "source": "wsd:picture.v.02"
+    },
+    "dying": {
+      "level": "A1",
+      "count": 2,
+      "source": "wsd:die.v.02"
+    },
+    "situation": {
+      "level": "B1",
+      "count": 2,
+      "source": "lemma_fallback"
+    },
+    "if": {
+      "level": "A1",
+      "count": 32,
+      "source": "cefrpy"
+    },
+    "resources": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:resource.n.01"
+    },
+    "consider": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:view.v.02"
+    },
+    "policy": {
+      "level": "B2",
+      "count": 3,
+      "source": "wsd:policy.n.01"
+    },
+    "already": {
+      "level": "A2",
+      "count": 2,
+      "source": "lemma_fallback"
+    },
+    "tested": {
+      "level": "B2",
+      "count": 2,
+      "source": "wsd:test.v.01"
+    },
+    "percent": {
+      "level": "B2",
+      "count": 6,
+      "source": "wsd:percentage.n.01"
+    },
+    "fuck": {
+      "level": "C2",
+      "count": 3,
+      "source": "cefrpy"
+    },
+    "off": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:off.s.02"
+    },
+    "help": {
+      "level": "A2",
+      "count": 2,
+      "source": "wsd:help.v.01"
+    },
+    "we'll": {
+      "level": "A1",
+      "count": 1,
+      "source": "whitelist"
+    },
+    "answer": {
+      "level": "A1",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "ans": {
+      "level": "A1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "worse": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:worse.a.01"
+    },
+    "such": {
+      "level": "A2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "friend": {
+      "level": "C1",
+      "count": 6,
+      "source": "wsd:acquaintance.n.03"
+    },
+    "quote": {
+      "level": "C2",
+      "count": 1,
+      "source": "wsd:quotation.n.02"
+    },
+    "unquote": {
+      "level": "C2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "colonial": {
+      "level": "B2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "rather": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:rather.r.01"
+    },
+    "rejoining": {
+      "level": "C1",
+      "count": 1,
+      "source": "wsd:retort.v.01"
+    },
+    "whatever": {
+      "level": "A2",
+      "count": 15,
+      "source": "cefrpy"
+    },
+    "we're": {
+      "level": "A1",
+      "count": 1,
+      "source": "whitelist"
+    },
+    "building": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:build.v.07"
+    },
+    "nationality": {
+      "level": "A1",
+      "count": 2,
+      "source": "wsd:nationality.n.02"
+    },
+    "as": {
+      "level": "C1",
+      "count": 3,
+      "source": "lemma_fallback"
+    },
+    "culture": {
+      "level": "A1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "closer": {
+      "level": "A1",
+      "count": 3,
+      "source": "wsd:close.a.01"
+    },
+    "stupid": {
+      "level": "B1",
+      "count": 7,
+      "source": "wsd:unintelligent.a.01"
+    },
+    "may": {
+      "level": "A1",
+      "count": 3,
+      "source": "cefrpy"
+    },
+    "dreams": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:dream.n.01"
+    },
+    "democratic": {
+      "level": "B2",
+      "count": 6,
+      "source": "wsd:democratic.a.01"
+    },
+    "community": {
+      "level": "B2",
+      "count": 3,
+      "source": "wsd:community.n.01"
+    },
+    "away": {
+      "level": "A2",
+      "count": 3,
+      "source": "wsd:off.r.02"
+    },
+    "their": {
+      "level": "A1",
+      "count": 13,
+      "source": "cefrpy"
+    },
+    "laws": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:law.n.01"
+    },
+    "habits": {
+      "level": "B1",
+      "count": 3,
+      "source": "wsd:habit.n.02"
+    },
+    "anything": {
+      "level": "A1",
+      "count": 3,
+      "source": "cefrpy"
+    },
+    "bad": {
+      "level": "C1",
+      "count": 5,
+      "source": "wsd:bad.a.01"
+    },
+    "own": {
+      "level": "B1",
+      "count": 4,
+      "source": "wsd:own.v.01"
+    },
+    "tradition": {
+      "level": "B2",
+      "count": 2,
+      "source": "wsd:tradition.n.01"
+    },
+    "yes": {
+      "level": "A1",
+      "count": 4,
+      "source": "whitelist"
+    },
+    "experiences": {
+      "level": "A1",
+      "count": 2,
+      "source": "wsd:experience.n.01"
+    },
+    "huge": {
+      "level": "B1",
+      "count": 2,
+      "source": "lemma_fallback"
+    },
+    "ahead": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:ahead.r.02"
+    },
+    "really": {
+      "level": "A1",
+      "count": 10,
+      "source": "lemma_fallback"
+    },
+    "build": {
+      "level": "A2",
+      "count": 3,
+      "source": "wsd:build.v.07"
+    },
+    "stable": {
+      "level": "C1",
+      "count": 2,
+      "source": "lemma_fallback"
+    },
+    "democracy": {
+      "level": "B2",
+      "count": 3,
+      "source": "wsd:democracy.n.02"
+    },
+    "third": {
+      "level": "B2",
+      "count": 3,
+      "source": "wsd:one-third.n.01"
+    },
+    "difficulties": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:difficulty.n.04"
+    },
+    "beginning": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:begin.v.06"
+    },
+    "nineties": {
+      "level": "A1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "difficult": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:difficult.a.01"
+    },
+    "reestablish": {
+      "level": "C1",
+      "count": 1,
+      "source": "wsd:restore.v.05"
+    },
+    "new": {
+      "level": "A1",
+      "count": 4,
+      "source": "wsd:new.a.01"
+    },
+    "make": {
+      "level": "C1",
+      "count": 1,
+      "source": "wsd:make.v.31"
+    },
+    "focused": {
+      "level": "B1",
+      "count": 2,
+      "source": "wsd:concentrate.v.02"
+    },
+    "happy": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:happy.a.01"
+    },
+    "gracious": {
+      "level": "A1",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "grateful": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:grateful.a.01"
+    },
+    "majority": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:majority.n.02"
+    },
+    "dream": {
+      "level": "C1",
+      "count": 1,
+      "source": "wsd:dream.v.01"
+    },
+    "giving": {
+      "level": "C1",
+      "count": 2,
+      "source": "wsd:render.v.04"
+    },
+    "him": {
+      "level": "A1",
+      "count": 5,
+      "source": "cefrpy"
+    },
+    "mind": {
+      "level": "C1",
+      "count": 1,
+      "source": "wsd:beware.v.01"
+    },
+    "instantly": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:instantaneously.r.01"
+    },
+    "years": {
+      "level": "A1",
+      "count": 3,
+      "source": "lemma_fallback"
+    },
+    "support": {
+      "level": "B2",
+      "count": 4,
+      "source": "wsd:support.v.02"
+    },
+    "care": {
+      "level": "B1",
+      "count": 3,
+      "source": "wsd:worry.v.02"
+    },
+    "should": {
+      "level": "A1",
+      "count": 2,
+      "source": "cefrpy"
+    },
+    "die": {
+      "level": "A1",
+      "count": 2,
+      "source": "wsd:die.v.02"
+    },
+    "reason": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:argue.v.01"
+    },
+    "simply": {
+      "level": "B2",
+      "count": 3,
+      "source": "lemma_fallback"
+    },
+    "his": {
+      "level": "A1",
+      "count": 2,
+      "source": "cefrpy"
+    },
+    "chance": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:prospect.n.01"
+    },
+    "heard": {
+      "level": "C2",
+      "count": 3,
+      "source": "wsd:hear.v.03"
+    },
+    "somewhere": {
+      "level": "A2",
+      "count": 2,
+      "source": "lemma_fallback"
+    },
+    "florida": {
+      "level": "A2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "she": {
+      "level": "A1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "said": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:say.v.08"
+    },
+    "dicta": {
+      "level": "C2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "dictator": {
+      "level": "B2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "without": {
+      "level": "A2",
+      "count": 2,
+      "source": "cefrpy"
+    },
+    "any": {
+      "level": "A1",
+      "count": 5,
+      "source": "cefrpy"
+    },
+    "ground": {
+      "level": "B2",
+      "count": 4,
+      "source": "wsd:background.n.02"
+    },
+    "election": {
+      "level": "B1",
+      "count": 10,
+      "source": "wsd:election.n.01"
+    },
+    "supports": {
+      "level": "C1",
+      "count": 1,
+      "source": "wsd:corroborate.v.03"
+    },
+    "propaganda": {
+      "level": "B2",
+      "count": 4,
+      "source": "cefrpy"
+    },
+    "he's": {
+      "level": "A1",
+      "count": 15,
+      "source": "whitelist"
+    },
+    "comment": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:comment.v.01"
+    },
+    "during": {
+      "level": "A2",
+      "count": 6,
+      "source": "cefrpy"
+    },
+    "hot": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:hot.a.01"
+    },
+    "problem": {
+      "level": "A1",
+      "count": 3,
+      "source": "wsd:problem.n.01"
+    },
+    "under": {
+      "level": "A1",
+      "count": 5,
+      "source": "lemma_fallback"
+    },
+    "regulations": {
+      "level": "C1",
+      "count": 1,
+      "source": "wsd:regulation.n.06"
+    },
+    "limited": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:limit.v.02"
+    },
+    "freedom": {
+      "level": "B2",
+      "count": 3,
+      "source": "wsd:freedom.n.01"
+    },
+    "supposed": {
+      "level": "A1",
+      "count": 2,
+      "source": "lemma_fallback"
+    },
+    "presidential": {
+      "level": "B2",
+      "count": 2,
+      "source": "wsd:presidential.a.01"
+    },
+    "law": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:law.n.01"
+    },
+    "forbidden": {
+      "level": "B2",
+      "count": 3,
+      "source": "wsd:forbid.v.01"
+    },
+    "regulation": {
+      "level": "C1",
+      "count": 1,
+      "source": "wsd:regulation.n.03"
+    },
+    "limitations": {
+      "level": "C1",
+      "count": 1,
+      "source": "wsd:limitation.n.05"
+    },
+    "political": {
+      "level": "B1",
+      "count": 3,
+      "source": "wsd:political.a.01"
+    },
+    "affair": {
+      "level": "B2",
+      "count": 2,
+      "source": "wsd:matter.n.01"
+    },
+    "government": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:government.n.02"
+    },
+    "decided": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:decide.v.02"
+    },
+    "elections": {
+      "level": "B1",
+      "count": 3,
+      "source": "wsd:election.n.01"
+    },
+    "correspondence": {
+      "level": "B2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "mails": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:mail.v.01"
+    },
+    "mail": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:mail.v.01"
+    },
+    "important": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:authoritative.s.01"
+    },
+    "cannot": {
+      "level": "C2",
+      "count": 6,
+      "source": "cefrpy"
+    },
+    "done": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:perform.v.01"
+    },
+    "especially": {
+      "level": "A2",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "propose": {
+      "level": "C1",
+      "count": 1,
+      "source": "wsd:nominate.v.02"
+    },
+    "post": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:mail.n.02"
+    },
+    "offices": {
+      "level": "C1",
+      "count": 2,
+      "source": "wsd:office.n.04"
+    },
+    "fear": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:fear.v.02"
+    },
+    "bigger": {
+      "level": "A1",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "moved": {
+      "level": "A2",
+      "count": 3,
+      "source": "wsd:move.v.02"
+    },
+    "months": {
+      "level": "A1",
+      "count": 2,
+      "source": "wsd:calendar_month.n.01"
+    },
+    "well": {
+      "level": "A1",
+      "count": 5,
+      "source": "lemma_fallback"
+    },
+    "after": {
+      "level": "A2",
+      "count": 2,
+      "source": "lemma_fallback"
+    },
+    "pandemic": {
+      "level": "B2",
+      "count": 2,
+      "source": "cefrpy"
+    },
+    "missing": {
+      "level": "A2",
+      "count": 2,
+      "source": "wsd:miss.v.02"
+    },
+    "happen": {
+      "level": "A2",
+      "count": 4,
+      "source": "wsd:happen.v.02"
+    },
+    "fourth": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:one-fourth.n.01"
+    },
+    "vote": {
+      "level": "B1",
+      "count": 3,
+      "source": "wsd:vote.v.02"
+    },
+    "control": {
+      "level": "B2",
+      "count": 4,
+      "source": "wsd:control.n.05"
+    },
+    "stabilized": {
+      "level": "C2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "cities": {
+      "level": "A1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "kharkov": {
+      "level": "C2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "front": {
+      "level": "B1",
+      "count": 5,
+      "source": "wsd:front.a.01"
+    },
+    "line": {
+      "level": "B2",
+      "count": 6,
+      "source": "wsd:line.v.01"
+    },
+    "popular": {
+      "level": "A2",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "insane": {
+      "level": "C2",
+      "count": 3,
+      "source": "wsd:insane.a.01"
+    },
+    "man": {
+      "level": "A1",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "other": {
+      "level": "A2",
+      "count": 9,
+      "source": "cefrpy"
+    },
+    "hand": {
+      "level": "B1",
+      "count": 3,
+      "source": "wsd:pass.v.05"
+    },
+    "stop": {
+      "level": "B1",
+      "count": 2,
+      "source": "wsd:stop.v.01"
+    },
+    "immediately": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:immediately.r.01"
+    },
+    "sending": {
+      "level": "A1",
+      "count": 3,
+      "source": "wsd:send.v.02"
+    },
+    "military": {
+      "level": "B2",
+      "count": 5,
+      "source": "wsd:military.a.03"
+    },
+    "equipment": {
+      "level": "B1",
+      "count": 10,
+      "source": "lemma_fallback"
+    },
+    "spread": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:circulate.v.02"
+    },
+    "good": {
+      "level": "A1",
+      "count": 8,
+      "source": "wsd:well.r.01"
+    },
+    "intentions": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:intention.n.03"
+    },
+    "children": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:child.n.01"
+    },
+    "decide": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:decide.v.01"
+    },
+    "send": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:send.v.01"
+    },
+    "our": {
+      "level": "A1",
+      "count": 6,
+      "source": "cefrpy"
+    },
+    "boys": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:son.n.01"
+    },
+    "could": {
+      "level": "A1",
+      "count": 2,
+      "source": "cefrpy"
+    },
+    "reinhold": {
+      "level": "C2",
+      "count": 3,
+      "source": "cefrpy"
+    },
+    "film": {
+      "level": "B1",
+      "count": 3,
+      "source": "wsd:film.v.01"
+    },
+    "concern": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:refer.v.02"
+    },
+    "germany": {
+      "level": "A2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "program": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:program.n.07"
+    },
+    "tanks": {
+      "level": "C1",
+      "count": 1,
+      "source": "wsd:tank.n.01"
+    },
+    "heavy": {
+      "level": "A2",
+      "count": 6,
+      "source": "wsd:heavy.s.16"
+    },
+    "production": {
+      "level": "B1",
+      "count": 2,
+      "source": "wsd:production.n.07"
+    },
+    "compare": {
+      "level": "B1",
+      "count": 2,
+      "source": "lemma_fallback"
+    },
+    "backup": {
+      "level": "C2",
+      "count": 1,
+      "source": "wsd:backing.n.01"
+    },
+    "siberia": {
+      "level": "C2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "potential": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:likely.s.01"
+    },
+    "they're": {
+      "level": "A1",
+      "count": 3,
+      "source": "whitelist"
+    },
+    "doing": {
+      "level": "B2",
+      "count": 3,
+      "source": "wsd:perform.v.01"
+    },
+    "hundreds": {
+      "level": "A2",
+      "count": 3,
+      "source": "cefrpy"
+    },
+    "course": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:class.n.02"
+    },
+    "wall": {
+      "level": "A1",
+      "count": 2,
+      "source": "wsd:wall.n.07"
+    },
+    "steel": {
+      "level": "B2",
+      "count": 2,
+      "source": "wsd:steel.n.01"
+    },
+    "winning": {
+      "level": "B2",
+      "count": 5,
+      "source": "wsd:win.v.01"
+    },
+    "simple": {
+      "level": "B1",
+      "count": 4,
+      "source": "wsd:elementary.s.01"
+    },
+    "sure": {
+      "level": "A2",
+      "count": 2,
+      "source": "wsd:certain.a.02"
+    },
+    "english": {
+      "level": "A2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "word": {
+      "level": "C2",
+      "count": 1,
+      "source": "wsd:give_voice.v.01"
+    },
+    "gun": {
+      "level": "B1",
+      "count": 2,
+      "source": "wsd:gun.n.01"
+    },
+    "artillery": {
+      "level": "B2",
+      "count": 4,
+      "source": "cefrpy"
+    },
+    "pick": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:choice.n.02"
+    },
+    "gans": {
+      "level": "C2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "get": {
+      "level": "A1",
+      "count": 2,
+      "source": "wsd:get.v.22"
+    },
+    "operational": {
+      "level": "B1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "killing": {
+      "level": "A2",
+      "count": 2,
+      "source": "wsd:kill.v.04"
+    },
+    "sophisticated": {
+      "level": "B1",
+      "count": 2,
+      "source": "wsd:sophisticated.a.01"
+    },
+    "expensive": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:expensive.a.01"
+    },
+    "train": {
+      "level": "B2",
+      "count": 5,
+      "source": "wsd:train.v.02"
+    },
+    "planes": {
+      "level": "A2",
+      "count": 4,
+      "source": "wsd:airplane.n.01"
+    },
+    "thousands": {
+      "level": "A2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "losing": {
+      "level": "B1",
+      "count": 2,
+      "source": "wsd:lose.v.05"
+    },
+    "mass": {
+      "level": "C2",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "nobody's": {
+      "level": "A2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "focusing": {
+      "level": "C2",
+      "count": 1,
+      "source": "wsd:focus.n.01"
+    },
+    "massive": {
+      "level": "B2",
+      "count": 6,
+      "source": "wsd:massive.s.04"
+    },
+    "words": {
+      "level": "C2",
+      "count": 1,
+      "source": "wsd:give_voice.v.01"
+    },
+    "afghanistan": {
+      "level": "C1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "syria": {
+      "level": "C1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "libya": {
+      "level": "C2",
+      "count": 2,
+      "source": "cefrpy"
+    },
+    "mali": {
+      "level": "C2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "african": {
+      "level": "B1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "partisan": {
+      "level": "B2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "rebel": {
+      "level": "B2",
+      "count": 2,
+      "source": "wsd:insurgent.n.01"
+    },
+    "partisans": {
+      "level": "B2",
+      "count": 5,
+      "source": "cefrpy"
+    },
+    "light": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:lighter.n.02"
+    },
+    "manic": {
+      "level": "A1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "stake": {
+      "level": "B2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "nato": {
+      "level": "C1",
+      "count": 3,
+      "source": "cefrpy"
+    },
+    "plans": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:plan.v.02"
+    },
+    "tactics": {
+      "level": "C1",
+      "count": 1,
+      "source": "wsd:tactic.n.01"
+    },
+    "prepared": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:disposed.s.01"
+    },
+    "sec": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:second.n.01"
+    },
+    "there'd": {
+      "level": "A1",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "millions": {
+      "level": "B2",
+      "count": 2,
+      "source": "wsd:million.n.02"
+    },
+    "fighting": {
+      "level": "B2",
+      "count": 5,
+      "source": "wsd:fight.n.02"
+    },
+    "each": {
+      "level": "A1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "everything": {
+      "level": "A1",
+      "count": 3,
+      "source": "cefrpy"
+    },
+    "guy": {
+      "level": "A2",
+      "count": 17,
+      "source": "lemma_fallback"
+    },
+    "technology": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:engineering.n.02"
+    },
+    "kill": {
+      "level": "C2",
+      "count": 3,
+      "source": "wsd:stamp_out.v.01"
+    },
+    "look": {
+      "level": "B1",
+      "count": 2,
+      "source": "wsd:expect.v.03"
+    },
+    "lost": {
+      "level": "B1",
+      "count": 4,
+      "source": "wsd:lose.v.02"
+    },
+    "heroes": {
+      "level": "C2",
+      "count": 3,
+      "source": "wsd:champion.n.02"
+    },
+    "beat": {
+      "level": "C1",
+      "count": 1,
+      "source": "wsd:beat.v.10"
+    },
+    "machine": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:car.n.01"
+    },
+    "guns": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:gun.n.01"
+    },
+    "f": {
+      "level": "A2",
+      "count": 4,
+      "source": "cefrpy"
+    },
+    "35": {
+      "level": "A1",
+      "count": 1,
+      "source": "digit"
+    },
+    "car": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:car.n.01"
+    },
+    "got": {
+      "level": "A1",
+      "count": 2,
+      "source": "wsd:get.v.22"
+    },
+    "saw": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:meet.v.01"
+    },
+    "tragic": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:tragic.s.01"
+    },
+    "recently": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:recently.r.01"
+    },
+    "opened": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:open.v.01"
+    },
+    "13": {
+      "level": "A1",
+      "count": 1,
+      "source": "digit"
+    },
+    "hours": {
+      "level": "A1",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "they've": {
+      "level": "A1",
+      "count": 9,
+      "source": "whitelist"
+    },
+    "libyan": {
+      "level": "C2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "protecting": {
+      "level": "B1",
+      "count": 5,
+      "source": "wsd:protect.v.01"
+    },
+    "6": {
+      "level": "A1",
+      "count": 2,
+      "source": "digit"
+    },
+    "guys": {
+      "level": "A2",
+      "count": 3,
+      "source": "lemma_fallback"
+    },
+    "armed": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:armed.a.01"
+    },
+    "fine": {
+      "level": "A2",
+      "count": 2,
+      "source": "lemma_fallback"
+    },
+    "survived": {
+      "level": "B2",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "30": {
+      "level": "A1",
+      "count": 1,
+      "source": "digit"
+    },
+    "50": {
+      "level": "A1",
+      "count": 2,
+      "source": "digit"
+    },
+    "died": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:die.v.02"
+    },
+    "trained": {
+      "level": "B2",
+      "count": 4,
+      "source": "wsd:train.v.02"
+    },
+    "soldiers": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:soldier.n.01"
+    },
+    "tried": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:try.v.01"
+    },
+    "themselves": {
+      "level": "A2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "means": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:intend.v.01"
+    },
+    "position": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:situation.n.02"
+    },
+    "defend": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:defend.v.02"
+    },
+    "defense": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:defense.n.12"
+    },
+    "stronger": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:strong.a.01"
+    },
+    "manpower": {
+      "level": "C2",
+      "count": 1,
+      "source": "wsd:work_force.n.01"
+    },
+    "act": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:act.v.01"
+    },
+    "men": {
+      "level": "C2",
+      "count": 2,
+      "source": "wsd:work_force.n.01"
+    },
+    "lying": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:lie.v.02"
+    },
+    "tell": {
+      "level": "B2",
+      "count": 2,
+      "source": "wsd:state.v.01"
+    },
+    "difference": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:difference.n.01"
+    },
+    "read": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:learn.v.04"
+    },
+    "book": {
+      "level": "A1",
+      "count": 2,
+      "source": "wsd:reserve.v.04"
+    },
+    "management": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:management.n.01"
+    },
+    "written": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:write.v.01"
+    },
+    "ranch": {
+      "level": "B2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "soldier": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:soldier.n.01"
+    },
+    "marines": {
+      "level": "B1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "generally": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:broadly.r.01"
+    },
+    "manage": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:wield.v.02"
+    },
+    "group": {
+      "level": "C1",
+      "count": 1,
+      "source": "wsd:group.v.01"
+    },
+    "interesting": {
+      "level": "B1",
+      "count": 5,
+      "source": "wsd:interest.v.01"
+    },
+    "fun": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:fun.n.01"
+    },
+    "converting": {
+      "level": "C2",
+      "count": 1,
+      "source": "wsd:convert.v.05"
+    },
+    "leading": {
+      "level": "B2",
+      "count": 4,
+      "source": "wsd:leadership.n.01"
+    },
+    "troops": {
+      "level": "C2",
+      "count": 7,
+      "source": "wsd:military_personnel.n.01"
+    },
+    "business": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:business.n.01"
+    },
+    "experience": {
+      "level": "B1",
+      "count": 5,
+      "source": "wsd:know.v.05"
+    },
+    "employees": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:employee.n.01"
+    },
+    "organized": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:organize.v.04"
+    },
+    "marine's": {
+      "level": "B1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "groups": {
+      "level": "C1",
+      "count": 1,
+      "source": "wsd:group.v.01"
+    },
+    "communicate": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:communicate.v.05"
+    },
+    "cooperate": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:collaborate.v.01"
+    },
+    "category": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:class.n.01"
+    },
+    "fire": {
+      "level": "B1",
+      "count": 3,
+      "source": "wsd:open_fire.v.01"
+    },
+    "gunfire": {
+      "level": "C2",
+      "count": 3,
+      "source": "cefrpy"
+    },
+    "tricks": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:trick.n.01"
+    },
+    "useless": {
+      "level": "B1",
+      "count": 7,
+      "source": "wsd:useless.a.01"
+    },
+    "rat": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:rat.n.01"
+    },
+    "digging": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:dig.v.02"
+    },
+    "deep": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:deeply.r.02"
+    },
+    "covering": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:cover.v.02"
+    },
+    "yourself": {
+      "level": "A1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "story": {
+      "level": "A2",
+      "count": 2,
+      "source": "wsd:story.n.02"
+    },
+    "phone": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:call.v.03"
+    },
+    "things": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:thing.n.09"
+    },
+    "organize": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:organize.v.04"
+    },
+    "we've": {
+      "level": "A1",
+      "count": 1,
+      "source": "whitelist"
+    },
+    "shot": {
+      "level": "B1",
+      "count": 3,
+      "source": "wsd:blast.v.07"
+    },
+    "shooting": {
+      "level": "B2",
+      "count": 3,
+      "source": "wsd:shooting.n.01"
+    },
+    "alright": {
+      "level": "A2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "brave": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:brave.a.01"
+    },
+    "police": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:police.n.01"
+    },
+    "methods": {
+      "level": "B1",
+      "count": 4,
+      "source": "wsd:method.n.01"
+    },
+    "reports": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:report.n.03"
+    },
+    "ukrainian": {
+      "level": "C2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "they'd": {
+      "level": "A1",
+      "count": 1,
+      "source": "whitelist"
+    },
+    "training": {
+      "level": "B2",
+      "count": 4,
+      "source": "wsd:train.v.02"
+    },
+    "superpower": {
+      "level": "C1",
+      "count": 1,
+      "source": "wsd:world_power.n.01"
+    },
+    "intelligence": {
+      "level": "B2",
+      "count": 2,
+      "source": "lemma_fallback"
+    },
+    "awacs": {
+      "level": "C2",
+      "count": 2,
+      "source": "cefrpy"
+    },
+    "enemy": {
+      "level": "B2",
+      "count": 2,
+      "source": "wsd:enemy.n.02"
+    },
+    "air": {
+      "level": "B1",
+      "count": 2,
+      "source": "wsd:breeze.n.01"
+    },
+    "lot": {
+      "level": "C2",
+      "count": 3,
+      "source": "wsd:batch.n.02"
+    },
+    "flying": {
+      "level": "A2",
+      "count": 3,
+      "source": "wsd:fly.v.01"
+    },
+    "supporting": {
+      "level": "C2",
+      "count": 1,
+      "source": "wsd:hold.v.10"
+    },
+    "distance": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:distance.n.03"
+    },
+    "watching": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:watch.v.03"
+    },
+    "helicopters": {
+      "level": "A2",
+      "count": 4,
+      "source": "wsd:helicopter.n.01"
+    },
+    "cover": {
+      "level": "B1",
+      "count": 2,
+      "source": "wsd:cover.v.02"
+    },
+    "fly": {
+      "level": "A2",
+      "count": 2,
+      "source": "wsd:fly.v.01"
+    },
+    "funny": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:amusing.s.02"
+    },
+    "looking": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:search.v.02"
+    },
+    "statistics": {
+      "level": "C1",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "destroyed": {
+      "level": "B1",
+      "count": 2,
+      "source": "wsd:destroy.v.02"
+    },
+    "helicopter": {
+      "level": "A2",
+      "count": 3,
+      "source": "wsd:helicopter.n.01"
+    },
+    "minute": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:moment.n.02"
+    },
+    "cost": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:cost.v.01"
+    },
+    "vietnam": {
+      "level": "C1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "handy": {
+      "level": "B1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "drones": {
+      "level": "C2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "history": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:history.n.03"
+    },
+    "current": {
+      "level": "B2",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "data": {
+      "level": "A2",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "opportunity": {
+      "level": "B2",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "modern": {
+      "level": "A2",
+      "count": 2,
+      "source": "wsd:advanced.s.03"
+    },
+    "learned": {
+      "level": "A1",
+      "count": 2,
+      "source": "wsd:learn.v.01"
+    },
+    "nothing": {
+      "level": "A1",
+      "count": 2,
+      "source": "cefrpy"
+    },
+    "france": {
+      "level": "A2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "great": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:great.s.01"
+    },
+    "britain": {
+      "level": "A2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "little": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:little.s.05"
+    },
+    "active": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:active.a.07"
+    },
+    "needs": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:necessitate.v.01"
+    },
+    "denmark": {
+      "level": "B2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "example": {
+      "level": "C2",
+      "count": 1,
+      "source": "wsd:exemplar.n.01"
+    },
+    "star": {
+      "level": "B1",
+      "count": 2,
+      "source": "wsd:star.v.01"
+    },
+    "compared": {
+      "level": "B1",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "possibilities": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:possibility.n.04"
+    },
+    "who": {
+      "level": "A1",
+      "count": 9,
+      "source": "cefrpy"
+    },
+    "observers": {
+      "level": "B2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "further": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:far.r.04"
+    },
+    "troop": {
+      "level": "B2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "north": {
+      "level": "A2",
+      "count": 3,
+      "source": "wsd:north.r.01"
+    },
+    "korean": {
+      "level": "C1",
+      "count": 2,
+      "source": "cefrpy"
+    },
+    "almost": {
+      "level": "A2",
+      "count": 2,
+      "source": "lemma_fallback"
+    },
+    "90": {
+      "level": "A1",
+      "count": 1,
+      "source": "digit"
+    },
+    "attack": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:attack.n.05"
+    },
+    "running": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:scat.v.01"
+    },
+    "field": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:discipline.n.01"
+    },
+    "people's": {
+      "level": "A1",
+      "count": 2,
+      "source": "lemma_fallback"
+    },
+    "lives": {
+      "level": "C2",
+      "count": 1,
+      "source": "wsd:be.v.11"
+    },
+    "knew": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:know.v.02"
+    },
+    "outdated": {
+      "level": "B1",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "tries": {
+      "level": "A2",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "before": {
+      "level": "A2",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "come": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:come.v.03"
+    },
+    "korea": {
+      "level": "B1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "10000": {
+      "level": "A1",
+      "count": 1,
+      "source": "digit"
+    },
+    "anger": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:anger.n.02"
+    },
+    "explanation": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:explanation.n.03"
+    },
+    "absolutely": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:absolutely.r.01"
+    },
+    "life": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:biography.n.01"
+    },
+    "president": {
+      "level": "A2",
+      "count": 10,
+      "source": "wsd:president_of_the_united_states.n.01"
+    },
+    "washington": {
+      "level": "B2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "cadence": {
+      "level": "C2",
+      "count": 2,
+      "source": "cefrpy"
+    },
+    "currency": {
+      "level": "B1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "candid": {
+      "level": "C2",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "tom": {
+      "level": "B1",
+      "count": 3,
+      "source": "cefrpy"
+    },
+    "oval": {
+      "level": "B2",
+      "count": 3,
+      "source": "lemma_fallback"
+    },
+    "room": {
+      "level": "A1",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "office": {
+      "level": "C1",
+      "count": 2,
+      "source": "wsd:office.n.04"
+    },
+    "tammy": {
+      "level": "C2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "sitting": {
+      "level": "A1",
+      "count": 4,
+      "source": "wsd:sit.v.01"
+    },
+    "desk": {
+      "level": "A1",
+      "count": 2,
+      "source": "wsd:desk.n.01"
+    },
+    "standing": {
+      "level": "A2",
+      "count": 6,
+      "source": "wsd:stand.v.01"
+    },
+    "signing": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:sign.v.01"
+    },
+    "heavily": {
+      "level": "B1",
+      "count": 3,
+      "source": "wsd:heavily.r.01"
+    },
+    "criticized": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:knock.v.06"
+    },
+    "somebody": {
+      "level": "A1",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "foreign": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:foreign.a.01"
+    },
+    "official": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:official.a.01"
+    },
+    "meetings": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:meeting.n.01"
+    },
+    "else": {
+      "level": "A1",
+      "count": 2,
+      "source": "cefrpy"
+    },
+    "where": {
+      "level": "A1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "heaven": {
+      "level": "C1",
+      "count": 1,
+      "source": "wsd:eden.n.01"
+    },
+    "best": {
+      "level": "A1",
+      "count": 2,
+      "source": "wsd:best.a.01"
+    },
+    "criticizing": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:knock.v.06"
+    },
+    "disrespect": {
+      "level": "C1",
+      "count": 3,
+      "source": "wsd:contempt.n.02"
+    },
+    "diplomat": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:diplomat.n.01"
+    },
+    "home": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:family.n.01"
+    },
+    "imagine": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:think.v.02"
+    },
+    "your": {
+      "level": "A1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "boss": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:foreman.n.01"
+    },
+    "stand": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:stand.v.01"
+    },
+    "friends": {
+      "level": "C1",
+      "count": 1,
+      "source": "wsd:acquaintance.n.03"
+    },
+    "recognized": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:spot.v.02"
+    },
+    "understands": {
+      "level": "C2",
+      "count": 1,
+      "source": "wsd:sympathize.v.02"
+    },
+    "candidate": {
+      "level": "B2",
+      "count": 6,
+      "source": "wsd:candidate.n.02"
+    },
+    "coalition": {
+      "level": "B2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "mayor": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:mayor.n.01"
+    },
+    "anyway": {
+      "level": "A2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "pis": {
+      "level": "C2",
+      "count": 5,
+      "source": "cefrpy"
+    },
+    "trick": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:flim-flam.v.01"
+    },
+    "didn't": {
+      "level": "A1",
+      "count": 1,
+      "source": "whitelist"
+    },
+    "instead": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:rather.r.01"
+    },
+    "citizens": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:citizen.n.01"
+    },
+    "formally": {
+      "level": "C1",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "promoted": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:promote.v.02"
+    },
+    "organization": {
+      "level": "C2",
+      "count": 1,
+      "source": "wsd:administration.n.02"
+    },
+    "supported": {
+      "level": "B2",
+      "count": 2,
+      "source": "wsd:support.v.02"
+    },
+    "known": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:know.v.02"
+    },
+    "national": {
+      "level": "A2",
+      "count": 2,
+      "source": "wsd:national.a.01"
+    },
+    "memorial": {
+      "level": "C2",
+      "count": 1,
+      "source": "wsd:memorial.n.03"
+    },
+    "institute": {
+      "level": "B2",
+      "count": 2,
+      "source": "wsd:institute.n.01"
+    },
+    "historical": {
+      "level": "B1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "name": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:name.n.04"
+    },
+    "wing": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:wing.n.02"
+    },
+    "conservative": {
+      "level": "C1",
+      "count": 5,
+      "source": "wsd:conservative.s.01"
+    },
+    "nationalistic": {
+      "level": "B2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "chauvinistic": {
+      "level": "C2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "party": {
+      "level": "B1",
+      "count": 2,
+      "source": "wsd:party.n.01"
+    },
+    "body": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:torso.n.01"
+    },
+    "rising": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:rise.v.04"
+    },
+    "reached": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:reach.v.02"
+    },
+    "15": {
+      "level": "A1",
+      "count": 2,
+      "source": "digit"
+    },
+    "17": {
+      "level": "A1",
+      "count": 1,
+      "source": "digit"
+    },
+    "collapsed": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:break_down.v.08"
+    },
+    "5": {
+      "level": "A1",
+      "count": 1,
+      "source": "digit"
+    },
+    "young": {
+      "level": "B1",
+      "count": 2,
+      "source": "wsd:young.n.09"
+    },
+    "job": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:job.n.05"
+    },
+    "reaching": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:reach.v.02"
+    },
+    "getting": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:arrive.v.01"
+    },
+    "horse": {
+      "level": "A1",
+      "count": 4,
+      "source": "wsd:horse.n.01"
+    },
+    "black": {
+      "level": "A1",
+      "count": 2,
+      "source": "wsd:black.s.06"
+    },
+    "sufficient": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:sufficient.a.01"
+    },
+    "win": {
+      "level": "A2",
+      "count": 2,
+      "source": "wsd:win.n.01"
+    },
+    "turn": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:turn.v.10"
+    },
+    "round": {
+      "level": "A2",
+      "count": 5,
+      "source": "wsd:cycle.n.01"
+    },
+    "significantly": {
+      "level": "B2",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "however": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:however.r.02"
+    },
+    "news": {
+      "level": "A2",
+      "count": 2,
+      "source": "lemma_fallback"
+    },
+    "paul": {
+      "level": "A2",
+      "count": 2,
+      "source": "cefrpy"
+    },
+    "everyone": {
+      "level": "A1",
+      "count": 2,
+      "source": "cefrpy"
+    }
+  }
+}

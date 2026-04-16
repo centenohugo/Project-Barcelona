@@ -1,0 +1,2851 @@
+{
+  "student": "Student-1",
+  "lesson": "lesson-1",
+  "segments_analyzed": 1,
+  "flags": {
+    "is_baseline": true,
+    "partial_lesson": false,
+    "low_confidence": false
+  },
+  "tier1": {
+    "vocab_level": {
+      "score": 2.2,
+      "cefr_label": "A2",
+      "content_words_scored": 516
+    },
+    "chunks": [
+      {
+        "paragraph_id": 1,
+        "label": "Greetings and practicing relative clauses with who and which",
+        "vocab_level": {
+          "score": 2.3,
+          "cefr_label": "A2",
+          "content_words_scored": 95
+        }
+      },
+      {
+        "paragraph_id": 2,
+        "label": "Practicing relative clauses with who and which",
+        "vocab_level": {
+          "score": 2.1,
+          "cefr_label": "A2",
+          "content_words_scored": 56
+        }
+      },
+      {
+        "paragraph_id": 3,
+        "label": "Practicing negative sentences with verb to be",
+        "vocab_level": {
+          "score": 2.1,
+          "cefr_label": "A2",
+          "content_words_scored": 49
+        }
+      },
+      {
+        "paragraph_id": 4,
+        "label": "Practicing verb conjugation and possessive forms in sentences",
+        "vocab_level": {
+          "score": 2.5,
+          "cefr_label": "B1",
+          "content_words_scored": 53
+        }
+      },
+      {
+        "paragraph_id": 5,
+        "label": "Reading exercises about daily routines, pets, and possessive pronouns",
+        "vocab_level": {
+          "score": 2.2,
+          "cefr_label": "A2",
+          "content_words_scored": 50
+        }
+      },
+      {
+        "paragraph_id": 6,
+        "label": "Possessive pronouns, demonstratives, and describing family and belongings",
+        "vocab_level": {
+          "score": 2.4,
+          "cefr_label": "A2",
+          "content_words_scored": 56
+        }
+      },
+      {
+        "paragraph_id": 7,
+        "label": "Practicing question words and answers about daily life",
+        "vocab_level": {
+          "score": 1.9,
+          "cefr_label": "A2",
+          "content_words_scored": 65
+        }
+      },
+      {
+        "paragraph_id": 8,
+        "label": "Practicing adverbs of frequency and simple present questions",
+        "vocab_level": {
+          "score": 2.0,
+          "cefr_label": "A2",
+          "content_words_scored": 61
+        }
+      },
+      {
+        "paragraph_id": 9,
+        "label": "Practicing prepositions of time with birthday plans",
+        "vocab_level": {
+          "score": 2.0,
+          "cefr_label": "A2",
+          "content_words_scored": 31
+        }
+      }
+    ],
+    "lexical_sophistication": {
+      "lsi": 0.2414,
+      "b2_plus_count": 84,
+      "content_word_count": 348
+    },
+    "lexical_diversity": {
+      "ttr": 0.2338,
+      "root_ttr": 10.07
+    },
+    "word_count": {
+      "total_tokens": 1856,
+      "unique_words": 434,
+      "unique_content_words": 358
+    },
+    "cefr_distribution": {
+      "A1": {
+        "count": 1256,
+        "percent": 67.67
+      },
+      "A2": {
+        "count": 197,
+        "percent": 10.61
+      },
+      "B1": {
+        "count": 109,
+        "percent": 5.87
+      },
+      "B2": {
+        "count": 133,
+        "percent": 7.17
+      },
+      "C1": {
+        "count": 43,
+        "percent": 2.32
+      },
+      "C2": {
+        "count": 95,
+        "percent": 5.12
+      },
+      "UNKNOWN": {
+        "count": 23,
+        "percent": 1.24
+      }
+    },
+    "source_distribution": {
+      "wsd": 35.0,
+      "cefrpy": 38.8,
+      "whitelist": 11.2,
+      "lemma_fallback": 13.3,
+      "digit": 0.5,
+      "other": 1.2
+    },
+    "interesting_words": [
+      {
+        "word": "born",
+        "cefr_level": "C2",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "displayed",
+        "cefr_level": "C2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "donna",
+        "cefr_level": "C2",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "eddy",
+        "cefr_level": "C2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "evan",
+        "cefr_level": "C2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "fido",
+        "cefr_level": "C2",
+        "occurrence_count": 4,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "fluffy",
+        "cefr_level": "C2",
+        "occurrence_count": 4,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "freddie",
+        "cefr_level": "C2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "greg",
+        "cefr_level": "C2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "harry",
+        "cefr_level": "C2",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "weak"
+      },
+      {
+        "word": "hillary",
+        "cefr_level": "C2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "joanna",
+        "cefr_level": "C2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "leah",
+        "cefr_level": "C2",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "lin",
+        "cefr_level": "C2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "live",
+        "cefr_level": "C2",
+        "occurrence_count": 3,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "lives",
+        "cefr_level": "C2",
+        "occurrence_count": 9,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "marcos",
+        "cefr_level": "C2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "mauve",
+        "cefr_level": "C2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "mora",
+        "cefr_level": "C2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "samantha",
+        "cefr_level": "C2",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "stacy",
+        "cefr_level": "C2",
+        "occurrence_count": 3,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "tired",
+        "cefr_level": "C2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "carlos",
+        "cefr_level": "C1",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "claire",
+        "cefr_level": "C1",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "dave's",
+        "cefr_level": "C1",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "direct",
+        "cefr_level": "C1",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "friends",
+        "cefr_level": "C1",
+        "occurrence_count": 10,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "hard",
+        "cefr_level": "C1",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "india",
+        "cefr_level": "C1",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "ivan",
+        "cefr_level": "C1",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "lisa",
+        "cefr_level": "C1",
+        "occurrence_count": 3,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "lynn",
+        "cefr_level": "C1",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "overture",
+        "cefr_level": "C1",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "sally",
+        "cefr_level": "C1",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "students",
+        "cefr_level": "C1",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "supreme",
+        "cefr_level": "C1",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "uk",
+        "cefr_level": "C1",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "wait",
+        "cefr_level": "C1",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "witch",
+        "cefr_level": "C1",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "work",
+        "cefr_level": "C1",
+        "occurrence_count": 5,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "works",
+        "cefr_level": "C1",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "zoom",
+        "cefr_level": "C1",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "weak"
+      },
+      {
+        "word": "australia",
+        "cefr_level": "B2",
+        "occurrence_count": 4,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "australian",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "background",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "barks",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "belongs",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "weak"
+      },
+      {
+        "word": "blooming",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "book",
+        "cefr_level": "B2",
+        "occurrence_count": 3,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "carla",
+        "cefr_level": "B2",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "carla's",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "coming",
+        "cefr_level": "B2",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "correct",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "dan",
+        "cefr_level": "B2",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "decade",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "doing",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "dot",
+        "cefr_level": "B2",
+        "occurrence_count": 9,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "emma",
+        "cefr_level": "B2",
+        "occurrence_count": 4,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "eric",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "fascinating",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "weak"
+      },
+      {
+        "word": "feature",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "friendly",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "weak"
+      },
+      {
+        "word": "go",
+        "cefr_level": "B2",
+        "occurrence_count": 11,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "goes",
+        "cefr_level": "B2",
+        "occurrence_count": 4,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "going",
+        "cefr_level": "B2",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "home",
+        "cefr_level": "B2",
+        "occurrence_count": 3,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "jack",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "lot",
+        "cefr_level": "B2",
+        "occurrence_count": 3,
+        "avg_confidence": 1.0,
+        "context_quality": "weak"
+      },
+      {
+        "word": "mike",
+        "cefr_level": "B2",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "weak"
+      },
+      {
+        "word": "normally",
+        "cefr_level": "B2",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "office",
+        "cefr_level": "B2",
+        "occurrence_count": 3,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "right",
+        "cefr_level": "B2",
+        "occurrence_count": 13,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "ryan",
+        "cefr_level": "B2",
+        "occurrence_count": 4,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "settings",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "steve",
+        "cefr_level": "B2",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "talk",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "talks",
+        "cefr_level": "B2",
+        "occurrence_count": 2,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "thing",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "tim",
+        "cefr_level": "B2",
+        "occurrence_count": 4,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      },
+      {
+        "word": "warm",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "writes",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "strong"
+      },
+      {
+        "word": "zealand",
+        "cefr_level": "B2",
+        "occurrence_count": 1,
+        "avg_confidence": 1.0,
+        "context_quality": "moderate"
+      }
+    ]
+  },
+  "tier2": null,
+  "vocabulary_snapshot": {
+    "hello": {
+      "level": "A1",
+      "count": 5,
+      "source": "whitelist"
+    },
+    "fine": {
+      "level": "A2",
+      "count": 4,
+      "source": "wsd:all_right.s.01"
+    },
+    "thanks": {
+      "level": "A1",
+      "count": 1,
+      "source": "whitelist"
+    },
+    "marcos": {
+      "level": "C2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "how": {
+      "level": "A1",
+      "count": 8,
+      "source": "cefrpy"
+    },
+    "are": {
+      "level": "A1",
+      "count": 37,
+      "source": "wsd:be.v.11"
+    },
+    "you": {
+      "level": "A1",
+      "count": 32,
+      "source": "cefrpy"
+    },
+    "very": {
+      "level": "A1",
+      "count": 8,
+      "source": "lemma_fallback"
+    },
+    "good": {
+      "level": "A1",
+      "count": 10,
+      "source": "wsd:thoroughly.r.02"
+    },
+    "i": {
+      "level": "A1",
+      "count": 51,
+      "source": "cefrpy"
+    },
+    "had": {
+      "level": "A1",
+      "count": 3,
+      "source": "wsd:have.v.12"
+    },
+    "a": {
+      "level": "A1",
+      "count": 49,
+      "source": "cefrpy"
+    },
+    "time": {
+      "level": "B1",
+      "count": 6,
+      "source": "wsd:time.n.04"
+    },
+    "with": {
+      "level": "A1",
+      "count": 9,
+      "source": "cefrpy"
+    },
+    "my": {
+      "level": "A1",
+      "count": 49,
+      "source": "cefrpy"
+    },
+    "friends": {
+      "level": "C1",
+      "count": 10,
+      "source": "wsd:acquaintance.n.03"
+    },
+    "okay": {
+      "level": "A1",
+      "count": 64,
+      "source": "whitelist"
+    },
+    "remember": {
+      "level": "A1",
+      "count": 2,
+      "source": "wsd:remember.v.01"
+    },
+    "mistake": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:error.n.07"
+    },
+    "x": {
+      "level": "B2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "k": {
+      "level": "B2",
+      "count": 3,
+      "source": "cefrpy"
+    },
+    "the": {
+      "level": "A1",
+      "count": 74,
+      "source": "cefrpy"
+    },
+    "teacher": {
+      "level": "A1",
+      "count": 7,
+      "source": "wsd:teacher.n.01"
+    },
+    "who": {
+      "level": "A1",
+      "count": 14,
+      "source": "cefrpy"
+    },
+    "teaches": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:teach.v.01"
+    },
+    "us": {
+      "level": "A1",
+      "count": 2,
+      "source": "cefrpy"
+    },
+    "mauve": {
+      "level": "C2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "is": {
+      "level": "A1",
+      "count": 75,
+      "source": "lemma_fallback"
+    },
+    "kind": {
+      "level": "A1",
+      "count": 2,
+      "source": "wsd:kind.a.01"
+    },
+    "have": {
+      "level": "A1",
+      "count": 25,
+      "source": "wsd:own.v.01"
+    },
+    "friend": {
+      "level": "A1",
+      "count": 4,
+      "source": "wsd:acquaintance.n.03"
+    },
+    "loves": {
+      "level": "A1",
+      "count": 3,
+      "source": "wsd:love.v.01"
+    },
+    "to": {
+      "level": "A1",
+      "count": 23,
+      "source": "cefrpy"
+    },
+    "play": {
+      "level": "A1",
+      "count": 5,
+      "source": "wsd:play.v.01"
+    },
+    "soccer": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:soccer.n.01"
+    },
+    "book": {
+      "level": "B2",
+      "count": 3,
+      "source": "wsd:script.n.01"
+    },
+    "which": {
+      "level": "A1",
+      "count": 14,
+      "source": "cefrpy"
+    },
+    "bought": {
+      "level": "A1",
+      "count": 3,
+      "source": "lemma_fallback"
+    },
+    "from": {
+      "level": "A1",
+      "count": 8,
+      "source": "cefrpy"
+    },
+    "library's": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:library.n.05"
+    },
+    "fantastic": {
+      "level": "A2",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "fascinating": {
+      "level": "B2",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "she": {
+      "level": "A1",
+      "count": 9,
+      "source": "cefrpy"
+    },
+    "artist": {
+      "level": "B1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "paint": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:paint.v.01"
+    },
+    "beautiful": {
+      "level": "A1",
+      "count": 2,
+      "source": "wsd:beautiful.s.01"
+    },
+    "mora": {
+      "level": "C2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "decade": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:decade.n.01"
+    },
+    "last": {
+      "level": "A2",
+      "count": 2,
+      "source": "wsd:last.s.01"
+    },
+    "year": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:year.n.01"
+    },
+    "it's": {
+      "level": "A1",
+      "count": 26,
+      "source": "whitelist"
+    },
+    "fast": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:fast.r.01"
+    },
+    "there": {
+      "level": "A1",
+      "count": 8,
+      "source": "wsd:there.r.01"
+    },
+    "many": {
+      "level": "A1",
+      "count": 3,
+      "source": "cefrpy"
+    },
+    "students": {
+      "level": "C1",
+      "count": 1,
+      "source": "wsd:scholar.n.01"
+    },
+    "study": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:learn.v.04"
+    },
+    "hard": {
+      "level": "C1",
+      "count": 1,
+      "source": "wsd:difficult.a.01"
+    },
+    "for": {
+      "level": "A2",
+      "count": 10,
+      "source": "cefrpy"
+    },
+    "and": {
+      "level": "A1",
+      "count": 34,
+      "source": "cefrpy"
+    },
+    "movie": {
+      "level": "A1",
+      "count": 4,
+      "source": "wsd:movie.n.01"
+    },
+    "we": {
+      "level": "A1",
+      "count": 22,
+      "source": "cefrpy"
+    },
+    "watched": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:watch.v.03"
+    },
+    "night": {
+      "level": "A1",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "eric": {
+      "level": "B2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "1": {
+      "level": "A1",
+      "count": 3,
+      "source": "digit"
+    },
+    "helped": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:help.v.01"
+    },
+    "me": {
+      "level": "A1",
+      "count": 5,
+      "source": "cefrpy"
+    },
+    "work": {
+      "level": "C1",
+      "count": 5,
+      "source": "wsd:workplace.n.01"
+    },
+    "flowers": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:flower.n.02"
+    },
+    "in": {
+      "level": "A2",
+      "count": 39,
+      "source": "lemma_fallback"
+    },
+    "garden": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:garden.n.01"
+    },
+    "blooming": {
+      "level": "B2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "new": {
+      "level": "B1",
+      "count": 7,
+      "source": "wsd:new.s.09"
+    },
+    "music": {
+      "level": "A1",
+      "count": 2,
+      "source": "wsd:music.n.04"
+    },
+    "performed": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:perform.v.03"
+    },
+    "con": {
+      "level": "B1",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "concert": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:concert.n.01"
+    },
+    "talented": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:talented.a.01"
+    },
+    "then": {
+      "level": "A1",
+      "count": 2,
+      "source": "lemma_fallback"
+    },
+    "right": {
+      "level": "B2",
+      "count": 13,
+      "source": "wsd:correct.v.01"
+    },
+    "supreme": {
+      "level": "C1",
+      "count": 1,
+      "source": "wsd:sovereign.s.02"
+    },
+    "woman": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:woman.n.01"
+    },
+    "lives": {
+      "level": "C2",
+      "count": 9,
+      "source": "wsd:be.v.11"
+    },
+    "next": {
+      "level": "A2",
+      "count": 4,
+      "source": "wsd:following.s.02"
+    },
+    "star": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:star.v.01"
+    },
+    "doctor": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:doctor.n.01"
+    },
+    "this": {
+      "level": "A1",
+      "count": 15,
+      "source": "cefrpy"
+    },
+    "restaurant": {
+      "level": "A1",
+      "count": 2,
+      "source": "wsd:restaurant.n.01"
+    },
+    "witch": {
+      "level": "C1",
+      "count": 1,
+      "source": "wsd:enchantress.n.02"
+    },
+    "that's": {
+      "level": "A1",
+      "count": 8,
+      "source": "whitelist"
+    },
+    "best": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:best.a.01"
+    },
+    "bit": {
+      "level": "A2",
+      "count": 2,
+      "source": "wsd:morsel.n.02"
+    },
+    "so": {
+      "level": "A1",
+      "count": 6,
+      "source": "lemma_fallback"
+    },
+    "town": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:town.n.01"
+    },
+    "dog": {
+      "level": "A1",
+      "count": 10,
+      "source": "wsd:dog.n.01"
+    },
+    "barks": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:bark.v.04"
+    },
+    "loudly": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:loudly.r.01"
+    },
+    "belongs": {
+      "level": "B2",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "neighbor": {
+      "level": "A2",
+      "count": 2,
+      "source": "wsd:neighbor.n.01"
+    },
+    "admire": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:admire.v.02"
+    },
+    "most": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:most.r.01"
+    },
+    "selecting": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:choose.v.01"
+    },
+    "zoom": {
+      "level": "C1",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "laptop": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:laptop.n.01"
+    },
+    "use": {
+      "level": "A1",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "quite": {
+      "level": "B1",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "odd": {
+      "level": "B1",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "can": {
+      "level": "A1",
+      "count": 4,
+      "source": "lemma_fallback"
+    },
+    "stay": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:stay.v.02"
+    },
+    "even": {
+      "level": "A1",
+      "count": 2,
+      "source": "wsd:even.s.03"
+    },
+    "painting": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:paint.v.01"
+    },
+    "was": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:be.v.03"
+    },
+    "displayed": {
+      "level": "C2",
+      "count": 1,
+      "source": "wsd:expose.v.03"
+    },
+    "settings": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:setting.n.01"
+    },
+    "participates": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:enter.v.02"
+    },
+    "person": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:person.n.01"
+    },
+    "made": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:make.v.01"
+    },
+    "at": {
+      "level": "A1",
+      "count": 14,
+      "source": "cefrpy"
+    },
+    "conference": {
+      "level": "B1",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "want": {
+      "level": "A1",
+      "count": 2,
+      "source": "lemma_fallback"
+    },
+    "see": {
+      "level": "A2",
+      "count": 4,
+      "source": "wsd:watch.v.03"
+    },
+    "coming": {
+      "level": "B2",
+      "count": 2,
+      "source": "wsd:approaching.s.01"
+    },
+    "out": {
+      "level": "A2",
+      "count": 3,
+      "source": "wsd:out.r.01"
+    },
+    "week": {
+      "level": "A1",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "children": {
+      "level": "A2",
+      "count": 10,
+      "source": "lemma_fallback"
+    },
+    "park": {
+      "level": "A2",
+      "count": 7,
+      "source": "wsd:park.v.02"
+    },
+    "as": {
+      "level": "C1",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "great": {
+      "level": "A1",
+      "count": 3,
+      "source": "wsd:bang-up.s.01"
+    },
+    "camera": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:camera.n.01"
+    },
+    "thank": {
+      "level": "A2",
+      "count": 4,
+      "source": "wsd:thank.v.01"
+    },
+    "yeah": {
+      "level": "A1",
+      "count": 13,
+      "source": "whitelist"
+    },
+    "understand": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:sympathize.v.02"
+    },
+    "give": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:give.v.40"
+    },
+    "moment": {
+      "level": "A2",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "because": {
+      "level": "A1",
+      "count": 2,
+      "source": "cefrpy"
+    },
+    "don't": {
+      "level": "A1",
+      "count": 10,
+      "source": "whitelist"
+    },
+    "write": {
+      "level": "A2",
+      "count": 2,
+      "source": "wsd:write.v.04"
+    },
+    "know": {
+      "level": "A2",
+      "count": 4,
+      "source": "wsd:know.v.02"
+    },
+    "paper": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:composition.n.08"
+    },
+    "name": {
+      "level": "B1",
+      "count": 4,
+      "source": "wsd:name.v.05"
+    },
+    "joanna": {
+      "level": "C2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "i'm": {
+      "level": "A1",
+      "count": 16,
+      "source": "whitelist"
+    },
+    "student": {
+      "level": "A1",
+      "count": 5,
+      "source": "wsd:student.n.01"
+    },
+    "he's": {
+      "level": "A1",
+      "count": 6,
+      "source": "whitelist"
+    },
+    "russell": {
+      "level": "B1",
+      "count": 4,
+      "source": "cefrpy"
+    },
+    "he": {
+      "level": "A1",
+      "count": 23,
+      "source": "cefrpy"
+    },
+    "classmate": {
+      "level": "A1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "classmates": {
+      "level": "A1",
+      "count": 7,
+      "source": "cefrpy"
+    },
+    "class": {
+      "level": "A1",
+      "count": 4,
+      "source": "wsd:class.n.02"
+    },
+    "emma": {
+      "level": "B2",
+      "count": 4,
+      "source": "cefrpy"
+    },
+    "sally": {
+      "level": "C1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "they": {
+      "level": "A1",
+      "count": 22,
+      "source": "cefrpy"
+    },
+    "english": {
+      "level": "A2",
+      "count": 2,
+      "source": "cefrpy"
+    },
+    "teachers": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:teacher.n.01"
+    },
+    "am": {
+      "level": "A1",
+      "count": 2,
+      "source": "wsd:be.v.11"
+    },
+    "uk": {
+      "level": "C1",
+      "count": 2,
+      "source": "cefrpy"
+    },
+    "parents": {
+      "level": "A1",
+      "count": 6,
+      "source": "wsd:parent.n.01"
+    },
+    "indian": {
+      "level": "A2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "india": {
+      "level": "C1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "what": {
+      "level": "A1",
+      "count": 7,
+      "source": "cefrpy"
+    },
+    "mary": {
+      "level": "A2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "france": {
+      "level": "A2",
+      "count": 2,
+      "source": "cefrpy"
+    },
+    "she's": {
+      "level": "A1",
+      "count": 4,
+      "source": "whitelist"
+    },
+    "french": {
+      "level": "A2",
+      "count": 4,
+      "source": "cefrpy"
+    },
+    "grandparents": {
+      "level": "A2",
+      "count": 2,
+      "source": "wsd:grandparent.n.01"
+    },
+    "love": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:love.v.01"
+    },
+    "baby": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:baby.n.01"
+    },
+    "sister": {
+      "level": "A1",
+      "count": 8,
+      "source": "wsd:sister.n.01"
+    },
+    "young": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:young.n.09"
+    },
+    "grandparent": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:grandparent.n.01"
+    },
+    "old": {
+      "level": "A1",
+      "count": 4,
+      "source": "wsd:old.a.01"
+    },
+    "tim": {
+      "level": "B2",
+      "count": 4,
+      "source": "cefrpy"
+    },
+    "has": {
+      "level": "B2",
+      "count": 13,
+      "source": "wsd:have.v.02"
+    },
+    "family": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:family.n.02"
+    },
+    "his": {
+      "level": "A1",
+      "count": 13,
+      "source": "cefrpy"
+    },
+    "nice": {
+      "level": "A1",
+      "count": 6,
+      "source": "wsd:nice.a.01"
+    },
+    "brother": {
+      "level": "A1",
+      "count": 4,
+      "source": "wsd:brother.n.01"
+    },
+    "funny": {
+      "level": "A1",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "look": {
+      "level": "A1",
+      "count": 3,
+      "source": "wsd:look.v.01"
+    },
+    "sheets": {
+      "level": "B1",
+      "count": 2,
+      "source": "wsd:sheet.n.03"
+    },
+    "direct": {
+      "level": "C1",
+      "count": 1,
+      "source": "wsd:mastermind.v.01"
+    },
+    "shirts": {
+      "level": "A1",
+      "count": 4,
+      "source": "wsd:shirt.n.01"
+    },
+    "red": {
+      "level": "A2",
+      "count": 5,
+      "source": "wsd:red.n.01"
+    },
+    "small": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:minor.s.03"
+    },
+    "blue": {
+      "level": "A2",
+      "count": 3,
+      "source": "wsd:blue.n.01"
+    },
+    "correct": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:correct.v.01"
+    },
+    "today": {
+      "level": "A1",
+      "count": 6,
+      "source": "wsd:today.r.02"
+    },
+    "tired": {
+      "level": "C2",
+      "count": 1,
+      "source": "wsd:tire.v.02"
+    },
+    "sleep": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:sleep.v.01"
+    },
+    "bed": {
+      "level": "A1",
+      "count": 3,
+      "source": "wsd:bed.n.01"
+    },
+    "warm": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:warm.v.01"
+    },
+    "not": {
+      "level": "A1",
+      "count": 15,
+      "source": "lemma_fallback"
+    },
+    "oh": {
+      "level": "A1",
+      "count": 5,
+      "source": "whitelist"
+    },
+    "such": {
+      "level": "A2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "sarah": {
+      "level": "B1",
+      "count": 4,
+      "source": "cefrpy"
+    },
+    "aren't": {
+      "level": "A1",
+      "count": 5,
+      "source": "whitelist"
+    },
+    "sisters": {
+      "level": "A1",
+      "count": 3,
+      "source": "wsd:sister.n.01"
+    },
+    "hi": {
+      "level": "A1",
+      "count": 1,
+      "source": "whitelist"
+    },
+    "name's": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:name.v.05"
+    },
+    "jack": {
+      "level": "B2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "zealand": {
+      "level": "B2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "australia": {
+      "level": "B2",
+      "count": 4,
+      "source": "cefrpy"
+    },
+    "isn't": {
+      "level": "A1",
+      "count": 10,
+      "source": "whitelist"
+    },
+    "country": {
+      "level": "A1",
+      "count": 4,
+      "source": "wsd:country.n.02"
+    },
+    "no": {
+      "level": "A1",
+      "count": 9,
+      "source": "lemma_fallback"
+    },
+    "ah": {
+      "level": "A1",
+      "count": 1,
+      "source": "whitelist"
+    },
+    "it": {
+      "level": "A2",
+      "count": 10,
+      "source": "cefrpy"
+    },
+    "max": {
+      "level": "A2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "doc": {
+      "level": "A1",
+      "count": 2,
+      "source": "wsd:doctor.n.01"
+    },
+    "brother's": {
+      "level": "A1",
+      "count": 3,
+      "source": "lemma_fallback"
+    },
+    "case": {
+      "level": "A2",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "tina": {
+      "level": "B1",
+      "count": 7,
+      "source": "cefrpy"
+    },
+    "ben": {
+      "level": "B1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "american": {
+      "level": "A1",
+      "count": 2,
+      "source": "cefrpy"
+    },
+    "british": {
+      "level": "A2",
+      "count": 2,
+      "source": "cefrpy"
+    },
+    "they're": {
+      "level": "A1",
+      "count": 1,
+      "source": "whitelist"
+    },
+    "peter": {
+      "level": "A2",
+      "count": 2,
+      "source": "cefrpy"
+    },
+    "australian": {
+      "level": "B2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "yes": {
+      "level": "A1",
+      "count": 7,
+      "source": "whitelist"
+    },
+    "ready": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:fix.v.12"
+    },
+    "eddy": {
+      "level": "C2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "any": {
+      "level": "A1",
+      "count": 3,
+      "source": "cefrpy"
+    },
+    "12": {
+      "level": "A1",
+      "count": 1,
+      "source": "digit"
+    },
+    "some": {
+      "level": "A1",
+      "count": 4,
+      "source": "lemma_fallback"
+    },
+    "live": {
+      "level": "C2",
+      "count": 3,
+      "source": "wsd:populate.v.01"
+    },
+    "house": {
+      "level": "A1",
+      "count": 6,
+      "source": "wsd:house.v.02"
+    },
+    "city": {
+      "level": "A1",
+      "count": 5,
+      "source": "cefrpy"
+    },
+    "eat": {
+      "level": "A1",
+      "count": 5,
+      "source": "wsd:eat.v.02"
+    },
+    "meat": {
+      "level": "A1",
+      "count": 2,
+      "source": "wsd:meat.n.01"
+    },
+    "drink": {
+      "level": "A2",
+      "count": 2,
+      "source": "wsd:drink.v.02"
+    },
+    "juice": {
+      "level": "A1",
+      "count": 2,
+      "source": "wsd:juice.n.01"
+    },
+    "drinks": {
+      "level": "A1",
+      "count": 2,
+      "source": "wsd:drink.v.01"
+    },
+    "milk": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:milk.n.01"
+    },
+    "olive": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:olive.n.01"
+    },
+    "walks": {
+      "level": "A1",
+      "count": 2,
+      "source": "wsd:walk.v.08"
+    },
+    "every": {
+      "level": "A1",
+      "count": 4,
+      "source": "cefrpy"
+    },
+    "walk": {
+      "level": "A1",
+      "count": 3,
+      "source": "wsd:walk.v.08"
+    },
+    "day": {
+      "level": "A1",
+      "count": 3,
+      "source": "lemma_fallback"
+    },
+    "greg": {
+      "level": "C2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "too": {
+      "level": "A1",
+      "count": 2,
+      "source": "lemma_fallback"
+    },
+    "on": {
+      "level": "B1",
+      "count": 12,
+      "source": "lemma_fallback"
+    },
+    "phone": {
+      "level": "A2",
+      "count": 3,
+      "source": "wsd:call.v.03"
+    },
+    "lot": {
+      "level": "B2",
+      "count": 3,
+      "source": "lemma_fallback"
+    },
+    "talk": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:lecture.v.01"
+    },
+    "talks": {
+      "level": "B2",
+      "count": 2,
+      "source": "wsd:lecture.v.01"
+    },
+    "harry": {
+      "level": "C2",
+      "count": 2,
+      "source": "lemma_fallback"
+    },
+    "leah": {
+      "level": "C2",
+      "count": 2,
+      "source": "cefrpy"
+    },
+    "jim": {
+      "level": "B1",
+      "count": 2,
+      "source": "cefrpy"
+    },
+    "like": {
+      "level": "A1",
+      "count": 9,
+      "source": "wsd:like.v.03"
+    },
+    "likes": {
+      "level": "A1",
+      "count": 2,
+      "source": "wsd:like.v.03"
+    },
+    "dance": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:dance.v.02"
+    },
+    "sing": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:sing.v.01"
+    },
+    "dan": {
+      "level": "B2",
+      "count": 2,
+      "source": "cefrpy"
+    },
+    "brown": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:brown.s.01"
+    },
+    "works": {
+      "level": "C1",
+      "count": 1,
+      "source": "wsd:workplace.n.01"
+    },
+    "home": {
+      "level": "B2",
+      "count": 3,
+      "source": "wsd:family.n.01"
+    },
+    "2": {
+      "level": "A1",
+      "count": 5,
+      "source": "digit"
+    },
+    "cat": {
+      "level": "A1",
+      "count": 7,
+      "source": "wsd:cat.n.01"
+    },
+    "but": {
+      "level": "A2",
+      "count": 4,
+      "source": "lemma_fallback"
+    },
+    "didn't": {
+      "level": "A1",
+      "count": 1,
+      "source": "whitelist"
+    },
+    "cats": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:cat.n.01"
+    },
+    "still": {
+      "level": "A2",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "team": {
+      "level": "B1",
+      "count": 3,
+      "source": "wsd:team.n.01"
+    },
+    "dot": {
+      "level": "B2",
+      "count": 9,
+      "source": "wsd:point.n.09"
+    },
+    "goes": {
+      "level": "B2",
+      "count": 4,
+      "source": "wsd:start.v.09"
+    },
+    "early": {
+      "level": "A2",
+      "count": 3,
+      "source": "wsd:early_on.r.01"
+    },
+    "job": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:occupation.n.01"
+    },
+    "go": {
+      "level": "B2",
+      "count": 11,
+      "source": "wsd:belong.v.03"
+    },
+    "school": {
+      "level": "A1",
+      "count": 4,
+      "source": "wsd:school.n.02"
+    },
+    "mike": {
+      "level": "B2",
+      "count": 2,
+      "source": "lemma_fallback"
+    },
+    "does": {
+      "level": "A2",
+      "count": 10,
+      "source": "wsd:make.v.01"
+    },
+    "homework": {
+      "level": "A1",
+      "count": 4,
+      "source": "wsd:homework.n.01"
+    },
+    "of": {
+      "level": "A1",
+      "count": 3,
+      "source": "cefrpy"
+    },
+    "doesn't": {
+      "level": "A1",
+      "count": 8,
+      "source": "whitelist"
+    },
+    "watch": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:watch.v.01"
+    },
+    "tv": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:television_receiver.n.01"
+    },
+    "lin": {
+      "level": "C2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "west": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:west.r.01"
+    },
+    "heights": {
+      "level": "B1",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "do": {
+      "level": "A1",
+      "count": 9,
+      "source": "lemma_fallback"
+    },
+    "after": {
+      "level": "A2",
+      "count": 2,
+      "source": "lemma_fallback"
+    },
+    "lynn": {
+      "level": "C1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "named": {
+      "level": "B1",
+      "count": 7,
+      "source": "wsd:name.v.05"
+    },
+    "whiskers": {
+      "level": "A1",
+      "count": 3,
+      "source": "wsd:beard.n.01"
+    },
+    "big": {
+      "level": "A2",
+      "count": 2,
+      "source": "wsd:big.s.01"
+    },
+    "green": {
+      "level": "A2",
+      "count": 2,
+      "source": "wsd:green.n.01"
+    },
+    "eyes": {
+      "level": "A1",
+      "count": 2,
+      "source": "wsd:eye.n.01"
+    },
+    "her": {
+      "level": "A1",
+      "count": 6,
+      "source": "cefrpy"
+    },
+    "cut": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:cut.n.05"
+    },
+    "its": {
+      "level": "A1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "steve": {
+      "level": "B2",
+      "count": 2,
+      "source": "cefrpy"
+    },
+    "fido": {
+      "level": "C2",
+      "count": 4,
+      "source": "cefrpy"
+    },
+    "fluffy": {
+      "level": "C2",
+      "count": 4,
+      "source": "cefrpy"
+    },
+    "dogs": {
+      "level": "A1",
+      "count": 9,
+      "source": "wsd:dog.n.01"
+    },
+    "more": {
+      "level": "A2",
+      "count": 2,
+      "source": "cefrpy"
+    },
+    "mine": {
+      "level": "B2",
+      "count": 4,
+      "source": "lemma_fallback"
+    },
+    "ours": {
+      "level": "A1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "our": {
+      "level": "A1",
+      "count": 4,
+      "source": "cefrpy"
+    },
+    "hours": {
+      "level": "A1",
+      "count": 2,
+      "source": "wsd:hour.n.01"
+    },
+    "ivan": {
+      "level": "C1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "bike": {
+      "level": "B1",
+      "count": 5,
+      "source": "wsd:bicycle.v.01"
+    },
+    "stacy": {
+      "level": "C2",
+      "count": 3,
+      "source": "cefrpy"
+    },
+    "yellow": {
+      "level": "A2",
+      "count": 2,
+      "source": "wsd:yellow.n.01"
+    },
+    "ride": {
+      "level": "B1",
+      "count": 3,
+      "source": "wsd:ride.n.02"
+    },
+    "their": {
+      "level": "A1",
+      "count": 2,
+      "source": "cefrpy"
+    },
+    "bikes": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:bicycle.v.01"
+    },
+    "hers": {
+      "level": "A1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "evan": {
+      "level": "C2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "writes": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:compose.v.02"
+    },
+    "dave's": {
+      "level": "C1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "just": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:just.r.03"
+    },
+    "calling": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:call.v.03"
+    },
+    "background": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:background.n.02"
+    },
+    "alright": {
+      "level": "A2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "married": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:marital.a.01"
+    },
+    "carla": {
+      "level": "B2",
+      "count": 2,
+      "source": "cefrpy"
+    },
+    "these": {
+      "level": "A1",
+      "count": 2,
+      "source": "cefrpy"
+    },
+    "sam": {
+      "level": "B1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "claire": {
+      "level": "C1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "younger": {
+      "level": "A1",
+      "count": 2,
+      "source": "lemma_fallback"
+    },
+    "over": {
+      "level": "B1",
+      "count": 4,
+      "source": "lemma_fallback"
+    },
+    "that": {
+      "level": "A2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "those": {
+      "level": "A1",
+      "count": 2,
+      "source": "cefrpy"
+    },
+    "them": {
+      "level": "A1",
+      "count": 3,
+      "source": "cefrpy"
+    },
+    "friendly": {
+      "level": "B2",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "scarf": {
+      "level": "A2",
+      "count": 2,
+      "source": "wsd:scarf.n.01"
+    },
+    "dusty": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:dusty.s.01"
+    },
+    "overture": {
+      "level": "C1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "freddie": {
+      "level": "C2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "carla's": {
+      "level": "B2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "carlos": {
+      "level": "C1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "where": {
+      "level": "A1",
+      "count": 3,
+      "source": "cefrpy"
+    },
+    "your": {
+      "level": "A1",
+      "count": 16,
+      "source": "cefrpy"
+    },
+    "office": {
+      "level": "B2",
+      "count": 3,
+      "source": "wsd:position.n.06"
+    },
+    "train": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:train.n.01"
+    },
+    "station": {
+      "level": "A1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "lesson": {
+      "level": "A1",
+      "count": 4,
+      "source": "wsd:lesson.n.01"
+    },
+    "yesterday": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:yesterday.r.01"
+    },
+    "listen": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:listen.v.02"
+    },
+    "tom": {
+      "level": "B1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "daughter": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:daughter.n.01"
+    },
+    "daughters": {
+      "level": "A1",
+      "count": 2,
+      "source": "wsd:daughter.n.01"
+    },
+    "son": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:son.n.01"
+    },
+    "10": {
+      "level": "A1",
+      "count": 1,
+      "source": "digit"
+    },
+    "guess": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:guess.n.02"
+    },
+    "when": {
+      "level": "A1",
+      "count": 5,
+      "source": "cefrpy"
+    },
+    "birth": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:birth.n.02"
+    },
+    "birthday": {
+      "level": "A1",
+      "count": 9,
+      "source": "wsd:birthday.n.02"
+    },
+    "november": {
+      "level": "A1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "having": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:consume.v.02"
+    },
+    "dinner": {
+      "level": "A1",
+      "count": 2,
+      "source": "wsd:dinner.n.01"
+    },
+    "well": {
+      "level": "A1",
+      "count": 2,
+      "source": "wsd:well.a.01"
+    },
+    "if": {
+      "level": "A1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "i'd": {
+      "level": "A1",
+      "count": 1,
+      "source": "whitelist"
+    },
+    "glass": {
+      "level": "A1",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "orange": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:orange.n.01"
+    },
+    "please": {
+      "level": "A1",
+      "count": 1,
+      "source": "whitelist"
+    },
+    "going": {
+      "level": "B2",
+      "count": 2,
+      "source": "wsd:go.v.28"
+    },
+    "buy": {
+      "level": "B1",
+      "count": 2,
+      "source": "wsd:bargain.n.02"
+    },
+    "sunglasses": {
+      "level": "A2",
+      "count": 2,
+      "source": "wsd:sunglasses.n.01"
+    },
+    "doing": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:do.v.03"
+    },
+    "afternoon": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:afternoon.n.01"
+    },
+    "plans": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:plan.v.02"
+    },
+    "man": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:man.n.01"
+    },
+    "boyfriend": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:boyfriend.n.01"
+    },
+    "thing": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:thing.n.07"
+    },
+    "backpack": {
+      "level": "A2",
+      "count": 2,
+      "source": "wsd:backpack.n.01"
+    },
+    "apples": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:apple.n.01"
+    },
+    "never": {
+      "level": "A1",
+      "count": 3,
+      "source": "wsd:never.r.01"
+    },
+    "samantha": {
+      "level": "C2",
+      "count": 2,
+      "source": "cefrpy"
+    },
+    "always": {
+      "level": "A1",
+      "count": 7,
+      "source": "wsd:always.r.01"
+    },
+    "visits": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:visit.n.01"
+    },
+    "grandfather": {
+      "level": "A2",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "weekend": {
+      "level": "A1",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "ryan": {
+      "level": "B2",
+      "count": 4,
+      "source": "cefrpy"
+    },
+    "breakfast": {
+      "level": "A1",
+      "count": 2,
+      "source": "wsd:breakfast.n.01"
+    },
+    "try": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:try.v.01"
+    },
+    "all": {
+      "level": "A2",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "way": {
+      "level": "A2",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "sometimes": {
+      "level": "A1",
+      "count": 2,
+      "source": "wsd:sometimes.r.01"
+    },
+    "only": {
+      "level": "A1",
+      "count": 2,
+      "source": "wsd:lone.s.03"
+    },
+    "coffee": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:coffee.n.01"
+    },
+    "lisa": {
+      "level": "C1",
+      "count": 3,
+      "source": "cefrpy"
+    },
+    "alone": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:alone.s.02"
+    },
+    "lunch": {
+      "level": "A1",
+      "count": 5,
+      "source": "wsd:lunch.n.01"
+    },
+    "donna": {
+      "level": "C2",
+      "count": 2,
+      "source": "cefrpy"
+    },
+    "watching": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:watch.v.03"
+    },
+    "movies": {
+      "level": "A1",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "enjoy": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:enjoy.v.01"
+    },
+    "food": {
+      "level": "A1",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "hillary": {
+      "level": "C2",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "football": {
+      "level": "A1",
+      "count": 2,
+      "source": "cefrpy"
+    },
+    "practice": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:exercise.n.03"
+    },
+    "what's": {
+      "level": "A1",
+      "count": 1,
+      "source": "whitelist"
+    },
+    "weather": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:weather.n.01"
+    },
+    "training": {
+      "level": "B1",
+      "count": 1,
+      "source": "wsd:train.v.08"
+    },
+    "raining": {
+      "level": "A1",
+      "count": 1,
+      "source": "cefrpy"
+    },
+    "angry": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:angry.a.01"
+    },
+    "hungry": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:hungry.a.01"
+    },
+    "let's": {
+      "level": "A1",
+      "count": 9,
+      "source": "whitelist"
+    },
+    "late": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:belated.s.01"
+    },
+    "can't": {
+      "level": "A1",
+      "count": 2,
+      "source": "whitelist"
+    },
+    "wait": {
+      "level": "C1",
+      "count": 1,
+      "source": "wsd:wait.v.02"
+    },
+    "cook": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:cook.n.01"
+    },
+    "need": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:want.v.02"
+    },
+    "table": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:table.n.03"
+    },
+    "monday": {
+      "level": "A1",
+      "count": 3,
+      "source": "cefrpy"
+    },
+    "january": {
+      "level": "A1",
+      "count": 5,
+      "source": "cefrpy"
+    },
+    "difficult": {
+      "level": "A1",
+      "count": 1,
+      "source": "wsd:difficult.a.01"
+    },
+    "winter": {
+      "level": "A1",
+      "count": 2,
+      "source": "wsd:winter.n.01"
+    },
+    "normally": {
+      "level": "B2",
+      "count": 2,
+      "source": "wsd:normally.r.01"
+    },
+    "cold": {
+      "level": "A1",
+      "count": 2,
+      "source": "wsd:cold.a.01"
+    },
+    "will": {
+      "level": "B2",
+      "count": 3,
+      "source": "lemma_fallback"
+    },
+    "fun": {
+      "level": "A1",
+      "count": 2,
+      "source": "wsd:fun.n.01"
+    },
+    "sure": {
+      "level": "A2",
+      "count": 1,
+      "source": "lemma_fallback"
+    },
+    "meet": {
+      "level": "B1",
+      "count": 2,
+      "source": "wsd:meet.v.09"
+    },
+    "were": {
+      "level": "C2",
+      "count": 2,
+      "source": "wsd:be.v.11"
+    },
+    "born": {
+      "level": "C2",
+      "count": 2,
+      "source": "wsd:give_birth.v.01"
+    },
+    "lunchtime": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:lunchtime.n.01"
+    },
+    "feature": {
+      "level": "B2",
+      "count": 1,
+      "source": "wsd:have.v.02"
+    },
+    "bring": {
+      "level": "A2",
+      "count": 1,
+      "source": "wsd:bring.v.04"
+    },
+    "yep": {
+      "level": "A1",
+      "count": 1,
+      "source": "whitelist"
+    },
+    "subject": {
+      "level": "B1",
+      "count": 2,
+      "source": "wsd:subject.n.01"
+    },
+    "be": {
+      "level": "A1",
+      "count": 1,
+      "source": "lemma_fallback"
+    }
+  }
+}

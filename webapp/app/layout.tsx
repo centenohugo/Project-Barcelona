@@ -16,7 +16,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Charlies — CEFR Progress Tracker",
+  title: "Charlies —  Language Progress Tracker",
   description: "Contextual CEFR vocabulary proficiency tracker for ESL students",
 };
 

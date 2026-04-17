@@ -1,21 +1,34 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useStudent } from "@/lib/student-context";
 
 const students = ["Student-1", "Student-2"] as const;
 
 export default function Navbar({ showStudentToggle = true }: { showStudentToggle?: boolean }) {
   const { student, setStudent } = useStudent();
+  const pathname = usePathname();
+
+  const handleTitleClick = () => {
+    if (pathname === "/") {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  };
 
   return (
     <nav className="w-full sticky top-0 z-50 backdrop-blur-[24px]"
       style={{ background: "rgba(253, 251, 249, 0.8)" }}
     >
       <div className="max-w-6xl mx-auto grid grid-cols-3 items-center px-8 py-4">
-        <span className="font-[family-name:var(--font-display)] text-xl font-extrabold tracking-tight text-on-surface">
+        <Link
+          href="/"
+          onClick={handleTitleClick}
+          className="font-[family-name:var(--font-display)] text-xl font-extrabold tracking-tight text-on-surface"
+        >
           Charlies
-        </span>
+        </Link>
 
         {/* Student toggle or name */}
         {showStudentToggle ? (
@@ -49,7 +62,7 @@ export default function Navbar({ showStudentToggle = true }: { showStudentToggle
         )}
 
         <span className="text-sm text-on-surface-variant font-[family-name:var(--font-body)] justify-self-end">
-          Language Progress Tracker
+          Preply Language Progress Tracker
         </span>
       </div>
     </nav>
